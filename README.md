@@ -1,6 +1,6 @@
 # EM-DINOv3-Research
 
-跨来源电子显微镜 2D 线粒体分割研究的事实仓库。主模型为 DINOv3 ViT-L/16，当前冻结评测使用原版 MedDINOv3 Primus_Multiscale。仓库按 private 远程设计；截至初始化快照，GitHub 远程与 PR 尚未建立。
+跨来源电子显微镜 2D 线粒体分割研究的事实仓库。主模型为 DINOv3 ViT-L/16，当前冻结评测使用原版 MedDINOv3 Primus_Multiscale。GitHub 远程为 [Polaris1010/EM-DINOv3-Research](https://github.com/Polaris1010/EM-DINOv3-Research)，已核验 private；首个 PR 与最新交付状态见 [GITHUB](docs/GITHUB.md)。
 
 新窗口从 [AGENTS.md](AGENTS.md)、[PROJECT_STATE](docs/PROJECT_STATE.md)、[实验注册表](experiments/registry.yaml)、[NEXT_ACTION](docs/NEXT_ACTION.md) 开始。以实际执行记录为准。
 

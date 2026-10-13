@@ -15,7 +15,7 @@
 
 ## 阻塞分类
 
-BLOCKING：GitHub认证无效，阻塞remote/PR；当前样本图像与GT不能对应时仅阻塞该样本；九个既有head缺失或身份不符时阻塞对应推理。
+BLOCKING：当前样本图像与GT不能对应时仅阻塞该样本；九个既有head缺失或身份不符时阻塞对应推理。本轮先前GitHub认证问题已通过用户确认的浏览器授权解决，private remote已建立。
 
 NON_BLOCKING：full optimizer安全读取限制（当前仅评测teacher/head）；额外dinov2环境盘点超时（本任务使用已核验meddinov3）；尚未证实独立acquisition（当前transductive开发声明）。
 

@@ -14,4 +14,4 @@
 4. 报告B100k−P0的逐volume和来源差异，B150k仅作已有参考。列出缺少官方native mapping或不可用区域，不把锁定test加入。结论限定transductive development。
 5. 第二PR只做上述结果收取、覆盖核对和科学解释。通过已有CPU registry checks，不改模型。随后给出继续/转向的单项科学决策。
 
-当前GitHub授权问题只阻塞首PR的远程交付，不需要重训或重新盘点已核验资产。未来严格B_clean与acquisition审计不阻塞这项开发问题。
+GitHub授权已通过用户确认的浏览器流程恢复，private remote已建立，首PR状态见 `docs/GITHUB.md`。未来严格B_clean与acquisition审计不阻塞这项开发问题。

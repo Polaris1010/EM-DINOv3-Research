@@ -74,4 +74,4 @@ B150k目录保留的 `REPORT_100k_150k_zh.md` 是历史modified/gated Primus下�
 
 本地独立仓库：`E:\mira_website_demo\EM-DINOv3-Research`。主分支main仅为初始scaffold；首PR分支为用户指定的 `chore/bootstrap-research-registry`。网站工作区既有修改未改动。
 
-GitHub远程和PR：UNVERIFIED / 尚未创建。本轮连接器只列出一个归档课程仓库；Git已保存认证返回401，不能据此断言账号下不存在同目标研究仓库。需恢复账户授权并确认private创建方式，然后重新查重、推送和建PR。具体材料见 `docs/BOOTSTRAP_PR.md`。
+GitHub远程：[Polaris1010/EM-DINOv3-Research](https://github.com/Polaris1010/EM-DINOv3-Research)，已核验private。用户确认账户与浏览器授权后，本轮恢复GitHub认证并对owner repositories完整分页查重，未发现同名或相关研究仓库，随后创建独立private远程。首PR的实际链接与交付状态见 `docs/GITHUB.md`，科学快照时间不因远程交付而改变。

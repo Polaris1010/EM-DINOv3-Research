@@ -4,7 +4,7 @@
 
 | 项目 | Windows资产/快照 | Linux实际路径 | Python | Git/状态 |
 | --- | --- | --- | --- | --- |
-| 独立研究仓库 | `E:\mira_website_demo\EM-DINOv3-Research` | 尚未新建服务器镜像 | 本地CPU工具 `C:\Python314\python.exe` | 本地main + chore/bootstrap-research-registry；remote未建立 |
+| 独立研究仓库 | `E:\mira_website_demo\EM-DINOv3-Research` | 尚未新建服务器镜像 | 本地CPU工具 `C:\Python314\python.exe` | 本地main + chore/bootstrap-research-registry；private remote `Polaris1010/EM-DINOv3-Research` |
 | 历史SSH/SFTP工具 | `E:\mira_website_demo\scripts\ssh_exec.py`、`sftp_upload_many.py`、`sftp_download_many.py`；依赖 `.deploy-tools` | 不适用 | 本地Python3.14 + `.deploy-tools` | 本轮复用既有SSH工具，未改工具 |
 | DINOv3源码 | `artifacts/representation_diagnosis_live_20261013/sources/`等历史快照 | `/opt/data/3_117/tanghr/DINOv3/dinov3` | `/opt/data/3_117/tanghr/dinov3_shared/bin/python` | HEAD 91ffb6803c74aeb6927209b82560142743763dd7；有未跟踪历史文件 |
 | MedDINOv3共享框架 | 本地实验源码快照；未复制整个框架 | `/opt/data/3_117/tanghr/Med_DINOv3/MedDINOv3` | `/opt/data/3_117/tanghr/envs/meddinov3/bin/python` | HEAD bd6a650dda4e32d22e913cfc28458df24bb39b83；历史modified文件保留 |

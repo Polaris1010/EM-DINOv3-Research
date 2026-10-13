@@ -1,6 +1,6 @@
 # Initialize research state and experiment registry
 
-Base: `main`（初始scaffold）；head: `chore/bootstrap-research-registry`。此文件为准备好的首PR正文，尚无GitHub PR链接，未宣称合并。
+Base: `main`（初始scaffold）；head: `chore/bootstrap-research-registry`。此文件为首PR正文；实际PR链接与CI状态见 `docs/GITHUB.md`。不自动合并。
 
 研究状态此前分散在混合网站工作区和服务器timestamp目录，历史计划与已完成记录容易混淆。该PR建立独立研究仓库，用带来源/SHA的精选实际配置、checkpoint metadata、源码和结果表，固定P0、B100k、B150k、原版CMCC/CMCT、MV-1九个head及已有MV-2运行状态。
 
@@ -33,6 +33,6 @@ git diff --check
 
 初始化PR完成并确认后，收取现有MV-2无TTA扩展的最终结果，比较B100k与P0在更多来源上的开发表现，分开官方validation与自定义dev。保持九个head与原推理协议，禁止重复训练或重新启动。
 
-## 远程交付状态
+## 远程仓库
 
-尚未创建remote/PR。已连接GitHub显示账户Polaris1010，但只列出归档课程仓库；本机Git credential返回401。不能确认其他研究仓库不存在。恢复认证并确认账户/创建方式后，先查重并优先复用现有同目标private仓库，再推送main和本分支、创建本标题PR；不自动合并，不发布为public。
+[Polaris1010/EM-DINOv3-Research](https://github.com/Polaris1010/EM-DINOv3-Research)，private已通过GitHub API核验。账户与创建方式经用户明确确认；owner repositories完整分页查重后创建。不自动合并此PR。

@@ -1,0 +1,77 @@
+# 当前研究状态
+
+本轮事实快照：2026-10-13 19:33–19:36（Asia/Hong_Kong；精确 UTC 见 `evidence/collection_receipt.json`）。SSH 对服务器进行只读盘点，CPU 读取 checkpoint 元数据，无新训练/推理、环境安装、网站变更或进程停止。运行中的任务状态会变化，此文件不是实时监控。
+
+## 状态定义
+
+| 状态 | 含义 |
+| --- | --- |
+| VERIFIED_COMPLETED | 已找到实际完成记录，且关联配置/指标/资产支持完成结论 |
+| VERIFIED_FAILED | 有实际失败诊断或协议废弃记录；不等于训练崩溃 |
+| PAUSED | 用户暂停，有历史状态记录 |
+| PLANNED | 未来行动，未执行且不自动授权启动 |
+| UNVERIFIED | 缺少当前任务所需的核验，不能填猜测值 |
+| VERIFIED_RUNNING | 本轮已找到活动服务、进程和部分输出；完成状态仍未核验 |
+
+## 模型与实验
+
+| 资产/实验 | 状态 | 本轮证据与含义 |
+| --- | --- | --- |
+| P0 官方自然图像 ViT-L/16 | VERIFIED_COMPLETED | 文件存在，CPU 安全读取 state dict；SHA 使用服务器既有登记 |
+| B_full 100k | VERIFIED_COMPLETED | `result.json`=complete/100000，checkpoint sidecar、teacher/student metadata 对应；旧 rank-log 审计为本地历史快照 |
+| B_full 150k | VERIFIED_COMPLETED | 从100k完整状态额外续训50k，固定1e-6；不是从零的150k调度；完整状态和teacher/student均存在 |
+| CMCC/CMCT 原版 Primus 六组 | VERIFIED_COMPLETED | `results.json`、逐volume表与原版源码校验记录；四翻转TTA，GT==1；不是MitoVerse推理协议 |
+| MV-1 九个原版 Primus head | VERIFIED_COMPLETED | 3 encoders × 3 seeds，4 train/4 dev，20000 steps；九个head安全读取且元数据身份一致，均44576514参数；TTA=OFF |
+| MV-2 无TTA扩展 | VERIFIED_RUNNING | 活动service与三组inference进程、scoring进程及部分输出；188个volume/ROI，12来源，尚无完整结果声明 |
+| MV-2旧四翻转版本 | VERIFIED_FAILED（协议废弃） | `superseded_tta_status.json`明确因用户纠正而废弃；旧结果保留，排除出正式MV-2 |
+| Stage2A topology calibration | VERIFIED_FAILED | gate=FAIL，AUTO_LAUNCH_T1=false，T1=NOT_STARTED；424张label-free切片的诊断失败不能写成成功 |
+| Stage2A2-P | PAUSED | 本轮读取服务器历史STATUS中的用户暂停状态 |
+| Stage2A2-E | VERIFIED_COMPLETED | 旧冻结probe基础设施完成记录；与后来原版Primus/MV-1 head分别登记 |
+| Stage2A2-S | VERIFIED_COMPLETED（负面pilot） | 量化pilot及424×4真实标签诊断完成；不授权长训，最终human gate尚未核验 |
+| 旧31-volume B/L/T/LT | UNVERIFIED（完成细节） | 历史根目录在已发现目录列表中；保留本地控制代码与服务器历史，不恢复watcher，不算全量正式结果 |
+| Gram/HRA/LAST/Topology在新B_full中 | OFF / NOT_RUN | B_full配置和实际trainer/result不包含这些正式阶段；旧P1不得混入 |
+| B_clean | PLANNED | 图像隔离的未来方案，不阻塞当前开发评测 |
+
+全部26条具体记录（含每seed和六个CMCC/CMCT结果）见 `experiments/registry.yaml`。九个MV-1 head与CMCC/CMCT head不能混用。
+
+## 当前科学证据
+
+原版Primus历史Dice：
+
+| Dataset | P0 | B100k | B150k |
+| --- | ---: | ---: | ---: |
+| CMCC | 0.784606 | 0.889716 | 0.878806 |
+| CMCT | 0.954885 | 0.960962 | 0.960518 |
+
+MV-1三个decoder seeds的来源均值（本轮复制真实结果表）：
+
+| 来源 | dev volumes | P0 Dice | B100k Dice | B150k Dice |
+| --- | ---: | ---: | ---: | ---: |
+| guay21 | 1 | 0.756738 | 0.745874 | 0.746829 |
+| jiang25 | 1 | 0.867301 | 0.883872 | 0.882137 |
+| muller21 | 2 | 0.893847 | 0.883981 | 0.884007 |
+
+B100k并非在首批所有来源都改善；目前只说明小规模开发表现，不能外推全MitoVerse。标准差与每volume指标保存在CSV，seeds数量与生物采集体数量分别理解。
+
+B100k/B150k暴露了完整MitoVerse无标签池，是transductive SSL development assets；不能宣称已暴露图像是完全未见图像泛化。MitoVerse发布者proofreading声明和既有数值QC，不是独立人工重标注完整性认证。
+
+## 本轮发现的记录冲突
+
+1. DINOv3 Git根目录为 `/opt/data/3_117/tanghr/DINOv3/dinov3`；父目录不是Git仓库。HEAD确为91ffb680…，另有未跟踪文件。
+2. MedDINOv3共享仓库HEAD是bd6a650…，存在历史修改；不等于本项目原版decoder的锁定上游a2460c2…。实验实际独立使用 `mv_generalist_stage1_20261013/src/official_primus.py`，SHA b5398dc…，与上游源码AST相同，仅末尾LF差异。
+3. 原版CMCC/CMCT目录的 `model_registry.json` 仍描述历史频域门控factory；已完成 `results.json`、独立源码和审计优先，不把旧factory字段套到新结果。原件保留。
+4. Stage2A2 STATUS仍写B150k ready_after_resume_smoke；后续实际B150k result/checkpoint证实完成。该旧STATUS不是新的训练状态。
+5. 用户交接说明把MV-2执行状态留待查询；本轮已证实它在运行。下一项行动是收取它的结果，不重复启动。
+6. 废弃四翻转目录的旧STATUS仍显示running；本轮service已inactive/MainPID=0，superseded标记优先。这是未更新的旧文件，不是第二个正在运行的MV-2。
+
+最后一次只读查询：2026-10-13 19:55:21（香港时间），正式无TTA service仍active，inferred=507、scored=251（部分结果计数，不是完成体积数），网站HTTP200。精确快照见 `evidence/server_status_20261013T115521.json`。
+
+B150k目录保留的 `REPORT_100k_150k_zh.md` 是历史modified/gated Primus下游比较，其数值与后来的原版Primus表不同，不能作为原版结果引用。原版六组以 `experiments/CMCC_CMCT/results.json` 为准。
+
+大checkpoint没有重新计算完整SHA；使用既有metadata/latest_checkpoint/input_hashes记录，并另行读取CPU安全metadata。两份full optimizer checkpoint在weights_only=True下不接受其中numpy状态，本轮没有切换到不受限反序列化；teacher/student和九个head安全读取通过，当前评测不依赖full optimizer加载。
+
+## 仓库与未完成事项
+
+本地独立仓库：`E:\mira_website_demo\EM-DINOv3-Research`。主分支main仅为初始scaffold；首PR分支为用户指定的 `chore/bootstrap-research-registry`。网站工作区既有修改未改动。
+
+GitHub远程和PR：UNVERIFIED / 尚未创建。本轮连接器只列出一个归档课程仓库；Git已保存认证返回401，不能据此断言账号下不存在同目标研究仓库。需恢复账户授权并确认private创建方式，然后重新查重、推送和建PR。具体材料见 `docs/BOOTSTRAP_PR.md`。

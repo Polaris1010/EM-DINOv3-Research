@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "csv_sha256": "9190f56a7d8514c28099b9bb9ff5e4437c26f0178d753750a7a1bb2cde814048",
+  "run_metrics_sha256": "460fea0a43ee5c3d45de88544e01db8e7fcac54d9fcc365b7baf03a9406a00b2",
+  "manifest_sha256": "9346286eac4cc1c57d24c1f1b296ed5eaaac6c0df061a8684cf4604af76f0df8",
+  "protocol_sha256": "b788831a0a860f9acb996e5d830cdc56265977fe909eb9cfffb86a20114220d0",
+  "score_logic_sha256": "74511dbb2965f102d2eaaad36697dba42d801a21002b7641c10517df334035e5",
+  "prediction_sha256": {
+    "guay21_vol1": "96566092c71f1678bde591a8e25c56d94810301f112af049f99fb2180825fb98",
+    "jiang25_vol2": "5c05f8cd3088115a6a2931217eceaddfebcb1c854c9ae9e937b384d15be2dc89",
+    "muller21_high_c3": "b692e10d5d7562ce154089ecad683fdec4788740af247951cb93dca2ecd4ef59",
+    "muller21_low_c2": "66b62295cecf85e45ce6576b5ab0a1021a51e3f992663ccd5fc1b4b85bb4e58d"
+  }
+}

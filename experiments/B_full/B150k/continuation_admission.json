@@ -1,0 +1,17 @@
+{
+  "status": "admitted",
+  "parent_step": 100000,
+  "smoke_completed_step": 100010,
+  "smoke_world_size": 3,
+  "sampler_continuation_indices": "pass",
+  "restored_full_state": "pass",
+  "finite_loss_and_gradient": "pass",
+  "inter_rank_difference": 0,
+  "trainer_sha256": "077e903bba5c22d88a1b210037dda861552a5920fe8a0c9207b58ef7bf5efd32",
+  "sampler_sha256": "7c347451788969f5b49acc58d53f103cef0d771deb27b4a012443e9f6613b560",
+  "config_sha256": "159f45566320f9b583968aa8e9ffb07392d521bfa227b1ca0b4a4bde11f152d7",
+  "manifest_sha256": "3fd614082bf584c21e212884856875e328104ea09a293a95510c0f5f3117edb9",
+  "resume_sha256": "12bbf09ffcd7f93cbad88c4e55df55d36b3a299990ad976bf29af51a118a265b",
+  "lr_policy": "constant min LR 1e-6 tail",
+  "website_http_200": true
+}

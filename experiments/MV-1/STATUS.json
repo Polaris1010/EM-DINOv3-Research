@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "groups": 9,
+  "metric_computation_complete": true,
+  "physical_gpus": [
+    1,
+    2,
+    3
+  ],
+  "website_http_after": 200
+}

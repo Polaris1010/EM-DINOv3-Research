@@ -1,0 +1,29 @@
+{
+  "rank0": {
+    "lines": 100000,
+    "last_step": 100000,
+    "step_gaps": 0,
+    "nonfinite_scalars": 0,
+    "first_sample_unique_volumes": 212,
+    "loss_first": 16.625,
+    "loss_last": 12.5625
+  },
+  "rank1": {
+    "lines": 100000,
+    "last_step": 100000,
+    "step_gaps": 0,
+    "nonfinite_scalars": 0,
+    "first_sample_unique_volumes": 212,
+    "loss_first": 16.625,
+    "loss_last": 12.6875
+  },
+  "rank2": {
+    "lines": 100000,
+    "last_step": 100000,
+    "step_gaps": 0,
+    "nonfinite_scalars": 0,
+    "first_sample_unique_volumes": 212,
+    "loss_first": 16.625,
+    "loss_last": 12.4375
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "path": "E:\\mira_website_demo\\artifacts\\data_governance_stage0_20261013\\master_acquisition_registry.csv",
+    "bytes": 27023431,
+    "sha256": "9706bed658b4eccaed2a3bba742d3ad0ef02df7bf2c9701f3be860cc5b090bf0",
+    "provenance": "LOCAL_HISTORICAL_ARTIFACT",
+    "server_path": "UNVERIFIED"
+  },
+  {
+    "path": "E:\\mira_website_demo\\artifacts\\data_governance_stage0_20261013\\cross_dataset_overlap.csv",
+    "bytes": 14148,
+    "sha256": "7249df76c41e3e141d3c2b627eea30b423a64fcf331fe9dacac845eef3cad03b",
+    "provenance": "LOCAL_HISTORICAL_ARTIFACT",
+    "server_path": "UNVERIFIED"
+  },
+  {
+    "path": "E:\\mira_website_demo\\artifacts\\data_governance_stage0_20261013\\manifest_version_reconciliation.json",
+    "bytes": 598,
+    "sha256": "57431dd32dd71cf0b492b1529a988c1c5243615fb33b02d2886dba8f73f3a596",
+    "provenance": "LOCAL_HISTORICAL_ARTIFACT",
+    "server_path": "UNVERIFIED"
+  },
+  {
+    "path": "E:\\mira_website_demo\\artifacts\\data_governance_stage0_20261013\\model_report_aliases.json",
+    "bytes": 774,
+    "sha256": "e69e78a4d29f91af81180631ef8f6e94f2f8068f6398090c847a9746989f0770",
+    "provenance": "LOCAL_HISTORICAL_ARTIFACT",
+    "server_path": "UNVERIFIED"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "name": "guay21",
+  "description": "Guay'21 dense-cell platelet (SBF-SEM). Runnable example: 3 original-chunk volumes, one per split.",
+  "arrays": {"image": "img", "label": "mito"},
+  "volumes": [
+    {"id": "guay21_vol0", "zarr": "data/guay21/vol0.zarr", "split": "train"},
+    {"id": "guay21_vol1", "zarr": "data/guay21/vol1.zarr", "split": "val"},
+    {"id": "guay21_vol2", "zarr": "data/guay21/vol2.zarr", "split": "test"}
+  ]
+}

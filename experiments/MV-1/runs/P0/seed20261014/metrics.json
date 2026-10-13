@@ -1,0 +1,112 @@
+{
+  "status": "complete",
+  "model": "P0",
+  "seed": 20261014,
+  "steps": 20000,
+  "pilot": false,
+  "decoder_initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec",
+  "manifest_sha256": "9346286eac4cc1c57d24c1f1b296ed5eaaac6c0df061a8684cf4604af76f0df8",
+  "protocol_sha256": "b788831a0a860f9acb996e5d830cdc56265977fe909eb9cfffb86a20114220d0",
+  "encoder_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+  "encoder_frozen": true,
+  "gates": false,
+  "test_labels_accessed": false,
+  "probe_source_sha256": "4071da2213b8f55f28ce13522d74e716c61be7900a37c96318942983be3546ec",
+  "validation_tile_batch_size": 16,
+  "training_batch_size": 1,
+  "completed_steps": 20000,
+  "samples_sequence_sha256": "73ae3d19125807f1628fd3de125407d8ca7ad52e3cb9800e5f8fb1355418d509",
+  "source_draws": {
+    "muller21": 6719,
+    "jiang25": 6612,
+    "guay21": 6669
+  },
+  "seconds": 993.4492356777191,
+  "validation": {
+    "rows": [
+      {
+        "volume_id": "guay21_vol1",
+        "source_id": "guay21",
+        "slice_count": 24,
+        "spacing_zyx_nm": [
+          50.0,
+          10.0,
+          10.0
+        ],
+        "dice": 0.7528328274332322,
+        "precision": 0.8110165415944454,
+        "recall": 0.7024386751622204,
+        "tp": 323787,
+        "fp": 75449,
+        "fn": 137160,
+        "tn": 14823604,
+        "foreground_empty_prediction": false
+      },
+      {
+        "volume_id": "jiang25_vol2",
+        "source_id": "jiang25",
+        "slice_count": 100,
+        "spacing_zyx_nm": [
+          40.0,
+          15.0,
+          15.0
+        ],
+        "dice": 0.866616128252931,
+        "precision": 0.8606835771223476,
+        "recall": 0.8726310312306531,
+        "tp": 10018813,
+        "fp": 1621717,
+        "fn": 1462343,
+        "tn": 86897127,
+        "foreground_empty_prediction": false
+      },
+      {
+        "volume_id": "muller21_high_c3",
+        "source_id": "muller21",
+        "slice_count": 1023,
+        "spacing_zyx_nm": [
+          16.0,
+          16.0,
+          16.0
+        ],
+        "dice": 0.8785920567779187,
+        "precision": 0.9234106848699011,
+        "recall": 0.837922671839715,
+        "tp": 9075548,
+        "fp": 752742,
+        "fn": 1755461,
+        "tn": 572774309,
+        "foreground_empty_prediction": false
+      },
+      {
+        "volume_id": "muller21_low_c2",
+        "source_id": "muller21",
+        "slice_count": 853,
+        "spacing_zyx_nm": [
+          16.0,
+          16.0,
+          16.0
+        ],
+        "dice": 0.9122988987445496,
+        "precision": 0.9352582876027854,
+        "recall": 0.8904397474412931,
+        "tp": 9981184,
+        "fp": 690931,
+        "fn": 1228091,
+        "tn": 607517686,
+        "foreground_empty_prediction": false
+      }
+    ],
+    "descriptive_all_source_macro_dice": 0.8382981444824659,
+    "source_means": {
+      "guay21": 0.7528328274332322,
+      "jiang25": 0.866616128252931,
+      "muller21": 0.8954454777612342
+    },
+    "primary_eligible_sources": [
+      "muller21"
+    ],
+    "full_volume": true,
+    "test_labels_accessed": false
+  }
+}

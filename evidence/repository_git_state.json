@@ -1,0 +1,17 @@
+{
+  "observed_at": "2026-10-13T11:29:51Z",
+  "records": [
+    "GIT /opt/data/3_117/tanghr/DINOv3 ['rev-parse', '--show-toplevel'] \"\" 128",
+    "GIT /opt/data/3_117/tanghr/DINOv3 ['rev-parse', 'HEAD'] \"\" 128",
+    "GIT /opt/data/3_117/tanghr/DINOv3 ['status', '--short'] \"\" 128",
+    "GIT /opt/data/3_117/tanghr/DINOv3/dinov3 ['rev-parse', '--show-toplevel'] \"/opt/data/3_117/tanghr/DINOv3/dinov3\" 0",
+    "GIT /opt/data/3_117/tanghr/DINOv3/dinov3 ['rev-parse', 'HEAD'] \"91ffb6803c74aeb6927209b82560142743763dd7\" 0",
+    "GIT /opt/data/3_117/tanghr/DINOv3/dinov3 ['status', '--short'] \"?? 11_patch_loader.py\\n?? 22_visualize.py\\n?? 333_visual_offical.py\\n?? 444_visual_unpretrain.py\\n?? 555_visual_4regiter.py\\n?? dense_feature_heatmap.png\\n?? dense_feature_heatmap_HD.png\\n?? dense_feature_heatmap_official.png\\n?? local_dino/\\n?? run_med.py\\n?? similarity_official_compare.png\\n?? similarity_v2.png\\n?? similarity_v3_reg4.png\" 0",
+    "GIT /opt/data/3_117/tanghr/Med_DINOv3/MedDINOv3 ['rev-parse', '--show-toplevel'] \"/opt/data/3_117/tanghr/Med_DINOv3/MedDINOv3\" 0",
+    "GIT /opt/data/3_117/tanghr/Med_DINOv3/MedDINOv3 ['rev-parse', 'HEAD'] \"bd6a650dda4e32d22e913cfc28458df24bb39b83\" 0",
+    "GIT /opt/data/3_117/tanghr/Med_DINOv3/MedDINOv3 ['status', '--short'] \"M nnUNet/environment.yml\\n M nnUNet/nnunetv2/compute_metrics.py\\n M nnUNet/nnunetv2/preprocessing/normalization/default_normalization_schemes.py\\n M nnUNet/nnunetv2/preprocessing/normalization/map_channel_name_to_normalization.py\\n M nnUNet/nnunetv2/training/dataloading/nnunet_dataset.py\\n M nnUNet/nnunetv2/training/nnUNetTrainer/dinoUNetTrainer.py\\n M nnUNet/nnunetv2/training/nnUNetTrainer/dinov3/dinov3/eval/segmentation/models/utils/ms_deform_attn.py\\n M nnUNet/nnunetv2/training/nnUNetTrainer/dinov3/dinov3/models/primus.py\\n M nnUNet/nnunetv2/training/nnUNetTrainer/dinov3Trainer.py\\n M nnUNet/requirements.txt\\n?? CMCC.rar\\n?? CMCC_data/\\n?? CMCT.rar\\n?? CMCT_data/\\n?? all_labels_overlay_layer_0.png\\n?? all_labels_overlay_layer_50.png\\n?? all_labels_overlay_layer_99.png\\n?? check.py\\n?? check_tif.py\\n?? convert_8nm.py\\n?? convert_cmcc.py\\n?? convert_cmct.py\\n?? convert_s0.py\\n?? jrc_mus-kidney_labels_vis.png\\n?? mito_overlay_layer_0.png\\n?? mito_overlay_layer_50.png\\n?? mito_overlay_layer_99.png\\n?? mito_overlay_result.png\\n?? mito_overlay_result_v2.png\\n?? nnUNet/src/\\n?? nnUNet/tmp4m4pjvc4/\\n?? nnUNet/tmpazszdjv8/\\n?? nnUNet/tmpkhxia_xu/\\n?? nnUNet/tmpojl8u5ec/\\n?? nnUNet/tmpvv07q50g/\\n?? nnUNet/torchinductor_tanghaoran2026/\\n?? nnUNet_locked/\\n?? show_essay.py\\n?? split.py\\n?? traditional_methods_comparison.png\" 0",
+    "GIT /opt/data/3_117/tanghr/MitoVerse_data ['rev-parse', '--show-toplevel'] \"\" 128",
+    "GIT /opt/data/3_117/tanghr/MitoVerse_data ['rev-parse', 'HEAD'] \"\" 128",
+    "GIT /opt/data/3_117/tanghr/MitoVerse_data ['status', '--short'] \"\" 128"
+  ]
+}

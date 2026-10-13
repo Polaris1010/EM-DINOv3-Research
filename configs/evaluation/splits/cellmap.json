@@ -1,0 +1,765 @@
+{
+  "name": "cellmap",
+  "description": "CellMap segmentation-challenge benchmark over the OpenOrganelle volumes (CellMap-annotated _crop volumes). The _test0/_test1 volumes are lab self-annotated and belong to mitoem2.0, so they are excluded here. Official challenge train/val/test to be applied; all listed as train for now.",
+  "arrays": {
+    "image": "img",
+    "label": "mito"
+  },
+  "samples": {
+    "jrc_cos7-1a": 9,
+    "jrc_cos7-1b": 6,
+    "jrc_ctl-id8-1": 3,
+    "jrc_fly-mb-1a": 3,
+    "jrc_fly-vnc-1": 6,
+    "jrc_hela-2": 7,
+    "jrc_hela-3": 5,
+    "jrc_jurkat-1": 7,
+    "jrc_macrophage-2": 5,
+    "jrc_mus-kidney": 19,
+    "jrc_mus-liver": 16,
+    "jrc_mus-liver-zon-1": 24,
+    "jrc_mus-liver-zon-2": 8,
+    "jrc_mus-nacc-1": 1,
+    "jrc_sum159-1": 2,
+    "jrc_sum159-4": 10,
+    "jrc_ut21-1413-003": 14,
+    "jrc_zf-cardiac-1": 2
+  },
+  "volumes": [
+    {
+      "id": "openorganelle_jrc_cos7-1a_recon-1_crop234",
+      "zarr": "data/openorganelle/jrc_cos7-1a_recon-1_crop234.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_cos7-1a_recon-1_crop236",
+      "zarr": "data/openorganelle/jrc_cos7-1a_recon-1_crop236.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_cos7-1a_recon-1_crop237",
+      "zarr": "data/openorganelle/jrc_cos7-1a_recon-1_crop237.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_cos7-1a_recon-1_crop239",
+      "zarr": "data/openorganelle/jrc_cos7-1a_recon-1_crop239.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_cos7-1a_recon-1_crop248",
+      "zarr": "data/openorganelle/jrc_cos7-1a_recon-1_crop248.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_cos7-1a_recon-1_crop252",
+      "zarr": "data/openorganelle/jrc_cos7-1a_recon-1_crop252.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_cos7-1a_recon-1_crop254",
+      "zarr": "data/openorganelle/jrc_cos7-1a_recon-1_crop254.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_cos7-1a_recon-1_crop256",
+      "zarr": "data/openorganelle/jrc_cos7-1a_recon-1_crop256.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_cos7-1a_recon-1_crop292",
+      "zarr": "data/openorganelle/jrc_cos7-1a_recon-1_crop292.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_cos7-1b_recon-1_crop238",
+      "zarr": "data/openorganelle/jrc_cos7-1b_recon-1_crop238.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_cos7-1b_recon-1_crop240",
+      "zarr": "data/openorganelle/jrc_cos7-1b_recon-1_crop240.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_cos7-1b_recon-1_crop245",
+      "zarr": "data/openorganelle/jrc_cos7-1b_recon-1_crop245.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_cos7-1b_recon-1_crop255",
+      "zarr": "data/openorganelle/jrc_cos7-1b_recon-1_crop255.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_cos7-1b_recon-1_crop258",
+      "zarr": "data/openorganelle/jrc_cos7-1b_recon-1_crop258.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_cos7-1b_recon-1_crop291",
+      "zarr": "data/openorganelle/jrc_cos7-1b_recon-1_crop291.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_ctl-id8-1_recon-1_crop116",
+      "zarr": "data/openorganelle/jrc_ctl-id8-1_recon-1_crop116.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_ctl-id8-1_recon-1_crop118",
+      "zarr": "data/openorganelle/jrc_ctl-id8-1_recon-1_crop118.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_ctl-id8-1_recon-1_crop130",
+      "zarr": "data/openorganelle/jrc_ctl-id8-1_recon-1_crop130.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_fly-mb-1a_recon-1_crop120",
+      "zarr": "data/openorganelle/jrc_fly-mb-1a_recon-1_crop120.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_fly-mb-1a_recon-1_crop121",
+      "zarr": "data/openorganelle/jrc_fly-mb-1a_recon-1_crop121.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_fly-mb-1a_recon-1_crop178",
+      "zarr": "data/openorganelle/jrc_fly-mb-1a_recon-1_crop178.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_fly-vnc-1_recon-1_crop173",
+      "zarr": "data/openorganelle/jrc_fly-vnc-1_recon-1_crop173.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_fly-vnc-1_recon-1_crop174",
+      "zarr": "data/openorganelle/jrc_fly-vnc-1_recon-1_crop174.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_fly-vnc-1_recon-1_crop176",
+      "zarr": "data/openorganelle/jrc_fly-vnc-1_recon-1_crop176.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_fly-vnc-1_recon-1_crop185",
+      "zarr": "data/openorganelle/jrc_fly-vnc-1_recon-1_crop185.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_fly-vnc-1_recon-1_crop78",
+      "zarr": "data/openorganelle/jrc_fly-vnc-1_recon-1_crop78.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_fly-vnc-1_recon-1_crop79",
+      "zarr": "data/openorganelle/jrc_fly-vnc-1_recon-1_crop79.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_hela-2_recon-1_crop1",
+      "zarr": "data/openorganelle/jrc_hela-2_recon-1_crop1.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_hela-2_recon-1_crop113",
+      "zarr": "data/openorganelle/jrc_hela-2_recon-1_crop113.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_hela-2_recon-1_crop155",
+      "zarr": "data/openorganelle/jrc_hela-2_recon-1_crop155.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_hela-2_recon-1_crop23",
+      "zarr": "data/openorganelle/jrc_hela-2_recon-1_crop23.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_hela-2_recon-1_crop3",
+      "zarr": "data/openorganelle/jrc_hela-2_recon-1_crop3.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_hela-2_recon-1_crop6",
+      "zarr": "data/openorganelle/jrc_hela-2_recon-1_crop6.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_hela-2_recon-1_crop9",
+      "zarr": "data/openorganelle/jrc_hela-2_recon-1_crop9.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_hela-3_recon-1_crop101",
+      "zarr": "data/openorganelle/jrc_hela-3_recon-1_crop101.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_hela-3_recon-1_crop111",
+      "zarr": "data/openorganelle/jrc_hela-3_recon-1_crop111.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_hela-3_recon-1_crop181",
+      "zarr": "data/openorganelle/jrc_hela-3_recon-1_crop181.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_hela-3_recon-1_crop33",
+      "zarr": "data/openorganelle/jrc_hela-3_recon-1_crop33.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_hela-3_recon-1_crop34",
+      "zarr": "data/openorganelle/jrc_hela-3_recon-1_crop34.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_jurkat-1_recon-1_crop112",
+      "zarr": "data/openorganelle/jrc_jurkat-1_recon-1_crop112.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_jurkat-1_recon-1_crop126",
+      "zarr": "data/openorganelle/jrc_jurkat-1_recon-1_crop126.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_jurkat-1_recon-1_crop180",
+      "zarr": "data/openorganelle/jrc_jurkat-1_recon-1_crop180.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_jurkat-1_recon-1_crop182",
+      "zarr": "data/openorganelle/jrc_jurkat-1_recon-1_crop182.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_jurkat-1_recon-1_crop37",
+      "zarr": "data/openorganelle/jrc_jurkat-1_recon-1_crop37.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_jurkat-1_recon-1_crop38",
+      "zarr": "data/openorganelle/jrc_jurkat-1_recon-1_crop38.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_jurkat-1_recon-1_crop43",
+      "zarr": "data/openorganelle/jrc_jurkat-1_recon-1_crop43.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_macrophage-2_recon-1_crop110",
+      "zarr": "data/openorganelle/jrc_macrophage-2_recon-1_crop110.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_macrophage-2_recon-1_crop31",
+      "zarr": "data/openorganelle/jrc_macrophage-2_recon-1_crop31.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_macrophage-2_recon-1_crop32",
+      "zarr": "data/openorganelle/jrc_macrophage-2_recon-1_crop32.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_macrophage-2_recon-1_crop39",
+      "zarr": "data/openorganelle/jrc_macrophage-2_recon-1_crop39.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_macrophage-2_recon-1_crop48",
+      "zarr": "data/openorganelle/jrc_macrophage-2_recon-1_crop48.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-kidney_recon-1_crop129",
+      "zarr": "data/openorganelle/jrc_mus-kidney_recon-1_crop129.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-kidney_recon-1_crop140",
+      "zarr": "data/openorganelle/jrc_mus-kidney_recon-1_crop140.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-kidney_recon-1_crop141",
+      "zarr": "data/openorganelle/jrc_mus-kidney_recon-1_crop141.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-kidney_recon-1_crop147",
+      "zarr": "data/openorganelle/jrc_mus-kidney_recon-1_crop147.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-kidney_recon-1_crop148",
+      "zarr": "data/openorganelle/jrc_mus-kidney_recon-1_crop148.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-kidney_recon-1_crop156",
+      "zarr": "data/openorganelle/jrc_mus-kidney_recon-1_crop156.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-kidney_recon-1_crop158",
+      "zarr": "data/openorganelle/jrc_mus-kidney_recon-1_crop158.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-kidney_recon-1_crop160",
+      "zarr": "data/openorganelle/jrc_mus-kidney_recon-1_crop160.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-kidney_recon-1_crop161",
+      "zarr": "data/openorganelle/jrc_mus-kidney_recon-1_crop161.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-kidney_recon-1_crop162",
+      "zarr": "data/openorganelle/jrc_mus-kidney_recon-1_crop162.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-kidney_recon-1_crop163",
+      "zarr": "data/openorganelle/jrc_mus-kidney_recon-1_crop163.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-kidney_recon-1_crop164",
+      "zarr": "data/openorganelle/jrc_mus-kidney_recon-1_crop164.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-kidney_recon-1_crop165",
+      "zarr": "data/openorganelle/jrc_mus-kidney_recon-1_crop165.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-kidney_recon-1_crop166",
+      "zarr": "data/openorganelle/jrc_mus-kidney_recon-1_crop166.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-kidney_recon-1_crop184",
+      "zarr": "data/openorganelle/jrc_mus-kidney_recon-1_crop184.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-kidney_recon-1_crop221",
+      "zarr": "data/openorganelle/jrc_mus-kidney_recon-1_crop221.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-kidney_recon-1_crop229",
+      "zarr": "data/openorganelle/jrc_mus-kidney_recon-1_crop229.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-kidney_recon-1_crop230",
+      "zarr": "data/openorganelle/jrc_mus-kidney_recon-1_crop230.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-kidney_recon-1_crop231",
+      "zarr": "data/openorganelle/jrc_mus-kidney_recon-1_crop231.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop266",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop266.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop267",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop267.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop268",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop268.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop269",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop269.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop270",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop270.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop272",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop272.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop273",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop273.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop274",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop274.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop275",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop275.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop276",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop276.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop277",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop277.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop279",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop279.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop298",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop298.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop313",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop313.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop319",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop319.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop320",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop320.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop321",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop321.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop322",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop322.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop323",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop323.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop325",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop325.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop326",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop326.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop345",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop345.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop346",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop346.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop377",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop377.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-2_recon-1_crop340",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-2_recon-1_crop340.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-2_recon-1_crop342",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-2_recon-1_crop342.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-2_recon-1_crop355",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-2_recon-1_crop355.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-2_recon-1_crop356",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-2_recon-1_crop356.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-2_recon-1_crop368",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-2_recon-1_crop368.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-2_recon-1_crop369",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-2_recon-1_crop369.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-2_recon-1_crop370",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-2_recon-1_crop370.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver-zon-2_recon-1_crop376",
+      "zarr": "data/openorganelle/jrc_mus-liver-zon-2_recon-1_crop376.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver_recon-1_crop124",
+      "zarr": "data/openorganelle/jrc_mus-liver_recon-1_crop124.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver_recon-1_crop125",
+      "zarr": "data/openorganelle/jrc_mus-liver_recon-1_crop125.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver_recon-1_crop131",
+      "zarr": "data/openorganelle/jrc_mus-liver_recon-1_crop131.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver_recon-1_crop132",
+      "zarr": "data/openorganelle/jrc_mus-liver_recon-1_crop132.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver_recon-1_crop133",
+      "zarr": "data/openorganelle/jrc_mus-liver_recon-1_crop133.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver_recon-1_crop135",
+      "zarr": "data/openorganelle/jrc_mus-liver_recon-1_crop135.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver_recon-1_crop136",
+      "zarr": "data/openorganelle/jrc_mus-liver_recon-1_crop136.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver_recon-1_crop137",
+      "zarr": "data/openorganelle/jrc_mus-liver_recon-1_crop137.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver_recon-1_crop138",
+      "zarr": "data/openorganelle/jrc_mus-liver_recon-1_crop138.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver_recon-1_crop143",
+      "zarr": "data/openorganelle/jrc_mus-liver_recon-1_crop143.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver_recon-1_crop144",
+      "zarr": "data/openorganelle/jrc_mus-liver_recon-1_crop144.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver_recon-1_crop145",
+      "zarr": "data/openorganelle/jrc_mus-liver_recon-1_crop145.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver_recon-1_crop150",
+      "zarr": "data/openorganelle/jrc_mus-liver_recon-1_crop150.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver_recon-1_crop157",
+      "zarr": "data/openorganelle/jrc_mus-liver_recon-1_crop157.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver_recon-1_crop177",
+      "zarr": "data/openorganelle/jrc_mus-liver_recon-1_crop177.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-liver_recon-1_crop183",
+      "zarr": "data/openorganelle/jrc_mus-liver_recon-1_crop183.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_mus-nacc-1_recon-1_crop115",
+      "zarr": "data/openorganelle/jrc_mus-nacc-1_recon-1_crop115.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_sum159-1_recon-1_crop20",
+      "zarr": "data/openorganelle/jrc_sum159-1_recon-1_crop20.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_sum159-1_recon-1_crop80",
+      "zarr": "data/openorganelle/jrc_sum159-1_recon-1_crop80.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_sum159-4_recon-1_crop186",
+      "zarr": "data/openorganelle/jrc_sum159-4_recon-1_crop186.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_sum159-4_recon-1_crop189",
+      "zarr": "data/openorganelle/jrc_sum159-4_recon-1_crop189.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_sum159-4_recon-1_crop201",
+      "zarr": "data/openorganelle/jrc_sum159-4_recon-1_crop201.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_sum159-4_recon-1_crop202",
+      "zarr": "data/openorganelle/jrc_sum159-4_recon-1_crop202.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_sum159-4_recon-1_crop203",
+      "zarr": "data/openorganelle/jrc_sum159-4_recon-1_crop203.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_sum159-4_recon-1_crop208",
+      "zarr": "data/openorganelle/jrc_sum159-4_recon-1_crop208.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_sum159-4_recon-1_crop210",
+      "zarr": "data/openorganelle/jrc_sum159-4_recon-1_crop210.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_sum159-4_recon-1_crop216",
+      "zarr": "data/openorganelle/jrc_sum159-4_recon-1_crop216.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_sum159-4_recon-1_crop217",
+      "zarr": "data/openorganelle/jrc_sum159-4_recon-1_crop217.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_sum159-4_recon-1_crop219",
+      "zarr": "data/openorganelle/jrc_sum159-4_recon-1_crop219.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_ut21-1413-003_recon-1_crop190",
+      "zarr": "data/openorganelle/jrc_ut21-1413-003_recon-1_crop190.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_ut21-1413-003_recon-1_crop191",
+      "zarr": "data/openorganelle/jrc_ut21-1413-003_recon-1_crop191.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_ut21-1413-003_recon-1_crop193",
+      "zarr": "data/openorganelle/jrc_ut21-1413-003_recon-1_crop193.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_ut21-1413-003_recon-1_crop195",
+      "zarr": "data/openorganelle/jrc_ut21-1413-003_recon-1_crop195.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_ut21-1413-003_recon-1_crop196",
+      "zarr": "data/openorganelle/jrc_ut21-1413-003_recon-1_crop196.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_ut21-1413-003_recon-1_crop197",
+      "zarr": "data/openorganelle/jrc_ut21-1413-003_recon-1_crop197.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_ut21-1413-003_recon-1_crop198",
+      "zarr": "data/openorganelle/jrc_ut21-1413-003_recon-1_crop198.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_ut21-1413-003_recon-1_crop199",
+      "zarr": "data/openorganelle/jrc_ut21-1413-003_recon-1_crop199.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_ut21-1413-003_recon-1_crop200",
+      "zarr": "data/openorganelle/jrc_ut21-1413-003_recon-1_crop200.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_ut21-1413-003_recon-1_crop214",
+      "zarr": "data/openorganelle/jrc_ut21-1413-003_recon-1_crop214.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_ut21-1413-003_recon-1_crop220",
+      "zarr": "data/openorganelle/jrc_ut21-1413-003_recon-1_crop220.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_ut21-1413-003_recon-1_crop222",
+      "zarr": "data/openorganelle/jrc_ut21-1413-003_recon-1_crop222.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_ut21-1413-003_recon-1_crop225",
+      "zarr": "data/openorganelle/jrc_ut21-1413-003_recon-1_crop225.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_ut21-1413-003_recon-1_crop227",
+      "zarr": "data/openorganelle/jrc_ut21-1413-003_recon-1_crop227.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_zf-cardiac-1_recon-1_crop380",
+      "zarr": "data/openorganelle/jrc_zf-cardiac-1_recon-1_crop380.zarr",
+      "split": "train"
+    },
+    {
+      "id": "openorganelle_jrc_zf-cardiac-1_recon-1_crop381",
+      "zarr": "data/openorganelle/jrc_zf-cardiac-1_recon-1_crop381.zarr",
+      "split": "train"
+    }
+  ]
+}

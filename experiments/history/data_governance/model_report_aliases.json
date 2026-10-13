@@ -1,0 +1,17 @@
+{
+  "report_only": true,
+  "checkpoint_files_modified": false,
+  "B_full_100k": {
+    "report_name": "B_allMV_transductive_100k",
+    "full_checkpoint_sha256": "12bbf09ffcd7f93cbad88c4e55df55d36b3a299990ad976bf29af51a118a265b",
+    "hash_evidence": "stage1_summary.md; not rehashed this turn"
+  },
+  "B_full_150k": {
+    "report_name": "B_allMV_transductive_150k",
+    "full_checkpoint_sha256": null,
+    "hash_status": "final_checkpoint_receipt_not_available_locally",
+    "teacher_backbone_sha256": "9c67d08faf508a14d25418014422c0dbd641a51c122161dbd31f8af0a386d2ee",
+    "teacher_hash_evidence": "150k_CMCC_protocol.json; not rehashed this turn",
+    "continuation_result": "artifacts/mitoverse_B_full_extend150k_20261012/training_result_150k.json"
+  }
+}

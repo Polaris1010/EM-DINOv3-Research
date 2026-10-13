@@ -1,0 +1,216 @@
+{
+  "status": "complete",
+  "decoder": "official MedDINOv3 Primus_Multiscale without gates",
+  "upstream_commit": "a2460c2547899283446e520b84523454f7e25608",
+  "decoder_sha256": "b5398dc48bf5cc14068b4fed38c5f0a8c30bcbbe242d59475016e70912f248d3",
+  "summary": [
+    {
+      "dataset": "Dataset111_CMCC",
+      "model": "P0",
+      "decoder": "official_primus_multiscale",
+      "n": 3,
+      "selected_step": 3000,
+      "dice_mean": 0.7846056463322393,
+      "dice_std": 0.07944930183728685,
+      "hd95_mean": 166.25369262695312,
+      "hd95_std": 127.11127471923828,
+      "nsd_mean": 0.1745743751525879,
+      "nsd_std": 0.1128009706735611
+    },
+    {
+      "dataset": "Dataset111_CMCC",
+      "model": "B100k",
+      "decoder": "official_primus_multiscale",
+      "n": 3,
+      "selected_step": 2000,
+      "dice_mean": 0.8897156913175418,
+      "dice_std": 0.06109037766896068,
+      "hd95_mean": 77.4019546508789,
+      "hd95_std": 96.73795318603516,
+      "nsd_mean": 0.31751835346221924,
+      "nsd_std": 0.18332722783088684
+    },
+    {
+      "dataset": "Dataset111_CMCC",
+      "model": "B150k",
+      "decoder": "official_primus_multiscale",
+      "n": 3,
+      "selected_step": 2000,
+      "dice_mean": 0.8788064751495398,
+      "dice_std": 0.0772652205373107,
+      "hd95_mean": 70.42163848876953,
+      "hd95_std": 75.33717346191406,
+      "nsd_mean": 0.3010525405406952,
+      "nsd_std": 0.1968364119529724
+    },
+    {
+      "dataset": "Dataset131_CMCT",
+      "model": "P0",
+      "decoder": "official_primus_multiscale",
+      "n": 2,
+      "selected_step": 3000,
+      "dice_mean": 0.9548854297626779,
+      "dice_std": 0.015951296800402255,
+      "hd95_mean": 33.35224914550781,
+      "hd95_std": 12.93271541595459,
+      "nsd_mean": 0.6660054922103882,
+      "nsd_std": 0.12906979024410248
+    },
+    {
+      "dataset": "Dataset131_CMCT",
+      "model": "B100k",
+      "decoder": "official_primus_multiscale",
+      "n": 2,
+      "selected_step": 3000,
+      "dice_mean": 0.9609624193413691,
+      "dice_std": 0.014212328223199183,
+      "hd95_mean": 27.691116333007812,
+      "hd95_std": 20.722064971923828,
+      "nsd_mean": 0.713795006275177,
+      "nsd_std": 0.13335086405277252
+    },
+    {
+      "dataset": "Dataset131_CMCT",
+      "model": "B150k",
+      "decoder": "official_primus_multiscale",
+      "n": 2,
+      "selected_step": 3000,
+      "dice_mean": 0.960518436526639,
+      "dice_std": 0.015057300945264146,
+      "hd95_mean": 27.47673225402832,
+      "hd95_std": 21.88740348815918,
+      "nsd_mean": 0.7091147899627686,
+      "nsd_std": 0.14345893263816833
+    }
+  ],
+  "per_volume": [
+    {
+      "dataset": "Dataset111_CMCC",
+      "model": "P0",
+      "case": "CMCC_crop110",
+      "dice": 0.6936693572607138,
+      "hd95": 171.05384826660156,
+      "nsd": 0.04452063515782356
+    },
+    {
+      "dataset": "Dataset111_CMCC",
+      "model": "P0",
+      "case": "CMCC_crop113",
+      "dice": 0.8405683161005831,
+      "hd95": 290.8968811035156,
+      "nsd": 0.23339012265205383
+    },
+    {
+      "dataset": "Dataset111_CMCC",
+      "model": "P0",
+      "case": "CMCC_crop3",
+      "dice": 0.8195792656354207,
+      "hd95": 36.810325622558594,
+      "nsd": 0.24581235647201538
+    },
+    {
+      "dataset": "Dataset111_CMCC",
+      "model": "B100k",
+      "case": "CMCC_crop110",
+      "dice": 0.8192295138475805,
+      "hd95": 188.90380859375,
+      "nsd": 0.11053096503019333
+    },
+    {
+      "dataset": "Dataset111_CMCC",
+      "model": "B100k",
+      "case": "CMCC_crop113",
+      "dice": 0.9273688283904367,
+      "hd95": 15.842979431152344,
+      "nsd": 0.4594312608242035
+    },
+    {
+      "dataset": "Dataset111_CMCC",
+      "model": "B100k",
+      "case": "CMCC_crop3",
+      "dice": 0.9225487317146084,
+      "hd95": 27.459060668945312,
+      "nsd": 0.3825928866863251
+    },
+    {
+      "dataset": "Dataset111_CMCC",
+      "model": "B150k",
+      "case": "CMCC_crop110",
+      "dice": 0.7896158180643519,
+      "hd95": 157.41346740722656,
+      "nsd": 0.07732446491718292
+    },
+    {
+      "dataset": "Dataset111_CMCC",
+      "model": "B150k",
+      "case": "CMCC_crop113",
+      "dice": 0.925321262265161,
+      "hd95": 27.0,
+      "nsd": 0.44761359691619873
+    },
+    {
+      "dataset": "Dataset111_CMCC",
+      "model": "B150k",
+      "case": "CMCC_crop3",
+      "dice": 0.9214823451191066,
+      "hd95": 26.851442337036133,
+      "nsd": 0.3782195746898651
+    },
+    {
+      "dataset": "Dataset131_CMCT",
+      "model": "P0",
+      "case": "CMCT_jrc_mus-kidney_crop156",
+      "dice": 0.9436061596263942,
+      "hd95": 24.20743751525879,
+      "nsd": 0.5747393369674683
+    },
+    {
+      "dataset": "Dataset131_CMCT",
+      "model": "P0",
+      "case": "CMCT_jrc_mus-liver_crop145",
+      "dice": 0.9661646998989616,
+      "hd95": 42.4970588684082,
+      "nsd": 0.7572715878486633
+    },
+    {
+      "dataset": "Dataset131_CMCT",
+      "model": "B100k",
+      "case": "CMCT_jrc_mus-kidney_crop156",
+      "dice": 0.950912785678296,
+      "hd95": 13.03840446472168,
+      "nsd": 0.6195017099380493
+    },
+    {
+      "dataset": "Dataset131_CMCT",
+      "model": "B100k",
+      "case": "CMCT_jrc_mus-liver_crop145",
+      "dice": 0.9710120530044422,
+      "hd95": 42.34383010864258,
+      "nsd": 0.8080883026123047
+    },
+    {
+      "dataset": "Dataset131_CMCT",
+      "model": "B150k",
+      "case": "CMCT_jrc_mus-kidney_crop156",
+      "dice": 0.9498713169218761,
+      "hd95": 12.0,
+      "nsd": 0.6076740026473999
+    },
+    {
+      "dataset": "Dataset131_CMCT",
+      "model": "B150k",
+      "case": "CMCT_jrc_mus-liver_crop145",
+      "dice": 0.9711655561314019,
+      "hd95": 42.95346450805664,
+      "nsd": 0.8105555772781372
+    }
+  ],
+  "seed": 20260907,
+  "steps": 3000,
+  "decoder_initial_sha256": "9a8a1f6ea11dac604574db0133879fb3b6e2e0f0dba9fc6f7f1d0e5275128e69",
+  "target": "GT==1 / pred==1 mitochondria only",
+  "hd95_unit": "voxel-equivalent; original grid spacing=(1,1,1)",
+  "nsd_threshold": 1.0,
+  "std_definition": "sample SD across validation volumes, ddof=1; not seed SD",
+  "interpretation": "development validation; transductive B_full; not independent MitoNet comparison"
+}

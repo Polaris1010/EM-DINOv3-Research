@@ -1,0 +1,54 @@
+{
+  "verified_at": "2026-10-13T11:57:56.877687+00:00",
+  "checks": [
+    {
+      "command": [
+        "python",
+        "scripts/update_registry.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "stdout": "Registry generation matches evidence\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/validate_repository.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"provenance_files\": 115, \"experiment_records\": 26, \"formal_heads\": 9, \"development_entries\": 188, \"text_files_scanned\": 152, \"gpu_used\": false}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_real_head_and_protocol_joins (test_registry_integrity.IntegrityTests.test_real_head_and_protocol_joins) ... ok\ntest_reserved_test_is_rejected (test_registry_integrity.IntegrityTests.test_reserved_test_is_rejected) ... ok\ntest_swapped_head_path_is_rejected (test_registry_integrity.IntegrityTests.test_swapped_head_path_is_rejected) ... ok\ntest_tta_drift_is_rejected (test_registry_integrity.IntegrityTests.test_tta_drift_is_rejected) ... ok\ntest_wrong_encoder_identity_is_rejected (test_registry_integrity.IntegrityTests.test_wrong_encoder_identity_is_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.034s\n\nOK\n"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "staged_snapshot_hashes": {
+    "count": 115,
+    "mismatches": []
+  },
+  "status": "PASS"
+}

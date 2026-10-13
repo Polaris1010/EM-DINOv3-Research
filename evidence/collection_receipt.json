@@ -1,0 +1,12 @@
+{
+  "assets_collected_at": "2026-10-13T11:33:00.442197+00:00",
+  "metadata_verified_at": "2026-10-13T11:36:28.259010+00:00",
+  "server_writes": false,
+  "gpu_work_started": false,
+  "downloaded_checkpoints": false,
+  "raw_snapshot_paths": [
+    "E:\\mira_website_demo\\artifacts\\research_bootstrap_20261013\\remote_assets.json",
+    "E:\\mira_website_demo\\artifacts\\research_bootstrap_20261013\\verified_assets.json"
+  ],
+  "hash_policy": "Small text snapshots hashed on read. Large checkpoint hashes taken from existing recorded server manifests; not recomputed. Checkpoint headers read on CPU with weights_only=True and mmap=True; full optimizer states that fail safe loading are not deserialized unsafely."
+}

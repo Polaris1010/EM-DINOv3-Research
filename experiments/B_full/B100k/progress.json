@@ -1,0 +1,23 @@
+{
+  "step": 100000,
+  "rank": 0,
+  "loss": 12.5625,
+  "grad_norm": 1.6823989152908325,
+  "lr": 1.0000000068296467e-06,
+  "teacher_momentum": 0.999,
+  "teacher_temp": 0.07,
+  "global_batch": 48,
+  "data_first_index": 4799952,
+  "data_first_volume": "openorganelle_jrc_zf-cardiac-1_recon-1_crop381",
+  "sample_chain": "d395647d3099a5301460ab61f8024eef3dfb5dc694165c12ae2ba9f3eff5b164",
+  "elapsed_seconds": 80090.16863384098,
+  "data_seconds": 0.42744317278265953,
+  "iteration_seconds": 1.1237036399543285,
+  "peak_gpu_bytes": 10240163840,
+  "loss_components": {
+    "dino_local_crops_loss": 9.25,
+    "dino_global_crops_loss": 9.21875,
+    "koleo_loss": -0.3068334460258484,
+    "ibot_loss": 3.3968091011047363
+  }
+}

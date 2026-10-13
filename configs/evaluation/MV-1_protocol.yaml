@@ -1,0 +1,85 @@
+{
+  "stage": "MV-1",
+  "status": "locked_after_P0_pilot",
+  "samplers_implemented": [
+    "slice_uniform",
+    "source_balanced"
+  ],
+  "sampler": "source_balanced",
+  "source_selection": "uniform source then uniform legal Z slice across all training volumes in that source",
+  "crop_size": 256,
+  "batch_size": 1,
+  "input_normalization": "uint8 -> (x/255 - 0.5)/0.25; repeat grayscale to RGB; no physical resampling",
+  "spatial_augmentations": [
+    "horizontal_flip_p0.5",
+    "vertical_flip_p0.5"
+  ],
+  "foreground_oversample_probability": 0.5,
+  "foreground_policy": "on selected TRAIN slice, random foreground pixel centers crop if present; otherwise spatial uniform",
+  "optimizer": "AdamW",
+  "lr": 0.0001,
+  "weight_decay": 0.05,
+  "betas": [
+    0.9,
+    0.98
+  ],
+  "loss": "cross_entropy+soft_dice; mito>0 and valid pixels only",
+  "encoder_feature_precision": "bfloat16",
+  "decoder_precision": "float32",
+  "seed_sequence": [
+    20261013,
+    20261014,
+    20261015
+  ],
+  "budget_pilot_model": "P0 only; avoids choosing budget to favor B100/B150",
+  "budget_pilot_checkpoints": [
+    2000,
+    5000,
+    10000,
+    20000
+  ],
+  "budget_pilot_steps": 20000,
+  "budget_rule": "plateau: source-macro sparse development Dice improves <=0.005 over two consecutive checkpoints and training median loss improves <=5%; choose first qualifying budget or 20000, flag no plateau; only dev labels allowed",
+  "locked_steps": 20000,
+  "formal_seed_runs_may_start": true,
+  "selection": "fixed locked step; never individual best steps across models",
+  "monitoring": "dev deterministic evenly spaced 8 Z slices per volume; whole original XY; no TTA",
+  "final_validation": "every dev Z slice; native XY sliding window 256, stride128, mean softmax probabilities, no TTA; argmax; no postprocessing",
+  "metrics": {
+    "dice": "volume-level binary overlap",
+    "hd95_nm": "official MONAI symmetric max directed 95% using ZYX nm",
+    "nsd_primary": "NSD@16nm; engineering tolerance preset, not biologically calibrated",
+    "nsd_sensitivity_nm": [
+      8,
+      16,
+      32
+    ],
+    "legacy_voxel_metrics": [
+      "HD95_voxel",
+      "NSD@1voxel"
+    ],
+    "precision_recall": "all annotated pixels; zero division explicitly reported",
+    "std_volume": "sample SD ddof=1; n1 -> undefined, never zero",
+    "std_seed": "SD of per-seed source means, separate from volume SD",
+    "source_macro_worst": "only sources with >=2 distinct dev source volumes; insufficient sources shown separately"
+  },
+  "test_label_access": false,
+  "physical_gpus": [
+    1,
+    2,
+    3
+  ],
+  "gpu0_forbidden": true,
+  "ssl_long_training": false,
+  "gt_strata": [
+    "instance size nm^3 (partial touching ROI objects flagged)",
+    "per-object intensity contrast defined as absolute foreground vs 1-pixel outside ring difference",
+    "spacing_nm",
+    "modality"
+  ],
+  "other_membrane_adjacency": "UNVERIFIED: mito-only labels cannot identify ER/other membrane types",
+  "pilot_curve_sha256": "2b770dbdbcef52062b1a63cbec957845f20226a6671438729ce44983704f6249",
+  "budget_selection_model": "P0",
+  "budget_plateau_reached": false,
+  "maximum_budget_reached": true
+}

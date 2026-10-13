@@ -1,0 +1,33 @@
+{
+  "stage": "Stage2A2",
+  "P": "PAUSED_BY_USER_PENDING_MEASUREMENT_DEFINITION",
+  "S": "QUANTITATIVE_COMPLETE_HUMAN_PILOT_AVAILABLE_FINAL_GATE_PENDING",
+  "E": "COMPLETE_MATCHED_B_FULL_AND_OFFICIAL_NATURAL_CMCC_CMCT",
+  "long_training": "B_FULL_150K_EXTENSION_ONLY_AUTHORIZED",
+  "stage2_gate": "ARCHIVED_FAIL",
+  "stage1_immutable": true,
+  "review_pairs": 100,
+  "S_primary_metric": "cut_mean",
+  "S_human_gate": "at_least_70_percent_agreement_on_judgeable_pairs",
+  "S_raw_review": "100_RAW_PANELS_READY_20_FRESH_BLINDED_PAIRS_PENDING_HUMAN",
+  "S_human_pilot": "20_ORIGINAL_OVERLAY_PAIRS_REVIEWED_PENDING_RAW_CONFIRMATION",
+  "S_human_pilot_agreement": 0.4,
+  "S_long_training_admission": false,
+  "E_data_overlap_audit": "PENDING",
+  "E_surface_metrics": "COMPLETE_MEDDINOV3_DEFAULT_MONAI_NSD_TAU_1_VOLUME_STD_DDOF_1",
+  "E_surface_metrics_report": "branch_E/boundary_metrics_20261012/REPORT_zh.md",
+  "research_objective": "GENERALIST_ELECTRON_MICROSCOPY_MITOCHONDRIA_SEGMENTATION_BEAT_OFFICIAL_MITONET",
+  "GT_usage": "ALLOWED_FOR_OFFLINE_MITO_SPECIFIC_DIAGNOSTICS_AND_SUPERVISED_TRAINING; FINAL_TEST_LABELS_NOT_FOR_METHOD_TUNING",
+  "S_GT_diagnostic": "COMPLETE_424x4; CUT_MEAN_MEDIAN_SPEARMAN_VS_GT_CROSS_MITO_EDGES_0_ON_232_IMAGES",
+  "S_manual_review_priority": "SECONDARY_GT_QUALITY_AND_AMBIGUITY_AUDIT; NO_ADDITIONAL_20_PAIR_REVIEW_REQUIRED_NOW",
+  "next_benchmark_priority": "OFFICIAL_MITONET_DIRECT_COMPARISON_AND_TRAIN_PRETRAIN_TEST_EXPOSURE_AUDIT",
+  "B_full_extension": {
+    "authorized_by_user": true,
+    "from_step": 100000,
+    "to_step": 150000,
+    "run": "/opt/data/3_117/tanghr/codex/mitoverse_B_full_extend150k_20261012",
+    "schedule": "constant original min LR 1e-6",
+    "status": "ready_after_resume_smoke"
+  },
+  "topology_or_masking_long_training": "PROHIBITED"
+}

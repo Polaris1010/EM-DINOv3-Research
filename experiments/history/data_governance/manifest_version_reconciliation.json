@@ -1,0 +1,11 @@
+{
+  "local_snapshot_sha256": "e25c88f86d79116d9eef21f733328ed0d5f4518c25ac1061f910684bb0c36fa0",
+  "preliminary_recorded_sha256": "e25c88f86d79116d9eef21f733328ed0d5f4518c25ac1061f910684bb0c36fa0",
+  "formal_recorded_sha256": "3fd614082bf584c21e212884856875e328104ea09a293a95510c0f5f3117edb9",
+  "preliminary_protocol_superseded": true,
+  "formal_manifest_bytes_available": false,
+  "common_volume_set_verified": true,
+  "exact_formal_manifest_not_reconstructed": true,
+  "sampling_preliminary": "source_uniform_then_volume_uniform",
+  "sampling_formal_report": "uniform_legal_slices"
+}

@@ -1,0 +1,23 @@
+{
+  "step": 150000,
+  "rank": 0,
+  "loss": 13.0,
+  "grad_norm": 2.114196538925171,
+  "lr": 1e-06,
+  "teacher_momentum": 0.999,
+  "teacher_temp": 0.07,
+  "global_batch": 48,
+  "data_first_index": 7199952,
+  "data_first_volume": "muller21_high_c2",
+  "sample_chain": "253360eb8145070332731466ebbad7c05efc7faa3a2f983170ddfd70e2d2c495",
+  "elapsed_seconds": 37928.54131984711,
+  "data_seconds": 0.010996058583259583,
+  "iteration_seconds": 0.6819441094994545,
+  "peak_gpu_bytes": 10231197696,
+  "loss_components": {
+    "dino_local_crops_loss": 9.5625,
+    "dino_global_crops_loss": 9.5625,
+    "koleo_loss": -0.3094080984592438,
+    "ibot_loss": 3.518190860748291
+  }
+}

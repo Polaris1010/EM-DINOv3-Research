@@ -1,0 +1,67 @@
+2026-10-13T11:29:51Z
+Tue Oct 13 11:29:51 2026       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.171.04             Driver Version: 535.171.04   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA GeForce RTX 4090        Off | 00000000:35:00.0 Off |                  Off |
+| 31%   38C    P2              59W / 450W |   3092MiB / 24564MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   1  NVIDIA GeForce RTX 4090        Off | 00000000:37:00.0 Off |                  Off |
+| 43%   53C    P2             148W / 450W |   2680MiB / 24564MiB |     40%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   2  NVIDIA GeForce RTX 4090        Off | 00000000:9C:00.0 Off |                  Off |
+| 47%   53C    P2             154W / 450W |   2680MiB / 24564MiB |     40%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   3  NVIDIA GeForce RTX 4090        Off | 00000000:9E:00.0 Off |                  Off |
+| 45%   52C    P2             155W / 450W |   2218MiB / 24564MiB |     40%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|    1   N/A  N/A   1971241      C   ...human_demo_20260825/venv/bin/python      458MiB |
+|    1   N/A  N/A   3214887      C   ...17/tanghr/envs/meddinov3/bin/python     2212MiB |
+|    2   N/A  N/A   1971241      C   ...human_demo_20260825/venv/bin/python      458MiB |
+|    2   N/A  N/A   3214889      C   ...17/tanghr/envs/meddinov3/bin/python     2212MiB |
+|    3   N/A  N/A   3214888      C   ...17/tanghr/envs/meddinov3/bin/python     2212MiB |
++---------------------------------------------------------------------------------------+
+gpu_uuid, pid, process_name, used_gpu_memory [MiB]
+GPU-e7d56fea-8409-6cf0-e2e7-ceda9fd00ec5, 2470228, [Not Found], 3086 MiB
+GPU-29591cdf-1498-85e8-bb8c-158082a53728, 1971241, /opt/data/3_117/tanghr/mira_superhuman_demo_20260825/venv/bin/python, 458 MiB
+GPU-29591cdf-1498-85e8-bb8c-158082a53728, 3214887, /opt/data/3_117/tanghr/envs/meddinov3/bin/python, 2212 MiB
+GPU-794aaaef-6c72-f6ac-b6d0-a07ba3f76364, 1971241, /opt/data/3_117/tanghr/mira_superhuman_demo_20260825/venv/bin/python, 458 MiB
+GPU-794aaaef-6c72-f6ac-b6d0-a07ba3f76364, 3214889, /opt/data/3_117/tanghr/envs/meddinov3/bin/python, 2212 MiB
+GPU-5a68cc29-a13a-bf90-858e-079e14de807a, 3214888, /opt/data/3_117/tanghr/envs/meddinov3/bin/python, 2212 MiB
+               total        used        free      shared  buff/cache   available
+Mem:           503Gi        20Gi       233Gi       5.3Gi       249Gi       474Gi
+Swap:          8.0Gi       5.2Gi       2.8Gi
+Filesystem            Size  Used Avail Use% Mounted on
+192.168.3.120:/users  1.3P  1.1P  265T  80% /opt/data/3_117
+HTTP/1.1 200 OK
+
+date: Tue, 13 Oct 2026 11:29:50 GMT
+
+server: uvicorn
+
+content-type: text/html; charset=utf-8
+
+accept-ranges: bytes
+
+content-length: 971
+
+last-modified: Sat, 05 Sep 2026 07:19:53 GMT
+
+etag: "bd47971526da0b6a4dcf03de1255f056"
+
+
+

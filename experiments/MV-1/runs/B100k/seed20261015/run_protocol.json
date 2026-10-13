@@ -1,0 +1,16 @@
+{
+  "model": "B100k",
+  "seed": 20261015,
+  "steps": 20000,
+  "pilot": false,
+  "decoder_initial_sha256": "17d5a0fc3570cf232e74945e027b1c10c3b728b673d33a76108223a4c1c92a35",
+  "manifest_sha256": "9346286eac4cc1c57d24c1f1b296ed5eaaac6c0df061a8684cf4604af76f0df8",
+  "protocol_sha256": "b788831a0a860f9acb996e5d830cdc56265977fe909eb9cfffb86a20114220d0",
+  "encoder_sha256": "9603877244ba40f3cbeccdea18d69b0d3b818dc0fc6b09f839fd6d4189ce2de5",
+  "encoder_frozen": true,
+  "gates": false,
+  "test_labels_accessed": false,
+  "probe_source_sha256": "4071da2213b8f55f28ce13522d74e716c61be7900a37c96318942983be3546ec",
+  "validation_tile_batch_size": 16,
+  "training_batch_size": 1
+}

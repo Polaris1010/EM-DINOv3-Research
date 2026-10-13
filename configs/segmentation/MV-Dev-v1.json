@@ -1,0 +1,667 @@
+{
+  "name": "MV-Dev-v1",
+  "schema_version": "1.0",
+  "status": "locked_development",
+  "claim": "transductive_source_volume_development",
+  "unseen_acquisition_claim_permitted": false,
+  "training_permitted": true,
+  "data_revision": "d0af9a6fd11faaf16ce0822233b7bbf72553ce7d",
+  "source_code_revision": "df884f6bf353b3cd6b4b6a5ee3620daabd8a79be",
+  "ssl_manifest_sha256": "3fd614082bf584c21e212884856875e328104ea09a293a95510c0f5f3117edb9",
+  "selected_sources": [
+    "guay21",
+    "jiang25",
+    "muller21"
+  ],
+  "entries": [
+    {
+      "id": "guay21_vol0",
+      "source_id": "guay21",
+      "supervised_role": "train",
+      "ssl_exposed": true,
+      "image_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/guay21/vol0.zarr",
+      "arrays": {
+        "image": "img",
+        "instance_label": "mito"
+      },
+      "shape_zyx": [
+        50,
+        800,
+        800
+      ],
+      "region_zyx": [
+        [
+          0,
+          50
+        ],
+        [
+          0,
+          800
+        ],
+        [
+          0,
+          800
+        ]
+      ],
+      "axes": "ZYX",
+      "coordinate_frame": "stored_array",
+      "source_volume_identity": "/projects/weilab/dataset/mito/MitoLE/guay21/vol0_im.h5",
+      "acquisition_id": null,
+      "acquisition_status": "UNVERIFIED",
+      "annotation_status": "curator_declared_proofread",
+      "valid_mask_policy": "complete_without_ignore_declared",
+      "provenance": "instance_proofread",
+      "metadata_sha256": {
+        ".zattrs": "3bcd17fc44b92ebffd77462c1d88cf7be6f90020002f07f39744f600e37b3bc3",
+        "img/.zarray": "1ced24eee5502efd4a37333dec28dd5034e53784d4fc7990de849d5b8d3c3d1a",
+        "mito/.zarray": "1ced24eee5502efd4a37333dec28dd5034e53784d4fc7990de849d5b8d3c3d1a"
+      },
+      "spacing_zyx_nm": [
+        50.0,
+        10.0,
+        10.0
+      ],
+      "modality": "SBF-SEM",
+      "tissue": "platelet",
+      "species": "Human",
+      "split_evidence": "guay21 official overlay",
+      "sampling_weight_rule": "source-balanced then uniform legal slice within source",
+      "pixel_qc_sha256": "fcd8f96fe30ac21de738ddb5c91707ca64c90eb9ca45a3d3df4780173da83617"
+    },
+    {
+      "id": "guay21_vol1",
+      "source_id": "guay21",
+      "supervised_role": "dev",
+      "ssl_exposed": true,
+      "image_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/guay21/vol1.zarr",
+      "arrays": {
+        "image": "img",
+        "instance_label": "mito"
+      },
+      "shape_zyx": [
+        24,
+        800,
+        800
+      ],
+      "region_zyx": [
+        [
+          0,
+          24
+        ],
+        [
+          0,
+          800
+        ],
+        [
+          0,
+          800
+        ]
+      ],
+      "axes": "ZYX",
+      "coordinate_frame": "stored_array",
+      "source_volume_identity": "/projects/weilab/dataset/mito/MitoLE/guay21/vol1_im.h5",
+      "acquisition_id": null,
+      "acquisition_status": "UNVERIFIED",
+      "annotation_status": "curator_declared_proofread",
+      "valid_mask_policy": "complete_without_ignore_declared",
+      "provenance": "instance_proofread",
+      "metadata_sha256": {
+        ".zattrs": "7adbcdfe1986abb7790483940619f47bc18a94af5d505bc94b35368d949dcaa3",
+        "img/.zarray": "72e4e1d078dc8e2e232b57e8ef0f656e96823720c046d17a672bc8def2c338c9",
+        "mito/.zarray": "72e4e1d078dc8e2e232b57e8ef0f656e96823720c046d17a672bc8def2c338c9"
+      },
+      "spacing_zyx_nm": [
+        50.0,
+        10.0,
+        10.0
+      ],
+      "modality": "SBF-SEM",
+      "tissue": "platelet",
+      "species": "Human",
+      "split_evidence": "guay21 official overlay",
+      "sampling_weight_rule": "source-balanced then uniform legal slice within source",
+      "pixel_qc_sha256": "b1b4926c7cfc361f8ae1ea2616844fb3c0c6fb97981c1500c8c90c07d0eec6ef"
+    },
+    {
+      "id": "jiang25_vol1",
+      "source_id": "jiang25",
+      "supervised_role": "train",
+      "ssl_exposed": true,
+      "image_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/jiang25/vol1.zarr",
+      "arrays": {
+        "image": "img",
+        "instance_label": "mito"
+      },
+      "shape_zyx": [
+        100,
+        1000,
+        1000
+      ],
+      "region_zyx": [
+        [
+          0,
+          100
+        ],
+        [
+          0,
+          1000
+        ],
+        [
+          0,
+          1000
+        ]
+      ],
+      "axes": "ZYX",
+      "coordinate_frame": "stored_array",
+      "source_volume_identity": "/projects/weilab/dataset/mito/MitoLE/jiang25/vol1_im.h5",
+      "acquisition_id": null,
+      "acquisition_status": "UNVERIFIED",
+      "annotation_status": "curator_declared_proofread",
+      "valid_mask_policy": "complete_without_ignore_declared",
+      "provenance": "instance_proofread",
+      "metadata_sha256": {
+        ".zattrs": "417b7d205d065b05dea034c117206c304749588f2d7ea0c65f3dfcb402a098d6",
+        "img/.zarray": "5bee50cbb2c28c3d1d279b831d6aa171767da0bc2414ebc3fff97abc5d5dea30",
+        "mito/.zarray": "0d75e4ddf38840368a438147baa237b3fcc905210d6c88671ba93661802a80f5"
+      },
+      "spacing_zyx_nm": [
+        40.0,
+        15.0,
+        15.0
+      ],
+      "modality": "SBF-SEM",
+      "tissue": "brainstem",
+      "species": "Mouse",
+      "split_evidence": "mitoem2.0 official train/val overlay",
+      "sampling_weight_rule": "source-balanced then uniform legal slice within source",
+      "pixel_qc_sha256": "a27ed2d6e097ff67711d191861b063bdb94145a31fe457461a8f156be415a55b"
+    },
+    {
+      "id": "jiang25_vol2",
+      "source_id": "jiang25",
+      "supervised_role": "dev",
+      "ssl_exposed": true,
+      "image_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/jiang25/vol2.zarr",
+      "arrays": {
+        "image": "img",
+        "instance_label": "mito"
+      },
+      "shape_zyx": [
+        100,
+        1000,
+        1000
+      ],
+      "region_zyx": [
+        [
+          0,
+          100
+        ],
+        [
+          0,
+          1000
+        ],
+        [
+          0,
+          1000
+        ]
+      ],
+      "axes": "ZYX",
+      "coordinate_frame": "stored_array",
+      "source_volume_identity": "/projects/weilab/dataset/mito/MitoLE/jiang25/vol2_im.h5",
+      "acquisition_id": null,
+      "acquisition_status": "UNVERIFIED",
+      "annotation_status": "curator_declared_proofread",
+      "valid_mask_policy": "complete_without_ignore_declared",
+      "provenance": "instance_proofread",
+      "metadata_sha256": {
+        ".zattrs": "999354e177d730f1e59c78bda17d4c0cf456e836b5149c15044b06a3a99f2586",
+        "img/.zarray": "5bee50cbb2c28c3d1d279b831d6aa171767da0bc2414ebc3fff97abc5d5dea30",
+        "mito/.zarray": "0d75e4ddf38840368a438147baa237b3fcc905210d6c88671ba93661802a80f5"
+      },
+      "spacing_zyx_nm": [
+        40.0,
+        15.0,
+        15.0
+      ],
+      "modality": "SBF-SEM",
+      "tissue": "brainstem",
+      "species": "Mouse",
+      "split_evidence": "mitoem2.0 official train/val overlay",
+      "sampling_weight_rule": "source-balanced then uniform legal slice within source",
+      "pixel_qc_sha256": "af4c199ca527ae1d184fd97baae75792a9cd07662769efea23d4753546771d08"
+    },
+    {
+      "id": "muller21_high_c1",
+      "source_id": "muller21",
+      "supervised_role": "train",
+      "ssl_exposed": true,
+      "image_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/muller21/high_c1.zarr",
+      "arrays": {
+        "image": "img",
+        "instance_label": "mito"
+      },
+      "shape_zyx": [
+        1097,
+        699,
+        760
+      ],
+      "region_zyx": [
+        [
+          0,
+          1097
+        ],
+        [
+          0,
+          699
+        ],
+        [
+          0,
+          760
+        ]
+      ],
+      "axes": "ZYX",
+      "coordinate_frame": "stored_array",
+      "source_volume_identity": "/projects/weilab/liupeng/data/raw/mito/betaSeg/high_c1_im.tiff",
+      "acquisition_id": null,
+      "acquisition_status": "UNVERIFIED",
+      "annotation_status": "curator_declared_proofread",
+      "valid_mask_policy": "complete_without_ignore_declared",
+      "provenance": "binary_conversion_proofread",
+      "metadata_sha256": {
+        ".zattrs": "f8e5ec4fee7303d07ae2686c3936ec4e90d52258a87886db601d12a23215d7a0",
+        "img/.zarray": "4b57e0f8d638b9ea89f0d876faf38eeccbb48738449de37f0d673d76208c2970",
+        "mito/.zarray": "171aadcce6925d9d5626fd4abb7e4e8ac0176e7295c86160995ac50ec01d3f3b"
+      },
+      "spacing_zyx_nm": [
+        16.0,
+        16.0,
+        16.0
+      ],
+      "modality": "FIB-SEM",
+      "tissue": "pancreas (beta cells)",
+      "species": "Mouse",
+      "split_evidence": "project development holdout of two official TRAIN cells; official TEST cells untouched",
+      "sampling_weight_rule": "source-balanced then uniform legal slice within source",
+      "pixel_qc_sha256": "0b0d139cdca305cb6c26428ea3741a6e11f1f2ce6de10e92bea7850d3ba360cc"
+    },
+    {
+      "id": "muller21_high_c3",
+      "source_id": "muller21",
+      "supervised_role": "dev",
+      "ssl_exposed": true,
+      "image_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/muller21/high_c3.zarr",
+      "arrays": {
+        "image": "img",
+        "instance_label": "mito"
+      },
+      "shape_zyx": [
+        1023,
+        676,
+        845
+      ],
+      "region_zyx": [
+        [
+          0,
+          1023
+        ],
+        [
+          0,
+          676
+        ],
+        [
+          0,
+          845
+        ]
+      ],
+      "axes": "ZYX",
+      "coordinate_frame": "stored_array",
+      "source_volume_identity": "/projects/weilab/liupeng/data/raw/mito/betaSeg/high_c3_im.tiff",
+      "acquisition_id": null,
+      "acquisition_status": "UNVERIFIED",
+      "annotation_status": "curator_declared_proofread",
+      "valid_mask_policy": "complete_without_ignore_declared",
+      "provenance": "binary_conversion_proofread",
+      "metadata_sha256": {
+        ".zattrs": "d8a0f0164c04d75ee0e5e8dca9f2e7676341128e980315384617771db647e3ad",
+        "img/.zarray": "7bc422ad1ea9abc27e4367fb8097e5094ff3270260edb25c999ce506de3a73df",
+        "mito/.zarray": "d5b321106d0c344cc3a8d361c7141e53b876dde37019fd6183cd736841f1088a"
+      },
+      "spacing_zyx_nm": [
+        16.0,
+        16.0,
+        16.0
+      ],
+      "modality": "FIB-SEM",
+      "tissue": "pancreas (beta cells)",
+      "species": "Mouse",
+      "split_evidence": "project development holdout of two official TRAIN cells; official TEST cells untouched",
+      "sampling_weight_rule": "source-balanced then uniform legal slice within source",
+      "pixel_qc_sha256": "0a03a05e75f0678a09a57ad3c7088613bcc43d7f6e88e88e4e1235ac07ab347f"
+    },
+    {
+      "id": "muller21_low_c1",
+      "source_id": "muller21",
+      "supervised_role": "train",
+      "ssl_exposed": true,
+      "image_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/muller21/low_c1.zarr",
+      "arrays": {
+        "image": "img",
+        "instance_label": "mito"
+      },
+      "shape_zyx": [
+        906,
+        694,
+        725
+      ],
+      "region_zyx": [
+        [
+          0,
+          906
+        ],
+        [
+          0,
+          694
+        ],
+        [
+          0,
+          725
+        ]
+      ],
+      "axes": "ZYX",
+      "coordinate_frame": "stored_array",
+      "source_volume_identity": "/projects/weilab/liupeng/data/raw/mito/betaSeg/low_c1_im.tiff",
+      "acquisition_id": null,
+      "acquisition_status": "UNVERIFIED",
+      "annotation_status": "curator_declared_proofread",
+      "valid_mask_policy": "complete_without_ignore_declared",
+      "provenance": "binary_conversion_proofread",
+      "metadata_sha256": {
+        ".zattrs": "ecfd966bcf9ee5230425fb2e5ee68277cbecb08773c7d6f19384f30b82966e1e",
+        "img/.zarray": "bbacbde014eaed4f28393be6b998bc68653987b8798bc45c80808b11b4d0f7c1",
+        "mito/.zarray": "875dc92b55b746076171519bdcafc061cfedae34cebb47a192c8b2e326c8a697"
+      },
+      "spacing_zyx_nm": [
+        16.0,
+        16.0,
+        16.0
+      ],
+      "modality": "FIB-SEM",
+      "tissue": "pancreas (beta cells)",
+      "species": "Mouse",
+      "split_evidence": "project development holdout of two official TRAIN cells; official TEST cells untouched",
+      "sampling_weight_rule": "source-balanced then uniform legal slice within source",
+      "pixel_qc_sha256": "f2041814c7b377496da1ccce99c46c52dac85b340ae71c52ed560fa8ed5f0dff"
+    },
+    {
+      "id": "muller21_low_c2",
+      "source_id": "muller21",
+      "supervised_role": "dev",
+      "ssl_exposed": true,
+      "image_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/muller21/low_c2.zarr",
+      "arrays": {
+        "image": "img",
+        "instance_label": "mito"
+      },
+      "shape_zyx": [
+        853,
+        758,
+        958
+      ],
+      "region_zyx": [
+        [
+          0,
+          853
+        ],
+        [
+          0,
+          758
+        ],
+        [
+          0,
+          958
+        ]
+      ],
+      "axes": "ZYX",
+      "coordinate_frame": "stored_array",
+      "source_volume_identity": "/projects/weilab/liupeng/data/raw/mito/betaSeg/low_c2_im.tiff",
+      "acquisition_id": null,
+      "acquisition_status": "UNVERIFIED",
+      "annotation_status": "curator_declared_proofread",
+      "valid_mask_policy": "complete_without_ignore_declared",
+      "provenance": "binary_conversion_proofread",
+      "metadata_sha256": {
+        ".zattrs": "991633a92729ccd9edacfe14591675c89f76e4f72a2fbc14f0e6a1ca8825fba1",
+        "img/.zarray": "fcb517f61e311786fbc3c735f6894acdb19e5ba5c3d9c42596acd50b4978dd84",
+        "mito/.zarray": "51155a05d72c2ecb7bb82e8d8c7fbeb2a395b6e662487ae364ecacb09029adc2"
+      },
+      "spacing_zyx_nm": [
+        16.0,
+        16.0,
+        16.0
+      ],
+      "modality": "FIB-SEM",
+      "tissue": "pancreas (beta cells)",
+      "species": "Mouse",
+      "split_evidence": "project development holdout of two official TRAIN cells; official TEST cells untouched",
+      "sampling_weight_rule": "source-balanced then uniform legal slice within source",
+      "pixel_qc_sha256": "8f7b91d234d6660a4c7a7b11b13b69eacf65ab4ad8503c05cf9ff8c23dc34e7a"
+    }
+  ],
+  "reserved_test_ids": [
+    "guay21_vol2",
+    "jiang25_vol0",
+    "muller21_high_c2",
+    "muller21_high_c4",
+    "muller21_low_c3"
+  ],
+  "source_macro_min_dev_volumes": 2,
+  "source_min_samples_status": "only muller21 has 2 dev volumes; other sources descriptive only",
+  "excluded_ids": [
+    "casser20_kasthuri++_test",
+    "casser20_kasthuri++_train",
+    "casser20_lucchi++",
+    "conrad23_c_elegans",
+    "conrad23_fly_brain",
+    "conrad23_glycolytic_muscle",
+    "conrad23_hela_cell",
+    "conrad23_salivary_gland",
+    "haberl18_vol0",
+    "haberl18_vol1",
+    "han24_neg0",
+    "han24_neg1",
+    "han24_pos0",
+    "han24_pos1",
+    "han24_pos2",
+    "kunduri22_test01",
+    "kunduri22_train01",
+    "kunduri22_train02",
+    "mekuc20_fib1-0-0-0",
+    "mekuc20_fib1-1-0-3",
+    "mekuc20_fib1-3-2-1",
+    "mekuc20_fib1-3-3-0",
+    "mekuc20_fib1-4-3-0",
+    "openorganelle_jrc_cos7-1a_recon-1_crop234",
+    "openorganelle_jrc_cos7-1a_recon-1_crop236",
+    "openorganelle_jrc_cos7-1a_recon-1_crop237",
+    "openorganelle_jrc_cos7-1a_recon-1_crop239",
+    "openorganelle_jrc_cos7-1a_recon-1_crop248",
+    "openorganelle_jrc_cos7-1a_recon-1_crop252",
+    "openorganelle_jrc_cos7-1a_recon-1_crop254",
+    "openorganelle_jrc_cos7-1a_recon-1_crop256",
+    "openorganelle_jrc_cos7-1a_recon-1_crop292",
+    "openorganelle_jrc_cos7-1b_recon-1_crop238",
+    "openorganelle_jrc_cos7-1b_recon-1_crop240",
+    "openorganelle_jrc_cos7-1b_recon-1_crop245",
+    "openorganelle_jrc_cos7-1b_recon-1_crop255",
+    "openorganelle_jrc_cos7-1b_recon-1_crop258",
+    "openorganelle_jrc_cos7-1b_recon-1_crop291",
+    "openorganelle_jrc_ctl-id8-1_recon-1_crop116",
+    "openorganelle_jrc_ctl-id8-1_recon-1_crop118",
+    "openorganelle_jrc_ctl-id8-1_recon-1_crop130",
+    "openorganelle_jrc_fly-mb-1a_recon-1_crop120",
+    "openorganelle_jrc_fly-mb-1a_recon-1_crop121",
+    "openorganelle_jrc_fly-mb-1a_recon-1_crop178",
+    "openorganelle_jrc_fly-vnc-1_recon-1_crop173",
+    "openorganelle_jrc_fly-vnc-1_recon-1_crop174",
+    "openorganelle_jrc_fly-vnc-1_recon-1_crop176",
+    "openorganelle_jrc_fly-vnc-1_recon-1_crop185",
+    "openorganelle_jrc_fly-vnc-1_recon-1_crop78",
+    "openorganelle_jrc_fly-vnc-1_recon-1_crop79",
+    "openorganelle_jrc_hela-2_recon-1_crop1",
+    "openorganelle_jrc_hela-2_recon-1_crop113",
+    "openorganelle_jrc_hela-2_recon-1_crop155",
+    "openorganelle_jrc_hela-2_recon-1_crop23",
+    "openorganelle_jrc_hela-2_recon-1_crop3",
+    "openorganelle_jrc_hela-2_recon-1_crop6",
+    "openorganelle_jrc_hela-2_recon-1_crop9",
+    "openorganelle_jrc_hela-3_recon-1_crop101",
+    "openorganelle_jrc_hela-3_recon-1_crop111",
+    "openorganelle_jrc_hela-3_recon-1_crop181",
+    "openorganelle_jrc_hela-3_recon-1_crop33",
+    "openorganelle_jrc_hela-3_recon-1_crop34",
+    "openorganelle_jrc_jurkat-1_recon-1_crop112",
+    "openorganelle_jrc_jurkat-1_recon-1_crop126",
+    "openorganelle_jrc_jurkat-1_recon-1_crop180",
+    "openorganelle_jrc_jurkat-1_recon-1_crop182",
+    "openorganelle_jrc_jurkat-1_recon-1_crop37",
+    "openorganelle_jrc_jurkat-1_recon-1_crop38",
+    "openorganelle_jrc_jurkat-1_recon-1_crop43",
+    "openorganelle_jrc_jurkat-1_recon-1_test0",
+    "openorganelle_jrc_jurkat-1_recon-1_test1",
+    "openorganelle_jrc_macrophage-2_recon-1_crop110",
+    "openorganelle_jrc_macrophage-2_recon-1_crop31",
+    "openorganelle_jrc_macrophage-2_recon-1_crop32",
+    "openorganelle_jrc_macrophage-2_recon-1_crop39",
+    "openorganelle_jrc_macrophage-2_recon-1_crop48",
+    "openorganelle_jrc_macrophage-2_recon-1_test0",
+    "openorganelle_jrc_macrophage-2_recon-1_test1",
+    "openorganelle_jrc_mus-kidney_recon-1_crop129",
+    "openorganelle_jrc_mus-kidney_recon-1_crop140",
+    "openorganelle_jrc_mus-kidney_recon-1_crop141",
+    "openorganelle_jrc_mus-kidney_recon-1_crop147",
+    "openorganelle_jrc_mus-kidney_recon-1_crop148",
+    "openorganelle_jrc_mus-kidney_recon-1_crop156",
+    "openorganelle_jrc_mus-kidney_recon-1_crop158",
+    "openorganelle_jrc_mus-kidney_recon-1_crop160",
+    "openorganelle_jrc_mus-kidney_recon-1_crop161",
+    "openorganelle_jrc_mus-kidney_recon-1_crop162",
+    "openorganelle_jrc_mus-kidney_recon-1_crop163",
+    "openorganelle_jrc_mus-kidney_recon-1_crop164",
+    "openorganelle_jrc_mus-kidney_recon-1_crop165",
+    "openorganelle_jrc_mus-kidney_recon-1_crop166",
+    "openorganelle_jrc_mus-kidney_recon-1_crop184",
+    "openorganelle_jrc_mus-kidney_recon-1_crop221",
+    "openorganelle_jrc_mus-kidney_recon-1_crop229",
+    "openorganelle_jrc_mus-kidney_recon-1_crop230",
+    "openorganelle_jrc_mus-kidney_recon-1_crop231",
+    "openorganelle_jrc_mus-kidney_recon-1_test0",
+    "openorganelle_jrc_mus-kidney_recon-1_test1",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop266",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop267",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop268",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop269",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop270",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop272",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop273",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop274",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop275",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop276",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop277",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop279",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop298",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop313",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop319",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop320",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop321",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop322",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop323",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop325",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop326",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop345",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop346",
+    "openorganelle_jrc_mus-liver-zon-1_recon-1_crop377",
+    "openorganelle_jrc_mus-liver-zon-2_recon-1_crop340",
+    "openorganelle_jrc_mus-liver-zon-2_recon-1_crop342",
+    "openorganelle_jrc_mus-liver-zon-2_recon-1_crop355",
+    "openorganelle_jrc_mus-liver-zon-2_recon-1_crop356",
+    "openorganelle_jrc_mus-liver-zon-2_recon-1_crop368",
+    "openorganelle_jrc_mus-liver-zon-2_recon-1_crop369",
+    "openorganelle_jrc_mus-liver-zon-2_recon-1_crop370",
+    "openorganelle_jrc_mus-liver-zon-2_recon-1_crop376",
+    "openorganelle_jrc_mus-liver_recon-1_crop124",
+    "openorganelle_jrc_mus-liver_recon-1_crop125",
+    "openorganelle_jrc_mus-liver_recon-1_crop131",
+    "openorganelle_jrc_mus-liver_recon-1_crop132",
+    "openorganelle_jrc_mus-liver_recon-1_crop133",
+    "openorganelle_jrc_mus-liver_recon-1_crop135",
+    "openorganelle_jrc_mus-liver_recon-1_crop136",
+    "openorganelle_jrc_mus-liver_recon-1_crop137",
+    "openorganelle_jrc_mus-liver_recon-1_crop138",
+    "openorganelle_jrc_mus-liver_recon-1_crop143",
+    "openorganelle_jrc_mus-liver_recon-1_crop144",
+    "openorganelle_jrc_mus-liver_recon-1_crop145",
+    "openorganelle_jrc_mus-liver_recon-1_crop150",
+    "openorganelle_jrc_mus-liver_recon-1_crop157",
+    "openorganelle_jrc_mus-liver_recon-1_crop177",
+    "openorganelle_jrc_mus-liver_recon-1_crop183",
+    "openorganelle_jrc_mus-liver_recon-1_test0",
+    "openorganelle_jrc_mus-liver_recon-1_test1",
+    "openorganelle_jrc_mus-nacc-1_recon-1_crop115",
+    "openorganelle_jrc_sum159-1_recon-1_crop20",
+    "openorganelle_jrc_sum159-1_recon-1_crop80",
+    "openorganelle_jrc_sum159-4_recon-1_crop186",
+    "openorganelle_jrc_sum159-4_recon-1_crop189",
+    "openorganelle_jrc_sum159-4_recon-1_crop201",
+    "openorganelle_jrc_sum159-4_recon-1_crop202",
+    "openorganelle_jrc_sum159-4_recon-1_crop203",
+    "openorganelle_jrc_sum159-4_recon-1_crop208",
+    "openorganelle_jrc_sum159-4_recon-1_crop210",
+    "openorganelle_jrc_sum159-4_recon-1_crop216",
+    "openorganelle_jrc_sum159-4_recon-1_crop217",
+    "openorganelle_jrc_sum159-4_recon-1_crop219",
+    "openorganelle_jrc_ut21-1413-003_recon-1_crop190",
+    "openorganelle_jrc_ut21-1413-003_recon-1_crop191",
+    "openorganelle_jrc_ut21-1413-003_recon-1_crop193",
+    "openorganelle_jrc_ut21-1413-003_recon-1_crop195",
+    "openorganelle_jrc_ut21-1413-003_recon-1_crop196",
+    "openorganelle_jrc_ut21-1413-003_recon-1_crop197",
+    "openorganelle_jrc_ut21-1413-003_recon-1_crop198",
+    "openorganelle_jrc_ut21-1413-003_recon-1_crop199",
+    "openorganelle_jrc_ut21-1413-003_recon-1_crop200",
+    "openorganelle_jrc_ut21-1413-003_recon-1_crop214",
+    "openorganelle_jrc_ut21-1413-003_recon-1_crop220",
+    "openorganelle_jrc_ut21-1413-003_recon-1_crop222",
+    "openorganelle_jrc_ut21-1413-003_recon-1_crop225",
+    "openorganelle_jrc_ut21-1413-003_recon-1_crop227",
+    "openorganelle_jrc_zf-cardiac-1_recon-1_crop380",
+    "openorganelle_jrc_zf-cardiac-1_recon-1_crop381",
+    "openorganelle_jrc_zf-cardiac-1_recon-1_test0",
+    "openorganelle_jrc_zf-cardiac-1_recon-1_test1",
+    "turner22_microns1_vol0",
+    "turner22_microns1_vol1",
+    "turner22_microns1_vol2",
+    "turner22_microns1_vol3",
+    "turner22_microns1_vol4",
+    "turner22_pinky_stitched_vol19-vol34",
+    "turner22_pinky_stitched_vol19-vol34_realigned",
+    "turner22_pinky_stitched_vol40-vol41",
+    "turner22_pinky_vol101",
+    "turner22_pinky_vol102",
+    "turner22_pinky_vol103",
+    "turner22_pinky_vol104",
+    "turner22_pinky_vol401",
+    "turner22_pinky_vol501",
+    "turner22_pinky_vol502",
+    "turner22_pinky_vol503",
+    "wei20_mitoEM-H",
+    "wei20_mitoEM-R",
+    "xiao18_vol0"
+  ],
+  "limits": [
+    "Original volume identity and published role are known; physical acquisition independence is UNVERIFIED.",
+    "No final-test labels may be read for training, selection, budget calibration, or failure panels.",
+    "Fixed curvature/quantitative QC cannot independently establish exhaustiveness of curated labels.",
+    "Official overlays unchanged; clean governance and B_clean remain separate and not unlocked by this development manifest."
+  ],
+  "pixel_qc_sha256": "cc0dbf56e3f3fb2afa99da5b26785e6096f864595a223578221916d1c1ffc345"
+}

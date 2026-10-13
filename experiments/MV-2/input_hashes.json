@@ -1,0 +1,19 @@
+{
+  "/opt/data/3_117/tanghr/MitoVerse_data/catalog.json": "949a71b8ae41e03132fa2cd671e84c001ca699f3bbc9f66f9510cbee30e5f038",
+  "/opt/data/3_117/tanghr/MitoVerse_data/splits/mitoem2.0.json": "3ac1e9c53636a315edd61e2ca6f9ff58f26cc7bfe78f52d225bed6edd7418c02",
+  "/opt/data/3_117/tanghr/MitoVerse_data/splits/cellmap.json": "2a23406d12a7e3fffa8eeec6a4ed3e8f67436926bf731c91bf131328b0510269",
+  "/opt/data/3_117/tanghr/MitoVerse_data/splits/guay21.json": "f141854388885c55204ff7d4f7912262096e44faa25f5646b3d333cf001bbf75",
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/MV-Dev-v1.json": "9346286eac4cc1c57d24c1f1b296ed5eaaac6c0df061a8684cf4604af76f0df8",
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/MV_frozen_probe_results.csv": "052aa2c79cfdf2bf97f44373d5b1f750ff51511b890740adbe2be2c8595b1b33",
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/mv_probe.py": "4071da2213b8f55f28ce13522d74e716c61be7900a37c96318942983be3546ec",
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/official_primus.py": "b5398dc48bf5cc14068b4fed38c5f0a8c30bcbbe242d59475016e70912f248d3",
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/P0/seed20261013/head_last.pth": "f452b103402292b0a4d917b9dbc95af5216cedd918871bc517ebdd3b5dd5e773",
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/P0/seed20261014/head_last.pth": "37716ea18c8416ce2de04cedcbbb697761ba8988f6e5661f7bfd46e225d8c92f",
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/P0/seed20261015/head_last.pth": "f0d2ccd1ff865a91c0d4658beab1202df2cb025cc7a0ddb7fc66121deb0dc596",
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B100k/seed20261013/head_last.pth": "99e469e016051cf6cd65609a38742bebd9b83ecf75d2364390b2dcfd17abbd1d",
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B100k/seed20261014/head_last.pth": "b9e7dba9e46125336cf9469e6e1779c637d6a9da5c5eac7416feea05dd870114",
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B100k/seed20261015/head_last.pth": "d49371778703bd8e0f877758574698077669d76c5928214c9d61372538457cba",
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B150k/seed20261013/head_last.pth": "ef2e2dfcdcce30bec77bf454b220d038ed2c19385b81fdebe3ce28374db0f51a",
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B150k/seed20261014/head_last.pth": "e57d72fa1a0cdf7eca88ab5ab711f6482f23d2b63143703f2d132de19a690ffd",
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B150k/seed20261015/head_last.pth": "23261e38bef5f71d7a3489ee5aa6d04ddbbf4d52ffd53207393f7f1c73a8212a"
+}

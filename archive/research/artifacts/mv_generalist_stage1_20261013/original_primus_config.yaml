@@ -1,0 +1,11 @@
+decoder: official.Primus_Multiscale
+upstream_commit: a2460c2547899283446e520b84523454f7e25608
+source_sha256: b5398dc48bf5cc14068b4fed38c5f0a8c30bcbbe242d59475016e70912f248d3
+embed_dim: 1024
+patch_embed_size: 16
+num_classes: 2
+interaction_indices: [5, 11, 17, 23]
+layer_index_convention: zero_based
+decoder_trainable_parameters: 44576514
+encoder_frozen: true
+frequency_gates: false

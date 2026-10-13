@@ -1,6 +1,8 @@
 # Research takeover instructions
 
-每个新窗口先读 `docs/PROJECT_STATE.md`、`experiments/registry.yaml`、`docs/NEXT_ACTION.md` 和最新已合并 PR。仓库尚未关联远程时读本地 Git 历史及 `docs/BOOTSTRAP_PR.md`，不能声称 PR 已建立或已合并。
+每个新窗口先读 `START_HERE.md`、`docs/NEW_WINDOW_HANDOFF.md`、最新 `docs/work_logs/` 记录，再读 `docs/PROJECT_STATE.md`、`experiments/registry.yaml`、`docs/NEXT_ACTION.md` 和最新已合并 PR。不能声称尚未发生的提交、推送或合并已经完成。
+
+每轮完成用户授权的代码、配置、报告修改后，同步新增工作记录、更新交接和记录索引；事实变化时更新状态和registry。完成适用CPU检查后，将本轮代码和Markdown一并commit并push，汇报实际commit、分支、PR状态。用户已要求持续保留每次md记录和下一个窗口所需文件；不得只在聊天里总结。
 
 ## Evidence and claims
 

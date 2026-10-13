@@ -1,0 +1,42 @@
+experiment_id: E0b_smoke
+seed: 20260907
+physical_gpu: 3
+cuda_visible_devices: '3'
+cuda_device_order: PCI_BUS_ID
+em_checkpoint: /opt/data/3_117/tanghr/DINOv3/med_checkpoints_continual_v2/eval/training_124999/teacher_checkpoint.pth
+gram_anchoring: false
+model: original Primus_Multiscale + vit_large
+layers_zero_based:
+- 5
+- 11
+- 17
+- 23
+n_storage_tokens: 0
+patch_size: 16
+crop: 192
+classes: 2
+max_steps: 200
+batch_size_per_gpu: 1
+num_workers: 2
+prefetch_factor: 1
+persistent_workers: false
+pin_memory: false
+cache_dataset_in_ram: false
+amp: bf16
+gradient_accumulation_steps: 1
+decoder_lr: 3.0e-05
+backbone_lr: 3.0e-06
+warmup_epochs: 5
+steps_per_epoch: 100
+epochs_reference: 300
+weight_decay: 0.05
+adam_betas:
+- 0.9
+- 0.98
+normalization: (uint8/255-0.485)/0.229; original ImageNetNormalization
+augmentation: synchronized flips only; exploratory adapter, not exact nnUNet augmentation
+split: exploratory_split.json
+official_benchmark: false
+save_optimizer: false
+notes: Encoder pretrained; decoder/gates initialized anew. No downstream checkpoint
+  loaded.

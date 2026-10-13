@@ -59,7 +59,9 @@ def verify_mv2(root=ROOT, manifest=None):
 
 def validate(root=ROOT):
     index=read(root,'evidence/file_index.json')
-    for record in index:
+    history=read(root,'evidence/history_file_index.json')
+    assert len({row['repository_path'] for row in history})==len(history)
+    for record in index+history:
         path=(root/record['repository_path']).resolve()
         assert path.is_relative_to(root.resolve()),'Snapshot escapes repository'
         assert path.stat().st_size==record['bytes'] and hashlib.sha256(path.read_bytes()).hexdigest()==record['sha256'],f"Snapshot changed: {record['repository_path']}"
@@ -84,7 +86,8 @@ def validate(root=ROOT):
     receipt=read(root,'evidence/collection_receipt.json')
     assert receipt['server_writes'] is False and receipt['gpu_work_started'] is False
     forbidden_suffixes={'.pth','.pt','.ckpt','.pem','.key','.tif','.tiff','.h5','.npy','.npz','.zip','.rar','.log'}
-    patterns=[r'-----BEGIN [A-Z ]*PRIVATE KEY-----',r'gh[pousr]_[A-Za-z0-9]{30,}',r'github_pat_[A-Za-z0-9_]{30,}',r'(?i)(?:password|passwd|secret|access_token)\s*[:=]\s*[\"\'][^\"\']{6,}[\"\']']
+    from archive_local_research import SECRET_PATTERNS
+    patterns=SECRET_PATTERNS
     scanned=0
     for path in root.rglob('*'):
         if not path.is_file() or '.git' in path.relative_to(root).parts or '__pycache__' in path.relative_to(root).parts:continue
@@ -94,6 +97,6 @@ def validate(root=ROOT):
         text=path.read_text(encoding='utf-8')
         assert not any(re.search(pattern,text) for pattern in patterns),f'Possible credential in {path.relative_to(root)}'
         scanned+=1
-    print(json.dumps({'status':'PASS','provenance_files':len(index),'experiment_records':len(registry['experiments']),'formal_heads':9,'development_entries':188,'text_files_scanned':scanned,'gpu_used':False}))
+    print(json.dumps({'status':'PASS','provenance_files':len(index),'historical_files':len(history),'experiment_records':len(registry['experiments']),'formal_heads':9,'development_entries':188,'text_files_scanned':scanned,'gpu_used':False}))
 
 if __name__=='__main__':validate()

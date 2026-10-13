@@ -1,0 +1,34 @@
+{
+  "collected_at": "2026-10-13T11:36:28.259010+00:00",
+  "imports": {
+    "torch": {
+      "file": "/opt/data/3_117/tanghr/envs/meddinov3/lib/python3.11/site-packages/torch/__init__.py",
+      "path": [
+        "/opt/data/3_117/tanghr/envs/meddinov3/lib/python3.11/site-packages/torch"
+      ]
+    },
+    "nnunetv2": {
+      "file": null,
+      "path": [
+        "/opt/data/3_117/tanghr/envs/meddinov3/lib/python3.11/site-packages/nnunetv2",
+        "/opt/data/3_117/tanghr/Med_DINOv3/MedDINOv3/nnUNet/src/nnunetv2"
+      ]
+    },
+    "monai": {
+      "file": "/opt/data/3_117/tanghr/envs/meddinov3/lib/python3.11/site-packages/monai/__init__.py",
+      "path": [
+        "/opt/data/3_117/tanghr/envs/meddinov3/lib/python3.11/site-packages/monai"
+      ]
+    },
+    "dynamic_network_architectures": {
+      "file": "/opt/data/3_117/tanghr/envs/meddinov3/lib/python3.11/site-packages/dynamic_network_architectures/__init__.py",
+      "path": [
+        "/opt/data/3_117/tanghr/envs/meddinov3/lib/python3.11/site-packages/dynamic_network_architectures"
+      ]
+    },
+    "official_primus": {
+      "file": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/official_primus.py",
+      "path": []
+    }
+  }
+}

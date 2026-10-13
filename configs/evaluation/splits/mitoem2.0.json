@@ -1,0 +1,50 @@
+{
+  "name": "mitoem2.0",
+  "description": "MitoEM2.0 multi-domain generalization benchmark (8 sub-datasets), defined as a split OVERLAY over existing MitoVerse source volumes — no duplicated data. ME2-Jurkat/Macro/Podo are the (256,1024,1024) test0/test1 crops in openorganelle. ME2-Pyra is a masked crop/region of wei20/mitoEM-H. ME2-Sperm = kunduri22.",
+  "arrays": {"image": "img", "label": "mito"},
+  "subsets": {
+    "ME2-Beta":   {"source": "muller21",                     "ref": "Müller'21 (BetaSeg)"},
+    "ME2-Jurkat": {"source": "openorganelle (jrc_jurkat-1)",      "ref": "Xu'21 (OpenOrganelle atlas)"},
+    "ME2-Macro":  {"source": "openorganelle (jrc_macrophage-2)",  "ref": "Xu'21 (OpenOrganelle atlas)"},
+    "ME2-Mossy":  {"source": "han24",                         "ref": "Han'24"},
+    "ME2-Pyra":   {"source": "wei20/mitoEM-H (masked crop/regions, no duplicate)", "ref": "Wei'20 (MitoEM)"},
+    "ME2-Podo":   {"source": "openorganelle (jrc_mus-kidney)",    "ref": "CellMap'24"},
+    "ME2-Sperm":  {"source": "kunduri22 (gt not connected across train01/train02 yet)", "ref": "Kunduri'22"},
+    "ME2-Stem":   {"source": "jiang25",                       "ref": "Jiang'25"}
+  },
+  "volumes": [
+    {"me2": "ME2-Beta", "id": "muller21_high_c1", "zarr": "data/muller21/high_c1.zarr", "split": "train"},
+    {"me2": "ME2-Beta", "id": "muller21_high_c3", "zarr": "data/muller21/high_c3.zarr", "split": "train"},
+    {"me2": "ME2-Beta", "id": "muller21_low_c1",  "zarr": "data/muller21/low_c1.zarr",  "split": "train"},
+    {"me2": "ME2-Beta", "id": "muller21_low_c2",  "zarr": "data/muller21/low_c2.zarr",  "split": "train"},
+    {"me2": "ME2-Beta", "id": "muller21_high_c2", "zarr": "data/muller21/high_c2.zarr", "split": "test"},
+    {"me2": "ME2-Beta", "id": "muller21_high_c4", "zarr": "data/muller21/high_c4.zarr", "split": "test"},
+    {"me2": "ME2-Beta", "id": "muller21_low_c3",  "zarr": "data/muller21/low_c3.zarr",  "split": "test"},
+
+    {"me2": "ME2-Jurkat", "id": "openorganelle_jrc_jurkat-1_recon-1_test0", "zarr": "data/openorganelle/jrc_jurkat-1_recon-1_test0.zarr", "split": "train"},
+    {"me2": "ME2-Jurkat", "id": "openorganelle_jrc_jurkat-1_recon-1_test1", "zarr": "data/openorganelle/jrc_jurkat-1_recon-1_test1.zarr", "split": "test"},
+
+    {"me2": "ME2-Macro", "id": "openorganelle_jrc_macrophage-2_recon-1_test0", "zarr": "data/openorganelle/jrc_macrophage-2_recon-1_test0.zarr", "split": "train"},
+    {"me2": "ME2-Macro", "id": "openorganelle_jrc_macrophage-2_recon-1_test1", "zarr": "data/openorganelle/jrc_macrophage-2_recon-1_test1.zarr", "split": "test"},
+
+    {"me2": "ME2-Mossy", "id": "han24_neg0", "zarr": "data/han24/neg0.zarr", "split": "train"},
+    {"me2": "ME2-Mossy", "id": "han24_pos0", "zarr": "data/han24/pos0.zarr", "split": "train"},
+    {"me2": "ME2-Mossy", "id": "han24_pos2", "zarr": "data/han24/pos2.zarr", "split": "train"},
+    {"me2": "ME2-Mossy", "id": "han24_neg1", "zarr": "data/han24/neg1.zarr", "split": "test"},
+    {"me2": "ME2-Mossy", "id": "han24_pos1", "zarr": "data/han24/pos1.zarr", "split": "test"},
+
+    {"me2": "ME2-Podo", "id": "openorganelle_jrc_mus-kidney_recon-1_test0", "zarr": "data/openorganelle/jrc_mus-kidney_recon-1_test0.zarr", "split": "train"},
+    {"me2": "ME2-Podo", "id": "openorganelle_jrc_mus-kidney_recon-1_test1", "zarr": "data/openorganelle/jrc_mus-kidney_recon-1_test1.zarr", "split": "test"},
+
+    {"me2": "ME2-Pyra", "id": "wei20_mitoEM-H", "zarr": "data/wei20/mitoEM-H.zarr", "split": "train",
+     "note": "ME2-Pyra = masked 512-crops (train) + held-out region (test) of this single volume; use regions once PyTC supports them"},
+
+    {"me2": "ME2-Stem", "id": "jiang25_vol1", "zarr": "data/jiang25/vol1.zarr", "split": "train"},
+    {"me2": "ME2-Stem", "id": "jiang25_vol2", "zarr": "data/jiang25/vol2.zarr", "split": "val"},
+    {"me2": "ME2-Stem", "id": "jiang25_vol0", "zarr": "data/jiang25/vol0.zarr", "split": "test"},
+
+    {"me2": "ME2-Sperm", "id": "kunduri22_train01", "zarr": "data/kunduri22/train01.zarr", "split": "train"},
+    {"me2": "ME2-Sperm", "id": "kunduri22_train02", "zarr": "data/kunduri22/train02.zarr", "split": "train"},
+    {"me2": "ME2-Sperm", "id": "kunduri22_test01",  "zarr": "data/kunduri22/test01.zarr",  "split": "test"}
+  ]
+}

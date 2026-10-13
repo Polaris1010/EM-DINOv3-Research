@@ -1,0 +1,103 @@
+{
+  "observed_at": "2026-10-13T11:29:51Z",
+  "verified": [
+    {
+      "executable": "/opt/data/3_117/tanghr/dinov3_shared/bin/python",
+      "version": "3.11.14 (main, Oct 21 2025, 18:31:21) [GCC 11.2.0]",
+      "packages": {
+        "torch": "2.10.0",
+        "nnunetv2": "NOT_INSTALLED",
+        "monai": "NOT_INSTALLED",
+        "dynamic-network-architectures": "NOT_INSTALLED",
+        "zarr": "NOT_INSTALLED",
+        "empanada-dl": "NOT_INSTALLED",
+        "segment-anything": "NOT_INSTALLED"
+      },
+      "module_origins": {
+        "torch": "/opt/data/3_117/tanghr/dinov3_shared/lib/python3.11/site-packages/torch/__init__.py",
+        "nnunetv2": "NOT_INSTALLED",
+        "monai": "NOT_INSTALLED",
+        "dynamic_network_architectures": "NOT_INSTALLED",
+        "zarr": "NOT_INSTALLED",
+        "empanada": "NOT_INSTALLED",
+        "segment_anything": "NOT_INSTALLED"
+      },
+      "torch_version": "2.10.0+cu128",
+      "torch_cuda": "12.8"
+    },
+    {
+      "executable": "/opt/data/3_117/tanghr/envs/meddinov3/bin/python",
+      "version": "3.11.9 (main, Apr 19 2024, 16:48:06) [GCC 11.2.0]",
+      "packages": {
+        "torch": "2.5.1",
+        "nnunetv2": "2.5.2",
+        "monai": "1.5.0",
+        "dynamic-network-architectures": "0.4.2",
+        "zarr": "3.1.6",
+        "empanada-dl": "NOT_INSTALLED",
+        "segment-anything": "NOT_INSTALLED"
+      },
+      "module_origins": {
+        "torch": "/opt/data/3_117/tanghr/envs/meddinov3/lib/python3.11/site-packages/torch/__init__.py",
+        "nnunetv2": null,
+        "monai": "/opt/data/3_117/tanghr/envs/meddinov3/lib/python3.11/site-packages/monai/__init__.py",
+        "dynamic_network_architectures": "/opt/data/3_117/tanghr/envs/meddinov3/lib/python3.11/site-packages/dynamic_network_architectures/__init__.py",
+        "zarr": "/opt/data/3_117/tanghr/envs/meddinov3/lib/python3.11/site-packages/zarr/__init__.py",
+        "empanada": "NOT_INSTALLED",
+        "segment_anything": "NOT_INSTALLED"
+      },
+      "torch_version": "2.5.1",
+      "torch_cuda": "12.4"
+    },
+    {
+      "executable": "/opt/data/3_117/tanghr/envs/mitoverse/bin/python",
+      "version": "3.11.15 (main, Jun 11 2026, 15:20:16) [GCC 14.3.0]",
+      "packages": {
+        "torch": "NOT_INSTALLED",
+        "nnunetv2": "NOT_INSTALLED",
+        "monai": "NOT_INSTALLED",
+        "dynamic-network-architectures": "NOT_INSTALLED",
+        "zarr": "2.18.7",
+        "empanada-dl": "NOT_INSTALLED",
+        "segment-anything": "NOT_INSTALLED"
+      },
+      "module_origins": {
+        "torch": "NOT_INSTALLED",
+        "nnunetv2": "NOT_INSTALLED",
+        "monai": "NOT_INSTALLED",
+        "dynamic_network_architectures": "NOT_INSTALLED",
+        "zarr": "/opt/data/3_117/tanghr/envs/mitoverse/lib/python3.11/site-packages/zarr/__init__.py",
+        "empanada": "NOT_INSTALLED",
+        "segment_anything": "NOT_INSTALLED"
+      },
+      "torch_import_error": "No module named 'torch'"
+    }
+  ],
+  "discovered_only": [
+    {
+      "executable": "/opt/data/3_117/tanghr/envs/dinov2/bin/python",
+      "import_status": "TIMEOUT"
+    },
+    {
+      "executable": "/opt/data/3_117/tanghr/envs/swinunetr/bin/python",
+      "import_status": "UNVERIFIED"
+    },
+    {
+      "executable": "/opt/data/3_117/tanghr/envs/sam3/bin/python",
+      "import_status": "UNVERIFIED"
+    },
+    {
+      "executable": "/opt/data/3_117/tanghr/envs/microsam/bin/python",
+      "import_status": "UNVERIFIED"
+    },
+    {
+      "executable": "/opt/data/3_117/tanghr/envs/medsam/bin/python",
+      "import_status": "UNVERIFIED"
+    },
+    {
+      "executable": "/opt/data/3_117/tanghr/miniconda3/bin/python",
+      "import_status": "UNVERIFIED"
+    }
+  ],
+  "mv1_python_evidence": "Completed launch source uses /opt/data/3_117/tanghr/envs/meddinov3/bin/python; actual MV-1 metric logs include this environment site-packages path. MV-2 ExecStart and live processes independently confirm it. Historical MV-1 process executable is not recoverable from an inactive service."
+}

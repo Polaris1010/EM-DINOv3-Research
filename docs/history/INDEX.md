@@ -1,0 +1,86 @@
+# 历次研究Markdown记录索引
+
+这里按原始目录保存本地已有研究记录，源码/配置对应档案位于 `archive/research/`。
+原文件字节不改动，每份的来源、大小、SHA见 `evidence/history_file_index.json`。
+档案中的计划、旧状态和旧watcher命令不代表当前完成事实或启动授权；当前事实仍以PROJECT_STATE、registry和NEXT_ACTION为准。
+
+共保存 76 份Markdown；全部历史代码/配置/记录 664 份。
+
+| 原始记录 | 仓库副本 |
+| --- | --- |
+| artifacts/REVIEW_RULES_zh.md | [读取](<artifacts/REVIEW_RULES_zh.md>) |
+| artifacts/mitoverse_full_stage1_execution_status_20260929.md | [读取](<artifacts/mitoverse_full_stage1_execution_status_20260929.md>) |
+| artifacts/mitoverse_full_stage1_preflight_20260929.md | [读取](<artifacts/mitoverse_full_stage1_preflight_20260929.md>) |
+| artifacts/stage1_config_diff_report.md | [读取](<artifacts/stage1_config_diff_report.md>) |
+| artifacts/data_governance_stage0_20261013/README.md | [读取](<artifacts/data_governance_stage0_20261013/README.md>) |
+| artifacts/data_governance_stage0_20261013/benchmark_protocol_v1.md | [读取](<artifacts/data_governance_stage0_20261013/benchmark_protocol_v1.md>) |
+| artifacts/data_governance_stage0_20261013/go_no_go_report.md | [读取](<artifacts/data_governance_stage0_20261013/go_no_go_report.md>) |
+| artifacts/data_governance_stage0_20261013/sources/mv_README.md | [读取](<artifacts/data_governance_stage0_20261013/sources/mv_README.md>) |
+| artifacts/data_governance_stage0_20261013/sources/mv_TODO.md | [读取](<artifacts/data_governance_stage0_20261013/sources/mv_TODO.md>) |
+| artifacts/data_governance_stage0_20261013/sources/mv_splits_README.md | [读取](<artifacts/data_governance_stage0_20261013/sources/mv_splits_README.md>) |
+| artifacts/data_governance_stage0_20261013/sources/orgmim_README.md | [读取](<artifacts/data_governance_stage0_20261013/sources/orgmim_README.md>) |
+| artifacts/gram_long_round5/official_to_local_config_diff.md | [读取](<artifacts/gram_long_round5/official_to_local_config_diff.md>) |
+| artifacts/gram_long_round5/round5_results.md | [读取](<artifacts/gram_long_round5/round5_results.md>) |
+| artifacts/gram_long_round5/修订执行方案.md | [读取](<artifacts/gram_long_round5/修订执行方案.md>) |
+| artifacts/gram_long_round5/启动记录.md | [读取](<artifacts/gram_long_round5/启动记录.md>) |
+| artifacts/gram_long_round5/launch_evidence/official_to_local_config_diff.md | [读取](<artifacts/gram_long_round5/launch_evidence/official_to_local_config_diff.md>) |
+| artifacts/gram_long_round5/launch_evidence/修订执行方案.md | [读取](<artifacts/gram_long_round5/launch_evidence/修订执行方案.md>) |
+| artifacts/mito_pretrain_v2_control/review.md | [读取](<artifacts/mito_pretrain_v2_control/review.md>) |
+| artifacts/mito_pretrain_v2_control/runbook.md | [读取](<artifacts/mito_pretrain_v2_control/runbook.md>) |
+| artifacts/mito_pretrain_v2_control/p1_mitonet_analysis_20260927/report.md | [读取](<artifacts/mito_pretrain_v2_control/p1_mitonet_analysis_20260927/report.md>) |
+| artifacts/mitotopo_first_round/audit_report.md | [读取](<artifacts/mitotopo_first_round/audit_report.md>) |
+| artifacts/mitotopo_first_round/notes.md | [读取](<artifacts/mitotopo_first_round/notes.md>) |
+| artifacts/mitotopo_first_round/delivery/audit_report.md | [读取](<artifacts/mitotopo_first_round/delivery/audit_report.md>) |
+| artifacts/mitotopo_first_round/delivery/notes.md | [读取](<artifacts/mitotopo_first_round/delivery/notes.md>) |
+| artifacts/mitotopo_round2/comparison_report.md | [读取](<artifacts/mitotopo_round2/comparison_report.md>) |
+| artifacts/mitotopo_round2/next_iteration_20260909.md | [读取](<artifacts/mitotopo_round2/next_iteration_20260909.md>) |
+| artifacts/mitotopo_round2/delivery/comparison_report.md | [读取](<artifacts/mitotopo_round2/delivery/comparison_report.md>) |
+| artifacts/mitotopo_round3/comparison.md | [读取](<artifacts/mitotopo_round3/comparison.md>) |
+| artifacts/mitotopo_round3/next_iteration_plan.md | [读取](<artifacts/mitotopo_round3/next_iteration_plan.md>) |
+| artifacts/mitotopo_round3/validation_report.md | [读取](<artifacts/mitotopo_round3/validation_report.md>) |
+| artifacts/mitotopo_round3/mitotopo_round3/comparison.md | [读取](<artifacts/mitotopo_round3/mitotopo_round3/comparison.md>) |
+| artifacts/mitotopo_round3/mitotopo_round3/next_iteration_plan.md | [读取](<artifacts/mitotopo_round3/mitotopo_round3/next_iteration_plan.md>) |
+| artifacts/mitotopo_round3/mitotopo_round3/validation_report.md | [读取](<artifacts/mitotopo_round3/mitotopo_round3/validation_report.md>) |
+| artifacts/mitoverse_B_full_extend150k_20261012/REPORT_100k_150k_zh.md | [读取](<artifacts/mitoverse_B_full_extend150k_20261012/REPORT_100k_150k_zh.md>) |
+| artifacts/mitoverse_CMCC_CMCT_label1_20261012/REPORT_label1_zh.md | [读取](<artifacts/mitoverse_CMCC_CMCT_label1_20261012/REPORT_label1_zh.md>) |
+| artifacts/mitoverse_boundary_metrics_20261012/REPORT_zh.md | [读取](<artifacts/mitoverse_boundary_metrics_20261012/REPORT_zh.md>) |
+| artifacts/mitoverse_full_restart_control/execution_record.md | [读取](<artifacts/mitoverse_full_restart_control/execution_record.md>) |
+| artifacts/mitoverse_full_restart_control/runbook.md | [读取](<artifacts/mitoverse_full_restart_control/runbook.md>) |
+| artifacts/mitoverse_full_stage1_final/B_training_report.md | [读取](<artifacts/mitoverse_full_stage1_final/B_training_report.md>) |
+| artifacts/mitoverse_full_stage1_final/final_stage1_audit.md | [读取](<artifacts/mitoverse_full_stage1_final/final_stage1_audit.md>) |
+| artifacts/mitoverse_full_stage1_final/stage1_summary.md | [读取](<artifacts/mitoverse_full_stage1_final/stage1_summary.md>) |
+| artifacts/mitoverse_full_stage1_mam_results/report.md | [读取](<artifacts/mitoverse_full_stage1_mam_results/report.md>) |
+| artifacts/mitoverse_full_stage2A_result/stage2A_calibration.md | [读取](<artifacts/mitoverse_full_stage2A_result/stage2A_calibration.md>) |
+| artifacts/mitoverse_full_stage2a2_control_20261011/COMPARISON_zh.md | [读取](<artifacts/mitoverse_full_stage2a2_control_20261011/COMPARISON_zh.md>) |
+| artifacts/mitoverse_full_stage2a2_control_20261011/REPORT_TO_SENIOR_zh.md | [读取](<artifacts/mitoverse_full_stage2a2_control_20261011/REPORT_TO_SENIOR_zh.md>) |
+| artifacts/mitoverse_full_stage2a2_control_20261011/REVIEW_RULES_zh.md | [读取](<artifacts/mitoverse_full_stage2a2_control_20261011/REVIEW_RULES_zh.md>) |
+| artifacts/mitoverse_full_stage2a2_control_20261011/trial20/REVIEW_RULES_zh.md | [读取](<artifacts/mitoverse_full_stage2a2_control_20261011/trial20/REVIEW_RULES_zh.md>) |
+| artifacts/mitoverse_full_stage2a2_result/REPORT.md | [读取](<artifacts/mitoverse_full_stage2a2_result/REPORT.md>) |
+| artifacts/mitoverse_round4/execution_record.md | [读取](<artifacts/mitoverse_round4/execution_record.md>) |
+| artifacts/mitoverse_round4/final_report.md | [读取](<artifacts/mitoverse_round4/final_report.md>) |
+| artifacts/mitoverse_round4/mitonet_comparison_preparation.md | [读取](<artifacts/mitoverse_round4/mitonet_comparison_preparation.md>) |
+| artifacts/mitoverse_round4/split_audit.md | [读取](<artifacts/mitoverse_round4/split_audit.md>) |
+| artifacts/mitoverse_round6/Han24_来源核验与修复.md | [读取](<artifacts/mitoverse_round6/Han24_来源核验与修复.md>) |
+| artifacts/mitoverse_round6/MitoNet_progress_latest.md | [读取](<artifacts/mitoverse_round6/MitoNet_progress_latest.md>) |
+| artifacts/mitoverse_round6/MitoNet_validation_comparison.md | [读取](<artifacts/mitoverse_round6/MitoNet_validation_comparison.md>) |
+| artifacts/mitoverse_round6/provenance_followup.md | [读取](<artifacts/mitoverse_round6/provenance_followup.md>) |
+| artifacts/mitoverse_round6/split_audit.md | [读取](<artifacts/mitoverse_round6/split_audit.md>) |
+| artifacts/mitoverse_round6/下一步_短程持续预训练.md | [读取](<artifacts/mitoverse_round6/下一步_短程持续预训练.md>) |
+| artifacts/mitoverse_round6/审查与执行进展.md | [读取](<artifacts/mitoverse_round6/审查与执行进展.md>) |
+| artifacts/mv_dev_v2_notta_20261013/PROTOCOL_CORRECTION.md | [读取](<artifacts/mv_dev_v2_notta_20261013/PROTOCOL_CORRECTION.md>) |
+| artifacts/mv_generalist_stage1_20261013/README.md | [读取](<artifacts/mv_generalist_stage1_20261013/README.md>) |
+| artifacts/mv_generalist_stage1_20261013/source_failure_analysis.md | [读取](<artifacts/mv_generalist_stage1_20261013/source_failure_analysis.md>) |
+| artifacts/mv_generalist_stage1_20261013/split_exposure_audit.md | [读取](<artifacts/mv_generalist_stage1_20261013/split_exposure_audit.md>) |
+| artifacts/mv_generalist_stage1_20261013/evidence/inference_batching_note.md | [读取](<artifacts/mv_generalist_stage1_20261013/evidence/inference_batching_note.md>) |
+| artifacts/primus_official_reprobe_20261013/README.md | [读取](<artifacts/primus_official_reprobe_20261013/README.md>) |
+| artifacts/primus_official_reprobe_20261013/REPORT_verified_zh.md | [读取](<artifacts/primus_official_reprobe_20261013/REPORT_verified_zh.md>) |
+| artifacts/primus_official_reprobe_20261013/REPORT_zh.md | [读取](<artifacts/primus_official_reprobe_20261013/REPORT_zh.md>) |
+| artifacts/representation_diagnosis_audit_20261013/README.md | [读取](<artifacts/representation_diagnosis_audit_20261013/README.md>) |
+| artifacts/representation_diagnosis_audit_20261013/decoder_architecture_audit.md | [读取](<artifacts/representation_diagnosis_audit_20261013/decoder_architecture_audit.md>) |
+| artifacts/representation_diagnosis_audit_20261013/dinov3_stage_completion_audit.md | [读取](<artifacts/representation_diagnosis_audit_20261013/dinov3_stage_completion_audit.md>) |
+| artifacts/representation_diagnosis_audit_20261013/representation_diagnosis_preflight.md | [读取](<artifacts/representation_diagnosis_audit_20261013/representation_diagnosis_preflight.md>) |
+| artifacts/representation_diagnosis_live_20261013/README.md | [读取](<artifacts/representation_diagnosis_live_20261013/README.md>) |
+| artifacts/representation_diagnosis_live_20261013/decoder_architecture_audit.md | [读取](<artifacts/representation_diagnosis_live_20261013/decoder_architecture_audit.md>) |
+| artifacts/representation_diagnosis_live_20261013/dinov3_stage_completion_audit.md | [读取](<artifacts/representation_diagnosis_live_20261013/dinov3_stage_completion_audit.md>) |
+| artifacts/representation_diagnosis_live_20261013/representation_diagnosis_preflight.md | [读取](<artifacts/representation_diagnosis_live_20261013/representation_diagnosis_preflight.md>) |
+| MitoVerse_全量重新预训练_新窗口执行方案.md | [读取](<MitoVerse_全量重新预训练_新窗口执行方案.md>) |

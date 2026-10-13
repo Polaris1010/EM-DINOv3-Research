@@ -1,0 +1,492 @@
+[
+  {
+    "path": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/P0/seed20261013/head_last.pth",
+    "exists": true,
+    "bytes": 178313036,
+    "mtime_ns": 1791868515040484401,
+    "top_level_keys": [
+      "head",
+      "step",
+      "metadata"
+    ],
+    "metadata": {
+      "step": 20000,
+      "metadata": {
+        "model": "P0",
+        "seed": 20261013,
+        "steps": 20000,
+        "pilot": false,
+        "decoder_initial_sha256": "61d4504bb255427be46b6ed1deff8b80624f431efc63b44d611acf8e81825e74",
+        "manifest_sha256": "9346286eac4cc1c57d24c1f1b296ed5eaaac6c0df061a8684cf4604af76f0df8",
+        "protocol_sha256": "b788831a0a860f9acb996e5d830cdc56265977fe909eb9cfffb86a20114220d0",
+        "encoder_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+        "encoder_frozen": true,
+        "gates": false,
+        "test_labels_accessed": false,
+        "probe_source_sha256": "4071da2213b8f55f28ce13522d74e716c61be7900a37c96318942983be3546ec",
+        "validation_tile_batch_size": 16,
+        "training_batch_size": 1,
+        "completed_steps": 20000,
+        "samples_sequence_sha256": "4b98708ab1719bd1709e785989aeb8a7a282de0d975ab86fb7826a38ee53ec0b",
+        "source_draws": {
+          "jiang25": 6707,
+          "guay21": 6708,
+          "muller21": 6585
+        },
+        "seconds": 864.2376890182495
+      }
+    },
+    "head_parameters_in_state": 44576514
+  },
+  {
+    "path": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/P0/seed20261014/head_last.pth",
+    "exists": true,
+    "bytes": 178313036,
+    "mtime_ns": 1791875005729815243,
+    "top_level_keys": [
+      "head",
+      "step",
+      "metadata"
+    ],
+    "metadata": {
+      "step": 20000,
+      "metadata": {
+        "model": "P0",
+        "seed": 20261014,
+        "steps": 20000,
+        "pilot": false,
+        "decoder_initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec",
+        "manifest_sha256": "9346286eac4cc1c57d24c1f1b296ed5eaaac6c0df061a8684cf4604af76f0df8",
+        "protocol_sha256": "b788831a0a860f9acb996e5d830cdc56265977fe909eb9cfffb86a20114220d0",
+        "encoder_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+        "encoder_frozen": true,
+        "gates": false,
+        "test_labels_accessed": false,
+        "probe_source_sha256": "4071da2213b8f55f28ce13522d74e716c61be7900a37c96318942983be3546ec",
+        "validation_tile_batch_size": 16,
+        "training_batch_size": 1,
+        "completed_steps": 20000,
+        "samples_sequence_sha256": "73ae3d19125807f1628fd3de125407d8ca7ad52e3cb9800e5f8fb1355418d509",
+        "source_draws": {
+          "muller21": 6719,
+          "jiang25": 6612,
+          "guay21": 6669
+        },
+        "seconds": 993.4492356777191
+      }
+    },
+    "head_parameters_in_state": 44576514
+  },
+  {
+    "path": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/P0/seed20261015/head_last.pth",
+    "exists": true,
+    "bytes": 178313036,
+    "mtime_ns": 1791876364796727647,
+    "top_level_keys": [
+      "head",
+      "step",
+      "metadata"
+    ],
+    "metadata": {
+      "step": 20000,
+      "metadata": {
+        "model": "P0",
+        "seed": 20261015,
+        "steps": 20000,
+        "pilot": false,
+        "decoder_initial_sha256": "17d5a0fc3570cf232e74945e027b1c10c3b728b673d33a76108223a4c1c92a35",
+        "manifest_sha256": "9346286eac4cc1c57d24c1f1b296ed5eaaac6c0df061a8684cf4604af76f0df8",
+        "protocol_sha256": "b788831a0a860f9acb996e5d830cdc56265977fe909eb9cfffb86a20114220d0",
+        "encoder_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+        "encoder_frozen": true,
+        "gates": false,
+        "test_labels_accessed": false,
+        "probe_source_sha256": "4071da2213b8f55f28ce13522d74e716c61be7900a37c96318942983be3546ec",
+        "validation_tile_batch_size": 16,
+        "training_batch_size": 1,
+        "completed_steps": 20000,
+        "samples_sequence_sha256": "876b9ce78de91341bf46276fc98d767b2b16a206368cce1145e931e9eb896bbe",
+        "source_draws": {
+          "muller21": 6818,
+          "guay21": 6575,
+          "jiang25": 6607
+        },
+        "seconds": 885.4933986663818
+      }
+    },
+    "head_parameters_in_state": 44576514
+  },
+  {
+    "path": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B100k/seed20261013/head_last.pth",
+    "exists": true,
+    "bytes": 178313036,
+    "mtime_ns": 1791868522560443158,
+    "top_level_keys": [
+      "head",
+      "step",
+      "metadata"
+    ],
+    "metadata": {
+      "step": 20000,
+      "metadata": {
+        "model": "B100k",
+        "seed": 20261013,
+        "steps": 20000,
+        "pilot": false,
+        "decoder_initial_sha256": "61d4504bb255427be46b6ed1deff8b80624f431efc63b44d611acf8e81825e74",
+        "manifest_sha256": "9346286eac4cc1c57d24c1f1b296ed5eaaac6c0df061a8684cf4604af76f0df8",
+        "protocol_sha256": "b788831a0a860f9acb996e5d830cdc56265977fe909eb9cfffb86a20114220d0",
+        "encoder_sha256": "9603877244ba40f3cbeccdea18d69b0d3b818dc0fc6b09f839fd6d4189ce2de5",
+        "encoder_frozen": true,
+        "gates": false,
+        "test_labels_accessed": false,
+        "probe_source_sha256": "4071da2213b8f55f28ce13522d74e716c61be7900a37c96318942983be3546ec",
+        "validation_tile_batch_size": 16,
+        "training_batch_size": 1,
+        "completed_steps": 20000,
+        "samples_sequence_sha256": "4b98708ab1719bd1709e785989aeb8a7a282de0d975ab86fb7826a38ee53ec0b",
+        "source_draws": {
+          "jiang25": 6707,
+          "guay21": 6708,
+          "muller21": 6585
+        },
+        "seconds": 871.6827120780945
+      }
+    },
+    "head_parameters_in_state": 44576514
+  },
+  {
+    "path": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B100k/seed20261014/head_last.pth",
+    "exists": true,
+    "bytes": 178313036,
+    "mtime_ns": 1791875005812524313,
+    "top_level_keys": [
+      "head",
+      "step",
+      "metadata"
+    ],
+    "metadata": {
+      "step": 20000,
+      "metadata": {
+        "model": "B100k",
+        "seed": 20261014,
+        "steps": 20000,
+        "pilot": false,
+        "decoder_initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec",
+        "manifest_sha256": "9346286eac4cc1c57d24c1f1b296ed5eaaac6c0df061a8684cf4604af76f0df8",
+        "protocol_sha256": "b788831a0a860f9acb996e5d830cdc56265977fe909eb9cfffb86a20114220d0",
+        "encoder_sha256": "9603877244ba40f3cbeccdea18d69b0d3b818dc0fc6b09f839fd6d4189ce2de5",
+        "encoder_frozen": true,
+        "gates": false,
+        "test_labels_accessed": false,
+        "probe_source_sha256": "4071da2213b8f55f28ce13522d74e716c61be7900a37c96318942983be3546ec",
+        "validation_tile_batch_size": 16,
+        "training_batch_size": 1,
+        "completed_steps": 20000,
+        "samples_sequence_sha256": "73ae3d19125807f1628fd3de125407d8ca7ad52e3cb9800e5f8fb1355418d509",
+        "source_draws": {
+          "muller21": 6719,
+          "jiang25": 6612,
+          "guay21": 6669
+        },
+        "seconds": 993.5093977451324
+      }
+    },
+    "head_parameters_in_state": 44576514
+  },
+  {
+    "path": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B100k/seed20261015/head_last.pth",
+    "exists": true,
+    "bytes": 178313036,
+    "mtime_ns": 1791876364790189051,
+    "top_level_keys": [
+      "head",
+      "step",
+      "metadata"
+    ],
+    "metadata": {
+      "step": 20000,
+      "metadata": {
+        "model": "B100k",
+        "seed": 20261015,
+        "steps": 20000,
+        "pilot": false,
+        "decoder_initial_sha256": "17d5a0fc3570cf232e74945e027b1c10c3b728b673d33a76108223a4c1c92a35",
+        "manifest_sha256": "9346286eac4cc1c57d24c1f1b296ed5eaaac6c0df061a8684cf4604af76f0df8",
+        "protocol_sha256": "b788831a0a860f9acb996e5d830cdc56265977fe909eb9cfffb86a20114220d0",
+        "encoder_sha256": "9603877244ba40f3cbeccdea18d69b0d3b818dc0fc6b09f839fd6d4189ce2de5",
+        "encoder_frozen": true,
+        "gates": false,
+        "test_labels_accessed": false,
+        "probe_source_sha256": "4071da2213b8f55f28ce13522d74e716c61be7900a37c96318942983be3546ec",
+        "validation_tile_batch_size": 16,
+        "training_batch_size": 1,
+        "completed_steps": 20000,
+        "samples_sequence_sha256": "876b9ce78de91341bf46276fc98d767b2b16a206368cce1145e931e9eb896bbe",
+        "source_draws": {
+          "muller21": 6818,
+          "guay21": 6575,
+          "jiang25": 6607
+        },
+        "seconds": 885.5843214988708
+      }
+    },
+    "head_parameters_in_state": 44576514
+  },
+  {
+    "path": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B150k/seed20261013/head_last.pth",
+    "exists": true,
+    "bytes": 178313036,
+    "mtime_ns": 1791868525034146141,
+    "top_level_keys": [
+      "head",
+      "step",
+      "metadata"
+    ],
+    "metadata": {
+      "step": 20000,
+      "metadata": {
+        "model": "B150k",
+        "seed": 20261013,
+        "steps": 20000,
+        "pilot": false,
+        "decoder_initial_sha256": "61d4504bb255427be46b6ed1deff8b80624f431efc63b44d611acf8e81825e74",
+        "manifest_sha256": "9346286eac4cc1c57d24c1f1b296ed5eaaac6c0df061a8684cf4604af76f0df8",
+        "protocol_sha256": "b788831a0a860f9acb996e5d830cdc56265977fe909eb9cfffb86a20114220d0",
+        "encoder_sha256": "9c67d08faf508a14d25418014422c0dbd641a51c122161dbd31f8af0a386d2ee",
+        "encoder_frozen": true,
+        "gates": false,
+        "test_labels_accessed": false,
+        "probe_source_sha256": "4071da2213b8f55f28ce13522d74e716c61be7900a37c96318942983be3546ec",
+        "validation_tile_batch_size": 16,
+        "training_batch_size": 1,
+        "completed_steps": 20000,
+        "samples_sequence_sha256": "4b98708ab1719bd1709e785989aeb8a7a282de0d975ab86fb7826a38ee53ec0b",
+        "source_draws": {
+          "jiang25": 6707,
+          "guay21": 6708,
+          "muller21": 6585
+        },
+        "seconds": 874.2784762382507
+      }
+    },
+    "head_parameters_in_state": 44576514
+  },
+  {
+    "path": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B150k/seed20261014/head_last.pth",
+    "exists": true,
+    "bytes": 178313036,
+    "mtime_ns": 1791875005784196601,
+    "top_level_keys": [
+      "head",
+      "step",
+      "metadata"
+    ],
+    "metadata": {
+      "step": 20000,
+      "metadata": {
+        "model": "B150k",
+        "seed": 20261014,
+        "steps": 20000,
+        "pilot": false,
+        "decoder_initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec",
+        "manifest_sha256": "9346286eac4cc1c57d24c1f1b296ed5eaaac6c0df061a8684cf4604af76f0df8",
+        "protocol_sha256": "b788831a0a860f9acb996e5d830cdc56265977fe909eb9cfffb86a20114220d0",
+        "encoder_sha256": "9c67d08faf508a14d25418014422c0dbd641a51c122161dbd31f8af0a386d2ee",
+        "encoder_frozen": true,
+        "gates": false,
+        "test_labels_accessed": false,
+        "probe_source_sha256": "4071da2213b8f55f28ce13522d74e716c61be7900a37c96318942983be3546ec",
+        "validation_tile_batch_size": 16,
+        "training_batch_size": 1,
+        "completed_steps": 20000,
+        "samples_sequence_sha256": "73ae3d19125807f1628fd3de125407d8ca7ad52e3cb9800e5f8fb1355418d509",
+        "source_draws": {
+          "muller21": 6719,
+          "jiang25": 6612,
+          "guay21": 6669
+        },
+        "seconds": 993.4758231639862
+      }
+    },
+    "head_parameters_in_state": 44576514
+  },
+  {
+    "path": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B150k/seed20261015/head_last.pth",
+    "exists": true,
+    "bytes": 178313036,
+    "mtime_ns": 1791876364538518373,
+    "top_level_keys": [
+      "head",
+      "step",
+      "metadata"
+    ],
+    "metadata": {
+      "step": 20000,
+      "metadata": {
+        "model": "B150k",
+        "seed": 20261015,
+        "steps": 20000,
+        "pilot": false,
+        "decoder_initial_sha256": "17d5a0fc3570cf232e74945e027b1c10c3b728b673d33a76108223a4c1c92a35",
+        "manifest_sha256": "9346286eac4cc1c57d24c1f1b296ed5eaaac6c0df061a8684cf4604af76f0df8",
+        "protocol_sha256": "b788831a0a860f9acb996e5d830cdc56265977fe909eb9cfffb86a20114220d0",
+        "encoder_sha256": "9c67d08faf508a14d25418014422c0dbd641a51c122161dbd31f8af0a386d2ee",
+        "encoder_frozen": true,
+        "gates": false,
+        "test_labels_accessed": false,
+        "probe_source_sha256": "4071da2213b8f55f28ce13522d74e716c61be7900a37c96318942983be3546ec",
+        "validation_tile_batch_size": 16,
+        "training_batch_size": 1,
+        "completed_steps": 20000,
+        "samples_sequence_sha256": "876b9ce78de91341bf46276fc98d767b2b16a206368cce1145e931e9eb896bbe",
+        "source_draws": {
+          "muller21": 6818,
+          "guay21": 6575,
+          "jiang25": 6607
+        },
+        "seconds": 885.3919689655304
+      }
+    },
+    "head_parameters_in_state": 44576514
+  },
+  {
+    "path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/runs/B_full/formal_attempt1/checkpoints/step000100000/full.pth",
+    "exists": true,
+    "bytes": 5607208357,
+    "mtime_ns": 1790699384193619916,
+    "safe_metadata_read_error": "Weights only load failed. This file can still be loaded, to do so you have two options, \u001b[1mdo those steps only if you trust the source of the checkpoint\u001b[0m. \n\t(1) Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.\n\t(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.\n\tWeightsUnpickler error: Unsupported global: GLOBAL numpy._core.multiarray._reconstruct was not an allowed global by default. Please use `torch.serialization.add_safe_globals([_reconstruct])` to allowlist this global if you trust this class/function.\n\nCheck the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html."
+  },
+  {
+    "path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/runs/B_full/formal_attempt1/checkpoints/step000100000/teacher_backbone.pth",
+    "exists": true,
+    "bytes": 1213025477,
+    "mtime_ns": 1790699398110790651,
+    "top_level_keys": [
+      "step",
+      "backbone",
+      "manifest_sha256",
+      "official_weight_sha256",
+      "config_sha256"
+    ],
+    "metadata": {
+      "step": 100000,
+      "manifest_sha256": "3fd614082bf584c21e212884856875e328104ea09a293a95510c0f5f3117edb9",
+      "official_weight_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+      "config_sha256": "159f45566320f9b583968aa8e9ffb07392d521bfa227b1ca0b4a4bde11f152d7"
+    }
+  },
+  {
+    "path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/runs/B_full/formal_attempt1/checkpoints/step000100000/student_backbone.pth",
+    "exists": true,
+    "bytes": 1213025477,
+    "mtime_ns": 1790699396173171152,
+    "top_level_keys": [
+      "step",
+      "backbone",
+      "manifest_sha256",
+      "official_weight_sha256",
+      "config_sha256"
+    ],
+    "metadata": {
+      "step": 100000,
+      "manifest_sha256": "3fd614082bf584c21e212884856875e328104ea09a293a95510c0f5f3117edb9",
+      "official_weight_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+      "config_sha256": "159f45566320f9b583968aa8e9ffb07392d521bfa227b1ca0b4a4bde11f152d7"
+    }
+  },
+  {
+    "path": "/opt/data/3_117/tanghr/codex/mitoverse_B_full_extend150k_20261012/runs/B_full/formal_attempt1/checkpoints/step000150000/full.pth",
+    "exists": true,
+    "bytes": 5607209829,
+    "mtime_ns": 1791777695377580061,
+    "safe_metadata_read_error": "Weights only load failed. This file can still be loaded, to do so you have two options, \u001b[1mdo those steps only if you trust the source of the checkpoint\u001b[0m. \n\t(1) Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.\n\t(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.\n\tWeightsUnpickler error: Unsupported global: GLOBAL numpy._core.multiarray._reconstruct was not an allowed global by default. Please use `torch.serialization.add_safe_globals([_reconstruct])` to allowlist this global if you trust this class/function.\n\nCheck the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html."
+  },
+  {
+    "path": "/opt/data/3_117/tanghr/codex/mitoverse_B_full_extend150k_20261012/runs/B_full/formal_attempt1/checkpoints/step000150000/teacher_backbone.pth",
+    "exists": true,
+    "bytes": 1213025477,
+    "mtime_ns": 1791777709440189782,
+    "top_level_keys": [
+      "step",
+      "backbone",
+      "manifest_sha256",
+      "official_weight_sha256",
+      "config_sha256"
+    ],
+    "metadata": {
+      "step": 150000,
+      "manifest_sha256": "3fd614082bf584c21e212884856875e328104ea09a293a95510c0f5f3117edb9",
+      "official_weight_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+      "config_sha256": "159f45566320f9b583968aa8e9ffb07392d521bfa227b1ca0b4a4bde11f152d7"
+    }
+  },
+  {
+    "path": "/opt/data/3_117/tanghr/codex/mitoverse_B_full_extend150k_20261012/runs/B_full/formal_attempt1/checkpoints/step000150000/student_backbone.pth",
+    "exists": true,
+    "bytes": 1213025477,
+    "mtime_ns": 1791777707449824536,
+    "top_level_keys": [
+      "step",
+      "backbone",
+      "manifest_sha256",
+      "official_weight_sha256",
+      "config_sha256"
+    ],
+    "metadata": {
+      "step": 150000,
+      "manifest_sha256": "3fd614082bf584c21e212884856875e328104ea09a293a95510c0f5f3117edb9",
+      "official_weight_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+      "config_sha256": "159f45566320f9b583968aa8e9ffb07392d521bfa227b1ca0b4a4bde11f152d7"
+    }
+  },
+  {
+    "path": "/opt/data/3_117/tanghr/DINOv3/pretrained_weights/dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth",
+    "exists": true,
+    "bytes": 1213050671,
+    "mtime_ns": 1773135087561386002,
+    "top_level_keys": [
+      "cls_token",
+      "storage_tokens",
+      "mask_token",
+      "patch_embed.proj.weight",
+      "patch_embed.proj.bias",
+      "rope_embed.periods",
+      "blocks.0.norm1.weight",
+      "blocks.0.norm1.bias",
+      "blocks.0.attn.qkv.weight",
+      "blocks.0.attn.qkv.bias",
+      "blocks.0.attn.qkv.bias_mask",
+      "blocks.0.attn.proj.weight",
+      "blocks.0.attn.proj.bias",
+      "blocks.0.ls1.gamma",
+      "blocks.0.norm2.weight",
+      "blocks.0.norm2.bias",
+      "blocks.0.mlp.fc1.weight",
+      "blocks.0.mlp.fc1.bias",
+      "blocks.0.mlp.fc2.weight",
+      "blocks.0.mlp.fc2.bias",
+      "blocks.0.ls2.gamma",
+      "blocks.1.norm1.weight",
+      "blocks.1.norm1.bias",
+      "blocks.1.attn.qkv.weight",
+      "blocks.1.attn.qkv.bias",
+      "blocks.1.attn.qkv.bias_mask",
+      "blocks.1.attn.proj.weight",
+      "blocks.1.attn.proj.bias",
+      "blocks.1.ls1.gamma",
+      "blocks.1.norm2.weight",
+      "blocks.1.norm2.bias",
+      "blocks.1.mlp.fc1.weight",
+      "blocks.1.mlp.fc1.bias",
+      "blocks.1.mlp.fc2.weight",
+      "blocks.1.mlp.fc2.bias",
+      "blocks.1.ls2.gamma",
+      "blocks.2.norm1.weight",
+      "blocks.2.norm1.bias",
+      "blocks.2.attn.qkv.weight",
+      "blocks.2.attn.qkv.bias"
+    ],
+    "metadata": {}
+  }
+]

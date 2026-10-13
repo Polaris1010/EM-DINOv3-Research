@@ -1,0 +1,913 @@
+[
+  {
+    "repository_path": "configs/evaluation/MV-1_protocol.yaml",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/MV_frozen_probe_protocol.yaml",
+    "sha256": "b788831a0a860f9acb996e5d830cdc56265977fe909eb9cfffb86a20114220d0",
+    "bytes": 3158,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "configs/evaluation/MV-2_manifest.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_dev_validation_manifest.json",
+    "sha256": "1b36d2571606f2a2861140186b0b8eb4561f8f553f6b296835e5461de1caea25",
+    "bytes": 327531,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "configs/evaluation/splits/cellmap.json",
+    "origin": "/opt/data/3_117/tanghr/MitoVerse_data/splits/cellmap.json",
+    "sha256": "2a23406d12a7e3fffa8eeec6a4ed3e8f67436926bf731c91bf131328b0510269",
+    "bytes": 25640,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "configs/evaluation/splits/guay21.json",
+    "origin": "/opt/data/3_117/tanghr/MitoVerse_data/splits/guay21.json",
+    "sha256": "f141854388885c55204ff7d4f7912262096e44faa25f5646b3d333cf001bbf75",
+    "bytes": 438,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "configs/evaluation/splits/mitoem2.0.json",
+    "origin": "/opt/data/3_117/tanghr/MitoVerse_data/splits/mitoem2.0.json",
+    "sha256": "3ac1e9c53636a315edd61e2ca6f9ff58f26cc7bfe78f52d225bed6edd7418c02",
+    "bytes": 4267,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "configs/pretrain/B_full.yaml",
+    "origin": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/configs/B_full.yaml",
+    "sha256": "159f45566320f9b583968aa8e9ffb07392d521bfa227b1ca0b4a4bde11f152d7",
+    "bytes": 1201,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "configs/pretrain/B_full_resolved.yaml",
+    "origin": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/configs/B_full_resolved.yaml",
+    "sha256": "f1acbd49af827b80a457b64e28cc4dd912524c08c0676256f505cba59a5825e1",
+    "bytes": 4131,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "configs/pretrain/pretrain_all_mitoverse.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/data/pretrain_all_mitoverse.json",
+    "sha256": "3fd614082bf584c21e212884856875e328104ea09a293a95510c0f5f3117edb9",
+    "bytes": 202950,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "configs/pretrain/stage2_reference_resolved.yaml",
+    "origin": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage2_20260930_082816/stage1_reference/B_full_resolved_config.yaml",
+    "sha256": "f1acbd49af827b80a457b64e28cc4dd912524c08c0676256f505cba59a5825e1",
+    "bytes": 4131,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "configs/segmentation/MV-Dev-v1.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/MV-Dev-v1.json",
+    "sha256": "9346286eac4cc1c57d24c1f1b296ed5eaaac6c0df061a8684cf4604af76f0df8",
+    "bytes": 24138,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "configs/segmentation/original_primus_config.yaml",
+    "origin": "E:\\mira_website_demo\\artifacts\\mv_generalist_stage1_20261013\\original_primus_config.yaml",
+    "sha256": "ed5124689b4fd4ae9b1f5a1af6e32bd6e7c3bcf862cd871e5bc06735e8ff7ee5",
+    "bytes": 392,
+    "provenance": "LOCAL_HISTORICAL_ARTIFACT"
+  },
+  {
+    "repository_path": "evidence/primus/github_source_receipt.json",
+    "origin": "/opt/data/3_117/tanghr/codex/primus_official_reprobe_20261013/audit/github_source_receipt.json",
+    "sha256": "624b797180f994539871cb1227d2bbc64ae2b37fa46737790c3c7106dac74ea0",
+    "bytes": 6689,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "evidence/primus/github_source_verification.json",
+    "origin": "/opt/data/3_117/tanghr/codex/primus_official_reprobe_20261013/audit/github_source_verification.json",
+    "sha256": "534efdaa9647197cabb8f74528300328ad27b6b6fceac5292211b11ae850598a",
+    "bytes": 680,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "evidence/primus/official_source_provenance.json",
+    "origin": "/opt/data/3_117/tanghr/codex/primus_official_reprobe_20261013/audit/official_source_provenance.json",
+    "sha256": "dce135fdc7df1ef4d42586e1a5a89202a516965504b07b505b198b28e44fd7ac",
+    "bytes": 503,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "evidence/primus/smoke.json",
+    "origin": "/opt/data/3_117/tanghr/codex/primus_official_reprobe_20261013/audit/smoke.json",
+    "sha256": "439b5d22fce8fcaf2dfeee029a846920e6050b9a336ff78d26a2bddc69158e1e",
+    "bytes": 1907,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/B_full/B100k/checkpoint_metadata.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/runs/B_full/formal_attempt1/checkpoints/step000100000/metadata.json",
+    "sha256": "2707829883b227b86ab482153f8c2f590bd541b4ba21466d5745b9779d93d7b2",
+    "bytes": 1163,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/B_full/B100k/final_stage1_audit.md",
+    "origin": "E:\\mira_website_demo\\artifacts\\mitoverse_full_stage1_final\\final_stage1_audit.md",
+    "sha256": "60eb445b7d288bd94e6582b2c19a9f8173e14e1777c46aa6c0387458a5cbef29",
+    "bytes": 444,
+    "provenance": "LOCAL_HISTORICAL_ARTIFACT"
+  },
+  {
+    "repository_path": "experiments/B_full/B100k/final_training_log_audit.json",
+    "origin": "E:\\mira_website_demo\\artifacts\\mitoverse_full_stage1_final\\final_training_log_audit.json",
+    "sha256": "f99ce6168dcbab6a5e1e128b4fbbc1aaca208fc283ae9a03a795b70bc9dadbea",
+    "bytes": 611,
+    "provenance": "LOCAL_HISTORICAL_ARTIFACT"
+  },
+  {
+    "repository_path": "experiments/B_full/B100k/initialization.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/runs/B_full/formal_attempt1/initialization.json",
+    "sha256": "6f60c0b099d71b5323de2fa5c7fd1e09ece5dd55e8d50e1255cba355c85a6921",
+    "bytes": 1192,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/B_full/B100k/latest_checkpoint.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/runs/B_full/formal_attempt1/latest_checkpoint.json",
+    "sha256": "a1129792920848d26b5f9f9bd8b0e5d485479deac5c7f29e5213974d0b012438",
+    "bytes": 244,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/B_full/B100k/progress.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/runs/B_full/formal_attempt1/progress.json",
+    "sha256": "d72cecd6992c58a6a505d22b88c6594ac2123fd01eb15adbaf9c113c469ca55a",
+    "bytes": 717,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/B_full/B100k/result.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/runs/B_full/formal_attempt1/result.json",
+    "sha256": "01987dab5dd8c1790953a8c9bf68311c1a135aac4b1cd3b7511d7e93823647d7",
+    "bytes": 1145,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/B_full/B100k/training_report.md",
+    "origin": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/reports/B_training_report.md",
+    "sha256": "c97da96fd546e6cf7cce3d537c84f61291573c2f7b0500ca8350891353608a32",
+    "bytes": 1808,
+    "observed_at": "2026-10-13T11:36:28.259010+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/B_full/B150k/REPORT_100k_150k_zh.md",
+    "origin": "E:\\mira_website_demo\\artifacts\\mitoverse_B_full_extend150k_20261012\\REPORT_100k_150k_zh.md",
+    "sha256": "dbd6d08528d92d8b788c69904429d95f9fd1510cd85b06bceb74c2a355685fe2",
+    "bytes": 3145,
+    "provenance": "LOCAL_HISTORICAL_ARTIFACT"
+  },
+  {
+    "repository_path": "experiments/B_full/B150k/checkpoint_metadata.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mitoverse_B_full_extend150k_20261012/runs/B_full/formal_attempt1/checkpoints/step000150000/metadata.json",
+    "sha256": "3fa82d1ff17c87f881be463981d14aecad01e594ebf2126b4e7026b9e7035484",
+    "bytes": 1294,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/B_full/B150k/continuation_admission.json",
+    "origin": "E:\\mira_website_demo\\artifacts\\mitoverse_B_full_extend150k_20261012\\continuation_admission.json",
+    "sha256": "b44f84a9f51c58c7dbec8f3ea72e66e188d20044e0768b4518382de80e5aa66d",
+    "bytes": 764,
+    "provenance": "LOCAL_HISTORICAL_ARTIFACT"
+  },
+  {
+    "repository_path": "experiments/B_full/B150k/continuation_plan.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mitoverse_B_full_extend150k_20261012/continuation_plan.json",
+    "sha256": "bc360ce12b09149bb82bec621b7acf79ced668469e6d08e9e2b72a0b1a3b7e0f",
+    "bytes": 1355,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/B_full/B150k/initialization.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mitoverse_B_full_extend150k_20261012/runs/B_full/formal_attempt1/initialization.json",
+    "sha256": "55d16bb684c41b18051d928841213f41f5667e6bb411ad3f10fffb4f6cc0a97a",
+    "bytes": 1607,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/B_full/B150k/latest_checkpoint.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mitoverse_B_full_extend150k_20261012/runs/B_full/formal_attempt1/latest_checkpoint.json",
+    "sha256": "3d6a10765ddf76c19a69ab6a390cef4914b75a55e75a18a1ce0dd880473f403f",
+    "bytes": 243,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/B_full/B150k/progress.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mitoverse_B_full_extend150k_20261012/runs/B_full/formal_attempt1/progress.json",
+    "sha256": "3a2a1239b6ce6700e14a5b9f08213682d535903d64412efc700223dd3759917d",
+    "bytes": 667,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/B_full/B150k/result.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mitoverse_B_full_extend150k_20261012/runs/B_full/formal_attempt1/result.json",
+    "sha256": "1d1d8e79a7045d1a446055d3f7e39d370221e2d9f7405db65a1f86f7f7bfccc5",
+    "bytes": 1279,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/CMCC_CMCT/REPORT_zh.md",
+    "origin": "/opt/data/3_117/tanghr/codex/primus_official_reprobe_20261013/REPORT_zh.md",
+    "sha256": "a089b2d2470edc4ae8218485096ee16ef046fdbbe0be56cb9bade21bdfa32115",
+    "bytes": 1910,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/CMCC_CMCT/STATUS.json",
+    "origin": "/opt/data/3_117/tanghr/codex/primus_official_reprobe_20261013/STATUS.json",
+    "sha256": "02efdf44f85f36afa40c76afdee52c26637961b442ce41d1f27a767f83e49172",
+    "bytes": 174,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/CMCC_CMCT/model_registry.json",
+    "origin": "/opt/data/3_117/tanghr/codex/primus_official_reprobe_20261013/model_registry.json",
+    "sha256": "97d3853c58e05fd8bdeb6e954226876c9ef8953dc57fc21580198e17fd05b5ef",
+    "bytes": 4004,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/CMCC_CMCT/per_volume_metrics.csv",
+    "origin": "/opt/data/3_117/tanghr/codex/primus_official_reprobe_20261013/per_volume_metrics.csv",
+    "sha256": "e177f2d70e4e0787cc4f508de98fdd619280fb049f38f2a2beec3d630cb30038",
+    "bytes": 1445,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/CMCC_CMCT/results.json",
+    "origin": "/opt/data/3_117/tanghr/codex/primus_official_reprobe_20261013/results.json",
+    "sha256": "94cb07b04cd8213d34409f82f29ac73ca735ce76b28c43582daa535cf5f4992a",
+    "bytes": 6161,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/CMCC_CMCT/summary.csv",
+    "origin": "/opt/data/3_117/tanghr/codex/primus_official_reprobe_20261013/summary.csv",
+    "sha256": "f1e4ff93b17e0097b72acb5cd0164fcd8061c8b9252609196fa232f7718cd499",
+    "bytes": 1109,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/MV_frozen_probe_results.csv",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/MV_frozen_probe_results.csv",
+    "sha256": "052aa2c79cfdf2bf97f44373d5b1f750ff51511b890740adbe2be2c8595b1b33",
+    "bytes": 10841,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/STATUS.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/STATUS.json",
+    "sha256": "8c2bf2c3cec6cbe5a91fc91bf281667ded759bf8508db38e423a64402ce93b11",
+    "bytes": 155,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/analysis_completion.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/analysis_completion.json",
+    "sha256": "04270d601aaf61f980e0b487405f6013baae3424ddd7d4cffae20fd9cc12a8f3",
+    "bytes": 88,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/model_registry.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/model_registry.json",
+    "sha256": "c8676f08873c11dbf5a3c06eb688de7f2d160c9d46ad40ad2c6d42ac05445138",
+    "bytes": 2948,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/paired_volume_deltas.csv",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/paired_volume_deltas.csv",
+    "sha256": "3db684743e0a5c94722f9a6f67890e98b44549e8fced57cb29ec8a3a3e36ed00",
+    "bytes": 5415,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B100k/seed20261013/metrics.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B100k/seed20261013/metrics.json",
+    "sha256": "514f5fb7b287a51d838a4d8d9b5f659898bb18045aaea01ab013a7abe9c4a10b",
+    "bytes": 3118,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B100k/seed20261013/per_volume_metrics.csv",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B100k/seed20261013/per_volume_metrics.csv",
+    "sha256": "99bc58f0cff56408eb97de228736de84daefe359fb1c400d91a862e292f18d04",
+    "bytes": 1437,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B100k/seed20261013/progress.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B100k/seed20261013/progress.json",
+    "sha256": "812ee3b2222ee75e79fa801f79d61779c00e997ebd38fadc87673e54ee76594e",
+    "bytes": 237,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B100k/seed20261013/run_protocol.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B100k/seed20261013/run_protocol.json",
+    "sha256": "1c3981d9b45018b84c2387392de72af948d5dfa479d78c53b04ad9c30cfaf211",
+    "bytes": 674,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B100k/seed20261013/scoring_receipt.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B100k/seed20261013/scoring_receipt.json",
+    "sha256": "a736d32f3dcb9a4b3d009678cc72705bcc4af1739df14c59f280b44b26b786fe",
+    "bytes": 855,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B100k/seed20261014/metrics.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B100k/seed20261014/metrics.json",
+    "sha256": "95fde99a208b961f224f2a481c638c32ca268f0df5d44191c691fb3da3799cd7",
+    "bytes": 3118,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B100k/seed20261014/per_volume_metrics.csv",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B100k/seed20261014/per_volume_metrics.csv",
+    "sha256": "69046ecf6f9309f9d3bed7efdadcc091f1ced6c655c121f574d973c8b5efb542",
+    "bytes": 1437,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B100k/seed20261014/progress.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B100k/seed20261014/progress.json",
+    "sha256": "7399d93b4ed1c9dd54d50da10fd12a2db1431625ab190b9b0cd91d0fbba321dd",
+    "bytes": 237,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B100k/seed20261014/run_protocol.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B100k/seed20261014/run_protocol.json",
+    "sha256": "f79804d9d90cd480b21d87066db28c846540e1fe0e97663aadaf13bf6a8459a9",
+    "bytes": 674,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B100k/seed20261014/scoring_receipt.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B100k/seed20261014/scoring_receipt.json",
+    "sha256": "770d533120cca65163f4aa64581aa7a297f930fac29c7d69ee7f54469d41df54",
+    "bytes": 855,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B100k/seed20261015/metrics.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B100k/seed20261015/metrics.json",
+    "sha256": "b48c0ce78d75f1cbe578b52b49cf637042b3b1015bbda36acc7cfb2fbe9b5262",
+    "bytes": 3116,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B100k/seed20261015/per_volume_metrics.csv",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B100k/seed20261015/per_volume_metrics.csv",
+    "sha256": "b8e090c3900c9a270b04622bdbc7fe48be24dae1c561e0cd4fdab44c01af6d1d",
+    "bytes": 1438,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B100k/seed20261015/progress.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B100k/seed20261015/progress.json",
+    "sha256": "e7d4cc3dd16aea49de9d1e158558d7b938cce5ab3c6143b00211624f418838c6",
+    "bytes": 236,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B100k/seed20261015/run_protocol.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B100k/seed20261015/run_protocol.json",
+    "sha256": "ba7d97ce41c5641840a7b8d16b3d19da1f50d505c4e3283a3240977458e1cfa3",
+    "bytes": 674,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B100k/seed20261015/scoring_receipt.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B100k/seed20261015/scoring_receipt.json",
+    "sha256": "d851bcbb24e5dcda1913e32c27ad8e8afd0d27c407f0615ff981da74bb1ef6c1",
+    "bytes": 855,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B150k/seed20261013/metrics.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B150k/seed20261013/metrics.json",
+    "sha256": "b4778bb40f2c1adefd8b9edff71bf689ef81b493094a5fc8c5404e3eeecfeffd",
+    "bytes": 3117,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B150k/seed20261013/per_volume_metrics.csv",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B150k/seed20261013/per_volume_metrics.csv",
+    "sha256": "aba597a43a47dce10b8554ea419ce0029b2d838c8ed08407da5d18b087e8d681",
+    "bytes": 1419,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B150k/seed20261013/progress.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B150k/seed20261013/progress.json",
+    "sha256": "10e5aeb58480acb92f8040c98e12b911d71d22e945b9b39e47b9e993330b129f",
+    "bytes": 237,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B150k/seed20261013/run_protocol.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B150k/seed20261013/run_protocol.json",
+    "sha256": "1c290191e4ac9c57175d9fe329e9cf3b6a9c6194ba93a946544fd3852af86bde",
+    "bytes": 674,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B150k/seed20261013/scoring_receipt.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B150k/seed20261013/scoring_receipt.json",
+    "sha256": "99a191ff413e7f26c9d03a16eaf7d4b1b525488dbe3e5714070df819df765516",
+    "bytes": 855,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B150k/seed20261014/metrics.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B150k/seed20261014/metrics.json",
+    "sha256": "1ccdadb4adab6c2fa5d66b082df5faf590822aa07b4aac92bbf3a4ca5775a944",
+    "bytes": 3112,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B150k/seed20261014/per_volume_metrics.csv",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B150k/seed20261014/per_volume_metrics.csv",
+    "sha256": "05e4d5a7af2ed05bb3c2f23cae9a83af1116c0274c59caeb1d05cd530ebf5b21",
+    "bytes": 1432,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B150k/seed20261014/progress.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B150k/seed20261014/progress.json",
+    "sha256": "e205ddd06c1e1244fa8ea086f62a9360cfc4d3c9dc3a0339565bdc096d01e097",
+    "bytes": 236,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B150k/seed20261014/run_protocol.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B150k/seed20261014/run_protocol.json",
+    "sha256": "ade1ed096bac47ce900fb30b2b165887cc1dfe5693a0382a1ee07931f91eefb3",
+    "bytes": 674,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B150k/seed20261014/scoring_receipt.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B150k/seed20261014/scoring_receipt.json",
+    "sha256": "e52a98bf2eeefd37f691269d1cbed9d1017d56592ac78be625ccb93d9ee21eb5",
+    "bytes": 855,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B150k/seed20261015/metrics.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B150k/seed20261015/metrics.json",
+    "sha256": "0e9dcb8c68385571dc601d566d4057c668ddf5d0c46084a5878ac6f20a6d7318",
+    "bytes": 3116,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B150k/seed20261015/per_volume_metrics.csv",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B150k/seed20261015/per_volume_metrics.csv",
+    "sha256": "de87ff3a44d731f20460ec9bfc6f4cba53361e87d7d00891a479b34569bc78f2",
+    "bytes": 1435,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B150k/seed20261015/progress.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B150k/seed20261015/progress.json",
+    "sha256": "744a0cb25bc68a73ccfd2300b8fccb7f6ba61aaf501b68e8bca80f1f6d936c40",
+    "bytes": 236,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B150k/seed20261015/run_protocol.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B150k/seed20261015/run_protocol.json",
+    "sha256": "7dbba69042d4799ab39462a97463fcf0739018acf82108c2bd782df4646b7309",
+    "bytes": 674,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/B150k/seed20261015/scoring_receipt.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/B150k/seed20261015/scoring_receipt.json",
+    "sha256": "9aa3296654450a6a0573cea4190245940218afbe3c31d6817ba1721ad3581f70",
+    "bytes": 855,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/P0/seed20261013/metrics.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/P0/seed20261013/metrics.json",
+    "sha256": "82d283dab50743b191056f068ef9846119f4a90f622d29cd970109aabf6ec274",
+    "bytes": 3111,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/P0/seed20261013/per_volume_metrics.csv",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/P0/seed20261013/per_volume_metrics.csv",
+    "sha256": "6cdd4e62109ef3d7aeaf734a3bac4e6d4f2a4c75bee26784b352c87dcc2b5ec6",
+    "bytes": 1422,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/P0/seed20261013/progress.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/P0/seed20261013/progress.json",
+    "sha256": "fb2499a4f969954ab08f46d148f41afa80ee815e030372c4b9072f11ba182aab",
+    "bytes": 234,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/P0/seed20261013/run_protocol.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/P0/seed20261013/run_protocol.json",
+    "sha256": "a2a11a40006d1327b6d22332c5bc74dba70d512083172d6bce13da7defc43b2a",
+    "bytes": 671,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/P0/seed20261013/scoring_receipt.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/P0/seed20261013/scoring_receipt.json",
+    "sha256": "ee7a214fa107c90599d5d5a1af2bc9ab19e8106e5c6944f6229de8847a41706f",
+    "bytes": 855,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/P0/seed20261014/metrics.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/P0/seed20261014/metrics.json",
+    "sha256": "1790b56935c70748cc6df43ce239c52b8211bf0200b0a3ad07b942ece389cdd9",
+    "bytes": 3112,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/P0/seed20261014/per_volume_metrics.csv",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/P0/seed20261014/per_volume_metrics.csv",
+    "sha256": "af9acde6f8d76002775627885036dc2d5fc40048ee0121d092fb9e9e36118ab8",
+    "bytes": 1424,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/P0/seed20261014/progress.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/P0/seed20261014/progress.json",
+    "sha256": "f7b6dd5e0d94b7133c71c09751c66d34dd27a1fd061cf039415665566ec71db1",
+    "bytes": 234,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/P0/seed20261014/run_protocol.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/P0/seed20261014/run_protocol.json",
+    "sha256": "f9f5e3dba5cc31aa2e15aa0ee8871b9953535f5f205662fe13df5afaa4424eea",
+    "bytes": 671,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/P0/seed20261014/scoring_receipt.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/P0/seed20261014/scoring_receipt.json",
+    "sha256": "37a95db0acf697d2628c62cdf91315d881604bf6b1dbba44b83c51e60f587ab0",
+    "bytes": 855,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/P0/seed20261015/metrics.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/P0/seed20261015/metrics.json",
+    "sha256": "460fea0a43ee5c3d45de88544e01db8e7fcac54d9fcc365b7baf03a9406a00b2",
+    "bytes": 3113,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/P0/seed20261015/per_volume_metrics.csv",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/P0/seed20261015/per_volume_metrics.csv",
+    "sha256": "9190f56a7d8514c28099b9bb9ff5e4437c26f0178d753750a7a1bb2cde814048",
+    "bytes": 1421,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/P0/seed20261015/progress.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/P0/seed20261015/progress.json",
+    "sha256": "663aa998637d6bbf654df70f42e6eb5c08cfc54a8048d8e38a267585a7e27bd4",
+    "bytes": 234,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/P0/seed20261015/run_protocol.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/P0/seed20261015/run_protocol.json",
+    "sha256": "e9d2c988d3819e22e195eb2103d82f8d4a1a9e3e84bf8a75c8fdc4a2eddb7139",
+    "bytes": 671,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/runs/P0/seed20261015/scoring_receipt.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/runs/P0/seed20261015/scoring_receipt.json",
+    "sha256": "5796ae3fa779dd02c2f90ac971459f32a5b75e229367f529969f98a94276cd48",
+    "bytes": 855,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/source_failure_analysis.md",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/source_failure_analysis.md",
+    "sha256": "9d9d2e97114a5f076a903ddee1c61f08e2421867a93480bb09fdfc4e4b4a1874",
+    "bytes": 8170,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/source_metrics_by_seed.csv",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/source_metrics_by_seed.csv",
+    "sha256": "6196560743ab2adf687774f5b26f58ab658e86aed76e603039b9c4ed7bc1acb8",
+    "bytes": 4931,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/source_metrics_three_seeds.csv",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/source_metrics_three_seeds.csv",
+    "sha256": "dc604801b5d6715eaf84d817a1c31545d497d16fd7c77a11761d646762efbf10",
+    "bytes": 2125,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-1/split_exposure_audit.md",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/split_exposure_audit.md",
+    "sha256": "a342caf304e08274c8f1433e09e5dfd55a8d268b5e19fb7066df39ca5eed05a8",
+    "bytes": 1813,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-2/MV_volume_registry.csv",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_volume_registry.csv",
+    "sha256": "c2071e2a919d841e6050414844e2d79d6d0b2445c266dcf69403f837b70de897",
+    "bytes": 102557,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-2/STATUS.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/STATUS.json",
+    "sha256": "4028c4f17320760191b7ad69968c31f191a191b1ac5d75c76f7c88b9ad72160f",
+    "bytes": 1323,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-2/cache_completion.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/evidence/cache_completion.json",
+    "sha256": "33bd07878b9b9d9b33078e31032a204af6e30e77f7ffe66fbf7bcbbe18f8d64d",
+    "bytes": 62,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-2/cache_progress.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/cache_progress.json",
+    "sha256": "c3704d65df2bfd055fc40900017179dec6555dd361979bfa778d7e14386b1013",
+    "bytes": 64,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-2/input_hashes.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/evidence/input_hashes.json",
+    "sha256": "37b198e5f6409441f08e899a10c9fe5e150a03e5da2e679530f7a7fe91f6342c",
+    "bytes": 2651,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-2/scoring_progress.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/scoring_progress.json",
+    "sha256": "a6d2a836c534c26bd4a9f36921cfec95a3ae592ce66666d97aec21ad45d4f760",
+    "bytes": 341,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/MV-2/superseded_tta_status.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_dev_v2_expansion_20261013/STATUS_TTA_SUPERSEDED.json",
+    "sha256": "b9e63387e22055f209f92853b7ec96fa3d2c132726dafd9b66cb49f09b468d1e",
+    "bytes": 146,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/history/data_governance/cross_dataset_overlap.csv",
+    "origin": "E:\\mira_website_demo\\artifacts\\data_governance_stage0_20261013\\cross_dataset_overlap.csv",
+    "sha256": "7249df76c41e3e141d3c2b627eea30b423a64fcf331fe9dacac845eef3cad03b",
+    "bytes": 14148,
+    "provenance": "LOCAL_HISTORICAL_ARTIFACT"
+  },
+  {
+    "repository_path": "experiments/history/data_governance/manifest_version_reconciliation.json",
+    "origin": "E:\\mira_website_demo\\artifacts\\data_governance_stage0_20261013\\manifest_version_reconciliation.json",
+    "sha256": "57431dd32dd71cf0b492b1529a988c1c5243615fb33b02d2886dba8f73f3a596",
+    "bytes": 598,
+    "provenance": "LOCAL_HISTORICAL_ARTIFACT"
+  },
+  {
+    "repository_path": "experiments/history/data_governance/model_report_aliases.json",
+    "origin": "E:\\mira_website_demo\\artifacts\\data_governance_stage0_20261013\\model_report_aliases.json",
+    "sha256": "e69e78a4d29f91af81180631ef8f6e94f2f8068f6398090c847a9746989f0770",
+    "bytes": 774,
+    "provenance": "LOCAL_HISTORICAL_ARTIFACT"
+  },
+  {
+    "repository_path": "experiments/history/stage2A2_STATUS.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage2a2_20261002/STATUS.json",
+    "sha256": "5626a04ab262e2672657bcdace7890cf91ab99906df5ef40c68e76049d36de31",
+    "bytes": 1799,
+    "observed_at": "2026-10-13T11:36:28.259010+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "experiments/history/stage2A_gate.json",
+    "origin": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage2_20260930_082816/topology_calibration/stage2A_gate.json",
+    "sha256": "5ec21c2d7dabbf6570e13aaee2d82cc5e095d7539b3f01df6d8679c7a72424ab",
+    "bytes": 2159,
+    "observed_at": "2026-10-13T11:36:28.259010+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "src/evaluation/mv2_validation.py",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/src/validation.py",
+    "sha256": "05e384c9049ece6a7be1e6a84c0d7b23d3c3a859a207b144b4bdb5b69a0a7482",
+    "bytes": 32550,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "src/evaluation/run_validation.py",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/scripts/run_validation.py",
+    "sha256": "518d48c6105a618efcf926f98dba4ec59e8239d37dce67e16244916129121925",
+    "bytes": 4020,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "src/pretraining/B100k/train_B_full.py",
+    "origin": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/scripts/train_B_full.py",
+    "sha256": "dfdd9db6c5bbfc2456e3eba19224cdf3eea305823743caadb00eeec309c2244c",
+    "bytes": 16729,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "src/pretraining/B150k/train_B_full.py",
+    "origin": "/opt/data/3_117/tanghr/codex/mitoverse_B_full_extend150k_20261012/scripts/train_B_full.py",
+    "sha256": "077e903bba5c22d88a1b210037dda861552a5920fe8a0c9207b58ef7bf5efd32",
+    "bytes": 17721,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "src/pretraining/ssl_full_data.py",
+    "origin": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/scripts/ssl_full_data.py",
+    "sha256": "7c347451788969f5b49acc58d53f103cef0d771deb27b4a012443e9f6613b560",
+    "bytes": 6803,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "src/segmentation/metric_cache.py",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/metric_cache.py",
+    "sha256": "06bcf883309bbe9d68c986431f5407ce89a0d1e52b8d5a80b88b2eb5f9de493b",
+    "bytes": 2423,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "src/segmentation/mv_data.py",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/mv_data.py",
+    "sha256": "39d348380573174061525443d7c9bfe2f8d8d68bb12f0dd0ab44455bbfe6b54d",
+    "bytes": 3709,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "src/segmentation/mv_probe.py",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/mv_probe.py",
+    "sha256": "4071da2213b8f55f28ce13522d74e716c61be7900a37c96318942983be3546ec",
+    "bytes": 11241,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "src/segmentation/official_primus.py",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/official_primus.py",
+    "sha256": "b5398dc48bf5cc14068b4fed38c5f0a8c30bcbbe242d59475016e70912f248d3",
+    "bytes": 4635,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "src/segmentation/official_primus.upstream.py",
+    "origin": "E:\\mira_website_demo\\artifacts\\primus_official_reprobe_20261013\\src\\official_primus.upstream.py",
+    "sha256": "0ab8936917eb775305e5e7d5b9023549517213e131b2346e41f5f7b8fad67062",
+    "bytes": 4634,
+    "provenance": "LOCAL_HISTORICAL_ARTIFACT"
+  },
+  {
+    "repository_path": "src/segmentation/repository_metrics.py",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/repository_metrics.py",
+    "sha256": "8abc23bfbbee06b1a6289b1f70ec7a5fda2a02cb15d8c870b28890de6152477d",
+    "bytes": 13400,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  },
+  {
+    "repository_path": "src/segmentation/run_benchmark.py",
+    "origin": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/scripts/run_benchmark.py",
+    "sha256": "cc792413e76f50dccbfc130a21920a07dd2822711da880a3b815d2b14b3932b1",
+    "bytes": 8447,
+    "observed_at": "2026-10-13T11:33:00.442197+00:00",
+    "provenance": "LIVE_SERVER_READ"
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "models": [
+    {
+      "model": "P0",
+      "status": "PASS",
+      "decoder_class": "meddinov3_official_primus.Primus_Multiscale",
+      "head_initial_sha256": "9a8a1f6ea11dac604574db0133879fb3b6e2e0f0dba9fc6f7f1d0e5275128e69",
+      "trainable_parameters": 44576514,
+      "gates_present": false,
+      "optimizer_updates": 2,
+      "losses": [
+        1.4277255535125732,
+        1.1137222051620483
+      ],
+      "encoder_unchanged": true,
+      "full_forward_fp16_tta_finite": true,
+      "case": "CMCC_crop20",
+      "decoder_source_sha256": "b5398dc48bf5cc14068b4fed38c5f0a8c30bcbbe242d59475016e70912f248d3"
+    },
+    {
+      "model": "B100k",
+      "status": "PASS",
+      "decoder_class": "meddinov3_official_primus.Primus_Multiscale",
+      "head_initial_sha256": "9a8a1f6ea11dac604574db0133879fb3b6e2e0f0dba9fc6f7f1d0e5275128e69",
+      "trainable_parameters": 44576514,
+      "gates_present": false,
+      "optimizer_updates": 2,
+      "losses": [
+        1.4033198356628418,
+        1.0396807193756104
+      ],
+      "encoder_unchanged": true,
+      "full_forward_fp16_tta_finite": true,
+      "case": "CMCC_crop20",
+      "decoder_source_sha256": "b5398dc48bf5cc14068b4fed38c5f0a8c30bcbbe242d59475016e70912f248d3"
+    },
+    {
+      "model": "B150k",
+      "status": "PASS",
+      "decoder_class": "meddinov3_official_primus.Primus_Multiscale",
+      "head_initial_sha256": "9a8a1f6ea11dac604574db0133879fb3b6e2e0f0dba9fc6f7f1d0e5275128e69",
+      "trainable_parameters": 44576514,
+      "gates_present": false,
+      "optimizer_updates": 2,
+      "losses": [
+        1.403050184249878,
+        1.0409445762634277
+      ],
+      "encoder_unchanged": true,
+      "full_forward_fp16_tta_finite": true,
+      "case": "CMCC_crop20",
+      "decoder_source_sha256": "b5398dc48bf5cc14068b4fed38c5f0a8c30bcbbe242d59475016e70912f248d3"
+    }
+  ],
+  "website_http_after": 200
+}

@@ -1,0 +1,36 @@
+{
+  "observed_at": "2026-10-13T11:33:00.442197+00:00",
+  "entries": 188,
+  "sources": {
+    "casser20": 1,
+    "guay21": 1,
+    "haberl18": 2,
+    "han24": 3,
+    "jiang25": 1,
+    "kunduri22": 2,
+    "mekuc20": 5,
+    "muller21": 2,
+    "openorganelle": 152,
+    "turner22": 16,
+    "wei20": 2,
+    "xiao18": 1
+  },
+  "development_kinds": {
+    "exploratory_custom_dev": 180,
+    "published_val": 2,
+    "official_ME2_val_native_store": 2,
+    "MV1_custom_dev_of_published_TRAIN": 2,
+    "official_classic_MitoEM_val_region": 2
+  },
+  "reserved_test_count": 19,
+  "partial_result_counts": {
+    "B150k/seed20261013/overlap": 141,
+    "B150k/seed20261013/distance": 2,
+    "B100k/seed20261013/overlap": 141,
+    "B100k/seed20261013/distance": 110,
+    "P0/seed20261013/overlap": 140,
+    "P0/seed20261013/distance": 2
+  },
+  "complete": false,
+  "note": "Non-atomic read during an existing job. Partial counts are evidence of execution, not final metrics."
+}

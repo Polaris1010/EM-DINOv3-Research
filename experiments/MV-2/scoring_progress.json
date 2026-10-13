@@ -1,0 +1,8 @@
+{
+  "scored": 109,
+  "inferred": 422,
+  "active": [
+    "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/runs/B100k/seed20261013/openorganelle_jrc_mus-kidney_recon-1_crop129_overlap.json",
+    "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/runs/B100k/seed20261013/openorganelle_jrc_mus-liver_recon-1_crop145_overlap.json"
+  ]
+}

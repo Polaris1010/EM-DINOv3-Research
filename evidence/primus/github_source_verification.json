@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "live_upstream_functions_match": true,
+  "whole_file_byte_match": false,
+  "only_difference": "one terminal LF added in runtime snapshot",
+  "runtime_sha256": "b5398dc48bf5cc14068b4fed38c5f0a8c30bcbbe242d59475016e70912f248d3",
+  "upstream_sha256": "0ab8936917eb775305e5e7d5b9023549517213e131b2346e41f5f7b8fad67062",
+  "git_blob_sha": "57f18d8ddcc7b78afab67facd92d7a19145b24fc",
+  "code_ast_identical": true,
+  "upstream_url": "https://github.com/ricklisz/MedDINOv3/blob/a2460c2547899283446e520b84523454f7e25608/nnUNet/nnunetv2/training/nnUNetTrainer/dinov3/dinov3/models/primus.py",
+  "retrieval": "GitHub connector fetch_file at fixed commit"
+}

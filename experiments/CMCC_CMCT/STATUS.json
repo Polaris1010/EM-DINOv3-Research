@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "head_training_complete": true,
+  "metric_computation_complete": true,
+  "website_http_after": 200,
+  "physical_gpus": [
+    1,
+    2,
+    3
+  ]
+}

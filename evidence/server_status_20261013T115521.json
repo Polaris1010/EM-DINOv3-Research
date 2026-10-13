@@ -1,0 +1,162 @@
+{
+  "observed_at": "2026-10-13T11:55:21.651627+00:00",
+  "read_only": true,
+  "files": {
+    "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/STATUS.json": {
+      "status": "complete",
+      "groups": 9,
+      "metric_computation_complete": true,
+      "physical_gpus": [
+        1,
+        2,
+        3
+      ],
+      "website_http_after": 200
+    },
+    "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/STATUS.json": {
+      "status": "running",
+      "inference_complete": false,
+      "seconds": 1904.6543865203857,
+      "physical_gpus": [
+        1,
+        2,
+        3
+      ],
+      "workers": {
+        "P0": {
+          "pid": 3214878,
+          "exit_code": null,
+          "progress": [
+            {
+              "model": "P0",
+              "seed": 20261013,
+              "volume": "turner22_pinky_vol501",
+              "z_completed": 101,
+              "z_total": 144,
+              "elapsed_s": 1885.7991807460785
+            }
+          ]
+        },
+        "B100k": {
+          "pid": 3214879,
+          "exit_code": null,
+          "progress": [
+            {
+              "model": "B100k",
+              "seed": 20261013,
+              "volume": "turner22_pinky_vol501",
+              "z_completed": 101,
+              "z_total": 144,
+              "elapsed_s": 1885.4592859745026
+            }
+          ]
+        },
+        "B150k": {
+          "pid": 3214880,
+          "exit_code": null,
+          "progress": [
+            {
+              "model": "B150k",
+              "seed": 20261013,
+              "volume": "turner22_pinky_vol501",
+              "z_completed": 101,
+              "z_total": 144,
+              "elapsed_s": 1885.6938543319702
+            }
+          ]
+        }
+      },
+      "cache": {
+        "volume": "wei20_mitoEM-R",
+        "slice": 64,
+        "slices": 100
+      },
+      "scoring": {
+        "scored": 251,
+        "inferred": 507,
+        "active": [
+          "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/runs/B150k/seed20261013/openorganelle_jrc_mus-kidney_recon-1_test0_overlap.json"
+        ]
+      }
+    },
+    "/opt/data/3_117/tanghr/codex/mv_dev_v2_expansion_20261013/STATUS.json": {
+      "status": "running",
+      "inference_complete": false,
+      "seconds": 121.04576706886292,
+      "physical_gpus": [
+        1,
+        2,
+        3
+      ],
+      "workers": {
+        "P0": {
+          "pid": 3213470,
+          "exit_code": null,
+          "progress": [
+            {
+              "model": "P0",
+              "seed": 20261013,
+              "volume": "openorganelle_jrc_ctl-id8-1_recon-1_crop116",
+              "z_completed": 21,
+              "z_total": 87,
+              "elapsed_s": 112.42951369285583
+            }
+          ]
+        },
+        "B100k": {
+          "pid": 3213471,
+          "exit_code": null,
+          "progress": [
+            {
+              "model": "B100k",
+              "seed": 20261013,
+              "volume": "openorganelle_jrc_ctl-id8-1_recon-1_crop116",
+              "z_completed": 41,
+              "z_total": 87,
+              "elapsed_s": 112.57886052131653
+            }
+          ]
+        },
+        "B150k": {
+          "pid": 3213472,
+          "exit_code": null,
+          "progress": [
+            {
+              "model": "B150k",
+              "seed": 20261013,
+              "volume": "openorganelle_jrc_ctl-id8-1_recon-1_crop116",
+              "z_completed": 1,
+              "z_total": 87,
+              "elapsed_s": 112.37533068656921
+            }
+          ]
+        }
+      },
+      "cache": {
+        "volume": "openorganelle_jrc_mus-kidney_recon-1_crop229",
+        "slice": 192,
+        "slices": 300
+      },
+      "scoring": {
+        "scored": 20,
+        "inferred": 49,
+        "active": [
+          "/opt/data/3_117/tanghr/codex/mv_dev_v2_expansion_20261013/runs/B100k/seed20261013/openorganelle_jrc_jurkat-1_recon-1_crop37_overlap.json",
+          "/opt/data/3_117/tanghr/codex/mv_dev_v2_expansion_20261013/runs/B100k/seed20261013/openorganelle_jrc_jurkat-1_recon-1_crop38_overlap.json"
+        ]
+      }
+    },
+    "/opt/data/3_117/tanghr/codex/mv_dev_v2_expansion_20261013/STATUS_TTA_SUPERSEDED.json": {
+      "status": "superseded",
+      "reason": "User correction: MV2 must inherit MV1 TTA OFF; four-flip outputs excluded",
+      "history_preserved": true
+    }
+  },
+  "services": {
+    "mv-generalist-stage1-20261013.service": "MainPID=0\nResult=success\nActiveState=inactive\nSubState=dead\n",
+    "mv-dev-v2-notta-20261013.service": "MainPID=3214745\nResult=success\nActiveState=active\nSubState=running\n",
+    "mv-dev-v2-expansion-20261013.service": "MainPID=0\nResult=success\nActiveState=inactive\nSubState=dead\n"
+  },
+  "website_http": 200,
+  "gpu_read_only_query": "0, 0 %, 3092 MiB, 21124 MiB\n1, 94 %, 11690 MiB, 12527 MiB\n2, 94 %, 11690 MiB, 12527 MiB\n3, 94 %, 11228 MiB, 12988 MiB\n"
+}

@@ -1,0 +1,55 @@
+# Merged over the pinned official DINOv3 get_default_config().
+# No legacy configuration file, checkpoint, or sampler is loaded.
+MODEL:
+  META_ARCHITECTURE: SSLMetaArch
+compute_precision:
+  param_dtype: bf16
+  reduce_dtype: fp32
+dino:
+  loss_weight: 1.0
+  koleo_loss_weight: 0.1
+ibot:
+  loss_weight: 1.0
+  mask_ratio_min_max: [0.1, 0.5]
+gram:
+  use_loss: false
+  ckpt: null
+student:
+  arch: vit_large
+  patch_size: 16
+  n_storage_tokens: 4
+  mask_k_bias: true
+  in_chans: 3
+  resume_from_teacher_chkpt: ''
+teacher:
+  momentum_teacher: 0.999
+  final_momentum_teacher: 0.999
+train:
+  batch_size_per_gpu: 16
+  num_workers: 2
+  cache_dataset: false
+  compile: false
+  checkpointing: true
+  OFFICIAL_EPOCH_LENGTH: 1000
+  centering: sinkhorn_knopp
+optim:
+  epochs: 100
+  optimizer: adamw
+  lr: 0.00002598076211353316
+  min_lr: 0.000001
+  scaling_rule: none
+  warmup_epochs: 5
+  weight_decay: 0.04
+  weight_decay_end: 0.04
+  clip_grad: 30
+  layerwise_decay: 0.98
+  patch_embed_lr_mult: 0.2
+  adamw_beta1: 0.9
+  adamw_beta2: 0.99
+crops:
+  global_crops_size: 256
+  local_crops_size: 112
+  local_crops_number: 8
+  gram_teacher_crops_size: null
+  rgb_mean: [0.485, 0.456, 0.406]
+  rgb_std: [0.229, 0.224, 0.225]

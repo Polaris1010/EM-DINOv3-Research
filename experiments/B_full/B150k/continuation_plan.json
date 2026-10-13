@@ -1,0 +1,34 @@
+{
+  "experiment": "B_full_100k_to_150k",
+  "authorized_by_user": true,
+  "parent_checkpoint": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/runs/B_full/formal_attempt1/checkpoints/step000100000/full.pth",
+  "parent_checkpoint_sha256": "12bbf09ffcd7f93cbad88c4e55df55d36b3a299990ad976bf29af51a118a265b",
+  "start_step": 100000,
+  "target_step": 150000,
+  "additional_steps": 50000,
+  "schedule": "constant original minimum base LR = 1e-6 after completed 100k cosine",
+  "schedule_interpretation": "continuation at original LR floor; not a from-step-0 150k cosine experiment, and not evidence of optimal convergence if no gain",
+  "losses": "DINO 1, iBOT 1, KoLeo 0.1",
+  "architecture": "official DINOv3 ViT-L/16",
+  "world_size": 3,
+  "batch_per_gpu": 16,
+  "effective_global_batch": 48,
+  "data": "same full 212-volume 13-source 48722-slice image-only manifest",
+  "teacher_momentum": 0.999,
+  "weight_decay": 0.04,
+  "preserved_checkpoints": [
+    100000,
+    125000,
+    150000
+  ],
+  "evaluation": "automatic 150k frozen CMCC/CMCT, identical decoder protocol and seed 20260907; then MedDINOv3 default Dice/HD95/NSD mean/std; compare original 100k",
+  "GPUs": [
+    1,
+    2,
+    3
+  ],
+  "forbidden_GPU": 0,
+  "P": "paused",
+  "new_topology_or_masking_modules": false,
+  "estimated_training_hours_from_prior_throughput": 11.125
+}

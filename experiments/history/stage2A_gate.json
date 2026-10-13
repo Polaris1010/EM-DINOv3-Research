@@ -1,0 +1,50 @@
+{
+  "stage2A_gate": "FAIL",
+  "auto_launch_T1": false,
+  "T1_status": "NOT_STARTED",
+  "timestamp_utc": "2026-09-30T09:49:10.007144+00:00",
+  "reason": "The specified crop/context PH score does not select spatial positions with lower label-free border truncation proxy on same-shape paired candidates.",
+  "checks": {
+    "same_424_paired_slices": "PASS",
+    "label_free_pipeline": "PASS",
+    "SAM_ViT_H_MAM_generation": "PASS",
+    "offline_flip_equivariance": "PASS",
+    "offline_rotation_equivariance": "PASS",
+    "score_dynamic_range": "PASS",
+    "more_destructive_crop_ranks_worse": "PASS",
+    "source_normalizer_pilot": "PASS",
+    "small_source_global_fallback_pilot": "PASS",
+    "same_shape_location_truncation_relation": "FAIL",
+    "coordinate_mapping_full_cache": "NOT_RUN_DUE_TO_FAIL",
+    "native_resolution_acceptance": "NOT_RUN_DUE_TO_FAIL",
+    "cache_dtype_acceptance": "NOT_RUN_DUE_TO_FAIL",
+    "B_T_crop_geometry_simulation": "NOT_RUN_DUE_TO_FAIL",
+    "full_cache_reader": "NOT_RUN_DUE_TO_FAIL",
+    "PH_training_overhead": "NOT_RUN_DUE_TO_FAIL",
+    "website_healthy": "PASS",
+    "GPU_resources_safe": "PASS"
+  },
+  "evidence": {
+    "same_shape_within_sample_spearman_median": 0.0,
+    "same_shape_within_sample_spearman_mean": -0.018731092353650898,
+    "lower_score_has_less_border_proxy_fraction": 0.47877358490566035,
+    "lower_score_minus_higher_score_proxy_mean": 0.015533499841420155,
+    "pooled_score_proxy_spearman": -0.11408420638686137,
+    "random_mean_proxy": 1.1272120988523622,
+    "Q85": {
+      "fallback_rate": 0.06132075471698113,
+      "mean_border_proxy": 1.1236580478132896,
+      "mean_score": -0.13641783111632597
+    },
+    "Q90": {
+      "fallback_rate": 0.04481132075471698,
+      "mean_border_proxy": 1.1225794629668289,
+      "mean_score": -0.09652060185971661
+    },
+    "within_training_scale_stronger_crop_ranks_worse_fraction": 0.9245283018867925,
+    "ViT_H_tile_median_encode_seconds": 0.23903144523501396,
+    "estimated_3_GPU_encode_hours_excluding_IO": 1.897157168764345,
+    "website_http": 200,
+    "gpu_status": "0, 3092 MiB, 0 %\n1, 464 MiB, 0 %\n2, 464 MiB, 0 %\n3, 0 MiB, 0 %"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "status": "running",
+  "inference_complete": false,
+  "seconds": 564.8973088264465,
+  "physical_gpus": [
+    1,
+    2,
+    3
+  ],
+  "workers": {
+    "P0": {
+      "pid": 3214878,
+      "exit_code": null,
+      "progress": [
+        {
+          "model": "P0",
+          "seed": 20261013,
+          "volume": "openorganelle_jrc_mus-kidney_recon-1_crop129",
+          "z_completed": 121,
+          "z_total": 300,
+          "elapsed_s": 558.9070105552673
+        }
+      ]
+    },
+    "B100k": {
+      "pid": 3214879,
+      "exit_code": null,
+      "progress": [
+        {
+          "model": "B100k",
+          "seed": 20261013,
+          "volume": "openorganelle_jrc_mus-kidney_recon-1_crop129",
+          "z_completed": 281,
+          "z_total": 300,
+          "elapsed_s": 558.4193668365479
+        }
+      ]
+    },
+    "B150k": {
+      "pid": 3214880,
+      "exit_code": null,
+      "progress": [
+        {
+          "model": "B150k",
+          "seed": 20261013,
+          "volume": "openorganelle_jrc_mus-kidney_recon-1_crop129",
+          "z_completed": 281,
+          "z_total": 300,
+          "elapsed_s": 558.7666163444519
+        }
+      ]
+    }
+  },
+  "cache": {
+    "volume": "wei20_mitoEM-R",
+    "slice": 64,
+    "slices": 100
+  },
+  "scoring": {
+    "scored": 109,
+    "inferred": 420,
+    "active": []
+  }
+}

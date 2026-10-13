@@ -1,0 +1,46 @@
+{
+  "collected_at": "2026-10-13T11:33:00.442197+00:00",
+  "services": {
+    "mv-generalist-stage1-20261013.service": "MainPID=0\nResult=success\nActiveState=inactive\nSubState=dead\n",
+    "mv-dev-v2-notta-20261013.service": "MainPID=3214745\nResult=success\nExecStart={ path=/opt/data/3_117/tanghr/envs/meddinov3/bin/python ; argv[]=/opt/data/3_117/tanghr/envs/meddinov3/bin/python -u /opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/scripts/run_validation.py ; ignore_errors=no ; start_time=[Tue 2026-10-13 11:23:30 UTC] ; stop_time=[n/a] ; pid=3214745 ; code=(null) ; status=0/0 }\nActiveState=active\nSubState=running\n",
+    "mv-dev-v2-expansion-20261013.service": "MainPID=0\nResult=success\nActiveState=inactive\nSubState=dead\n"
+  },
+  "processes": [
+    "3214745       1 python          /opt/data/3_117/tanghr/envs/meddinov3/bin/python -u /opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/scripts/run_validation.py",
+    "3214877 3214745 python          /opt/data/3_117/tanghr/envs/meddinov3/bin/python -u /opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/src/validation.py score",
+    "3214878 3214745 python          /opt/data/3_117/tanghr/envs/meddinov3/bin/python -u /opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/scripts/run_validation.py --worker P0",
+    "3214879 3214745 python          /opt/data/3_117/tanghr/envs/meddinov3/bin/python -u /opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/scripts/run_validation.py --worker B100k",
+    "3214880 3214745 python          /opt/data/3_117/tanghr/envs/meddinov3/bin/python -u /opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/scripts/run_validation.py --worker B150k",
+    "3214887 3214878 python          /opt/data/3_117/tanghr/envs/meddinov3/bin/python -u /opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/src/validation.py infer --model P0 --seed 20261013",
+    "3214888 3214880 python          /opt/data/3_117/tanghr/envs/meddinov3/bin/python -u /opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/src/validation.py infer --model B150k --seed 20261013",
+    "3214889 3214879 python          /opt/data/3_117/tanghr/envs/meddinov3/bin/python -u /opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/src/validation.py infer --model B100k --seed 20261013",
+    "3215142 3214877 python          /opt/data/3_117/tanghr/envs/meddinov3/bin/python -u /opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/src/validation.py score",
+    "3215143 3214877 python          /opt/data/3_117/tanghr/envs/meddinov3/bin/python -u /opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/src/validation.py score",
+    "3215805       1 python          /opt/data/3_117/tanghr/envs/meddinov3/bin/python -u /opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/scripts/deliver.py"
+  ],
+  "catalog_storage_counts": {
+    "catalog_entries": 212,
+    "zarr_stores": 212
+  },
+  "website_head": "HTTP/1.1 200 OK\ndate: Tue, 13 Oct 2026 11:37:11 GMT\nserver: uvicorn\ncontent-type: text/html; charset=utf-8\naccept-ranges: bytes\ncontent-length: 971\nlast-modified: Sat, 05 Sep 2026 07:19:53 GMT\netag: \"bd47971526da0b6a4dcf03de1255f056\"\n\n",
+  "experiment_directories": [
+    "/opt/data/3_117/tanghr/codex/gram_long_and_explore_20260915_020459",
+    "/opt/data/3_117/tanghr/codex/primus_official_reprobe_20261013",
+    "/opt/data/3_117/tanghr/codex/mitoverse_full_stage2a2_20261002",
+    "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120",
+    "/opt/data/3_117/tanghr/codex/node_modules",
+    "/opt/data/3_117/tanghr/codex/mitotopo_20260909_round3",
+    "/opt/data/3_117/tanghr/codex/mitoverse_round6_20260917_044606",
+    "/opt/data/3_117/tanghr/codex/mitotopo_20260908_round2",
+    "/opt/data/3_117/tanghr/codex/representation_diagnosis_live_20261013",
+    "/opt/data/3_117/tanghr/codex/mv_dev_v2_expansion_20261013",
+    "/opt/data/3_117/tanghr/codex/mitoverse_round4_20260909_103239",
+    "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013",
+    "/opt/data/3_117/tanghr/codex/mitoverse_full_stage2_20260930_082816",
+    "/opt/data/3_117/tanghr/codex/mito_pretrain_v2_20260926_060227",
+    "/opt/data/3_117/tanghr/codex/mitotopo_20260908_first_round",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013",
+    "/opt/data/3_117/tanghr/codex/mitoverse_B_full_extend150k_20261012",
+    "/opt/data/3_117/tanghr/codex/mitoverse_full_restart_20260928_133515"
+  ]
+}

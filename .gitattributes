@@ -1,0 +1,8 @@
+* -text
+src/** whitespace=-trailing-space,-blank-at-eof,cr-at-eol
+configs/** whitespace=-trailing-space,-blank-at-eof,cr-at-eol
+experiments/** whitespace=-trailing-space,-blank-at-eof,cr-at-eol
+evidence/primus/** whitespace=-trailing-space,-blank-at-eof,cr-at-eol
+evidence/server_health.txt whitespace=-trailing-space,-blank-at-eof,cr-at-eol
+archive/** whitespace=-trailing-space,-blank-at-eof,cr-at-eol
+docs/history/** whitespace=-trailing-space,-blank-at-eof,cr-at-eol

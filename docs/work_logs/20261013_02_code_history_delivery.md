@@ -8,4 +8,8 @@
 
 归档不会执行实验或改变研究结论。历史计划、watcher和失败脚本保留原文，当前状态仍以PROJECT_STATE、registry和NEXT_ACTION为准。本轮没有连接服务器或启动模型任务。
 
-验证与远程交付：最终结果及实际提交、PR合并、main同步情况见GITHUB和 `evidence/github_delivery.json`。后续窗口从START_HERE进入；现有MV-2结果收取仍是下一项科学行动。
+验证：registry一致，115份精选快照和664份历史档案的文件/暂存blob SHA逐份一致，5项CPU测试通过，所有Python源码仅编译校验而未执行。`bd7f04c` 的GitHub PR及push CI均success。
+
+远程交付：补交commit `bd7f04c` 已推送；首PR #1于20:29:24香港时间合并，merge commit `1baeacf0fde9e5cfac6876f550a9ddf9fe02cdc3`。本地main已快进同步，实际远程树确认包含所有历史档案及新窗口入口。合并回执和本轮日志作为后续提交一并推送main，实时Git状态以远程为准。
+
+后续窗口从START_HERE进入；现有MV-2结果收取仍是下一项科学行动。本轮没有新增服务器状态快照，不能把19:55记录当作当前状态。

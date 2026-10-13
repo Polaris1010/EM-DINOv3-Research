@@ -1,11 +1,45 @@
 {
+  "verified_at_utc": "2026-10-13T12:29:42.535870+00:00",
   "repository": "Polaris1010/EM-DINOv3-Research",
   "private_verified": true,
+  "default_branch": "main",
   "pull_request": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/1",
-  "status": "LOCAL_HISTORY_VALIDATED_REMOTE_DELIVERY_PENDING",
+  "pull_request_state": "closed",
+  "merged": true,
+  "merged_at": "2026-10-13T12:29:24Z",
+  "head_commit": "bd7f04c06c4e792520f3996d8de7744b0637dc8c",
+  "merge_commit": "1baeacf0fde9e5cfac6876f550a9ddf9fe02cdc3",
+  "local_main_matches_origin": true,
   "historical_files": 664,
   "historical_markdown_files": 76,
   "curated_provenance_files": 115,
+  "tree_file_count": 828,
+  "required_handoff_files": [
+    "START_HERE.md",
+    "AGENTS.md",
+    "docs/NEW_WINDOW_HANDOFF.md",
+    "docs/history/INDEX.md",
+    "docs/work_logs/README.md",
+    "scripts/validate_repository.py"
+  ],
+  "validated_workflow_runs": [
+    {
+      "id": 38397462657,
+      "head_sha": "bd7f04c06c4e792520f3996d8de7744b0637dc8c",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/Polaris1010/EM-DINOv3-Research/actions/runs/38397462657",
+      "event": "pull_request"
+    },
+    {
+      "id": 38397456993,
+      "head_sha": "bd7f04c06c4e792520f3996d8de7744b0637dc8c",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/Polaris1010/EM-DINOv3-Research/actions/runs/38397456993",
+      "event": "push"
+    }
+  ],
   "server_writes": false,
   "gpu_work_started": false
 }

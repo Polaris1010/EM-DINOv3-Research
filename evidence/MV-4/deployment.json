@@ -1,0 +1,57 @@
+{
+  "observed_at_utc": "2026-10-14T14:52:40.851791+00:00",
+  "server_root": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014",
+  "code_commit": "1940bb2093769f290db363c83ab9b9f720e80276",
+  "source_files": {
+    "src/common.py": "abcd10ca1bd22a9e2077a50db2e3d543f5176b02cdb795be8b3f117d212b91dc",
+    "src/infer.py": "597df79f1fff9efccf1f8ed530d288ef0b25be5862f7b999d994fdf97ab4e03b",
+    "src/official.py": "7043f04febbdfd5bb2dbf35afeb99d9223a709c893a371c1bd11c96801b18312",
+    "src/report.py": "95b59b7b7a3d06c0c2d4496666686284f835c46b251b53530f69a5e8081cabad",
+    "src/run.py": "25d7d3b2c569ef9db18fa05cb84068704c6c972a3753597c7185882c6e1de776",
+    "src/score.py": "a15edecd95c460a97bce5cdcfdd4f2eb9c1740ecd018c9bb0d5091cf24da0099",
+    "src/scoring_queue.py": "a19fbdc5e92598bd71522631f38ca4e8424e76f1fa32ac5482f160b8c6f2e736",
+    "MV4_protocol.json": "77672bfe5ba1ebbfe6272565870271fccb4c0b92dc20899bdf3c66028cbe1095"
+  },
+  "official_assets": {
+    "observed_at_utc": "2026-10-14T14:50:54.006390+00:00",
+    "files": {
+      "inference_upstream.py": {
+        "source": "https://raw.githubusercontent.com/volume-em/empanada-napari/main/empanada_napari/inference.py",
+        "sha256": "eb38a10eb60a3badb99a80646b67ac96ca1a202674d24fdb8903620cc5d73071",
+        "bytes": 20672
+      },
+      "utils_upstream.py": {
+        "source": "https://raw.githubusercontent.com/volume-em/empanada-napari/main/empanada_napari/utils.py",
+        "sha256": "1000d0b9053132a5ae3975b7042e91f39bcbdb2e97020b0bc88cc48adeb3d6e3",
+        "bytes": 9933
+      },
+      "model_config.yaml": {
+        "source": "https://raw.githubusercontent.com/volume-em/empanada-napari/main/empanada_napari/configs/MitoNet_v1.yaml",
+        "sha256": "ac1421a7073809b09e548da35e75aa8da4e8c11003bde85add895541859ad3f4",
+        "bytes": 1079
+      },
+      "empanada_dl-0.1.7-py3-none-any.whl": {
+        "source": "https://pypi.org/project/empanada-dl/0.1.7/",
+        "sha256": "405518287dbf9f41d1d7c1b092a16feb4d87d995c1b4a9c3ec38d3f9b37532d4",
+        "bytes": 91353,
+        "publisher_sha256_verified": true
+      },
+      "MitoNet_v1.pth": {
+        "source": "https://zenodo.org/records/6861565/files/MitoNet_v1.pth",
+        "sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+        "bytes": 221241200,
+        "publisher_md5": "b56fce28d877a3c35b7ca970cec73bc9",
+        "publisher_md5_verified": true
+      }
+    },
+    "scope": "official MitoNet_v1 only; no GT selection; no SSL"
+  },
+  "website_http_before": 200,
+  "gpu0_forbidden": true,
+  "physical_gpus": [
+    1,
+    2,
+    3
+  ],
+  "service": "mv4-official-mitonet-20261014.service"
+}

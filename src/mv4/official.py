@@ -33,5 +33,6 @@ def build():
  model_config['model']=str(R/'assets/MitoNet_v1.pth')
  assert model_config['norms']=={'mean':0.57571,'std':0.12765} and model_config['labels']==[1]
  engine=ns['Engine2d'](model_config,**c['engine_parameters'])
- engine.engine.model.requires_grad_(False).eval()
+ for parameter in engine.engine.model.parameters():parameter.requires_grad_(False)
+ engine.engine.model.eval()
  return engine

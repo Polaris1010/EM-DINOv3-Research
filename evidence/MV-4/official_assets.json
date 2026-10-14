@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-14T14:31:54.996625+00:00",
+  "observed_at_utc": "2026-10-14T14:50:54.006390+00:00",
   "files": {
     "inference_upstream.py": {
       "source": "https://raw.githubusercontent.com/volume-em/empanada-napari/main/empanada_napari/inference.py",
@@ -24,8 +24,10 @@
     },
     "MitoNet_v1.pth": {
       "source": "https://zenodo.org/records/6861565/files/MitoNet_v1.pth",
-      "sha256": "UNVERIFIED",
-      "status": "download_in_progress"
+      "sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+      "bytes": 221241200,
+      "publisher_md5": "b56fce28d877a3c35b7ca970cec73bc9",
+      "publisher_md5_verified": true
     }
   },
   "scope": "official MitoNet_v1 only; no GT selection; no SSL"

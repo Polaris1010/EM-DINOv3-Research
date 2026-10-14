@@ -1,0 +1,3 @@
+region_id,voxels,shape_zyx,recorded_normalization,original_status,raw_mapping_mismatches,image_cache_mismatches,gt_cache_mismatches,image_mean,image_sd,zero_fraction,GT_foreground_intensity_mean,normalized_mean,normalized_sd,probability_reused
+guay21_vol1,15360000,"[24, 800, 800]","uint16->uint8(p0.5=35752,p99.5=49283)",VERIFIED_EXACT_INGEST_MAPPING,0,0,0,157.93061145833335,60.04791004460586,0.0051125,95.08179682262819,0.3417605265111662,1.8447473574220519,True
+muller21_high_c1,582770280,"[1097, 699, 760]",uint8(passthrough),UNVERIFIED_MISSING_PRE_INGEST_FILE,,0,0,53.511878167500235,68.34324539832639,0.5775653367223874,182.59772076434072,-2.866114354738363,2.099590497863379,True

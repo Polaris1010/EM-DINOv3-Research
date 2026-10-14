@@ -1,0 +1,30 @@
+[
+  {
+    "region_id": "guay21_vol1",
+    "native_z": 1,
+    "file": "/opt/data/3_117/tanghr/codex/mv4c_input_provenance_20261015/figures/guay21_vol1_z0001.png",
+    "sha256": "b4763617354067d7c4355d20d247f22c996a9d066639e519e33ccbeb3105f49f",
+    "original_panel_verified": true
+  },
+  {
+    "region_id": "guay21_vol1",
+    "native_z": 12,
+    "file": "/opt/data/3_117/tanghr/codex/mv4c_input_provenance_20261015/figures/guay21_vol1_z0012.png",
+    "sha256": "7932bb1778bf73e0d481f89447caf70fd89eacfb5a6c9140e37e2af5007a22af",
+    "original_panel_verified": true
+  },
+  {
+    "region_id": "muller21_high_c1",
+    "native_z": 525,
+    "file": "/opt/data/3_117/tanghr/codex/mv4c_input_provenance_20261015/figures/muller21_high_c1_z0525.png",
+    "sha256": "e48680f130789990e65247b05e1c4bc9516699727bd606c6cc528072de2e0926",
+    "original_panel_verified": false
+  },
+  {
+    "region_id": "muller21_high_c1",
+    "native_z": 548,
+    "file": "/opt/data/3_117/tanghr/codex/mv4c_input_provenance_20261015/figures/muller21_high_c1_z0548.png",
+    "sha256": "2c13d7870a75042e8ac2bb0260799b8a7f0e5dbbaa3a4cdc0630d23fb36c60d0",
+    "original_panel_verified": false
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "status": "complete_available_checks",
+  "regions": 2,
+  "figures": 4,
+  "original_images_verified": 1,
+  "historical_inputs_unchanged": true,
+  "gpu_used": false,
+  "new_inference": false,
+  "new_training": false
+}

@@ -39,3 +39,7 @@ MV2/MV3分开保存。监督扩大收益仅通过相同新heldout区域与新有
 v1首seed两组已各完成40k训练及38区域推理，停止时完成69/76条开发指标；没有启动另外两个seed。仅停止自有service与本地被动collector，旧目录/checkpoint/部分指标及v1注册快照保留。v2新目录中两组从共同初始decoder重新开始，避免混合旧mask训练和整幅GT训练；不单独追加某个encoder预算。v2只读复用已存在的图像/GT缓存，不重新审计其他来源。
 
 当前service：`mv3-generalist-v2-han-fullgt-20261014.service`；数据准备service：`mv3-prepare-v2-han-fullgt-20261014.service`。当前运行登记位于`experiments/MV-3/v2/run_index.json`；旧`experiments/MV-3/run_index.json`只表示v1历史快照。最终产物保存在v2目录，旧版与MV2独立保存。
+
+## 2026-10-14评分执行修复
+
+六组训练及完整推理完成后，仅将剩余指标执行从串行改为GPU1/2/3各一worker、最多三进程，保守限制总RAM预留并使用1秒调度轮询。恢复路径跳过已完成训练、推理与已写出的指标。没有改变evaluator、指标定义、模型、数据、采样、40k预算或checkpoint选择。部署修订SHA与实际进程快照另存evidence/MV-3/v2。

@@ -3,6 +3,7 @@ import argparse,csv,fcntl,json,os,signal,subprocess,sys,time,urllib.request
 from pathlib import Path
 import psutil
 from data import R,OLD,MV2,read,sha,atomic,manifest
+from scoring_queue import score_queue
 PY='/opt/data/3_117/tanghr/envs/meddinov3/bin/python'
 
 def gpu_info():
@@ -55,15 +56,20 @@ class Controller:
  def metrics(self,seeds):
   self.phase='full_development_metrics'
   expected={r['id'] for r in manifest()['entries'] if r['supervised_role']=='dev'}
+  tasks=[]
   for seed in seeds:
    for model in ['G-P0','G-B100']:
     out=R/'runs'/model/f'seed{seed}';paths=list(out.glob('*_overlap.json'));assert {read(p)['region_id'] for p in paths}==expected
     for path in sorted(paths,key=lambda p:read(p)['valid_voxels']):
      if path.with_name(path.name.replace('_overlap.json','_metrics.json')).exists():continue
-     # One metric worker at a time; no concurrent unbounded whole-volume EDTs.
-     need=45*read(path)['valid_voxels']+(4<<30);vm=psutil.virtual_memory()
-     if need>vm.available-(16<<30):raise MemoryError('Insufficient RAM for this metric row; preserve predictions and stop own work')
-     p=self.launch([R/'src/evaluate.py','score','--path',path],f'metric_{model}_{seed}_{path.stem}',3);self.wait([p])
+     tasks.append({'path':path,'model':model,'seed':seed,'memory_bytes':45*read(path)['valid_voxels']+(4<<30)})
+  def launch_score(task,gpu):
+   path=task['path'];return self.launch([R/'src/evaluate.py','score','--path',path],f"metric_{task['model']}_{task['seed']}_{path.stem}",gpu)
+  # One worker per allowed GPU; conservatively reserve all active jobs' estimated RAM.
+  score_queue(tasks,launch_score,self.health,lambda:psutil.virtual_memory().available)
+  for seed in seeds:
+   for model in ['G-P0','G-B100']:
+    out=R/'runs'/model/f'seed{seed}'
     actual=[read(p) for p in out.glob('*_metrics.json')];assert {p['region_id'] for p in actual}==expected
     atomic(out/'validation_complete.json',{'status':'complete','regions':len(actual),'sources':len({p['source_id'] for p in actual}),'tta':False,'manifest_sha256':sha(R/'MV-Generalist.json')})
  def matched(self,seed):
@@ -73,6 +79,10 @@ class Controller:
   atomic(R/'evidence'/f'matched_seed{seed}.json',{'status':'PASS','seed':seed,'decoder_initial_sha256':a['decoder_initial_sha256'],'sampling_hash':a['sampling_hash'],'source_draws':a['source_draws'],'steps_each':40000,'manifest_sha256':a['manifest_sha256'],'protocol_sha256':a['protocol_sha256']})
  def run(self):
   protocol=read(R/'MV3_protocol.json');seeds=protocol['seed_sequence'];assert len(seeds)==3
+  if all((R/'runs'/m/f'seed{s}'/name).exists() for m in ['G-P0','G-B100'] for s in seeds for name in ['training_complete.json','inference_complete.json']):
+   assert read(R/'cache_complete.json')['status']=='PASS'
+   for seed in seeds:self.matched(seed)
+   self.metrics(seeds);self.finish_report();return
   self.phase='prepare_supervision'
   while not (R/'cache_complete.json').exists():
    service=subprocess.check_output(['systemctl','show',os.environ.get('MV3_PREPARE_SERVICE','mv3-prepare-20261014.service'),'-p','ActiveState','-p','Result'],text=True)
@@ -98,7 +108,9 @@ class Controller:
   self.wait([jobs[0]])
   jobs.append(self.launch([__file__,'worker','--model','G-B100','--seed',seeds[2]],f'additional_G-B100_{seeds[2]}',1));self.wait(jobs)
   for seed in seeds[1:]:self.matched(seed)
-  self.metrics(seeds[1:]);self.phase='final_report'
+  self.metrics(seeds[1:]);self.finish_report()
+ def finish_report(self):
+  self.phase='final_report'
   subprocess.run([PY,str(R/'src/report.py')],env={**os.environ,'CUDA_VISIBLE_DEVICES':''},check=True)
   assert {p:sha(p) for p in self.protected}==self.protected
   atomic(R/'evidence/historical_inputs_after.json',{'status':'PASS','unchanged':self.protected})

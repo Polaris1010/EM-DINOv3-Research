@@ -1,0 +1,141 @@
+{
+  "time_utc": "2026-10-14T08:50:17.229269+00:00",
+  "status": {
+    "status": "running",
+    "phase": "full_development_metrics",
+    "seconds": 14099.160854816437,
+    "physical_gpus": [
+      1,
+      2,
+      3
+    ],
+    "gpu0_used": false,
+    "website_http": 200,
+    "progress": {
+      "runs/G-P0/seed20261015/progress.json": {
+        "stage": "full_development_inference",
+        "model": "G-P0",
+        "seed": 20261015,
+        "region_id": "wei20_mitoEM-R__dev",
+        "z_completed": 81,
+        "z_total": 100,
+        "seconds": 1644.3830211162567
+      },
+      "runs/G-P0/seed20261016/progress.json": {
+        "stage": "full_development_inference",
+        "model": "G-P0",
+        "seed": 20261016,
+        "region_id": "wei20_mitoEM-R__dev",
+        "z_completed": 81,
+        "z_total": 100,
+        "seconds": 1452.3380184173584
+      },
+      "runs/G-P0/seed20261014/progress.json": {
+        "stage": "full_development_inference",
+        "model": "G-P0",
+        "seed": 20261014,
+        "region_id": "wei20_mitoEM-R__dev",
+        "z_completed": 81,
+        "z_total": 100,
+        "seconds": 1459.2951967716217
+      },
+      "runs/G-B100/seed20261015/progress.json": {
+        "stage": "full_development_inference",
+        "model": "G-B100",
+        "seed": 20261015,
+        "region_id": "wei20_mitoEM-R__dev",
+        "z_completed": 81,
+        "z_total": 100,
+        "seconds": 1710.6601796150208
+      },
+      "runs/G-B100/seed20261016/progress.json": {
+        "stage": "full_development_inference",
+        "model": "G-B100",
+        "seed": 20261016,
+        "region_id": "wei20_mitoEM-R__dev",
+        "z_completed": 81,
+        "z_total": 100,
+        "seconds": 1442.771856546402
+      },
+      "runs/G-B100/seed20261014/progress.json": {
+        "stage": "full_development_inference",
+        "model": "G-B100",
+        "seed": 20261014,
+        "region_id": "wei20_mitoEM-R__dev",
+        "z_completed": 81,
+        "z_total": 100,
+        "seconds": 1464.1675024032593
+      }
+    },
+    "metrics_completed": 149,
+    "child_pids": [
+      3742491
+    ]
+  },
+  "service": "MainPID=3642098\nResult=success\nActiveState=active\n",
+  "gpu": "0, NVIDIA GeForce RTX 4090, 0 %, 3092 MiB, 21124 MiB\n1, NVIDIA GeForce RTX 4090, 0 %, 464 MiB, 23752 MiB\n2, NVIDIA GeForce RTX 4090, 0 %, 464 MiB, 23752 MiB\n3, NVIDIA GeForce RTX 4090, 0 %, 392 MiB, 23824 MiB\n",
+  "compute_apps": "GPU-e7d56fea-8409-6cf0-e2e7-ceda9fd00ec5, 2470228, 3086 MiB\nGPU-29591cdf-1498-85e8-bb8c-158082a53728, 1971241, 458 MiB\nGPU-794aaaef-6c72-f6ac-b6d0-a07ba3f76364, 1971241, 458 MiB\nGPU-5a68cc29-a13a-bf90-858e-079e14de807a, 3742491, 386 MiB\n",
+  "processes": "    PID    PPID ELAPSED %CPU %MEM   RSS STAT COMMAND\n3642098       1   14107  0.0  0.0 46192 Ssl  /opt/data/3_117/tanghr/envs/meddinov3/bin/python -u /opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/src/run.py controller\n3742491 3642098      23  132  3.7 19606952 Rsl /opt/data/3_117/tanghr/envs/meddinov3/bin/python -u /opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/src/evaluate.py score --path /opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/muller21_high_c1_overlap.json\n3742647 3735151       0  0.0  0.0  3600 Ss   bash -c export CUDA_VISIBLE_DEVICES= python3 - <<'PY' from pathlib import Path import datetime,json,subprocess r=Path('/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014');status=json.loads((r/'STATUS.json').read_text()) metrics=sorted(r.glob('runs/*/seed*/*_metrics.json'),key=lambda p:p.stat().st_mtime,reverse=True) result={'time_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':status,'service':subprocess.check_output(['systemctl','show','mv3-generalist-v2-han-fullgt-20261014.service','-p','MainPID','-p','ActiveState','-p','Result'],text=True),'gpu':subprocess.check_output(['nvidia-smi','--query-gpu=index,name,utilization.gpu,memory.used,memory.free','--format=csv,noheader'],text=True),'compute_apps':subprocess.check_output(['nvidia-smi','--query-compute-apps=gpu_uuid,pid,used_memory','--format=csv,noheader'],text=True),'processes':subprocess.check_output(['ps','-eo','pid,ppid,etimes,pcpu,pmem,rss,stat,args'],text=True),'metric_count':len(metrics),'recent_metrics':[{k:j.get(k) for k in ['model','seed','region_id','metric_seconds','hd95_nm','nsd_16nm']}|{'written_utc':datetime.datetime.fromtimestamp(p.stat().st_mtime,datetime.timezone.utc).isoformat()} for p in metrics[:6] for j in [json.loads(p.read_text())]],'recent_metric_logs':{p.name:p.read_text()[-1100:] for p in sorted((r/'logs').glob('metric_*.log'),key=lambda p:p.stat().st_mtime,reverse=True)[:3]}} result['processes']='\\n'.join(line for line in result['processes'].splitlines() if 'mv_generalist_v2_han_fullgt_20261014' in line or line.strip().startswith('PID')) print(json.dumps(result)) PY ",
+  "metric_count": 149,
+  "recent_metrics": [
+    {
+      "model": "G-B100",
+      "seed": 20261015,
+      "region_id": "han24_pos2",
+      "metric_seconds": 22.139958143234253,
+      "hd95_nm": 2919.177978515625,
+      "nsd_16nm": 0.5151007771492004,
+      "written_utc": "2026-10-14T08:33:10.751118+00:00"
+    },
+    {
+      "model": "G-B100",
+      "seed": 20261015,
+      "region_id": "openorganelle_jrc_cos7-1b_recon-1_crop238",
+      "metric_seconds": 18.477761268615723,
+      "hd95_nm": 5715.1376953125,
+      "nsd_16nm": 0.38364794850349426,
+      "written_utc": "2026-10-14T08:32:36.778057+00:00"
+    },
+    {
+      "model": "G-B100",
+      "seed": 20261015,
+      "region_id": "kunduri22_train02",
+      "metric_seconds": 9.698290348052979,
+      "hd95_nm": 291.53387451171875,
+      "nsd_16nm": 0.7672725915908813,
+      "written_utc": "2026-10-14T08:32:12.744881+00:00"
+    },
+    {
+      "model": "G-B100",
+      "seed": 20261015,
+      "region_id": "jiang25_vol2",
+      "metric_seconds": 7.615848779678345,
+      "hd95_nm": 133.41664123535156,
+      "nsd_16nm": 0.7755087018013,
+      "written_utc": "2026-10-14T08:31:55.323435+00:00"
+    },
+    {
+      "model": "G-B100",
+      "seed": 20261015,
+      "region_id": "turner22_microns1_vol3",
+      "metric_seconds": 5.1667797565460205,
+      "hd95_nm": 188.1276092529297,
+      "nsd_16nm": 0.7207995057106018,
+      "written_utc": "2026-10-14T08:31:38.125928+00:00"
+    },
+    {
+      "model": "G-B100",
+      "seed": 20261015,
+      "region_id": "turner22_microns1_vol1",
+      "metric_seconds": 5.15160870552063,
+      "hd95_nm": 304.63092041015625,
+      "nsd_16nm": 0.6524225473403931,
+      "written_utc": "2026-10-14T08:31:22.614066+00:00"
+    }
+  ],
+  "recent_metric_logs": {
+    "metric_G-B100_20261015_muller21_high_c1_overlap.log": "/opt/data/3_117/tanghr/envs/meddinov3/lib/python3.11/site-packages/monai/utils/deprecate_utils.py:221: FutureWarning: monai.metrics.utils get_mask_edges:always_return_as_numpy: Argument `always_return_as_numpy` has been deprecated since version 1.5.0. It will be removed in version 1.7.0. The option is removed and the return type will always be equal to the input type.\n  warn_deprecated(argname, msg, warning_category)\n",
+    "metric_G-B100_20261015_han24_pos2_overlap.log": "/opt/data/3_117/tanghr/envs/meddinov3/lib/python3.11/site-packages/monai/utils/deprecate_utils.py:221: FutureWarning: monai.metrics.utils get_mask_edges:always_return_as_numpy: Argument `always_return_as_numpy` has been deprecated since version 1.5.0. It will be removed in version 1.7.0. The option is removed and the return type will always be equal to the input type.\n  warn_deprecated(argname, msg, warning_category)\nSCORED G-B100 20261015 han24_pos2 2919.177978515625 0.5151007771492004\n",
+    "metric_G-B100_20261015_openorganelle_jrc_cos7-1b_recon-1_crop238_overlap.log": "/opt/data/3_117/tanghr/envs/meddinov3/lib/python3.11/site-packages/monai/utils/deprecate_utils.py:221: FutureWarning: monai.metrics.utils get_mask_edges:always_return_as_numpy: Argument `always_return_as_numpy` has been deprecated since version 1.5.0. It will be removed in version 1.7.0. The option is removed and the return type will always be equal to the input type.\n  warn_deprecated(argname, msg, warning_category)\nSCORED G-B100 20261015 openorganelle_jrc_cos7-1b_recon-1_crop238 5715.1376953125 0.38364794850349426\n"
+  }
+}

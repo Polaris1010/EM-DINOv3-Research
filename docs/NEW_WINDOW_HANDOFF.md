@@ -1,3 +1,13 @@
+# MV3已完成：新窗口先读最终报告
+
+当前MV-Generalist-v2已完成六组×40000 steps、228条全开发指标、18个checkpoint。服务器service inactive、MainPID=0，网站200；GPU0未使用，没有自动新实验。先读[MV3_final_report.md](MV3_final_report.md)、experiments/MV-3/v2的指标与最终核验、最新work_logs记录。
+
+三seed来源等权Dice：P0 0.813741±0.000827，B100 0.826449±0.000832；配对Δ=+0.012707±0.001361（decoder seed样本SD）。三个seed差值均正；Guay/Müller持续略低，Haberl基本持平。数据协议和监督预算改变的旧预测对照另表保存，不混成同一排行榜。
+
+本轮已经结束，不恢复MV3或旧watcher，不自动运行MitoNet/SSL。下一项研究决策是同图像/有效GT的官方MitoNet对照，须后续用户任务再执行。当前分支codex/mv3-generalist-training、draft PR2，未经自动合并。
+
+## 以下为完成前的交接快照
+
 > 最新MV3终止状态 20261014T091140Z：complete。所有6组完成，先读MV3_final_report.md；不重启，不自动启动新实验。
 
 > 最新核查：2026-10-14 15:00香港时间，v2首seed两组40k及38区域×12来源完整开发评测已完成，Dice P0 0.8130 / B100 0.8273（+0.0143）。P0全部三个seed、B100前两个seed均已40k训练完成；追加seed的开发推理在运行，B100第三seed等待既定调度。尚无三seed最终报告。

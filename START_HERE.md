@@ -1,3 +1,5 @@
+> **MV3 v2已完成并停止。** 新窗口先读docs/MV3_final_report.md、docs/NEW_WINDOW_HANDOFF.md和最新工作记录；六组40k、228条指标、18份checkpoint已完成，禁止重复启动或自动开始新实验。
+
 # 新窗口从这里接手
 
 独立 private 仓库：[Polaris1010/EM-DINOv3-Research](https://github.com/Polaris1010/EM-DINOv3-Research)。本地：`E:\mira_website_demo\EM-DINOv3-Research`。使用此仓库的 main，不要把网站仓库当作研究仓库。

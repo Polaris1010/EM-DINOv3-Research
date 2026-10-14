@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-14T09:13:17.311417+00:00",
+  "metric_rows": 228,
+  "regions_per_run": 38,
+  "sources": 12,
+  "decoder_seeds": [
+    20261014,
+    20261015,
+    20261016
+  ],
+  "checkpoint_sidecars": 18,
+  "matched": [
+    {
+      "seed": 20261014,
+      "matched_initialization": true,
+      "matched_sampling": true,
+      "steps_each": 40000
+    },
+    {
+      "seed": 20261015,
+      "matched_initialization": true,
+      "matched_sampling": true,
+      "steps_each": 40000
+    },
+    {
+      "seed": 20261016,
+      "matched_initialization": true,
+      "matched_sampling": true,
+      "steps_each": 40000
+    }
+  ],
+  "source_equal_paired_delta_mean": 0.012707455471616669,
+  "source_equal_paired_decoder_seed_sd": 0.0013611469249566023,
+  "checkpoint_hash_evidence": "server save/inference digests and collected sidecars; no checkpoint downloads",
+  "new_experiments_started": false
+}

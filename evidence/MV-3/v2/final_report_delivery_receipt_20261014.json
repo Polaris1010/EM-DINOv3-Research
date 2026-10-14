@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "mirrored_at_utc": "2026-10-14T09:18:36.130230+00:00",
+  "report_sha256": "bb75535e7f23c790da2007d3f967e6e4df326b0cd56d2cb8e636e531d3bdd124",
+  "artifacts_sha256": {
+    "MV3_final_report.md": "bb75535e7f23c790da2007d3f967e6e4df326b0cd56d2cb8e636e531d3bdd124",
+    "MV3_final_decoder_seed_summary.csv": "fb25ef9c4994d3cbba7808fc2c631b0dce87d443b70bcb4040face3a99d879a0",
+    "MV3_final_source_paired_seed_summary.csv": "320ea94e03cc4802726bd9adbff3613b22ee6e76955967f5052d0de3be8b1d0e",
+    "MV3_final_results_verification.json": "08b94544abfdfc5497905000e2fcf039408345d3bd2ce63d1cfaef4b371dbed7"
+  },
+  "original_server_report_preserved": "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/evidence/MV3_final_report_server_original.md",
+  "service": "inactive",
+  "experiments_started": false
+}

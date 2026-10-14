@@ -1,3 +1,13 @@
+# 当前研究状态：MV3 v2已完成
+
+2026-10-14香港时间17:10:18实际核验六组各40k、各38开发区域/12来源，共228条指标和18个checkpoint；服务器inactive/MainPID0，网站200、GPU0未使用，没有启动后续实验。最终报告与全部指标已收取并通过覆盖、混淆矩阵算术、SHA关联和三个seed配对核验。
+
+P0 Dice 0.813741±0.000827，B100 Dice 0.826449±0.000832；配对Δ+0.012707±0.001361。监督扩展的描述性同区域收益P0+0.4670、B100+0.4359，包含来源覆盖和20k→40k预算等改变，不声称单变量因果。B100主要收益在OpenOrganelle/Han/Turner，Guay/Müller仍低于P0，Haberl基本持平。当前短板仍为Haberl/Han/Guay/OpenOrganelle；下一项决策是MitoNet同图像GT对照，本轮停止。
+
+当前结果见docs/MV3_final_report.md、experiments/MV-3/v2/run_index.json和MV3_final_results_verification.json。MV1/MV2及v1历史记录保留。
+
+## 以下为完成前与盘点历史状态
+
 > 最新核查：2026-10-14 15:00香港时间，v2首seed两组40k及38区域×12来源完整开发评测已完成，Dice P0 0.8130 / B100 0.8273（+0.0143）。P0全部三个seed、B100前两个seed均已40k训练完成；追加seed的开发推理在运行，B100第三seed等待既定调度。尚无三seed最终报告。
 
 # 当前研究状态

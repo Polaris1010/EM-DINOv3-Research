@@ -1,3 +1,11 @@
+# 当前任务完成后停止
+
+MV3 v2六组40k、228条指标与18个checkpoint完成；先读MV3_final_report.md、最终核验与work_logs/20261014_07_mv3_completion.md。当前服务已inactive，不恢复训练或评分。
+
+下一项科学决策为官方MitoNet同图像/有效GT对照，后续用户明确要求后执行。此轮没有启动MitoNet、Gram/HRA、TopoMask、LAST、LT或新预训练。
+
+## 以下为完成前计划，保留历史
+
 > 最新MV3终止状态 20261014T091140Z：complete。所有6组完成，先读MV3_final_report.md；不重启，不自动启动新实验。
 
 > 最新核查：2026-10-14 15:00香港时间，v2首seed两组40k及38区域×12来源完整开发评测已完成，Dice P0 0.8130 / B100 0.8273（+0.0143）。P0全部三个seed、B100前两个seed均已40k训练完成；追加seed的开发推理在运行，B100第三seed等待既定调度。尚无三seed最终报告。

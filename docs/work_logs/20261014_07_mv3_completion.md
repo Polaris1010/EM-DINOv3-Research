@@ -19,3 +19,15 @@
 新增4项模拟调度测试证明每卡至多一个、最大三进程、内存上限生效及失败停止排队；总17项CPU测试通过。实际部署及并发进程回执将在运行后追加。
 
 评分执行修复commit `f410b772f15e8fc29e3136bb6ba7c377d23beb35`已推送并部署。恢复前确认六组40k与全开发推理完成，保留18个checkpoint及189个已完成指标；仅更改run.py和新增scoring_queue.py，其余六份训练/loader/evaluator/report/manifest/protocol SHA不变。新service MainPID3748795 active。17:04:57香港时间回执：三个评分worker实际绑定物理GPU1/2/3，指标222/228；189份已有指标SHA和18个checkpoint文件size/mtime均一致。没有重新训练或推理；最后缺失指标继续执行。
+
+## 实际最终完成与停止
+
+服务器17:10:18香港时间：六组各40k、228条指标、18个checkpoint及最终报告全部完成；service inactive/MainPID0/Resultsuccess，网站200、GPU0未用、无后续实验。被动collector已完成收取并推送原始最终结果commit `6cb5983f31cb8c7a7b6a073df6a26f5d7964c402`，没有重新启动任务。
+
+228条记录覆盖和混淆矩阵算术、逐来源/三seed平均、18份checkpoint sidecar关联、三个seed初始化和sampling/source_draws匹配核验PASS。追加逐seed汇总与逐来源配对SD，P0 0.813741±0.000827、B100 0.826449±0.000832、Δ+0.012707±0.001361，三个seed方向均正。
+
+五项回答：同区域描述性扩展收益P0+0.4670、B100+0.4359，不能单独归因增加来源；B100仍有平均多来源收益，Haberl基本持平；Guay和Müller没有改善，且新协议B100仍低于P0；主要短板Haberl/Han/Guay/OpenOrganelle；当前优先监督适配，输入尺度未被操纵，下一步决策是官方MitoNet同图像GT对照。本轮停止，不自动执行。
+
+初次回执推送遇TLS unexpected EOF，使用同一授权private分支重试成功；后续原始终端结果也已推送。当前最终增强报告、指标核验、代码和全部Markdown交接将一并完成最后提交。
+
+最终报告补充的逐seed/配对SD与核验文件已同步回服务器本轮目录，原始自动报告另存evidence/MV3_final_report_server_original.md；本地与服务器SHA一致。同步仅写报告/小表/回执，服务仍inactive，没有启动科学任务。

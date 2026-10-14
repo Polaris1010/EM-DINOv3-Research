@@ -1,3 +1,5 @@
+> 2026-10-14：MV3 v2六组40k与228条开发指标已完成，服务inactive。该轮授权任务已结束；先读最终报告，禁止恢复运行或自动MitoNet/新SSL。后续用户明确任务可提供新的执行授权。
+
 # Research takeover instructions
 
 每个新窗口先读 `START_HERE.md`、`docs/NEW_WINDOW_HANDOFF.md`、最新 `docs/work_logs/` 记录，再读 `docs/PROJECT_STATE.md`、`experiments/registry.yaml`、`docs/NEXT_ACTION.md` 和最新已合并 PR。不能声称尚未发生的提交、推送或合并已经完成。

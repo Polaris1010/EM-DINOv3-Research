@@ -1,15 +1,11 @@
-# MV3：多来源冻结分割与 Han 整幅 GT 协议
+# MV3：完成多来源冻结Primus与三seed比较
 
-MV2的head只在4体积/3来源接受监督，不能说明充分多来源监督的分割能力。本PR建立156 train/38 dev区域、12来源的匹配G-P0/G-B100原版Primus训练，冻结DINOv3 ViT-L/16，[5,11,17,23]，每run40k steps，3个共同decoder seeds，10k/20k/40k保存，TTA=OFF。
+旧少来源head不能说明充分多来源监督后的分割能力。本PR完成MV-Generalist-v2的156train/38dev区域、12来源训练：官方DINOv3 ViT-L/16冻结，原版Primus_Multiscale，[5,11,17,23]，TTA=OFF，G-P0/G-B100三个匹配decoder seeds各40k，保存10k/20k/40k。
 
-当前锁定MV-Generalist-v2：用户确认Han GT为线粒体真值并明确要求“取消 mask 限制，整幅 GT 参与 loss”。只对Han跳过mask，整幅GT参与采样、loss及开发指标；其他来源、train/dev/test边界和全部训练配置保持不变。GT身份确认与整幅标注完整性假设分别记录，不以模型Dice决定mask极性。
+来源等权Dice：P0 0.813741±0.000827，B100 0.826449±0.000832；同seed配对Δ+0.012707±0.001361，三个seed均正。9个来源三个seed均提高，Haberl基本持平；Guay/Müller均仍略低。最明显收益在OpenOrganelle/Han/Turner。最终报告包含所有来源的Dice、Precision、Recall、HD95、NSD、预测前景比例，逐区域配对、失败案例、训练曲线与18个checkpoint SHA。
 
-此前v1首seed两组各完成40k及完整开发推理，69/76开发指标完成时按用户更改停止。其checkpoint、结果和6条registry快照保留；v2双方从相同初始化重训，不把两种监督协议混成排行榜。旧MV1/MV2的26条历史记录、源码和结果保持不变。
+当前数据协议仅对Han按用户明确指令忽略mask、整幅GT参与loss/采样/指标；官方test保留，不混合MV2/v1协议。旧预测在相同新heldout/GT上仅作描述性扩展收益参照，包含监督覆盖和20k→40k预算的共同改变。B100此前无标签暴露全量图像，结论限定transductive development；decoder seeds不增加独立acquisition。
 
-验证：13项CPU测试，registry/provenance与train/dev/test边界检查；实际GPU smoke、缓存有效体素、部署SHA和训练状态见experiments/MV-3/v2及带时间戳evidence。计划预算不代表已完成训练，最终收益等待真实全来源指标。GPU0禁用；网站、环境、旧研究结果保留。PR保持draft，未自动合并。
+六组40k及228条指标已实际完成。评分末段将串行15秒轮询改为GPU1/2/3各一worker、最多三进程且保守限制RAM；只改变执行调度，evaluator和训练/数据SHA不变，18个checkpoint及189条已有指标保持。GPU0未用，网站200、环境未改，历史26条及6条v1注册快照原样保留。
 
-完成六组后被动收取MV3_final_report.md、逐区域/来源指标、配对变化、失败案例、训练曲线和18个checkpoint哈希；执行器停止，不自动运行新SSL或MitoNet。
-
-实际首seed结果：两组均40k，38区域/12来源全开发评测完成，共76条。来源等权Dice P0 0.8130427361、B100 0.8273065136（+0.0142637775）；B100在10/12来源提高，Guay与Müller仍略低。完整首seed报告、来源/区域/配对表已提交。仅首seed结果，追加两个seed与最终报告未完成。v2采样/loss/评测中Han整幅GT、TTA=OFF保持不变。
-
-本地collector曾因SSH重置退出，服务器任务继续；仅修复被动收取器的有界重连，保留48小时截止，不重启训练，不改环境。
+验证：17项CPU回归测试、registry/provenance、228条覆盖和混淆矩阵算术、12来源/3seed汇总、18个checkpoint元数据关联及三个seed初始化/采样匹配均通过。service已inactive/MainPID0，任务结束。下一项决策是MitoNet同图像GT对照，本轮未自动运行新实验。PR保持draft，未自动合并。

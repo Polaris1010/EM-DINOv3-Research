@@ -1,0 +1,48 @@
+{
+  "stage": "MV-3",
+  "model": "G-B100",
+  "seed": 20261016,
+  "region_id": "muller21_high_c1",
+  "volume_id": "muller21_high_c1",
+  "source_id": "muller21",
+  "dev_kind": "preserved_official_validation",
+  "acquisition_id": null,
+  "region_zyx": [
+    [
+      0,
+      1097
+    ],
+    [
+      0,
+      699
+    ],
+    [
+      0,
+      760
+    ]
+  ],
+  "spacing_zyx_nm": [
+    16.0,
+    16.0,
+    16.0
+  ],
+  "spacing_status": "official_ingest_native_grid",
+  "valid_mask_policy": "complete_declared_no_ignore",
+  "head_sha256": "1336f70347a61c72d5e38311510240dcc5271e222c62285ea73a616b0fcf133c",
+  "encoder_sha256": "9603877244ba40f3cbeccdea18d69b0d3b818dc0fc6b09f839fd6d4189ce2de5",
+  "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "protocol_sha256": "916ac9fbbeba6b3e131c4d2f106c9c7dd3044acedef323eafbf82d160f90bff3",
+  "tta": false,
+  "dice": 0.8790464073289678,
+  "precision": 0.8975470850885465,
+  "recall": 0.8612930161006056,
+  "tp": 13114485,
+  "fp": 1496988,
+  "fn": 2112023,
+  "tn": 566046784,
+  "foreground_empty_prediction": false,
+  "valid_voxels": 582770280,
+  "gt_foreground_voxels": 15226508,
+  "prediction_foreground_voxels": 14611473,
+  "predicted_foreground_fraction": 0.025072440207486217
+}

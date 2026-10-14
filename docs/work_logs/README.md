@@ -14,3 +14,5 @@
 - [MV3首seed完整开发评测与收取器恢复](20261014_06_mv3_first_seed_results.md)
 
 - [继续完成MV3与三seed最终交付](20261014_07_mv3_completion.md)
+
+- [MV3最终状态与自动收取](20261014_05_mv3_v2_terminal_collection.md)

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "unchanged": {
+    "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/MV-Dev-v1.json": "9346286eac4cc1c57d24c1f1b296ed5eaaac6c0df061a8684cf4604af76f0df8",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/MV_frozen_probe_protocol.yaml": "b788831a0a860f9acb996e5d830cdc56265977fe909eb9cfffb86a20114220d0",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/model_registry.json": "c8676f08873c11dbf5a3c06eb688de7f2d160c9d46ad40ad2c6d42ac05445138",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/mv_probe.py": "4071da2213b8f55f28ce13522d74e716c61be7900a37c96318942983be3546ec",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/official_primus.py": "b5398dc48bf5cc14068b4fed38c5f0a8c30bcbbe242d59475016e70912f248d3",
+    "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_dev_validation_manifest.json": "1b36d2571606f2a2861140186b0b8eb4561f8f553f6b296835e5461de1caea25",
+    "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/STATUS.json": "56c9fd786c9c1661ce8ef11318c47ca6059bd9e279caf9c3009e5371b3b35691",
+    "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/metrics_all_complete.json": "c6b5d1eb047f4a4c2b52ed909ef2eb01487b11dbe29ceeb2bf95784aa0502c48"
+  }
+}

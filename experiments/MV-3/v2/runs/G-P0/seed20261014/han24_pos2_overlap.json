@@ -1,0 +1,48 @@
+{
+  "stage": "MV-3",
+  "model": "G-P0",
+  "seed": 20261014,
+  "region_id": "han24_pos2",
+  "volume_id": "han24_pos2",
+  "source_id": "han24",
+  "dev_kind": "preserved_official_validation",
+  "acquisition_id": null,
+  "region_zyx": [
+    [
+      0,
+      281
+    ],
+    [
+      0,
+      1343
+    ],
+    [
+      0,
+      1243
+    ]
+  ],
+  "spacing_zyx_nm": [
+    30.0,
+    8.0,
+    8.0
+  ],
+  "spacing_status": "official_ingest_native_grid",
+  "valid_mask_policy": "full_GT_no_annotation_mask_USER_AUTHORIZED",
+  "head_sha256": "4a1cd34e6b58188088883fd98b258ad2503a5ff20b606fcc2ae488375881297b",
+  "encoder_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+  "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "protocol_sha256": "916ac9fbbeba6b3e131c4d2f106c9c7dd3044acedef323eafbf82d160f90bff3",
+  "tta": false,
+  "dice": 0.6796588595943306,
+  "precision": 0.567999948455601,
+  "recall": 0.8459598538119463,
+  "tp": 9080171,
+  "fp": 6906047,
+  "fn": 1653401,
+  "tn": 451447450,
+  "foreground_empty_prediction": false,
+  "valid_voxels": 469087069,
+  "gt_foreground_voxels": 10733572,
+  "prediction_foreground_voxels": 15986218,
+  "predicted_foreground_fraction": 0.034079425881594703
+}

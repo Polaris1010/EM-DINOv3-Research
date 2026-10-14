@@ -2,6 +2,8 @@
 
 # 当前研究状态
 
+最新终止状态 20261014T091140Z：MV3 complete；实际产物见experiments/MV-3/v2，完整完成时报告为docs/MV3_final_report.md。
+
 ## 最新阶段：2026-10-14 MV-3
 
 当前协议为 **MV-Generalist-v2**。用户明确指定“取消 mask 限制，整幅 GT 参与 loss”；仅 Han24 跳过 annotation mask，整幅 GT 参与采样、loss 和开发指标。其他来源、划分、冻结 encoder、原版 Primus、匹配 seeds、共同 40k 预算与 TTA=OFF 保持原配置。旧 v1 已停止并完整保留，不能混入 v2 对照。

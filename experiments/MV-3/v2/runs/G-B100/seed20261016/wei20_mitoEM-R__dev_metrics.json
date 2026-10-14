@@ -1,0 +1,53 @@
+{
+  "stage": "MV-3",
+  "model": "G-B100",
+  "seed": 20261016,
+  "region_id": "wei20_mitoEM-R__dev",
+  "volume_id": "wei20_mitoEM-R",
+  "source_id": "wei20",
+  "dev_kind": "official_classic_MitoEM_dev_region",
+  "acquisition_id": null,
+  "region_zyx": [
+    [
+      400,
+      500
+    ],
+    [
+      0,
+      4096
+    ],
+    [
+      0,
+      4096
+    ]
+  ],
+  "spacing_zyx_nm": [
+    30.0,
+    8.0,
+    8.0
+  ],
+  "spacing_status": "official_ingest_native_grid",
+  "valid_mask_policy": "complete_declared_no_ignore",
+  "head_sha256": "1336f70347a61c72d5e38311510240dcc5271e222c62285ea73a616b0fcf133c",
+  "encoder_sha256": "9603877244ba40f3cbeccdea18d69b0d3b818dc0fc6b09f839fd6d4189ce2de5",
+  "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "protocol_sha256": "916ac9fbbeba6b3e131c4d2f106c9c7dd3044acedef323eafbf82d160f90bff3",
+  "tta": false,
+  "dice": 0.9233490041079347,
+  "precision": 0.9263441700685319,
+  "recall": 0.9203731443765776,
+  "tp": 96428342,
+  "fp": 7667247,
+  "fn": 8342579,
+  "tn": 1565283432,
+  "foreground_empty_prediction": false,
+  "valid_voxels": 1677721600,
+  "gt_foreground_voxels": 104770921,
+  "prediction_foreground_voxels": 104095589,
+  "predicted_foreground_fraction": 0.0620458060503006,
+  "hd95_nm": 476.7598876953125,
+  "nsd_16nm": 0.7918057441711426,
+  "metric_seconds": 80.24366474151611,
+  "distance_evaluator_source_sha256": "143c5403458ca3fad215880ac7afd14e4fd066fbee8342051a0cc49a083e4d54",
+  "distance_backend": "MV2_existing_exact_EDT_MONAI"
+}

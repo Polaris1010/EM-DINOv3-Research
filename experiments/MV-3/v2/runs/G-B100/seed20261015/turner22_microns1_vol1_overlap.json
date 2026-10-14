@@ -1,0 +1,48 @@
+{
+  "stage": "MV-3",
+  "model": "G-B100",
+  "seed": 20261015,
+  "region_id": "turner22_microns1_vol1",
+  "volume_id": "turner22_microns1_vol1",
+  "source_id": "turner22",
+  "dev_kind": "exploratory_microns1_group_holdout_all_pinky_variants_train",
+  "acquisition_id": null,
+  "region_zyx": [
+    [
+      0,
+      50
+    ],
+    [
+      0,
+      1024
+    ],
+    [
+      0,
+      1024
+    ]
+  ],
+  "spacing_zyx_nm": [
+    40.0,
+    8.0,
+    8.0
+  ],
+  "spacing_status": "catalog_declared_UNVERIFIED_Pinky_specific",
+  "valid_mask_policy": "complete_declared_no_ignore",
+  "head_sha256": "1df2ad04f5171f6988866da689774808cbf63786b2ba45f50938d26e83921b19",
+  "encoder_sha256": "9603877244ba40f3cbeccdea18d69b0d3b818dc0fc6b09f839fd6d4189ce2de5",
+  "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "protocol_sha256": "916ac9fbbeba6b3e131c4d2f106c9c7dd3044acedef323eafbf82d160f90bff3",
+  "tta": false,
+  "dice": 0.7956150329318914,
+  "precision": 0.8829314807652257,
+  "recall": 0.7240144899461848,
+  "tp": 2967621,
+  "fp": 393479,
+  "fn": 1131221,
+  "tn": 47936479,
+  "foreground_empty_prediction": false,
+  "valid_voxels": 52428800,
+  "gt_foreground_voxels": 4098842,
+  "prediction_foreground_voxels": 3361100,
+  "predicted_foreground_fraction": 0.06410789489746094
+}

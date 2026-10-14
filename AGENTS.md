@@ -12,11 +12,13 @@
 
 ## Scope and resources
 
-2026-10-14用户已明确授权MV-3多来源监督训练，取代前一轮“仅只读初始化”的范围限制。仅训练G-P0与G-B100的全程冻结encoder+原版Primus，在锁定MV-Generalist-v1上共享40k预算、10k/20k/40k保存点、固定40k选模和3个匹配decoder seeds；首seed全来源开发指标完成后再补另两seeds。允许仅为这6个run使用本轮有界执行器；不恢复旧watcher，不启动其他模型或模块。
+当前协议为 **MV-Generalist-v2**。用户明确指定“取消 mask 限制，整幅 GT 参与 loss”；仅 Han24 跳过 annotation mask，整幅 GT 参与采样、loss 和开发指标。其他来源、划分、冻结 encoder、原版 Primus、匹配 seeds、共同 40k 预算与 TTA=OFF 保持原配置。旧 v1 已停止并完整保留，不能混入 v2 对照。
+
+2026-10-14用户已明确授权MV-3多来源监督训练，取代前一轮“仅只读初始化”的范围限制。仅训练G-P0与G-B100的全程冻结encoder+原版Primus，在锁定MV-Generalist-v2上共享40k预算、10k/20k/40k保存点、固定40k选模和3个匹配decoder seeds；首seed全来源开发指标完成后再补另两seeds。允许仅为这6个run使用本轮有界执行器；不恢复旧watcher，不启动其他模型或模块。
 
 禁止修改网站、环境包或MV-1/MV-2历史checkpoint/结果/注册记录，禁止自动新预训练或MitoNet。物理GPU0永远禁用；只能使用1/2/3，先核验既有进程和网站。不停止未知进程。MV-2已完成，不再追加旧9个head的推理或分析任务。结束时输出MV3_final_report.md并停止。
 
-MV-Generalist-v1是新监督协议：正式test与已映射官方validation保留；允许将自建探索性dev重新分配到train，当前train/dev空间互斥。沿用已有source registry、proofreading声明和有效区规则；Han mask!=0有效，mask外包括正标签也ignore；不发起全面数据审计。单acquisition来源可使用不重叠空间区域，必须记录开发评测独立性限制。
+MV-Generalist-v2是当前监督协议：正式test与已映射官方validation保留；允许将自建探索性dev重新分配到train，当前train/dev空间互斥。沿用已有source registry、proofreading声明和有效区规则；用户明确取消Han mask限制，Han整幅GT参与采样/loss/指标；mask文件不读取；不发起全面数据审计。单acquisition来源可使用不重叠空间区域，必须记录开发评测独立性限制。
 
 扩大 MV-1 验证范围时，只改变验证覆盖。保持 encoder、九个 head、原版 Primus、TTA=OFF、normalization、sliding window、threshold、sampling、checkpoint-selection rule。CMCC/CMCT 的历史四翻转 TTA 不迁移到 MitoVerse。禁止增加 FFT gates、LAST、Gram、HRA、TopoMask 或新模块。
 

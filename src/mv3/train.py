@@ -42,7 +42,10 @@ def smoke(model,seed,out):
  for i,source in enumerate(sampler.sources):
   net.train();net.dino_encoder.eval();x,y,coords=sampler.sample(i,forced_source=source);sampling.update(json.dumps(coords,sort_keys=True).encode())
   logits=forward(net,x);v=loss(logits,y);assert torch.isfinite(v)
-  # Actual ignore invariance and zero gradients, including non-binary Han mask IDs.
+  if source=='han24' and manifest().get('version')==2:
+   assert all(h[2] is None and h[3]['valid_path'] is None for r,h in [(r,sampler.handles[r['id']]) for r in sampler.rows if r['source_id']==source])
+   assert int((y>=0).sum())==int(y.numel()),'Han whole native crop must contribute to loss'
+  # Padding and other sources retain the shared ignore-loss behavior.
   fixture=torch.randn(1,2,8,8,device='cuda',requires_grad=True);target=torch.randint(0,2,(1,8,8),device='cuda');target[:,:4,:]=-1
   a=loss(fixture,target);changed=fixture.detach().clone();changed[:,:,:4,:]+=torch.randn_like(changed[:,:,:4,:])*100
   assert torch.allclose(a.detach(),loss(changed,target),atol=1e-7,rtol=0)
@@ -52,7 +55,7 @@ def smoke(model,seed,out):
   torch.nn.utils.clip_grad_norm_(pars,12,error_if_nonfinite=True);opt.step()
   rows.append({'source_id':source,'loss':float(v.detach()),'valid_pixels':int((y>=0).sum()),'coords':coords})
  assert before==state_hash(net.dino_encoder.state_dict())
- meta={'stage':'MV3_SMOKE_ONLY','model':model,'seed':seed,'decoder_initial_sha256':initial,'manifest_sha256':sha(R/'MV-Generalist-v1.json'),'protocol_sha256':sha(R/'MV3_protocol.json'),'encoder_sha256':spec['sha256'],'encoder_frozen':True,'tta':False}
+ meta={'stage':'MV3_SMOKE_ONLY','model':model,'seed':seed,'decoder_initial_sha256':initial,'manifest_sha256':sha(R/'MV-Generalist.json'),'protocol_sha256':sha(R/'MV3_protocol.json'),'encoder_sha256':spec['sha256'],'encoder_frozen':True,'tta':False}
  path=out/'smoke_head.pth';save_checkpoint(path,net,opt,len(rows),meta,collections.Counter(r['source_id'] for r in rows),sampling.hexdigest())
  saved=torch.load(path,map_location='cpu',weights_only=True,mmap=True);assert state_hash(saved['head'])==state_hash(head_state(net));assert saved['metadata']==meta
  net.eval();dev=[]
@@ -61,7 +64,8 @@ def smoke(model,seed,out):
   # Bounded real-data pipeline check, not a development performance result.
   h=min(256,im.shape[1]);w=min(256,im.shape[2]);pred=sliding(net,im[z,:h,:w],tile_batch_size=16)
   assert pred.shape==gt[z,:h,:w].shape
-  dev.append({'source_id':source,'region_id':row['id'],'shape':list(pred.shape),'finite':True})
+  if source=='han24' and manifest().get('version')==2:assert valid is None and j['valid_path'] is None
+  dev.append({'source_id':source,'region_id':row['id'],'shape':list(pred.shape),'finite':True,'annotation_mask_used':valid is not None})
  j={'status':'PASS',**meta,'trainable_parameters':sum(p.numel() for p in pars),'encoder_unchanged':True,'ignore_loss_invariant':True,'ignore_gradient_zero':True,'checkpoint_roundtrip':True,'physical_gpu':physical,'train':rows,'dev_smoke':dev,'sampling_sha256':sampling.hexdigest(),'seconds':time.time()-t0,'peak_cuda_bytes':torch.cuda.max_memory_allocated()}
  atomic(out/'smoke.json',j);print('SMOKE_PASS',model,j['seconds'],flush=True)
 
@@ -69,7 +73,7 @@ def train(model,seed,out):
  physical=gpu_guard();protocol=read(R/'MV3_protocol.json');steps=protocol['optimizer_steps'];assert steps==40000
  net,spec=build(protocol['models'][model],seed);initial=state_hash(head_state(net));encoder_before=state_hash(net.dino_encoder.state_dict())
  sampler=Samples(seed);pars=[p for p in net.parameters() if p.requires_grad];opt=torch.optim.AdamW(pars,lr=protocol['lr'],weight_decay=protocol['weight_decay'],betas=tuple(protocol['betas']))
- meta={'stage':'MV-3','model':model,'encoder_model':protocol['models'][model],'seed':seed,'optimizer_steps':steps,'decoder_initial_sha256':initial,'encoder_sha256':spec['sha256'],'encoder_frozen':True,'gates':False,'tta':False,'interaction_indices':[5,11,17,23],'manifest_sha256':sha(R/'MV-Generalist-v1.json'),'protocol_sha256':sha(R/'MV3_protocol.json'),'trainer_sha256':sha(__file__),'loader_sha256':sha(R/'src/data.py'),'primus_source_sha256':spec['primus_source_sha256'],'physical_gpu':physical,'training_batch_size':1,'selection':'fixed_step40000'}
+ meta={'stage':'MV-3','model':model,'encoder_model':protocol['models'][model],'seed':seed,'optimizer_steps':steps,'decoder_initial_sha256':initial,'encoder_sha256':spec['sha256'],'encoder_frozen':True,'gates':False,'tta':False,'interaction_indices':[5,11,17,23],'manifest_sha256':sha(R/'MV-Generalist.json'),'protocol_sha256':sha(R/'MV3_protocol.json'),'trainer_sha256':sha(__file__),'loader_sha256':sha(R/'src/data.py'),'primus_source_sha256':spec['primus_source_sha256'],'physical_gpu':physical,'training_batch_size':1,'selection':'fixed_step40000'}
  if (out/'run_protocol.json').exists():assert read(out/'run_protocol.json')==meta,'Changed protocol on an existing run'
  else:atomic(out/'run_protocol.json',meta)
  start=0;counts=collections.Counter();sampling_hash='0'*64;curve=[];recent=[];t0=time.time()

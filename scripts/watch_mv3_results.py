@@ -8,7 +8,7 @@ from pathlib import Path
 import paramiko
 ROOT=Path(__file__).resolve().parents[1]
 SCRATCH=ROOT.parent/'artifacts/mv3_control_20261014'
-REMOTE='/opt/data/3_117/tanghr/codex/mv_generalist_v1_20261014'
+REMOTE='/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014'
 BRANCH='codex/mv3-generalist-training'
 MODELS=['G-P0','G-B100'];SEEDS=[20261014,20261015,20261016]
 ENV={**os.environ,'GIT_TERMINAL_PROMPT':'0','GCM_INTERACTIVE':'never','PYTHONUTF8':'1'}
@@ -46,8 +46,8 @@ def verify_private_remote():
  return api
 
 def collect(sftp,status):
- folder=SCRATCH/'collected_results';folder.mkdir(exist_ok=True)
- (folder/'STATUS.json').write_text(json.dumps(status,indent=2)+'\n',encoding='utf-8')
+ folder=SCRATCH/'collected_v2_results';folder.mkdir(exist_ok=True)
+ (folder/'STATUS.json').write_text(json.dumps(status,indent=2)+'\n',encoding='utf-8',newline='\n')
  names=['MV3_final_report.md','MV3_first_seed_report.md','MV3_summary.json','MV3_first_seed_summary.json','MV3_per_region_metrics.csv','MV3_source_metrics.csv','MV3_P0_B100_paired_deltas.csv','MV3_failure_cases.csv','MV3_checkpoint_hashes.csv','MV3_training_curves.csv','MV3_same_region_supervision_gain.csv','MV3_historical_prediction_reference.csv','MV3_historical_reference_unavailable.json','MV3_actual_supervision.json','first_seed_complete.json']
  for name in names:
   if available(sftp,name):download(sftp,name,folder/name)
@@ -65,10 +65,10 @@ def publish(folder,status):
  if not clean_checkout():return {'status':'COLLECTED_REPOSITORY_HAS_OTHER_CHANGES','folder':str(folder)}
  assert git('remote','get-url','origin')=='https://github.com/Polaris1010/EM-DINOv3-Research.git'
  api=verify_private_remote()
- original=json.loads((ROOT/'experiments/registry.yaml').read_text(encoding='utf-8'))['experiments'][:26]
+ original=json.loads((ROOT/'experiments/registry.yaml').read_text(encoding='utf-8'))['experiments'][:32]
  stamp=datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%SZ')
- snapshot=ROOT/'evidence/MV-3'/f'final_status_{stamp}.json';snapshot.write_text(json.dumps(status,indent=2)+'\n',encoding='utf-8')
- target=ROOT/'experiments/MV-3'
+ snapshot=ROOT/'evidence/MV-3/v2'/f'final_status_{stamp}.json';snapshot.write_text(json.dumps(status,indent=2)+'\n',encoding='utf-8',newline='\n')
+ target=ROOT/'experiments/MV-3/v2'
  import shutil
  for path in folder.rglob('*'):
   if not path.is_file():continue
@@ -81,22 +81,22 @@ def publish(folder,status):
    j=json.loads(completion.read_text());run.update(completed_steps=j['completed_steps'],decoder_initial_sha256=j['decoder_initial_sha256'],sampling_hash=j['sampling_hash'])
   if status['status']=='complete':
    side=json.loads((completion.parent/'head_step040000.json').read_text());assert side['step']==40000
-   run.update(status='VERIFIED_COMPLETED',execution_state='TRAIN_AND_FULL_DEVELOPMENT_COMPLETE',checkpoint_path=side['path'],checkpoint_sha256=side['sha256'],metrics_path='experiments/MV-3/MV3_per_region_metrics.csv',report_path='docs/MV3_final_report.md')
+   run.update(status='VERIFIED_COMPLETED',execution_state='TRAIN_AND_FULL_DEVELOPMENT_COMPLETE',checkpoint_path=side['path'],checkpoint_sha256=side['sha256'],metrics_path='experiments/MV-3/v2/MV3_per_region_metrics.csv',report_path='docs/MV3_final_report.md')
   else:run['execution_state']='PIPELINE_STOPPED_'+status.get('phase','UNKNOWN')
- index_path.write_text(json.dumps(index,indent=2)+'\n',encoding='utf-8')
- logfile=ROOT/'docs/work_logs/20261014_03_mv3_terminal_collection.md'
- logfile.write_text('# MV3自动结果收取\n\n实际终止状态：'+status['status']+'；UTC快照 '+stamp+'。\n\n'+('6个run各40000 steps、228条开发指标、18个checkpoint均完成。MV3_final_report.md、指标/配对/曲线/哈希已收取；任务结束，不启动新训练。' if status['status']=='complete' else '执行器停止；仅保存实际产物，不把缺失指标或未完成run写成完成。查看STATUS.json和服务器logs。')+'\n\n原26条历史registry记录保持不变。自动收取不访问图像、不启动实验、不修改网站/环境。\n',encoding='utf-8')
- logindex=ROOT/'docs/work_logs/README.md';text=logindex.read_text(encoding='utf-8');text+='\n- [MV3最终状态与自动收取](20261014_03_mv3_terminal_collection.md)\n';logindex.write_text(text,encoding='utf-8')
- state=ROOT/'docs/PROJECT_STATE.md';text=state.read_text(encoding='utf-8');state.write_text(text.replace('# 当前研究状态','# 当前研究状态\n\n最新终止状态 '+stamp+'：MV3 '+status['status']+'；实际产物见experiments/MV-3，完整完成时报告为docs/MV3_final_report.md。',1),encoding='utf-8')
+ index_path.write_text(json.dumps(index,indent=2)+'\n',encoding='utf-8',newline='\n')
+ logfile=ROOT/'docs/work_logs/20261014_05_mv3_v2_terminal_collection.md'
+ logfile.write_text('# MV3自动结果收取\n\n实际终止状态：'+status['status']+'；UTC快照 '+stamp+'。\n\n'+('6个run各40000 steps、228条开发指标、18个checkpoint均完成。MV3_final_report.md、指标/配对/曲线/哈希已收取；任务结束，不启动新训练。' if status['status']=='complete' else '执行器停止；仅保存实际产物，不把缺失指标或未完成run写成完成。查看STATUS.json和服务器logs。')+'\n\n原26条历史与6条MV3 v1 registry快照保持不变。自动收取不访问图像、不启动实验、不修改网站/环境。\n',encoding='utf-8',newline='\n')
+ logindex=ROOT/'docs/work_logs/README.md';text=logindex.read_text(encoding='utf-8');text+='\n- [MV3最终状态与自动收取](20261014_05_mv3_v2_terminal_collection.md)\n';logindex.write_text(text,encoding='utf-8',newline='\n')
+ state=ROOT/'docs/PROJECT_STATE.md';text=state.read_text(encoding='utf-8');state.write_text(text.replace('# 当前研究状态','# 当前研究状态\n\n最新终止状态 '+stamp+'：MV3 '+status['status']+'；实际产物见experiments/MV-3/v2，完整完成时报告为docs/MV3_final_report.md。',1),encoding='utf-8',newline='\n')
  for name in ['NEW_WINDOW_HANDOFF.md','NEXT_ACTION.md']:
   p=ROOT/'docs'/name;text=p.read_text(encoding='utf-8')
-  notice='> 最新MV3终止状态 '+stamp+'：'+status['status']+'。所有6组完成，先读MV3_final_report.md；不重启，不自动启动新实验。' if status['status']=='complete' else '> MV3执行器已停止，结果未全部完成；先读experiments/MV-3/STATUS.json，禁止声称完整完成。'
-  p.write_text(notice+'\n\n'+text,encoding='utf-8')
+  notice='> 最新MV3终止状态 '+stamp+'：'+status['status']+'。所有6组完成，先读MV3_final_report.md；不重启，不自动启动新实验。' if status['status']=='complete' else '> MV3执行器已停止，结果未全部完成；先读experiments/MV-3/v2/STATUS.json，禁止声称完整完成。'
+  p.write_text(notice+'\n\n'+text,encoding='utf-8',newline='\n')
  for args in [['scripts/update_registry.py'],['scripts/update_registry.py','--check'],['scripts/validate_repository.py'],['-m','unittest','discover','-s','tests','-v']]:
   p=subprocess.run([sys.executable,*args],cwd=ROOT,env=ENV,text=True,capture_output=True)
   if p.returncode:raise RuntimeError(p.stdout[-2000:]+p.stderr[-2000:])
- assert json.loads((ROOT/'experiments/registry.yaml').read_text(encoding='utf-8'))['experiments'][:26]==original
- git('diff','--check');git('add','.');git('commit','-q','-m','Collect actual MV3 terminal results and final research handoff');commit=git('rev-parse','HEAD')
+ assert json.loads((ROOT/'experiments/registry.yaml').read_text(encoding='utf-8'))['experiments'][:32]==original
+ git('diff','--check');git('add','.');git('commit','-q','-m','Collect actual Han full-GT MV3 v2 results and final research handoff');commit=git('rev-parse','HEAD')
  for attempt in range(12):
   try:
    git('push','origin',BRANCH)
@@ -117,7 +117,7 @@ def watch(password):
     status=read_remote(sftp,'STATUS.json')
     print(datetime.datetime.now(datetime.timezone.utc).isoformat(),status.get('status'),status.get('phase'),flush=True)
     if status.get('status') in ['complete','failed']:
-     folder=collect(sftp,status);result=publish(folder,status);(SCRATCH/'collector_result.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8');print(json.dumps(result),flush=True);return
+     folder=collect(sftp,status);result=publish(folder,status);(SCRATCH/'collector_result.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8',newline='\n');print(json.dumps(result),flush=True);return
    time.sleep(120)
   raise TimeoutError('Bounded collection window expired; server outputs preserved')
  finally:client.close()
@@ -127,8 +127,8 @@ if __name__=='__main__':
  if a.launch:
   password=getpass.getpass('SSH password: ');log=(SCRATCH/'collector.log').open('a',encoding='utf-8')
   p=subprocess.Popen([sys.executable,'-u',str(Path(__file__).resolve()),'--watch-stdin'],stdin=subprocess.PIPE,stdout=log,stderr=log,text=True,env=ENV,creationflags=subprocess.CREATE_NO_WINDOW)
-  p.stdin.write(password+'\n');p.stdin.close();log.close();(SCRATCH/'collector_pid.json').write_text(json.dumps({'pid':p.pid,'role':'finite_passive_result_collector','credentials_saved':False})+'\n',encoding='utf-8');print('PASSIVE_COLLECTOR_STARTED',p.pid)
+  p.stdin.write(password+'\n');p.stdin.close();log.close();(SCRATCH/'collector_pid.json').write_text(json.dumps({'pid':p.pid,'role':'finite_passive_result_collector','server_root':REMOTE,'credentials_saved':False})+'\n',encoding='utf-8',newline='\n');print('PASSIVE_COLLECTOR_STARTED',p.pid)
  else:
   try:watch(sys.stdin.readline().rstrip('\r\n') if a.watch_stdin else getpass.getpass('SSH password: '))
   except Exception as error:
-   (SCRATCH/'collector_result.json').write_text(json.dumps({'status':'COLLECTION_NEEDS_ATTENTION','error':type(error).__name__+': '+str(error),'collected_folder':str(SCRATCH/'collected_results')})+'\n',encoding='utf-8');raise
+   (SCRATCH/'collector_result.json').write_text(json.dumps({'status':'COLLECTION_NEEDS_ATTENTION','error':type(error).__name__+': '+str(error),'collected_folder':str(SCRATCH/'collected_v2_results')})+'\n',encoding='utf-8',newline='\n');raise

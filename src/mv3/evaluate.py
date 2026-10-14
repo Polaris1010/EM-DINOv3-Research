@@ -28,7 +28,7 @@ def infer(model,seed):
  for row in sorted(rows,key=lambda r:np.prod([b-a for a,b in r['region_zyx']])):
   target=out/(row['id']+'_overlap.json')
   if target.exists():
-   previous=read(target);assert previous['head_sha256']==checkpoint_hash and previous['manifest_sha256']==sha(R/'MV-Generalist-v1.json');continue
+   previous=read(target);assert previous['head_sha256']==checkpoint_hash and previous['manifest_sha256']==sha(R/'MV-Generalist.json');continue
   im,gt,valid,j=open_arrays(row);path=out/(row['id']+'_prediction.npy')
   pred=np.lib.format.open_memmap(path,mode='w+',shape=im.shape,dtype=np.uint8);pred[:]=0;c=np.zeros(4,np.int64)
   for k,z in enumerate(j['valid_z']):
@@ -36,10 +36,10 @@ def infer(model,seed):
    mask=valid[z].astype(bool) if valid is not None else np.ones(p.shape,bool);c+=confusion(p[mask],gt[z].astype(bool)[mask])
    if k%20==0:atomic(out/'progress.json',{'stage':'full_development_inference','model':model,'seed':seed,'region_id':row['id'],'z_completed':k+1,'z_total':len(j['valid_z']),'seconds':time.time()-t0})
   pred.flush();del pred
-  result={'stage':'MV-3','model':model,'seed':seed,'region_id':row['id'],'volume_id':row['volume_id'],'source_id':row['source_id'],'dev_kind':row['dev_kind'],'acquisition_id':row['acquisition_id'],'region_zyx':row['region_zyx'],'spacing_zyx_nm':row['spacing_zyx_nm'],'spacing_status':row['spacing_status'],'valid_mask_policy':row['valid_mask_policy'],'head_sha256':checkpoint_hash,'encoder_sha256':spec['sha256'],'manifest_sha256':sha(R/'MV-Generalist-v1.json'),'protocol_sha256':sha(R/'MV3_protocol.json'),'tta':False,**overlap(c)}
+  result={'stage':'MV-3','model':model,'seed':seed,'region_id':row['id'],'volume_id':row['volume_id'],'source_id':row['source_id'],'dev_kind':row['dev_kind'],'acquisition_id':row['acquisition_id'],'region_zyx':row['region_zyx'],'spacing_zyx_nm':row['spacing_zyx_nm'],'spacing_status':row['spacing_status'],'valid_mask_policy':row['valid_mask_policy'],'head_sha256':checkpoint_hash,'encoder_sha256':spec['sha256'],'manifest_sha256':sha(R/'MV-Generalist.json'),'protocol_sha256':sha(R/'MV3_protocol.json'),'tta':False,**overlap(c)}
   result.update(valid_voxels=int(c.sum()),gt_foreground_voxels=int(c[0]+c[2]),prediction_foreground_voxels=int(c[0]+c[1]),predicted_foreground_fraction=float((c[0]+c[1])/c.sum()))
   assert result['valid_voxels']==j['valid_voxels'];atomic(target,result);print('INFERRED',model,seed,row['id'],result['dice'],flush=True)
- atomic(out/'inference_complete.json',{'status':'complete','regions':len(rows),'sources':12,'manifest_sha256':sha(R/'MV-Generalist-v1.json'),'head_sha256':checkpoint_hash,'tta':False,'seconds':time.time()-t0})
+ atomic(out/'inference_complete.json',{'status':'complete','regions':len(rows),'sources':12,'manifest_sha256':sha(R/'MV-Generalist.json'),'head_sha256':checkpoint_hash,'tta':False,'seconds':time.time()-t0})
 
 def score(path):
  gpu_guard();os.environ['MV2_GPU_EDT']='1'

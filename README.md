@@ -1,3 +1,5 @@
+> 当前协议为 **MV-Generalist-v2**。用户明确指定“取消 mask 限制，整幅 GT 参与 loss”；仅 Han24 跳过 annotation mask，整幅 GT 参与采样、loss 和开发指标。其他来源、划分、冻结 encoder、原版 Primus、匹配 seeds、共同 40k 预算与 TTA=OFF 保持原配置。旧 v1 已停止并完整保留，不能混入 v2 对照。
+
 # EM-DINOv3-Research
 
 当前阶段为用户于2026-10-14授权的 [MV-3多来源监督Generalist训练](docs/MV3_PROTOCOL.md)，分支 `codex/mv3-generalist-training`。仅G-P0/G-B100，冻结encoder+原版Primus，共同40k预算与3 seeds；实际执行状态见 `experiments/MV-3/run_index.json`。MV2已完成，历史不改写。

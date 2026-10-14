@@ -11,6 +11,6 @@
 
 可直接粘贴给下一个窗口：
 
-> 请接手 private 仓库 Polaris1010/EM-DINOv3-Research，本地 E:\mira_website_demo\EM-DINOv3-Research，当前MV3分支codex/mv3-generalist-training。先读START_HERE、AGENTS、MV3_PROTOCOL、最新工作记录、当前状态、registry和交接。用户已明确授权MV3：仅G-P0/G-B100 frozen encoder+original Primus，共同40k预算、3匹配decoder seeds、TTA=OFF，首seed全来源指标后再补另两seed。先查现有MV3服务/进度，继续同一已授权任务，不重复启动。MV2已完成，不追加旧9个head验证或新审计/SSL模块；GPU0禁用，不改网站/环境/历史。每轮代码和Markdown提交推送，最终输出MV3_final_report.md并停止。
+> 请接手 private 仓库 Polaris1010/EM-DINOv3-Research，本地 E:\mira_website_demo\EM-DINOv3-Research，当前MV3分支codex/mv3-generalist-training，现用MV-Generalist-v2；Han按用户明确指令忽略mask、整幅GT参与loss/采样/评测，旧v1已停止保留。读取experiments/MV-3/v2/run_index.json。先读START_HERE、AGENTS、MV3_PROTOCOL、最新工作记录、当前状态、registry和交接。用户已明确授权MV3：仅G-P0/G-B100 frozen encoder+original Primus，共同40k预算、3匹配decoder seeds、TTA=OFF，首seed全来源指标后再补另两seed。先查现有MV3服务/进度，继续同一已授权任务，不重复启动。MV2已完成，不追加旧9个head验证或新审计/SSL模块；GPU0禁用，不改网站/环境/历史。每轮代码和Markdown提交推送，最终输出MV3_final_report.md并停止。
 
 仓库不包含服务器密码；认证使用已有安全凭据或交互输入。

@@ -55,7 +55,10 @@ def validate(m):
   assert a['volume_id'] not in m['reserved_test_ids'] and a['axes']=='ZYX'
   assert a['supervised_role'] in {'train','dev'}
   assert all(0<=x<y<=n for (x,y),n in zip(a['region_zyx'],a['shape_zyx']))
-  if a['source_id']=='han24':assert a['valid_mask_policy'].startswith('mask!=0')
+  if a['source_id']=='han24':
+   if m.get('version',1)==1:assert a['valid_mask_policy'].startswith('mask!=0')
+   elif m['version']==2:assert a['mask_usage']=='NONE' and a['valid_mask_policy']=='full_GT_no_annotation_mask_USER_AUTHORIZED'
+   else:raise ValueError('Unknown Han protocol version')
   for b in rows:
    if a['supervised_role']!=b['supervised_role'] and a['image_path']==b['image_path']:
     assert any(y<=u or v<=x for (x,y),(u,v) in zip(a['region_zyx'],b['region_zyx'])),'Train/dev voxel overlap'

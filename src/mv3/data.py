@@ -13,21 +13,23 @@ def sha(p):
  return h.hexdigest()
 def atomic(p,obj):
  p=Path(p);p.parent.mkdir(parents=True,exist_ok=True);t=p.with_suffix('.tmp');t.write_text(json.dumps(obj,indent=2)+'\n');t.replace(p)
-def manifest():return read(R/'MV-Generalist-v1.json')
+def manifest():return read(R/'MV-Generalist.json')
 def is_valid(mask,source):return mask!=0 if source=='han24' else mask==0
+def uses_annotation_mask(row):
+ return row['mask_present'] and not (row['source_id']=='han24' and row.get('mask_usage')=='NONE')
 
 def prepare():
- """Reuse existing caches; only materialize missing regions and corrected Han masks."""
+ """Reuse existing caches; only materialize missing regions and masks explicitly used by the protocol."""
  import zarr
  m=manifest();sources={};counts=[]
  for row in sorted(m['entries'],key=lambda r:np.prod([b-a for a,b in r['region_zyx']])):
   out=R/'cache'/row['id'];out.mkdir(parents=True,exist_ok=True);receipt=out/'CACHE.json'
   if receipt.exists():counts.append(read(receipt));continue
   wanted=row['region_zyx'];shape=[b-a for a,b in wanted];chosen=None
-  for root in [MV2,OLD]:
-   d=root/'cache'/row['volume_id']
+  for root in [R.parent/'mv_generalist_v1_20261014',MV2,OLD]:
+   d=root/'cache'/(row['id'] if root.name=='mv_generalist_v1_20261014' else row['volume_id'])
    if not (d/'image.npy').exists() or not (d/'label.npy').exists():continue
-   metadata=read(d/'QC.json') if (d/'QC.json').exists() else None
+   metadata=read(d/'QC.json') if (d/'QC.json').exists() else read(d/'CACHE.json') if (d/'CACHE.json').exists() else None
    if metadata is None:continue
    bounds=metadata.get('region_zyx')
    if bounds is None:
@@ -49,7 +51,7 @@ def prepare():
     atomic(R/'cache_progress.json',{'region':row['id'],'z':z,'total':shape[0]})
    im.flush();lab.flush();del im,lab;offsets=[[0,n] for n in shape]
   valid_path=None;valid_z=list(range(shape[0]));valid_voxels=int(np.prod(shape))
-  if row['mask_present']:
+  if uses_annotation_mask(row):
    group=zarr.open_group(row['image_path'],mode='r');valid_path=str(out/'valid.npy')
    valid=np.lib.format.open_memmap(valid_path,mode='w+',dtype=np.uint8,shape=tuple(shape));valid_z=[];valid_voxels=0
    for z in range(0,shape[0],8):
@@ -58,13 +60,13 @@ def prepare():
     valid_voxels+=int(v.sum());valid_z.extend(z+i for i,a in enumerate(v) if a.any())
    valid.flush();del valid
   assert valid_voxels>0 and valid_z,'No usable annotation; do not silently drop this region'
-  j={'id':row['id'],'volume_id':row['volume_id'],'source_id':row['source_id'],'supervised_role':row['supervised_role'],'paths':paths,'offsets':offsets,'shape_zyx':shape,'valid_path':valid_path,'valid_z':valid_z,'valid_voxels':valid_voxels,'valid_mask_policy':row['valid_mask_policy'],'region_zyx':wanted,'manifest_sha256':sha(R/'MV-Generalist-v1.json'),'reused_read_only':bool(chosen)}
+  j={'id':row['id'],'volume_id':row['volume_id'],'source_id':row['source_id'],'supervised_role':row['supervised_role'],'paths':paths,'offsets':offsets,'shape_zyx':shape,'valid_path':valid_path,'valid_z':valid_z,'valid_voxels':valid_voxels,'valid_mask_policy':row['valid_mask_policy'],'region_zyx':wanted,'manifest_sha256':sha(R/'MV-Generalist.json'),'reused_read_only':bool(chosen)}
   atomic(receipt,j);counts.append(j);print('CACHE_READY',row['id'],j['valid_voxels'],flush=True)
- atomic(R/'cache_complete.json',{'status':'PASS','regions':len(counts),'manifest_sha256':sha(R/'MV-Generalist-v1.json')})
+ atomic(R/'cache_complete.json',{'status':'PASS','regions':len(counts),'manifest_sha256':sha(R/'MV-Generalist.json')})
  atomic(R/'MV3_actual_supervision.json',{'rows':counts,'by_source':{s:{role:sum(j['valid_voxels'] for j in counts if j['source_id']==s and j['supervised_role']==role) for role in ['train','dev']} for s in sorted({j['source_id'] for j in counts})}})
 
 def open_arrays(row):
- j=read(R/'cache'/row['id']/'CACHE.json');assert j['manifest_sha256']==sha(R/'MV-Generalist-v1.json')
+ j=read(R/'cache'/row['id']/'CACHE.json');assert j['manifest_sha256']==sha(R/'MV-Generalist.json')
  key=tuple(slice(a,b) for a,b in j['offsets'])
  im=np.load(j['paths']['image'],mmap_mode='r')[key];lab=np.load(j['paths']['label'],mmap_mode='r')[key]
  valid=np.load(j['valid_path'],mmap_mode='r') if j['valid_path'] else None

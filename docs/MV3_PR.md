@@ -1,11 +1,11 @@
-# MV3: matched multisource frozen Primus generalist training
+# MV3：多来源冻结分割与 Han 整幅 GT 协议
 
-MV2用只在4体积/3来源监督的旧head评测12来源，无法回答充分多来源监督后DINOv3的适配能力。此PR建立MV-Generalist-v1并按共同40k预算训练G-P0/G-B100的新原版Primus head；不再扩展旧9个head，不增加SSL模块或全面数据审计。
+MV2的head只在4体积/3来源接受监督，不能说明充分多来源监督的分割能力。本PR建立156 train/38 dev区域、12来源的匹配G-P0/G-B100原版Primus训练，冻结DINOv3 ViT-L/16，[5,11,17,23]，每run40k steps，3个共同decoder seeds，10k/20k/40k保存，TTA=OFF。
 
-新train156/dev38区域，均覆盖12来源；保留正式test和已映射官方validation，将130个OpenOrganelle探索性区域转train，按现有sample组留出22 dev。Han沿用已知非零末端mask有效规则；当前train/dev不交叉，单acquisition的空间holdout限制明示。MV1/MV2原文件和26条历史注册记录原样保留，新增6条MV3记录。
+当前锁定MV-Generalist-v2：用户确认Han GT为线粒体真值并明确要求“取消 mask 限制，整幅 GT 参与 loss”。只对Han跳过mask，整幅GT参与采样、loss及开发指标；其他来源、train/dev/test边界和全部训练配置保持不变。GT身份确认与整幅标注完整性假设分别记录，不以模型Dice决定mask极性。
 
-两组冻结encoder+官方原版Primus，[5,11,17,23]，TTA OFF，共同seed/初始化/source-aware采样/预算，固定40k选模，保存10k/20k/40k。首seed完整开发验证后再补另外两seeds。新目录中独立保存weights、预测、每来源指标、配对变化、前景比例和失败案例；最终报告后停止，不自动启动MitoNet或新预训练。
+此前v1首seed两组各完成40k及完整开发推理，69/76开发指标完成时按用户更改停止。其checkpoint、结果和6条registry快照保留；v2双方从相同初始化重训，不把两种监督协议混成排行榜。旧MV1/MV2的26条历史记录、源码和结果保持不变。
 
-验证：9项CPU测试、registry/provenance检查与train/dev/test边界检查通过；真实GPU smoke和后续训练进度见experiments/MV-3、带时间戳evidence及本轮工作日志。计划预算和脚本存在不等于训练完成；最终模型结果尚未提交时不宣称新Dice收益。首次启动遇不可见GPU0宿主机PID，在模型训练前修复，未操作GPU0进程。
+验证：10项CPU测试，registry/provenance与train/dev/test边界检查；实际GPU smoke、缓存有效体素、部署SHA和训练状态见experiments/MV-3/v2及带时间戳evidence。计划预算不代表已完成训练，最终收益等待真实全来源指标。GPU0禁用；网站、环境、旧研究结果保留。PR保持draft，未自动合并。
 
-服务器既有环境和网站不改动；仅物理GPU1/2/3。仓库提交代码、配置、元数据和Markdown，weights/预测/原始图像仍留服务器。每轮交接从START_HERE读取当前分支和最新实际状态。
+完成六组后被动收取MV3_final_report.md、逐区域/来源指标、配对变化、失败案例、训练曲线和18个checkpoint哈希；执行器停止，不自动运行新SSL或MitoNet。

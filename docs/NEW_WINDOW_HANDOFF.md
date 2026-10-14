@@ -1,12 +1,16 @@
 # 新窗口交接
 
-**当前接手MV-3（2026-10-14）：** 用户已授权多来源监督训练，读取 `docs/MV3_PROTOCOL.md`、最新工作记录和 `experiments/MV-3/run_index.json`。分支 `codex/mv3-generalist-training`；服务器新根目录 `/opt/data/3_117/tanghr/codex/mv_generalist_v1_20261014`，执行器只允许2 encoders×3 seeds×40k并在最终报告后停止。先核查现有服务/进度，不重复启动，不恢复旧watcher。smoke和完成状态以实际快照为准。
+当前协议为 **MV-Generalist-v2**。用户明确指定“取消 mask 限制，整幅 GT 参与 loss”；仅 Han24 跳过 annotation mask，整幅 GT 参与采样、loss 和开发指标。其他来源、划分、冻结 encoder、原版 Primus、匹配 seeds、共同 40k 预算与 TTA=OFF 保持原配置。旧 v1 已停止并完整保留，不能混入 v2 对照。
 
-Han24本轮核验见Han24_mask_review_20261014.md与最新工作记录；原论文局部末端语义及已有GT-mask空间证据支持非零mask有效。三份并排照片在本地artifacts/mv3_control_20261014/Han24_review。未参考模型Dice，未改变其他来源或训练配置。
+分支 `codex/mv3-generalist-training`，draft PR #2。先读最新工作记录、MV3_PROTOCOL和 `experiments/MV-3/v2/run_index.json`，核验新service实际状态；不重复启动。当前服务器根目录 `/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014`，service `mv3-generalist-v2-han-fullgt-20261014.service`。v1根目录保持只读历史，v1 service已inactive，不恢复。
 
-本地被动收取器只等待这次MV3终止，源码scripts/watch_mv3_results.py。查看artifacts/mv3_control_20261014/collector_pid.json、collector.log、collector_result.json；不要重复启动。完成时会收取并推送报告/指标/哈希，若工作区有其他改动则留在collected_results。服务器有界执行器不依赖本地窗口保持打开；本地collector不能访问时，直接从服务器本轮目录只读收取实际产物。
+旧v1首seed两组各40k并完成全开发推理，69/76开发指标时停止，其他seeds尚未启动。版本更改来自用户指令，不依据Dice，也不重新全面审计。仅Han改变有效区使用；v2双方从头训练，六组共同40k预算、首seed全来源指标后再补另外两seed。
 
-MV-2已完成1692条核心指标，不追加旧9个head的验证或诊断。当前train156/dev38区域、12来源，官方test/val保留，部分旧探索性dev已转train；Han非零mask有效。历史登记原样保留，新增MV3条目单列。既有“初始化不训练”约束已被本次明确训练任务取代；GPU0禁用、网站/环境/历史不可修改继续生效。
+本地被动收取器源码 `scripts/watch_mv3_results.py`，只等待v2终止，默认v2根目录。核验 `artifacts/mv3_control_20261014/collector_pid.json` 的server_root与实际PID命令；旧PID12992已停止，停止回执见collector_stopped_for_han_fullgt.json。新collector有48小时上限，完成时收取/push报告及指标，不启动实验；工作区不干净则留在collected_v2_results。服务器有界执行器独立于本地窗口。
+
+Han三份原图/GT/mask并排照片在本地 `artifacts/mv3_control_20261014/Han24_review`。旧Han24_mask_review记录的是v1证据判断，其黄色图为原始mask非零可视化；在v2中不再用它定义有效区。
+
+MV2已完成1692条核心指标，不追加旧9个head验证。当前156train/38dev区域、12来源，官方test/val保留。GPU0禁用，网站/环境/历史不改。每轮代码和MD提交推送，最终报告后停止。
 
 以下内容为上一轮交接，旧MV2运行中记录不再代表当前状态。
 

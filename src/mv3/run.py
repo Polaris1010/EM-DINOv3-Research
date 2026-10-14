@@ -65,7 +65,7 @@ class Controller:
      if need>vm.available-(16<<30):raise MemoryError('Insufficient RAM for this metric row; preserve predictions and stop own work')
      p=self.launch([R/'src/evaluate.py','score','--path',path],f'metric_{model}_{seed}_{path.stem}',3);self.wait([p])
     actual=[read(p) for p in out.glob('*_metrics.json')];assert {p['region_id'] for p in actual}==expected
-    atomic(out/'validation_complete.json',{'status':'complete','regions':len(actual),'sources':len({p['source_id'] for p in actual}),'tta':False,'manifest_sha256':sha(R/'MV-Generalist-v1.json')})
+    atomic(out/'validation_complete.json',{'status':'complete','regions':len(actual),'sources':len({p['source_id'] for p in actual}),'tta':False,'manifest_sha256':sha(R/'MV-Generalist.json')})
  def matched(self,seed):
   a,b=[read(R/'runs'/m/f'seed{seed}'/'training_complete.json') for m in ['G-P0','G-B100']]
   assert a['decoder_initial_sha256']==b['decoder_initial_sha256'] and a['sampling_hash']==b['sampling_hash'] and a['source_draws']==b['source_draws']
@@ -75,7 +75,7 @@ class Controller:
   protocol=read(R/'MV3_protocol.json');seeds=protocol['seed_sequence'];assert len(seeds)==3
   self.phase='prepare_supervision'
   while not (R/'cache_complete.json').exists():
-   service=subprocess.check_output(['systemctl','show','mv3-prepare-20261014.service','-p','ActiveState','-p','Result'],text=True)
+   service=subprocess.check_output(['systemctl','show',os.environ.get('MV3_PREPARE_SERVICE','mv3-prepare-20261014.service'),'-p','ActiveState','-p','Result'],text=True)
    if 'ActiveState=failed' in service:raise RuntimeError('MV3 cache preparation failed; inspect cache.log')
    self.health();time.sleep(10)
   assert read(R/'cache_complete.json')['status']=='PASS'

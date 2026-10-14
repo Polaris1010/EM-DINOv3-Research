@@ -29,5 +29,15 @@ class MV3Tests(unittest.TestCase):
   self.assertEqual(module.is_valid(np.array([0,1,13]),'other').tolist(),[True,False,False])
   row=next(r for r in self.m['entries'] if r['source_id']=='han24');row['valid_mask_policy']='mask==0'
   with self.assertRaises(AssertionError):validate(self.m)
+ def test_v2_ignores_only_han_mask_and_preserves_other_sources(self):
+  v2=json.loads((ROOT/'configs/segmentation/MV-Generalist-v2/manifest.json').read_text(encoding='utf-8'));validate(v2)
+  for before,after in zip(self.m['entries'],v2['entries']):
+   if before['source_id']!='han24':self.assertEqual(before,after)
+   else:
+    self.assertFalse(module.uses_annotation_mask(after));self.assertTrue(after['mask_present'])
+    self.assertEqual(before['region_zyx'],after['region_zyx']);self.assertEqual(before['supervised_role'],after['supervised_role'])
+  original=json.loads((ROOT/'configs/segmentation/MV-Generalist-v1/protocol.json').read_text(encoding='utf-8'))
+  current=json.loads((ROOT/'configs/segmentation/MV-Generalist-v2/protocol.json').read_text(encoding='utf-8'))
+  for key,value in original.items():self.assertEqual(value,current[key])
 
 if __name__=='__main__':unittest.main()

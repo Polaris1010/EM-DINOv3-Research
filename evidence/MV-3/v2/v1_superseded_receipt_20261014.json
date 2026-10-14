@@ -1,0 +1,19 @@
+{
+  "user_instruction": "取消 mask 限制，整幅 GT 参与 loss",
+  "old_service": "mv3-generalist-20261014.service",
+  "old_root": "/opt/data/3_117/tanghr/codex/mv_generalist_v1_20261014",
+  "service_state": "inactive",
+  "first_seed_training_steps_each": 40000,
+  "first_seed_inference_regions_each": 38,
+  "completed_metric_rows": 69,
+  "expected_first_seed_metric_rows": 76,
+  "additional_seeds_started": false,
+  "historical_files_preserved": true,
+  "collector_stopped": {
+    "reason": "User explicitly removed Han mask; preserve v1 and restart matched v2 protocol",
+    "collector_pid": 12992,
+    "server_unknown_processes_stopped": false
+  },
+  "new_root": "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014",
+  "new_manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259"
+}

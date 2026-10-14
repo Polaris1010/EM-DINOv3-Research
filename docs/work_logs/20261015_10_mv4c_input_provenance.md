@@ -17,3 +17,5 @@
 四张原图/Zarr/GT/概率图已生成；Guay与Müller Z525图已实际查看，后者缺失原图框明确说明。六面板含histogram的初版保留；最终四面板单独CPU renderer提高可读性，不重做任何科学推理。原40条模型registry保持，MV4C是独立audit_index登记，不伪造新模型成绩行。
 
 最终CPU核验PASS_AVAILABLE_EVIDENCE：Guay映射/当前两源alignment/SHA关联验证通过；requested_scope_complete=false、Müller原图仍UNVERIFIED。registry --check、repository及21项测试PASS；原40条registry、MV3/MV4/MV4B报告及成绩逐字节/逐项不变。初始代码d3497dc已推送，测量程序的实际SHA与该版一致。最终提交保存报告、四图manifest、结论、源码及本轮Markdown/交接；不自动启动新研究。
+
+实际发布：结果和本轮记录commit f5d1345331fc3fce2a6c1e98b2e0377eddac87e9已推送；GitHub API验证Polaris1010/private、PR5 open/draft/head与本地一致，base为codex/mv4b-semantic-panoptic，未合并。PR：https://github.com/Polaris1010/EM-DINOv3-Research/pull/5。最后收尾提交保存发布和服务器停止/报告SHA回执，requested_scope_complete仍false，原high_c1 TIFF待补，不自动运行其他工作。

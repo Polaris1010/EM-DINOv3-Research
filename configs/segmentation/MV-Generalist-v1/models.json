@@ -1,0 +1,42 @@
+{
+  "models": [
+    {
+      "id": "P0",
+      "checkpoint_path": "/opt/data/3_117/tanghr/DINOv3/pretrained_weights/dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth",
+      "sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+      "resolved_config_path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage2_20260930_082816/stage1_reference/B_full_resolved_config.yaml",
+      "resolved_config_sha256": "f1acbd49af827b80a457b64e28cc4dd912524c08c0676256f505cba59a5825e1",
+      "dinov3_root": "/opt/data/3_117/tanghr/DINOv3/dinov3",
+      "nnunet_root": "/opt/data/3_117/tanghr/Med_DINOv3/MedDINOv3/nnUNet",
+      "ssl_manifest_sha256": null,
+      "primus_source_path": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/official_primus.py",
+      "primus_source_sha256": "b5398dc48bf5cc14068b4fed38c5f0a8c30bcbbe242d59475016e70912f248d3"
+    },
+    {
+      "id": "B100k",
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/runs/B_full/formal_attempt1/checkpoints/step000100000/teacher_backbone.pth",
+      "sha256": "9603877244ba40f3cbeccdea18d69b0d3b818dc0fc6b09f839fd6d4189ce2de5",
+      "resolved_config_path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage2_20260930_082816/stage1_reference/B_full_resolved_config.yaml",
+      "resolved_config_sha256": "f1acbd49af827b80a457b64e28cc4dd912524c08c0676256f505cba59a5825e1",
+      "dinov3_root": "/opt/data/3_117/tanghr/DINOv3/dinov3",
+      "nnunet_root": "/opt/data/3_117/tanghr/Med_DINOv3/MedDINOv3/nnUNet",
+      "ssl_manifest_sha256": "3fd614082bf584c21e212884856875e328104ea09a293a95510c0f5f3117edb9",
+      "primus_source_path": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/official_primus.py",
+      "primus_source_sha256": "b5398dc48bf5cc14068b4fed38c5f0a8c30bcbbe242d59475016e70912f248d3"
+    },
+    {
+      "id": "B150k",
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/mitoverse_B_full_extend150k_20261012/runs/B_full/formal_attempt1/checkpoints/step000150000/teacher_backbone.pth",
+      "sha256": "9c67d08faf508a14d25418014422c0dbd641a51c122161dbd31f8af0a386d2ee",
+      "resolved_config_path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage2_20260930_082816/stage1_reference/B_full_resolved_config.yaml",
+      "resolved_config_sha256": "f1acbd49af827b80a457b64e28cc4dd912524c08c0676256f505cba59a5825e1",
+      "dinov3_root": "/opt/data/3_117/tanghr/DINOv3/dinov3",
+      "nnunet_root": "/opt/data/3_117/tanghr/Med_DINOv3/MedDINOv3/nnUNet",
+      "ssl_manifest_sha256": "3fd614082bf584c21e212884856875e328104ea09a293a95510c0f5f3117edb9",
+      "primus_source_path": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/official_primus.py",
+      "primus_source_sha256": "b5398dc48bf5cc14068b4fed38c5f0a8c30bcbbe242d59475016e70912f248d3"
+    }
+  ],
+  "decoder": "official_meddinov3_primus_multiscale",
+  "gates": false
+}

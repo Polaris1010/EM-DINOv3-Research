@@ -11,6 +11,6 @@
 
 可直接粘贴给下一个窗口：
 
-> 请接手 private 仓库 Polaris1010/EM-DINOv3-Research 的 main。本地路径 E:\mira_website_demo\EM-DINOv3-Research。先读 START_HERE.md 和 AGENTS.md，再读当前状态、registry、交接与最新工作记录。按实际证据区分计划、执行和失败，不重复初始化。现有 MV-2 无 TTA 任务需只读核实最终状态；不要启动训练、推理、旧 watcher 或修改网站/环境；GPU 0 禁用。保留原版 Primus、九个 head 和固定协议。每轮更新工作记录及交接，将本轮代码、配置和 Markdown 提交并推送；汇报实际 commit、分支和 PR 状态。
+> 请接手 private 仓库 Polaris1010/EM-DINOv3-Research，本地 E:\mira_website_demo\EM-DINOv3-Research，当前MV3分支codex/mv3-generalist-training。先读START_HERE、AGENTS、MV3_PROTOCOL、最新工作记录、当前状态、registry和交接。用户已明确授权MV3：仅G-P0/G-B100 frozen encoder+original Primus，共同40k预算、3匹配decoder seeds、TTA=OFF，首seed全来源指标后再补另两seed。先查现有MV3服务/进度，继续同一已授权任务，不重复启动。MV2已完成，不追加旧9个head验证或新审计/SSL模块；GPU0禁用，不改网站/环境/历史。每轮代码和Markdown提交推送，最终输出MV3_final_report.md并停止。
 
 仓库不包含服务器密码；认证使用已有安全凭据或交互输入。

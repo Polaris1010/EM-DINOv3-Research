@@ -1,5 +1,15 @@
 # 当前研究状态
 
+## 最新阶段：2026-10-14 MV-3
+
+用户已明确授权进入MitoVerse多来源监督训练，取代初始化轮的只读范围。MV-2现已完成188区域×9组=1692条核心指标，12来源等权Dice：P0 0.3492、B100k 0.4067、B150k 0.4102；实证完成状态见 `evidence/MV-3/server_initial_status_20261014.json`。旧注册记录与结果保留原快照，不重写历史。
+
+本轮唯一任务MV-3：G-P0/G-B100 frozen encoder + original Primus，统一40k预算、3匹配seeds，TTA=OFF。已锁定MV-Generalist-v1：156 train区域和38 dev区域，覆盖12来源；194个区域输入准备完成。Han用已知非零末端有效区，正式test排除；详情见MV3_PROTOCOL。
+
+实际smoke/训练/开发验证状态以 `experiments/MV-3/run_index.json` 和最新带时间戳服务器快照为准，不能根据PLANNED字段声称已完成。旧9个head不再扩展验证。不启动200k SSL、B150k训练或新增模块。研究代码和每轮Markdown提交到 `codex/mv3-generalist-training`。
+
+以下2026-10-13盘点为保留的历史状态，MV-2曾running与main曾只有scaffold均已被后续实际交付取代。
+
 本轮事实快照：2026-10-13 19:33–19:36（Asia/Hong_Kong；精确 UTC 见 `evidence/collection_receipt.json`）。SSH 对服务器进行只读盘点，CPU 读取 checkpoint 元数据，无新训练/推理、环境安装、网站变更或进程停止。运行中的任务状态会变化，此文件不是实时监控。
 
 ## 状态定义

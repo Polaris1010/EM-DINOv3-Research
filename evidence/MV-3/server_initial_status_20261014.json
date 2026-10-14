@@ -1,0 +1,33 @@
+{
+  "observed_at": "2026-10-14T02:44:39.938683+00:00",
+  "gpu": "0, GPU-e7d56fea-8409-6cf0-e2e7-ceda9fd00ec5, NVIDIA GeForce RTX 4090, 0 %, 21124 MiB, 24564 MiB\n1, GPU-29591cdf-1498-85e8-bb8c-158082a53728, NVIDIA GeForce RTX 4090, 0 %, 23752 MiB, 24564 MiB\n2, GPU-794aaaef-6c72-f6ac-b6d0-a07ba3f76364, NVIDIA GeForce RTX 4090, 0 %, 23752 MiB, 24564 MiB\n3, GPU-5a68cc29-a13a-bf90-858e-079e14de807a, NVIDIA GeForce RTX 4090, 0 %, 24217 MiB, 24564 MiB\n",
+  "processes": "GPU-e7d56fea-8409-6cf0-e2e7-ceda9fd00ec5, 2470228, 3086 MiB\nGPU-29591cdf-1498-85e8-bb8c-158082a53728, 1971241, 458 MiB\nGPU-794aaaef-6c72-f6ac-b6d0-a07ba3f76364, 1971241, 458 MiB\n",
+  "website": 200,
+  "disk": "Filesystem            Size  Used Avail Use% Mounted on\n192.168.3.120:/users  1.3P  1.1P  264T  80% /opt/data/3_117\n",
+  "MV2_status": {
+    "status": "complete",
+    "inference_groups": 9,
+    "metrics": {
+      "status": "complete",
+      "rows": 1692,
+      "volumes": 188,
+      "sources": 12,
+      "tta": "OFF",
+      "test_labels_accessed": false
+    },
+    "physical_gpus": [
+      1,
+      2,
+      3
+    ],
+    "website_http_after": 200
+  },
+  "MV2_core_metrics_complete": {
+    "status": "complete",
+    "rows": 1692,
+    "volumes": 188,
+    "sources": 12,
+    "tta": "OFF",
+    "test_labels_accessed": false
+  }
+}

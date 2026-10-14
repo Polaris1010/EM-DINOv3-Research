@@ -1,0 +1,19 @@
+{
+  "stage": "MV-3",
+  "server_root": "/opt/data/3_117/tanghr/codex/mv_generalist_v1_20261014",
+  "authorized_at": "2026-10-14 Asia/Hong_Kong; user MV-3 execution request",
+  "protocol": "configs/segmentation/MV-Generalist-v1/protocol.json",
+  "manifest": "configs/segmentation/MV-Generalist-v1/manifest.json",
+  "train_regions": 156,
+  "dev_regions": 38,
+  "train_sources": 12,
+  "dev_sources": 12,
+  "runs": [
+    {"model": "G-P0", "seed": 20261014, "status": "PLANNED"},
+    {"model": "G-B100", "seed": 20261014, "status": "PLANNED"},
+    {"model": "G-P0", "seed": 20261015, "status": "PLANNED"},
+    {"model": "G-B100", "seed": 20261015, "status": "PLANNED"},
+    {"model": "G-P0", "seed": 20261016, "status": "PLANNED"},
+    {"model": "G-B100", "seed": 20261016, "status": "PLANNED"}
+  ]
+}

@@ -1,4 +1,4 @@
-> 2026-10-14新授权：MV3已完成并保留；当前唯一任务MV4官方MitoNet对照，同38区域/12来源，复用P0/B100三个seed预测。先读docs/MV4_PROTOCOL.md、experiments/MV-4/run_index.json和最新work_logs/20261014_08_mv4_official_mitonet.md。旧“未授权MitoNet”段落已被本轮明确授权取代；不恢复MV3，不自动后续SSL。当前分支codex/mv4-official-mitonet。
+> MV4已完成并停止（2026-10-14香港时间23:15:04核验）。同38开发区域/12来源，来源等权Dice：P0 0.813741、B100 0.826449、官方MitoNet 0.610209；B100在8/12来源更高。当前分支codex/mv4-official-mitonet，独立draft PR3，base为未合并MV3分支。先读docs/MV4_final_report.md、experiments/MV-4/run_index.json和work_logs/20261014_08_mv4_official_mitonet.md。服务inactive/MainPID0，指标266行核验PASS；不重启MV3/MV4或旧watcher，不自动启动新实验。
 
 > 2026-10-14：MV3 v2六组40k与228条开发指标已完成，服务inactive。该轮授权任务已结束；先读最终报告，禁止恢复运行或自动MitoNet/新SSL。后续用户明确任务可提供新的执行授权。
 

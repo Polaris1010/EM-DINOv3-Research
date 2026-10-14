@@ -5008,7 +5008,7 @@
     },
     {
       "experiment_id": "MV-4-Official-MitoNet-v1",
-      "status": "VERIFIED_RUNNING",
+      "status": "VERIFIED_COMPLETED",
       "research_question": "How competitive is official MitoNet against the completed DINOv3 generalist on the same38 development regions?",
       "dataset_manifest": "configs/segmentation/MV-Generalist-v2/manifest.json",
       "dataset_manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
@@ -5089,7 +5089,7 @@
       "decoder_seed": "not applicable; fixed released model",
       "train_config": "configs/evaluation/MV-4_protocol.json",
       "resolved_config_sha256": "66db27f82a731c2edb81a74c681b2cd00a747abecfcc3c0c6e9f9082033ebe4b",
-      "code_commit": "db2ae4e",
+      "code_commit": "db2ae4e2007c85b9badee722fd331fad138d17c2",
       "python_executable": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/bin/python",
       "global_batch": 1,
       "optimizer_steps": 0,
@@ -5108,8 +5108,8 @@
         "use_gpu": true,
         "use_quantized": false
       },
-      "metrics_path": "UNVERIFIED",
-      "report_path": "docs/MV4_PROTOCOL.md",
+      "metrics_path": "experiments/MV-4/MV4_per_region_metrics.csv",
+      "report_path": "docs/MV4_final_report.md",
       "limitations": [
         "Complete-system development comparison, not equal supervised training data/budget",
         "B100k had transductive unlabeled exposure; no independent inductive-generalization claim",
@@ -5124,13 +5124,13 @@
         "evidence/MV-4/official_assets.json"
       ],
       "server_root": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014",
-      "execution_state": "OFFICIAL_MITONET_INFERENCE",
+      "execution_state": "OFFICIAL_INFERENCE_AND_FULL_DEVELOPMENT_COMPLETE",
       "existing_DINOv3_runs_reused": 6,
       "DINOv3_metric_rows_reused": 228,
       "dev_regions": 38,
       "dev_sources": 12,
       "training_performed": false,
-      "instance_outputs_retained": "UNVERIFIED"
+      "instance_outputs_retained": true
     }
   ]
 }

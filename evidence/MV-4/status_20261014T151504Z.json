@@ -1,0 +1,25 @@
+{
+  "observed_at_utc": "2026-10-14T15:15:04.386045+00:00",
+  "status": {
+    "status": "complete",
+    "inferred_regions": 38,
+    "scored_regions": 38,
+    "sources": 12,
+    "dinov3_metric_rows_reused": 228,
+    "mitonet_metric_rows": 38,
+    "instance_outputs_retained": true,
+    "physical_gpus": [
+      1,
+      2,
+      3
+    ],
+    "gpu0_used": false,
+    "website_http_after": 200,
+    "mv3_inputs_unchanged": true,
+    "report": "MV4_final_report.md",
+    "further_experiments_started": false
+  },
+  "service": "MainPID=0\nResult=success\nActiveState=inactive\n",
+  "gpus": "0, 3092, 0\n1, 464, 0\n2, 464, 0\n3, 0, 0\n",
+  "active_progress": []
+}

@@ -1,0 +1,81 @@
+{
+  "status": "complete",
+  "source_macro": {
+    "G-P0": {
+      "dice": 0.8137414862637777,
+      "precision": 0.8386341629030657,
+      "recall": 0.8112697446840696,
+      "hd95_nm": 529.2190692342893,
+      "nsd_16nm": 0.7058886342465577,
+      "predicted_foreground_fraction": 0.0791385415691057
+    },
+    "G-B100": {
+      "dice": 0.8264489417353944,
+      "precision": 0.8437931382081937,
+      "recall": 0.8351159100510716,
+      "hd95_nm": 559.4837299674448,
+      "nsd_16nm": 0.7254801551199923,
+      "predicted_foreground_fraction": 0.08151246896615683
+    },
+    "Official-MitoNet-v1": {
+      "dice": 0.6102085551547273,
+      "precision": 0.6818447093631296,
+      "recall": 0.657549514023871,
+      "hd95_nm": 617.8220953710152,
+      "nsd_16nm": 0.5433837900375554,
+      "predicted_foreground_fraction": 0.08118124098027557
+    }
+  },
+  "B100_minus_MitoNet_macro_dice": 0.21624038658066713,
+  "B100_source_wins": 8,
+  "B100_source_losses": 4,
+  "source_count": 12,
+  "regions": 38,
+  "reused_DINOv3_rows": 228,
+  "official_MitoNet_rows": 38,
+  "exclude_OpenOrganelle_B100_minus_P0": 0.0056669310144770975,
+  "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "protocol_sha256": "66db27f82a731c2edb81a74c681b2cd00a747abecfcc3c0c6e9f9082033ebe4b",
+  "official_assets": {
+    "observed_at_utc": "2026-10-14T14:50:54.006390+00:00",
+    "files": {
+      "inference_upstream.py": {
+        "source": "https://raw.githubusercontent.com/volume-em/empanada-napari/main/empanada_napari/inference.py",
+        "sha256": "eb38a10eb60a3badb99a80646b67ac96ca1a202674d24fdb8903620cc5d73071",
+        "bytes": 20672
+      },
+      "utils_upstream.py": {
+        "source": "https://raw.githubusercontent.com/volume-em/empanada-napari/main/empanada_napari/utils.py",
+        "sha256": "1000d0b9053132a5ae3975b7042e91f39bcbdb2e97020b0bc88cc48adeb3d6e3",
+        "bytes": 9933
+      },
+      "model_config.yaml": {
+        "source": "https://raw.githubusercontent.com/volume-em/empanada-napari/main/empanada_napari/configs/MitoNet_v1.yaml",
+        "sha256": "ac1421a7073809b09e548da35e75aa8da4e8c11003bde85add895541859ad3f4",
+        "bytes": 1079
+      },
+      "empanada_dl-0.1.7-py3-none-any.whl": {
+        "source": "https://pypi.org/project/empanada-dl/0.1.7/",
+        "sha256": "405518287dbf9f41d1d7c1b092a16feb4d87d995c1b4a9c3ec38d3f9b37532d4",
+        "bytes": 91353,
+        "publisher_sha256_verified": true
+      },
+      "MitoNet_v1.pth": {
+        "source": "https://zenodo.org/records/6861565/files/MitoNet_v1.pth",
+        "sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+        "bytes": 221241200,
+        "publisher_md5": "b56fce28d877a3c35b7ca970cec73bc9",
+        "publisher_md5_verified": true
+      }
+    },
+    "scope": "official MitoNet_v1 only; no GT selection; no SSL"
+  },
+  "limitations": [
+    "Complete-system development comparison, not equal supervised training data/budget",
+    "B100k had transductive unlabeled exposure; no independent inductive-generalization claim",
+    "Three decoder seeds are not independent biological acquisitions",
+    "Han whole-GT protocol is inherited and explicitly disclosed",
+    "Turner physical spacing remains UNVERIFIED; physical surface metrics carry the inherited caveat",
+    "2D instance outputs are retained; no new instance metrics without verified instance GT"
+  ]
+}

@@ -1,0 +1,543 @@
+{
+  "status": "complete",
+  "model": "Official-MitoNet-v1",
+  "region_id": "wei20_mitoEM-R__dev",
+  "source_id": "wei20",
+  "shape_zyx": [
+    100,
+    4096,
+    4096
+  ],
+  "original_region_zyx": [
+    [
+      400,
+      500
+    ],
+    [
+      0,
+      4096
+    ],
+    [
+      0,
+      4096
+    ]
+  ],
+  "spacing_zyx_nm": [
+    30.0,
+    8.0,
+    8.0
+  ],
+  "spacing_status": "official_ingest_native_grid",
+  "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "protocol_sha256": "66db27f82a731c2edb81a74c681b2cd00a747abecfcc3c0c6e9f9082033ebe4b",
+  "checkpoint_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+  "physical_gpu": 1,
+  "tta": false,
+  "gt_used_for_inference": false,
+  "all_native_z_inferred": true,
+  "instance_interpretation": "official panoptic per-plane IDs plus disjoint global per-plane IDs; no 3D tracking claim",
+  "instance_count": 36118,
+  "plane_instances": [
+    {
+      "z_local": 0,
+      "first_global_instance": 1,
+      "instance_count": 332
+    },
+    {
+      "z_local": 1,
+      "first_global_instance": 333,
+      "instance_count": 341
+    },
+    {
+      "z_local": 2,
+      "first_global_instance": 674,
+      "instance_count": 324
+    },
+    {
+      "z_local": 3,
+      "first_global_instance": 998,
+      "instance_count": 337
+    },
+    {
+      "z_local": 4,
+      "first_global_instance": 1335,
+      "instance_count": 354
+    },
+    {
+      "z_local": 5,
+      "first_global_instance": 1689,
+      "instance_count": 331
+    },
+    {
+      "z_local": 6,
+      "first_global_instance": 2020,
+      "instance_count": 351
+    },
+    {
+      "z_local": 7,
+      "first_global_instance": 2371,
+      "instance_count": 349
+    },
+    {
+      "z_local": 8,
+      "first_global_instance": 2720,
+      "instance_count": 347
+    },
+    {
+      "z_local": 9,
+      "first_global_instance": 3067,
+      "instance_count": 350
+    },
+    {
+      "z_local": 10,
+      "first_global_instance": 3417,
+      "instance_count": 342
+    },
+    {
+      "z_local": 11,
+      "first_global_instance": 3759,
+      "instance_count": 342
+    },
+    {
+      "z_local": 12,
+      "first_global_instance": 4101,
+      "instance_count": 347
+    },
+    {
+      "z_local": 13,
+      "first_global_instance": 4448,
+      "instance_count": 355
+    },
+    {
+      "z_local": 14,
+      "first_global_instance": 4803,
+      "instance_count": 362
+    },
+    {
+      "z_local": 15,
+      "first_global_instance": 5165,
+      "instance_count": 359
+    },
+    {
+      "z_local": 16,
+      "first_global_instance": 5524,
+      "instance_count": 359
+    },
+    {
+      "z_local": 17,
+      "first_global_instance": 5883,
+      "instance_count": 343
+    },
+    {
+      "z_local": 18,
+      "first_global_instance": 6226,
+      "instance_count": 358
+    },
+    {
+      "z_local": 19,
+      "first_global_instance": 6584,
+      "instance_count": 351
+    },
+    {
+      "z_local": 20,
+      "first_global_instance": 6935,
+      "instance_count": 348
+    },
+    {
+      "z_local": 21,
+      "first_global_instance": 7283,
+      "instance_count": 362
+    },
+    {
+      "z_local": 22,
+      "first_global_instance": 7645,
+      "instance_count": 381
+    },
+    {
+      "z_local": 23,
+      "first_global_instance": 8026,
+      "instance_count": 367
+    },
+    {
+      "z_local": 24,
+      "first_global_instance": 8393,
+      "instance_count": 367
+    },
+    {
+      "z_local": 25,
+      "first_global_instance": 8760,
+      "instance_count": 362
+    },
+    {
+      "z_local": 26,
+      "first_global_instance": 9122,
+      "instance_count": 359
+    },
+    {
+      "z_local": 27,
+      "first_global_instance": 9481,
+      "instance_count": 380
+    },
+    {
+      "z_local": 28,
+      "first_global_instance": 9861,
+      "instance_count": 388
+    },
+    {
+      "z_local": 29,
+      "first_global_instance": 10249,
+      "instance_count": 368
+    },
+    {
+      "z_local": 30,
+      "first_global_instance": 10617,
+      "instance_count": 377
+    },
+    {
+      "z_local": 31,
+      "first_global_instance": 10994,
+      "instance_count": 394
+    },
+    {
+      "z_local": 32,
+      "first_global_instance": 11388,
+      "instance_count": 395
+    },
+    {
+      "z_local": 33,
+      "first_global_instance": 11783,
+      "instance_count": 390
+    },
+    {
+      "z_local": 34,
+      "first_global_instance": 12173,
+      "instance_count": 385
+    },
+    {
+      "z_local": 35,
+      "first_global_instance": 12558,
+      "instance_count": 385
+    },
+    {
+      "z_local": 36,
+      "first_global_instance": 12943,
+      "instance_count": 374
+    },
+    {
+      "z_local": 37,
+      "first_global_instance": 13317,
+      "instance_count": 366
+    },
+    {
+      "z_local": 38,
+      "first_global_instance": 13683,
+      "instance_count": 392
+    },
+    {
+      "z_local": 39,
+      "first_global_instance": 14075,
+      "instance_count": 373
+    },
+    {
+      "z_local": 40,
+      "first_global_instance": 14448,
+      "instance_count": 370
+    },
+    {
+      "z_local": 41,
+      "first_global_instance": 14818,
+      "instance_count": 367
+    },
+    {
+      "z_local": 42,
+      "first_global_instance": 15185,
+      "instance_count": 390
+    },
+    {
+      "z_local": 43,
+      "first_global_instance": 15575,
+      "instance_count": 376
+    },
+    {
+      "z_local": 44,
+      "first_global_instance": 15951,
+      "instance_count": 376
+    },
+    {
+      "z_local": 45,
+      "first_global_instance": 16327,
+      "instance_count": 382
+    },
+    {
+      "z_local": 46,
+      "first_global_instance": 16709,
+      "instance_count": 380
+    },
+    {
+      "z_local": 47,
+      "first_global_instance": 17089,
+      "instance_count": 374
+    },
+    {
+      "z_local": 48,
+      "first_global_instance": 17463,
+      "instance_count": 374
+    },
+    {
+      "z_local": 49,
+      "first_global_instance": 17837,
+      "instance_count": 387
+    },
+    {
+      "z_local": 50,
+      "first_global_instance": 18224,
+      "instance_count": 358
+    },
+    {
+      "z_local": 51,
+      "first_global_instance": 18582,
+      "instance_count": 365
+    },
+    {
+      "z_local": 52,
+      "first_global_instance": 18947,
+      "instance_count": 357
+    },
+    {
+      "z_local": 53,
+      "first_global_instance": 19304,
+      "instance_count": 359
+    },
+    {
+      "z_local": 54,
+      "first_global_instance": 19663,
+      "instance_count": 360
+    },
+    {
+      "z_local": 55,
+      "first_global_instance": 20023,
+      "instance_count": 366
+    },
+    {
+      "z_local": 56,
+      "first_global_instance": 20389,
+      "instance_count": 351
+    },
+    {
+      "z_local": 57,
+      "first_global_instance": 20740,
+      "instance_count": 333
+    },
+    {
+      "z_local": 58,
+      "first_global_instance": 21073,
+      "instance_count": 355
+    },
+    {
+      "z_local": 59,
+      "first_global_instance": 21428,
+      "instance_count": 355
+    },
+    {
+      "z_local": 60,
+      "first_global_instance": 21783,
+      "instance_count": 351
+    },
+    {
+      "z_local": 61,
+      "first_global_instance": 22134,
+      "instance_count": 342
+    },
+    {
+      "z_local": 62,
+      "first_global_instance": 22476,
+      "instance_count": 360
+    },
+    {
+      "z_local": 63,
+      "first_global_instance": 22836,
+      "instance_count": 344
+    },
+    {
+      "z_local": 64,
+      "first_global_instance": 23180,
+      "instance_count": 350
+    },
+    {
+      "z_local": 65,
+      "first_global_instance": 23530,
+      "instance_count": 327
+    },
+    {
+      "z_local": 66,
+      "first_global_instance": 23857,
+      "instance_count": 353
+    },
+    {
+      "z_local": 67,
+      "first_global_instance": 24210,
+      "instance_count": 349
+    },
+    {
+      "z_local": 68,
+      "first_global_instance": 24559,
+      "instance_count": 350
+    },
+    {
+      "z_local": 69,
+      "first_global_instance": 24909,
+      "instance_count": 332
+    },
+    {
+      "z_local": 70,
+      "first_global_instance": 25241,
+      "instance_count": 344
+    },
+    {
+      "z_local": 71,
+      "first_global_instance": 25585,
+      "instance_count": 345
+    },
+    {
+      "z_local": 72,
+      "first_global_instance": 25930,
+      "instance_count": 366
+    },
+    {
+      "z_local": 73,
+      "first_global_instance": 26296,
+      "instance_count": 382
+    },
+    {
+      "z_local": 74,
+      "first_global_instance": 26678,
+      "instance_count": 377
+    },
+    {
+      "z_local": 75,
+      "first_global_instance": 27055,
+      "instance_count": 376
+    },
+    {
+      "z_local": 76,
+      "first_global_instance": 27431,
+      "instance_count": 367
+    },
+    {
+      "z_local": 77,
+      "first_global_instance": 27798,
+      "instance_count": 371
+    },
+    {
+      "z_local": 78,
+      "first_global_instance": 28169,
+      "instance_count": 378
+    },
+    {
+      "z_local": 79,
+      "first_global_instance": 28547,
+      "instance_count": 378
+    },
+    {
+      "z_local": 80,
+      "first_global_instance": 28925,
+      "instance_count": 378
+    },
+    {
+      "z_local": 81,
+      "first_global_instance": 29303,
+      "instance_count": 359
+    },
+    {
+      "z_local": 82,
+      "first_global_instance": 29662,
+      "instance_count": 355
+    },
+    {
+      "z_local": 83,
+      "first_global_instance": 30017,
+      "instance_count": 363
+    },
+    {
+      "z_local": 84,
+      "first_global_instance": 30380,
+      "instance_count": 366
+    },
+    {
+      "z_local": 85,
+      "first_global_instance": 30746,
+      "instance_count": 370
+    },
+    {
+      "z_local": 86,
+      "first_global_instance": 31116,
+      "instance_count": 351
+    },
+    {
+      "z_local": 87,
+      "first_global_instance": 31467,
+      "instance_count": 351
+    },
+    {
+      "z_local": 88,
+      "first_global_instance": 31818,
+      "instance_count": 348
+    },
+    {
+      "z_local": 89,
+      "first_global_instance": 32166,
+      "instance_count": 346
+    },
+    {
+      "z_local": 90,
+      "first_global_instance": 32512,
+      "instance_count": 374
+    },
+    {
+      "z_local": 91,
+      "first_global_instance": 32886,
+      "instance_count": 375
+    },
+    {
+      "z_local": 92,
+      "first_global_instance": 33261,
+      "instance_count": 370
+    },
+    {
+      "z_local": 93,
+      "first_global_instance": 33631,
+      "instance_count": 377
+    },
+    {
+      "z_local": 94,
+      "first_global_instance": 34008,
+      "instance_count": 350
+    },
+    {
+      "z_local": 95,
+      "first_global_instance": 34358,
+      "instance_count": 355
+    },
+    {
+      "z_local": 96,
+      "first_global_instance": 34713,
+      "instance_count": 351
+    },
+    {
+      "z_local": 97,
+      "first_global_instance": 35064,
+      "instance_count": 342
+    },
+    {
+      "z_local": 98,
+      "first_global_instance": 35406,
+      "instance_count": 345
+    },
+    {
+      "z_local": 99,
+      "first_global_instance": 35751,
+      "instance_count": 368
+    }
+  ],
+  "seconds": 192.666841506958
+}

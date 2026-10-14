@@ -1,0 +1,543 @@
+{
+  "status": "complete",
+  "model": "Official-MitoNet-v1",
+  "region_id": "openorganelle_jrc_cos7-1b_recon-1_crop255",
+  "source_id": "openorganelle",
+  "shape_zyx": [
+    100,
+    100,
+    100
+  ],
+  "original_region_zyx": [
+    [
+      0,
+      100
+    ],
+    [
+      0,
+      100
+    ],
+    [
+      0,
+      100
+    ]
+  ],
+  "spacing_zyx_nm": [
+    8.0,
+    8.0,
+    8.0
+  ],
+  "spacing_status": "official_ingest_native_grid",
+  "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "protocol_sha256": "66db27f82a731c2edb81a74c681b2cd00a747abecfcc3c0c6e9f9082033ebe4b",
+  "checkpoint_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+  "physical_gpu": 3,
+  "tta": false,
+  "gt_used_for_inference": false,
+  "all_native_z_inferred": true,
+  "instance_interpretation": "official panoptic per-plane IDs plus disjoint global per-plane IDs; no 3D tracking claim",
+  "instance_count": 185,
+  "plane_instances": [
+    {
+      "z_local": 0,
+      "first_global_instance": 1,
+      "instance_count": 1
+    },
+    {
+      "z_local": 1,
+      "first_global_instance": 2,
+      "instance_count": 1
+    },
+    {
+      "z_local": 2,
+      "first_global_instance": 3,
+      "instance_count": 1
+    },
+    {
+      "z_local": 3,
+      "first_global_instance": 4,
+      "instance_count": 1
+    },
+    {
+      "z_local": 4,
+      "first_global_instance": 5,
+      "instance_count": 1
+    },
+    {
+      "z_local": 5,
+      "first_global_instance": 6,
+      "instance_count": 1
+    },
+    {
+      "z_local": 6,
+      "first_global_instance": 7,
+      "instance_count": 1
+    },
+    {
+      "z_local": 7,
+      "first_global_instance": 8,
+      "instance_count": 1
+    },
+    {
+      "z_local": 8,
+      "first_global_instance": 9,
+      "instance_count": 1
+    },
+    {
+      "z_local": 9,
+      "first_global_instance": 10,
+      "instance_count": 1
+    },
+    {
+      "z_local": 10,
+      "first_global_instance": 11,
+      "instance_count": 1
+    },
+    {
+      "z_local": 11,
+      "first_global_instance": 12,
+      "instance_count": 1
+    },
+    {
+      "z_local": 12,
+      "first_global_instance": 13,
+      "instance_count": 1
+    },
+    {
+      "z_local": 13,
+      "first_global_instance": 14,
+      "instance_count": 1
+    },
+    {
+      "z_local": 14,
+      "first_global_instance": 15,
+      "instance_count": 1
+    },
+    {
+      "z_local": 15,
+      "first_global_instance": 16,
+      "instance_count": 1
+    },
+    {
+      "z_local": 16,
+      "first_global_instance": 17,
+      "instance_count": 1
+    },
+    {
+      "z_local": 17,
+      "first_global_instance": 18,
+      "instance_count": 1
+    },
+    {
+      "z_local": 18,
+      "first_global_instance": 19,
+      "instance_count": 1
+    },
+    {
+      "z_local": 19,
+      "first_global_instance": 20,
+      "instance_count": 1
+    },
+    {
+      "z_local": 20,
+      "first_global_instance": 21,
+      "instance_count": 1
+    },
+    {
+      "z_local": 21,
+      "first_global_instance": 22,
+      "instance_count": 1
+    },
+    {
+      "z_local": 22,
+      "first_global_instance": 23,
+      "instance_count": 1
+    },
+    {
+      "z_local": 23,
+      "first_global_instance": 24,
+      "instance_count": 1
+    },
+    {
+      "z_local": 24,
+      "first_global_instance": 25,
+      "instance_count": 1
+    },
+    {
+      "z_local": 25,
+      "first_global_instance": 26,
+      "instance_count": 1
+    },
+    {
+      "z_local": 26,
+      "first_global_instance": 27,
+      "instance_count": 1
+    },
+    {
+      "z_local": 27,
+      "first_global_instance": 28,
+      "instance_count": 1
+    },
+    {
+      "z_local": 28,
+      "first_global_instance": 29,
+      "instance_count": 5
+    },
+    {
+      "z_local": 29,
+      "first_global_instance": 34,
+      "instance_count": 1
+    },
+    {
+      "z_local": 30,
+      "first_global_instance": 35,
+      "instance_count": 1
+    },
+    {
+      "z_local": 31,
+      "first_global_instance": 36,
+      "instance_count": 1
+    },
+    {
+      "z_local": 32,
+      "first_global_instance": 37,
+      "instance_count": 1
+    },
+    {
+      "z_local": 33,
+      "first_global_instance": 38,
+      "instance_count": 2
+    },
+    {
+      "z_local": 34,
+      "first_global_instance": 40,
+      "instance_count": 2
+    },
+    {
+      "z_local": 35,
+      "first_global_instance": 42,
+      "instance_count": 2
+    },
+    {
+      "z_local": 36,
+      "first_global_instance": 44,
+      "instance_count": 2
+    },
+    {
+      "z_local": 37,
+      "first_global_instance": 46,
+      "instance_count": 2
+    },
+    {
+      "z_local": 38,
+      "first_global_instance": 48,
+      "instance_count": 2
+    },
+    {
+      "z_local": 39,
+      "first_global_instance": 50,
+      "instance_count": 2
+    },
+    {
+      "z_local": 40,
+      "first_global_instance": 52,
+      "instance_count": 2
+    },
+    {
+      "z_local": 41,
+      "first_global_instance": 54,
+      "instance_count": 2
+    },
+    {
+      "z_local": 42,
+      "first_global_instance": 56,
+      "instance_count": 2
+    },
+    {
+      "z_local": 43,
+      "first_global_instance": 58,
+      "instance_count": 2
+    },
+    {
+      "z_local": 44,
+      "first_global_instance": 60,
+      "instance_count": 2
+    },
+    {
+      "z_local": 45,
+      "first_global_instance": 62,
+      "instance_count": 2
+    },
+    {
+      "z_local": 46,
+      "first_global_instance": 64,
+      "instance_count": 2
+    },
+    {
+      "z_local": 47,
+      "first_global_instance": 66,
+      "instance_count": 2
+    },
+    {
+      "z_local": 48,
+      "first_global_instance": 68,
+      "instance_count": 2
+    },
+    {
+      "z_local": 49,
+      "first_global_instance": 70,
+      "instance_count": 2
+    },
+    {
+      "z_local": 50,
+      "first_global_instance": 72,
+      "instance_count": 2
+    },
+    {
+      "z_local": 51,
+      "first_global_instance": 74,
+      "instance_count": 2
+    },
+    {
+      "z_local": 52,
+      "first_global_instance": 76,
+      "instance_count": 2
+    },
+    {
+      "z_local": 53,
+      "first_global_instance": 78,
+      "instance_count": 2
+    },
+    {
+      "z_local": 54,
+      "first_global_instance": 80,
+      "instance_count": 3
+    },
+    {
+      "z_local": 55,
+      "first_global_instance": 83,
+      "instance_count": 2
+    },
+    {
+      "z_local": 56,
+      "first_global_instance": 85,
+      "instance_count": 2
+    },
+    {
+      "z_local": 57,
+      "first_global_instance": 87,
+      "instance_count": 2
+    },
+    {
+      "z_local": 58,
+      "first_global_instance": 89,
+      "instance_count": 2
+    },
+    {
+      "z_local": 59,
+      "first_global_instance": 91,
+      "instance_count": 2
+    },
+    {
+      "z_local": 60,
+      "first_global_instance": 93,
+      "instance_count": 2
+    },
+    {
+      "z_local": 61,
+      "first_global_instance": 95,
+      "instance_count": 2
+    },
+    {
+      "z_local": 62,
+      "first_global_instance": 97,
+      "instance_count": 2
+    },
+    {
+      "z_local": 63,
+      "first_global_instance": 99,
+      "instance_count": 2
+    },
+    {
+      "z_local": 64,
+      "first_global_instance": 101,
+      "instance_count": 2
+    },
+    {
+      "z_local": 65,
+      "first_global_instance": 103,
+      "instance_count": 2
+    },
+    {
+      "z_local": 66,
+      "first_global_instance": 105,
+      "instance_count": 2
+    },
+    {
+      "z_local": 67,
+      "first_global_instance": 107,
+      "instance_count": 2
+    },
+    {
+      "z_local": 68,
+      "first_global_instance": 109,
+      "instance_count": 2
+    },
+    {
+      "z_local": 69,
+      "first_global_instance": 111,
+      "instance_count": 2
+    },
+    {
+      "z_local": 70,
+      "first_global_instance": 113,
+      "instance_count": 2
+    },
+    {
+      "z_local": 71,
+      "first_global_instance": 115,
+      "instance_count": 2
+    },
+    {
+      "z_local": 72,
+      "first_global_instance": 117,
+      "instance_count": 2
+    },
+    {
+      "z_local": 73,
+      "first_global_instance": 119,
+      "instance_count": 2
+    },
+    {
+      "z_local": 74,
+      "first_global_instance": 121,
+      "instance_count": 2
+    },
+    {
+      "z_local": 75,
+      "first_global_instance": 123,
+      "instance_count": 2
+    },
+    {
+      "z_local": 76,
+      "first_global_instance": 125,
+      "instance_count": 2
+    },
+    {
+      "z_local": 77,
+      "first_global_instance": 127,
+      "instance_count": 2
+    },
+    {
+      "z_local": 78,
+      "first_global_instance": 129,
+      "instance_count": 2
+    },
+    {
+      "z_local": 79,
+      "first_global_instance": 131,
+      "instance_count": 2
+    },
+    {
+      "z_local": 80,
+      "first_global_instance": 133,
+      "instance_count": 2
+    },
+    {
+      "z_local": 81,
+      "first_global_instance": 135,
+      "instance_count": 2
+    },
+    {
+      "z_local": 82,
+      "first_global_instance": 137,
+      "instance_count": 6
+    },
+    {
+      "z_local": 83,
+      "first_global_instance": 143,
+      "instance_count": 4
+    },
+    {
+      "z_local": 84,
+      "first_global_instance": 147,
+      "instance_count": 2
+    },
+    {
+      "z_local": 85,
+      "first_global_instance": 149,
+      "instance_count": 2
+    },
+    {
+      "z_local": 86,
+      "first_global_instance": 151,
+      "instance_count": 2
+    },
+    {
+      "z_local": 87,
+      "first_global_instance": 153,
+      "instance_count": 1
+    },
+    {
+      "z_local": 88,
+      "first_global_instance": 154,
+      "instance_count": 2
+    },
+    {
+      "z_local": 89,
+      "first_global_instance": 156,
+      "instance_count": 2
+    },
+    {
+      "z_local": 90,
+      "first_global_instance": 158,
+      "instance_count": 2
+    },
+    {
+      "z_local": 91,
+      "first_global_instance": 160,
+      "instance_count": 2
+    },
+    {
+      "z_local": 92,
+      "first_global_instance": 162,
+      "instance_count": 3
+    },
+    {
+      "z_local": 93,
+      "first_global_instance": 165,
+      "instance_count": 3
+    },
+    {
+      "z_local": 94,
+      "first_global_instance": 168,
+      "instance_count": 3
+    },
+    {
+      "z_local": 95,
+      "first_global_instance": 171,
+      "instance_count": 2
+    },
+    {
+      "z_local": 96,
+      "first_global_instance": 173,
+      "instance_count": 3
+    },
+    {
+      "z_local": 97,
+      "first_global_instance": 176,
+      "instance_count": 3
+    },
+    {
+      "z_local": 98,
+      "first_global_instance": 179,
+      "instance_count": 4
+    },
+    {
+      "z_local": 99,
+      "first_global_instance": 183,
+      "instance_count": 3
+    }
+  ],
+  "seconds": 0.9033715724945068
+}

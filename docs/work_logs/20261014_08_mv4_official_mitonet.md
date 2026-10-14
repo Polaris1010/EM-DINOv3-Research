@@ -29,3 +29,13 @@ MV2原始validation/gpu_edt在新环境实际导入成功，validation SHA `143c
 最终固定官方整图协议，scale/阈值/NMS/实例后处理和MV3数据不变。新controller仅用venv推理，评分/报告继续调用原meddinov3环境，避免NumPy兼容调整影响物理评测。正式38区域尚待新固定协议smoke和同一有界执行器启动；实际状态以新快照为准，未声称MitoNet Dice已得到。
 
 23:07:15正式启动最终整图协议（protocol SHA `66db27f82a731c2edb81a74c681b2cd00a747abecfcc3c0c6e9f9082033ebe4b`），三种尺寸smoke全部通过。23:07:49快照：service active/MainPID3901502，推理3/38、评分0/38，physical1/2/3利用率85%/35%/43%，网站200、GPU0未用。源文件SHA均与部署commit`db2ae4e2007c85b9badee722fd331fad138d17c2`一致。启动wrapper残留旧短commit元数据已修正，原件保留deployment_metadata_before_correction.json；只改回执，运行代码/协议未动。注册状态更新VERIFIED_RUNNING。继续执行至最终报告，再停止。
+
+## 最终收尾与研究判断
+
+23:15:04香港时间实际complete：38/38推理和评分，228条DINOv3指标原样复用，service inactive/MainPID0/Resultsuccess，网站200，GPU0未用；MV3 protected inputs前后逐项相同。收取93份小文件及12张六面板图，不把原图、权重、预测数组入Git。CPU结果核验PASS（266行、38区域/12来源、算术及SHA、原DINOv3指标未变）。
+
+来源等权Dice P0=0.813741、B100=0.826449、MitoNet=0.610209；B100−MitoNet=+0.216240，8胜4负；MitoNet在Casser/Mekuc/Turner/Wei更高。保留Guay/Müller的极低官方输出，不改阈值或GT极性。已人工查看Guay/Müller/Haberl/Han/Wei/Kunduri/Turner图，具体误差及Han未标注区不能当生物学假阳性的限制写入报告。自动Turner最坏平面输入全黑的图原样保留，不能据此概括来源弱边界，不开启新审计。
+
+生成MV4_final_report.md和12图本机HTML入口，保存机器生成报告原件与图片SHA。当前状态、交接、NEXT_ACTION、PR3描述和registry更新为完成，明确历史段落不作为当前任务。下一项科学决策倾向跨来源稳健性，但未开始研究；原有限执行器已经正常终止，本轮完成后停止。
+
+最终交付核验：21项CPU测试PASS，repository115精选+664历史来源、39条实验记录校验PASS，registry --check PASS；与MV3 commit578a30e比较，原38条注册记录逐项不变。最终报告本机/服务器SHA相同，运行源SHA与部署记录相同。代码准备、实际启动与运行记录commit1940bb2/d5b4a96/404e1b9/db2ae4e/d0c40b9已推送；最终指标/报告/Markdown随本轮完成提交推送，PR3仍draft/open，不自动merge。

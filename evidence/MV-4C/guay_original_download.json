@@ -1,0 +1,12 @@
+{
+  "source_project": "https://leapmanlab.github.io/dense-cell/",
+  "archive_url": "https://dl.dropboxusercontent.com/scl/fi/fg6y2dafj7116vfuucgcm/platelet_data_1219.zip?rlkey=afvwo6f6oiab1pc76peirjxzd&dl=1",
+  "archive_size": 188671885,
+  "archive_member": "platelet_data/eval-images.tif",
+  "bytes": 30723442,
+  "sha256": "bb4996d78d663d4e270b25a85a6c1e5c8f50cb584377a6e94207ee9ad49a4169",
+  "zip_member_crc_verified": true,
+  "requests": 55,
+  "seconds": 206.02826960012317,
+  "scope": "Only author evaluation image extracted; other image/label members not downloaded"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS_AVAILABLE_EVIDENCE",
+  "requested_scope_complete": false,
+  "guay_raw_to_zarr_verified": true,
+  "muller_raw_to_zarr": "UNVERIFIED_MISSING_ORIGINAL",
+  "both_downstream_alignment_verified": true,
+  "reused_probability_input_sha_verified": true,
+  "historical_inputs_unchanged": true,
+  "all40_model_registry_entries_unchanged": true,
+  "historical_reports_and_metrics_unchanged": true,
+  "new_inference": false,
+  "gpu_used": false
+}

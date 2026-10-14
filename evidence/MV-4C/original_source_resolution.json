@@ -1,0 +1,27 @@
+{
+  "Guay": {
+    "source_project": "https://leapmanlab.github.io/dense-cell/",
+    "official_download_verified": "ZIP member CRC, then whole image SHA and exact ingest-to-Zarr equality",
+    "archive_member": "platelet_data/eval-images.tif"
+  },
+  "Muller": {
+    "source_project": "https://betaseg.github.io/",
+    "public_share": "https://cloud.mpi-cbg.de/index.php/s/UJopHTRuh6f4wR8",
+    "listed_original_path_missing": true,
+    "public_DAV_status": 401,
+    "public_legacy_listing_statuses": [
+      500,
+      404
+    ],
+    "actual_original_retrieved": false,
+    "no_password_attempts": true
+  },
+  "bounded_local_search": {
+    "max_depth": 5,
+    "time_limit_seconds": 25,
+    "truncated": true,
+    "result": "No exact pre-ingest files located in searched owner paths; not proof of absence elsewhere"
+  },
+  "no_cookie_or_credential_evidence_stored": true,
+  "task_scope": "Only two target sources"
+}

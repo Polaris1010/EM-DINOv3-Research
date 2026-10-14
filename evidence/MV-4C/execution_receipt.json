@@ -1,0 +1,12 @@
+{
+  "status": "AVAILABLE_CHECKS_COMPLETE",
+  "observed_at_utc": "2026-10-14T16:58:06.965675+00:00",
+  "service": "MainPID=0\nResult=success\nActiveState=inactive\n",
+  "website_http": 200,
+  "source_sha256": "fa881748a7c4d72b84a5f37c13f3e9c5d3365951b2031913d3f70997a6ac2c56",
+  "protocol_sha256": "f0ab994553288b1fb271044480bb6f03a0dac481b68ce77a506152c1b279e42f",
+  "original_images_verified": 1,
+  "muller_original_unavailable": true,
+  "new_model_inference": false,
+  "gpu_used": false
+}

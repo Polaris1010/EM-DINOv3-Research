@@ -1,0 +1,56 @@
+{
+  "hashes": {
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV-Generalist.json": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_protocol.json": "916ac9fbbeba6b3e131c4d2f106c9c7dd3044acedef323eafbf82d160f90bff3",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_per_region_metrics.csv": "24a2545c3ee83b1239c9a377ec1ae8cb8be909074a04151fd7a9b41edfa004c0",
+    "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/MV4B_protocol.json": "93f435e4fce0005e112fb2d5116114ffd8a4ab4a84b12494b97fd2e99bdb6281",
+    "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/MV4B_summary.json": "42ded5d43fc91063e4221cfc1a92301896de8c7581284663a37c80c7040e1552",
+    "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/STATUS.json": "67a9e529ae0833589822596062eae754610779a4ae31bd80f446cb0c6fab6f79",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/cache/guay21_vol1/CACHE.json": "4d143a6fbbe560f31668116416ed28cb92340fb93053bc299df92d0a0d0efd2b",
+    "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/runs/Official-MitoNet-Semantic-v1/guay21_vol1_inference.json": "eb0f2406fb40a4992af76b27fb7e43f8c7417c732e4c5aedd497fe504cbb3cfd",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/cache/muller21_high_c1/CACHE.json": "ef70618fedb07dc5814ee2652b7bdbcce40bc9d12614cf302838628ae2feec42",
+    "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/runs/Official-MitoNet-Semantic-v1/muller21_high_c1_inference.json": "71f8271e8a854f972f5d9f1cc51f53ad8c323fa879a1bf5f9575d47cd6720cbe"
+  },
+  "arrays_stat": {
+    "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/cache/guay21_vol1/image.npy": [
+      15360128,
+      1791866281713932490
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/cache/guay21_vol1/label.npy": [
+      15360128,
+      1791866281722710509
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/runs/Official-MitoNet-Semantic-v1/guay21_vol1_probability.npy": [
+      61440128,
+      1791992056027678024
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/runs/Official-MitoNet-Semantic-v1/guay21_vol1_raw_threshold.npy": [
+      15360128,
+      1791992056045856521
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/runs/Official-MitoNet-Semantic-v1/guay21_vol1_prediction.npy": [
+      15360128,
+      1791992056037687305
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/cache/muller21_high_c1/image.npy": [
+      582770408,
+      1791866303286318845
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/cache/muller21_high_c1/label.npy": [
+      582770408,
+      1791866303560269695
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/runs/Official-MitoNet-Semantic-v1/muller21_high_c1_probability.npy": [
+      2331081248,
+      1791992080620736548
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/runs/Official-MitoNet-Semantic-v1/muller21_high_c1_raw_threshold.npy": [
+      582770408,
+      1791992080923018775
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/runs/Official-MitoNet-Semantic-v1/muller21_high_c1_prediction.npy": [
+      582770408,
+      1791992080895684930
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Read-only snapshots of the existing MitoVerse ingest implementation. Server paths and SHA are recorded in evidence/MV-4C/ingest_sources.json. Never execute writer/main from these files: the audit compiles only the unchanged to_uint8 definition and reads data without mutation. Their presence does not prove a missing pre-ingest source image was obtained.

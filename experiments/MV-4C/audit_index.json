@@ -1,6 +1,6 @@
 {
   "stage": "MV-4C",
-  "status": "PLANNED",
+  "status": "UNVERIFIED",
   "server_root": "/opt/data/3_117/tanghr/codex/mv4c_input_provenance_20261015",
   "protocol": "configs/evaluation/MV-4C_protocol.json",
   "regions": [
@@ -11,5 +11,15 @@
   "historical_results_preserved": true,
   "new_model_inference": false,
   "new_training": false,
-  "report_path": "docs/MV4C_input_provenance_report.md"
+  "report_path": "docs/MV4C_input_provenance_report.md",
+  "execution_state": "CPU_AVAILABLE_CHECKS_COMPLETED_MULLER_ORIGINAL_UNAVAILABLE",
+  "requested_scope_complete": false,
+  "guay_original_mapping_verified": true,
+  "muller_original_mapping_verified": false,
+  "downstream_alignment_verified_both": true,
+  "code_commit": "d3497dc",
+  "metrics_path": "experiments/MV-4C/MV4C_input_summary.csv",
+  "results_path": "experiments/MV-4C/MV4C_summary.json",
+  "figures_path": "experiments/MV-4C/MV4C_figure_manifest.json",
+  "pending_input": "Actual pre-ingest high_c1 TIFF / accessible exact source path"
 }

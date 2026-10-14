@@ -1,0 +1,34 @@
+{
+  "figures": [
+    {
+      "file": "guay21_vol1_z0001.png",
+      "local_path": "E:\\mira_website_demo\\artifacts\\mv4c_control_20261015\\comparison_figures\\guay21_vol1_z0001.png",
+      "server_path": "/opt/data/3_117/tanghr/codex/mv4c_input_provenance_20261015/comparison_figures/guay21_vol1_z0001.png",
+      "sha256": "1319b8555ccdcdb625a18773420782548743a0171eec95f41e3fd15a05ebeeec",
+      "original_verified": true
+    },
+    {
+      "file": "guay21_vol1_z0012.png",
+      "local_path": "E:\\mira_website_demo\\artifacts\\mv4c_control_20261015\\comparison_figures\\guay21_vol1_z0012.png",
+      "server_path": "/opt/data/3_117/tanghr/codex/mv4c_input_provenance_20261015/comparison_figures/guay21_vol1_z0012.png",
+      "sha256": "d761e0708b8854646f8c7916b9df2ce248d4f48e257f353b8b788d175fd3d46e",
+      "original_verified": true
+    },
+    {
+      "file": "muller21_high_c1_z0525.png",
+      "local_path": "E:\\mira_website_demo\\artifacts\\mv4c_control_20261015\\comparison_figures\\muller21_high_c1_z0525.png",
+      "server_path": "/opt/data/3_117/tanghr/codex/mv4c_input_provenance_20261015/comparison_figures/muller21_high_c1_z0525.png",
+      "sha256": "d88591146521eb5bc9dfe0731ea1bc3d460c1963e1fc6d8369d8b4f627d604c3",
+      "original_verified": false
+    },
+    {
+      "file": "muller21_high_c1_z0548.png",
+      "local_path": "E:\\mira_website_demo\\artifacts\\mv4c_control_20261015\\comparison_figures\\muller21_high_c1_z0548.png",
+      "server_path": "/opt/data/3_117/tanghr/codex/mv4c_input_provenance_20261015/comparison_figures/muller21_high_c1_z0548.png",
+      "sha256": "7b34d3cbec6383f3dcfd4e1c2e8daba3a88114e8d8591b6b313cd7ba457afce5",
+      "original_verified": false
+    }
+  ],
+  "raw_Muller_unavailable": true,
+  "original_panel_not_reconstructed": true
+}

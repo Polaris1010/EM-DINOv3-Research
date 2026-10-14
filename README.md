@@ -1,3 +1,5 @@
+> [MV4C输入链核查报告](docs/MV4C_input_provenance_report.md)：Guay原图已复现当前Zarr；两来源缓存对齐一致。Müller原TIFF仍缺失，明确UNVERIFIED；已停止，不启动新实验。
+
 > MV4B定向复核已完成并停止：[最终补充报告](docs/MV4B_final_report.md)。四区域原语义0.5掩码与旧Panoptic逐像素相同，Guay/Müller未恢复；不扩展38。MV4全来源结果另保留：[MV4报告](docs/MV4_final_report.md)。当前分支codex/mv4b-semantic-panoptic，旧段落保留历史，先读START_HERE。
 
 > MV3 v2三seed最终结果已完成：[最终报告](docs/MV3_final_report.md)，P0 Dice 0.813741、B100 0.826449，配对Δ+0.012707。六组40k、228条指标、18个checkpoint；任务停止，没有自动新实验。

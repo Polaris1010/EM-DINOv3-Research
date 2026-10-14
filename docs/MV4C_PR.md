@@ -1,0 +1,7 @@
+MV4C performs only the requested Guay vol1 and Muller high_c1 intensity/coordinate provenance check, reusing the existing MV4B probabilities. No threshold/scale search, new inference, model training or data edits.
+
+Guay's author-released24-plane uint16 evaluation TIFF is recovered from the official ZIP with CRC verification. The unchanged official percentile-to-uint8 function exactly reproduces all15,360,000 Zarr pixels, with positive grayscale direction and identityZYX. Both sources have zero image-cache and GT-cache mismatch over full native volumes; cached input SHA equals the original probability-generation receipt.
+
+Muller is explicitly incomplete at the pre-ingest TIFF step: its recorded source path is absent and the author public listing could not be retrieved. The local TIFF is a Zarr export, so it is not substituted as original evidence. The four-panel figures visibly mark its missing original; audit_index remains UNVERIFIED with requested_scope_complete=false. Includes the measured grayscale/normalization statistics, exact downstream alignment, provenance, code, conclusion, this round's Markdown and handoff. Existing40 model registry entries and all historical reports/results remain unchanged.
+
+CPU checks completed and service exited successfully; no GPU use, website200. Independent draft based on codex/mv4b-semantic-panoptic; do not merge automatically. Stop after delivery; only the actual missing high_c1 original path can complete that remaining check.

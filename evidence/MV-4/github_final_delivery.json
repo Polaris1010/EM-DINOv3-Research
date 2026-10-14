@@ -1,0 +1,16 @@
+{
+  "observed_at_utc": "2026-10-14T15:24:43.370778+00:00",
+  "status": "PUSHED_VERIFIED",
+  "repository": "Polaris1010/EM-DINOv3-Research",
+  "private": true,
+  "account_verified": "Polaris1010",
+  "branch": "codex/mv4-official-mitonet",
+  "results_commit": "92ee2197ab9e183386fd44c9c5a995561c119c23",
+  "verified_head": "92ee2197ab9e183386fd44c9c5a995561c119c23",
+  "pr": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/3",
+  "pr_state": "open",
+  "draft": true,
+  "base": "codex/mv3-generalist-training",
+  "merged": false,
+  "remote_equals_local": true
+}

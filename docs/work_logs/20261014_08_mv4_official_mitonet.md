@@ -39,3 +39,5 @@ MV2原始validation/gpu_edt在新环境实际导入成功，validation SHA `143c
 生成MV4_final_report.md和12图本机HTML入口，保存机器生成报告原件与图片SHA。当前状态、交接、NEXT_ACTION、PR3描述和registry更新为完成，明确历史段落不作为当前任务。下一项科学决策倾向跨来源稳健性，但未开始研究；原有限执行器已经正常终止，本轮完成后停止。
 
 最终交付核验：21项CPU测试PASS，repository115精选+664历史来源、39条实验记录校验PASS，registry --check PASS；与MV3 commit578a30e比较，原38条注册记录逐项不变。最终报告本机/服务器SHA相同，运行源SHA与部署记录相同。代码准备、实际启动与运行记录commit1940bb2/d5b4a96/404e1b9/db2ae4e/d0c40b9已推送；最终指标/报告/Markdown随本轮完成提交推送，PR3仍draft/open，不自动merge。
+
+最终结果commit92ee2197ab9e183386fd44c9c5a995561c119c23已实际推送并通过GitHub API核验：private=true、Polaris1010、远端branch/PR3 head与本地一致；PR3保持open/draft，base为MV3分支，未合并。发布回执见evidence/MV-4/github_final_delivery.json。收尾提交仅固化此回执和工作记录。

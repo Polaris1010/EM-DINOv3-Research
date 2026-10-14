@@ -1,0 +1,15 @@
+{
+  "stage": "MV-4C",
+  "status": "PLANNED",
+  "server_root": "/opt/data/3_117/tanghr/codex/mv4c_input_provenance_20261015",
+  "protocol": "configs/evaluation/MV-4C_protocol.json",
+  "regions": [
+    "guay21_vol1",
+    "muller21_high_c1"
+  ],
+  "previous_head": "8df29e29c63f6732d9f93e417d890e132966f567",
+  "historical_results_preserved": true,
+  "new_model_inference": false,
+  "new_training": false,
+  "report_path": "docs/MV4C_input_provenance_report.md"
+}

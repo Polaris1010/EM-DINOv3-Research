@@ -1,0 +1,34 @@
+{
+  "stage": "MV-4C",
+  "type": "targeted input provenance check",
+  "regions": [
+    {
+      "region_id": "guay21_vol1",
+      "original_image": "/opt/data/3_117/tanghr/codex/mv4c_input_provenance_20261015/originals/guay_eval_original.tif",
+      "figure_planes": [
+        1,
+        12
+      ]
+    },
+    {
+      "region_id": "muller21_high_c1",
+      "original_image": null,
+      "figure_planes": [
+        525,
+        548
+      ]
+    }
+  ],
+  "source_images_readonly": true,
+  "model_probabilities": "reuse only MV4B Official-MitoNet-Semantic-v1 float32 arrays",
+  "inference_performed": false,
+  "training_performed": false,
+  "threshold_tuned": false,
+  "scale_searched": false,
+  "geometric_registration_searched": false,
+  "full_voxel_check": "same ZYX coordinates: current Zarr img vs actual input cache; Zarr mito>0 vs cachedGT; verify cache bytes hash equals recorded probability input hash",
+  "raw_check": "Only actual pre-ingest image or author-released original allowed; verify native shape and exact official to_uint8 reproduction without axis/offset optimization. Missing originals remain UNVERIFIED and visibly missing in figures.",
+  "figure_selection": "reuse previous MV4/MV4B manual plane and native middle plane, no new worst-score selection",
+  "only_cpu": true,
+  "limits": "This does not diagnose model causally or tune intensity/scale. Whole original TIFF/H5 is distinct from a TIFF exported from Zarr. Source GT alignment before ingest requires original label pixels; current Zarr-to-cache alignment does not certify them."
+}

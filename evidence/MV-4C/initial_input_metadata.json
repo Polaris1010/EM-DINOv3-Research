@@ -1,0 +1,340 @@
+{
+  "observed_at_utc": "2026-10-14T16:29:02.715618+00:00",
+  "regions": {
+    "guay21_vol1": {
+      "catalog": {
+        "dataset_id": "guay21",
+        "label_type": "instance",
+        "modality": "SBF-SEM",
+        "n_instances": 88,
+        "normalization": "uint16->uint8(p0.5=35752,p99.5=49283)",
+        "organ": "Blood/platelet",
+        "provenance": "original",
+        "shape_zyx": [
+          24,
+          800,
+          800
+        ],
+        "source": {
+          "im": "/projects/weilab/dataset/mito/MitoLE/guay21/vol1_im.h5",
+          "mito": "/projects/weilab/dataset/mito/MitoLE/guay21/vol1_mito.h5"
+        },
+        "species": "Human",
+        "tissue": "platelet",
+        "volume_id": "guay21_vol1",
+        "voxel_nm": [
+          10.0,
+          10.0,
+          50.0
+        ],
+        "zarr": "data/guay21/vol1.zarr"
+      },
+      "zarr_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/guay21/vol1.zarr",
+      "zattrs": {
+        "mitoverse": {
+          "dataset_id": "guay21",
+          "label_type": "instance",
+          "modality": "SBF-SEM",
+          "n_instances": 88,
+          "normalization": "uint16->uint8(p0.5=35752,p99.5=49283)",
+          "organ": "Blood/platelet",
+          "provenance": "instance_proofread",
+          "shape_zyx": [
+            24,
+            800,
+            800
+          ],
+          "source": {
+            "im": "/projects/weilab/dataset/mito/MitoLE/guay21/vol1_im.h5",
+            "mito": "/projects/weilab/dataset/mito/MitoLE/guay21/vol1_mito.h5"
+          },
+          "species": "Human",
+          "tissue": "platelet",
+          "volume_id": "guay21_vol1",
+          "voxel_nm": [
+            10.0,
+            10.0,
+            50.0
+          ]
+        }
+      },
+      "arrays": {
+        "img": {
+          "chunks": [
+            24,
+            512,
+            512
+          ],
+          "compressor": {
+            "blocksize": 0,
+            "clevel": 5,
+            "cname": "zstd",
+            "id": "blosc",
+            "shuffle": 1
+          },
+          "dtype": "|u1",
+          "fill_value": 0,
+          "filters": null,
+          "order": "C",
+          "shape": [
+            24,
+            800,
+            800
+          ],
+          "zarr_format": 2
+        },
+        "mito": {
+          "chunks": [
+            24,
+            512,
+            512
+          ],
+          "compressor": {
+            "blocksize": 0,
+            "clevel": 5,
+            "cname": "zstd",
+            "id": "blosc",
+            "shuffle": 1
+          },
+          "dtype": "|u1",
+          "fill_value": 0,
+          "filters": null,
+          "order": "C",
+          "shape": [
+            24,
+            800,
+            800
+          ],
+          "zarr_format": 2
+        }
+      },
+      "original_paths": {
+        "im": {
+          "path": "/projects/weilab/dataset/mito/MitoLE/guay21/vol1_im.h5",
+          "exists": false
+        },
+        "mito": {
+          "path": "/projects/weilab/dataset/mito/MitoLE/guay21/vol1_mito.h5",
+          "exists": false
+        }
+      },
+      "cache": {
+        "id": "guay21_vol1",
+        "volume_id": "guay21_vol1",
+        "source_id": "guay21",
+        "supervised_role": "dev",
+        "paths": {
+          "image": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/cache/guay21_vol1/image.npy",
+          "label": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/cache/guay21_vol1/label.npy"
+        },
+        "offsets": [
+          [
+            0,
+            24
+          ],
+          [
+            0,
+            800
+          ],
+          [
+            0,
+            800
+          ]
+        ],
+        "shape_zyx": [
+          24,
+          800,
+          800
+        ],
+        "valid_path": null,
+        "valid_voxels": 15360000,
+        "valid_mask_policy": "complete_declared_no_ignore",
+        "region_zyx": [
+          [
+            0,
+            24
+          ],
+          [
+            0,
+            800
+          ],
+          [
+            0,
+            800
+          ]
+        ],
+        "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+        "reused_read_only": true
+      },
+      "probability_exists": true
+    },
+    "muller21_high_c1": {
+      "catalog": {
+        "dataset_id": "muller21",
+        "label_type": "instance",
+        "modality": "FIB-SEM",
+        "n_instances": 359,
+        "normalization": "uint8(passthrough)",
+        "organ": "Pancreas",
+        "provenance": "ours_proofread",
+        "shape_zyx": [
+          1097,
+          699,
+          760
+        ],
+        "source": {
+          "im": "/projects/weilab/liupeng/data/raw/mito/betaSeg/high_c1_im.tiff",
+          "mito": "/projects/weilab/liupeng/data/raw/mito/betaSeg/high_c1_mito.tiff"
+        },
+        "species": "Mouse",
+        "tissue": "pancreas (beta cells)",
+        "volume_id": "muller21_high_c1",
+        "voxel_nm": [
+          16.0,
+          16.0,
+          16.0
+        ],
+        "zarr": "data/muller21/high_c1.zarr"
+      },
+      "zarr_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/muller21/high_c1.zarr",
+      "zattrs": {
+        "mitoverse": {
+          "dataset_id": "muller21",
+          "label_type": "instance",
+          "modality": "FIB-SEM",
+          "n_instances": 359,
+          "normalization": "uint8(passthrough)",
+          "organ": "Pancreas",
+          "provenance": "binary_conversion_proofread",
+          "shape_zyx": [
+            1097,
+            699,
+            760
+          ],
+          "source": {
+            "im": "/projects/weilab/liupeng/data/raw/mito/betaSeg/high_c1_im.tiff",
+            "mito": "/projects/weilab/liupeng/data/raw/mito/betaSeg/high_c1_mito.tiff"
+          },
+          "species": "Mouse",
+          "tissue": "pancreas (beta cells)",
+          "volume_id": "muller21_high_c1",
+          "voxel_nm": [
+            16.0,
+            16.0,
+            16.0
+          ]
+        }
+      },
+      "arrays": {
+        "img": {
+          "chunks": [
+            64,
+            512,
+            512
+          ],
+          "compressor": {
+            "blocksize": 0,
+            "clevel": 5,
+            "cname": "zstd",
+            "id": "blosc",
+            "shuffle": 1
+          },
+          "dtype": "|u1",
+          "fill_value": 0,
+          "filters": null,
+          "order": "C",
+          "shape": [
+            1097,
+            699,
+            760
+          ],
+          "zarr_format": 2
+        },
+        "mito": {
+          "chunks": [
+            64,
+            512,
+            512
+          ],
+          "compressor": {
+            "blocksize": 0,
+            "clevel": 5,
+            "cname": "zstd",
+            "id": "blosc",
+            "shuffle": 1
+          },
+          "dtype": "<u2",
+          "fill_value": 0,
+          "filters": null,
+          "order": "C",
+          "shape": [
+            1097,
+            699,
+            760
+          ],
+          "zarr_format": 2
+        }
+      },
+      "original_paths": {
+        "im": {
+          "path": "/projects/weilab/liupeng/data/raw/mito/betaSeg/high_c1_im.tiff",
+          "exists": false
+        },
+        "mito": {
+          "path": "/projects/weilab/liupeng/data/raw/mito/betaSeg/high_c1_mito.tiff",
+          "exists": false
+        }
+      },
+      "cache": {
+        "id": "muller21_high_c1",
+        "volume_id": "muller21_high_c1",
+        "source_id": "muller21",
+        "supervised_role": "dev",
+        "paths": {
+          "image": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/cache/muller21_high_c1/image.npy",
+          "label": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/cache/muller21_high_c1/label.npy"
+        },
+        "offsets": [
+          [
+            0,
+            1097
+          ],
+          [
+            0,
+            699
+          ],
+          [
+            0,
+            760
+          ]
+        ],
+        "shape_zyx": [
+          1097,
+          699,
+          760
+        ],
+        "valid_path": null,
+        "valid_voxels": 582770280,
+        "valid_mask_policy": "complete_declared_no_ignore",
+        "region_zyx": [
+          [
+            0,
+            1097
+          ],
+          [
+            0,
+            699
+          ],
+          [
+            0,
+            760
+          ]
+        ],
+        "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+        "reused_read_only": true
+      },
+      "probability_exists": true
+    }
+  },
+  "website_http": 200
+}

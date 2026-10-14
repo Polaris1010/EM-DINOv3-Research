@@ -1,0 +1,12 @@
+{
+  "status": "pilot_complete",
+  "mode": "pilot",
+  "expected_regions": 4,
+  "inferred_regions": 4,
+  "scored_regions": 0,
+  "pilot_path_comparisons": 4,
+  "historical_mv3_mv4_unchanged": true,
+  "gpu0_used": false,
+  "website_http_after": 200,
+  "further_experiments_started": false
+}

@@ -1,0 +1,63 @@
+{
+  "status": "complete",
+  "stage": "MV-4B",
+  "model": "Official-MitoNet-Semantic-v1",
+  "region_id": "casser20_kasthuri++_train__dev",
+  "source_id": "casser20",
+  "shape_zyx": [
+    17,
+    806,
+    732
+  ],
+  "native_region_zyx": [
+    [
+      68,
+      85
+    ],
+    [
+      0,
+      806
+    ],
+    [
+      0,
+      732
+    ]
+  ],
+  "input_cache": "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/cache/casser20_kasthuri++_train/image.npy",
+  "input_image_sha256": "43279674e2d7b3a9579887d3808a9ae334ea57719e0c898c9080b1c677f837b5",
+  "protocol_sha256": "93f435e4fce0005e112fb2d5116114ffd8a4ab4a84b12494b97fd2e99bdb6281",
+  "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "mv4_protocol_sha256": "66db27f82a731c2edb81a74c681b2cd00a747abecfcc3c0c6e9f9082033ebe4b",
+  "checkpoint_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+  "physical_gpu": 3,
+  "gt_used_for_inference": false,
+  "all_native_z_inferred": true,
+  "tta": false,
+  "semantic_only": true,
+  "threshold": 0.5,
+  "probability_dtype": "float32",
+  "probability_source": "official RenderEngine.infer sem = logits_to_prob(sem_logits), captured during same official Engine2d forward before hardening",
+  "official_semantic_output_equals_probability_threshold_after_stuff_area": true,
+  "stuff_area": 64,
+  "small_foreground_planes_filtered_by_official_stuff_area": [],
+  "detected_centers_per_plane": [
+    38,
+    37,
+    35,
+    37,
+    39,
+    42,
+    37,
+    44,
+    46,
+    47,
+    47,
+    50,
+    46,
+    45,
+    53,
+    51,
+    50
+  ],
+  "seconds": 2.8741583824157715
+}

@@ -1,0 +1,17 @@
+{
+  "observed_at_utc": "2026-10-14T15:53:39.615602+00:00",
+  "extend_to_38": false,
+  "reason": "Four entire native volumes have zero semantic foreground loss in existing Panoptic. Raw>=0.5 and Panoptic metrics are identical. Muller official stuff_area64 removes329GT-background pixels, noTPchange; max Dice difference4.53e-12. Substantial path difference condition is not met.",
+  "pilot_regions": [
+    "casser20_kasthuri++_train__dev",
+    "guay21_vol1",
+    "muller21_high_c1",
+    "wei20_mitoEM-R__dev"
+  ],
+  "tested_hypothesis": "Panoptic suppression is not the cause of the Guay/high_c1 near-zero semantic Dice on tested images and parameters.",
+  "unresolved": "Input intensity/domain/scale mechanisms not manipulated; no new audit or parameter search.",
+  "no_gt_parameter_tuning": true,
+  "threshold": 0.5,
+  "semantic_regions_executed": 4,
+  "full38_semantic_not_executed": true
+}

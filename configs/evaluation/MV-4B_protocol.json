@@ -1,0 +1,52 @@
+{
+  "stage": "MV-4B",
+  "question": "Does official instance grouping explain the very low Guay/Muller binary coverage?",
+  "manifest": "configs/segmentation/MV-Generalist-v2/manifest.json",
+  "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "mv4_protocol_sha256": "66db27f82a731c2edb81a74c681b2cd00a747abecfcc3c0c6e9f9082033ebe4b",
+  "official_weight_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+  "confidence_thr": 0.5,
+  "normalization": {
+    "mean": 0.57571,
+    "std": 0.12765
+  },
+  "pilot_regions": [
+    "guay21_vol1",
+    "muller21_high_c1",
+    "casser20_kasthuri++_train__dev",
+    "wei20_mitoEM-R__dev"
+  ],
+  "pilot_selection": "One already specified near-zero-output source region each, plus Casser/Wei controls; Muller high_c1 is the first registered Muller dev region. No ranking or threshold optimization.",
+  "output_mode_change": {
+    "from": "official panoptic binary union",
+    "to": "official Engine2d semantic_only=True"
+  },
+  "fixed": {
+    "same_native_uint8_cache": true,
+    "scale": 1,
+    "tile_size": 0,
+    "padding": 16,
+    "nms_threshold": 0.1,
+    "nms_kernel": 3,
+    "coarse_boundaries": true,
+    "tta": false,
+    "no_gt_boxes": true,
+    "gt_not_used_for_inference": true,
+    "no_training": true,
+    "physical_gpus": [
+      1,
+      2,
+      3
+    ]
+  },
+  "probability_capture": "Tap unchanged official RenderEngine.infer sem during the same forward; preserve float32 native-cropped probability. Save raw >=0.5 and official Semantic Only separately because official stuff_area64 can remove foreground on near-empty planes.",
+  "expansion_rule": "After the four complete regions, record whether semantic/panoptic output-path differences are substantial. Extend once to the unchanged38 dev regions only if supported; do not choose settings from GT Dice.",
+  "max_runtime_hours_per_phase": 2,
+  "scope": "No intensity/polarity/scale search, new training or 3D inference; histories read-only.",
+  "limitations": [
+    "DINOv3 supervised adaptation on156 regions versus released MitoNet not adapted to these labels; original training overlap unverified.",
+    "B100 transductive exposure; not unseen-image/equal-budget method comparison.",
+    "Han whole GT per user; Turner physical spacing caveat retained.",
+    "Semantic Only is semantic coverage; no AP/PQ or3D tracking claim."
+  ]
+}

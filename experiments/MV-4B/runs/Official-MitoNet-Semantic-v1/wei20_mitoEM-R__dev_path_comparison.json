@@ -1,0 +1,869 @@
+{
+  "stage": "MV-4B",
+  "model": "Official-MitoNet-Semantic-v1",
+  "region_id": "wei20_mitoEM-R__dev",
+  "source_id": "wei20",
+  "volume_id": "wei20_mitoEM-R",
+  "semantic": {
+    "tp": 96072838,
+    "fp": 4467828,
+    "fn": 8698083,
+    "tn": 1568482851,
+    "valid_voxels": 1677721600,
+    "gt_foreground_voxels": 104770921,
+    "prediction_foreground_voxels": 100540666,
+    "dice": 0.935873512097493,
+    "precision": 0.9555619812584094,
+    "recall": 0.9169799891326716,
+    "predicted_foreground_fraction": 0.05992690682411194
+  },
+  "raw_threshold": {
+    "tp": 96072838,
+    "fp": 4467828,
+    "fn": 8698083,
+    "tn": 1568482851,
+    "valid_voxels": 1677721600,
+    "gt_foreground_voxels": 104770921,
+    "prediction_foreground_voxels": 100540666,
+    "dice": 0.935873512097493,
+    "precision": 0.9555619812584094,
+    "recall": 0.9169799891326716,
+    "predicted_foreground_fraction": 0.05992690682411194
+  },
+  "panoptic": {
+    "tp": 96072838,
+    "fp": 4467828,
+    "fn": 8698083,
+    "tn": 1568482851,
+    "valid_voxels": 1677721600,
+    "gt_foreground_voxels": 104770921,
+    "prediction_foreground_voxels": 100540666,
+    "dice": 0.935873512097493,
+    "precision": 0.9555619812584094,
+    "recall": 0.9169799891326716,
+    "predicted_foreground_fraction": 0.05992690682411194
+  },
+  "semantic_minus_panoptic_dice": 0.0,
+  "semantic_foreground_lost_in_panoptic": 0,
+  "lost_semantic_foreground_fraction": 0.0,
+  "panoptic_foreground_outside_semantic": 0,
+  "semantic_true_positive_lost_in_panoptic": 0,
+  "lost_planes": 0,
+  "zero_center_planes": 0,
+  "plane_stats": [
+    {
+      "z_local": 0,
+      "semantic_foreground": 998560,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 383,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 1,
+      "semantic_foreground": 987286,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 368,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 2,
+      "semantic_foreground": 933626,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 371,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 3,
+      "semantic_foreground": 943997,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 386,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 4,
+      "semantic_foreground": 941487,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 411,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 5,
+      "semantic_foreground": 882795,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 388,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 6,
+      "semantic_foreground": 909821,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 397,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 7,
+      "semantic_foreground": 928861,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 395,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 8,
+      "semantic_foreground": 904112,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 387,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 9,
+      "semantic_foreground": 891930,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 392,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 10,
+      "semantic_foreground": 907246,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 399,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 11,
+      "semantic_foreground": 896597,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 390,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 12,
+      "semantic_foreground": 894117,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 374,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 13,
+      "semantic_foreground": 882290,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 379,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 14,
+      "semantic_foreground": 901759,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 400,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 15,
+      "semantic_foreground": 916818,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 400,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 16,
+      "semantic_foreground": 931739,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 409,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 17,
+      "semantic_foreground": 936745,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 400,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 18,
+      "semantic_foreground": 947029,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 396,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 19,
+      "semantic_foreground": 958812,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 407,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 20,
+      "semantic_foreground": 948035,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 387,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 21,
+      "semantic_foreground": 992941,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 411,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 22,
+      "semantic_foreground": 1012183,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 428,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 23,
+      "semantic_foreground": 1019144,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 417,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 24,
+      "semantic_foreground": 1019144,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 417,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 25,
+      "semantic_foreground": 968830,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 401,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 26,
+      "semantic_foreground": 999195,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 429,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 27,
+      "semantic_foreground": 995670,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 438,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 28,
+      "semantic_foreground": 1035672,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 428,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 29,
+      "semantic_foreground": 1035952,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 434,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 30,
+      "semantic_foreground": 1049794,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 441,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 31,
+      "semantic_foreground": 1069612,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 447,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 32,
+      "semantic_foreground": 1071306,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 431,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 33,
+      "semantic_foreground": 1050264,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 424,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 34,
+      "semantic_foreground": 1030941,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 415,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 35,
+      "semantic_foreground": 1031135,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 408,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 36,
+      "semantic_foreground": 1058144,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 415,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 37,
+      "semantic_foreground": 1040051,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 401,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 38,
+      "semantic_foreground": 1036520,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 416,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 39,
+      "semantic_foreground": 1031274,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 413,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 40,
+      "semantic_foreground": 1045598,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 405,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 41,
+      "semantic_foreground": 1045167,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 423,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 42,
+      "semantic_foreground": 1036838,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 406,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 43,
+      "semantic_foreground": 1041136,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 406,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 44,
+      "semantic_foreground": 1043726,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 407,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 45,
+      "semantic_foreground": 1058896,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 417,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 46,
+      "semantic_foreground": 1060078,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 411,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 47,
+      "semantic_foreground": 1069188,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 423,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 48,
+      "semantic_foreground": 1069188,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 423,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 49,
+      "semantic_foreground": 1085341,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 424,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 50,
+      "semantic_foreground": 1071871,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 414,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 51,
+      "semantic_foreground": 1071398,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 401,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 52,
+      "semantic_foreground": 1066190,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 409,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 53,
+      "semantic_foreground": 1063502,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 419,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 54,
+      "semantic_foreground": 1043055,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 400,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 55,
+      "semantic_foreground": 1024791,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 412,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 56,
+      "semantic_foreground": 1029565,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 406,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 57,
+      "semantic_foreground": 999333,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 377,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 58,
+      "semantic_foreground": 1009462,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 382,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 59,
+      "semantic_foreground": 1009462,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 382,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 60,
+      "semantic_foreground": 990274,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 390,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 61,
+      "semantic_foreground": 992063,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 376,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 62,
+      "semantic_foreground": 1016312,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 381,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 63,
+      "semantic_foreground": 1006662,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 396,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 64,
+      "semantic_foreground": 1023127,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 389,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 65,
+      "semantic_foreground": 1009981,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 378,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 66,
+      "semantic_foreground": 1040345,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 382,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 67,
+      "semantic_foreground": 1030770,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 399,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 68,
+      "semantic_foreground": 1013428,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 386,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 69,
+      "semantic_foreground": 933246,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 380,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 70,
+      "semantic_foreground": 921405,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 393,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 71,
+      "semantic_foreground": 994658,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 381,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 72,
+      "semantic_foreground": 1010056,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 409,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 73,
+      "semantic_foreground": 1024594,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 424,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 74,
+      "semantic_foreground": 1012359,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 407,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 75,
+      "semantic_foreground": 1029929,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 416,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 76,
+      "semantic_foreground": 1031700,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 412,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 77,
+      "semantic_foreground": 1038582,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 419,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 78,
+      "semantic_foreground": 1024123,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 406,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 79,
+      "semantic_foreground": 1026458,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 418,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 80,
+      "semantic_foreground": 1026458,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 418,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 81,
+      "semantic_foreground": 1039719,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 400,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 82,
+      "semantic_foreground": 1054187,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 400,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 83,
+      "semantic_foreground": 1060334,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 411,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 84,
+      "semantic_foreground": 1043989,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 404,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 85,
+      "semantic_foreground": 1041757,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 388,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 86,
+      "semantic_foreground": 1023563,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 399,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 87,
+      "semantic_foreground": 1023563,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 399,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 88,
+      "semantic_foreground": 1007180,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 391,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 89,
+      "semantic_foreground": 1020651,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 403,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 90,
+      "semantic_foreground": 1008645,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 422,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 91,
+      "semantic_foreground": 1021463,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 413,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 92,
+      "semantic_foreground": 1007911,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 404,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 93,
+      "semantic_foreground": 1016090,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 400,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 94,
+      "semantic_foreground": 999265,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 386,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 95,
+      "semantic_foreground": 994060,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 372,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 96,
+      "semantic_foreground": 1003963,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 403,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 97,
+      "semantic_foreground": 1008546,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 397,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 98,
+      "semantic_foreground": 999899,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 389,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 99,
+      "semantic_foreground": 1034132,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 412,
+      "lost_fraction": 0.0
+    }
+  ],
+  "valid_mask_policy": "complete_declared_no_ignore",
+  "spacing_status": "official_ingest_native_grid",
+  "spacing_zyx_nm": [
+    30.0,
+    8.0,
+    8.0
+  ],
+  "protocol_sha256": "93f435e4fce0005e112fb2d5116114ffd8a4ab4a84b12494b97fd2e99bdb6281",
+  "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "checkpoint_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+  "tta": false,
+  "physical_gpu": 1,
+  "old_panoptic_metrics_unchanged": true,
+  "distance_metrics_computed": false
+}

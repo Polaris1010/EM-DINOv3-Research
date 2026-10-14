@@ -1,0 +1,1 @@
+Unmodified evidence snapshots from the official PyPI empanada-dl0.1.7 wheel. SHA values and archive identity are in evidence/MV-4B/official_output_path_sources.json. Runtime imports the unchanged MV4 installation; these copies do not replace it. Full official release license is preserved at ../../mv4/upstream/empanada_release_LICENSE.txt.

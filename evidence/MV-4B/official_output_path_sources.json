@@ -1,0 +1,14 @@
+{
+  "engines_release_017.py": {
+    "sha256": "cc1d138481b10cf63c3a517a5dbdfc55edc4633da12c772618ced846162c0ebd",
+    "wheel_sha256": "405518287dbf9f41d1d7c1b092a16feb4d87d995c1b4a9c3ec38d3f9b37532d4",
+    "source": "empanada-dl0.1.7 official wheel, empanada/inference/engines.py",
+    "executed_copy": "MV4 reused installation; this local file is evidence only"
+  },
+  "postprocess_release_017.py": {
+    "sha256": "08c5b1fb0a7dc54c732866ac0fec93ce7292a51eb034b69b98e4695b4fb4f833",
+    "wheel_sha256": "405518287dbf9f41d1d7c1b092a16feb4d87d995c1b4a9c3ec38d3f9b37532d4",
+    "source": "empanada-dl0.1.7 official wheel, empanada/inference/postprocess.py",
+    "executed_copy": "MV4 reused installation; this local file is evidence only"
+  }
+}

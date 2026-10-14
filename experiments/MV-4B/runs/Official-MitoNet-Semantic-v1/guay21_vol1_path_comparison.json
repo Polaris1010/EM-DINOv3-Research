@@ -1,0 +1,261 @@
+{
+  "stage": "MV-4B",
+  "model": "Official-MitoNet-Semantic-v1",
+  "region_id": "guay21_vol1",
+  "source_id": "guay21",
+  "volume_id": "guay21_vol1",
+  "semantic": {
+    "tp": 4035,
+    "fp": 101234,
+    "fn": 456912,
+    "tn": 14797819,
+    "valid_voxels": 15360000,
+    "gt_foreground_voxels": 460947,
+    "prediction_foreground_voxels": 105269,
+    "dice": 0.014252511409073569,
+    "precision": 0.03833037266431713,
+    "recall": 0.008753717889475363,
+    "predicted_foreground_fraction": 0.006853450520833334
+  },
+  "raw_threshold": {
+    "tp": 4035,
+    "fp": 101234,
+    "fn": 456912,
+    "tn": 14797819,
+    "valid_voxels": 15360000,
+    "gt_foreground_voxels": 460947,
+    "prediction_foreground_voxels": 105269,
+    "dice": 0.014252511409073569,
+    "precision": 0.03833037266431713,
+    "recall": 0.008753717889475363,
+    "predicted_foreground_fraction": 0.006853450520833334
+  },
+  "panoptic": {
+    "tp": 4035,
+    "fp": 101234,
+    "fn": 456912,
+    "tn": 14797819,
+    "valid_voxels": 15360000,
+    "gt_foreground_voxels": 460947,
+    "prediction_foreground_voxels": 105269,
+    "dice": 0.014252511409073569,
+    "precision": 0.03833037266431713,
+    "recall": 0.008753717889475363,
+    "predicted_foreground_fraction": 0.006853450520833334
+  },
+  "semantic_minus_panoptic_dice": 0.0,
+  "semantic_foreground_lost_in_panoptic": 0,
+  "lost_semantic_foreground_fraction": 0.0,
+  "panoptic_foreground_outside_semantic": 0,
+  "semantic_true_positive_lost_in_panoptic": 0,
+  "lost_planes": 0,
+  "zero_center_planes": 0,
+  "plane_stats": [
+    {
+      "z_local": 0,
+      "semantic_foreground": 2032,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 7,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 1,
+      "semantic_foreground": 2864,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 7,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 2,
+      "semantic_foreground": 2801,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 6,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 3,
+      "semantic_foreground": 2398,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 8,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 4,
+      "semantic_foreground": 3655,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 8,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 5,
+      "semantic_foreground": 3281,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 9,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 6,
+      "semantic_foreground": 3928,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 14,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 7,
+      "semantic_foreground": 1465,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 11,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 8,
+      "semantic_foreground": 4169,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 12,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 9,
+      "semantic_foreground": 2812,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 14,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 10,
+      "semantic_foreground": 4042,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 13,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 11,
+      "semantic_foreground": 3739,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 9,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 12,
+      "semantic_foreground": 5205,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 8,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 13,
+      "semantic_foreground": 4803,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 12,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 14,
+      "semantic_foreground": 5998,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 10,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 15,
+      "semantic_foreground": 5296,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 9,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 16,
+      "semantic_foreground": 7364,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 11,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 17,
+      "semantic_foreground": 8109,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 12,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 18,
+      "semantic_foreground": 6948,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 11,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 19,
+      "semantic_foreground": 3552,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 11,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 20,
+      "semantic_foreground": 4293,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 13,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 21,
+      "semantic_foreground": 4748,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 13,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 22,
+      "semantic_foreground": 6220,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 12,
+      "lost_fraction": 0.0
+    },
+    {
+      "z_local": 23,
+      "semantic_foreground": 5547,
+      "semantic_lost_in_panoptic": 0,
+      "panoptic_outside_semantic": 0,
+      "detected_centers": 12,
+      "lost_fraction": 0.0
+    }
+  ],
+  "valid_mask_policy": "complete_declared_no_ignore",
+  "spacing_status": "official_ingest_native_grid",
+  "spacing_zyx_nm": [
+    50.0,
+    10.0,
+    10.0
+  ],
+  "protocol_sha256": "93f435e4fce0005e112fb2d5116114ffd8a4ab4a84b12494b97fd2e99bdb6281",
+  "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "checkpoint_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+  "tta": false,
+  "physical_gpu": 3,
+  "old_panoptic_metrics_unchanged": true,
+  "distance_metrics_computed": false
+}

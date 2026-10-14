@@ -1,0 +1,28 @@
+{
+  "stage": "MV-4B",
+  "status": "VERIFIED_COMPLETED",
+  "execution_state": "FOUR_REGION_COMPLETE_NO_EXTENSION_REQUIRED",
+  "server_root": "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014",
+  "protocol": "configs/evaluation/MV-4B_protocol.json",
+  "assets": "evidence/MV-4/official_assets.json",
+  "historical_mv4_commit": "ff19c034ebcc9f879ff1347e3d75f3325d210de8",
+  "report_path": "docs/MV4B_final_report.md",
+  "code_commit": "8a8b757b300a7dc485d5298925b9b50b38042bfb",
+  "no_training": true,
+  "pilot_regions": [
+    "guay21_vol1",
+    "muller21_high_c1",
+    "casser20_kasthuri++_train__dev",
+    "wei20_mitoEM-R__dev"
+  ],
+  "evaluated_regions": [
+    "casser20_kasthuri++_train__dev",
+    "guay21_vol1",
+    "muller21_high_c1",
+    "wei20_mitoEM-R__dev"
+  ],
+  "extended_to_38": false,
+  "metrics_path": "experiments/MV-4B/MV4B_path_comparison.csv",
+  "status_evidence": "evidence/MV-4B/pilot_status_20261014T155339Z.json",
+  "decision": "evidence/MV-4B/extension_decision.json"
+}

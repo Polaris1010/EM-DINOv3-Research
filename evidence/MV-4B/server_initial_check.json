@@ -1,0 +1,139 @@
+{
+  "mv4_status": {
+    "status": "complete",
+    "inferred_regions": 38,
+    "scored_regions": 38,
+    "sources": 12,
+    "dinov3_metric_rows_reused": 228,
+    "mitonet_metric_rows": 38,
+    "instance_outputs_retained": true,
+    "physical_gpus": [
+      1,
+      2,
+      3
+    ],
+    "gpu0_used": false,
+    "website_http_after": 200,
+    "mv3_inputs_unchanged": true,
+    "report": "MV4_final_report.md",
+    "further_experiments_started": false
+  },
+  "mv4_service": "MainPID=0\nResult=success\nActiveState=inactive\n",
+  "gpus": "0, GPU-e7d56fea-8409-6cf0-e2e7-ceda9fd00ec5, 3092 MiB, 0 %\n1, GPU-29591cdf-1498-85e8-bb8c-158082a53728, 464 MiB, 0 %\n2, GPU-794aaaef-6c72-f6ac-b6d0-a07ba3f76364, 464 MiB, 0 %\n3, GPU-5a68cc29-a13a-bf90-858e-079e14de807a, 0 MiB, 0 %\n",
+  "processes": "2470228, GPU-e7d56fea-8409-6cf0-e2e7-ceda9fd00ec5, 3086 MiB\n1971241, GPU-29591cdf-1498-85e8-bb8c-158082a53728, 458 MiB\n1971241, GPU-794aaaef-6c72-f6ac-b6d0-a07ba3f76364, 458 MiB\n",
+  "website_http": 200,
+  "disk_free_bytes": 290027632328704,
+  "mv3_status": {
+    "status": "complete",
+    "models": 2,
+    "decoder_seeds": 3,
+    "steps_per_run": 40000,
+    "regions_per_run": 38,
+    "sources": 12,
+    "metric_rows": 228,
+    "tta": false,
+    "physical_gpus": [
+      1,
+      2,
+      3
+    ],
+    "gpu0_used": false,
+    "website_http_after": 200,
+    "report": "MV3_final_report.md",
+    "further_experiments_started": false
+  },
+  "pilot_inputs": [
+    {
+      "id": "casser20_kasthuri++_train__dev",
+      "source_id": "casser20",
+      "shape_zyx": [
+        17,
+        806,
+        732
+      ],
+      "region_zyx": [
+        [
+          68,
+          85
+        ],
+        [
+          0,
+          806
+        ],
+        [
+          0,
+          732
+        ]
+      ]
+    },
+    {
+      "id": "guay21_vol1",
+      "source_id": "guay21",
+      "shape_zyx": [
+        24,
+        800,
+        800
+      ],
+      "region_zyx": [
+        [
+          0,
+          24
+        ],
+        [
+          0,
+          800
+        ],
+        [
+          0,
+          800
+        ]
+      ]
+    },
+    {
+      "id": "muller21_high_c1",
+      "source_id": "muller21",
+      "shape_zyx": [
+        1097,
+        699,
+        760
+      ],
+      "region_zyx": [
+        [
+          0,
+          1097
+        ],
+        [
+          0,
+          699
+        ],
+        [
+          0,
+          760
+        ]
+      ]
+    },
+    {
+      "id": "wei20_mitoEM-R__dev",
+      "source_id": "wei20",
+      "shape_zyx": [
+        100,
+        4096,
+        4096
+      ],
+      "region_zyx": [
+        [
+          400,
+          500
+        ],
+        [
+          0,
+          4096
+        ],
+        [
+          0,
+          4096
+        ]
+      ]
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+> MV4B定向复核已完成并停止：[最终补充报告](docs/MV4B_final_report.md)。四区域原语义0.5掩码与旧Panoptic逐像素相同，Guay/Müller未恢复；不扩展38。MV4全来源结果另保留：[MV4报告](docs/MV4_final_report.md)。当前分支codex/mv4b-semantic-panoptic，旧段落保留历史，先读START_HERE。
+
 > MV3 v2三seed最终结果已完成：[最终报告](docs/MV3_final_report.md)，P0 Dice 0.813741、B100 0.826449，配对Δ+0.012707。六组40k、228条指标、18个checkpoint；任务停止，没有自动新实验。
 
 > 当前协议为 **MV-Generalist-v2**。用户明确指定“取消 mask 限制，整幅 GT 参与 loss”；仅 Han24 跳过 annotation mask，整幅 GT 参与采样、loss 和开发指标。其他来源、划分、冻结 encoder、原版 Primus、匹配 seeds、共同 40k 预算与 TTA=OFF 保持原配置。旧 v1 已停止并完整保留，不能混入 v2 对照。

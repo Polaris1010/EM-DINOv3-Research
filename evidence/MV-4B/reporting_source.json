@@ -1,0 +1,14 @@
+{
+  "code_commit": "8a8b757b300a7dc485d5298925b9b50b38042bfb",
+  "source_files": {
+    "src/controller.py": "fc38cbbd94a7ce9fb0ff140f6959d5dd18d64b8604d72e5f34f77717cf4969cd",
+    "src/infer.py": "c3c573e5cbdfca4b4ab4066ccca204fbe9559c9f219038e7e313667d1c296d14",
+    "src/score.py": "d68e26f1f5e3ada2dd14b1cb69adfa1e1458616a9814dfda68e49567df6ff1d3",
+    "src/shared.py": "23d54a2043c410c1e0d30a9698ea48d16f1d28576da648c56dd32aad19c12fe8",
+    "MV4B_protocol.json": "93f435e4fce0005e112fb2d5116114ffd8a4ab4a84b12494b97fd2e99bdb6281"
+  },
+  "repository": "Polaris1010/EM-DINOv3-Research",
+  "branch": "codex/mv4b-semantic-panoptic",
+  "report_source_sha256": "2aa6b2309c2967f9763a7470b583bd079bbaf83eecd33841789ca45ca8b3b3c2",
+  "scope": "Pilot runtime code hash; report source added after pilot, CPU visualization only."
+}

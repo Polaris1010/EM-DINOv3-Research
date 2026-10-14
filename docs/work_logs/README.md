@@ -18,3 +18,5 @@
 - [MV3最终状态与自动收取](20261014_05_mv3_v2_terminal_collection.md)
 
 - [官方MitoNet同图像对照](20261014_08_mv4_official_mitonet.md)
+
+- [MV4B语义与Panoptic定向复核](20261014_09_mv4b_semantic_panoptic.md)

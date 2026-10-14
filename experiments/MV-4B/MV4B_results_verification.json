@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "four_entire_native_regions": true,
+  "semantic_regions": 4,
+  "comparison_rows": 32,
+  "no_full38_extension": true,
+  "panoptic_raw_probability_threshold_xor": 0,
+  "no_semantic_true_positive_loss": true,
+  "old_39_registry_entries_unchanged": true,
+  "historical_mv4_report_unchanged": true,
+  "historical_dinov3_and_panoptic_metrics_unchanged": true,
+  "gt_parameter_tuning": false
+}

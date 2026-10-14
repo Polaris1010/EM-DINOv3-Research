@@ -1,0 +1,1459 @@
+{
+  "sha256": {
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV-Generalist.json": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_protocol.json": "916ac9fbbeba6b3e131c4d2f106c9c7dd3044acedef323eafbf82d160f90bff3",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/STATUS.json": "6bb251c4b2f468b88311d68b2b6c44e7fab2c90cf56fcf7d3fc0e8e5ab1fc941",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_per_region_metrics.csv": "24a2545c3ee83b1239c9a377ec1ae8cb8be909074a04151fd7a9b41edfa004c0",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_protocol.json": "66db27f82a731c2edb81a74c681b2cd00a747abecfcc3c0c6e9f9082033ebe4b",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/STATUS.json": "5bd9b27bf9deae8fd1018d6bc5b627ff28cf468ca5a6bf50ba6b8a073b8a25b3",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_final_report.md": "f5a5d3268685f8251935a52ac2811fb69f3fc4479738cc547e8e14070d95795e",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_per_region_metrics.csv": "0136aa632de7932d3320c9a314cd64ca0ac759725dc0f150e4d34f1bc9e19d11",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_summary.json": "b96fd7b8bed72eb373ae5c84d5535c36c3dc1141d79bbcc0f8f3f248a56bef85",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop245_metrics.json": "47ef3fec21fc93c3e4b2ffe20bf64b42874a6828d23eeb180602bfce98f0a076",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop240_metrics.json": "8e2201c33a74a25042a5b0c6c414a143716a8b50e9a9dbcfa05d5e5314626cb3",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop237_metrics.json": "771e545a4feb29f8599bccef970082766328d8f3058fa9e1294b7d6d0754a9cc",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop79_metrics.json": "ed96f3a68853a9dd3ec9e1d41aa9ce2c3784db0b034cb1337c5e8083ac0d8479",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/kunduri22_train02_metrics.json": "4f134d98404cea494768962b7289dff6a9f93019d3248e7fc8a182c2782952ae",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop292_metrics.json": "e5ae4727fa4f2a103ea1d394404a50a2e73868347f70834ce97081fdff20483a",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol1_metrics.json": "fb37f9592c6c0cb7affd76557df7a66ef148516c4ab627e9bf62d5ef5ce21d99",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/xiao18_vol0__dev_metrics.json": "059951b5f9c38336e2e865e16393678a4a3f91ff3ec455e013bf40e4d97f1f25",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop258_metrics.json": "5d7460ba6818ea2236fb8ce77e973a7735a018cc5fdc2b29b439a9baa29a0084",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/casser20_kasthuri++_train__dev_metrics.json": "3baecca0cf0aa595cb6379e63881be72590fef1d802239b713a0d9590ff2d4b8",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol3_metrics.json": "c0d67f1d214fbb37768afad2a60f550bddece246def17e05dfa1d0cd3c18a72f",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop173_metrics.json": "78b5d51650d399bc5fd7cccf8f1bb1bf9a57e8b8a99584569987bce44eeb21c2",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol2_metrics.json": "18a18401722f197defaa364d0506bfa0171ec6b4e9bf31e9c2c4e078d58221ee",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop236_metrics.json": "b69522cdd7a5d5da04a4bc239a10afd3f247b6d34633c6e245bc712a76da74e2",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop174_metrics.json": "0a1b244946b3e6262c41e5377b6e302446222ab39cb7a23263dba0b7d27a179a",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol4_metrics.json": "f86ec1de3ba43f18a09514376af3c3d1502fae110bd01868084f75f796349f0b",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop78_metrics.json": "21edff81805a35cf922066a281239b0442f42df3034f8f8170ebad726eb426eb",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/jiang25_vol2_metrics.json": "fd22c9e019c9a8a983238880212e0858dc1c61479ddaf1312c941d069b4ee17a",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol0_metrics.json": "9626a1789526beb66f3d2233fd311a3298f48aea2c98c0f05fc6700259b5a2e5",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/wei20_mitoEM-R__dev_metrics.json": "e11eda9f37d5e1469af2ca2bf5675e43c2ae566df58b14d1fe0edff9ccd49524",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop255_metrics.json": "f798756b098391e15c5f3d0100478c88ce58383ca2962f37a8b1ec7244b7792e",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop252_metrics.json": "e572aa0e6bbdcd6ded616328ca1316a94ff7e776c16a1f8cc23b3d4ab810dac2",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/guay21_vol1_metrics.json": "558f6632005b87def1f6c302395bef9db291f3a6e65111af12342a69195ade54",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop234_metrics.json": "b54171ba6962123b4e6cbd09840efc1002291d3b87c9f0ce35633c3e74d5d733",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/muller21_low_c2_metrics.json": "07bb82abf0b9aae1199d23e07ae5e2c55666046e4b0cb84adab81d0ec76f1dd9",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop254_metrics.json": "174b88020717cb8b857f86bed9b41f8012274bb21b8f743ceb863807f322c7a8",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop256_metrics.json": "8481acaf72601ff82867f6244e78b162c8ad156ef8102ee0f088e8e9409e1e60",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop176_metrics.json": "dca21ab9f0877df5eca2e07225b69908a2028bb54cd5339d1912bcbe06eca37a",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/haberl18_vol1_metrics.json": "4778cb454605457d0c8628f755c6c0b6b810b5817c19207ff47b7d44f75310a7",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop248_metrics.json": "935c8917a5658eae87bd416079a11c78d3507dba5de68bf41bc3cb3c7acc06de",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/muller21_high_c1_metrics.json": "4cec75cc95b15033246e9179cf395fc0c3002fdff301737577a3cb8f47c965f6",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop185_metrics.json": "3e893a2a7cf5ab4576885cd5190826b9011f5908441783f996db741587c4a2d2",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_mus-nacc-1_recon-1_crop115_metrics.json": "58fa70b916ac635cd48011d2607c03398b10712a7da4ad641940983b2f479a84",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop238_metrics.json": "c4838f5f45796c3629cb2e323abca19d688f13cb893d5d10fb8dcd6e87b16497",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop291_metrics.json": "4c9a9eaff22d9ebe4ff9d9c64d228a9a05ef9a101e09b7dff9a9defc8168e480",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop239_metrics.json": "3e429f31f61eeda59f4d5fe21b44422b5e7c674c9667101ab5d0a8e700476ac9",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/mekuc20_fib1-4-3-0_metrics.json": "27f05dac549bde9e5589bc235dbb1cce9734eaac74a70761196f5102dd1a8f3d",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/han24_pos2_metrics.json": "d226ab113ef0a45771dfb5e2202e6775e94a984acee7f5994916cbaec3fd02f8",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop78_inference.json": "e2f8d6d04f286138cf8b8e1ac7d4eef471552c3e5fed0124158899595abbce53",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop291_inference.json": "ce9cb5f1e9a60136c6b2b2b072890a4461c0b63d46a52548557e908a8870c813",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop236_inference.json": "108e7625cc52f9b14fb9565d900954009fbda8f08a00c7a3bfd8eb13eea8653b",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop258_inference.json": "fcfcd9f82145b1c494bc270e90cc939e90ea8b0c2bab67311a0aa440409194db",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop173_inference.json": "8298e57c72c2078c7215d75b8856d06fce4163605ff6eda219e036e8fa5ea710",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop255_inference.json": "6997644e059893053eab86c844398f7a0a5bad90653af9923fd330b3d1c98f4d",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/muller21_high_c1_inference.json": "5313eedce5a449401873c0a2f254d9d268569baf07693c7c5cee3cac8a869a69",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop185_inference.json": "ea287624923558e7fa9fe1e82584bce2cc815a026805e798291ec9f367fec8df",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/guay21_vol1_inference.json": "7bfec73840c8d769a21e52e86e566019d7b6464d62069df8691720a488114dbd",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop79_inference.json": "9c9c07432291007a8f12edaeca7840d9e2407b4be1bda0c2af0f94ca0ee2e106",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_mus-nacc-1_recon-1_crop115_inference.json": "2eb95d1c4d8b3200c5c9672991a248c3023c4f5155d812117b0f4a84ed4838ae",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/kunduri22_train02_inference.json": "22dfc152f503b427a343d5f4eb195c40db0460611b3919f1ca0c992a11751208",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop252_inference.json": "f7aed6c3e816e9c35da6ffffb8c000afd25d2ed8353fb1cfe6b0f38d33c15359",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol4_inference.json": "2961bac6a9c2c47c9bb55c720004a1d33593ef681326f516273c8a99bca28937",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/wei20_mitoEM-R__dev_inference.json": "f702025f78cbee82d52a2288179e54a43b23cfe7c899f80b92996b6f36111f48",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop240_inference.json": "ca3de4fae54a74b0e332185cdc8f964ce5af7471d8978dda9117baa5e26f8985",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop174_inference.json": "79c394e322217913a0be6f003688b1da17d46f5bc53fead5a25e7782d6b17ac9",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/xiao18_vol0__dev_inference.json": "53797eb2ef788d68cac2185fb63afaa6e62b2f5e2e84f5583b15233fbd2fe854",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop239_inference.json": "007f2b020ac4134c2df8ff9ed12631886b5f1522b30383426bc99b0ec8f931f6",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/casser20_kasthuri++_train__dev_inference.json": "0d9741bd48aadfd1aaefaf553d7526fe21cec0a15562778efde2e89315471539",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/han24_pos2_inference.json": "f326e0842a1f30e4b4569399dd57e0180d6ee70ccbccd4c4ce634006bab4c19d",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop254_inference.json": "0c3d8c272605c929fc214a983a2c94faea22b41d9d86392739c03477d08b17a6",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop234_inference.json": "da2c83cb1ffa87a36646881f64a1d7d66b3319d89b21e82bc646a314dca2aaf9",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol1_inference.json": "46d37a386070c942e5d96a3e02b33a8018f5776c67ca05ac536920a300cc2120",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop256_inference.json": "1212d2a8986401ca5c511b66083ae6dd443fec52d539b3ed273b96e5a342a5ca",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop292_inference.json": "925e3dd1eab36231cda18629d6c24489ae73c1b5e7725f8784ee13baa55a10d7",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop238_inference.json": "2e8d8cc1e78a0bbdeaeb79ffcb39455dc5caede82a9259f644e2021de462b5b8",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol2_inference.json": "4a16552a10928862e1dc9c481d956f795d6fff76ab232b7833542267b778cab0",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol3_inference.json": "19d8a7ef8d134ab467b3fd4a7565899df00172c80ce96d342311ea06fbd2dc9b",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/haberl18_vol1_inference.json": "12c373c0b8d5080b2b88220ac9476cf46ea2d7de8d6815b332d71b7ccc8ccf42",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop245_inference.json": "0dcd540a95a31e75fb1ea4d8fa1b7cfb81f948f9568832ee97c97493ec55a4fb",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/jiang25_vol2_inference.json": "d59a674cf3d3c28fb2771f9d23a8e493a6711eba8509e3c7d620fdd60e8bf94a",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop237_inference.json": "fd918ed554603cd18ede0dad0e590f3a22879d3a73ef67efdf5b1e5829f6e87b",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop176_inference.json": "a9b549ebf02339e2f9e3ae60bf168c94247b8a250b688b5534e440da07e5fa7f",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/muller21_low_c2_inference.json": "0b0cab5f55133977d027a91c6ce5a3ad46fa2863e169e5b1cf7e266b12849e36",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/mekuc20_fib1-4-3-0_inference.json": "dff4eb4ce282eb4cab9b8bfc342af0e7139a91c45885263576052585db06d509",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop248_inference.json": "19567f10541b7414b82f469d333540614247b357fb41d7fec96fba94a8e058af",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol0_inference.json": "4f4f96a0cbbe435f72b4f29011f6fa2f6b96204bf3b0ca1f33999ca33f883dae"
+  },
+  "array_stat": {
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/haberl18_vol1_panoptic.npy": [
+      2621568,
+      1791989460360232163
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop79_instances.npy": [
+      7812628,
+      1791989564841843330
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop238_panoptic.npy": [
+      1607040128,
+      1791989559449506394
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop252_panoptic.npy": [
+      4000128,
+      1791989530614662823
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol2_panoptic.npy": [
+      209715328,
+      1791989592616866780
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/jiang25_vol2_panoptic.npy": [
+      400000128,
+      1791989519492528020
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/casser20_kasthuri++_train__dev_instances.npy": [
+      40119584,
+      1791989459323014748
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/han24_pos2_instances.npy": [
+      1876348404,
+      1791989505353915556
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol4_panoptic.npy": [
+      209715328,
+      1791989596698960754
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop252_instances.npy": [
+      4000128,
+      1791989530620618135
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop240_panoptic.npy": [
+      4000128,
+      1791989561116379711
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop239_prediction.npy": [
+      740128,
+      1791989575565300138
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol2_instances.npy": [
+      209715328,
+      1791989592979015167
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop173_panoptic.npy": [
+      9000128,
+      1791989562923111947
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop185_prediction.npy": [
+      2250128,
+      1791989581996211247
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop237_panoptic.npy": [
+      3840128,
+      1791989529713441255
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/kunduri22_train02_panoptic.npy": [
+      536871040,
+      1791989477186891690
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop240_instances.npy": [
+      4000128,
+      1791989561122452783
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop256_panoptic.npy": [
+      4000128,
+      1791989531403591904
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop254_panoptic.npy": [
+      4000128,
+      1791989577202656221
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop185_instances.npy": [
+      9000128,
+      1791989582002447130
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop248_panoptic.npy": [
+      4000128,
+      1791989576337578062
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/mekuc20_fib1-4-3-0_instances.npy": [
+      67108992,
+      1791989480681627662
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop292_instances.npy": [
+      4000128,
+      1791989577938816916
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop292_panoptic.npy": [
+      4000128,
+      1791989577932753312
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop252_prediction.npy": [
+      1000128,
+      1791989530616914502
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/wei20_mitoEM-R__dev_instances.npy": [
+      6710886528,
+      1791989646685797022
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop255_panoptic.npy": [
+      4000128,
+      1791989579294385869
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop254_prediction.npy": [
+      1000128,
+      1791989577205106384
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop291_prediction.npy": [
+      1000128,
+      1791989580346191266
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/kunduri22_train02_instances.npy": [
+      536871040,
+      1791989477357113258
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop248_prediction.npy": [
+      1000128,
+      1791989576340234302
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop245_panoptic.npy": [
+      2400128,
+      1791989578384433184
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop234_instances.npy": [
+      4000128,
+      1791989574782741966
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/casser20_kasthuri++_train__dev_panoptic.npy": [
+      40119584,
+      1791989459294747266
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop240_prediction.npy": [
+      1000128,
+      1791989561118949257
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop174_instances.npy": [
+      4000128,
+      1791989563785010389
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop239_instances.npy": [
+      2960128,
+      1791989575568327842
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop291_instances.npy": [
+      4000128,
+      1791989580349782969
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/haberl18_vol1_instances.npy": [
+      2621568,
+      1791989460365371979
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop238_prediction.npy": [
+      401760128,
+      1791989559608681248
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/wei20_mitoEM-R__dev_prediction.npy": [
+      1677721728,
+      1791989646610215714
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop174_prediction.npy": [
+      1000128,
+      1791989563781444066
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop245_prediction.npy": [
+      600128,
+      1791989578386407437
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/jiang25_vol2_prediction.npy": [
+      100000128,
+      1791989519521219570
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/muller21_high_c1_instances.npy": [
+      2331081248,
+      1791989573823013803
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop174_panoptic.npy": [
+      4000128,
+      1791989563778962538
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop78_instances.npy": [
+      13500128,
+      1791989583246779164
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop234_panoptic.npy": [
+      4000128,
+      1791989574775817469
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop292_prediction.npy": [
+      1000128,
+      1791989577935151090
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol2_prediction.npy": [
+      52428928,
+      1791989592643146945
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop248_instances.npy": [
+      4000128,
+      1791989576343578307
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol3_prediction.npy": [
+      52428928,
+      1791989574926346490
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop236_instances.npy": [
+      4000128,
+      1791989528974463063
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/guay21_vol1_panoptic.npy": [
+      61440128,
+      1791989459484126486
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/jiang25_vol2_instances.npy": [
+      400000128,
+      1791989519553553766
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_mus-nacc-1_recon-1_crop115_panoptic.npy": [
+      13500128,
+      1791989585028913056
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop176_instances.npy": [
+      4000128,
+      1791989581156330459
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop79_prediction.npy": [
+      1953253,
+      1791989564836176543
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/wei20_mitoEM-R__dev_panoptic.npy": [
+      6710886528,
+      1791989646590601788
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol0_panoptic.npy": [
+      209715328,
+      1791989588594416199
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol3_panoptic.npy": [
+      209715328,
+      1791989574891628923
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol0_prediction.npy": [
+      52428928,
+      1791989588622242093
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/haberl18_vol1_prediction.npy": [
+      655488,
+      1791989460362608388
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop258_prediction.npy": [
+      1000128,
+      1791989561957967046
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_mus-nacc-1_recon-1_crop115_instances.npy": [
+      13500128,
+      1791989585041232653
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/kunduri22_train02_prediction.npy": [
+      134217856,
+      1791989477220667205
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop176_prediction.npy": [
+      1000128,
+      1791989581153272103
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop236_panoptic.npy": [
+      4000128,
+      1791989528968636410
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop176_panoptic.npy": [
+      4000128,
+      1791989581150988132
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/muller21_high_c1_panoptic.npy": [
+      2331081248,
+      1791989572631586959
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/xiao18_vol0__dev_prediction.npy": [
+      31753696,
+      1791989578545220097
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/muller21_low_c2_prediction.npy": [
+      619418020,
+      1791989527374486578
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol4_instances.npy": [
+      209715328,
+      1791989596836633568
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol1_prediction.npy": [
+      52428928,
+      1791989568949313719
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/casser20_kasthuri++_train__dev_prediction.npy": [
+      10029992,
+      1791989459301913373
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/guay21_vol1_instances.npy": [
+      61440128,
+      1791989459528979557
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop258_instances.npy": [
+      4000128,
+      1791989561961428393
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/han24_pos2_panoptic.npy": [
+      1876348404,
+      1791989505159915539
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop173_instances.npy": [
+      9000128,
+      1791989562933322602
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop237_instances.npy": [
+      3840128,
+      1791989529720051169
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop245_instances.npy": [
+      2400128,
+      1791989578388821793
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop237_prediction.npy": [
+      960128,
+      1791989529716388492
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop256_prediction.npy": [
+      1000128,
+      1791989531407884528
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop185_panoptic.npy": [
+      9000128,
+      1791989581993774974
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/mekuc20_fib1-4-3-0_prediction.npy": [
+      16777344,
+      1791989480646918123
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol3_instances.npy": [
+      209715328,
+      1791989575014591407
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop239_panoptic.npy": [
+      2960128,
+      1791989575528277848
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop255_prediction.npy": [
+      1000128,
+      1791989579299519637
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/han24_pos2_prediction.npy": [
+      469087197,
+      1791989505210019562
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol1_instances.npy": [
+      209715328,
+      1791989569026155812
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/muller21_high_c1_prediction.npy": [
+      582770408,
+      1791989572872877687
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop173_prediction.npy": [
+      2250128,
+      1791989562927203371
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/xiao18_vol0__dev_panoptic.npy": [
+      127014400,
+      1791989578528246296
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop234_prediction.npy": [
+      1000128,
+      1791989574778969501
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop236_prediction.npy": [
+      1000128,
+      1791989528970901306
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/mekuc20_fib1-4-3-0_panoptic.npy": [
+      67108992,
+      1791989480636967005
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/guay21_vol1_prediction.npy": [
+      15360128,
+      1791989459495171755
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop79_panoptic.npy": [
+      7812628,
+      1791989564832490361
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop78_prediction.npy": [
+      3375128,
+      1791989583238134861
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop291_panoptic.npy": [
+      4000128,
+      1791989580343930610
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol4_prediction.npy": [
+      52428928,
+      1791989596725333936
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/xiao18_vol0__dev_instances.npy": [
+      127014400,
+      1791989578601326165
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop255_instances.npy": [
+      4000128,
+      1791989579303710509
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol1_panoptic.npy": [
+      209715328,
+      1791989568924579142
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/muller21_low_c2_panoptic.npy": [
+      2477671696,
+      1791989527314432001
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop238_instances.npy": [
+      1607040128,
+      1791989560235909421
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop256_instances.npy": [
+      4000128,
+      1791989531411599969
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop78_panoptic.npy": [
+      13500128,
+      1791989583233741758
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/muller21_low_c2_instances.npy": [
+      2477671696,
+      1791989527632496915
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_mus-nacc-1_recon-1_crop115_prediction.npy": [
+      3375128,
+      1791989585032673034
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop258_panoptic.npy": [
+      4000128,
+      1791989561955686542
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop254_instances.npy": [
+      4000128,
+      1791989577208506151
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol0_instances.npy": [
+      209715328,
+      1791989588726370165
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop239_prediction.npy": [
+      740128,
+      1791960056903859177
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop185_prediction.npy": [
+      2250128,
+      1791960100462768142
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop252_prediction.npy": [
+      1000128,
+      1791960069470890659
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop254_prediction.npy": [
+      1000128,
+      1791960071991023867
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop291_prediction.npy": [
+      1000128,
+      1791960087168402125
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop248_prediction.npy": [
+      1000128,
+      1791960066953424268
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop240_prediction.npy": [
+      1000128,
+      1791960079596331723
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop238_prediction.npy": [
+      401760128,
+      1791960448468526276
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/wei20_mitoEM-R__dev_prediction.npy": [
+      1677721728,
+      1791961873784082222
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop174_prediction.npy": [
+      1000128,
+      1791960089689278435
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop245_prediction.npy": [
+      600128,
+      1791960054717339765
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/jiang25_vol2_prediction.npy": [
+      100000128,
+      1791960252286572147
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop292_prediction.npy": [
+      1000128,
+      1791960077076006613
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/turner22_microns1_vol2_prediction.npy": [
+      52428928,
+      1791960185436478349
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/turner22_microns1_vol3_prediction.npy": [
+      52428928,
+      1791960202193025026
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop79_prediction.npy": [
+      1953253,
+      1791960095386095671
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/turner22_microns1_vol0_prediction.npy": [
+      52428928,
+      1791960151976322070
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/haberl18_vol1_prediction.npy": [
+      655488,
+      1791960055024519484
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop258_prediction.npy": [
+      1000128,
+      1791960084641245473
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/kunduri22_train02_prediction.npy": [
+      134217856,
+      1791960295045027925
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop176_prediction.npy": [
+      1000128,
+      1791960092207415481
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/xiao18_vol0__dev_prediction.npy": [
+      31753696,
+      1791960135263310530
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/muller21_low_c2_prediction.npy": [
+      619418020,
+      1791960998069047044
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/turner22_microns1_vol1_prediction.npy": [
+      52428928,
+      1791960168712887256
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/casser20_kasthuri++_train__dev_prediction.npy": [
+      10029992,
+      1791960111319858221
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop237_prediction.npy": [
+      960128,
+      1791960059323199969
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop256_prediction.npy": [
+      1000128,
+      1791960074509147246
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/mekuc20_fib1-4-3-0_prediction.npy": [
+      16777344,
+      1791960123682392440
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop255_prediction.npy": [
+      1000128,
+      1791960082118035279
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/han24_pos2_prediction.npy": [
+      469087197,
+      1791960611061447044
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/muller21_high_c1_prediction.npy": [
+      582770408,
+      1791960794062907967
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop173_prediction.npy": [
+      2250128,
+      1791960097926678661
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop234_prediction.npy": [
+      1000128,
+      1791960061850798119
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop236_prediction.npy": [
+      1000128,
+      1791960064368851314
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/guay21_vol1_prediction.npy": [
+      15360128,
+      1791960117183756578
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop78_prediction.npy": [
+      3375128,
+      1791960104249789803
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/turner22_microns1_vol4_prediction.npy": [
+      52428928,
+      1791960218919406758
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_mus-nacc-1_recon-1_crop115_prediction.npy": [
+      3375128,
+      1791960108044752128
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop239_prediction.npy": [
+      740128,
+      1791960067690034319
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop185_prediction.npy": [
+      2250128,
+      1791960112812281707
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop252_prediction.npy": [
+      1000128,
+      1791960080746878386
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop254_prediction.npy": [
+      1000128,
+      1791960083352394847
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop291_prediction.npy": [
+      1000128,
+      1791960099072637645
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop248_prediction.npy": [
+      1000128,
+      1791960078128219796
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop240_prediction.npy": [
+      1000128,
+      1791960091188879503
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop238_prediction.npy": [
+      401760128,
+      1791960462029000147
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/wei20_mitoEM-R__dev_prediction.npy": [
+      1677721728,
+      1791961634017341760
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop174_prediction.npy": [
+      1000128,
+      1791960101695038451
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop245_prediction.npy": [
+      600128,
+      1791960065371313791
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/jiang25_vol2_prediction.npy": [
+      100000128,
+      1791960265272542248
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop292_prediction.npy": [
+      1000128,
+      1791960088577665695
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/turner22_microns1_vol2_prediction.npy": [
+      52428928,
+      1791960198355629529
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/turner22_microns1_vol3_prediction.npy": [
+      52428928,
+      1791960215115139476
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop79_prediction.npy": [
+      1953253,
+      1791960107562227139
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/turner22_microns1_vol0_prediction.npy": [
+      52428928,
+      1791960164855850632
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/haberl18_vol1_prediction.npy": [
+      655488,
+      1791960065669400832
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop258_prediction.npy": [
+      1000128,
+      1791960096457412850
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/kunduri22_train02_prediction.npy": [
+      134217856,
+      1791960308136485949
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop176_prediction.npy": [
+      1000128,
+      1791960104307514484
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/xiao18_vol0__dev_prediction.npy": [
+      31753696,
+      1791960148136664543
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/muller21_low_c2_prediction.npy": [
+      619418020,
+      1791961009340931450
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/turner22_microns1_vol1_prediction.npy": [
+      52428928,
+      1791960181600231044
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/casser20_kasthuri++_train__dev_prediction.npy": [
+      10029992,
+      1791960123965038700
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop237_prediction.npy": [
+      960128,
+      1791960070206311707
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop256_prediction.npy": [
+      1000128,
+      1791960085970698029
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/mekuc20_fib1-4-3-0_prediction.npy": [
+      16777344,
+      1791960136591702737
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop255_prediction.npy": [
+      1000128,
+      1791960093832678306
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/han24_pos2_prediction.npy": [
+      469087197,
+      1791960624704239600
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/muller21_high_c1_prediction.npy": [
+      582770408,
+      1791960806326810775
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop173_prediction.npy": [
+      2250128,
+      1791960110193299977
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop234_prediction.npy": [
+      1000128,
+      1791960072837060621
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop236_prediction.npy": [
+      1000128,
+      1791960075513903585
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/guay21_vol1_prediction.npy": [
+      15360128,
+      1791960129840302005
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop78_prediction.npy": [
+      3375128,
+      1791960116742831802
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/turner22_microns1_vol4_prediction.npy": [
+      52428928,
+      1791960231867233185
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_mus-nacc-1_recon-1_crop115_prediction.npy": [
+      3375128,
+      1791960120685607294
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop239_prediction.npy": [
+      740128,
+      1791954856926375582
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop185_prediction.npy": [
+      2250128,
+      1791954901236119867
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop252_prediction.npy": [
+      1000128,
+      1791954869661799947
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop254_prediction.npy": [
+      1000128,
+      1791954872342116101
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop291_prediction.npy": [
+      1000128,
+      1791954887726026609
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop248_prediction.npy": [
+      1000128,
+      1791954867089027827
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop240_prediction.npy": [
+      1000128,
+      1791954880035501534
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop238_prediction.npy": [
+      401760128,
+      1791955248560790317
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/wei20_mitoEM-R__dev_prediction.npy": [
+      1677721728,
+      1791956432450531893
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop174_prediction.npy": [
+      1000128,
+      1791954890289803169
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop245_prediction.npy": [
+      600128,
+      1791954854731411677
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/jiang25_vol2_prediction.npy": [
+      100000128,
+      1791955052691439410
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop292_prediction.npy": [
+      1000128,
+      1791954877467641724
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/turner22_microns1_vol2_prediction.npy": [
+      52428928,
+      1791954986108687865
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/turner22_microns1_vol3_prediction.npy": [
+      52428928,
+      1791955002769098611
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop79_prediction.npy": [
+      1953253,
+      1791954896046578459
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/turner22_microns1_vol0_prediction.npy": [
+      52428928,
+      1791954952799621234
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/haberl18_vol1_prediction.npy": [
+      655488,
+      1791954855021578405
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop258_prediction.npy": [
+      1000128,
+      1791954885168117953
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/kunduri22_train02_prediction.npy": [
+      134217856,
+      1791955095313532315
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop176_prediction.npy": [
+      1000128,
+      1791954892844739315
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/xiao18_vol0__dev_prediction.npy": [
+      31753696,
+      1791954936108697515
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/muller21_low_c2_prediction.npy": [
+      619418020,
+      1791955796332182057
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/turner22_microns1_vol1_prediction.npy": [
+      52428928,
+      1791954969444485286
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/casser20_kasthuri++_train__dev_prediction.npy": [
+      10029992,
+      1791954912231528222
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop237_prediction.npy": [
+      960128,
+      1791954859389732173
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop256_prediction.npy": [
+      1000128,
+      1791954874900167287
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/mekuc20_fib1-4-3-0_prediction.npy": [
+      16777344,
+      1791954924583594613
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop255_prediction.npy": [
+      1000128,
+      1791954882598969551
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/han24_pos2_prediction.npy": [
+      469087197,
+      1791955410552066455
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/muller21_high_c1_prediction.npy": [
+      582770408,
+      1791955592889652028
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop173_prediction.npy": [
+      2250128,
+      1791954898621146207
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop234_prediction.npy": [
+      1000128,
+      1791954861968150257
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop236_prediction.npy": [
+      1000128,
+      1791954864527288888
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/guay21_vol1_prediction.npy": [
+      15360128,
+      1791954918088915096
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop78_prediction.npy": [
+      3375128,
+      1791954905087530047
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/turner22_microns1_vol4_prediction.npy": [
+      52428928,
+      1791955019435912783
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_mus-nacc-1_recon-1_crop115_prediction.npy": [
+      3375128,
+      1791954908956192352
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop239_prediction.npy": [
+      740128,
+      1791960057396118964
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop185_prediction.npy": [
+      2250128,
+      1791960100621676456
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop252_prediction.npy": [
+      1000128,
+      1791960069859380612
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop254_prediction.npy": [
+      1000128,
+      1791960072360677799
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop291_prediction.npy": [
+      1000128,
+      1791960087445065588
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop248_prediction.npy": [
+      1000128,
+      1791960067350811085
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop240_prediction.npy": [
+      1000128,
+      1791960079926709902
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop238_prediction.npy": [
+      401760128,
+      1791960451676555725
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/wei20_mitoEM-R__dev_prediction.npy": [
+      1677721728,
+      1791961924732523475
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop174_prediction.npy": [
+      1000128,
+      1791960089950375458
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop245_prediction.npy": [
+      600128,
+      1791960055252645874
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/jiang25_vol2_prediction.npy": [
+      100000128,
+      1791960253547045013
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop292_prediction.npy": [
+      1000128,
+      1791960077424144903
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/turner22_microns1_vol2_prediction.npy": [
+      52428928,
+      1791960186203890243
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/turner22_microns1_vol3_prediction.npy": [
+      52428928,
+      1791960203066478504
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop79_prediction.npy": [
+      1953253,
+      1791960095604031568
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/turner22_microns1_vol0_prediction.npy": [
+      52428928,
+      1791960152496899780
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/haberl18_vol1_prediction.npy": [
+      655488,
+      1791960055530078476
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop258_prediction.npy": [
+      1000128,
+      1791960084940669037
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/kunduri22_train02_prediction.npy": [
+      134217856,
+      1791960296660669008
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop176_prediction.npy": [
+      1000128,
+      1791960092463660262
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/xiao18_vol0__dev_prediction.npy": [
+      31753696,
+      1791960135605502412
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/muller21_low_c2_prediction.npy": [
+      619418020,
+      1791961004470213856
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/turner22_microns1_vol1_prediction.npy": [
+      52428928,
+      1791960169357906675
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/casser20_kasthuri++_train__dev_prediction.npy": [
+      10029992,
+      1791960111571264100
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop237_prediction.npy": [
+      960128,
+      1791960059830776255
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop256_prediction.npy": [
+      1000128,
+      1791960074872529341
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/mekuc20_fib1-4-3-0_prediction.npy": [
+      16777344,
+      1791960123922481916
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop255_prediction.npy": [
+      1000128,
+      1791960082427681547
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/han24_pos2_prediction.npy": [
+      469087197,
+      1791960615174226313
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/muller21_high_c1_prediction.npy": [
+      582770408,
+      1791960798970488289
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop173_prediction.npy": [
+      2250128,
+      1791960098107410165
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop234_prediction.npy": [
+      1000128,
+      1791960062342766545
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop236_prediction.npy": [
+      1000128,
+      1791960064841484155
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/guay21_vol1_prediction.npy": [
+      15360128,
+      1791960117463269235
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop78_prediction.npy": [
+      3375128,
+      1791960104409962660
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/turner22_microns1_vol4_prediction.npy": [
+      52428928,
+      1791960219945459573
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_mus-nacc-1_recon-1_crop115_prediction.npy": [
+      3375128,
+      1791960108217838403
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop239_prediction.npy": [
+      740128,
+      1791963941397079091
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop185_prediction.npy": [
+      2250128,
+      1791963985719066731
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop252_prediction.npy": [
+      1000128,
+      1791963954171348139
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop254_prediction.npy": [
+      1000128,
+      1791963956748338047
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop291_prediction.npy": [
+      1000128,
+      1791963972208799307
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop248_prediction.npy": [
+      1000128,
+      1791963951573309904
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop240_prediction.npy": [
+      1000128,
+      1791963964491070597
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop238_prediction.npy": [
+      401760128,
+      1791964331387923685
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/wei20_mitoEM-R__dev_prediction.npy": [
+      1677721728,
+      1791965497545318133
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop174_prediction.npy": [
+      1000128,
+      1791963974771493811
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop245_prediction.npy": [
+      600128,
+      1791963939146090031
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/jiang25_vol2_prediction.npy": [
+      100000128,
+      1791964136532751874
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop292_prediction.npy": [
+      1000128,
+      1791963961920794146
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/turner22_microns1_vol2_prediction.npy": [
+      52428928,
+      1791964070242936868
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/turner22_microns1_vol3_prediction.npy": [
+      52428928,
+      1791964086834898681
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop79_prediction.npy": [
+      1953253,
+      1791963980549200660
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/turner22_microns1_vol0_prediction.npy": [
+      52428928,
+      1791964037096595473
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/haberl18_vol1_prediction.npy": [
+      655488,
+      1791963939490055617
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop258_prediction.npy": [
+      1000128,
+      1791963969636349928
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/kunduri22_train02_prediction.npy": [
+      134217856,
+      1791964178916986226
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop176_prediction.npy": [
+      1000128,
+      1791963977332628764
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/xiao18_vol0__dev_prediction.npy": [
+      31753696,
+      1791964020528774171
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/muller21_low_c2_prediction.npy": [
+      619418020,
+      1791964876396462594
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/turner22_microns1_vol1_prediction.npy": [
+      52428928,
+      1791964053675467596
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/casser20_kasthuri++_train__dev_prediction.npy": [
+      10029992,
+      1791963996727767577
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop237_prediction.npy": [
+      960128,
+      1791963943863702528
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop256_prediction.npy": [
+      1000128,
+      1791963959347679493
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/mekuc20_fib1-4-3-0_prediction.npy": [
+      16777344,
+      1791964009071835753
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop255_prediction.npy": [
+      1000128,
+      1791963967057332621
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/han24_pos2_prediction.npy": [
+      469087197,
+      1791964493000206713
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/muller21_high_c1_prediction.npy": [
+      582770408,
+      1791964674064659523
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop173_prediction.npy": [
+      2250128,
+      1791963983129294647
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop234_prediction.npy": [
+      1000128,
+      1791963946441862902
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop236_prediction.npy": [
+      1000128,
+      1791963949007190760
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/guay21_vol1_prediction.npy": [
+      15360128,
+      1791964002531317180
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop78_prediction.npy": [
+      3375128,
+      1791963989604010502
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/turner22_microns1_vol4_prediction.npy": [
+      52428928,
+      1791964103418176732
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_mus-nacc-1_recon-1_crop115_prediction.npy": [
+      3375128,
+      1791963993465612545
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop239_prediction.npy": [
+      740128,
+      1791954855362518501
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop185_prediction.npy": [
+      2250128,
+      1791954898551231520
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop252_prediction.npy": [
+      1000128,
+      1791954867797355049
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop254_prediction.npy": [
+      1000128,
+      1791954870311870012
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop291_prediction.npy": [
+      1000128,
+      1791954885389138610
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop248_prediction.npy": [
+      1000128,
+      1791954865296096363
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop240_prediction.npy": [
+      1000128,
+      1791954877839423208
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop238_prediction.npy": [
+      401760128,
+      1791955247405932624
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/wei20_mitoEM-R__dev_prediction.npy": [
+      1677721728,
+      1791956436248711284
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop174_prediction.npy": [
+      1000128,
+      1791954887891294697
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop245_prediction.npy": [
+      600128,
+      1791954853221787323
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/jiang25_vol2_prediction.npy": [
+      100000128,
+      1791955050588993519
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop292_prediction.npy": [
+      1000128,
+      1791954875330281049
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/turner22_microns1_vol2_prediction.npy": [
+      52428928,
+      1791954983593205506
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/turner22_microns1_vol3_prediction.npy": [
+      52428928,
+      1791955000356664365
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop79_prediction.npy": [
+      1953253,
+      1791954893522299102
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/turner22_microns1_vol0_prediction.npy": [
+      52428928,
+      1791954950071186676
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/haberl18_vol1_prediction.npy": [
+      655488,
+      1791954853501201178
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop258_prediction.npy": [
+      1000128,
+      1791954882889009422
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/kunduri22_train02_prediction.npy": [
+      134217856,
+      1791955093470837220
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop176_prediction.npy": [
+      1000128,
+      1791954890391576863
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/xiao18_vol0__dev_prediction.npy": [
+      31753696,
+      1791954933326530186
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/muller21_low_c2_prediction.npy": [
+      619418020,
+      1791955798248611754
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/turner22_microns1_vol1_prediction.npy": [
+      52428928,
+      1791954966838785198
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/casser20_kasthuri++_train__dev_prediction.npy": [
+      10029992,
+      1791954909423622905
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop237_prediction.npy": [
+      960128,
+      1791954857780849872
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop256_prediction.npy": [
+      1000128,
+      1791954872823338451
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/mekuc20_fib1-4-3-0_prediction.npy": [
+      16777344,
+      1791954921772082773
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop255_prediction.npy": [
+      1000128,
+      1791954880351265365
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/han24_pos2_prediction.npy": [
+      469087197,
+      1791955410576299461
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/muller21_high_c1_prediction.npy": [
+      582770408,
+      1791955593697937769
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop173_prediction.npy": [
+      2250128,
+      1791954896036108110
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop234_prediction.npy": [
+      1000128,
+      1791954860290819730
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop236_prediction.npy": [
+      1000128,
+      1791954862793260633
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/guay21_vol1_prediction.npy": [
+      15360128,
+      1791954915321991596
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop78_prediction.npy": [
+      3375128,
+      1791954902367293834
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/turner22_microns1_vol4_prediction.npy": [
+      52428928,
+      1791955017125525387
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_mus-nacc-1_recon-1_crop115_prediction.npy": [
+      3375128,
+      1791954906147077316
+    ]
+  }
+}

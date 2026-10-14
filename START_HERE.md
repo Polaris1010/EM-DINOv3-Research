@@ -1,4 +1,4 @@
-> 用户2026-10-14新授权：唯一任务MV-4B。先做Guay/Müller/Casser/Wei各一个已有dev区域的官方Semantic Only vs既有Panoptic复核，保持权重/输入/归一化/阈值/scale/TTA不变；若差异明显，再一次扩展38区域。旧MV3/MV4全部保留。不运行训练、强度/尺度搜索或其他实验。当前分支codex/mv4b-semantic-panoptic；先读docs/MV4B_PROTOCOL.md及本轮work log。
+> MV4B已完成：四区域Semantic/Panoptic差异不明显，不扩展38。Guay Dice0.014253、Müller high_c1约2.35e-7未恢复；raw0.5掩码与旧Panoptic四区域逐像素相等。旧MV4/MV3全部保留，不能声称已完成38区域Semantic Only或公平独立测试超越MitoNet。当前分支codex/mv4b-semantic-panoptic；先读docs/MV4B_final_report.md、experiments/MV-4B/run_index.json及work_logs/20261014_09_mv4b_semantic_panoptic.md。研究服务已停止，不自动启动下一实验。
 
 > MV4已完成并停止（2026-10-14香港时间23:15:04核验）。同38开发区域/12来源，来源等权Dice：P0 0.813741、B100 0.826449、官方MitoNet 0.610209；B100在8/12来源更高。当前分支codex/mv4-official-mitonet，独立draft PR3，base为未合并MV3分支。先读docs/MV4_final_report.md、experiments/MV-4/run_index.json和work_logs/20261014_08_mv4_official_mitonet.md。服务inactive/MainPID0，指标266行核验PASS；不重启MV3/MV4或旧watcher，不自动启动新实验。
 

@@ -1,0 +1,161 @@
+{
+  "status": "PASS",
+  "observed_at_utc": "2026-10-14T16:03:50.481446+00:00",
+  "four_complete_regions": true,
+  "historical_mv3_mv4_unchanged": true,
+  "raw_threshold_masks_equal_old_panoptic_voxelwise": true,
+  "assets": [
+    {
+      "region_id": "casser20_kasthuri++_train__dev",
+      "raw_threshold_vs_old_panoptic_xor_voxels": 0,
+      "probability_official_same_forward": true,
+      "files": {
+        "probability": {
+          "path": "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/runs/Official-MitoNet-Semantic-v1/casser20_kasthuri++_train__dev_probability.npy",
+          "bytes": 40119584,
+          "dtype": "float32",
+          "shape": [
+            17,
+            806,
+            732
+          ]
+        },
+        "raw_threshold": {
+          "path": "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/runs/Official-MitoNet-Semantic-v1/casser20_kasthuri++_train__dev_raw_threshold.npy",
+          "bytes": 10029992,
+          "dtype": "uint8",
+          "shape": [
+            17,
+            806,
+            732
+          ]
+        },
+        "prediction": {
+          "path": "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/runs/Official-MitoNet-Semantic-v1/casser20_kasthuri++_train__dev_prediction.npy",
+          "bytes": 10029992,
+          "dtype": "uint8",
+          "shape": [
+            17,
+            806,
+            732
+          ]
+        }
+      }
+    },
+    {
+      "region_id": "guay21_vol1",
+      "raw_threshold_vs_old_panoptic_xor_voxels": 0,
+      "probability_official_same_forward": true,
+      "files": {
+        "probability": {
+          "path": "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/runs/Official-MitoNet-Semantic-v1/guay21_vol1_probability.npy",
+          "bytes": 61440128,
+          "dtype": "float32",
+          "shape": [
+            24,
+            800,
+            800
+          ]
+        },
+        "raw_threshold": {
+          "path": "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/runs/Official-MitoNet-Semantic-v1/guay21_vol1_raw_threshold.npy",
+          "bytes": 15360128,
+          "dtype": "uint8",
+          "shape": [
+            24,
+            800,
+            800
+          ]
+        },
+        "prediction": {
+          "path": "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/runs/Official-MitoNet-Semantic-v1/guay21_vol1_prediction.npy",
+          "bytes": 15360128,
+          "dtype": "uint8",
+          "shape": [
+            24,
+            800,
+            800
+          ]
+        }
+      }
+    },
+    {
+      "region_id": "muller21_high_c1",
+      "raw_threshold_vs_old_panoptic_xor_voxels": 0,
+      "probability_official_same_forward": true,
+      "files": {
+        "probability": {
+          "path": "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/runs/Official-MitoNet-Semantic-v1/muller21_high_c1_probability.npy",
+          "bytes": 2331081248,
+          "dtype": "float32",
+          "shape": [
+            1097,
+            699,
+            760
+          ]
+        },
+        "raw_threshold": {
+          "path": "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/runs/Official-MitoNet-Semantic-v1/muller21_high_c1_raw_threshold.npy",
+          "bytes": 582770408,
+          "dtype": "uint8",
+          "shape": [
+            1097,
+            699,
+            760
+          ]
+        },
+        "prediction": {
+          "path": "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/runs/Official-MitoNet-Semantic-v1/muller21_high_c1_prediction.npy",
+          "bytes": 582770408,
+          "dtype": "uint8",
+          "shape": [
+            1097,
+            699,
+            760
+          ]
+        }
+      }
+    },
+    {
+      "region_id": "wei20_mitoEM-R__dev",
+      "raw_threshold_vs_old_panoptic_xor_voxels": 0,
+      "probability_official_same_forward": true,
+      "files": {
+        "probability": {
+          "path": "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/runs/Official-MitoNet-Semantic-v1/wei20_mitoEM-R__dev_probability.npy",
+          "bytes": 6710886528,
+          "dtype": "float32",
+          "shape": [
+            100,
+            4096,
+            4096
+          ]
+        },
+        "raw_threshold": {
+          "path": "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/runs/Official-MitoNet-Semantic-v1/wei20_mitoEM-R__dev_raw_threshold.npy",
+          "bytes": 1677721728,
+          "dtype": "uint8",
+          "shape": [
+            100,
+            4096,
+            4096
+          ]
+        },
+        "prediction": {
+          "path": "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014/runs/Official-MitoNet-Semantic-v1/wei20_mitoEM-R__dev_prediction.npy",
+          "bytes": 1677721728,
+          "dtype": "uint8",
+          "shape": [
+            100,
+            4096,
+            4096
+          ]
+        }
+      }
+    }
+  ],
+  "service": "MainPID=0\nResult=success\nActiveState=inactive\n",
+  "extend_to_38": false,
+  "report_sha256": "2602ff9ab42cb8f24e7284d742852b53be4325c2cc6f7aaed32e762015c775df",
+  "report_source_sha256": "2aa6b2309c2967f9763a7470b583bd079bbaf83eecd33841789ca45ca8b3b3c2"
+}

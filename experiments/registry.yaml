@@ -5134,16 +5134,16 @@
     },
     {
       "experiment_id": "MV-4B-Official-MitoNet-Semantic-v1",
-      "status": "PLANNED",
+      "status": "VERIFIED_COMPLETED",
       "research_question": "Does official panoptic grouping remove semantic foreground on the same fixed images?",
       "dataset_manifest": "configs/segmentation/MV-Generalist-v2/manifest.json",
       "dataset_manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
       "ssl_exposure": "Official MitoNet CEM-MitoLab training; exact MitoVerse image overlap UNVERIFIED",
       "supervised_train_split": "Official released CEM-MitoLab training; no MV4 supervision",
       "validation_split": [
+        "casser20_kasthuri++_train__dev",
         "guay21_vol1",
         "muller21_high_c1",
-        "casser20_kasthuri++_train__dev",
         "wei20_mitoEM-R__dev"
       ],
       "test_split": {
@@ -5181,7 +5181,7 @@
       "decoder_seed": "not applicable; fixed released model",
       "train_config": "configs/evaluation/MV-4B_protocol.json",
       "resolved_config_sha256": "93f435e4fce0005e112fb2d5116114ffd8a4ab4a84b12494b97fd2e99bdb6281",
-      "code_commit": "UNVERIFIED",
+      "code_commit": "8a8b757b300a7dc485d5298925b9b50b38042bfb",
       "python_executable": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/bin/python",
       "global_batch": 1,
       "optimizer_steps": 0,
@@ -5194,8 +5194,8 @@
         "scale": 1,
         "tile_size": 0
       },
-      "metrics_path": "UNVERIFIED",
-      "report_path": "docs/MV4B_PROTOCOL.md",
+      "metrics_path": "experiments/MV-4B/MV4B_path_comparison.csv",
+      "report_path": "docs/MV4B_final_report.md",
       "limitations": [
         "DINOv3 supervised adaptation on156 regions versus released MitoNet not adapted to these labels; original training overlap unverified.",
         "B100 transductive exposure; not unseen-image/equal-budget method comparison.",
@@ -5208,7 +5208,7 @@
         "evidence/MV-4B/official_output_path_sources.json"
       ],
       "server_root": "/opt/data/3_117/tanghr/codex/mv4b_semantic_panoptic_20261014",
-      "execution_state": "FOUR_REGION_SEMANTIC_PANOPTIC_CHECK",
+      "execution_state": "FOUR_REGION_COMPLETE_NO_EXTENSION_REQUIRED",
       "existing_DINOv3_runs_reused": 6,
       "DINOv3_metric_rows_reused": 228,
       "dev_regions": 4,

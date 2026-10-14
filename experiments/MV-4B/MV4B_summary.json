@@ -1,0 +1,68 @@
+{
+  "status": "complete",
+  "scope": "four-region pilot",
+  "regions": 4,
+  "sources": 4,
+  "source_macro": {
+    "G-P0": {
+      "dice": 0.8712399390044222,
+      "precision": 0.8952409709660838,
+      "recall": 0.8493413418150776,
+      "hd95_nm": 310.48499043782556,
+      "nsd_16nm": 0.7453495413064957,
+      "predicted_foreground_fraction": 0.03700874834321405
+    },
+    "G-B100": {
+      "dice": 0.8665427964651667,
+      "precision": 0.8932028144461432,
+      "recall": 0.8427028589859478,
+      "hd95_nm": 331.12354532877606,
+      "nsd_16nm": 0.7401518772045771,
+      "predicted_foreground_fraction": 0.03693083294064017
+    },
+    "MitoNet-Panoptic-v1": {
+      "dice": 0.47260370063339974,
+      "precision": 0.4892276037137797,
+      "recall": 0.46108551727285124,
+      "hd95_nm": 685.327018737793,
+      "nsd_16nm": 0.439662758664781,
+      "predicted_foreground_fraction": 0.026279180242969335
+    },
+    "MitoNet-Semantic-v1": {
+      "dice": 0.47260370063453244,
+      "precision": 0.4892276037636347,
+      "recall": 0.46108551727285124,
+      "hd95_nm": null,
+      "nsd_16nm": null,
+      "predicted_foreground_fraction": 0.02627903910673981
+    }
+  },
+  "B100_source_wins_vs_semantic": 2,
+  "historical_MV4_sensitivity": [
+    {
+      "scope": "all12",
+      "sources": 12,
+      "B100_dice": 0.8264489417353944,
+      "historical_panoptic_dice": 0.6102085551547273,
+      "B100_minus_panoptic": 0.21624038658066713
+    },
+    {
+      "scope": "without_Guay_Muller",
+      "sources": 10,
+      "B100_dice": 0.8301011868757158,
+      "historical_panoptic_dice": 0.7308081958503158,
+      "B100_minus_panoptic": 0.09929299102540001
+    },
+    {
+      "scope": "without_Guay_Muller_Han",
+      "sources": 9,
+      "B100_dice": 0.8444574513778962,
+      "historical_panoptic_dice": 0.7831380902045244,
+      "B100_minus_panoptic": 0.06131936117337178
+    }
+  ],
+  "Guay_Muller_fraction_of_historical_B100_panoptic_gain": 0.6173510392936418,
+  "protocol_sha256": "93f435e4fce0005e112fb2d5116114ffd8a4ab4a84b12494b97fd2e99bdb6281",
+  "official_weight_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+  "historical_outputs_preserved": true
+}

@@ -1,13 +1,13 @@
 {
   "stage": "MV-4",
   "server_root": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014",
-  "status": "PLANNED",
-  "execution_state": "OFFICIAL_WEIGHT_DOWNLOAD_AND_ISOLATED_ENVIRONMENT_PREPARATION",
+  "status": "VERIFIED_RUNNING",
+  "execution_state": "OFFICIAL_MITONET_INFERENCE",
   "authorized_at": "2026-10-14 Asia/Hong_Kong; explicit user official MitoNet comparison",
   "protocol": "configs/evaluation/MV-4_protocol.json",
   "assets": "evidence/MV-4/official_assets.json",
   "report_path": "docs/MV4_PROTOCOL.md",
-  "code_commit": "UNVERIFIED",
+  "code_commit": "db2ae4e",
   "reused_mv3_commit": "578a30e87f987f70a0f4641c7bb00a458e5f402f",
   "reused_models": [
     "G-P0",
@@ -24,5 +24,7 @@
     1,
     2,
     3
-  ]
+  ],
+  "observed_at_utc": "2026-10-14T15:07:49.443874+00:00",
+  "status_evidence": "evidence/MV-4/status_20261014T150801Z.json"
 }

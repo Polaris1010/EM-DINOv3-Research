@@ -5008,7 +5008,7 @@
     },
     {
       "experiment_id": "MV-4-Official-MitoNet-v1",
-      "status": "PLANNED",
+      "status": "VERIFIED_RUNNING",
       "research_question": "How competitive is official MitoNet against the completed DINOv3 generalist on the same38 development regions?",
       "dataset_manifest": "configs/segmentation/MV-Generalist-v2/manifest.json",
       "dataset_manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
@@ -5089,7 +5089,7 @@
       "decoder_seed": "not applicable; fixed released model",
       "train_config": "configs/evaluation/MV-4_protocol.json",
       "resolved_config_sha256": "66db27f82a731c2edb81a74c681b2cd00a747abecfcc3c0c6e9f9082033ebe4b",
-      "code_commit": "UNVERIFIED",
+      "code_commit": "db2ae4e",
       "python_executable": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/bin/python",
       "global_batch": 1,
       "optimizer_steps": 0,
@@ -5124,7 +5124,7 @@
         "evidence/MV-4/official_assets.json"
       ],
       "server_root": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014",
-      "execution_state": "OFFICIAL_WEIGHT_DOWNLOAD_AND_ISOLATED_ENVIRONMENT_PREPARATION",
+      "execution_state": "OFFICIAL_MITONET_INFERENCE",
       "existing_DINOv3_runs_reused": 6,
       "DINOv3_metric_rows_reused": 228,
       "dev_regions": 38,

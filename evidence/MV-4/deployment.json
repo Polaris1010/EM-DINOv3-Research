@@ -1,16 +1,16 @@
 {
-  "observed_at_utc": "2026-10-14T14:52:40.851791+00:00",
+  "observed_at_utc": "2026-10-14T15:07:15.049654+00:00",
   "server_root": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014",
-  "code_commit": "1940bb2093769f290db363c83ab9b9f720e80276",
+  "code_commit": "db2ae4e",
   "source_files": {
     "src/common.py": "abcd10ca1bd22a9e2077a50db2e3d543f5176b02cdb795be8b3f117d212b91dc",
     "src/infer.py": "597df79f1fff9efccf1f8ed530d288ef0b25be5862f7b999d994fdf97ab4e03b",
-    "src/official.py": "7043f04febbdfd5bb2dbf35afeb99d9223a709c893a371c1bd11c96801b18312",
-    "src/report.py": "95b59b7b7a3d06c0c2d4496666686284f835c46b251b53530f69a5e8081cabad",
-    "src/run.py": "25d7d3b2c569ef9db18fa05cb84068704c6c972a3753597c7185882c6e1de776",
+    "src/official.py": "2bfdf0946ffcda83f1ecbb9ae6cdd2fc38879685868ddb11743aea5525120f8b",
+    "src/report.py": "aa01e4a6c2a184766eb74c546034e2c1f06a48ee543de90d4be197c84bb85c21",
+    "src/run.py": "9d6f2545afb52c98cd9758ced21ebab1573c0fbee00b4f16044b02bd0bb1edf7",
     "src/score.py": "a15edecd95c460a97bce5cdcfdd4f2eb9c1740ecd018c9bb0d5091cf24da0099",
     "src/scoring_queue.py": "a19fbdc5e92598bd71522631f38ca4e8424e76f1fa32ac5482f160b8c6f2e736",
-    "MV4_protocol.json": "77672bfe5ba1ebbfe6272565870271fccb4c0b92dc20899bdf3c66028cbe1095"
+    "MV4_protocol.json": "66db27f82a731c2edb81a74c681b2cd00a747abecfcc3c0c6e9f9082033ebe4b"
   },
   "official_assets": {
     "observed_at_utc": "2026-10-14T14:50:54.006390+00:00",
@@ -53,5 +53,7 @@
     2,
     3
   ],
-  "service": "mv4-official-mitonet-20261014.service"
+  "service": "mv4-official-mitonet-20261014.service",
+  "metadata_correction": "Launch wrapper retained prior short commit string; actual deployed file SHA correspond to db2ae4e. No runtime source/config changes.",
+  "corrected_at_utc": "2026-10-14T15:08:37.080602+00:00"
 }

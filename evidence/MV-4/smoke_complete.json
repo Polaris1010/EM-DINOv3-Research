@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "regions": [
+    "haberl18_vol1",
+    "han24_pos2",
+    "wei20_mitoEM-R__dev"
+  ],
+  "input_only_selection": true
+}

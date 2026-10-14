@@ -27,3 +27,5 @@ MV2原始validation/gpu_edt在新环境实际导入成功，validation SHA `143c
 小图真实推理PASS。大图的官方Tiler在NumPy2/Numba0.61编译失败；仅将新venv改为NumPy1.26.4/Numba0.59.1/llvmlite0.42.0，编译通过后又暴露官方Tiler空overlap输入的IndexError。没有任何正式预测或GT指标。停止走分块兼容路径，直接采用官方默认整图tile_size=0；23:03香港时间最大4096×4096图像在GPU3实际PASS，不读GT。旧tile协议、成功小图/失败大图和日志全部存入服务器evidence/tiling_attempt_superseded；本地旧协议存configs/evaluation/history/MV-4_tiling_attempt_20261014.json。
 
 最终固定官方整图协议，scale/阈值/NMS/实例后处理和MV3数据不变。新controller仅用venv推理，评分/报告继续调用原meddinov3环境，避免NumPy兼容调整影响物理评测。正式38区域尚待新固定协议smoke和同一有界执行器启动；实际状态以新快照为准，未声称MitoNet Dice已得到。
+
+23:07:15正式启动最终整图协议（protocol SHA `66db27f82a731c2edb81a74c681b2cd00a747abecfcc3c0c6e9f9082033ebe4b`），三种尺寸smoke全部通过。23:07:49快照：service active/MainPID3901502，推理3/38、评分0/38，physical1/2/3利用率85%/35%/43%，网站200、GPU0未用。源文件SHA均与部署commit`db2ae4e2007c85b9badee722fd331fad138d17c2`一致。启动wrapper残留旧短commit元数据已修正，原件保留deployment_metadata_before_correction.json；只改回执，运行代码/协议未动。注册状态更新VERIFIED_RUNNING。继续执行至最终报告，再停止。

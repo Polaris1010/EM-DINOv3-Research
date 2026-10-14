@@ -1,0 +1,61 @@
+{
+  "observed_at_utc": "2026-10-14T15:07:49.443874+00:00",
+  "status": {
+    "status": "running",
+    "phase": "official_mitonet_inference",
+    "seconds": 33.46816012263298,
+    "inferred_regions": 3,
+    "scored_regions": 0,
+    "expected_regions": 38,
+    "sources": 12,
+    "models": [
+      "G-P0",
+      "G-B100",
+      "Official-MitoNet-v1"
+    ],
+    "dinov3_reused": true,
+    "physical_gpus": [
+      1,
+      2,
+      3
+    ],
+    "gpu0_used": false,
+    "website_http": 200,
+    "child_pids": [
+      3901640,
+      3901641,
+      3901642
+    ]
+  },
+  "service": "MainPID=3901502\nResult=success\nActiveState=active\n",
+  "gpus": "0, 3092, 0\n1, 8670, 85\n2, 1826, 35\n3, 1610, 43\n",
+  "active_progress": [
+    {
+      "region_id": "wei20_mitoEM-R__dev",
+      "z_completed": 1,
+      "z_total": 100,
+      "seconds": 3.520799160003662,
+      "physical_gpu": 1
+    },
+    {
+      "region_id": "kunduri22_train02",
+      "z_completed": 81,
+      "z_total": 128,
+      "seconds": 10.518936395645142,
+      "physical_gpu": 2
+    },
+    {
+      "region_id": "han24_pos2",
+      "z_completed": 71,
+      "z_total": 281,
+      "seconds": 10.68954086303711,
+      "physical_gpu": 3
+    }
+  ],
+  "log_tails": {
+    "smoke_haberl18_vol1.log": "Traceback (most recent call last):\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/infer.py\", line 43, in <module>\n    p=argparse.ArgumentParser();p.add_argument('--regions',nargs='+',required=True);p.add_argument('--smoke',action='store_true');a=p.parse_args();infer(a.regions,a.smoke)\n                                                                                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/infer.py\", line 9, in infer\n    gpu=gpu_guard();engine=build();c=config();t0=time.time()\n                           ^^^^^^^\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/official.py\", line 36, in build\n    engine.engine.model.requires_grad_(False).eval()\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/data/3_117/tanghr/envs/meddinov3/lib/python3.11/site-packages/torch/jit/_script.py\", line 984, in fail\n    raise RuntimeError(name + \" is not supported on ScriptModules\")\nRuntimeError: requires_grad_ is not supported on ScriptModules\nMITONET_INFER haberl18_vol1 1 1 GPU 1\nINFERENCE_BATCH_DONE 1 4.290566444396973\nMITONET_INFER haberl18_vol1 1 1 GPU 1\nINFERENCE_BATCH_DONE 1 1.5814146995544434\n",
+    "smoke_wei20_mitoEM-R__dev.log": "n_body()\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/lib/python3.11/site-packages/numba/core/lowering.py\", line 262, in lower_function_body\n    self.lower_block(block)\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/lib/python3.11/site-packages/numba/core/lowering.py\", line 276, in lower_block\n    self.lower_inst(inst)\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/lib/python3.11/site-packages/numba/core/lowering.py\", line 462, in lower_inst\n    val = self.lower_assign(ty, inst)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/lib/python3.11/site-packages/numba/core/lowering.py\", line 703, in lower_assign\n    res = self.context.cast(self.builder, val, argty, ty)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/lib/python3.11/site-packages/numba/core/base.py\", line 702, in cast\n    return impl(self, builder, fromty, toty, val)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/lib/python3.11/site-packages/numba/core/optional.py\", line 91, in optional_to_optional\n    outoptval.data = context.cast(builder, optval.data,\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/lib/python3.11/site-packages/numba/core/base.py\", line 702, in cast\n    return impl(self, builder, fromty, toty, val)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/lib/python3.11/site-packages/numba/cpython/listobj.py\", line 1134, in list_to_list\n    assert fromty.dtype == toty.dtype\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\nMITONET_INFER wei20_mitoEM-R__dev 1 1 GPU 3\nINFERENCE_BATCH_DONE 1 3.6495537757873535\n",
+    "smoke_han24_pos2.log": "r_function_body()\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/lib/python3.11/site-packages/numba/core/lowering.py\", line 262, in lower_function_body\n    self.lower_block(block)\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/lib/python3.11/site-packages/numba/core/lowering.py\", line 276, in lower_block\n    self.lower_inst(inst)\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/lib/python3.11/site-packages/numba/core/lowering.py\", line 462, in lower_inst\n    val = self.lower_assign(ty, inst)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/lib/python3.11/site-packages/numba/core/lowering.py\", line 703, in lower_assign\n    res = self.context.cast(self.builder, val, argty, ty)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/lib/python3.11/site-packages/numba/core/base.py\", line 702, in cast\n    return impl(self, builder, fromty, toty, val)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/lib/python3.11/site-packages/numba/core/optional.py\", line 91, in optional_to_optional\n    outoptval.data = context.cast(builder, optval.data,\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/lib/python3.11/site-packages/numba/core/base.py\", line 702, in cast\n    return impl(self, builder, fromty, toty, val)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/lib/python3.11/site-packages/numba/cpython/listobj.py\", line 1134, in list_to_list\n    assert fromty.dtype == toty.dtype\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\nMITONET_INFER han24_pos2 1 1 GPU 2\nINFERENCE_BATCH_DONE 1 1.8412859439849854\n",
+    "controller.log": "Traceback (most recent call last):\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/run.py\", line 83, in <module>\n    controller=Controller();controller.run()\n                            ^^^^^^^^^^^^^^^^\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/run.py\", line 50, in run\n    self.wait(checks);atomic(R/'evidence/smoke_complete.json',{'status':'PASS','regions':smoke,'input_only_selection':True})\n    ^^^^^^^^^^^^^^^^^\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/run.py\", line 42, in wait\n    if p.poll() not in [None,0]:raise RuntimeError(f'Own MV4 worker {p.pid} failed with {p.returncode}; inspect logs')\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Own MV4 worker 3895080 failed with 1; inspect logs\nTraceback (most recent call last):\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/run.py\", line 83, in <module>\n    controller=Controller();controller.run()\n                            ^^^^^^^^^^^^^^^^\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/run.py\", line 50, in run\n    self.wait(checks);atomic(R/'evidence/smoke_complete.json',{'status':'PASS','regions':smoke,'input_only_selection':True})\n    ^^^^^^^^^^^^^^^^^\n  File \"/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/run.py\", line 42, in wait\n    if p.poll() not in [None,0]:raise RuntimeError(f'Own MV4 worker {p.pid} failed with {p.returncode}; inspect logs')\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Own MV4 worker 3896813 failed with 1; inspect logs\n"
+  }
+}

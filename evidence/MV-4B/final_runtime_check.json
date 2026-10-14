@@ -1,0 +1,12 @@
+{
+  "observed_at_utc": "2026-10-14T16:09:02.086360+00:00",
+  "status": "VERIFIED_COMPLETED",
+  "service": "MainPID=0\nResult=success\nActiveState=inactive\n",
+  "semantic_regions": 4,
+  "full38_extension": false,
+  "website_http": 200,
+  "gpu0_used": false,
+  "further_experiments_started": false,
+  "report_sha256": "1bb61276018ee8af72cf60c47ae68d0f7a8735477f30f678ffbf8ff78ea448ba",
+  "original_generated_report_sha256": "2602ff9ab42cb8f24e7284d742852b53be4325c2cc6f7aaed32e762015c775df"
+}

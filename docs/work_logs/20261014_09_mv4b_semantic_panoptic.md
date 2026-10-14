@@ -17,3 +17,5 @@
 报告收尾跨到2026-10-15香港时间。四个完整区域raw probability>=0.5与旧Panoptic逐像素XOR0已在服务器独立复核，不仅是统计相同；概率float32与全Z形状/文件资产已保留。四张八面板图已查看Guay/Müller，标签重叠仅以CPU重新排版，不改数值或推理。历史完整精度敏感性分析：去Guay/Müller后Δ+0.099292991，再去Han后+0.061319361；两来源贡献61.735104%，不删除正式来源。
 
 最终CPU核验PASS：4完整区域、32行系统对照（24既有DINOv3+4既有Panoptic+4新Semantic）、混淆矩阵/PR/Dice/前景算术、概率/阈值与历史Panoptic关联；原39条registry逐项未变、历史MV4报告逐字节未变。registry/repository检查与21项测试PASS。新报告和本轮Markdown/交接提交推送，后续只做发布回执，不启动新实验。
+
+实际交付：完整结果commit222b1f64292c46764713836822c93fdb38c74487已推送；GitHub API确认private、Polaris1010、PR4 open/draft、head与本地一致，base为未合并MV4分支codex/mv4-official-mitonet。PR链接https://github.com/Polaris1010/EM-DINOv3-Research/pull/4；没有自动合并。最后收尾提交固化此发布回执。

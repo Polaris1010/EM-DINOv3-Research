@@ -5,6 +5,7 @@ import psutil
 from common import R,M3,MODEL,rows,read,sha,atomic,cache,config
 from scoring_queue import score_queue
 PY=str(R/'venv/bin/python')
+METRIC_PY='/opt/data/3_117/tanghr/envs/meddinov3/bin/python'
 
 def gpu_info():
  return {int(r[0]):{'uuid':r[1].strip(),'free_mib':int(r[2])} for r in csv.reader(subprocess.check_output(['nvidia-smi','--query-gpu=index,uuid,memory.free','--format=csv,noheader,nounits'],text=True).splitlines())}
@@ -27,7 +28,8 @@ class Controller:
    'OMP_NUM_THREADS':'2','OPENBLAS_NUM_THREADS':'2','MKL_NUM_THREADS':'2','MV4_ROOT':str(R),
    'CUPY_CACHE_DIR':str(R/'cache/cupy'),'NUMBA_CACHE_DIR':str(R/'cache/numba'),'PYTHONDONTWRITEBYTECODE':'1'}
   f=(R/'logs'/f'{name}.log').open('a');self.handles.append(f)
-  p=subprocess.Popen([PY,'-u',*map(str,args)],env=env,stdout=f,stderr=subprocess.STDOUT,start_new_session=True);self.children.append(p);return p
+  executable=METRIC_PY if Path(args[0]).name in ['score.py','report.py'] else PY
+  p=subprocess.Popen([executable,'-u',*map(str,args)],env=env,stdout=f,stderr=subprocess.STDOUT,start_new_session=True);self.children.append(p);return p
  def health(self):
   assert time.monotonic()-self.start<config()['max_runtime_hours']*3600,'MV4 finite runtime limit reached'
   website();out=R/'runs'/MODEL

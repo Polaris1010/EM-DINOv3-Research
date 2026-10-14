@@ -5088,7 +5088,7 @@
       "decoder_checkpoint": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/assets/MitoNet_v1.pth",
       "decoder_seed": "not applicable; fixed released model",
       "train_config": "configs/evaluation/MV-4_protocol.json",
-      "resolved_config_sha256": "77672bfe5ba1ebbfe6272565870271fccb4c0b92dc20899bdf3c66028cbe1095",
+      "resolved_config_sha256": "66db27f82a731c2edb81a74c681b2cd00a747abecfcc3c0c6e9f9082033ebe4b",
       "code_commit": "UNVERIFIED",
       "python_executable": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/bin/python",
       "global_batch": 1,
@@ -5104,7 +5104,7 @@
         "confidence_thr": 0.5,
         "semantic_only": false,
         "fine_boundaries": false,
-        "tile_size": 1280,
+        "tile_size": 0,
         "use_gpu": true,
         "use_quantized": false
       },

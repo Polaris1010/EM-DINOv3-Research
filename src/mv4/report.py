@@ -82,7 +82,7 @@ def report():
   '三个完整系统在MV-Generalist-v2的同38开发区域、12来源、同有效GT和物理坐标上比较。G-P0/G-B100直接复用40k、三个decoder seeds的既有预测/指标；本轮无训练、无重新推理DINOv3、无TTA修改。','',
   f'来源等权Dice：P0 **{macro["G-P0"]["dice"]:.6f}**，B100 **{macro["G-B100"]["dice"]:.6f}**，官方MitoNet **{macro[MODEL]["dice"]:.6f}**。B100−MitoNet **{result["B100_minus_MitoNet_macro_dice"]:+.6f}**；B100在{wins}/12来源更高、{lose}/12更低。','',
   '## 实际推理与数据协议','',
-  '官方MitoNet_v1来自Zenodo6861565，发布者MD5及文件字节数校验后另计算SHA256；完整权重和输出留在服务器。官方empanada-dl0.1.7与hash锁定Engine2d/Preprocessor原定义，通过AST原样编译提供无Qt入口；没有重写模型/后处理。官方二维批量工作流：native XY/Z、scale1、confidence0.5、center threshold0.1、NMS kernel3、label divisor10000、padding16、coarse boundaries、fill holes OFF、TTA OFF；统一tile1280与官方实例合并。','',
+  '官方MitoNet_v1来自Zenodo6861565，发布者MD5及文件字节数校验后另计算SHA256；完整权重和输出留在服务器。官方empanada-dl0.1.7与hash锁定Engine2d/Preprocessor原定义，通过AST原样编译提供无Qt入口；没有重写模型/后处理。官方二维批量工作流：native XY/Z、scale1、confidence0.5、center threshold0.1、NMS kernel3、label divisor10000、padding16、coarse boundaries、fill holes OFF、TTA OFF；采用官方默认整图路径tile_size=0，最大4096×4096原生图像smoke通过。初始tile1280尝试因官方Tiler兼容错误而失败，发生在正式预测/任何指标之前，旧协议与回执另存。','',
   '推理不读取GT/annotation mask值，不使用GT box。所有原生Z推理；有效区仅参与评测。Han按用户确认忽略mask、整幅GT。保留原始逐层panoptic ID，以及跨层不重复的逐层instance ID；这些ID不代表三维追踪。','',
   f'Manifest SHA256 `{c["manifest_sha256"]}`；MV4 protocol SHA256 `{result["protocol_sha256"]}`。实际资产哈希/来源详见MV4_summary.json的official_assets及MV4_protocol.json。','',
   'Dice/Precision/Recall来自有效像素混淆矩阵；HD95 nm和NSD@16nm直接调用MV3沿用的MV2物理距离实现。来源内等区域，来源间等权；DINOv3每个来源先平均三个seed，MitoNet是一个固定官方系统。undefined precision/recall保留NA，inf HD95不隐藏。','',

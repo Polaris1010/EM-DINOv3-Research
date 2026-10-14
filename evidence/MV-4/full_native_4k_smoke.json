@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "shape": [
+    4096,
+    4096
+  ],
+  "official_tile_size": 0,
+  "physical_gpu": 3,
+  "gt_used": false,
+  "output_dtype": "int32"
+}

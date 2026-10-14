@@ -6,11 +6,11 @@
   "packages": {
     "torch": "2.5.1",
     "torchvision": "0.20.1",
-    "numpy": "2.2.6",
+    "numpy": "1.26.4",
     "scipy": "1.16.1",
     "scikit-image": "0.25.2",
-    "numba": "0.61.2",
-    "llvmlite": "0.44.0",
+    "numba": "0.59.1",
+    "llvmlite": "0.42.0",
     "opencv-python-headless": "4.10.0.84",
     "cztile": "0.2.0",
     "empanada-dl": "0.1.7",
@@ -20,5 +20,6 @@
     "pyyaml": "6.0.2"
   },
   "official_core_imports": "PASS",
-  "existing_environment_modified": false
+  "existing_environment_modified": false,
+  "core_tile_smoke": "pending in fresh process"
 }

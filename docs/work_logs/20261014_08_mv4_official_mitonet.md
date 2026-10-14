@@ -19,3 +19,11 @@
 隔离环境实际核心导入PASS：Python3.11.9/Torch2.5.1，empanada-dl0.1.7，NumPy2.2.6/Numba0.61.2、cztile0.2.0及官方所需OpenCV/Dask。初始cztile2.0 API不兼容，已固定含fixed_total_area_strategy的0.2.0；基础meddinov3中的NumPy2.4.4未卸载/修改，新NumPy只写入venv。依赖版本和实际回执见environments/MV-4_requirements.txt及evidence/MV-4/environment.json。
 
 MV2原始validation/gpu_edt在新环境实际导入成功，validation SHA `143c5403458ca3fad215880ac7afd14e4fd066fbee8342051a0cc49a083e4d54`与MV3每条指标一致。gpu_edt自行读取原有只读gpu_deps，未重新安装或重写其实现。当前仅准备完成，科学smoke/38区域执行尚未开始，等待完整权重MD5。
+
+## 完整权重与实际推理接入
+
+22:50后完整221241200 bytes权重已通过Zenodo发布者MD5，SHA256 `487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04`；已上传服务器独立MV4目录。初次smoke发现接入代码对ScriptModule调用requires_grad_不支持，改为逐参数冻结，不改官方源定义/权重/后处理；失败证据保存，修复commit404e1b9已推送。
+
+小图真实推理PASS。大图的官方Tiler在NumPy2/Numba0.61编译失败；仅将新venv改为NumPy1.26.4/Numba0.59.1/llvmlite0.42.0，编译通过后又暴露官方Tiler空overlap输入的IndexError。没有任何正式预测或GT指标。停止走分块兼容路径，直接采用官方默认整图tile_size=0；23:03香港时间最大4096×4096图像在GPU3实际PASS，不读GT。旧tile协议、成功小图/失败大图和日志全部存入服务器evidence/tiling_attempt_superseded；本地旧协议存configs/evaluation/history/MV-4_tiling_attempt_20261014.json。
+
+最终固定官方整图协议，scale/阈值/NMS/实例后处理和MV3数据不变。新controller仅用venv推理，评分/报告继续调用原meddinov3环境，避免NumPy兼容调整影响物理评测。正式38区域尚待新固定协议smoke和同一有界执行器启动；实际状态以新快照为准，未声称MitoNet Dice已得到。

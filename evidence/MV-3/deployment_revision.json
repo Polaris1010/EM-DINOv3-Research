@@ -1,0 +1,21 @@
+{
+  "code_commit": "08de7d0d90c3949c3a6e745fbf21f3a520584e3e",
+  "prepared_at_utc": "2026-10-14T03:09:09.806178+00:00",
+  "server_root": "/opt/data/3_117/tanghr/codex/mv_generalist_v1_20261014",
+  "source_files": {
+    "src/data.py": "9e50073969bc0b26a19e229635d2ce8fbee352f5699cb0559c194bd18f0bf96f",
+    "src/train.py": "8b449db9dd25d0ee3549838dfbc68c8aeb30f2fb8fe4a9ec7c019d5d53649b40",
+    "src/evaluate.py": "d8270d99401a6a6c1aea6ca8a5739b07372bf32b30fafcc5fb5be68914bccf44",
+    "src/run.py": "10a8e8cffe028656bebcb1e1f9f4412bc6d6c896ddabaec7fd476cb4a3c10e9c",
+    "src/report.py": "9988ca905d318816c3fd599b4277c7971127a4ae9ce7cca14588a85956ffd861",
+    "MV-Generalist-v1.json": "05482cb626620158f7da55f251a66ff91e3a4a32441c22439a9f852553e936d2",
+    "MV3_protocol.json": "5da884bdc4e3227620c53d9e034ec9b5d89d1ab580b6f7b2fdd7b97e4dad1ec2"
+  },
+  "physical_gpus": [
+    1,
+    2,
+    3
+  ],
+  "further_modules": false,
+  "revision_note": "Infrastructure-only: exclude GPU0 invisible host PID; no model run had started"
+}

@@ -1,4 +1,10 @@
+> MV3 v2三seed最终结果已完成：[最终报告](docs/MV3_final_report.md)，P0 Dice 0.813741、B100 0.826449，配对Δ+0.012707。六组40k、228条指标、18个checkpoint；任务停止，没有自动新实验。
+
+> 当前协议为 **MV-Generalist-v2**。用户明确指定“取消 mask 限制，整幅 GT 参与 loss”；仅 Han24 跳过 annotation mask，整幅 GT 参与采样、loss 和开发指标。其他来源、划分、冻结 encoder、原版 Primus、匹配 seeds、共同 40k 预算与 TTA=OFF 保持原配置。旧 v1 已停止并完整保留，不能混入 v2 对照。
+
 # EM-DINOv3-Research
+
+当前阶段为用户于2026-10-14授权的 [MV-3多来源监督Generalist训练](docs/MV3_PROTOCOL.md)，分支 `codex/mv3-generalist-training`。仅G-P0/G-B100，冻结encoder+原版Primus，共同40k预算与3 seeds；实际执行状态见 `experiments/MV-3/run_index.json`。MV2已完成，历史不改写。
 
 跨来源电子显微镜 2D 线粒体分割研究的事实仓库。主模型为 DINOv3 ViT-L/16，当前冻结评测使用原版 MedDINOv3 Primus_Multiscale。GitHub 远程为 [Polaris1010/EM-DINOv3-Research](https://github.com/Polaris1010/EM-DINOv3-Research)，已核验 private；首个 PR 与最新交付状态见 [GITHUB](docs/GITHUB.md)。
 

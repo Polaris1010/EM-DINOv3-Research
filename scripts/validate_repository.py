@@ -70,6 +70,16 @@ def validate(root=ROOT):
     assert ast.dump(ast.parse(upstream))==ast.dump(ast.parse(runtime)),'Primus differs from locked upstream source'
     assert sha(root,'src/segmentation/official_primus.upstream.py')==read(root,'evidence/primus/github_source_verification.json')['upstream_sha256']
     verify_metadata(root);verify_mv2(root)
+    for version in [1,2]:
+        base=f'configs/segmentation/MV-Generalist-v{version}'
+        if not (root/base/'manifest.json').exists():continue
+        from build_mv3_manifest import validate as validate_mv3
+        validate_mv3(read(root,base+'/manifest.json'))
+        mv3_protocol=read(root,base+'/protocol.json')
+        assert mv3_protocol['optimizer_steps']==40000 and mv3_protocol['milestones']==[10000,20000,40000]
+        assert mv3_protocol['models']=={'G-P0':'P0','G-B100':'B100k'} and mv3_protocol['interaction_indices']==[5,11,17,23]
+        assert not mv3_protocol['tta'] and not mv3_protocol['encoder_training'] and not mv3_protocol['fft_gates']
+        assert mv3_protocol['physical_gpus']==[1,2,3] and mv3_protocol['gpu0_forbidden']
     registry=read(root,'experiments/registry.yaml')
     assert registry==build_registry(root),'Registry is stale'
     identifiers=set()

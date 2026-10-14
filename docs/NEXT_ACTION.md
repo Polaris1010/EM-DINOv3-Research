@@ -1,4 +1,32 @@
-# 下一项已确定的行动
+# 当前任务完成后停止
+
+MV3 v2六组40k、228条指标与18个checkpoint完成；先读MV3_final_report.md、最终核验与work_logs/20261014_07_mv3_completion.md。当前服务已inactive，不恢复训练或评分。
+
+下一项科学决策为官方MitoNet同图像/有效GT对照，后续用户明确要求后执行。此轮没有启动MitoNet、Gram/HRA、TopoMask、LAST、LT或新预训练。
+
+## 以下为完成前计划，保留历史
+
+> 最新MV3终止状态 20261014T091140Z：complete。所有6组完成，先读MV3_final_report.md；不重启，不自动启动新实验。
+
+> 最新核查：2026-10-14 15:00香港时间，v2首seed两组40k及38区域×12来源完整开发评测已完成，Dice P0 0.8130 / B100 0.8273（+0.0143）。P0全部三个seed、B100前两个seed均已40k训练完成；追加seed的开发推理在运行，B100第三seed等待既定调度。尚无三seed最终报告。
+
+> 当前协议为 **MV-Generalist-v2**。用户明确指定“取消 mask 限制，整幅 GT 参与 loss”；仅 Han24 跳过 annotation mask，整幅 GT 参与采样、loss 和开发指标。其他来源、划分、冻结 encoder、原版 Primus、匹配 seeds、共同 40k 预算与 TTA=OFF 保持原配置。旧 v1 已停止并完整保留，不能混入 v2 对照。
+
+# 下一项已确定的行动：完成已授权MV-3
+
+2026-10-14用户已明确改为MV-3多来源监督训练，以下旧MV2结果收取计划被取代。不要按旧段落增加验证、推理、Linear Probe、Gram/HRA或新审计。
+
+当前分支 `codex/mv3-generalist-training`，服务器 `/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014`，service `mv3-generalist-v2-han-fullgt-20261014.service`。先读取现有STATUS、progress和最新evidence，禁止重复启动。只继续G-P0/G-B100、3匹配decoder seeds、各40000 optimizer steps的共同锁定协议。原版Primus，[5,11,17,23]，encoder冻结，TTA=OFF，GPU0禁用。
+
+v2两组实际smoke已PASS，相同decoder初始化和采样SHA，Han整幅crop参与loss；首seed两组已各13200正式steps（10k checkpoint已保存），详细状态以experiments/MV-3/v2/run_index.json及最新v2快照为准。2×40k完成后做38区域/12来源全开发验证及既有物理指标，再补20261015/20261016；有界执行器仅执行这6个run。
+
+MV-Generalist-v2：156 train/38 dev，12来源；部分探索性dev已转train，不再作为新验证；official test/已映射validation保留。Han整幅GT，不使用mask；有效区与每来源体积清单见 `experiments/MV-3/v2/MV3_source_coverage.csv`。v2全部194个区域复用现有图像/GT缓存只读；只有本轮元数据写入v2目录。不能把旧4-volume约束恢复成前置门槛。
+
+结束时收取MV3_final_report.md、18个milestone checkpoint SHA、逐区域/来源指标与配对变化，回答监督扩展收益、B100多来源优势、Guay/Müller变化、主要短板和优先改进方向。比较旧预测仅作同新heldout区域的描述性参照，不重新运行旧9个head，不改历史记录。保持共同40k预算，不为某个encoder单独追加训练。
+
+每轮将代码、状态和Markdown commit/push，实际报告完成前状态保持VERIFIED_RUNNING/PLANNED。最终报告后停止，不自动启动官方MitoNet或新预训练。详细协议见MV3_PROTOCOL，交接见NEW_WINDOW_HANDOFF。
+
+## 以下保留为上一轮历史计划
 
 **初始化PR已合并并交付main；下一项科学行动是收取已在运行的MV-2无TTA扩展结果，回答B100k对P0的收益是否跨更多来源成立。** 本轮仅完成代码和记录交付，不新增科学实验，也不重新启动MV-2。
 

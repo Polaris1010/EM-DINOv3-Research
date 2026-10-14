@@ -1,0 +1,53 @@
+{
+  "stage": "MV-3",
+  "model": "G-P0",
+  "seed": 20261014,
+  "region_id": "openorganelle_jrc_cos7-1a_recon-1_crop234",
+  "volume_id": "openorganelle_jrc_cos7-1a_recon-1_crop234",
+  "source_id": "openorganelle",
+  "dev_kind": "exploratory_acquisition_group_holdout",
+  "acquisition_id": "jrc_cos7-1a",
+  "region_zyx": [
+    [
+      0,
+      100
+    ],
+    [
+      0,
+      100
+    ],
+    [
+      0,
+      100
+    ]
+  ],
+  "spacing_zyx_nm": [
+    8.0,
+    8.0,
+    8.0
+  ],
+  "spacing_status": "official_ingest_native_grid",
+  "valid_mask_policy": "complete_declared_no_ignore",
+  "head_sha256": "4a1cd34e6b58188088883fd98b258ad2503a5ff20b606fcc2ae488375881297b",
+  "encoder_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+  "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "protocol_sha256": "916ac9fbbeba6b3e131c4d2f106c9c7dd3044acedef323eafbf82d160f90bff3",
+  "tta": false,
+  "dice": 0.5552669552669552,
+  "precision": 0.680179118548197,
+  "recall": 0.4691157347204161,
+  "tp": 8658,
+  "fp": 4071,
+  "fn": 9798,
+  "tn": 977473,
+  "foreground_empty_prediction": false,
+  "valid_voxels": 1000000,
+  "gt_foreground_voxels": 18456,
+  "prediction_foreground_voxels": 12729,
+  "predicted_foreground_fraction": 0.012729,
+  "hd95_nm": 586.1876831054688,
+  "nsd_16nm": 0.5537513494491577,
+  "metric_seconds": 3.092154026031494,
+  "distance_evaluator_source_sha256": "143c5403458ca3fad215880ac7afd14e4fd066fbee8342051a0cc49a083e4d54",
+  "distance_backend": "MV2_existing_exact_EDT_MONAI"
+}

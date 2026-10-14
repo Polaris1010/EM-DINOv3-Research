@@ -2,7 +2,7 @@ name: Validate research registry
 on:
   pull_request:
   push:
-    branches: [main, chore/bootstrap-research-registry]
+    branches: [main, chore/bootstrap-research-registry, 'codex/**']
 permissions:
   contents: read
 jobs:
@@ -13,6 +13,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - run: python -m pip install numpy==2.4.4
       - run: python scripts/update_registry.py --check
       - run: python scripts/validate_repository.py
       - run: python -m unittest discover -s tests -v

@@ -1,4 +1,32 @@
+# 当前研究状态：MV3 v2已完成
+
+2026-10-14香港时间17:10:18实际核验六组各40k、各38开发区域/12来源，共228条指标和18个checkpoint；服务器inactive/MainPID0，网站200、GPU0未使用，没有启动后续实验。最终报告与全部指标已收取并通过覆盖、混淆矩阵算术、SHA关联和三个seed配对核验。
+
+P0 Dice 0.813741±0.000827，B100 Dice 0.826449±0.000832；配对Δ+0.012707±0.001361。监督扩展的描述性同区域收益P0+0.4670、B100+0.4359，包含来源覆盖和20k→40k预算等改变，不声称单变量因果。B100主要收益在OpenOrganelle/Han/Turner，Guay/Müller仍低于P0，Haberl基本持平。当前短板仍为Haberl/Han/Guay/OpenOrganelle；下一项决策是MitoNet同图像GT对照，本轮停止。
+
+当前结果见docs/MV3_final_report.md、experiments/MV-3/v2/run_index.json和MV3_final_results_verification.json。MV1/MV2及v1历史记录保留。
+
+## 以下为完成前与盘点历史状态
+
+> 最新核查：2026-10-14 15:00香港时间，v2首seed两组40k及38区域×12来源完整开发评测已完成，Dice P0 0.8130 / B100 0.8273（+0.0143）。P0全部三个seed、B100前两个seed均已40k训练完成；追加seed的开发推理在运行，B100第三seed等待既定调度。尚无三seed最终报告。
+
 # 当前研究状态
+
+最新终止状态 20261014T091140Z：MV3 complete；实际产物见experiments/MV-3/v2，完整完成时报告为docs/MV3_final_report.md。
+
+## 最新阶段：2026-10-14 MV-3
+
+当前协议为 **MV-Generalist-v2**。用户明确指定“取消 mask 限制，整幅 GT 参与 loss”；仅 Han24 跳过 annotation mask，整幅 GT 参与采样、loss 和开发指标。其他来源、划分、冻结 encoder、原版 Primus、匹配 seeds、共同 40k 预算与 TTA=OFF 保持原配置。旧 v1 已停止并完整保留，不能混入 v2 对照。
+
+v1首seed双方各40k与完整开发推理已完成；69/76指标时因用户改变Han规则而停止，自有service inactive。旧结果保留，v2真实smoke双方PASS，已从相同初始化重启；当前13200steps/组的dated快照见v2登记与evidence，不代表40k完成。
+
+用户已明确授权进入MitoVerse多来源监督训练，取代初始化轮的只读范围。MV-2现已完成188区域×9组=1692条核心指标，12来源等权Dice：P0 0.3492、B100k 0.4067、B150k 0.4102；实证完成状态见 `evidence/MV-3/server_initial_status_20261014.json`。旧注册记录与结果保留原快照，不重写历史。
+
+本轮唯一任务MV-3：G-P0/G-B100 frozen encoder + original Primus，统一40k预算、3匹配seeds，TTA=OFF。当前锁定MV-Generalist-v2：156 train区域和38 dev区域，覆盖12来源；194个区域输入准备完成。Han按用户确认忽略mask、整幅GT参与loss/采样/指标，正式test排除；详情见MV3_PROTOCOL。
+
+实际smoke/训练/开发验证状态以 `experiments/MV-3/v2/run_index.json` 和最新带时间戳服务器快照为准，不能根据PLANNED字段声称已完成。旧9个head不再扩展验证。不启动200k SSL、B150k训练或新增模块。研究代码和每轮Markdown提交到 `codex/mv3-generalist-training`。
+
+以下2026-10-13盘点为保留的历史状态，MV-2曾running与main曾只有scaffold均已被后续实际交付取代。
 
 本轮事实快照：2026-10-13 19:33–19:36（Asia/Hong_Kong；精确 UTC 见 `evidence/collection_receipt.json`）。SSH 对服务器进行只读盘点，CPU 读取 checkpoint 元数据，无新训练/推理、环境安装、网站变更或进程停止。运行中的任务状态会变化，此文件不是实时监控。
 

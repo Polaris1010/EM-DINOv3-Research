@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "han": [
+    {
+      "id": "han24_neg0",
+      "shape_zyx": [
+        265,
+        1204,
+        1204
+      ],
+      "valid_voxels": 384148240,
+      "annotation_mask_used": false,
+      "gt_path_readonly": "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/cache/han24_neg0/label.npy"
+    },
+    {
+      "id": "han24_pos0",
+      "shape_zyx": [
+        362,
+        1756,
+        1650
+      ],
+      "valid_voxels": 1048858800,
+      "annotation_mask_used": false,
+      "gt_path_readonly": "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/cache/han24_pos0/label.npy"
+    },
+    {
+      "id": "han24_pos2",
+      "shape_zyx": [
+        281,
+        1343,
+        1243
+      ],
+      "valid_voxels": 469087069,
+      "annotation_mask_used": false,
+      "gt_path_readonly": "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/cache/han24_pos2/label.npy"
+    }
+  ],
+  "non_han_regions_identical": 191,
+  "han_native_training_crops_checked": 12,
+  "all_native_Han_pixels_supervised": true,
+  "gt_values_preserved": true,
+  "mask_arrays_read": false,
+  "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259"
+}

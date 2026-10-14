@@ -1,0 +1,885 @@
+{
+  "observed_at": "2026-10-14T04:56:12.801803+00:00",
+  "files": {
+    "STATUS.json": {
+      "status": "running",
+      "phase": "first_seed_train_and_infer",
+      "seconds": 55.45356059074402,
+      "physical_gpus": [
+        1,
+        2,
+        3
+      ],
+      "gpu0_used": false,
+      "website_http": 200,
+      "progress": {
+        "runs/G-P0/seed20261014/progress.json": {
+          "model": "G-P0",
+          "seed": 20261014,
+          "stage": "train",
+          "step": 500,
+          "steps": 40000,
+          "loss_median200": 0.5569965541362762,
+          "seconds": 22.76465916633606,
+          "source_draws": {
+            "openorganelle": 50,
+            "muller21": 33,
+            "han24": 39,
+            "turner22": 47,
+            "guay21": 46,
+            "mekuc20": 39,
+            "haberl18": 36,
+            "jiang25": 43,
+            "wei20": 42,
+            "casser20": 40,
+            "kunduri22": 35,
+            "xiao18": 50
+          },
+          "sampling_hash": "a2cf8e17fdf9af8fcf8da822e17d2b0f7c6d4e3f6a92726ae14ee0ea51e1dffc",
+          "lr": 9.996544524779046e-05
+        },
+        "runs/G-B100/seed20261014/progress.json": {
+          "model": "G-B100",
+          "seed": 20261014,
+          "stage": "train",
+          "step": 500,
+          "steps": 40000,
+          "loss_median200": 0.4329242706298828,
+          "seconds": 22.764747619628906,
+          "source_draws": {
+            "openorganelle": 50,
+            "muller21": 33,
+            "han24": 39,
+            "turner22": 47,
+            "guay21": 46,
+            "mekuc20": 39,
+            "haberl18": 36,
+            "jiang25": 43,
+            "wei20": 42,
+            "casser20": 40,
+            "kunduri22": 35,
+            "xiao18": 50
+          },
+          "sampling_hash": "a2cf8e17fdf9af8fcf8da822e17d2b0f7c6d4e3f6a92726ae14ee0ea51e1dffc",
+          "lr": 9.996544524779046e-05
+        }
+      },
+      "metrics_completed": 0,
+      "child_pids": [
+        3642566,
+        3642567
+      ]
+    },
+    "cache_complete.json": {
+      "status": "PASS",
+      "regions": 194,
+      "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259"
+    },
+    "evidence/smoke_pair.json": {
+      "status": "PASS",
+      "seed": 20261014,
+      "matched_initialization": true,
+      "matched_sampling": true
+    },
+    "evidence/deployment.json": {
+      "code_commit": "1e139513576984416c070a754eb62ad15f532e2f",
+      "new_root": "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014",
+      "parent_root": "/opt/data/3_117/tanghr/codex/mv_generalist_v1_20261014",
+      "user_instruction": "取消 mask 限制，整幅 GT 参与 loss",
+      "source_files": {
+        "src/data.py": "eec0819304a982113df3a9bac228c0666ba6fff1a451acf8a28a32305e0e3269",
+        "src/evaluate.py": "a84b3a5060a3baf0d2f959b712714cc0a3bebbbdacb1528e1338c2afdf81182d",
+        "src/report.py": "966f59d92d1f4d8fef5aae6a60893471295992039e122c3cd8c493f2d777eca3",
+        "src/run.py": "3c9b5563039134aa946eebe00f5cfe147f62f922afe6f08b72b4b65961233bf0",
+        "src/train.py": "745419cd404e41687a99a7c474948b4417820d9ea6bdc53b4d909c1422e4e22a",
+        "MV-Generalist.json": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+        "MV3_protocol.json": "916ac9fbbeba6b3e131c4d2f106c9c7dd3044acedef323eafbf82d160f90bff3"
+      },
+      "deployed_at": "2026-10-14T04:54:31.755417+00:00",
+      "existing_results_overwritten": false
+    },
+    "smoke/G-P0/seed20261014/smoke.json": {
+      "status": "PASS",
+      "stage": "MV3_SMOKE_ONLY",
+      "model": "G-P0",
+      "seed": 20261014,
+      "decoder_initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec",
+      "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+      "protocol_sha256": "916ac9fbbeba6b3e131c4d2f106c9c7dd3044acedef323eafbf82d160f90bff3",
+      "encoder_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+      "encoder_frozen": true,
+      "tta": false,
+      "trainable_parameters": 44576514,
+      "encoder_unchanged": true,
+      "ignore_loss_invariant": true,
+      "ignore_gradient_zero": true,
+      "checkpoint_roundtrip": true,
+      "physical_gpu": 1,
+      "train": [
+        {
+          "source_id": "casser20",
+          "loss": 2.080986738204956,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "casser20_kasthuri++_train__train",
+            "volume": "casser20_kasthuri++_train",
+            "source": "casser20",
+            "z_native": 45,
+            "y_native": 380,
+            "x_native": 400,
+            "foreground_centered": true,
+            "flips": [
+              true,
+              false
+            ]
+          }
+        },
+        {
+          "source_id": "guay21",
+          "loss": 1.4906021356582642,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "guay21_vol0",
+            "volume": "guay21_vol0",
+            "source": "guay21",
+            "z_native": 31,
+            "y_native": 401,
+            "x_native": 199,
+            "foreground_centered": true,
+            "flips": [
+              true,
+              true
+            ]
+          }
+        },
+        {
+          "source_id": "haberl18",
+          "loss": 1.2661495208740234,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "haberl18_vol0",
+            "volume": "haberl18_vol0",
+            "source": "haberl18",
+            "z_native": 6,
+            "y_native": 0,
+            "x_native": 0,
+            "foreground_centered": true,
+            "flips": [
+              true,
+              true
+            ]
+          }
+        },
+        {
+          "source_id": "han24",
+          "loss": 1.1416794061660767,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "han24_pos0",
+            "volume": "han24_pos0",
+            "source": "han24",
+            "z_native": 220,
+            "y_native": 1394,
+            "x_native": 1115,
+            "foreground_centered": false,
+            "flips": [
+              false,
+              false
+            ]
+          }
+        },
+        {
+          "source_id": "jiang25",
+          "loss": 1.0728824138641357,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "jiang25_vol1",
+            "volume": "jiang25_vol1",
+            "source": "jiang25",
+            "z_native": 9,
+            "y_native": 156,
+            "x_native": 44,
+            "foreground_centered": false,
+            "flips": [
+              true,
+              true
+            ]
+          }
+        },
+        {
+          "source_id": "kunduri22",
+          "loss": 1.9145983457565308,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "kunduri22_train01",
+            "volume": "kunduri22_train01",
+            "source": "kunduri22",
+            "z_native": 267,
+            "y_native": 669,
+            "x_native": 522,
+            "foreground_centered": false,
+            "flips": [
+              true,
+              true
+            ]
+          }
+        },
+        {
+          "source_id": "mekuc20",
+          "loss": 1.1618175506591797,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "mekuc20_fib1-3-2-1",
+            "volume": "mekuc20_fib1-3-2-1",
+            "source": "mekuc20",
+            "z_native": 180,
+            "y_native": 0,
+            "x_native": 0,
+            "foreground_centered": false,
+            "flips": [
+              true,
+              false
+            ]
+          }
+        },
+        {
+          "source_id": "muller21",
+          "loss": 1.0726089477539062,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "muller21_low_c1",
+            "volume": "muller21_low_c1",
+            "source": "muller21",
+            "z_native": 283,
+            "y_native": 421,
+            "x_native": 15,
+            "foreground_centered": false,
+            "flips": [
+              true,
+              false
+            ]
+          }
+        },
+        {
+          "source_id": "openorganelle",
+          "loss": 1.794068694114685,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "openorganelle_jrc_mus-liver-zon-2_recon-1_crop355",
+            "volume": "openorganelle_jrc_mus-liver-zon-2_recon-1_crop355",
+            "source": "openorganelle",
+            "z_native": 650,
+            "y_native": 344,
+            "x_native": 181,
+            "foreground_centered": false,
+            "flips": [
+              false,
+              false
+            ]
+          }
+        },
+        {
+          "source_id": "turner22",
+          "loss": 1.1751760244369507,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "turner22_pinky_stitched_vol40-vol41",
+            "volume": "turner22_pinky_stitched_vol40-vol41",
+            "source": "turner22",
+            "z_native": 21,
+            "y_native": 1133,
+            "x_native": 556,
+            "foreground_centered": false,
+            "flips": [
+              true,
+              false
+            ]
+          }
+        },
+        {
+          "source_id": "wei20",
+          "loss": 1.0318630933761597,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "wei20_mitoEM-R__train",
+            "volume": "wei20_mitoEM-R",
+            "source": "wei20",
+            "z_native": 277,
+            "y_native": 863,
+            "x_native": 490,
+            "foreground_centered": false,
+            "flips": [
+              false,
+              true
+            ]
+          }
+        },
+        {
+          "source_id": "xiao18",
+          "loss": 1.1022590398788452,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "xiao18_vol0__train",
+            "volume": "xiao18_vol0",
+            "source": "xiao18",
+            "z_native": 8,
+            "y_native": 227,
+            "x_native": 573,
+            "foreground_centered": true,
+            "flips": [
+              false,
+              true
+            ]
+          }
+        }
+      ],
+      "dev_smoke": [
+        {
+          "source_id": "casser20",
+          "region_id": "casser20_kasthuri++_train__dev",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "guay21",
+          "region_id": "guay21_vol1",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "haberl18",
+          "region_id": "haberl18_vol1",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "han24",
+          "region_id": "han24_pos2",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "jiang25",
+          "region_id": "jiang25_vol2",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "kunduri22",
+          "region_id": "kunduri22_train02",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "mekuc20",
+          "region_id": "mekuc20_fib1-4-3-0",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "muller21",
+          "region_id": "muller21_high_c1",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "openorganelle",
+          "region_id": "openorganelle_jrc_cos7-1a_recon-1_crop234",
+          "shape": [
+            100,
+            100
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "turner22",
+          "region_id": "turner22_microns1_vol0",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "wei20",
+          "region_id": "wei20_mitoEM-R__dev",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "xiao18",
+          "region_id": "xiao18_vol0__dev",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        }
+      ],
+      "sampling_sha256": "618f6629d0c4a9163ebe89ac7872564c7e0a634c67b6c92b3cc2816a1a50b65f",
+      "seconds": 6.762294769287109,
+      "peak_cuda_bytes": 2642898432
+    },
+    "smoke/G-B100/seed20261014/smoke.json": {
+      "status": "PASS",
+      "stage": "MV3_SMOKE_ONLY",
+      "model": "G-B100",
+      "seed": 20261014,
+      "decoder_initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec",
+      "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+      "protocol_sha256": "916ac9fbbeba6b3e131c4d2f106c9c7dd3044acedef323eafbf82d160f90bff3",
+      "encoder_sha256": "9603877244ba40f3cbeccdea18d69b0d3b818dc0fc6b09f839fd6d4189ce2de5",
+      "encoder_frozen": true,
+      "tta": false,
+      "trainable_parameters": 44576514,
+      "encoder_unchanged": true,
+      "ignore_loss_invariant": true,
+      "ignore_gradient_zero": true,
+      "checkpoint_roundtrip": true,
+      "physical_gpu": 2,
+      "train": [
+        {
+          "source_id": "casser20",
+          "loss": 2.0729663372039795,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "casser20_kasthuri++_train__train",
+            "volume": "casser20_kasthuri++_train",
+            "source": "casser20",
+            "z_native": 45,
+            "y_native": 380,
+            "x_native": 400,
+            "foreground_centered": true,
+            "flips": [
+              true,
+              false
+            ]
+          }
+        },
+        {
+          "source_id": "guay21",
+          "loss": 1.4883840084075928,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "guay21_vol0",
+            "volume": "guay21_vol0",
+            "source": "guay21",
+            "z_native": 31,
+            "y_native": 401,
+            "x_native": 199,
+            "foreground_centered": true,
+            "flips": [
+              true,
+              true
+            ]
+          }
+        },
+        {
+          "source_id": "haberl18",
+          "loss": 1.2581231594085693,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "haberl18_vol0",
+            "volume": "haberl18_vol0",
+            "source": "haberl18",
+            "z_native": 6,
+            "y_native": 0,
+            "x_native": 0,
+            "foreground_centered": true,
+            "flips": [
+              true,
+              true
+            ]
+          }
+        },
+        {
+          "source_id": "han24",
+          "loss": 1.1473495960235596,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "han24_pos0",
+            "volume": "han24_pos0",
+            "source": "han24",
+            "z_native": 220,
+            "y_native": 1394,
+            "x_native": 1115,
+            "foreground_centered": false,
+            "flips": [
+              false,
+              false
+            ]
+          }
+        },
+        {
+          "source_id": "jiang25",
+          "loss": 1.086010217666626,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "jiang25_vol1",
+            "volume": "jiang25_vol1",
+            "source": "jiang25",
+            "z_native": 9,
+            "y_native": 156,
+            "x_native": 44,
+            "foreground_centered": false,
+            "flips": [
+              true,
+              true
+            ]
+          }
+        },
+        {
+          "source_id": "kunduri22",
+          "loss": 1.895617961883545,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "kunduri22_train01",
+            "volume": "kunduri22_train01",
+            "source": "kunduri22",
+            "z_native": 267,
+            "y_native": 669,
+            "x_native": 522,
+            "foreground_centered": false,
+            "flips": [
+              true,
+              true
+            ]
+          }
+        },
+        {
+          "source_id": "mekuc20",
+          "loss": 1.1533267498016357,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "mekuc20_fib1-3-2-1",
+            "volume": "mekuc20_fib1-3-2-1",
+            "source": "mekuc20",
+            "z_native": 180,
+            "y_native": 0,
+            "x_native": 0,
+            "foreground_centered": false,
+            "flips": [
+              true,
+              false
+            ]
+          }
+        },
+        {
+          "source_id": "muller21",
+          "loss": 1.0738214254379272,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "muller21_low_c1",
+            "volume": "muller21_low_c1",
+            "source": "muller21",
+            "z_native": 283,
+            "y_native": 421,
+            "x_native": 15,
+            "foreground_centered": false,
+            "flips": [
+              true,
+              false
+            ]
+          }
+        },
+        {
+          "source_id": "openorganelle",
+          "loss": 1.790777564048767,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "openorganelle_jrc_mus-liver-zon-2_recon-1_crop355",
+            "volume": "openorganelle_jrc_mus-liver-zon-2_recon-1_crop355",
+            "source": "openorganelle",
+            "z_native": 650,
+            "y_native": 344,
+            "x_native": 181,
+            "foreground_centered": false,
+            "flips": [
+              false,
+              false
+            ]
+          }
+        },
+        {
+          "source_id": "turner22",
+          "loss": 1.1815204620361328,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "turner22_pinky_stitched_vol40-vol41",
+            "volume": "turner22_pinky_stitched_vol40-vol41",
+            "source": "turner22",
+            "z_native": 21,
+            "y_native": 1133,
+            "x_native": 556,
+            "foreground_centered": false,
+            "flips": [
+              true,
+              false
+            ]
+          }
+        },
+        {
+          "source_id": "wei20",
+          "loss": 1.0297220945358276,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "wei20_mitoEM-R__train",
+            "volume": "wei20_mitoEM-R",
+            "source": "wei20",
+            "z_native": 277,
+            "y_native": 863,
+            "x_native": 490,
+            "foreground_centered": false,
+            "flips": [
+              false,
+              true
+            ]
+          }
+        },
+        {
+          "source_id": "xiao18",
+          "loss": 1.0934010744094849,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "xiao18_vol0__train",
+            "volume": "xiao18_vol0",
+            "source": "xiao18",
+            "z_native": 8,
+            "y_native": 227,
+            "x_native": 573,
+            "foreground_centered": true,
+            "flips": [
+              false,
+              true
+            ]
+          }
+        }
+      ],
+      "dev_smoke": [
+        {
+          "source_id": "casser20",
+          "region_id": "casser20_kasthuri++_train__dev",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "guay21",
+          "region_id": "guay21_vol1",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "haberl18",
+          "region_id": "haberl18_vol1",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "han24",
+          "region_id": "han24_pos2",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "jiang25",
+          "region_id": "jiang25_vol2",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "kunduri22",
+          "region_id": "kunduri22_train02",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "mekuc20",
+          "region_id": "mekuc20_fib1-4-3-0",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "muller21",
+          "region_id": "muller21_high_c1",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "openorganelle",
+          "region_id": "openorganelle_jrc_cos7-1a_recon-1_crop234",
+          "shape": [
+            100,
+            100
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "turner22",
+          "region_id": "turner22_microns1_vol0",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "wei20",
+          "region_id": "wei20_mitoEM-R__dev",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "xiao18",
+          "region_id": "xiao18_vol0__dev",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        }
+      ],
+      "sampling_sha256": "618f6629d0c4a9163ebe89ac7872564c7e0a634c67b6c92b3cc2816a1a50b65f",
+      "seconds": 6.62918758392334,
+      "peak_cuda_bytes": 2642898432
+    },
+    "runs/G-P0/seed20261014/progress.json": {
+      "model": "G-P0",
+      "seed": 20261014,
+      "stage": "train",
+      "step": 600,
+      "steps": 40000,
+      "loss_median200": 0.533341258764267,
+      "seconds": 27.07048201560974,
+      "source_draws": {
+        "openorganelle": 58,
+        "muller21": 37,
+        "han24": 49,
+        "turner22": 58,
+        "guay21": 58,
+        "mekuc20": 47,
+        "haberl18": 42,
+        "jiang25": 53,
+        "wei20": 48,
+        "casser20": 45,
+        "kunduri22": 48,
+        "xiao18": 57
+      },
+      "sampling_hash": "398f063a15fbf3c08d2feb9b91860ac3c4df32e59914ef26b2463aaf735ee01d",
+      "lr": 9.995021072259068e-05
+    },
+    "runs/G-B100/seed20261014/progress.json": {
+      "model": "G-B100",
+      "seed": 20261014,
+      "stage": "train",
+      "step": 600,
+      "steps": 40000,
+      "loss_median200": 0.4423012435436249,
+      "seconds": 27.070951461791992,
+      "source_draws": {
+        "openorganelle": 58,
+        "muller21": 37,
+        "han24": 49,
+        "turner22": 58,
+        "guay21": 58,
+        "mekuc20": 47,
+        "haberl18": 42,
+        "jiang25": 53,
+        "wei20": 48,
+        "casser20": 45,
+        "kunduri22": 48,
+        "xiao18": 57
+      },
+      "sampling_hash": "398f063a15fbf3c08d2feb9b91860ac3c4df32e59914ef26b2463aaf735ee01d",
+      "lr": 9.995021072259068e-05
+    }
+  },
+  "logs": {
+    "smoke_G-B100.log": "SMOKE_PASS G-B100 6.62918758392334\n",
+    "first_G-P0.log": "",
+    "cache.log": "E_READY turner22_pinky_vol503 138412032\nCACHE_READY openorganelle_jrc_zf-cardiac-1_recon-1_crop380 160000000\nCACHE_READY openorganelle_jrc_zf-cardiac-1_recon-1_crop381 160000000\nCACHE_READY turner22_pinky_stitched_vol40-vol41 160432128\nCACHE_READY openorganelle_jrc_mus-kidney_recon-1_crop221 216000000\nCACHE_READY openorganelle_jrc_jurkat-1_recon-1_test0 268435456\nCACHE_READY openorganelle_jrc_macrophage-2_recon-1_test0 268435456\nCACHE_READY openorganelle_jrc_mus-kidney_recon-1_test0 268435456\nCACHE_READY openorganelle_jrc_mus-liver_recon-1_test0 268435456\nCACHE_READY openorganelle_jrc_zf-cardiac-1_recon-1_test0 268435456\nCACHE_READY openorganelle_jrc_mus-kidney_recon-1_crop184 288000000\nCACHE_READY turner22_pinky_vol501 339738624\nCACHE_READY han24_neg0 384148240\nCACHE_READY openorganelle_jrc_cos7-1b_recon-1_crop238 401760000\nCACHE_READY kunduri22_train01 402653184\nCACHE_READY turner22_pinky_stitched_vol19-vol34 419430400\nCACHE_READY muller21_low_c1 455853900\nCACHE_READY han24_pos2 469087069\nCACHE_READY openorganelle_jrc_mus-kidney_recon-1_crop230 512000000\nCACHE_READY openorganelle_jrc_mus-kidney_recon-1_crop231 512000000\nCACHE_READY openorganelle_jrc_mus-liver-zon-1_recon-1_crop345 512000000\nCACHE_READY openorganelle_jrc_mus-liver-zon-1_recon-1_crop346 512000000\nCACHE_READY openorganelle_jrc_mus-liver-zon-2_recon-1_crop355 512000000\nCACHE_READY openorganelle_jrc_mus-liver-zon-2_recon-1_crop356 512000000\nCACHE_READY openorganelle_jrc_mus-liver_recon-1_crop177 512000000\nCACHE_READY muller21_high_c1 582770280\nCACHE_READY muller21_high_c3 584358060\nCACHE_READY muller21_low_c2 619417892\nCACHE_READY turner22_pinky_stitched_vol19-vol34_realigned 780730368\nCACHE_READY han24_pos0 1048858800\nCACHE_READY wei20_mitoEM-R__dev 1677721600\nCACHE_READY wei20_mitoEM-R__train 6710886400\n",
+    "first_G-B100.log": "",
+    "controller.log": "",
+    "smoke_G-P0.log": "SMOKE_PASS G-P0 6.762294769287109\n"
+  },
+  "service": "MainPID=3642098\nResult=success\nActiveState=active\n",
+  "gpu": "0, 0 %, 3092 MiB, 21124 MiB\n1, 56 %, 3828 MiB, 20389 MiB\n2, 54 %, 3828 MiB, 20389 MiB\n3, 0 %, 0 MiB, 24217 MiB\n",
+  "website": 200
+}

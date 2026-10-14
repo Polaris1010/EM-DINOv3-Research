@@ -1,0 +1,13 @@
+{
+  "status": "validated",
+  "valid_region": "mask != 0",
+  "ignore_index": -1,
+  "primary_source": "https://www.nature.com/articles/s41467-024-50411-z",
+  "paper_rule": "Supervised loss restricted to annotated mossy-terminal regions",
+  "local_polarity": "Region-valued nonzero mask identifies the annotated terminals; supported by primary method and overwhelming local foreground containment",
+  "outside_foreground_voxels": 79683,
+  "outside_label_policy": "Ignore; never convert into background or expand the valid mask to fit labels",
+  "inference": "Local polarity inferred from primary method plus region IDs and exhaustive local array audit; exact exporter definition unavailable",
+  "scope": "Supervised training only; not an SSL image filter",
+  "original_identity_gate": "Still pending scan/ROI provenance; mask correction does not prove dataset independence"
+}

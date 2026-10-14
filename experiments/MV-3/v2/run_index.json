@@ -1,0 +1,104 @@
+{
+  "stage": "MV-3",
+  "server_root": "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014",
+  "authorized_at": "2026-10-14 Asia/Hong_Kong; user MV-3 execution request",
+  "protocol": "configs/segmentation/MV-Generalist-v2/protocol.json",
+  "manifest": "configs/segmentation/MV-Generalist-v2/manifest.json",
+  "train_regions": 156,
+  "dev_regions": 38,
+  "train_sources": 12,
+  "dev_sources": 12,
+  "runs": [
+    {
+      "model": "G-P0",
+      "seed": 20261014,
+      "status": "VERIFIED_COMPLETED",
+      "execution_state": "TRAIN_AND_FULL_DEVELOPMENT_COMPLETE",
+      "completed_steps": 40000,
+      "decoder_initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec",
+      "sampling_hash": "45b8763f399df51c4455e4a791e6c32b2e9d6dfd9e5ba9ec988bbebb8b883d64",
+      "milestone_sidecars": [
+        "experiments/MV-3/v2/runs/G-P0/seed20261014/head_step010000.json"
+      ],
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/head_step040000.pth",
+      "checkpoint_sha256": "4a1cd34e6b58188088883fd98b258ad2503a5ff20b606fcc2ae488375881297b",
+      "metrics_path": "experiments/MV-3/v2/MV3_per_region_metrics.csv",
+      "report_path": "docs/MV3_final_report.md"
+    },
+    {
+      "model": "G-B100",
+      "seed": 20261014,
+      "status": "VERIFIED_COMPLETED",
+      "execution_state": "TRAIN_AND_FULL_DEVELOPMENT_COMPLETE",
+      "completed_steps": 40000,
+      "decoder_initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec",
+      "sampling_hash": "45b8763f399df51c4455e4a791e6c32b2e9d6dfd9e5ba9ec988bbebb8b883d64",
+      "milestone_sidecars": [
+        "experiments/MV-3/v2/runs/G-B100/seed20261014/head_step010000.json"
+      ],
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/head_step040000.pth",
+      "checkpoint_sha256": "c667fc7169dc74749e1e55a0a180232f844bba78024633429bcae922ba0fcfb3",
+      "metrics_path": "experiments/MV-3/v2/MV3_per_region_metrics.csv",
+      "report_path": "docs/MV3_final_report.md"
+    },
+    {
+      "model": "G-P0",
+      "seed": 20261015,
+      "status": "VERIFIED_COMPLETED",
+      "completed_steps": 40000,
+      "decoder_initial_sha256": "17d5a0fc3570cf232e74945e027b1c10c3b728b673d33a76108223a4c1c92a35",
+      "sampling_hash": "28b7ed4e628b2fe7c94fabf3bdcbbf81786d8de3751019ad77aa1000f7c0a73f",
+      "execution_state": "TRAIN_AND_FULL_DEVELOPMENT_COMPLETE",
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/head_step040000.pth",
+      "checkpoint_sha256": "e83f4f6bafad5dc46a1973bff8510ae67ef4273fc0b64fb28d2b9700579616fe",
+      "metrics_path": "experiments/MV-3/v2/MV3_per_region_metrics.csv",
+      "report_path": "docs/MV3_final_report.md"
+    },
+    {
+      "model": "G-B100",
+      "seed": 20261015,
+      "status": "VERIFIED_COMPLETED",
+      "completed_steps": 40000,
+      "decoder_initial_sha256": "17d5a0fc3570cf232e74945e027b1c10c3b728b673d33a76108223a4c1c92a35",
+      "sampling_hash": "28b7ed4e628b2fe7c94fabf3bdcbbf81786d8de3751019ad77aa1000f7c0a73f",
+      "execution_state": "TRAIN_AND_FULL_DEVELOPMENT_COMPLETE",
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/head_step040000.pth",
+      "checkpoint_sha256": "1df2ad04f5171f6988866da689774808cbf63786b2ba45f50938d26e83921b19",
+      "metrics_path": "experiments/MV-3/v2/MV3_per_region_metrics.csv",
+      "report_path": "docs/MV3_final_report.md"
+    },
+    {
+      "model": "G-P0",
+      "seed": 20261016,
+      "status": "VERIFIED_COMPLETED",
+      "completed_steps": 40000,
+      "execution_state": "TRAIN_AND_FULL_DEVELOPMENT_COMPLETE",
+      "decoder_initial_sha256": "8889b6cfc83e04719ad5ac54f6755f3124cf248e7e40c8a6c4eb1c847eb9bcf4",
+      "sampling_hash": "9bc5c7ba836765d8eadae3c5e2a022307692522ceaa9a25d6c1cd80795af4199",
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/head_step040000.pth",
+      "checkpoint_sha256": "ef5a30adc2a7f9d2af79e45a71a37e389bf7c67b3a8c7ac0fe115bb422ce7e3e",
+      "metrics_path": "experiments/MV-3/v2/MV3_per_region_metrics.csv",
+      "report_path": "docs/MV3_final_report.md"
+    },
+    {
+      "model": "G-B100",
+      "seed": 20261016,
+      "status": "VERIFIED_COMPLETED",
+      "completed_steps": 40000,
+      "decoder_initial_sha256": "8889b6cfc83e04719ad5ac54f6755f3124cf248e7e40c8a6c4eb1c847eb9bcf4",
+      "sampling_hash": "9bc5c7ba836765d8eadae3c5e2a022307692522ceaa9a25d6c1cd80795af4199",
+      "execution_state": "TRAIN_AND_FULL_DEVELOPMENT_COMPLETE",
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/head_step040000.pth",
+      "checkpoint_sha256": "1336f70347a61c72d5e38311510240dcc5271e222c62285ea73a616b0fcf133c",
+      "metrics_path": "experiments/MV-3/v2/MV3_per_region_metrics.csv",
+      "report_path": "docs/MV3_final_report.md"
+    }
+  ],
+  "version": 2,
+  "observed_at": "20261014T091140Z",
+  "code_commit": "1e139513576984416c070a754eb62ad15f532e2f",
+  "status_evidence": "evidence/MV-3/v2/final_status_20261014T091140Z.json",
+  "smoke_pair_status": "PASS",
+  "loader_check_evidence": "evidence/MV-3/v2/han_fullgt_loader_check_20261014.json",
+  "first_seed_evaluation_complete": true
+}

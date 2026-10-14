@@ -1,0 +1,9 @@
+{
+  "stage": "full_development_inference",
+  "model": "G-B100",
+  "seed": 20261015,
+  "region_id": "wei20_mitoEM-R__dev",
+  "z_completed": 81,
+  "z_total": 100,
+  "seconds": 1710.6601796150208
+}

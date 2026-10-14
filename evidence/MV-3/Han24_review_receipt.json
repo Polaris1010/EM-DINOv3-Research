@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "model_output_used": false,
+  "new_full_audit": false,
+  "training_changed": false,
+  "rows": [
+    {
+      "volume_id": "han24_neg0",
+      "native_z": 132,
+      "selection": "middle of existing legal valid-Z list, no predictions consulted",
+      "native_shape_yx": [
+        1204,
+        1204
+      ],
+      "mask_values": [
+        0,
+        13
+      ],
+      "valid_pixels": 270948,
+      "GT_foreground_inside": 67885,
+      "GT_foreground_outside": 0,
+      "native_slice_sha256": {
+        "image": "430a745a50bae8de81ba3d2f674c0fb7f7cb4aca2831ad711405cbd2c0b9c809",
+        "label": "f3fdf36eceb0665fc1a736cc72df29dc0fd8935b2ee98830599a5b169ee17271",
+        "mask": "a6d6175fd690a6c458ac708823505ebb484bd7bdd6cee3680747a1cf8a45353f"
+      },
+      "live_loader_equals_native_mask_nonzero": true,
+      "zoom_bounds_yxyx": [
+        402,
+        1042,
+        374,
+        1014
+      ],
+      "composite_file": "/opt/data/3_117/tanghr/codex/mv_generalist_v1_20261014/review/Han24/han24_neg0_raw_gt_mask.png",
+      "visualization": "top whole-slice / bottom identical native crop; no image normalization, GT>0 semantic colors; original integer labels unchanged",
+      "test_pixels_read": false
+    },
+    {
+      "volume_id": "han24_pos0",
+      "native_z": 181,
+      "selection": "middle of existing legal valid-Z list, no predictions consulted",
+      "native_shape_yx": [
+        1756,
+        1650
+      ],
+      "mask_values": [
+        0,
+        1
+      ],
+      "valid_pixels": 399162,
+      "GT_foreground_inside": 92751,
+      "GT_foreground_outside": 0,
+      "native_slice_sha256": {
+        "image": "a2d453bbe2d840c210abf1751ec88c53f06fdd812e99aa6e610aea1f881802c1",
+        "label": "8c509937019b944840d33d39101f7a6cbfbc7733bea3952091a0a34bcf143c12",
+        "mask": "a0a1a9df8bb1822f44460a5b25ef49e703ff3e0c8d2408d1ecdff9ce0498196c"
+      },
+      "live_loader_equals_native_mask_nonzero": true,
+      "zoom_bounds_yxyx": [
+        483,
+        1123,
+        663,
+        1303
+      ],
+      "composite_file": "/opt/data/3_117/tanghr/codex/mv_generalist_v1_20261014/review/Han24/han24_pos0_raw_gt_mask.png",
+      "visualization": "top whole-slice / bottom identical native crop; no image normalization, GT>0 semantic colors; original integer labels unchanged",
+      "test_pixels_read": false
+    },
+    {
+      "volume_id": "han24_pos2",
+      "native_z": 140,
+      "selection": "middle of existing legal valid-Z list, no predictions consulted",
+      "native_shape_yx": [
+        1343,
+        1243
+      ],
+      "mask_values": [
+        0,
+        12
+      ],
+      "valid_pixels": 286507,
+      "GT_foreground_inside": 62917,
+      "GT_foreground_outside": 0,
+      "native_slice_sha256": {
+        "image": "0d696cf214bebd63d57561d2c51381e716502ae3ab085936b6eb6a8434263912",
+        "label": "c683bae752e77031e5d4563f73f73fba4c45cd04148d3bfa2529c46914fb4f8b",
+        "mask": "09253d8f6dd0b94320017a1a400289134d658cb82c65b4795b2737e88af87fa1"
+      },
+      "live_loader_equals_native_mask_nonzero": true,
+      "zoom_bounds_yxyx": [
+        190,
+        830,
+        39,
+        679
+      ],
+      "composite_file": "/opt/data/3_117/tanghr/codex/mv_generalist_v1_20261014/review/Han24/han24_pos2_raw_gt_mask.png",
+      "visualization": "top whole-slice / bottom identical native crop; no image normalization, GT>0 semantic colors; original integer labels unchanged",
+      "test_pixels_read": false
+    }
+  ]
+}

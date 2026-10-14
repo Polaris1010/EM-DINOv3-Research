@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-14T07:12:15.138389+00:00",
+  "metric_rows": 76,
+  "regions_per_run": 38,
+  "sources": 12,
+  "decoder_seeds": [
+    20261014
+  ],
+  "checkpoint_sidecars": 6,
+  "matched": [
+    {
+      "seed": 20261014,
+      "matched_initialization": true,
+      "matched_sampling": true,
+      "steps_each": 40000
+    }
+  ],
+  "source_equal_paired_delta_mean": 0.014263777548107148,
+  "source_equal_paired_decoder_seed_sd": null,
+  "checkpoint_hash_evidence": "server save/inference digests and collected sidecars; no checkpoint downloads",
+  "new_experiments_started": false
+}

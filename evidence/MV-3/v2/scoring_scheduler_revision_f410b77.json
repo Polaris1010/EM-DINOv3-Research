@@ -1,0 +1,21 @@
+{
+  "code_commit": "f410b772f15e8fc29e3136bb6ba7c377d23beb35",
+  "execution_only": true,
+  "max_score_workers": 3,
+  "physical_gpus": [
+    1,
+    2,
+    3
+  ],
+  "gpu0_used": false,
+  "poll_seconds": 1,
+  "memory_reservation": "45*valid_voxels+4GiB per active process;16GiB global reserve; conservative reservation also deducts active estimates from currently available RAM",
+  "training_repeated": false,
+  "inference_repeated": false,
+  "evaluator_changed": false,
+  "source_files": {
+    "src/run.py": "8e770245e0be1c1c5295ad3499d600bb636a5fb209054d10358a555835a73031",
+    "src/scoring_queue.py": "a19fbdc5e92598bd71522631f38ca4e8424e76f1fa32ac5482f160b8c6f2e736"
+  },
+  "recorded_at_utc": "2026-10-14T09:02:49.124652+00:00"
+}

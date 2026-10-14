@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "seed": 20261014,
+  "decoder_initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec",
+  "sampling_hash": "45b8763f399df51c4455e4a791e6c32b2e9d6dfd9e5ba9ec988bbebb8b883d64",
+  "source_draws": {
+    "openorganelle": 3334,
+    "muller21": 3336,
+    "han24": 3380,
+    "turner22": 3391,
+    "guay21": 3264,
+    "mekuc20": 3223,
+    "haberl18": 3400,
+    "jiang25": 3323,
+    "wei20": 3314,
+    "casser20": 3316,
+    "kunduri22": 3411,
+    "xiao18": 3308
+  },
+  "steps_each": 40000,
+  "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "protocol_sha256": "916ac9fbbeba6b3e131c4d2f106c9c7dd3044acedef323eafbf82d160f90bff3"
+}

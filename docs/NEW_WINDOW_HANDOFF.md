@@ -1,4 +1,32 @@
+# MV3已完成：新窗口先读最终报告
+
+当前MV-Generalist-v2已完成六组×40000 steps、228条全开发指标、18个checkpoint。服务器service inactive、MainPID=0，网站200；GPU0未使用，没有自动新实验。先读[MV3_final_report.md](MV3_final_report.md)、experiments/MV-3/v2的指标与最终核验、最新work_logs记录。
+
+三seed来源等权Dice：P0 0.813741±0.000827，B100 0.826449±0.000832；配对Δ=+0.012707±0.001361（decoder seed样本SD）。三个seed差值均正；Guay/Müller持续略低，Haberl基本持平。数据协议和监督预算改变的旧预测对照另表保存，不混成同一排行榜。
+
+本轮已经结束，不恢复MV3或旧watcher，不自动运行MitoNet/SSL。下一项研究决策是同图像/有效GT的官方MitoNet对照，须后续用户任务再执行。当前分支codex/mv3-generalist-training、draft PR2，未经自动合并。
+
+## 以下为完成前的交接快照
+
+> 最新MV3终止状态 20261014T091140Z：complete。所有6组完成，先读MV3_final_report.md；不重启，不自动启动新实验。
+
+> 最新核查：2026-10-14 15:00香港时间，v2首seed两组40k及38区域×12来源完整开发评测已完成，Dice P0 0.8130 / B100 0.8273（+0.0143）。P0全部三个seed、B100前两个seed均已40k训练完成；追加seed的开发推理在运行，B100第三seed等待既定调度。尚无三seed最终报告。
+
 # 新窗口交接
+
+当前协议为 **MV-Generalist-v2**。用户明确指定“取消 mask 限制，整幅 GT 参与 loss”；仅 Han24 跳过 annotation mask，整幅 GT 参与采样、loss 和开发指标。其他来源、划分、冻结 encoder、原版 Primus、匹配 seeds、共同 40k 预算与 TTA=OFF 保持原配置。旧 v1 已停止并完整保留，不能混入 v2 对照。
+
+分支 `codex/mv3-generalist-training`，draft PR #2。先读最新工作记录、MV3_PROTOCOL和 `experiments/MV-3/v2/run_index.json`，核验新service实际状态；不重复启动。当前服务器根目录 `/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014`，service `mv3-generalist-v2-han-fullgt-20261014.service`。v1根目录保持只读历史，v1 service已inactive，不恢复。
+
+旧v1首seed两组各40k并完成全开发推理，69/76开发指标时停止，其他seeds尚未启动。版本更改来自用户指令，不依据Dice，也不重新全面审计。仅Han改变有效区使用；v2双方从头训练，六组共同40k预算、首seed全来源指标后再补另外两seed。
+
+本地被动收取器源码 `scripts/watch_mv3_results.py`，只等待v2终止，默认v2根目录。核验 `artifacts/mv3_control_20261014/collector_pid.json` 的server_root与实际PID命令；旧PID12992已停止，停止回执见collector_stopped_for_han_fullgt.json。原collector PID156036因SSH断线已退出；当前collector PID194460已重新启动且支持有界重连，server_root为v2；有48小时上限，完成时收取/push报告及指标，不启动实验；工作区不干净则留在collected_v2_results。服务器有界执行器独立于本地窗口。
+
+Han三份原图/GT/mask并排照片在本地 `artifacts/mv3_control_20261014/Han24_review`。旧Han24_mask_review记录的是v1证据判断，其黄色图为原始mask非零可视化；在v2中不再用它定义有效区。
+
+MV2已完成1692条核心指标，不追加旧9个head验证。当前156train/38dev区域、12来源，官方test/val保留。GPU0禁用，网站/环境/历史不改。每轮代码和MD提交推送，最终报告后停止。
+
+以下内容为上一轮交接，旧MV2运行中记录不再代表当前状态。
 
 当前研究仓库与网站分开。首PR保存服务器只读盘点、26条实验记录、115份精选来源快照；本轮另补664份本地历史源码/配置/记录，其中76份Markdown。精选实际运行代码位于 `src/`，本地历史代码位于 `archive/research/`，历史Markdown位于 `docs/history/`。每份历史文件的来源、字节数和SHA位于 `evidence/history_file_index.json`；归档本身不证明实验已运行。
 

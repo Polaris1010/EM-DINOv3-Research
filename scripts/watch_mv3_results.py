@@ -108,19 +108,33 @@ def publish(folder,status):
    if attempt==11:raise
    time.sleep(60)
 
-def watch(password):
- client=paramiko.SSHClient();client.set_missing_host_key_policy(paramiko.AutoAddPolicy());client.connect('192.168.203.97',username='root',password=password,look_for_keys=False,allow_agent=False,timeout=60);client.get_transport().set_keepalive(30)
- deadline=time.time()+48*3600
+def watch(password,max_seconds=48*3600,poll_seconds=120,retry_seconds=30):
+ client=None;deadline=time.time()+max_seconds
  try:
   while time.time()<deadline:
-   with client.open_sftp() as sftp:
-    status=read_remote(sftp,'STATUS.json')
-    print(datetime.datetime.now(datetime.timezone.utc).isoformat(),status.get('status'),status.get('phase'),flush=True)
-    if status.get('status') in ['complete','failed']:
-     folder=collect(sftp,status);result=publish(folder,status);(SCRATCH/'collector_result.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8',newline='\n');print(json.dumps(result),flush=True);return
-   time.sleep(120)
+   terminal=None
+   try:
+    if client is None:
+     client=paramiko.SSHClient();client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+     client.connect('192.168.203.97',username='root',password=password,look_for_keys=False,allow_agent=False,timeout=min(60,max(1,deadline-time.time())))
+     client.get_transport().set_keepalive(30)
+    with client.open_sftp() as sftp:
+     status=read_remote(sftp,'STATUS.json')
+     print(datetime.datetime.now(datetime.timezone.utc).isoformat(),status.get('status'),status.get('phase'),flush=True)
+     if status.get('status') in ['complete','failed']:terminal=collect(sftp,status)
+   except paramiko.AuthenticationException:raise
+   except (OSError,EOFError,paramiko.SSHException) as error:
+    if client is not None:client.close()
+    client=None
+    print('SSH_RECONNECT_PENDING',type(error).__name__,flush=True)
+    time.sleep(min(retry_seconds,max(0,deadline-time.time())));continue
+   if terminal is not None:
+    # Publishing errors are kept separate from transport retries; do not repeat Git writes.
+    result=publish(terminal,status);(SCRATCH/'collector_result.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8',newline='\n');print(json.dumps(result),flush=True);return
+   time.sleep(min(poll_seconds,max(0,deadline-time.time())))
   raise TimeoutError('Bounded collection window expired; server outputs preserved')
- finally:client.close()
+ finally:
+  if client is not None:client.close()
 
 if __name__=='__main__':
  ap=argparse.ArgumentParser();ap.add_argument('--watch-stdin',action='store_true');ap.add_argument('--launch',action='store_true');a=ap.parse_args()

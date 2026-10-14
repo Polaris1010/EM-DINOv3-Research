@@ -12,41 +12,61 @@
     {
       "model": "G-P0",
       "seed": 20261014,
-      "status": "VERIFIED_RUNNING",
-      "execution_state": "V2_FULL_GT_FORMAL_TRAINING_STARTED",
-      "completed_steps": 13200,
+      "status": "VERIFIED_COMPLETED",
+      "execution_state": "TRAIN_AND_FULL_DEVELOPMENT_COMPLETE",
+      "completed_steps": 40000,
       "decoder_initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec",
-      "sampling_hash": "e891f279c6bae722b47f6d5b4cceabda3abe97bfea2ed93abc6fa3cbdaff3635",
+      "sampling_hash": "45b8763f399df51c4455e4a791e6c32b2e9d6dfd9e5ba9ec988bbebb8b883d64",
       "milestone_sidecars": [
         "experiments/MV-3/v2/runs/G-P0/seed20261014/head_step010000.json"
-      ]
+      ],
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/head_step040000.pth",
+      "checkpoint_sha256": "4a1cd34e6b58188088883fd98b258ad2503a5ff20b606fcc2ae488375881297b",
+      "metrics_path": "experiments/MV-3/v2/MV3_first_seed_metrics.csv",
+      "report_path": "docs/MV3_first_seed_report.md"
     },
     {
       "model": "G-B100",
       "seed": 20261014,
-      "status": "VERIFIED_RUNNING",
-      "execution_state": "V2_FULL_GT_FORMAL_TRAINING_STARTED",
-      "completed_steps": 13200,
+      "status": "VERIFIED_COMPLETED",
+      "execution_state": "TRAIN_AND_FULL_DEVELOPMENT_COMPLETE",
+      "completed_steps": 40000,
       "decoder_initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec",
-      "sampling_hash": "e891f279c6bae722b47f6d5b4cceabda3abe97bfea2ed93abc6fa3cbdaff3635",
+      "sampling_hash": "45b8763f399df51c4455e4a791e6c32b2e9d6dfd9e5ba9ec988bbebb8b883d64",
       "milestone_sidecars": [
         "experiments/MV-3/v2/runs/G-B100/seed20261014/head_step010000.json"
-      ]
+      ],
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/head_step040000.pth",
+      "checkpoint_sha256": "c667fc7169dc74749e1e55a0a180232f844bba78024633429bcae922ba0fcfb3",
+      "metrics_path": "experiments/MV-3/v2/MV3_first_seed_metrics.csv",
+      "report_path": "docs/MV3_first_seed_report.md"
     },
     {
       "model": "G-P0",
       "seed": 20261015,
-      "status": "PLANNED"
+      "status": "VERIFIED_RUNNING",
+      "completed_steps": 40000,
+      "decoder_initial_sha256": "17d5a0fc3570cf232e74945e027b1c10c3b728b673d33a76108223a4c1c92a35",
+      "sampling_hash": "28b7ed4e628b2fe7c94fabf3bdcbbf81786d8de3751019ad77aa1000f7c0a73f",
+      "execution_state": "TRAINING_COMPLETE_DEVELOPMENT_INFERENCE_RUNNING"
     },
     {
       "model": "G-B100",
       "seed": 20261015,
-      "status": "PLANNED"
+      "status": "VERIFIED_RUNNING",
+      "completed_steps": 40000,
+      "decoder_initial_sha256": "17d5a0fc3570cf232e74945e027b1c10c3b728b673d33a76108223a4c1c92a35",
+      "sampling_hash": "28b7ed4e628b2fe7c94fabf3bdcbbf81786d8de3751019ad77aa1000f7c0a73f",
+      "execution_state": "TRAINING_COMPLETE_DEVELOPMENT_INFERENCE_RUNNING"
     },
     {
       "model": "G-P0",
       "seed": 20261016,
-      "status": "PLANNED"
+      "status": "VERIFIED_RUNNING",
+      "completed_steps": 40000,
+      "execution_state": "TRAINING_COMPLETE_DEVELOPMENT_INFERENCE_RUNNING",
+      "decoder_initial_sha256": "8889b6cfc83e04719ad5ac54f6755f3124cf248e7e40c8a6c4eb1c847eb9bcf4",
+      "sampling_hash": "9bc5c7ba836765d8eadae3c5e2a022307692522ceaa9a25d6c1cd80795af4199"
     },
     {
       "model": "G-B100",
@@ -55,9 +75,10 @@
     }
   ],
   "version": 2,
-  "observed_at": "2026-10-14T05:07:15.675098+00:00",
+  "observed_at": "2026-10-14T07:00:13.891417+00:00",
   "code_commit": "1e139513576984416c070a754eb62ad15f532e2f",
-  "status_evidence": "evidence/MV-3/v2/server_status_036_20261014.json",
+  "status_evidence": "evidence/MV-3/v2/live_status_20261014T070013Z.json",
   "smoke_pair_status": "PASS",
-  "loader_check_evidence": "evidence/MV-3/v2/han_fullgt_loader_check_20261014.json"
+  "loader_check_evidence": "evidence/MV-3/v2/han_fullgt_loader_check_20261014.json",
+  "first_seed_evaluation_complete": true
 }

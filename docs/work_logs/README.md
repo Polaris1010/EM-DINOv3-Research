@@ -10,3 +10,5 @@
 后续每轮新增 `YYYYMMDD_NN_主题.md`，记录用户目标、实际变更、证据和验证、Git提交/推送/PR状态、未完事项和下一窗口入口。不要写入凭据。更新本索引；不能用聊天总结替代仓库记录。
 
 - [Han整幅GT与MV-Generalist-v2](20261014_04_han_fullgt_v2.md)
+
+- [MV3首seed完整开发评测与收取器恢复](20261014_06_mv3_first_seed_results.md)

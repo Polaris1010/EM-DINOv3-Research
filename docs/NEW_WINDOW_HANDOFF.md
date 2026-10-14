@@ -1,3 +1,5 @@
+> 最新核查：2026-10-14 15:00香港时间，v2首seed两组40k及38区域×12来源完整开发评测已完成，Dice P0 0.8130 / B100 0.8273（+0.0143）。P0全部三个seed、B100前两个seed均已40k训练完成；追加seed的开发推理在运行，B100第三seed等待既定调度。尚无三seed最终报告。
+
 # 新窗口交接
 
 当前协议为 **MV-Generalist-v2**。用户明确指定“取消 mask 限制，整幅 GT 参与 loss”；仅 Han24 跳过 annotation mask，整幅 GT 参与采样、loss 和开发指标。其他来源、划分、冻结 encoder、原版 Primus、匹配 seeds、共同 40k 预算与 TTA=OFF 保持原配置。旧 v1 已停止并完整保留，不能混入 v2 对照。
@@ -6,7 +8,7 @@
 
 旧v1首seed两组各40k并完成全开发推理，69/76开发指标时停止，其他seeds尚未启动。版本更改来自用户指令，不依据Dice，也不重新全面审计。仅Han改变有效区使用；v2双方从头训练，六组共同40k预算、首seed全来源指标后再补另外两seed。
 
-本地被动收取器源码 `scripts/watch_mv3_results.py`，只等待v2终止，默认v2根目录。核验 `artifacts/mv3_control_20261014/collector_pid.json` 的server_root与实际PID命令；旧PID12992已停止，停止回执见collector_stopped_for_han_fullgt.json。新collector PID156036已验证活动，server_root为v2；有48小时上限，完成时收取/push报告及指标，不启动实验；工作区不干净则留在collected_v2_results。服务器有界执行器独立于本地窗口。
+本地被动收取器源码 `scripts/watch_mv3_results.py`，只等待v2终止，默认v2根目录。核验 `artifacts/mv3_control_20261014/collector_pid.json` 的server_root与实际PID命令；旧PID12992已停止，停止回执见collector_stopped_for_han_fullgt.json。原collector PID156036因SSH断线已退出；当前collector PID194460已重新启动且支持有界重连，server_root为v2；有48小时上限，完成时收取/push报告及指标，不启动实验；工作区不干净则留在collected_v2_results。服务器有界执行器独立于本地窗口。
 
 Han三份原图/GT/mask并排照片在本地 `artifacts/mv3_control_20261014/Han24_review`。旧Han24_mask_review记录的是v1证据判断，其黄色图为原始mask非零可视化；在v2中不再用它定义有效区。
 

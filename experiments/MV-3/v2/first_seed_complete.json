@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "seed": 20261014,
+  "models": [
+    "G-P0",
+    "G-B100"
+  ],
+  "sources": 12,
+  "regions_per_model": 38,
+  "steps_each": 40000
+}

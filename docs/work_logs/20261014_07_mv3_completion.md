@@ -17,3 +17,5 @@
 仅修正现有评分调度：最多三个worker，GPU1/2/3各一个；保守预留每任务45×valid_voxels+4GiB，并保留16GiB全局余量；1秒轮询。evaluator、训练、loader、数据协议、模型与已保存结果不改。新恢复路径必须存在全部六组training_complete和inference_complete，先核验匹配，再仅运行缺失评分与最终报告，避免重训或重复推理。
 
 新增4项模拟调度测试证明每卡至多一个、最大三进程、内存上限生效及失败停止排队；总17项CPU测试通过。实际部署及并发进程回执将在运行后追加。
+
+评分执行修复commit `f410b772f15e8fc29e3136bb6ba7c377d23beb35`已推送并部署。恢复前确认六组40k与全开发推理完成，保留18个checkpoint及189个已完成指标；仅更改run.py和新增scoring_queue.py，其余六份训练/loader/evaluator/report/manifest/protocol SHA不变。新service MainPID3748795 active。17:04:57香港时间回执：三个评分worker实际绑定物理GPU1/2/3，指标222/228；189份已有指标SHA和18个checkpoint文件size/mtime均一致。没有重新训练或推理；最后缺失指标继续执行。

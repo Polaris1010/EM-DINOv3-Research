@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-10-14T15:15:23.237044+00:00",
+  "rows": 266,
+  "mitonet_rows": 38,
+  "reused_dinov3_rows": 228,
+  "sources": 12,
+  "protected_mv3_inputs_unchanged": true,
+  "publisher_weight_verified": true,
+  "source_macro": {
+    "G-P0": {
+      "dice": 0.8137414862637777,
+      "precision": 0.8386341629030657,
+      "recall": 0.8112697446840696,
+      "hd95_nm": 529.2190692342893,
+      "nsd_16nm": 0.7058886342465577,
+      "predicted_foreground_fraction": 0.0791385415691057
+    },
+    "G-B100": {
+      "dice": 0.8264489417353944,
+      "precision": 0.8437931382081937,
+      "recall": 0.8351159100510716,
+      "hd95_nm": 559.4837299674448,
+      "nsd_16nm": 0.7254801551199923,
+      "predicted_foreground_fraction": 0.08151246896615683
+    },
+    "Official-MitoNet-v1": {
+      "dice": 0.6102085551547273,
+      "precision": 0.6818447093631296,
+      "recall": 0.657549514023871,
+      "hd95_nm": 617.8220953710152,
+      "nsd_16nm": 0.5433837900375554,
+      "predicted_foreground_fraction": 0.08118124098027557
+    }
+  }
+}

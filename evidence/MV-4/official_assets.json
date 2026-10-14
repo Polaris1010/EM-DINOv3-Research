@@ -1,0 +1,34 @@
+{
+  "observed_at_utc": "2026-10-14T14:50:54.006390+00:00",
+  "files": {
+    "inference_upstream.py": {
+      "source": "https://raw.githubusercontent.com/volume-em/empanada-napari/main/empanada_napari/inference.py",
+      "sha256": "eb38a10eb60a3badb99a80646b67ac96ca1a202674d24fdb8903620cc5d73071",
+      "bytes": 20672
+    },
+    "utils_upstream.py": {
+      "source": "https://raw.githubusercontent.com/volume-em/empanada-napari/main/empanada_napari/utils.py",
+      "sha256": "1000d0b9053132a5ae3975b7042e91f39bcbdb2e97020b0bc88cc48adeb3d6e3",
+      "bytes": 9933
+    },
+    "model_config.yaml": {
+      "source": "https://raw.githubusercontent.com/volume-em/empanada-napari/main/empanada_napari/configs/MitoNet_v1.yaml",
+      "sha256": "ac1421a7073809b09e548da35e75aa8da4e8c11003bde85add895541859ad3f4",
+      "bytes": 1079
+    },
+    "empanada_dl-0.1.7-py3-none-any.whl": {
+      "source": "https://pypi.org/project/empanada-dl/0.1.7/",
+      "sha256": "405518287dbf9f41d1d7c1b092a16feb4d87d995c1b4a9c3ec38d3f9b37532d4",
+      "bytes": 91353,
+      "publisher_sha256_verified": true
+    },
+    "MitoNet_v1.pth": {
+      "source": "https://zenodo.org/records/6861565/files/MitoNet_v1.pth",
+      "sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+      "bytes": 221241200,
+      "publisher_md5": "b56fce28d877a3c35b7ca970cec73bc9",
+      "publisher_md5_verified": true
+    }
+  },
+  "scope": "official MitoNet_v1 only; no GT selection; no SSL"
+}

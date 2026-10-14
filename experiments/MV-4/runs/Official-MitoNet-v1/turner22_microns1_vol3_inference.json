@@ -1,0 +1,293 @@
+{
+  "status": "complete",
+  "model": "Official-MitoNet-v1",
+  "region_id": "turner22_microns1_vol3",
+  "source_id": "turner22",
+  "shape_zyx": [
+    50,
+    1024,
+    1024
+  ],
+  "original_region_zyx": [
+    [
+      0,
+      50
+    ],
+    [
+      0,
+      1024
+    ],
+    [
+      0,
+      1024
+    ]
+  ],
+  "spacing_zyx_nm": [
+    40.0,
+    8.0,
+    8.0
+  ],
+  "spacing_status": "catalog_declared_UNVERIFIED_Pinky_specific",
+  "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "protocol_sha256": "66db27f82a731c2edb81a74c681b2cd00a747abecfcc3c0c6e9f9082033ebe4b",
+  "checkpoint_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+  "physical_gpu": 2,
+  "tta": false,
+  "gt_used_for_inference": false,
+  "all_native_z_inferred": true,
+  "instance_interpretation": "official panoptic per-plane IDs plus disjoint global per-plane IDs; no 3D tracking claim",
+  "instance_count": 2272,
+  "plane_instances": [
+    {
+      "z_local": 0,
+      "first_global_instance": 1,
+      "instance_count": 54
+    },
+    {
+      "z_local": 1,
+      "first_global_instance": 55,
+      "instance_count": 49
+    },
+    {
+      "z_local": 2,
+      "first_global_instance": 104,
+      "instance_count": 54
+    },
+    {
+      "z_local": 3,
+      "first_global_instance": 158,
+      "instance_count": 12
+    },
+    {
+      "z_local": 4,
+      "first_global_instance": 170,
+      "instance_count": 47
+    },
+    {
+      "z_local": 5,
+      "first_global_instance": 217,
+      "instance_count": 49
+    },
+    {
+      "z_local": 6,
+      "first_global_instance": 266,
+      "instance_count": 48
+    },
+    {
+      "z_local": 7,
+      "first_global_instance": 314,
+      "instance_count": 48
+    },
+    {
+      "z_local": 8,
+      "first_global_instance": 362,
+      "instance_count": 54
+    },
+    {
+      "z_local": 9,
+      "first_global_instance": 416,
+      "instance_count": 57
+    },
+    {
+      "z_local": 10,
+      "first_global_instance": 473,
+      "instance_count": 57
+    },
+    {
+      "z_local": 11,
+      "first_global_instance": 530,
+      "instance_count": 66
+    },
+    {
+      "z_local": 12,
+      "first_global_instance": 596,
+      "instance_count": 53
+    },
+    {
+      "z_local": 13,
+      "first_global_instance": 649,
+      "instance_count": 59
+    },
+    {
+      "z_local": 14,
+      "first_global_instance": 708,
+      "instance_count": 51
+    },
+    {
+      "z_local": 15,
+      "first_global_instance": 759,
+      "instance_count": 51
+    },
+    {
+      "z_local": 16,
+      "first_global_instance": 810,
+      "instance_count": 46
+    },
+    {
+      "z_local": 17,
+      "first_global_instance": 856,
+      "instance_count": 52
+    },
+    {
+      "z_local": 18,
+      "first_global_instance": 908,
+      "instance_count": 43
+    },
+    {
+      "z_local": 19,
+      "first_global_instance": 951,
+      "instance_count": 45
+    },
+    {
+      "z_local": 20,
+      "first_global_instance": 996,
+      "instance_count": 43
+    },
+    {
+      "z_local": 21,
+      "first_global_instance": 1039,
+      "instance_count": 43
+    },
+    {
+      "z_local": 22,
+      "first_global_instance": 1082,
+      "instance_count": 46
+    },
+    {
+      "z_local": 23,
+      "first_global_instance": 1128,
+      "instance_count": 48
+    },
+    {
+      "z_local": 24,
+      "first_global_instance": 1176,
+      "instance_count": 49
+    },
+    {
+      "z_local": 25,
+      "first_global_instance": 1225,
+      "instance_count": 43
+    },
+    {
+      "z_local": 26,
+      "first_global_instance": 1268,
+      "instance_count": 49
+    },
+    {
+      "z_local": 27,
+      "first_global_instance": 1317,
+      "instance_count": 41
+    },
+    {
+      "z_local": 28,
+      "first_global_instance": 1358,
+      "instance_count": 39
+    },
+    {
+      "z_local": 29,
+      "first_global_instance": 1397,
+      "instance_count": 39
+    },
+    {
+      "z_local": 30,
+      "first_global_instance": 1436,
+      "instance_count": 44
+    },
+    {
+      "z_local": 31,
+      "first_global_instance": 1480,
+      "instance_count": 43
+    },
+    {
+      "z_local": 32,
+      "first_global_instance": 1523,
+      "instance_count": 47
+    },
+    {
+      "z_local": 33,
+      "first_global_instance": 1570,
+      "instance_count": 48
+    },
+    {
+      "z_local": 34,
+      "first_global_instance": 1618,
+      "instance_count": 53
+    },
+    {
+      "z_local": 35,
+      "first_global_instance": 1671,
+      "instance_count": 52
+    },
+    {
+      "z_local": 36,
+      "first_global_instance": 1723,
+      "instance_count": 45
+    },
+    {
+      "z_local": 37,
+      "first_global_instance": 1768,
+      "instance_count": 48
+    },
+    {
+      "z_local": 38,
+      "first_global_instance": 1816,
+      "instance_count": 40
+    },
+    {
+      "z_local": 39,
+      "first_global_instance": 1856,
+      "instance_count": 41
+    },
+    {
+      "z_local": 40,
+      "first_global_instance": 1897,
+      "instance_count": 37
+    },
+    {
+      "z_local": 41,
+      "first_global_instance": 1934,
+      "instance_count": 42
+    },
+    {
+      "z_local": 42,
+      "first_global_instance": 1976,
+      "instance_count": 39
+    },
+    {
+      "z_local": 43,
+      "first_global_instance": 2015,
+      "instance_count": 40
+    },
+    {
+      "z_local": 44,
+      "first_global_instance": 2055,
+      "instance_count": 38
+    },
+    {
+      "z_local": 45,
+      "first_global_instance": 2093,
+      "instance_count": 39
+    },
+    {
+      "z_local": 46,
+      "first_global_instance": 2132,
+      "instance_count": 37
+    },
+    {
+      "z_local": 47,
+      "first_global_instance": 2169,
+      "instance_count": 31
+    },
+    {
+      "z_local": 48,
+      "first_global_instance": 2200,
+      "instance_count": 37
+    },
+    {
+      "z_local": 49,
+      "first_global_instance": 2237,
+      "instance_count": 36
+    }
+  ],
+  "seconds": 5.966476678848267
+}

@@ -1,0 +1,35 @@
+{
+  "stage": "MV-4",
+  "server_root": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014",
+  "status": "VERIFIED_COMPLETED",
+  "execution_state": "OFFICIAL_INFERENCE_AND_FULL_DEVELOPMENT_COMPLETE",
+  "authorized_at": "2026-10-14 Asia/Hong_Kong; explicit user official MitoNet comparison",
+  "protocol": "configs/evaluation/MV-4_protocol.json",
+  "assets": "evidence/MV-4/official_assets.json",
+  "report_path": "docs/MV4_final_report.md",
+  "code_commit": "db2ae4e2007c85b9badee722fd331fad138d17c2",
+  "reused_mv3_commit": "578a30e87f987f70a0f4641c7bb00a458e5f402f",
+  "reused_models": [
+    "G-P0",
+    "G-B100"
+  ],
+  "reused_decoder_seeds": [
+    20261014,
+    20261015,
+    20261016
+  ],
+  "dev_regions": 38,
+  "dev_sources": 12,
+  "physical_gpus": [
+    1,
+    2,
+    3
+  ],
+  "observed_at_utc": "2026-10-14T15:15:04.386045+00:00",
+  "status_evidence": "evidence/MV-4/status_20261014T151504Z.json",
+  "metrics_path": "experiments/MV-4/MV4_per_region_metrics.csv",
+  "instance_outputs_retained": true,
+  "results_verification": "experiments/MV-4/MV4_results_verification.json",
+  "service_state": "inactive",
+  "further_experiments_started": false
+}

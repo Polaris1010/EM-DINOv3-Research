@@ -1,0 +1,102 @@
+{
+  "figures": [
+    {
+      "source_id": "casser20",
+      "file": "casser20.png",
+      "sha256": "8a474bc4510d116566cade0dfefb6935e31b9b5cbacd9b98984c8dd83e83a06a",
+      "bytes": 441425,
+      "server_path": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/failure_cases/casser20.png",
+      "local_path": "E:\\mira_website_demo\\artifacts\\mv4_control_20261014\\failure_cases\\casser20.png"
+    },
+    {
+      "source_id": "guay21",
+      "file": "guay21.png",
+      "sha256": "272eaf17f8af62a10a453bad0e1bc4d71734bd168d4cb3babede827ad26e93cd",
+      "bytes": 547447,
+      "server_path": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/failure_cases/guay21.png",
+      "local_path": "E:\\mira_website_demo\\artifacts\\mv4_control_20261014\\failure_cases\\guay21.png"
+    },
+    {
+      "source_id": "haberl18",
+      "file": "haberl18.png",
+      "sha256": "2135b15e3169c9a8af9d12914aa7419698431dd32667d572c5fab41f7e1b214b",
+      "bytes": 216083,
+      "server_path": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/failure_cases/haberl18.png",
+      "local_path": "E:\\mira_website_demo\\artifacts\\mv4_control_20261014\\failure_cases\\haberl18.png"
+    },
+    {
+      "source_id": "han24",
+      "file": "han24.png",
+      "sha256": "542530fd172b2e0185a2fba45e57a011aee6a64a0adcdec0af9f62b2c8b8cabc",
+      "bytes": 688573,
+      "server_path": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/failure_cases/han24.png",
+      "local_path": "E:\\mira_website_demo\\artifacts\\mv4_control_20261014\\failure_cases\\han24.png"
+    },
+    {
+      "source_id": "jiang25",
+      "file": "jiang25.png",
+      "sha256": "d7b9422f1b7f4456c67d8692443dd35966c5d8345cab4d6505fb1fb0545b01e2",
+      "bytes": 817637,
+      "server_path": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/failure_cases/jiang25.png",
+      "local_path": "E:\\mira_website_demo\\artifacts\\mv4_control_20261014\\failure_cases\\jiang25.png"
+    },
+    {
+      "source_id": "kunduri22",
+      "file": "kunduri22.png",
+      "sha256": "7396671d2a02cec3cd62a69c7f2a7f109bd57bf980707aac7dc8bfb52658a3f5",
+      "bytes": 564187,
+      "server_path": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/failure_cases/kunduri22.png",
+      "local_path": "E:\\mira_website_demo\\artifacts\\mv4_control_20261014\\failure_cases\\kunduri22.png"
+    },
+    {
+      "source_id": "mekuc20",
+      "file": "mekuc20.png",
+      "sha256": "5786996dcf1f72a30416d8dc302091b09b19b329f8f95d0cee2016859fc7bc8d",
+      "bytes": 182263,
+      "server_path": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/failure_cases/mekuc20.png",
+      "local_path": "E:\\mira_website_demo\\artifacts\\mv4_control_20261014\\failure_cases\\mekuc20.png"
+    },
+    {
+      "source_id": "muller21",
+      "file": "muller21.png",
+      "sha256": "89557d30b9acbd0874efc90fa4eaf48841fceef1b53550b4be97da1a0f692dff",
+      "bytes": 319623,
+      "server_path": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/failure_cases/muller21.png",
+      "local_path": "E:\\mira_website_demo\\artifacts\\mv4_control_20261014\\failure_cases\\muller21.png"
+    },
+    {
+      "source_id": "openorganelle",
+      "file": "openorganelle.png",
+      "sha256": "cb58f5f09790b36075642a1d59a545f97d267c465e77974bc87fcd64ad9a6ea8",
+      "bytes": 89447,
+      "server_path": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/failure_cases/openorganelle.png",
+      "local_path": "E:\\mira_website_demo\\artifacts\\mv4_control_20261014\\failure_cases\\openorganelle.png"
+    },
+    {
+      "source_id": "turner22",
+      "file": "turner22.png",
+      "sha256": "f84857b01e4c7deb7c3947a72c6d4b6f16980311b536839ab31ed2c111c76e5d",
+      "bytes": 77932,
+      "server_path": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/failure_cases/turner22.png",
+      "local_path": "E:\\mira_website_demo\\artifacts\\mv4_control_20261014\\failure_cases\\turner22.png"
+    },
+    {
+      "source_id": "wei20",
+      "file": "wei20.png",
+      "sha256": "11dc56e470d93960a450314ec90a60fad5747bf3d0d4376a5d91f60c78fbbbd5",
+      "bytes": 793562,
+      "server_path": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/failure_cases/wei20.png",
+      "local_path": "E:\\mira_website_demo\\artifacts\\mv4_control_20261014\\failure_cases\\wei20.png"
+    },
+    {
+      "source_id": "xiao18",
+      "file": "xiao18.png",
+      "sha256": "38837c2b281afb74572777d079857a89becc294eeca57d9d805c7ac4d0120d63",
+      "bytes": 814430,
+      "server_path": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/failure_cases/xiao18.png",
+      "local_path": "E:\\mira_website_demo\\artifacts\\mv4_control_20261014\\failure_cases\\xiao18.png"
+    }
+  ],
+  "selection": "Post-inference lowest MitoNet Dice region per source, then largest valid FP+FN plane; visualization only",
+  "instance_colors_repeat": true
+}

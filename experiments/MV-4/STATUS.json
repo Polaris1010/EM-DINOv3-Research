@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "inferred_regions": 38,
+  "scored_regions": 38,
+  "sources": 12,
+  "dinov3_metric_rows_reused": 228,
+  "mitonet_metric_rows": 38,
+  "instance_outputs_retained": true,
+  "physical_gpus": [
+    1,
+    2,
+    3
+  ],
+  "gpu0_used": false,
+  "website_http_after": 200,
+  "mv3_inputs_unchanged": true,
+  "report": "MV4_final_report.md",
+  "further_experiments_started": false
+}

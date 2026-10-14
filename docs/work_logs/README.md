@@ -16,3 +16,5 @@
 - [继续完成MV3与三seed最终交付](20261014_07_mv3_completion.md)
 
 - [MV3最终状态与自动收取](20261014_05_mv3_v2_terminal_collection.md)
+
+- [官方MitoNet同图像对照](20261014_08_mv4_official_mitonet.md)

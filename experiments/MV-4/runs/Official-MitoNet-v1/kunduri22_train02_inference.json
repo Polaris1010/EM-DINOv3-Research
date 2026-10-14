@@ -1,0 +1,683 @@
+{
+  "status": "complete",
+  "model": "Official-MitoNet-v1",
+  "region_id": "kunduri22_train02",
+  "source_id": "kunduri22",
+  "shape_zyx": [
+    128,
+    1024,
+    1024
+  ],
+  "original_region_zyx": [
+    [
+      0,
+      128
+    ],
+    [
+      0,
+      1024
+    ],
+    [
+      0,
+      1024
+    ]
+  ],
+  "spacing_zyx_nm": [
+    16.0,
+    16.0,
+    16.0
+  ],
+  "spacing_status": "official_ingest_native_grid",
+  "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "protocol_sha256": "66db27f82a731c2edb81a74c681b2cd00a747abecfcc3c0c6e9f9082033ebe4b",
+  "checkpoint_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+  "physical_gpu": 2,
+  "tta": false,
+  "gt_used_for_inference": false,
+  "all_native_z_inferred": true,
+  "instance_interpretation": "official panoptic per-plane IDs plus disjoint global per-plane IDs; no 3D tracking claim",
+  "instance_count": 24609,
+  "plane_instances": [
+    {
+      "z_local": 0,
+      "first_global_instance": 1,
+      "instance_count": 211
+    },
+    {
+      "z_local": 1,
+      "first_global_instance": 212,
+      "instance_count": 206
+    },
+    {
+      "z_local": 2,
+      "first_global_instance": 418,
+      "instance_count": 208
+    },
+    {
+      "z_local": 3,
+      "first_global_instance": 626,
+      "instance_count": 189
+    },
+    {
+      "z_local": 4,
+      "first_global_instance": 815,
+      "instance_count": 191
+    },
+    {
+      "z_local": 5,
+      "first_global_instance": 1006,
+      "instance_count": 192
+    },
+    {
+      "z_local": 6,
+      "first_global_instance": 1198,
+      "instance_count": 189
+    },
+    {
+      "z_local": 7,
+      "first_global_instance": 1387,
+      "instance_count": 196
+    },
+    {
+      "z_local": 8,
+      "first_global_instance": 1583,
+      "instance_count": 184
+    },
+    {
+      "z_local": 9,
+      "first_global_instance": 1767,
+      "instance_count": 182
+    },
+    {
+      "z_local": 10,
+      "first_global_instance": 1949,
+      "instance_count": 182
+    },
+    {
+      "z_local": 11,
+      "first_global_instance": 2131,
+      "instance_count": 183
+    },
+    {
+      "z_local": 12,
+      "first_global_instance": 2314,
+      "instance_count": 193
+    },
+    {
+      "z_local": 13,
+      "first_global_instance": 2507,
+      "instance_count": 181
+    },
+    {
+      "z_local": 14,
+      "first_global_instance": 2688,
+      "instance_count": 182
+    },
+    {
+      "z_local": 15,
+      "first_global_instance": 2870,
+      "instance_count": 197
+    },
+    {
+      "z_local": 16,
+      "first_global_instance": 3067,
+      "instance_count": 194
+    },
+    {
+      "z_local": 17,
+      "first_global_instance": 3261,
+      "instance_count": 215
+    },
+    {
+      "z_local": 18,
+      "first_global_instance": 3476,
+      "instance_count": 198
+    },
+    {
+      "z_local": 19,
+      "first_global_instance": 3674,
+      "instance_count": 192
+    },
+    {
+      "z_local": 20,
+      "first_global_instance": 3866,
+      "instance_count": 187
+    },
+    {
+      "z_local": 21,
+      "first_global_instance": 4053,
+      "instance_count": 192
+    },
+    {
+      "z_local": 22,
+      "first_global_instance": 4245,
+      "instance_count": 197
+    },
+    {
+      "z_local": 23,
+      "first_global_instance": 4442,
+      "instance_count": 184
+    },
+    {
+      "z_local": 24,
+      "first_global_instance": 4626,
+      "instance_count": 204
+    },
+    {
+      "z_local": 25,
+      "first_global_instance": 4830,
+      "instance_count": 198
+    },
+    {
+      "z_local": 26,
+      "first_global_instance": 5028,
+      "instance_count": 180
+    },
+    {
+      "z_local": 27,
+      "first_global_instance": 5208,
+      "instance_count": 182
+    },
+    {
+      "z_local": 28,
+      "first_global_instance": 5390,
+      "instance_count": 186
+    },
+    {
+      "z_local": 29,
+      "first_global_instance": 5576,
+      "instance_count": 186
+    },
+    {
+      "z_local": 30,
+      "first_global_instance": 5762,
+      "instance_count": 189
+    },
+    {
+      "z_local": 31,
+      "first_global_instance": 5951,
+      "instance_count": 196
+    },
+    {
+      "z_local": 32,
+      "first_global_instance": 6147,
+      "instance_count": 201
+    },
+    {
+      "z_local": 33,
+      "first_global_instance": 6348,
+      "instance_count": 200
+    },
+    {
+      "z_local": 34,
+      "first_global_instance": 6548,
+      "instance_count": 190
+    },
+    {
+      "z_local": 35,
+      "first_global_instance": 6738,
+      "instance_count": 193
+    },
+    {
+      "z_local": 36,
+      "first_global_instance": 6931,
+      "instance_count": 204
+    },
+    {
+      "z_local": 37,
+      "first_global_instance": 7135,
+      "instance_count": 201
+    },
+    {
+      "z_local": 38,
+      "first_global_instance": 7336,
+      "instance_count": 198
+    },
+    {
+      "z_local": 39,
+      "first_global_instance": 7534,
+      "instance_count": 180
+    },
+    {
+      "z_local": 40,
+      "first_global_instance": 7714,
+      "instance_count": 182
+    },
+    {
+      "z_local": 41,
+      "first_global_instance": 7896,
+      "instance_count": 194
+    },
+    {
+      "z_local": 42,
+      "first_global_instance": 8090,
+      "instance_count": 189
+    },
+    {
+      "z_local": 43,
+      "first_global_instance": 8279,
+      "instance_count": 214
+    },
+    {
+      "z_local": 44,
+      "first_global_instance": 8493,
+      "instance_count": 194
+    },
+    {
+      "z_local": 45,
+      "first_global_instance": 8687,
+      "instance_count": 187
+    },
+    {
+      "z_local": 46,
+      "first_global_instance": 8874,
+      "instance_count": 188
+    },
+    {
+      "z_local": 47,
+      "first_global_instance": 9062,
+      "instance_count": 189
+    },
+    {
+      "z_local": 48,
+      "first_global_instance": 9251,
+      "instance_count": 192
+    },
+    {
+      "z_local": 49,
+      "first_global_instance": 9443,
+      "instance_count": 190
+    },
+    {
+      "z_local": 50,
+      "first_global_instance": 9633,
+      "instance_count": 190
+    },
+    {
+      "z_local": 51,
+      "first_global_instance": 9823,
+      "instance_count": 177
+    },
+    {
+      "z_local": 52,
+      "first_global_instance": 10000,
+      "instance_count": 199
+    },
+    {
+      "z_local": 53,
+      "first_global_instance": 10199,
+      "instance_count": 198
+    },
+    {
+      "z_local": 54,
+      "first_global_instance": 10397,
+      "instance_count": 186
+    },
+    {
+      "z_local": 55,
+      "first_global_instance": 10583,
+      "instance_count": 185
+    },
+    {
+      "z_local": 56,
+      "first_global_instance": 10768,
+      "instance_count": 178
+    },
+    {
+      "z_local": 57,
+      "first_global_instance": 10946,
+      "instance_count": 179
+    },
+    {
+      "z_local": 58,
+      "first_global_instance": 11125,
+      "instance_count": 182
+    },
+    {
+      "z_local": 59,
+      "first_global_instance": 11307,
+      "instance_count": 181
+    },
+    {
+      "z_local": 60,
+      "first_global_instance": 11488,
+      "instance_count": 180
+    },
+    {
+      "z_local": 61,
+      "first_global_instance": 11668,
+      "instance_count": 178
+    },
+    {
+      "z_local": 62,
+      "first_global_instance": 11846,
+      "instance_count": 184
+    },
+    {
+      "z_local": 63,
+      "first_global_instance": 12030,
+      "instance_count": 187
+    },
+    {
+      "z_local": 64,
+      "first_global_instance": 12217,
+      "instance_count": 183
+    },
+    {
+      "z_local": 65,
+      "first_global_instance": 12400,
+      "instance_count": 179
+    },
+    {
+      "z_local": 66,
+      "first_global_instance": 12579,
+      "instance_count": 189
+    },
+    {
+      "z_local": 67,
+      "first_global_instance": 12768,
+      "instance_count": 193
+    },
+    {
+      "z_local": 68,
+      "first_global_instance": 12961,
+      "instance_count": 196
+    },
+    {
+      "z_local": 69,
+      "first_global_instance": 13157,
+      "instance_count": 190
+    },
+    {
+      "z_local": 70,
+      "first_global_instance": 13347,
+      "instance_count": 181
+    },
+    {
+      "z_local": 71,
+      "first_global_instance": 13528,
+      "instance_count": 184
+    },
+    {
+      "z_local": 72,
+      "first_global_instance": 13712,
+      "instance_count": 190
+    },
+    {
+      "z_local": 73,
+      "first_global_instance": 13902,
+      "instance_count": 186
+    },
+    {
+      "z_local": 74,
+      "first_global_instance": 14088,
+      "instance_count": 213
+    },
+    {
+      "z_local": 75,
+      "first_global_instance": 14301,
+      "instance_count": 217
+    },
+    {
+      "z_local": 76,
+      "first_global_instance": 14518,
+      "instance_count": 179
+    },
+    {
+      "z_local": 77,
+      "first_global_instance": 14697,
+      "instance_count": 198
+    },
+    {
+      "z_local": 78,
+      "first_global_instance": 14895,
+      "instance_count": 185
+    },
+    {
+      "z_local": 79,
+      "first_global_instance": 15080,
+      "instance_count": 205
+    },
+    {
+      "z_local": 80,
+      "first_global_instance": 15285,
+      "instance_count": 192
+    },
+    {
+      "z_local": 81,
+      "first_global_instance": 15477,
+      "instance_count": 184
+    },
+    {
+      "z_local": 82,
+      "first_global_instance": 15661,
+      "instance_count": 181
+    },
+    {
+      "z_local": 83,
+      "first_global_instance": 15842,
+      "instance_count": 193
+    },
+    {
+      "z_local": 84,
+      "first_global_instance": 16035,
+      "instance_count": 179
+    },
+    {
+      "z_local": 85,
+      "first_global_instance": 16214,
+      "instance_count": 172
+    },
+    {
+      "z_local": 86,
+      "first_global_instance": 16386,
+      "instance_count": 178
+    },
+    {
+      "z_local": 87,
+      "first_global_instance": 16564,
+      "instance_count": 181
+    },
+    {
+      "z_local": 88,
+      "first_global_instance": 16745,
+      "instance_count": 184
+    },
+    {
+      "z_local": 89,
+      "first_global_instance": 16929,
+      "instance_count": 185
+    },
+    {
+      "z_local": 90,
+      "first_global_instance": 17114,
+      "instance_count": 193
+    },
+    {
+      "z_local": 91,
+      "first_global_instance": 17307,
+      "instance_count": 194
+    },
+    {
+      "z_local": 92,
+      "first_global_instance": 17501,
+      "instance_count": 187
+    },
+    {
+      "z_local": 93,
+      "first_global_instance": 17688,
+      "instance_count": 204
+    },
+    {
+      "z_local": 94,
+      "first_global_instance": 17892,
+      "instance_count": 194
+    },
+    {
+      "z_local": 95,
+      "first_global_instance": 18086,
+      "instance_count": 193
+    },
+    {
+      "z_local": 96,
+      "first_global_instance": 18279,
+      "instance_count": 193
+    },
+    {
+      "z_local": 97,
+      "first_global_instance": 18472,
+      "instance_count": 217
+    },
+    {
+      "z_local": 98,
+      "first_global_instance": 18689,
+      "instance_count": 214
+    },
+    {
+      "z_local": 99,
+      "first_global_instance": 18903,
+      "instance_count": 221
+    },
+    {
+      "z_local": 100,
+      "first_global_instance": 19124,
+      "instance_count": 197
+    },
+    {
+      "z_local": 101,
+      "first_global_instance": 19321,
+      "instance_count": 204
+    },
+    {
+      "z_local": 102,
+      "first_global_instance": 19525,
+      "instance_count": 197
+    },
+    {
+      "z_local": 103,
+      "first_global_instance": 19722,
+      "instance_count": 196
+    },
+    {
+      "z_local": 104,
+      "first_global_instance": 19918,
+      "instance_count": 207
+    },
+    {
+      "z_local": 105,
+      "first_global_instance": 20125,
+      "instance_count": 200
+    },
+    {
+      "z_local": 106,
+      "first_global_instance": 20325,
+      "instance_count": 185
+    },
+    {
+      "z_local": 107,
+      "first_global_instance": 20510,
+      "instance_count": 205
+    },
+    {
+      "z_local": 108,
+      "first_global_instance": 20715,
+      "instance_count": 197
+    },
+    {
+      "z_local": 109,
+      "first_global_instance": 20912,
+      "instance_count": 209
+    },
+    {
+      "z_local": 110,
+      "first_global_instance": 21121,
+      "instance_count": 195
+    },
+    {
+      "z_local": 111,
+      "first_global_instance": 21316,
+      "instance_count": 199
+    },
+    {
+      "z_local": 112,
+      "first_global_instance": 21515,
+      "instance_count": 188
+    },
+    {
+      "z_local": 113,
+      "first_global_instance": 21703,
+      "instance_count": 192
+    },
+    {
+      "z_local": 114,
+      "first_global_instance": 21895,
+      "instance_count": 193
+    },
+    {
+      "z_local": 115,
+      "first_global_instance": 22088,
+      "instance_count": 193
+    },
+    {
+      "z_local": 116,
+      "first_global_instance": 22281,
+      "instance_count": 204
+    },
+    {
+      "z_local": 117,
+      "first_global_instance": 22485,
+      "instance_count": 205
+    },
+    {
+      "z_local": 118,
+      "first_global_instance": 22690,
+      "instance_count": 192
+    },
+    {
+      "z_local": 119,
+      "first_global_instance": 22882,
+      "instance_count": 205
+    },
+    {
+      "z_local": 120,
+      "first_global_instance": 23087,
+      "instance_count": 190
+    },
+    {
+      "z_local": 121,
+      "first_global_instance": 23277,
+      "instance_count": 188
+    },
+    {
+      "z_local": 122,
+      "first_global_instance": 23465,
+      "instance_count": 195
+    },
+    {
+      "z_local": 123,
+      "first_global_instance": 23660,
+      "instance_count": 191
+    },
+    {
+      "z_local": 124,
+      "first_global_instance": 23851,
+      "instance_count": 206
+    },
+    {
+      "z_local": 125,
+      "first_global_instance": 24057,
+      "instance_count": 190
+    },
+    {
+      "z_local": 126,
+      "first_global_instance": 24247,
+      "instance_count": 188
+    },
+    {
+      "z_local": 127,
+      "first_global_instance": 24435,
+      "instance_count": 175
+    }
+  ],
+  "seconds": 17.23531746864319
+}

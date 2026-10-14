@@ -1,0 +1,10 @@
+{
+  "observed_at_utc": "2026-10-14T15:22:13.116854+00:00",
+  "status": "VERIFIED_COMPLETED",
+  "service": "MainPID=0\nResult=success\nActiveState=inactive\n",
+  "report_sha256": "f5a5d3268685f8251935a52ac2811fb69f3fc4479738cc547e8e14070d95795e",
+  "original_generated_report_sha256": "8284deabcbc2370054cb9d474ec62f6cfab6745156e8eefd17e1462431de16db",
+  "report_addendum": "Post-execution results explanation, execution hashes and observed examples; no metric/input/source change.",
+  "runtime_code_commit": "db2ae4e2007c85b9badee722fd331fad138d17c2",
+  "further_experiments_started": false
+}

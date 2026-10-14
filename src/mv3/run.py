@@ -18,8 +18,12 @@ class Controller:
  def __init__(self):
   self.gpus=gpu_info();assert all(self.gpus[i]['free_mib']>18000 for i in [1,2,3]);website();self.children=[];self.handles=[];self.started=time.time();self.phase='initialize'
   self.baseline={}
+  allowed={self.gpus[i]['uuid'] for i in [1,2,3]}
   for row in csv.reader(subprocess.check_output(['nvidia-smi','--query-compute-apps=gpu_uuid,pid','--format=csv,noheader'],text=True).splitlines()):
-   pid=int(row[1]);self.baseline[pid]=psutil.Process(pid).create_time()
+   if row[0].strip() not in allowed:continue
+   pid=int(row[1])
+   try:self.baseline[pid]=psutil.Process(pid).create_time()
+   except psutil.NoSuchProcess:self.baseline[pid]=None
   self.protected={str(p):sha(p) for p in [OLD/'MV-Dev-v1.json',OLD/'MV_frozen_probe_protocol.yaml',OLD/'model_registry.json',OLD/'src/mv_probe.py',OLD/'src/official_primus.py',MV2/'MV_dev_validation_manifest.json',MV2/'STATUS.json',MV2/'metrics_all_complete.json']}
   atomic(R/'evidence/historical_inputs_before.json',self.protected)
  def launch(self,args,name,gpu=None):
@@ -32,6 +36,7 @@ class Controller:
   for row in csv.reader(subprocess.check_output(['nvidia-smi','--query-compute-apps=gpu_uuid,pid','--format=csv,noheader'],text=True).splitlines()):
    if row[0].strip() not in allowed:continue
    pid=int(row[1])
+   if pid in self.baseline and self.baseline[pid] is None:continue
    try:proc=psutil.Process(pid);known=pid in self.baseline and self.baseline[pid]==proc.create_time();own=pid in ownroots or any(p.pid in ownroots for p in proc.parents())
    except psutil.NoSuchProcess:continue
    if not (known or own):raise RuntimeError('New unrelated process on a permitted GPU; stop only own jobs')

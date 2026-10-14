@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "python": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/bin/python",
+  "version": "3.11.9 (main, Apr 19 2024, 16:48:06) [GCC 11.2.0]",
+  "base_prefix": "/opt/data/3_117/tanghr/envs/meddinov3",
+  "packages": {
+    "torch": "2.5.1",
+    "torchvision": "0.20.1",
+    "numpy": "2.2.6",
+    "scipy": "1.16.1",
+    "scikit-image": "0.25.2",
+    "numba": "0.61.2",
+    "llvmlite": "0.44.0",
+    "opencv-python-headless": "4.10.0.84",
+    "cztile": "0.2.0",
+    "empanada-dl": "0.1.7",
+    "connected-components-3d": "3.24.0",
+    "monai": "1.5.0",
+    "cupy-cuda12x": "NOT_INSTALLED",
+    "pyyaml": "6.0.2"
+  },
+  "official_core_imports": "PASS",
+  "existing_environment_modified": false
+}

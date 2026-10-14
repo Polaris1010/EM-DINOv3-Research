@@ -1,0 +1,16 @@
+{
+  "mitonet_root": [
+    "/opt/data/3_117/tanghr/MitoNet/dataset"
+  ],
+  "/opt/data/3_117/tanghr/envs": [
+    "/opt/data/3_117/tanghr/envs/meddinov3",
+    "/opt/data/3_117/tanghr/envs/mitoverse",
+    "/opt/data/3_117/tanghr/envs/dinov2",
+    "/opt/data/3_117/tanghr/envs/swinunetr",
+    "/opt/data/3_117/tanghr/envs/.conda_envs_dir_test",
+    "/opt/data/3_117/tanghr/envs/sam3",
+    "/opt/data/3_117/tanghr/envs/microsam",
+    "/opt/data/3_117/tanghr/envs/medsam"
+  ],
+  "website_http": 200
+}

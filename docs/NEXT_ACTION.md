@@ -1,3 +1,5 @@
+> 2026-10-14新授权：MV3已完成并保留；当前唯一任务MV4官方MitoNet对照，同38区域/12来源，复用P0/B100三个seed预测。先读docs/MV4_PROTOCOL.md、experiments/MV-4/run_index.json和最新work_logs/20261014_08_mv4_official_mitonet.md。旧“未授权MitoNet”段落已被本轮明确授权取代；不恢复MV3，不自动后续SSL。当前分支codex/mv4-official-mitonet。
+
 # 当前任务完成后停止
 
 MV3 v2六组40k、228条指标与18个checkpoint完成；先读MV3_final_report.md、最终核验与work_logs/20261014_07_mv3_completion.md。当前服务已inactive，不恢复训练或评分。

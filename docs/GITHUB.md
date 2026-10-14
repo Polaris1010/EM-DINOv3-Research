@@ -1,3 +1,11 @@
+# 当前MV3交付
+
+分支`codex/mv3-generalist-training`，当前[PR #2](https://github.com/Polaris1010/EM-DINOv3-Research/pull/2)为open draft，未合并。当前MV-Generalist-v2仅对Han按用户指令取消mask，整幅GT用于loss/采样/指标；其他配置保持。运行回执、每轮工作记录、状态、NEXT_ACTION与新窗口交接一并随代码提交推送。
+
+部署代码commit `1e139513576984416c070a754eb62ad15f532e2f` 已推送，两个Actions均success：[PR CI](https://github.com/Polaris1010/EM-DINOv3-Research/actions/runs/38513854780)、[push CI](https://github.com/Polaris1010/EM-DINOv3-Research/actions/runs/38513851805)。后续回执提交的CI须看对应head，不能套用此成功记录。当前private核验与draft状态见evidence/MV-3/v2/github_publication_1e13951_20261014.json。
+
+以下为初始化阶段保留的历史交付记录。
+
 # GitHub交付
 
 远程：[Polaris1010/EM-DINOv3-Research](https://github.com/Polaris1010/EM-DINOv3-Research)。可见性：**private**（API核验），owner Polaris1010，default branch main。

@@ -4,7 +4,7 @@
 
 当前协议为 **MV-Generalist-v2**。用户明确指定“取消 mask 限制，整幅 GT 参与 loss”；仅 Han24 跳过 annotation mask，整幅 GT 参与采样、loss 和开发指标。其他来源、划分、冻结 encoder、原版 Primus、匹配 seeds、共同 40k 预算与 TTA=OFF 保持原配置。旧 v1 已停止并完整保留，不能混入 v2 对照。
 
-v1首seed双方各40k与完整开发推理已完成；69/76指标时因用户改变Han规则而停止，自有service inactive。旧结果保留，v2从相同初始化重启，实际状态看v2登记和快照。
+v1首seed双方各40k与完整开发推理已完成；69/76指标时因用户改变Han规则而停止，自有service inactive。旧结果保留，v2真实smoke双方PASS，已从相同初始化重启；当前13200steps/组的dated快照见v2登记与evidence，不代表40k完成。
 
 用户已明确授权进入MitoVerse多来源监督训练，取代初始化轮的只读范围。MV-2现已完成188区域×9组=1692条核心指标，12来源等权Dice：P0 0.3492、B100k 0.4067、B150k 0.4102；实证完成状态见 `evidence/MV-3/server_initial_status_20261014.json`。旧注册记录与结果保留原快照，不重写历史。
 

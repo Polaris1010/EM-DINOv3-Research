@@ -6,9 +6,9 @@
 
 当前分支 `codex/mv3-generalist-training`，服务器 `/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014`，service `mv3-generalist-v2-han-fullgt-20261014.service`。先读取现有STATUS、progress和最新evidence，禁止重复启动。只继续G-P0/G-B100、3匹配decoder seeds、各40000 optimizer steps的共同锁定协议。原版Primus，[5,11,17,23]，encoder冻结，TTA=OFF，GPU0禁用。
 
-v1旧smoke记录不代表v2已通过。v2真实smoke与正式训练状态以experiments/MV-3/v2/run_index.json和最新v2快照为准；不能重复启动或据旧日志声称新任务完成。2×40k完成后做38区域/12来源全开发验证及既有物理指标，再补20261015/20261016；有界执行器仅执行这6个run。
+v2两组实际smoke已PASS，相同decoder初始化和采样SHA，Han整幅crop参与loss；首seed两组已各13200正式steps（10k checkpoint已保存），详细状态以experiments/MV-3/v2/run_index.json及最新v2快照为准。2×40k完成后做38区域/12来源全开发验证及既有物理指标，再补20261015/20261016；有界执行器仅执行这6个run。
 
-MV-Generalist-v2：156 train/38 dev，12来源；部分探索性dev已转train，不再作为新验证；official test/已映射validation保留。Han整幅GT，不使用mask；有效区与每来源体积清单见 `experiments/MV-3/MV3_source_coverage.csv`。v2全部194个区域复用现有图像/GT缓存只读；只有本轮元数据写入v2目录。不能把旧4-volume约束恢复成前置门槛。
+MV-Generalist-v2：156 train/38 dev，12来源；部分探索性dev已转train，不再作为新验证；official test/已映射validation保留。Han整幅GT，不使用mask；有效区与每来源体积清单见 `experiments/MV-3/v2/MV3_source_coverage.csv`。v2全部194个区域复用现有图像/GT缓存只读；只有本轮元数据写入v2目录。不能把旧4-volume约束恢复成前置门槛。
 
 结束时收取MV3_final_report.md、18个milestone checkpoint SHA、逐区域/来源指标与配对变化，回答监督扩展收益、B100多来源优势、Guay/Müller变化、主要短板和优先改进方向。比较旧预测仅作同新heldout区域的描述性参照，不重新运行旧9个head，不改历史记录。保持共同40k预算，不为某个encoder单独追加训练。
 

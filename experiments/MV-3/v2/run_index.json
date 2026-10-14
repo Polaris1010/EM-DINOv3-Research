@@ -12,12 +12,26 @@
     {
       "model": "G-P0",
       "seed": 20261014,
-      "status": "PLANNED"
+      "status": "VERIFIED_RUNNING",
+      "execution_state": "V2_FULL_GT_FORMAL_TRAINING_STARTED",
+      "completed_steps": 13200,
+      "decoder_initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec",
+      "sampling_hash": "e891f279c6bae722b47f6d5b4cceabda3abe97bfea2ed93abc6fa3cbdaff3635",
+      "milestone_sidecars": [
+        "experiments/MV-3/v2/runs/G-P0/seed20261014/head_step010000.json"
+      ]
     },
     {
       "model": "G-B100",
       "seed": 20261014,
-      "status": "PLANNED"
+      "status": "VERIFIED_RUNNING",
+      "execution_state": "V2_FULL_GT_FORMAL_TRAINING_STARTED",
+      "completed_steps": 13200,
+      "decoder_initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec",
+      "sampling_hash": "e891f279c6bae722b47f6d5b4cceabda3abe97bfea2ed93abc6fa3cbdaff3635",
+      "milestone_sidecars": [
+        "experiments/MV-3/v2/runs/G-B100/seed20261014/head_step010000.json"
+      ]
     },
     {
       "model": "G-P0",
@@ -40,5 +54,10 @@
       "status": "PLANNED"
     }
   ],
-  "version": 2
+  "version": 2,
+  "observed_at": "2026-10-14T05:07:15.675098+00:00",
+  "code_commit": "1e139513576984416c070a754eb62ad15f532e2f",
+  "status_evidence": "evidence/MV-3/v2/server_status_036_20261014.json",
+  "smoke_pair_status": "PASS",
+  "loader_check_evidence": "evidence/MV-3/v2/han_fullgt_loader_check_20261014.json"
 }

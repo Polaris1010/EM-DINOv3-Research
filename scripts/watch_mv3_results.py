@@ -35,7 +35,12 @@ def verify_private_remote():
  def api(path,method='GET',payload=None):
   data=json.dumps(payload).encode() if payload is not None else None
   request=urllib.request.Request('https://api.github.com'+path,data=data,method=method,headers={'Authorization':'Bearer '+token,'Accept':'application/vnd.github+json','Content-Type':'application/json','User-Agent':'MV3-passive-results-collector'})
-  with urllib.request.urlopen(request,timeout=30) as response:return json.load(response)
+  for attempt in range(6):
+   try:
+    with urllib.request.urlopen(request,timeout=30) as response:return json.load(response)
+   except (ConnectionError,TimeoutError,urllib.error.URLError):
+    if attempt==5:raise
+    time.sleep(5*(attempt+1))
  repo=api('/repos/Polaris1010/EM-DINOv3-Research');assert repo['private'] and repo['full_name']=='Polaris1010/EM-DINOv3-Research'
  assert api('/user')['login'].lower()=='polaris1010'
  return api

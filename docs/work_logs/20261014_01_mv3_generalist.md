@@ -9,3 +9,9 @@
 验证：新增split交叉、test混入、OpenOrganelle分组与Han非零编号mask回归检查；共9项CPU测试通过。GPU smoke及正式进度必须以随后实际回执为准；当前尚不声称模型完成或已有新Dice。后续会将实际snapshot、运行状态和最终报告追加到本记录及registry。
 
 Git：工作分支 `codex/mv3-generalist-training`；本轮代码、配置和Markdown一并commit/push，实际commit/PR写入后续交付记录。保留原26条历史实验记录和MV1/MV2原文件。每轮状态不以聊天代替。
+
+11:10:38香港时间服务器快照：两组smoke已PASS，decoder初始化SHA均为 `2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec`，12来源采样一致；encoder未变化，ignore loss不变且ignore梯度零，checkpoint往返通过。两组正式run均已到100/40000 steps，采样链SHA与来源计数一致；service active，phase first_seed_train_and_infer，网站HTTP200。该100step快照不能写成最终结果。
+
+实际来源清单与有效体素已收取：194区域，193区域复用旧缓存只读、1区域新增缓存，Han有效mask新建在MV3目录。文件见MV3_actual_supervision.json及MV3_source_coverage.csv。
+
+首次启动在训练前因GPU0宿主机PID不可见失败；修复仅限制初始化进程发现到GPU1/2/3并兼容namespace中不可见的既有PID。GPU0进程未操作，失败log保留服务器新目录。初始代码commit `27c6316`、启动器修复 `08de7d0`；[草稿PR #2](https://github.com/Polaris1010/EM-DINOv3-Research/pull/2) 已建立。27c6316的GitHub CI成功；后续提交CI实时核验，不能套用旧成功。

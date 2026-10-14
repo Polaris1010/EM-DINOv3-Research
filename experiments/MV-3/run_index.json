@@ -9,11 +9,45 @@
   "train_sources": 12,
   "dev_sources": 12,
   "runs": [
-    {"model": "G-P0", "seed": 20261014, "status": "PLANNED"},
-    {"model": "G-B100", "seed": 20261014, "status": "PLANNED"},
-    {"model": "G-P0", "seed": 20261015, "status": "PLANNED"},
-    {"model": "G-B100", "seed": 20261015, "status": "PLANNED"},
-    {"model": "G-P0", "seed": 20261016, "status": "PLANNED"},
-    {"model": "G-B100", "seed": 20261016, "status": "PLANNED"}
-  ]
+    {
+      "model": "G-P0",
+      "seed": 20261014,
+      "status": "VERIFIED_RUNNING",
+      "execution_state": "FIRST_SEED_FORMAL_TRAINING_STARTED",
+      "completed_steps": 100,
+      "decoder_initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec"
+    },
+    {
+      "model": "G-B100",
+      "seed": 20261014,
+      "status": "VERIFIED_RUNNING",
+      "execution_state": "FIRST_SEED_FORMAL_TRAINING_STARTED",
+      "completed_steps": 100,
+      "decoder_initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec"
+    },
+    {
+      "model": "G-P0",
+      "seed": 20261015,
+      "status": "PLANNED"
+    },
+    {
+      "model": "G-B100",
+      "seed": 20261015,
+      "status": "PLANNED"
+    },
+    {
+      "model": "G-P0",
+      "seed": 20261016,
+      "status": "PLANNED"
+    },
+    {
+      "model": "G-B100",
+      "seed": 20261016,
+      "status": "PLANNED"
+    }
+  ],
+  "code_commit": "08de7d0d90c3949c3a6e745fbf21f3a520584e3e",
+  "observed_at": "2026-10-14T03:13:17.398208+00:00",
+  "status_evidence": "evidence/MV-3/server_status_20261014T031317.json",
+  "smoke_pair_status": "PASS"
 }

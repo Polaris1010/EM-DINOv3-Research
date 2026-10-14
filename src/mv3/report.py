@@ -108,10 +108,12 @@ def report(first=False):
   oldmacro={m:avg([c['historical_stored_prediction_dice'] for c in comparisons if c['model']==m and c['common_heldout_regions']]) for m in ['G-P0','G-B100']}
   newmacro={m:avg([c['MV3_dice_on_same_regions'] for c in comparisons if c['model']==m and c['common_heldout_regions']]) for m in ['G-P0','G-B100']}
   positive=[s for s,d in gains.items() if d>0];negative=[s for s,d in gains.items() if d<0]
-  lines+=['',f"同区域来源等权监督收益：G-P0 {fmt(newmacro['G-P0']-oldmacro['G-P0'])}；G-B100 {fmt(newmacro['G-B100']-oldmacro['G-B100'])}。Han有效mask改变已经应用在前后双方；Müller官方high_c1无旧heldout预测，仅共同low_c2参与该项比较。新旧decoder seeds不同，历史比较为描述性均值，不宣称同初始化的因果估计。",'',f"2. **B100是否仍有多来源优势：** 同seed同区域G-B100−G-P0总ΔDice {fmt(overall['B100_minus_P0'])}；正向来源{len(positive)}/12：{', '.join(positive)}；负向：{', '.join(negative) or '无'}。逐seed方向见配对CSV。",'', '3. **Guay/Müller是否改善：** 以上同区域监督收益表列出两组前后值；B100−P0在Guay为 '+fmt(gains['guay21'])+'，在Müller为 '+fmt(gains['muller21'])+'。Müller新official high_c1过去被MV1监督暴露，不能构造独立旧基线。','']
+  lines+=['',f"同区域来源等权监督适配收益：G-P0 {fmt(newmacro['G-P0']-oldmacro['G-P0'])}；G-B100 {fmt(newmacro['G-B100']-oldmacro['G-B100'])}。Han有效mask改变已应用在前后双方；Müller官方high_c1无旧heldout预测，仅共同low_c2参与该项比较。MV2为20k、MV3为40k且decoder seeds不同，收益包含来源覆盖和训练预算的共同改变，不宣称单独增加来源的因果效应。",'',f"2. **B100是否仍有多来源优势：** 同seed同区域G-B100−G-P0总ΔDice {fmt(overall['B100_minus_P0'])}；正向来源{len(positive)}/12：{', '.join(positive)}；负向：{', '.join(negative) or '无'}。逐seed方向见配对CSV。",'', '3. **Guay/Müller是否改善：** 以上同区域监督适配收益表列出两组前后值；B100−P0在Guay为 '+fmt(gains['guay21'])+'，在Müller为 '+fmt(gains['muller21'])+'。Müller新official high_c1过去被MV1监督暴露，不能构造独立旧基线。','']
   b100=sorted([r for r in summary if r['model']=='G-B100'],key=lambda r:r['dice_mean']);worst=b100[:4]
+  adaptation_gain=avg([newmacro[m]-oldmacro[m] for m in ['G-P0','G-B100']])
+  priority='监督适配' if adaptation_gain>=abs(overall['B100_minus_P0']) else '预训练表示的来源稳健性'
   lines+=['4. **主要短板：** '+', '.join(r['source_id']+' Dice='+fmt(r['dice_mean']) for r in worst)+'。失败案例CSV包含最低Dice区域、Precision/Recall及预测前景比例；区分空预测、假阳性和来源偏差，不能仅归因encoder。','',
-   '5. **优先改进方向：** 本轮直接操纵监督适配，未操纵物理输入尺度或SSL机制，因此只能用共同区域监督收益与P0/B100差异定位已测得瓶颈。先完成官方MitoNet同图像/有效GT对照，再从监督适配、输入尺度或预训练表示中选择一项；低分来源的尺度原因仍是假设，不据此自动改配置或启动新SSL。','',
+   f'5. **当前优先方向：{priority}。** 同区域描述性适配收益平均为{fmt(adaptation_gain)}，新共同协议下encoder差异绝对值为{fmt(abs(overall["B100_minus_P0"]))}；这一幅度比较用于排序已测得的工程改进方向，不是因果分解或新的PASS门槛。输入尺度未被本轮操纵，来源相关尺度退化仍为待检验假设。下一项唯一动作先运行官方MitoNet同图像/有效GT对照，以判断剩余短板是否为本系统特有；本轮不自动改配置或启动新SSL。','',
    '## 下一项研究决策','', 'MV3训练结束并停止。下一项任务是按同一图像与有效真值运行官方MitoNet对照，需后续明确任务；不自动执行MitoNet、Gram/HRA或新预训练。','', '## Checkpoint哈希','', '|模型|seed|step|SHA256|','|---|---:|---:|---|']
   for c in checkpoints:lines.append(f"|{c['model']}|{c['seed']}|{c['step']}|{c['sha256']}|")
  (R/('MV3_first_seed_report.md' if first else 'MV3_final_report.md')).write_text('\n'.join(lines)+'\n')

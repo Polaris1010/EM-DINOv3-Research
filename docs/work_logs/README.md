@@ -12,3 +12,5 @@
 - [Han整幅GT与MV-Generalist-v2](20261014_04_han_fullgt_v2.md)
 
 - [MV3首seed完整开发评测与收取器恢复](20261014_06_mv3_first_seed_results.md)
+
+- [继续完成MV3与三seed最终交付](20261014_07_mv3_completion.md)

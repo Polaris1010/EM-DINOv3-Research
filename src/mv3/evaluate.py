@@ -8,10 +8,18 @@ sys.path[:0]=[str(OLD/'src'),str(MV2/'src')]
 from mv_probe import build,sliding,confusion,overlap,state_hash,head_state
 from train import gpu_guard
 
+def read_own_checkpoint(path,digest):
+ """Allow only the NumPy LR scalar in our hash-verified MV3 optimizer checkpoint."""
+ assert path.resolve().is_relative_to((R/'runs').resolve())
+ assert digest==read(path.with_suffix('.json'))['sha256']
+ allowed=[np.core.multiarray.scalar,np.dtype,type(np.dtype(np.float64))]
+ with torch.serialization.safe_globals(allowed):
+  return torch.load(path,map_location='cpu',weights_only=True,mmap=True)
+
 def infer(model,seed):
  gpu_guard();out=R/'runs'/model/f'seed{seed}';protocol=read(R/'MV3_protocol.json');path=out/'head_step040000.pth'
  assert read(out/'training_complete.json')['completed_steps']==40000
- checkpoint_hash=sha(path);saved=torch.load(path,map_location='cpu',weights_only=True,mmap=True)
+ checkpoint_hash=sha(path);saved=read_own_checkpoint(path,checkpoint_hash)
  assert saved['metadata']['model']==model and saved['metadata']['seed']==seed and saved['step']==40000
  net,spec=build(protocol['models'][model],seed);missing,extra=net.load_state_dict(saved['head'],strict=False)
  assert not extra and all(k.startswith('dino_encoder.') for k in missing);assert state_hash(head_state(net))==state_hash(saved['head'])

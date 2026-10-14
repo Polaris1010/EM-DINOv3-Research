@@ -15,3 +15,7 @@ Git：工作分支 `codex/mv3-generalist-training`；本轮代码、配置和Mar
 实际来源清单与有效体素已收取：194区域，193区域复用旧缓存只读、1区域新增缓存，Han有效mask新建在MV3目录。文件见MV3_actual_supervision.json及MV3_source_coverage.csv。
 
 首次启动在训练前因GPU0宿主机PID不可见失败；修复仅限制初始化进程发现到GPU1/2/3并兼容namespace中不可见的既有PID。GPU0进程未操作，失败log保留服务器新目录。初始代码commit `27c6316`、启动器修复 `08de7d0`；[草稿PR #2](https://github.com/Polaris1010/EM-DINOv3-Research/pull/2) 已建立。27c6316的GitHub CI成功；后续提交CI实时核验，不能套用旧成功。
+
+后续工程校验：两组真实10k checkpoint中的optimizer含NumPy LR scalar，默认weights_only不接受该scalar。读取器在验证本轮自生成文件路径及已记录SHA后，仅限定允许对应NumPy scalar/dtype，继续weights_only=True；两组10k CPU安全读取通过。未修改checkpoint、LR、optimizer、训练轨迹、数据方案或Han极性，也未切换不受限pickle。回执为evidence/MV-3/checkpoint_reader_result.json。
+
+增加被动结果收取脚本watch_mv3_results.py，仅监控本轮固定MV3目录的终止状态。正式完成后收取报告、指标、18个checkpoint sidecar及6组记录，校验后提交推送当前研究分支；检查private远程与账户，不合并PR，不启动实验。若工作区有其他改动，保留本地collected_results供下一窗口接手，不覆盖用户文件。启动认证经匿名stdin管道，密码仅在内存，不入文件、环境变量或命令行。实际collector PID/状态见本地artifacts/mv3_control_20261014。

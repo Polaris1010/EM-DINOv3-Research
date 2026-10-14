@@ -1,3 +1,11 @@
+# MV3三seed最终交付
+
+最终报告与指标版本commit `ab625b43c52707aa865ed0d4ed428df9650687f3`已推送至private仓库的`codex/mv3-generalist-training`。[PR #2](https://github.com/Polaris1010/EM-DINOv3-Research/pull/2)为open draft，未合并；main不代表本轮最终结果。两项CI均success：[PR CI](https://github.com/Polaris1010/EM-DINOv3-Research/actions/runs/38541655448)、[push CI](https://github.com/Polaris1010/EM-DINOv3-Research/actions/runs/38541647912)。后续交付回执提交单独看对应head，不套用旧CI状态。
+
+六组40k、228条完整指标、18个checkpoint及三seed核验已完成，报告为docs/MV3_final_report.md；本轮记录为docs/work_logs/20261014_07_mv3_completion.md。服务器service inactive、collector退出，网站200、GPU0未使用，没有自动新实验。实际GitHub回执见evidence/MV-3/v2/github_final_report_delivery_ab625b4.json。
+
+以下为先前阶段的交付快照。
+
 # 当前MV3交付
 
 分支`codex/mv3-generalist-training`，当前[PR #2](https://github.com/Polaris1010/EM-DINOv3-Research/pull/2)为open draft，未合并。当前MV-Generalist-v2仅对Han按用户指令取消mask，整幅GT用于loss/采样/指标；其他配置保持。运行回执、每轮工作记录、状态、NEXT_ACTION与新窗口交接一并随代码提交推送。

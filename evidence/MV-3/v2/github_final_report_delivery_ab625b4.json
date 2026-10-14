@@ -1,0 +1,23 @@
+{
+  "observed_at": "2026-10-14T09:21:07.245380+00:00",
+  "private": true,
+  "repository": "Polaris1010/EM-DINOv3-Research",
+  "pr": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/2",
+  "state": "open",
+  "draft": true,
+  "head_sha": "ab625b43c52707aa865ed0d4ed428df9650687f3",
+  "workflows": [
+    {
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/Polaris1010/EM-DINOv3-Research/actions/runs/38541655448",
+      "event": "pull_request"
+    },
+    {
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/Polaris1010/EM-DINOv3-Research/actions/runs/38541647912",
+      "event": "push"
+    }
+  ]
+}

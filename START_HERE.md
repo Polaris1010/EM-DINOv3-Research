@@ -2,7 +2,7 @@
 
 # 新窗口从这里接手
 
-独立 private 仓库：[Polaris1010/EM-DINOv3-Research](https://github.com/Polaris1010/EM-DINOv3-Research)。本地：`E:\mira_website_demo\EM-DINOv3-Research`。使用此仓库的 main，不要把网站仓库当作研究仓库。
+独立 private 仓库：[Polaris1010/EM-DINOv3-Research](https://github.com/Polaris1010/EM-DINOv3-Research)。本地：`E:\mira_website_demo\EM-DINOv3-Research`。本轮完成结果在 codex/mv3-generalist-training（draft PR2）；先读该分支，不假定main已合并本轮结果。不要把网站仓库当作研究仓库。
 
 按顺序读取：
 

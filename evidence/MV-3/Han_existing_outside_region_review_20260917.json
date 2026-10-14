@@ -1,0 +1,177 @@
+[
+  {
+    "volume_id": "han24_neg0",
+    "outside_foreground_voxels": 29895,
+    "outside_share_of_all_foreground": 0.0028219895238535755,
+    "sample_outside_coords_zyx": [
+      [
+        35,
+        2,
+        0
+      ],
+      [
+        61,
+        646,
+        826
+      ],
+      [
+        86,
+        712,
+        1024
+      ],
+      [
+        166,
+        986,
+        424
+      ]
+    ],
+    "sample_distance_to_mask_nm": [
+      null,
+      8.0,
+      8.0,
+      24.0
+    ],
+    "distance_note": "Bounded 33-cube; null means no valid region within inspected cube, not an infinite distance",
+    "policy": "All mask-zero voxels receive ignore_index=-1, including positive labels; no dilation, union, or background relabeling"
+  },
+  {
+    "volume_id": "han24_neg1",
+    "outside_foreground_voxels": 268,
+    "outside_share_of_all_foreground": 2.1179828678894752e-05,
+    "sample_outside_coords_zyx": [
+      [
+        73,
+        452,
+        858
+      ],
+      [
+        134,
+        454,
+        493
+      ],
+      [
+        140,
+        492,
+        518
+      ],
+      [
+        174,
+        700,
+        428
+      ]
+    ],
+    "sample_distance_to_mask_nm": [
+      8.0,
+      8.0,
+      8.0,
+      8.0
+    ],
+    "distance_note": "Bounded 33-cube; null means no valid region within inspected cube, not an infinite distance",
+    "policy": "All mask-zero voxels receive ignore_index=-1, including positive labels; no dilation, union, or background relabeling"
+  },
+  {
+    "volume_id": "han24_pos0",
+    "outside_foreground_voxels": 104,
+    "outside_share_of_all_foreground": 8.29561884439158e-06,
+    "sample_outside_coords_zyx": [
+      [
+        182,
+        932,
+        984
+      ],
+      [
+        179,
+        1000,
+        1186
+      ],
+      [
+        170,
+        1076,
+        1098
+      ],
+      [
+        202,
+        404,
+        458
+      ]
+    ],
+    "sample_distance_to_mask_nm": [
+      8.0,
+      8.0,
+      8.0,
+      8.0
+    ],
+    "distance_note": "Bounded 33-cube; null means no valid region within inspected cube, not an infinite distance",
+    "policy": "All mask-zero voxels receive ignore_index=-1, including positive labels; no dilation, union, or background relabeling"
+  },
+  {
+    "volume_id": "han24_pos1",
+    "outside_foreground_voxels": 49068,
+    "outside_share_of_all_foreground": 0.004277274577265224,
+    "sample_outside_coords_zyx": [
+      [
+        116,
+        407,
+        588
+      ],
+      [
+        263,
+        343,
+        796
+      ],
+      [
+        274,
+        1211,
+        820
+      ],
+      [
+        314,
+        1179,
+        1516
+      ]
+    ],
+    "sample_distance_to_mask_nm": [
+      8.0,
+      8.0,
+      8.0,
+      8.0
+    ],
+    "distance_note": "Bounded 33-cube; null means no valid region within inspected cube, not an infinite distance",
+    "policy": "All mask-zero voxels receive ignore_index=-1, including positive labels; no dilation, union, or background relabeling"
+  },
+  {
+    "volume_id": "han24_pos2",
+    "outside_foreground_voxels": 348,
+    "outside_share_of_all_foreground": 3.242163932006978e-05,
+    "sample_outside_coords_zyx": [
+      [
+        16,
+        815,
+        940
+      ],
+      [
+        53,
+        981,
+        1060
+      ],
+      [
+        158,
+        455,
+        295
+      ],
+      [
+        203,
+        854,
+        931
+      ]
+    ],
+    "sample_distance_to_mask_nm": [
+      8.0,
+      8.0,
+      8.0,
+      8.0
+    ],
+    "distance_note": "Bounded 33-cube; null means no valid region within inspected cube, not an infinite distance",
+    "policy": "All mask-zero voxels receive ignore_index=-1, including positive labels; no dilation, union, or background relabeling"
+  }
+]

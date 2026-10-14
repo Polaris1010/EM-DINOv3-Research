@@ -1,0 +1,102 @@
+[
+  {
+    "volume_id": "han24_neg0",
+    "shape_zyx": [
+      265,
+      1204,
+      1204
+    ],
+    "total_voxels": 384148240,
+    "mask_nonzero_voxels": 37391771,
+    "nonzero_fraction": 0.09733682757468835,
+    "foreground_inside": 10563695,
+    "foreground_outside": 29895,
+    "mask_values": {
+      "0": 346756469,
+      "13": 37391771
+    },
+    "mask_chunk_stream_sha256": "0b93ef33c72a25f10611b6e027b97cbbc7c4023a5a8829ccf615b3f8488898d3",
+    "label_chunk_stream_sha256": "37d8d9e0cc77be7d5f8c766158477656a84e76187bbcf1ff6cbcdb7f4a081a62",
+    "hash_order": "ZYX chunk iteration; decompressed C-order chunk bytes"
+  },
+  {
+    "volume_id": "han24_neg1",
+    "shape_zyx": [
+      374,
+      1110,
+      1056
+    ],
+    "total_voxels": 438387840,
+    "mask_nonzero_voxels": 47987663,
+    "nonzero_fraction": 0.10946394635398646,
+    "foreground_inside": 12653281,
+    "foreground_outside": 268,
+    "mask_values": {
+      "0": 390400177,
+      "14": 47987663
+    },
+    "mask_chunk_stream_sha256": "5dbbc5d7850567738d12030dee99a76b92679bdd9cf74b8a2d13375afca2b3ef",
+    "label_chunk_stream_sha256": "f45fb8f9f78782be16da8a1f969a06930ebe0ff4b49763e15700745948fb6ef8",
+    "hash_order": "ZYX chunk iteration; decompressed C-order chunk bytes"
+  },
+  {
+    "volume_id": "han24_pos0",
+    "shape_zyx": [
+      362,
+      1756,
+      1650
+    ],
+    "total_voxels": 1048858800,
+    "mask_nonzero_voxels": 65345766,
+    "nonzero_fraction": 0.06230177598738743,
+    "foreground_inside": 12536634,
+    "foreground_outside": 104,
+    "mask_values": {
+      "0": 983513034,
+      "1": 65345766
+    },
+    "mask_chunk_stream_sha256": "6c3da11401343087f3d11b095d80787a0809fa940f1c119b5c3e4155ce6d2a69",
+    "label_chunk_stream_sha256": "1ffad04078ec858080d4c492f035408d0d8cadd76f79cf23165c46fbb7eb9caa",
+    "hash_order": "ZYX chunk iteration; decompressed C-order chunk bytes"
+  },
+  {
+    "volume_id": "han24_pos1",
+    "shape_zyx": [
+      371,
+      1640,
+      1632
+    ],
+    "total_voxels": 992974080,
+    "mask_nonzero_voxels": 56941267,
+    "nonzero_fraction": 0.05734416249817921,
+    "foreground_inside": 11422723,
+    "foreground_outside": 49068,
+    "mask_values": {
+      "0": 936032813,
+      "11": 56941267
+    },
+    "mask_chunk_stream_sha256": "98346c7fa583d70911911d643fa694eb233126b40a52306deac4c47b4cc52a59",
+    "label_chunk_stream_sha256": "fee6bb4192a0b0a61ea1b03f80bf4049d1d5cb4b8af9ea4de1078d579da55e4c",
+    "hash_order": "ZYX chunk iteration; decompressed C-order chunk bytes"
+  },
+  {
+    "volume_id": "han24_pos2",
+    "shape_zyx": [
+      281,
+      1343,
+      1243
+    ],
+    "total_voxels": 469087069,
+    "mask_nonzero_voxels": 44649569,
+    "nonzero_fraction": 0.09518396892752548,
+    "foreground_inside": 10733224,
+    "foreground_outside": 348,
+    "mask_values": {
+      "0": 424437500,
+      "12": 44649569
+    },
+    "mask_chunk_stream_sha256": "7277bbaf9e3b998a55c0de489442bdf69f1f489170be1003a77482301192da1e",
+    "label_chunk_stream_sha256": "ad8c96463a003b3949cc4f4970dad163410271e16ab965ca0cee96498d76f095",
+    "hash_order": "ZYX chunk iteration; decompressed C-order chunk bytes"
+  }
+]

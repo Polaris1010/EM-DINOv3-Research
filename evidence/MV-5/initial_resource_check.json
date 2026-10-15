@@ -1,0 +1,7 @@
+{
+  "gpu0": "untouched; existing unknown process2470228",
+  "gpu1_gpu2": "website1971241 retained",
+  "gpu3": "empty at takeover, designated training device",
+  "website_http": 200,
+  "server_check": "2026-10-15 SSH read-only, exact stdout retained in local scratch"
+}

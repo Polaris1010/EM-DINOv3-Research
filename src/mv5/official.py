@@ -1,0 +1,41 @@
+"""Run unchanged official Engine2d/Preprocessor definitions without Qt imports.
+
+The AST-selected definitions are compiled verbatim from hash-locked upstream
+files. Only imports and the local model path are supplied by this headless adapter.
+No inference algorithm, normalization, threshold or postprocessing is rewritten.
+"""
+import ast,os
+from pathlib import Path
+OLD=Path('/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014')
+from common import R,read,sha,config
+
+def definitions(path,names,namespace):
+ tree=ast.parse(path.read_text())
+ chosen=[n for n in tree.body if isinstance(n,(ast.ClassDef,ast.FunctionDef)) and n.name in names]
+ assert {n.name for n in chosen}==set(names)
+ exec(compile(ast.Module(body=chosen,type_ignores=[]),str(path),'exec'),namespace)
+
+def build():
+ import numpy as np,torch,yaml
+ from tqdm import tqdm
+ from empanada.data.utils import resize_by_factor
+ from empanada.inference.engines import PanopticDeepLabRenderEngine
+ from empanada.inference import rle
+ from empanada.inference.tile import Tiler
+ from empanada.consensus import merge_objects_from_tiles,merge_semantic_from_tiles
+ c=config();locks=read(OLD/'assets/official_assets.json')
+ for name in ['inference_upstream.py','utils_upstream.py','model_config.yaml','MitoNet_v1.pth']:
+  assert sha(OLD/'assets'/name)==locks['files'][name]['sha256'],name
+ ns=dict(np=np,torch=torch,os=os,tqdm=tqdm,resize_by_factor=resize_by_factor,
+  PanopticDeepLabRenderEngine=PanopticDeepLabRenderEngine,rle=rle,Tiler=Tiler,
+  merge_objects_from_tiles=merge_objects_from_tiles,merge_semantic_from_tiles=merge_semantic_from_tiles)
+ definitions(OLD/'assets/utils_upstream.py',{'normalize','to_tensor','Preprocessor','load_model_to_device'},ns)
+ definitions(OLD/'assets/inference_upstream.py',{'Engine2d'},ns)
+ model_config=yaml.safe_load((OLD/'assets/model_config.yaml').read_text())
+ model_config['model']=str(R/'training/model_step040000.pth')
+ assert model_config['norms']=={'mean':0.57571,'std':0.12765} and model_config['labels']==[1]
+ assert sha(R/'training/model_step040000.pth')==read(R/'training/model_step040000.json')['sha256']
+ engine=ns['Engine2d'](model_config,**c['engine_parameters'])
+ for parameter in engine.engine.model.parameters():parameter.requires_grad_(False)
+ engine.engine.model.eval()
+ return engine

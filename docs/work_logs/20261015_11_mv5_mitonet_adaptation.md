@@ -1,0 +1,9 @@
+# MV5同监督区域适配启动记录
+
+用户明确关闭MV4B实例分组丢前景机制，转向相同156监督区域的MitoNet适配。本轮接续代码分支codex/mv5-mitonet-adaptation（父MV4C，历史保留），不继续灰度/尺度/SemanticOnly检查，不改DINOv3。
+
+已核对官方发布TorchScript保留训练forward，使用PanopticLoss的CE/中心MSE/偏移L1/PointRend损失；官方fine-tune支持finetune_layer=all。固定一个seed20261014、40k真实更新，10k/20k/40k保存与固定40k开发评测，source-aware原生crop。官方训练接口与loss/target源码按字节SHA保存；当前上游main的commit未单独核验，明确UNVERIFIED，不猜测。
+
+首次smoke在正式训练前发现小于256的训练区域，未训练即停；为人工padding加入全loss忽略并重跑短smoke。十二来源每源一步、共12步通过，55158486参数可训练、checkpoint推理回读一致。CPU实际验证补边输出/点扰动不改变loss且无梯度；无padding时逐值等同官方loss。四个CPU loader workers预取目标，GPU3训练，避免串行读取造成GPU等待；不增加训练区域或配置搜索。
+
+实际开跑、实时步数、commit及PR回执将在同文件追加；在实际40k与38区指标完成前，不填写完成结果。每轮代码、协议与本Markdown一并提交推送。

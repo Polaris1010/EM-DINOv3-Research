@@ -22,3 +22,5 @@
 - [MV4B语义与Panoptic定向复核](20261014_09_mv4b_semantic_panoptic.md)
 
 - [MV4C两来源输入链核查及原图缺口](20261015_10_mv4c_input_provenance.md)
+
+- [MV5同监督区域适配](20261015_11_mv5_mitonet_adaptation.md)

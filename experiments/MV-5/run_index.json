@@ -1,0 +1,22 @@
+{
+  "stage": "MV-5",
+  "model": "MitoNet-MV",
+  "seed": 20261014,
+  "server_root": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015",
+  "service": "mv5-mitonet-adaptation-20261015.service",
+  "status": "PLANNED",
+  "execution_state": "TWELVE_SOURCE_SMOKE_PASS_FORMAL_NOT_STARTED",
+  "completed_steps": 0,
+  "budget_steps": 40000,
+  "train_regions": 156,
+  "dev_regions": 38,
+  "sources": 12,
+  "protocol": "configs/evaluation/MV-5_protocol.json",
+  "code_commit": "UNVERIFIED",
+  "report_path": "docs/MV5_execution.md",
+  "metrics_path": "UNVERIFIED",
+  "initial_checkpoint_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+  "physical_training_gpu": 3,
+  "gpu0_used": false,
+  "prior_results_unchanged": true
+}

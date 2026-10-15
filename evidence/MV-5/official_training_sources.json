@@ -1,0 +1,38 @@
+{
+  "official_inference_baseline": "evidence/MV-4/official_assets.json",
+  "training_sources": [
+    {
+      "repository_path": "src/mv5/upstream/finetune.py",
+      "source": "https://raw.githubusercontent.com/volume-em/empanada-napari/main/empanada_napari/finetune.py",
+      "bytes": 16886,
+      "sha256": "dd35dd62b7cbcdb74478730a18510162f359765a31c2644b004a817ef3c0a62e"
+    },
+    {
+      "repository_path": "src/mv5/upstream/losses.py",
+      "source": "empanada-dl==0.1.7 wheel; official volume-em/empanada source, inherited wheel SHA405518287dbf9f41d1d7c1b092a16feb4d87d995c1b4a9c3ec38d3f9b37532d4",
+      "bytes": 6577,
+      "sha256": "a697b5c4d474b1376a14dfc666be4867f82e6e7ebdad2ccb9520817e820233f1"
+    },
+    {
+      "repository_path": "src/mv5/upstream/single_class_instance_dataset.py",
+      "source": "empanada-dl==0.1.7 wheel; official volume-em/empanada source, inherited wheel SHA405518287dbf9f41d1d7c1b092a16feb4d87d995c1b4a9c3ec38d3f9b37532d4",
+      "bytes": 2281,
+      "sha256": "bb214316d5116a36ee16668c5af47b12512eb9a61d3dd51cadb8fa6e2f8c57ea"
+    },
+    {
+      "repository_path": "src/mv5/upstream/target_creation.py",
+      "source": "empanada-dl==0.1.7 wheel; official volume-em/empanada source, inherited wheel SHA405518287dbf9f41d1d7c1b092a16feb4d87d995c1b4a9c3ec38d3f9b37532d4",
+      "bytes": 4298,
+      "sha256": "9a0e93f2a213af0f4c6782a7e9f74107a8189c3c13eedb30e79a3fabe810d8d6"
+    },
+    {
+      "repository_path": "src/mv5/upstream/training_finetune_config.yaml",
+      "source": "https://raw.githubusercontent.com/volume-em/empanada-napari/main/empanada_napari/training/finetune_config.yaml",
+      "bytes": 1492,
+      "sha256": "2709dfc32fd23aa335996ce6e5e1c18b4ec39bcbabeb082f5a7a0d45c689a916"
+    }
+  ],
+  "upstream_commit": "UNVERIFIED; exact downloaded bytes pinned below",
+  "empanada_version": "0.1.7",
+  "adapter": "official scripted training forward plus exact upstream configure_optimizer, heatmap_and_offsets and PanopticLoss; custom source-aware loader and padding mask"
+}

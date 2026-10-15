@@ -1,0 +1,9 @@
+{
+  "hypothesis": "MitoNet panoptic instance grouping caused Guay/Muller foreground loss",
+  "status": "CLOSED_REJECTED_ON_TESTED_FOUR_REGIONS",
+  "user_decision": "2026-10-15 explicit closure",
+  "evidence": "experiments/MV-4B/run_index.json",
+  "remaining_34_regions": "NOT_TESTED_NO_EXTRAPOLATION",
+  "repeat_semantic_only": "NOT_AUTHORIZED_FOR_THIS_TASK",
+  "MV4_baseline_metrics": "PRESERVED_UNCHANGED"
+}

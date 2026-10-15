@@ -24,7 +24,7 @@ def make_figures(images):
   fig,axes=plt.subplots(1,6,figsize=(24,4.5))
   for i,(ax,p,title) in enumerate(zip(axes,panels,titles)):
    ax.imshow(p,cmap='gray',vmin=0,vmax=255 if i==0 else 1,interpolation='nearest');ax.set_title(title,fontsize=11);ax.axis('off')
-  fig.suptitle(f'{row["dataset"]} | {row["id"]} | native Z={z} | fixed input-only representative selection',fontsize=13);fig.tight_layout();p=out/(row['id']+f'_z{z:04d}.png');fig.savefig(p,dpi=140);plt.close(fig);image.close();gt.close()
+  fig.suptitle(f'{row["dataset"]} | {row["id"]} | native Z={z} | fixed input-only representative selection',fontsize=11,y=.98);fig.tight_layout(rect=(0,0,1,.87));p=out/(row['id']+f'_z{z:04d}.png');fig.savefig(p,dpi=140);plt.close(fig);image.close();gt.close()
   results.append({'dataset':row['dataset'],'entry_id':row['id'],'z':z,'path':str(p),'filename':p.name,'sha256':sha(p),'selection':'middle native Z of each volume; sorted TEM images0,49,99; chosen before metrics','dinov3_display_seed':20261014,'all_three_seeds_in_numerical_results':True})
  atomic(R/'MB1_figure_manifest.json',{'figures':results,'panoptic_files':'runs/{O,M}/*_panoptic.npy retained; no3D instance identity claim'});return results
 def overlap_report():
@@ -90,11 +90,11 @@ def main():
  f'2. B100相对P0七组等权Dice变化 {result["B100_minus_P0_macro_dice"]:+.6f}；改善组为 '+(', '.join(sslwins) or '无')+'。三个匹配seed的逐组差值保存在MB1_paired_seed_deltas.csv；不把seed数当生物学独立采集数。',
  '3. MitoNet-MV相对官方MitoNet下降组：'+(', '.join(regress) or '无')+'。这是当前MV5单seed适配模型的固定benchmark表现，不代表MitoNet微调能力上限。',
  '4. 五个Conrad23来源确认B100池来源和抽样图像重叠；Lucchi++source关联、精确区域未确认；TEM未发现名称重叠但不证明无上游暴露。六个候选volume均未直接进入MV3/MV5监督train，细节见MB1_overlap_status.md。',
- '5. '+('结果支持当前固定系统在这七种异质数据上的二维语义能力，也提供B100相对P0的部分收益证据；受SSL暴露影响，不能据此声称完全未见图像泛化。' if len(sslwins)>=4 and result['B100_minus_P0_macro_dice']>0 else 'B100没有在多数benchmark上形成正向总体收益，不能把系统优于官方MitoNet的部分直接归于EM持续预训练；应区分自然DINOv3、Primus和多来源监督适配的贡献。') ,
+ '5. B100相对P0的正向宏平均与逐组变化需要分别解释，不能把平均收益称为所有来源一致改善。'+('本轮没有任何benchmark的B100二维Dice超过官方MitoNet，且多个来源仍严重失败，因此不支持已获得广泛通用优势的主张。' if not wins else '仅部分benchmark超过官方MitoNet，尚不能把局部优势外推为广泛通用优势。')+'来源/抽样原图SSL重叠进一步限制了严格未见图像泛化结论。当前结果是固定完整系统的表现，尚未分离自然DINOv3、Primus、多来源监督适配及EM持续预训练的因果贡献。',
  '', '本轮到此停止。没有自动启动新训练、更多seed、独立诊断或参数搜索。','',
  '## 可复现配置和产物','',
  'DINOv3直接复用MV3 mv_probe.sliding/build与原版Primus[5,11,17,23]，native-grid、crop256/stride128、tile_batch16、既有归一化和mean-softmax>0.5。两个MitoNet原样复用MV4 Engine2d/Preprocessor，scale1/confidence0.5、NMS3、整图、TTA OFF；逐层Panoptic保留，不读取GT调输入或参数。','',
- 'GT仅使用原官方实例TIFF>0形成语义真值，完整原始XY/Z，不用GT box，不删空GT图像。原始TIFF212文件、所有10项既有checkpoint/encoder资产SHA已验证。GTsigned实例ID格式被正常读取，未重采样、反相或改变有效区域。','',
+ 'GT仅使用原官方实例TIFF>0形成语义真值，完整原始XY/Z，不用GT box，不删空GT图像。212个原始TIFF文件长度与官方HEAD一致，逐文件计算SHA留档；官方未提供用于比对的SHA，不宣称原始文件SHA与官方摘要校验通过。10项既有checkpoint/encoder资产SHA已与实验记录复核。GTsigned实例ID格式被正常读取，未重采样、反相或改变有效区域。','',
  f'Manifest SHA `{result["manifest_sha256"]}`；protocol SHA `{result["protocol_sha256"]}`。模型/run/seed/path/SHA对照在MB1_protocol.json；逐平面结果用短run_id与dataset_id避免重复，均可回查完整manifest。CSV浮点保留7位有效数字，完整未舍入JSON和预测在服务器。','',
  'MB1_per_image_metrics.csv：20760行二维指标；MB1_per_image_confusion.csv保留精确整数计数。MB1_per_dataset_metrics.csv为56行run×benchmark；MB1_per_dataset_model_means.csv为28行等seed均值。MB1_TEM_image_distributions.csv保留100图均值/SD/分位/缺失/inf计数，分位数用经验逆CDF、不插值。所有seeds和所有图像都进入统计。','',
  '代表图固定选每volume中间Z和TEM按文件名排序0/49/99图，共9张，四模型均在同图同GT上展示；DINOv3显示首seed，其余seed完整计入数字。MB1_figure_manifest.json保存文件名、SHA和选择规则。没有计算DINOv3实例AP/PQ/F1@75。','',

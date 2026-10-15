@@ -1,0 +1,170 @@
+{
+  "status": "running",
+  "phase": "inference_and_scoring",
+  "seconds": 346.60106798261404,
+  "runs": [
+    {
+      "run_id": "P0",
+      "model": "G-P0",
+      "seed": 20261014,
+      "inferred_entries": 5,
+      "inference_complete": false,
+      "scoring_complete": false,
+      "inference_progress": {
+        "run_id": "P0",
+        "model": "G-P0",
+        "seed": 20261014,
+        "dataset": "salivary_gland",
+        "image": "salivary_gland",
+        "plane": 551,
+        "planes": 1260,
+        "seconds": 338.5521812438965,
+        "physical_gpu": 1
+      },
+      "score_progress": null
+    },
+    {
+      "run_id": "B0",
+      "model": "G-B100",
+      "seed": 20261014,
+      "inferred_entries": 5,
+      "inference_complete": false,
+      "scoring_complete": false,
+      "inference_progress": {
+        "run_id": "B0",
+        "model": "G-B100",
+        "seed": 20261014,
+        "dataset": "salivary_gland",
+        "image": "salivary_gland",
+        "plane": 551,
+        "planes": 1260,
+        "seconds": 339.8590159416199,
+        "physical_gpu": 2
+      },
+      "score_progress": null
+    },
+    {
+      "run_id": "P1",
+      "model": "G-P0",
+      "seed": 20261015,
+      "inferred_entries": 5,
+      "inference_complete": false,
+      "scoring_complete": false,
+      "inference_progress": {
+        "run_id": "P1",
+        "model": "G-P0",
+        "seed": 20261015,
+        "dataset": "salivary_gland",
+        "image": "salivary_gland",
+        "plane": 101,
+        "planes": 1260,
+        "seconds": 125.57528376579285,
+        "physical_gpu": 3
+      },
+      "score_progress": null
+    },
+    {
+      "run_id": "B1",
+      "model": "G-B100",
+      "seed": 20261015,
+      "inferred_entries": 0,
+      "inference_complete": false,
+      "scoring_complete": false,
+      "inference_progress": null,
+      "score_progress": null
+    },
+    {
+      "run_id": "P2",
+      "model": "G-P0",
+      "seed": 20261016,
+      "inferred_entries": 0,
+      "inference_complete": false,
+      "scoring_complete": false,
+      "inference_progress": null,
+      "score_progress": null
+    },
+    {
+      "run_id": "B2",
+      "model": "G-B100",
+      "seed": 20261016,
+      "inferred_entries": 0,
+      "inference_complete": false,
+      "scoring_complete": false,
+      "inference_progress": null,
+      "score_progress": null
+    },
+    {
+      "run_id": "O",
+      "model": "Official-MitoNet-v1",
+      "seed": null,
+      "inferred_entries": 106,
+      "inference_complete": true,
+      "scoring_complete": true,
+      "inference_progress": {
+        "run_id": "O",
+        "model": "Official-MitoNet-v1",
+        "seed": null,
+        "dataset": "TEM-100",
+        "image": "TEM_zRf1ZWOS08TxjOvROo86",
+        "plane": 1,
+        "planes": 1,
+        "seconds": 97.82383990287781,
+        "physical_gpu": 3
+      },
+      "score_progress": {
+        "run_id": "O",
+        "dataset": "TEM-100",
+        "entry_id": "TEM_zRf1ZWOS08TxjOvROo86",
+        "z": 1,
+        "planes": 1,
+        "scored_images": 2595,
+        "seconds": 109.49718046188354
+      }
+    },
+    {
+      "run_id": "M",
+      "model": "MitoNet-MV",
+      "seed": 20261014,
+      "inferred_entries": 106,
+      "inference_complete": true,
+      "scoring_complete": true,
+      "inference_progress": {
+        "run_id": "M",
+        "model": "MitoNet-MV",
+        "seed": 20261014,
+        "dataset": "TEM-100",
+        "image": "TEM_zRf1ZWOS08TxjOvROo86",
+        "plane": 1,
+        "planes": 1,
+        "seconds": 94.42923426628113,
+        "physical_gpu": 3
+      },
+      "score_progress": {
+        "run_id": "M",
+        "dataset": "TEM-100",
+        "entry_id": "TEM_zRf1ZWOS08TxjOvROo86",
+        "z": 1,
+        "planes": 1,
+        "scored_images": 2595,
+        "seconds": 102.73675680160522
+      }
+    }
+  ],
+  "expected_runs": 8,
+  "datasets": 7,
+  "expected_entries_per_run": 106,
+  "expected_planes_per_run": 2595,
+  "expected_metric_rows": 20760,
+  "physical_gpus": [
+    1,
+    2,
+    3
+  ],
+  "gpu0_used": false,
+  "website_http": 200,
+  "child_pids": [
+    116293,
+    116294,
+    117387
+  ]
+}

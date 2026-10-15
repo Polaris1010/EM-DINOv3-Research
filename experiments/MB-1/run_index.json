@@ -1,7 +1,7 @@
 {
   "stage": "MB-1",
-  "status": "PLANNED",
-  "execution_state": "ASSETS_VERIFIED_FOUR_SYSTEM_SMOKE_PASS",
+  "status": "VERIFIED_RUNNING",
+  "execution_state": "inference_and_scoring",
   "server_root": "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015",
   "service": "mb1-official-benchmark-20261015.service",
   "protocol": "configs/evaluation/MB1_protocol.json",
@@ -10,7 +10,7 @@
   "datasets": 7,
   "checkpoint_writes": false,
   "training": false,
-  "code_commit": "UNVERIFIED",
+  "code_commit": "d5adc030628149a88847dda548aff5402a0e3768",
   "manifest": "experiments/MB-1/MB1_benchmark_manifest.json",
   "metrics_path": "UNVERIFIED",
   "report_path": "docs/MB1_execution.md",
@@ -26,7 +26,10 @@
       "encoder_path": "/opt/data/3_117/tanghr/DINOv3/pretrained_weights/dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth",
       "encoder_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
       "family": "dinov3",
-      "status": "PLANNED"
+      "status": "VERIFIED_RUNNING",
+      "inferred_entries": 5,
+      "inference_complete": false,
+      "scoring_complete": false
     },
     {
       "run_id": "B0",
@@ -38,7 +41,10 @@
       "encoder_path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/runs/B_full/formal_attempt1/checkpoints/step000100000/teacher_backbone.pth",
       "encoder_sha256": "9603877244ba40f3cbeccdea18d69b0d3b818dc0fc6b09f839fd6d4189ce2de5",
       "family": "dinov3",
-      "status": "PLANNED"
+      "status": "VERIFIED_RUNNING",
+      "inferred_entries": 5,
+      "inference_complete": false,
+      "scoring_complete": false
     },
     {
       "run_id": "P1",
@@ -50,7 +56,10 @@
       "encoder_path": "/opt/data/3_117/tanghr/DINOv3/pretrained_weights/dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth",
       "encoder_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
       "family": "dinov3",
-      "status": "PLANNED"
+      "status": "VERIFIED_RUNNING",
+      "inferred_entries": 5,
+      "inference_complete": false,
+      "scoring_complete": false
     },
     {
       "run_id": "B1",
@@ -62,7 +71,10 @@
       "encoder_path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/runs/B_full/formal_attempt1/checkpoints/step000100000/teacher_backbone.pth",
       "encoder_sha256": "9603877244ba40f3cbeccdea18d69b0d3b818dc0fc6b09f839fd6d4189ce2de5",
       "family": "dinov3",
-      "status": "PLANNED"
+      "status": "PLANNED",
+      "inferred_entries": 0,
+      "inference_complete": false,
+      "scoring_complete": false
     },
     {
       "run_id": "P2",
@@ -74,7 +86,10 @@
       "encoder_path": "/opt/data/3_117/tanghr/DINOv3/pretrained_weights/dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth",
       "encoder_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
       "family": "dinov3",
-      "status": "PLANNED"
+      "status": "PLANNED",
+      "inferred_entries": 0,
+      "inference_complete": false,
+      "scoring_complete": false
     },
     {
       "run_id": "B2",
@@ -86,7 +101,10 @@
       "encoder_path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/runs/B_full/formal_attempt1/checkpoints/step000100000/teacher_backbone.pth",
       "encoder_sha256": "9603877244ba40f3cbeccdea18d69b0d3b818dc0fc6b09f839fd6d4189ce2de5",
       "family": "dinov3",
-      "status": "PLANNED"
+      "status": "PLANNED",
+      "inferred_entries": 0,
+      "inference_complete": false,
+      "scoring_complete": false
     },
     {
       "run_id": "O",
@@ -95,7 +113,10 @@
       "checkpoint_path": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/assets/MitoNet_v1.pth",
       "checkpoint_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
       "family": "mitonet",
-      "status": "PLANNED"
+      "status": "VERIFIED_RUNNING",
+      "inferred_entries": 106,
+      "inference_complete": true,
+      "scoring_complete": true
     },
     {
       "run_id": "M",
@@ -104,7 +125,14 @@
       "checkpoint_path": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/model_step040000.pth",
       "checkpoint_sha256": "660edd2781c8ae1f3f99a8b0b679dc0501212863798d1eb8da426c02f74e7136",
       "family": "mitonet",
-      "status": "PLANNED"
+      "status": "VERIFIED_RUNNING",
+      "inferred_entries": 106,
+      "inference_complete": true,
+      "scoring_complete": true
     }
-  ]
+  ],
+  "status_evidence": "evidence/MB-1/initial_running_status.json",
+  "observed_at_utc": "2026-10-15T07:33:42.143780+00:00",
+  "main_pid": 116291,
+  "draft_pr": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/7"
 }

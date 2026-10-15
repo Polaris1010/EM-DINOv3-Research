@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "run_id": "O",
+  "entries": 106,
+  "datasets": 7,
+  "planes": 2595,
+  "physical_gpu": 3,
+  "checkpoint_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+  "protocol_sha256": "7869c030d26082f07581bb77bfaccfac0a86ab39445ce11cd520068ea852369e",
+  "seconds": 97.83505916595459
+}

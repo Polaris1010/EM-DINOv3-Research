@@ -1,0 +1,168 @@
+{
+  "rows": [
+    {
+      "dataset": "c_elegans",
+      "candidate_volume_id": "conrad23_c_elegans",
+      "ssl_listed": true,
+      "supervised_exact_volume_id_present": false,
+      "supervised_note": "candidate source volume excluded/reserved in MV3; no direct candidate volume used by any of six heads or MitoNet-MV",
+      "exact_full_pixel_match": "UNVERIFIED; bounded three-plane asset check only",
+      "status": "CONFIRMED_SOURCE_AND_SAMPLED_IMAGE_OVERLAP",
+      "sampled_planes": [
+        {
+          "z": 0,
+          "equal": true
+        },
+        {
+          "z": 128,
+          "equal": true
+        },
+        {
+          "z": 255,
+          "equal": true
+        }
+      ],
+      "source_shape": [
+        256,
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "fly_brain",
+      "candidate_volume_id": "conrad23_fly_brain",
+      "ssl_listed": true,
+      "supervised_exact_volume_id_present": false,
+      "supervised_note": "candidate source volume excluded/reserved in MV3; no direct candidate volume used by any of six heads or MitoNet-MV",
+      "exact_full_pixel_match": "UNVERIFIED; bounded three-plane asset check only",
+      "status": "CONFIRMED_SOURCE_AND_SAMPLED_IMAGE_OVERLAP",
+      "sampled_planes": [
+        {
+          "z": 0,
+          "equal": true
+        },
+        {
+          "z": 128,
+          "equal": true
+        },
+        {
+          "z": 255,
+          "equal": true
+        }
+      ],
+      "source_shape": [
+        256,
+        255,
+        255
+      ]
+    },
+    {
+      "dataset": "glycolytic_muscle",
+      "candidate_volume_id": "conrad23_glycolytic_muscle",
+      "ssl_listed": true,
+      "supervised_exact_volume_id_present": false,
+      "supervised_note": "candidate source volume excluded/reserved in MV3; no direct candidate volume used by any of six heads or MitoNet-MV",
+      "exact_full_pixel_match": "UNVERIFIED; bounded three-plane asset check only",
+      "status": "CONFIRMED_SOURCE_AND_SAMPLED_IMAGE_OVERLAP",
+      "sampled_planes": [
+        {
+          "z": 0,
+          "equal": true
+        },
+        {
+          "z": 151,
+          "equal": true
+        },
+        {
+          "z": 301,
+          "equal": true
+        }
+      ],
+      "source_shape": [
+        302,
+        383,
+        765
+      ]
+    },
+    {
+      "dataset": "hela_cell",
+      "candidate_volume_id": "conrad23_hela_cell",
+      "ssl_listed": true,
+      "supervised_exact_volume_id_present": false,
+      "supervised_note": "candidate source volume excluded/reserved in MV3; no direct candidate volume used by any of six heads or MitoNet-MV",
+      "exact_full_pixel_match": "UNVERIFIED; bounded three-plane asset check only",
+      "status": "CONFIRMED_SOURCE_AND_SAMPLED_IMAGE_OVERLAP",
+      "sampled_planes": [
+        {
+          "z": 0,
+          "equal": true
+        },
+        {
+          "z": 128,
+          "equal": true
+        },
+        {
+          "z": 255,
+          "equal": true
+        }
+      ],
+      "source_shape": [
+        256,
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "lucchi_pp",
+      "candidate_volume_id": "casser20_lucchi++",
+      "ssl_listed": true,
+      "supervised_exact_volume_id_present": false,
+      "supervised_note": "candidate source volume excluded/reserved in MV3; no direct candidate volume used by any of six heads or MitoNet-MV",
+      "exact_full_pixel_match": "UNVERIFIED; bounded three-plane asset check only",
+      "status": "CONFIRMED_SOURCE_ASSOCIATION_EXACT_REGION_UNCONFIRMED",
+      "source_shape": [
+        82,
+        768,
+        512
+      ],
+      "note": "Lucchi++ related source but different geometry; no resizing or spatial search performed"
+    },
+    {
+      "dataset": "salivary_gland",
+      "candidate_volume_id": "conrad23_salivary_gland",
+      "ssl_listed": true,
+      "supervised_exact_volume_id_present": false,
+      "supervised_note": "candidate source volume excluded/reserved in MV3; no direct candidate volume used by any of six heads or MitoNet-MV",
+      "exact_full_pixel_match": "UNVERIFIED; bounded three-plane asset check only",
+      "status": "CONFIRMED_SOURCE_AND_SAMPLED_IMAGE_OVERLAP",
+      "sampled_planes": [
+        {
+          "z": 0,
+          "equal": true
+        },
+        {
+          "z": 630,
+          "equal": true
+        },
+        {
+          "z": 1259,
+          "equal": true
+        }
+      ],
+      "source_shape": [
+        1260,
+        1081,
+        1200
+      ]
+    },
+    {
+      "dataset": "TEM-100",
+      "status": "NO_OVERLAP_FOUND_IN_AVAILABLE_REGISTRY",
+      "note": "no TEM benchmark filenames/source found in available212-volume registry; absence of names does not prove absence of image exposure; no exhaustive pixel matching",
+      "ssl_exact_image_exposure": "UNVERIFIED",
+      "supervised_exact_image_exposure": "UNVERIFIED"
+    }
+  ],
+  "not_strict_external_test": true,
+  "official_mitonet_upstream_image_exposure": "CEM-MitoLab and CEM1.5M; exact image-level overlap not independently reaudited"
+}

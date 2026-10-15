@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "manifest_sha256": "8a05d1a5c46933d91e5d20977bcb06c0b9ca6bee10abbcdc17a43b62ac0ea046",
+  "checkpoint_assets": 10,
+  "files": 212,
+  "planes": 2595,
+  "gpu_used": false
+}

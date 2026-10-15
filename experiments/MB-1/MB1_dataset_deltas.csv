@@ -1,0 +1,8 @@
+dataset_id,dataset,B100_minus_P0_dice,B100_minus_official_dice,adapted_minus_official_dice
+1,c_elegans,-0.06561652,-0.4895258,-0.5653364
+2,fly_brain,0.2394557,-0.05989159,-0.4379534
+3,glycolytic_muscle,-0.1886645,-0.3195776,-0.8899148
+4,hela_cell,0.1831499,-0.2212906,-0.447942
+5,lucchi_pp,0.1511292,-0.04743713,-0.4487724
+6,salivary_gland,-0.01034692,-0.123068,-0.09942543
+7,TEM-100,0.003981766,-0.2056269,-0.409182

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "rows": 20760,
+  "dataset_run_rows": 56,
+  "all8_models_use_identical_gt_pixels": true,
+  "all7_native_datasets_complete": true,
+  "2D_overlap_metrics_recomputed_from_exact_counts": true,
+  "full_volume_iou_recomputed_from_exact_counts": true,
+  "equal_seeds_then_equal7_datasets_recomputed": true,
+  "TEM_nm_not_fabricated": true,
+  "historical_input_snapshot_equal": true,
+  "checkpoint_writes": false,
+  "training": false
+}

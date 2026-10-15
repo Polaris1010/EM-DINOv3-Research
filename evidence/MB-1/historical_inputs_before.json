@@ -1,0 +1,2161 @@
+{
+  "source_report_metric_sha256": {
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/first_seed_complete.json": "22708bc03ea11e3b15fab809b0e1484ba9c9a801d2e22c746cff55257ae470f6",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_summary.json": "2ded908b319c403eeda54dc23e88dd2853a39eb99d6d83993295967b723707ab",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_first_seed_summary.json": "160ced8c78cd2dd489c35a0044a7ffd364ffe18b3441b1d92701bc40c7acebd3",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_actual_supervision.json": "a0ad6a728b74fc96c440ea45d2f8ff0f54f124af44fb1a1c88065f135914bca4",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV-Generalist.json": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_protocol.json": "916ac9fbbeba6b3e131c4d2f106c9c7dd3044acedef323eafbf82d160f90bff3",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_final_results_verification.json": "08b94544abfdfc5497905000e2fcf039408345d3bd2ce63d1cfaef4b371dbed7",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/cache_complete.json": "a23a02c6617753e0315987739a51d37065119b5399e21219aa2d5b134ae701d0",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_historical_reference_unavailable.json": "6a7b6c2e89e385be152d9d9f37bf40e61ff915f05445530d11c8535d1af880b7",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/STATUS.json": "6bb251c4b2f468b88311d68b2b6c44e7fab2c90cf56fcf7d3fc0e8e5ab1fc941",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_training_curves.csv": "fe1289a912f7713e931c2a562195f333ffbe43278499209ad69f94a6a697b6b3",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_checkpoint_hashes.csv": "e650f12345f1cd31782adf3206355add5bbc39c179aab0a0203301872be36c0d",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_P0_B100_paired_deltas.csv": "97eaadaff80929f27b211aa7c2e6fa67baa00d0f01f9b9a8157f2abc50f1f88e",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_first_seed_metrics.csv": "776a2758bd50da3124db70e64767bc6c168941dbb414b9bc618151c2ff1bd314",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_failure_cases.csv": "a505a3a13c32d163e1fdf6fec83f5198e58b6f1c2710683056e4f5897f54109a",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_source_metrics.csv": "2b5cb803a7ef9a1f26282bcf95f67c7a4f8958a91433069c3439786483e5c359",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_final_source_paired_seed_summary.csv": "320ea94e03cc4802726bd9adbff3613b22ee6e76955967f5052d0de3be8b1d0e",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_historical_prediction_reference.csv": "f26fb7ce97f470fc9e70b05ccccc15601ac70145b9aac8dafb628720fc0f1de9",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_same_region_supervision_gain.csv": "4e084351de0f18559f8929543efab8f074518d3d4bb4ece2406500eb37bee7cd",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_per_region_metrics.csv": "24a2545c3ee83b1239c9a377ec1ae8cb8be909074a04151fd7a9b41edfa004c0",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_final_decoder_seed_summary.csv": "fb25ef9c4994d3cbba7808fc2c631b0dce87d443b70bcb4040face3a99d879a0",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_first_seed_report.md": "451466197e47126639946300b3d63c943755f889f8703edd3303d4be8dc63de5",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_final_report.md": "bb75535e7f23c790da2007d3f967e6e4df326b0cd56d2cb8e636e531d3bdd124",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_protocol.json": "66db27f82a731c2edb81a74c681b2cd00a747abecfcc3c0c6e9f9082033ebe4b",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_summary.json": "b96fd7b8bed72eb373ae5c84d5535c36c3dc1141d79bbcc0f8f3f248a56bef85",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/STATUS.json": "5bd9b27bf9deae8fd1018d6bc5b627ff28cf468ca5a6bf50ba6b8a073b8a25b3",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_paired_deltas.csv": "a643f043d9c541af5052887cdf5c2a4a80a8beddf65af5031807ee49c96c0534",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_per_region_metrics.csv": "0136aa632de7932d3320c9a314cd64ca0ac759725dc0f150e4d34f1bc9e19d11",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_failure_cases.csv": "c3e47c43b1cbfc8630b2505f4813538263343446c75a49db7bae3a20aa03d2d1",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_source_metrics.csv": "f4fa95d0c41ae6ee2c0f87e5f228dafddc811716fedcf5d03e75a7b7be5e1708",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_source_deltas.csv": "b7493f6f8f35b790a671e2befeab76b3cff82d2b4d7ff20d6bdef920ba0e2511",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_final_report.md": "f5a5d3268685f8251935a52ac2811fb69f3fc4479738cc547e8e14070d95795e",
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_results_verification.json": "d1480cf07d13a9a2c2f7f3693428bf4ad7bab73c140335d21676636b88d7b790",
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_summary.json": "a1211647a3c9d9d0062877281477d219f382c9ed9fc04e4be980b55c5966e735",
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_protocol.json": "0ec3e67bc6783bc91109735c7d1a9a4865f90171489e302cf38d3e4059cdff1e",
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/STATUS.json": "b54b47a785fc3d1a400835b755d47f4e10c0ceea0b416415dc13357005619279",
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_source_metrics.csv": "95ae4de704f3588bba2038ce22a4c703191374390b7b0039085fd7c260687523",
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_source_deltas.csv": "97312895654ffb3cfa4466eb0d6eec700b3601df16880b92d6016d3f11cf3f70",
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_adaptation_paired_deltas.csv": "679720b1c3cf3768d3374dcfb6937b6195141ef5e35e6883099b65848e055a40",
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_failure_cases.csv": "c90b525a16e4232b0e72206e0e9cd213728166d1d80db8ab6b054a928de69dd0",
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_checkpoint_hashes.csv": "29d8a87fbf22525f6b0d627445b2d0193df34e63715e5603286e9513c41fc10a",
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_per_region_metrics.csv": "d19777fe02cbdae6c0af6b5924235e461b9b4b6f3e148a761672b7aed813503b",
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_final_report.md": "2d87733f9ae0c935a6a408121674cac69a65f17826966648ddabe78e949deb09",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/metric_cache.py": "06bcf883309bbe9d68c986431f5407ce89a0d1e52b8d5a80b88b2eb5f9de493b",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/official_primus.py": "b5398dc48bf5cc14068b4fed38c5f0a8c30bcbbe242d59475016e70912f248d3",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/mv_probe.py": "4071da2213b8f55f28ce13522d74e716c61be7900a37c96318942983be3546ec",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/mv_data.py": "39d348380573174061525443d7c9bfe2f8d8d68bb12f0dd0ab44455bbfe6b54d",
+    "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/repository_metrics.py": "8abc23bfbbee06b1a6289b1f70ec7a5fda2a02cb15d8c870b28890de6152477d",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/assets/utils_upstream.py": "1000d0b9053132a5ae3975b7042e91f39bcbdb2e97020b0bc88cc48adeb3d6e3",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/assets/inference_upstream.py": "eb38a10eb60a3badb99a80646b67ac96ca1a202674d24fdb8903620cc5d73071",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/assets/model_config.yaml": "ac1421a7073809b09e548da35e75aa8da4e8c11003bde85add895541859ad3f4"
+  },
+  "asset_stat": {
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/head_step040000.pth": [
+      534941342,
+      1791954744388687341
+    ],
+    "/opt/data/3_117/tanghr/DINOv3/pretrained_weights/dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth": [
+      1213050671,
+      1773135087561386002
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/head_step040000.pth": [
+      534941342,
+      1791954742463167729
+    ],
+    "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/runs/B_full/formal_attempt1/checkpoints/step000100000/teacher_backbone.pth": [
+      1213025477,
+      1790699398110790651
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/head_step040000.pth": [
+      534941342,
+      1791959944715448868
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/head_step040000.pth": [
+      534941342,
+      1791959944715734916
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/head_step040000.pth": [
+      534941342,
+      1791959954947720883
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/head_step040000.pth": [
+      534941342,
+      1791963828757934774
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/assets/MitoNet_v1.pth": [
+      221241200,
+      1791988559165249597
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/model_step040000.pth": [
+      221254282,
+      1792034788461126875
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/mito_benchmarks/c_elegans/c_elegans_em.tif": [
+      16819802,
+      1647336471000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/mito_benchmarks/c_elegans/c_elegans_mito.tif": [
+      16819802,
+      1647336471000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/mito_benchmarks/fly_brain/fly_brain_em.tif": [
+      16688986,
+      1647336467000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/mito_benchmarks/fly_brain/fly_brain_mito.tif": [
+      16688986,
+      1647336471000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/mito_benchmarks/glycolytic_muscle/glycolytic_muscle_em.tif": [
+      88534712,
+      1647336476000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/mito_benchmarks/glycolytic_muscle/glycolytic_muscle_mito.tif": [
+      88534712,
+      1647336471000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/mito_benchmarks/hela_cell/hela_cell_em.tif": [
+      16819802,
+      1647336471000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/mito_benchmarks/hela_cell/hela_cell_mito.tif": [
+      16819802,
+      1647336471000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/mito_benchmarks/lucchi_pp/lucchi_pp_em.tif": [
+      129788760,
+      1647336471000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/mito_benchmarks/lucchi_pp/lucchi_pp_mito.tif": [
+      259552024,
+      1647336471000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/mito_benchmarks/salivary_gland/salivary_gland_em.tif": [
+      1634681250,
+      1647336467000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/mito_benchmarks/salivary_gland/salivary_gland_mito.tif": [
+      1634681250,
+      1647336471000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/0s1JawDdbBymwtwOjgx8.tiff": [
+      1048832,
+      1664901582000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/0s1JawDdbBymwtwOjgx8.tiff": [
+      4194576,
+      1664901585000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/17pOyGcUusCVRfzUZxTs.tiff": [
+      391621,
+      1664901577000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/17pOyGcUusCVRfzUZxTs.tiff": [
+      1565732,
+      1664901582000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/1U0jYrdPwdlRDsQzkUNc.tiff": [
+      1048832,
+      1664901582000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/1U0jYrdPwdlRDsQzkUNc.tiff": [
+      4194576,
+      1664901585000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/1unGsOC0dfeB02LCtQwi.tiff": [
+      1048832,
+      1664901582000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/1unGsOC0dfeB02LCtQwi.tiff": [
+      4194576,
+      1664901585000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/1vNHcbV4bWuC1zywuBdP.tiff": [
+      1048832,
+      1664901582000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/1vNHcbV4bWuC1zywuBdP.tiff": [
+      4194576,
+      1664901585000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/2Tlqk9n8mmGv6G0EGxwl.tiff": [
+      1048832,
+      1664901581000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/2Tlqk9n8mmGv6G0EGxwl.tiff": [
+      4194576,
+      1664901585000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/3ib2iOCHNQIgrUaxnLwm.tiff": [
+      235726,
+      1664901577000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/3ib2iOCHNQIgrUaxnLwm.tiff": [
+      942152,
+      1664901578000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/3pbuH37yaTFrTt52QdNO.tiff": [
+      1186312,
+      1664901582000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/3pbuH37yaTFrTt52QdNO.tiff": [
+      4744496,
+      1664901587000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/5BzcbKwHruGS296dUugB.tiff": [
+      149296,
+      1664901577000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/5BzcbKwHruGS296dUugB.tiff": [
+      596432,
+      1664901577000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/6plriVrEepvhHyOBmtUc.tiff": [
+      1048832,
+      1664901581000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/6plriVrEepvhHyOBmtUc.tiff": [
+      4194576,
+      1664901585000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/6uc2ydKjW1yJG033GPjj.tiff": [
+      1048832,
+      1664901581000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/6uc2ydKjW1yJG033GPjj.tiff": [
+      4194576,
+      1664901585000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/7Z7jSCJZ23zSW2ZztTPJ.tiff": [
+      1048832,
+      1664901581000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/7Z7jSCJZ23zSW2ZztTPJ.tiff": [
+      4194576,
+      1664901585000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/9SNS8ZHu7wx8HstQg2Vo.tiff": [
+      1048832,
+      1664901581000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/9SNS8ZHu7wx8HstQg2Vo.tiff": [
+      4194576,
+      1664901585000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/9jHLkwpVONtdgyvLyhds.tiff": [
+      1048832,
+      1664901581000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/9jHLkwpVONtdgyvLyhds.tiff": [
+      4194576,
+      1664901585000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/AH9rwncuiyjonmnTpzc6.tiff": [
+      1048832,
+      1664901581000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/AH9rwncuiyjonmnTpzc6.tiff": [
+      4194576,
+      1664901585000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/ALknkSgr7aoWr14RfrSV.tiff": [
+      1771756,
+      1664901582000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/ALknkSgr7aoWr14RfrSV.tiff": [
+      7086272,
+      1664901588000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/AOVAPBvPacOXcUoVM3uZ.tiff": [
+      1048832,
+      1664901581000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/AOVAPBvPacOXcUoVM3uZ.tiff": [
+      4194576,
+      1664901585000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/AvUtncbaV60ITOmLlAkQ.tiff": [
+      1048832,
+      1664901581000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/AvUtncbaV60ITOmLlAkQ.tiff": [
+      4194576,
+      1664901585000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/DccMhwElHJmbuS2J8lrU.tiff": [
+      1048832,
+      1664901581000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/DccMhwElHJmbuS2J8lrU.tiff": [
+      4194576,
+      1664901585000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/DprwEW2YlVIuqe8iiBUM.tiff": [
+      1048832,
+      1664901581000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/DprwEW2YlVIuqe8iiBUM.tiff": [
+      4194576,
+      1664901584000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/E3DjzU1Hv0lKtRerU0dr.tiff": [
+      1048832,
+      1664901581000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/E3DjzU1Hv0lKtRerU0dr.tiff": [
+      4194576,
+      1664901584000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/FJkyZfNswUHYI8UXjInE.tiff": [
+      1048832,
+      1664901581000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/FJkyZfNswUHYI8UXjInE.tiff": [
+      4194576,
+      1664901584000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/FSqfiQ5X7pl4pbbBV3og.tiff": [
+      1097356,
+      1664901582000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/FSqfiQ5X7pl4pbbBV3og.tiff": [
+      4388672,
+      1664901587000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/FcQtYwd3CZhEoqWrZQ6a.tiff": [
+      1048832,
+      1664901581000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/FcQtYwd3CZhEoqWrZQ6a.tiff": [
+      4194576,
+      1664901584000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/GC18X3wh91fultTzXk0n.tiff": [
+      1048832,
+      1664901581000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/GC18X3wh91fultTzXk0n.tiff": [
+      4194576,
+      1664901584000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/Gp5MEeb8iAuYfrAcOb3T.tiff": [
+      1048832,
+      1664901581000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/Gp5MEeb8iAuYfrAcOb3T.tiff": [
+      4194576,
+      1664901584000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/HIv1HOOLTWhvBGs2GLAW.tiff": [
+      1048832,
+      1664901581000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/HIv1HOOLTWhvBGs2GLAW.tiff": [
+      4194576,
+      1664901584000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/HWJC0I0n5pPosm91fPN9.tiff": [
+      1048832,
+      1664901580000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/HWJC0I0n5pPosm91fPN9.tiff": [
+      4194576,
+      1664901584000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/IsdoTn0CZN3NNBHw9eHs.tiff": [
+      1048832,
+      1664901580000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/IsdoTn0CZN3NNBHw9eHs.tiff": [
+      4194576,
+      1664901584000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/JbZdraW8jUWOkWYenUQW.tiff": [
+      285820,
+      1664901577000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/JbZdraW8jUWOkWYenUQW.tiff": [
+      1142528,
+      1664901582000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/KDdqT7pjt4RB6DP9YhBv.tiff": [
+      1048832,
+      1664901580000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/KDdqT7pjt4RB6DP9YhBv.tiff": [
+      4194576,
+      1664901584000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/KYJvyQylQ6GoiyoABzCi.tiff": [
+      1062304,
+      1664901582000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/KYJvyQylQ6GoiyoABzCi.tiff": [
+      4248464,
+      1664901587000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/MTeOXdixYD6o3ysTjtlY.tiff": [
+      1048832,
+      1664901580000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/MTeOXdixYD6o3ysTjtlY.tiff": [
+      4194576,
+      1664901584000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/MWyu8XxfJUz0tPpjMG68.tiff": [
+      827548,
+      1664901577000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/MWyu8XxfJUz0tPpjMG68.tiff": [
+      3309440,
+      1664901583000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/N9aIKs7lUVsYd6bT3LxC.tiff": [
+      1048832,
+      1664901580000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/N9aIKs7lUVsYd6bT3LxC.tiff": [
+      4194576,
+      1664901584000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/NFlQQXCuLN49baKGNHc8.tiff": [
+      1048832,
+      1664901580000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/NFlQQXCuLN49baKGNHc8.tiff": [
+      4194576,
+      1664901584000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/NWNws2Vo4AQhIw579f4E.tiff": [
+      1048832,
+      1664901580000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/NWNws2Vo4AQhIw579f4E.tiff": [
+      4194576,
+      1664901583000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/NpIsioJcraoQ7UM5w5KA.tiff": [
+      1048832,
+      1664901580000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/NpIsioJcraoQ7UM5w5KA.tiff": [
+      4194576,
+      1664901584000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/P4f6REHlY0j5oPr8hyFr.tiff": [
+      163960,
+      1664901577000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/P4f6REHlY0j5oPr8hyFr.tiff": [
+      655088,
+      1664901577000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/PRV36TemoPe3oPNL0RXZ.tiff": [
+      1145206,
+      1664901582000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/PRV36TemoPe3oPNL0RXZ.tiff": [
+      4580072,
+      1664901587000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/QLwSiZlPfFaKn9UkVw5A.tiff": [
+      1048832,
+      1664901580000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/QLwSiZlPfFaKn9UkVw5A.tiff": [
+      4194576,
+      1664901584000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/QQZlSgIkiL7OdZ2a8oIm.tiff": [
+      1048832,
+      1664901580000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/QQZlSgIkiL7OdZ2a8oIm.tiff": [
+      4194576,
+      1664901583000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/QWlbQZ1v00zxmk2Fp3Le.tiff": [
+      493006,
+      1664901577000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/QWlbQZ1v00zxmk2Fp3Le.tiff": [
+      1971272,
+      1664901582000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/QWqaLBDT0uuxxNX25kP9.tiff": [
+      1048832,
+      1664901580000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/QWqaLBDT0uuxxNX25kP9.tiff": [
+      4194576,
+      1664901584000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/QsP5DBmv2NYg8LUlw8b1.tiff": [
+      1048832,
+      1664901580000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/QsP5DBmv2NYg8LUlw8b1.tiff": [
+      4194576,
+      1664901583000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/R6p8J6wCSmn3aStj4GHv.tiff": [
+      1048832,
+      1664901580000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/R6p8J6wCSmn3aStj4GHv.tiff": [
+      4194576,
+      1664901583000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/RoECvy0RbILoKiv8jYab.tiff": [
+      1048832,
+      1664901580000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/RoECvy0RbILoKiv8jYab.tiff": [
+      4194576,
+      1664901583000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/SXnwBMNzR18D8sKSjh8g.tiff": [
+      1048832,
+      1664901580000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/SXnwBMNzR18D8sKSjh8g.tiff": [
+      4194576,
+      1664901583000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/TCzgvIZVHqNFtdJEPaXf.tiff": [
+      809084,
+      1664901577000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/TCzgvIZVHqNFtdJEPaXf.tiff": [
+      3235584,
+      1664901583000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/TbVlEbkOaXvgqXuOC2y5.tiff": [
+      1048832,
+      1664901580000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/TbVlEbkOaXvgqXuOC2y5.tiff": [
+      4194576,
+      1664901583000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/UH2Xa2sqyug07qibeLI2.tiff": [
+      1048832,
+      1664901580000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/UH2Xa2sqyug07qibeLI2.tiff": [
+      4194576,
+      1664901583000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/UTbbCmNhBbRwzOznV6eM.tiff": [
+      1048832,
+      1664901580000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/UTbbCmNhBbRwzOznV6eM.tiff": [
+      4194576,
+      1664901587000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/Ub2PGMk15slpiDOMy6gd.tiff": [
+      1048832,
+      1664901580000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/Ub2PGMk15slpiDOMy6gd.tiff": [
+      4194576,
+      1664901587000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/UuyHhnn7MjnSClcZPBAG.tiff": [
+      752956,
+      1664901577000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/UuyHhnn7MjnSClcZPBAG.tiff": [
+      3011072,
+      1664901583000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/V52bj9CYW97AUqevB2Rv.tiff": [
+      1048832,
+      1664901580000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/V52bj9CYW97AUqevB2Rv.tiff": [
+      4194576,
+      1664901587000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/VFu9kl8plvKxrBEwRfhL.tiff": [
+      958720,
+      1664901578000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/VFu9kl8plvKxrBEwRfhL.tiff": [
+      3834128,
+      1664901583000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/VcJ1fV2RlrJrmLHIzdIv.tiff": [
+      1048832,
+      1664901579000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/VcJ1fV2RlrJrmLHIzdIv.tiff": [
+      4194576,
+      1664901587000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/WCqmS6R1MFjZfQXMEbov.tiff": [
+      517136,
+      1664901577000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/WCqmS6R1MFjZfQXMEbov.tiff": [
+      2067792,
+      1664901582000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/X1DAYM5MVaMXPhpeeTBT.tiff": [
+      1048832,
+      1664901579000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/X1DAYM5MVaMXPhpeeTBT.tiff": [
+      4194576,
+      1664901590000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/XsisEi7EmDiq7esbhl3k.tiff": [
+      1048832,
+      1664901579000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/XsisEi7EmDiq7esbhl3k.tiff": [
+      4194576,
+      1664901587000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/XzLxoE9qQ3O9Gq28iveF.tiff": [
+      1048832,
+      1664901579000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/XzLxoE9qQ3O9Gq28iveF.tiff": [
+      4194576,
+      1664901587000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/Y5Uy1ACZO4MkqTvSzJcS.tiff": [
+      490756,
+      1664901577000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/Y5Uy1ACZO4MkqTvSzJcS.tiff": [
+      1962272,
+      1664901582000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/YnjZLcFb5mRSIQR7oTJ1.tiff": [
+      1048832,
+      1664901579000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/YnjZLcFb5mRSIQR7oTJ1.tiff": [
+      4194576,
+      1664901587000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/aLriAAXSpMzI1tSLzl05.tiff": [
+      1048832,
+      1664901579000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/aLriAAXSpMzI1tSLzl05.tiff": [
+      4194576,
+      1664901587000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/bUsTjDOJHiHMPCNIWkuT.tiff": [
+      1048832,
+      1664901579000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/bUsTjDOJHiHMPCNIWkuT.tiff": [
+      4194576,
+      1664901587000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/ch1HZ72XmfK9rD5K40QW.tiff": [
+      859664,
+      1664901577000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/ch1HZ72XmfK9rD5K40QW.tiff": [
+      3437904,
+      1664901583000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/cwpw4Zu4rqVzbTMPhql2.tiff": [
+      1048832,
+      1664901579000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/cwpw4Zu4rqVzbTMPhql2.tiff": [
+      4194576,
+      1664901587000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/d2Cvt7UfKPIAnaJGlKpw.tiff": [
+      845272,
+      1664901577000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/d2Cvt7UfKPIAnaJGlKpw.tiff": [
+      3380336,
+      1664901583000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/d7McLI44TDhNmnd1QSpo.tiff": [
+      1048832,
+      1664901579000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/d7McLI44TDhNmnd1QSpo.tiff": [
+      4194576,
+      1664901587000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/dYaOkBZPfpE3oHiplIst.tiff": [
+      1048832,
+      1664901579000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/dYaOkBZPfpE3oHiplIst.tiff": [
+      4194576,
+      1664901586000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/e8mrOPbV0mqJZ5L7xY8c.tiff": [
+      1048832,
+      1664901579000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/e8mrOPbV0mqJZ5L7xY8c.tiff": [
+      4194576,
+      1664901586000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/eL79mWeRWlqFAqOO6w8o.tiff": [
+      1048832,
+      1664901579000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/eL79mWeRWlqFAqOO6w8o.tiff": [
+      4194576,
+      1664901587000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/ghAKYp44DzBUhlyn7Kec.tiff": [
+      1048832,
+      1664901579000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/ghAKYp44DzBUhlyn7Kec.tiff": [
+      4194576,
+      1664901586000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/gxdh9YGZMJUB58YvyzgM.tiff": [
+      1048832,
+      1664901579000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/gxdh9YGZMJUB58YvyzgM.tiff": [
+      4194576,
+      1664901587000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/hR5EYnvM2Ysjfddi9ZTt.tiff": [
+      1048832,
+      1664901579000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/hR5EYnvM2Ysjfddi9ZTt.tiff": [
+      4194576,
+      1664901587000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/iDXfFDvQLRHsB4XZHb3A.tiff": [
+      1048832,
+      1664901578000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/iDXfFDvQLRHsB4XZHb3A.tiff": [
+      4194576,
+      1664901586000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/iidFXTWegya1bm1hl5to.tiff": [
+      1382656,
+      1664901582000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/iidFXTWegya1bm1hl5to.tiff": [
+      5529872,
+      1664901587000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/j1k88xV7tmKNMLM4bj1h.tiff": [
+      1048832,
+      1664901578000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/j1k88xV7tmKNMLM4bj1h.tiff": [
+      4194576,
+      1664901586000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/k0Ij8iyjBDimmOPwtFHL.tiff": [
+      469756,
+      1664901577000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/k0Ij8iyjBDimmOPwtFHL.tiff": [
+      1878272,
+      1664901582000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/k4Uw1csHJKTrviecgXyz.tiff": [
+      1048832,
+      1664901578000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/k4Uw1csHJKTrviecgXyz.tiff": [
+      4194576,
+      1664901586000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/kBnMAlFJtapfTpTu5iHL.tiff": [
+      1048832,
+      1664901578000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/kBnMAlFJtapfTpTu5iHL.tiff": [
+      4194576,
+      1664901586000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/kF3EaTAoYeTRf12uLsIX.tiff": [
+      1740256,
+      1664901582000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/kF3EaTAoYeTRf12uLsIX.tiff": [
+      6960272,
+      1664901588000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/lCH8UM6Mv2AG7zDPrqHA.tiff": [
+      858568,
+      1664901577000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/lCH8UM6Mv2AG7zDPrqHA.tiff": [
+      3433520,
+      1664901583000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/lw3ENjwOInSmgeNNY0Qk.tiff": [
+      1048832,
+      1664901578000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/lw3ENjwOInSmgeNNY0Qk.tiff": [
+      4194576,
+      1664901586000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/ngygM944aKxBq6rf72Zl.tiff": [
+      1048832,
+      1664901578000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/ngygM944aKxBq6rf72Zl.tiff": [
+      4194576,
+      1664901586000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/pLeNHL0RTZwYh5EwN7up.tiff": [
+      70816,
+      1664901577000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/pLeNHL0RTZwYh5EwN7up.tiff": [
+      282512,
+      1664901577000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/pu4kmugMyXvbFtAgLogm.tiff": [
+      1048832,
+      1664901578000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/pu4kmugMyXvbFtAgLogm.tiff": [
+      4194576,
+      1664901586000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/qOA9ml35XYXQjtWmFvvg.tiff": [
+      1048832,
+      1664901578000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/qOA9ml35XYXQjtWmFvvg.tiff": [
+      4194576,
+      1664901586000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/qqRmOpdujNXIqEuWrFLk.tiff": [
+      1138920,
+      1664901582000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/qqRmOpdujNXIqEuWrFLk.tiff": [
+      4554928,
+      1664901587000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/qs9OOX5WsQhRE3Kg2rpU.tiff": [
+      1048832,
+      1664901578000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/qs9OOX5WsQhRE3Kg2rpU.tiff": [
+      4194576,
+      1664901586000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/sN90grldkJUpRIAJ64Bz.tiff": [
+      1048832,
+      1664901578000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/sN90grldkJUpRIAJ64Bz.tiff": [
+      4194576,
+      1664901586000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/sXnNKReR54pzKRZ5rpfP.tiff": [
+      1048832,
+      1664901578000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/sXnNKReR54pzKRZ5rpfP.tiff": [
+      4194576,
+      1664901586000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/snDIBSvwQMaqGKBbGF6V.tiff": [
+      1048832,
+      1664901578000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/snDIBSvwQMaqGKBbGF6V.tiff": [
+      4194576,
+      1664901585000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/uBBsOocNXDq5poteflbh.tiff": [
+      288896,
+      1664901577000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/uBBsOocNXDq5poteflbh.tiff": [
+      1154832,
+      1664901582000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/v64IdYxtp9vzYzojtxir.tiff": [
+      1048832,
+      1664901578000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/v64IdYxtp9vzYzojtxir.tiff": [
+      4194576,
+      1664901585000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/vziaz0e1YZ9BJHIY7tJV.tiff": [
+      1048832,
+      1664901578000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/vziaz0e1YZ9BJHIY7tJV.tiff": [
+      4194576,
+      1664901585000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/xHSMEPuKIY4T3X4UURT5.tiff": [
+      1048832,
+      1664901578000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/xHSMEPuKIY4T3X4UURT5.tiff": [
+      4194576,
+      1664901585000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/yayA9ov0gTMPe5oUDmCY.tiff": [
+      459190,
+      1664901577000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/yayA9ov0gTMPe5oUDmCY.tiff": [
+      1836008,
+      1664901582000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/yn4W2WociugOlXWN83Ps.tiff": [
+      1048832,
+      1664901578000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/yn4W2WociugOlXWN83Ps.tiff": [
+      4194576,
+      1664901585000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/images/zRf1ZWOS08TxjOvROo86.tiff": [
+      1048832,
+      1664901578000000000
+    ],
+    "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/tem_benchmark/masks/zRf1ZWOS08TxjOvROo86.tiff": [
+      4194576,
+      1664901585000000000
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop239_prediction.npy": [
+      740128,
+      1791960056903859177
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop185_prediction.npy": [
+      2250128,
+      1791960100462768142
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop252_prediction.npy": [
+      1000128,
+      1791960069470890659
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop254_prediction.npy": [
+      1000128,
+      1791960071991023867
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop291_prediction.npy": [
+      1000128,
+      1791960087168402125
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop248_prediction.npy": [
+      1000128,
+      1791960066953424268
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop240_prediction.npy": [
+      1000128,
+      1791960079596331723
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop238_prediction.npy": [
+      401760128,
+      1791960448468526276
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/wei20_mitoEM-R__dev_prediction.npy": [
+      1677721728,
+      1791961873784082222
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop174_prediction.npy": [
+      1000128,
+      1791960089689278435
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop245_prediction.npy": [
+      600128,
+      1791960054717339765
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/jiang25_vol2_prediction.npy": [
+      100000128,
+      1791960252286572147
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop292_prediction.npy": [
+      1000128,
+      1791960077076006613
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/turner22_microns1_vol2_prediction.npy": [
+      52428928,
+      1791960185436478349
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/turner22_microns1_vol3_prediction.npy": [
+      52428928,
+      1791960202193025026
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop79_prediction.npy": [
+      1953253,
+      1791960095386095671
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/turner22_microns1_vol0_prediction.npy": [
+      52428928,
+      1791960151976322070
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/haberl18_vol1_prediction.npy": [
+      655488,
+      1791960055024519484
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop258_prediction.npy": [
+      1000128,
+      1791960084641245473
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/kunduri22_train02_prediction.npy": [
+      134217856,
+      1791960295045027925
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop176_prediction.npy": [
+      1000128,
+      1791960092207415481
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/xiao18_vol0__dev_prediction.npy": [
+      31753696,
+      1791960135263310530
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/muller21_low_c2_prediction.npy": [
+      619418020,
+      1791960998069047044
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/turner22_microns1_vol1_prediction.npy": [
+      52428928,
+      1791960168712887256
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/casser20_kasthuri++_train__dev_prediction.npy": [
+      10029992,
+      1791960111319858221
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop237_prediction.npy": [
+      960128,
+      1791960059323199969
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop256_prediction.npy": [
+      1000128,
+      1791960074509147246
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/mekuc20_fib1-4-3-0_prediction.npy": [
+      16777344,
+      1791960123682392440
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop255_prediction.npy": [
+      1000128,
+      1791960082118035279
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/han24_pos2_prediction.npy": [
+      469087197,
+      1791960611061447044
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/muller21_high_c1_prediction.npy": [
+      582770408,
+      1791960794062907967
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop173_prediction.npy": [
+      2250128,
+      1791960097926678661
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop234_prediction.npy": [
+      1000128,
+      1791960061850798119
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop236_prediction.npy": [
+      1000128,
+      1791960064368851314
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/guay21_vol1_prediction.npy": [
+      15360128,
+      1791960117183756578
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop78_prediction.npy": [
+      3375128,
+      1791960104249789803
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/turner22_microns1_vol4_prediction.npy": [
+      52428928,
+      1791960218919406758
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/openorganelle_jrc_mus-nacc-1_recon-1_crop115_prediction.npy": [
+      3375128,
+      1791960108044752128
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop239_prediction.npy": [
+      740128,
+      1791960067690034319
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop185_prediction.npy": [
+      2250128,
+      1791960112812281707
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop252_prediction.npy": [
+      1000128,
+      1791960080746878386
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop254_prediction.npy": [
+      1000128,
+      1791960083352394847
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop291_prediction.npy": [
+      1000128,
+      1791960099072637645
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop248_prediction.npy": [
+      1000128,
+      1791960078128219796
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop240_prediction.npy": [
+      1000128,
+      1791960091188879503
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop238_prediction.npy": [
+      401760128,
+      1791960462029000147
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/wei20_mitoEM-R__dev_prediction.npy": [
+      1677721728,
+      1791961634017341760
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop174_prediction.npy": [
+      1000128,
+      1791960101695038451
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop245_prediction.npy": [
+      600128,
+      1791960065371313791
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/jiang25_vol2_prediction.npy": [
+      100000128,
+      1791960265272542248
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop292_prediction.npy": [
+      1000128,
+      1791960088577665695
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/turner22_microns1_vol2_prediction.npy": [
+      52428928,
+      1791960198355629529
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/turner22_microns1_vol3_prediction.npy": [
+      52428928,
+      1791960215115139476
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop79_prediction.npy": [
+      1953253,
+      1791960107562227139
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/turner22_microns1_vol0_prediction.npy": [
+      52428928,
+      1791960164855850632
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/haberl18_vol1_prediction.npy": [
+      655488,
+      1791960065669400832
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop258_prediction.npy": [
+      1000128,
+      1791960096457412850
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/kunduri22_train02_prediction.npy": [
+      134217856,
+      1791960308136485949
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop176_prediction.npy": [
+      1000128,
+      1791960104307514484
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/xiao18_vol0__dev_prediction.npy": [
+      31753696,
+      1791960148136664543
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/muller21_low_c2_prediction.npy": [
+      619418020,
+      1791961009340931450
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/turner22_microns1_vol1_prediction.npy": [
+      52428928,
+      1791960181600231044
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/casser20_kasthuri++_train__dev_prediction.npy": [
+      10029992,
+      1791960123965038700
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop237_prediction.npy": [
+      960128,
+      1791960070206311707
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop256_prediction.npy": [
+      1000128,
+      1791960085970698029
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/mekuc20_fib1-4-3-0_prediction.npy": [
+      16777344,
+      1791960136591702737
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop255_prediction.npy": [
+      1000128,
+      1791960093832678306
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/han24_pos2_prediction.npy": [
+      469087197,
+      1791960624704239600
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/muller21_high_c1_prediction.npy": [
+      582770408,
+      1791960806326810775
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop173_prediction.npy": [
+      2250128,
+      1791960110193299977
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop234_prediction.npy": [
+      1000128,
+      1791960072837060621
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop236_prediction.npy": [
+      1000128,
+      1791960075513903585
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/guay21_vol1_prediction.npy": [
+      15360128,
+      1791960129840302005
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop78_prediction.npy": [
+      3375128,
+      1791960116742831802
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/turner22_microns1_vol4_prediction.npy": [
+      52428928,
+      1791960231867233185
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/openorganelle_jrc_mus-nacc-1_recon-1_crop115_prediction.npy": [
+      3375128,
+      1791960120685607294
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop239_prediction.npy": [
+      740128,
+      1791954856926375582
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop185_prediction.npy": [
+      2250128,
+      1791954901236119867
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop252_prediction.npy": [
+      1000128,
+      1791954869661799947
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop254_prediction.npy": [
+      1000128,
+      1791954872342116101
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop291_prediction.npy": [
+      1000128,
+      1791954887726026609
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop248_prediction.npy": [
+      1000128,
+      1791954867089027827
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop240_prediction.npy": [
+      1000128,
+      1791954880035501534
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop238_prediction.npy": [
+      401760128,
+      1791955248560790317
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/wei20_mitoEM-R__dev_prediction.npy": [
+      1677721728,
+      1791956432450531893
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop174_prediction.npy": [
+      1000128,
+      1791954890289803169
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop245_prediction.npy": [
+      600128,
+      1791954854731411677
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/jiang25_vol2_prediction.npy": [
+      100000128,
+      1791955052691439410
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop292_prediction.npy": [
+      1000128,
+      1791954877467641724
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/turner22_microns1_vol2_prediction.npy": [
+      52428928,
+      1791954986108687865
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/turner22_microns1_vol3_prediction.npy": [
+      52428928,
+      1791955002769098611
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop79_prediction.npy": [
+      1953253,
+      1791954896046578459
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/turner22_microns1_vol0_prediction.npy": [
+      52428928,
+      1791954952799621234
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/haberl18_vol1_prediction.npy": [
+      655488,
+      1791954855021578405
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop258_prediction.npy": [
+      1000128,
+      1791954885168117953
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/kunduri22_train02_prediction.npy": [
+      134217856,
+      1791955095313532315
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop176_prediction.npy": [
+      1000128,
+      1791954892844739315
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/xiao18_vol0__dev_prediction.npy": [
+      31753696,
+      1791954936108697515
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/muller21_low_c2_prediction.npy": [
+      619418020,
+      1791955796332182057
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/turner22_microns1_vol1_prediction.npy": [
+      52428928,
+      1791954969444485286
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/casser20_kasthuri++_train__dev_prediction.npy": [
+      10029992,
+      1791954912231528222
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop237_prediction.npy": [
+      960128,
+      1791954859389732173
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop256_prediction.npy": [
+      1000128,
+      1791954874900167287
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/mekuc20_fib1-4-3-0_prediction.npy": [
+      16777344,
+      1791954924583594613
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop255_prediction.npy": [
+      1000128,
+      1791954882598969551
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/han24_pos2_prediction.npy": [
+      469087197,
+      1791955410552066455
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/muller21_high_c1_prediction.npy": [
+      582770408,
+      1791955592889652028
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop173_prediction.npy": [
+      2250128,
+      1791954898621146207
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop234_prediction.npy": [
+      1000128,
+      1791954861968150257
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop236_prediction.npy": [
+      1000128,
+      1791954864527288888
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/guay21_vol1_prediction.npy": [
+      15360128,
+      1791954918088915096
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop78_prediction.npy": [
+      3375128,
+      1791954905087530047
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/turner22_microns1_vol4_prediction.npy": [
+      52428928,
+      1791955019435912783
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/openorganelle_jrc_mus-nacc-1_recon-1_crop115_prediction.npy": [
+      3375128,
+      1791954908956192352
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop239_prediction.npy": [
+      740128,
+      1791960057396118964
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop185_prediction.npy": [
+      2250128,
+      1791960100621676456
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop252_prediction.npy": [
+      1000128,
+      1791960069859380612
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop254_prediction.npy": [
+      1000128,
+      1791960072360677799
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop291_prediction.npy": [
+      1000128,
+      1791960087445065588
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop248_prediction.npy": [
+      1000128,
+      1791960067350811085
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop240_prediction.npy": [
+      1000128,
+      1791960079926709902
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop238_prediction.npy": [
+      401760128,
+      1791960451676555725
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/wei20_mitoEM-R__dev_prediction.npy": [
+      1677721728,
+      1791961924732523475
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop174_prediction.npy": [
+      1000128,
+      1791960089950375458
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop245_prediction.npy": [
+      600128,
+      1791960055252645874
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/jiang25_vol2_prediction.npy": [
+      100000128,
+      1791960253547045013
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop292_prediction.npy": [
+      1000128,
+      1791960077424144903
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/turner22_microns1_vol2_prediction.npy": [
+      52428928,
+      1791960186203890243
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/turner22_microns1_vol3_prediction.npy": [
+      52428928,
+      1791960203066478504
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop79_prediction.npy": [
+      1953253,
+      1791960095604031568
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/turner22_microns1_vol0_prediction.npy": [
+      52428928,
+      1791960152496899780
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/haberl18_vol1_prediction.npy": [
+      655488,
+      1791960055530078476
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop258_prediction.npy": [
+      1000128,
+      1791960084940669037
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/kunduri22_train02_prediction.npy": [
+      134217856,
+      1791960296660669008
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop176_prediction.npy": [
+      1000128,
+      1791960092463660262
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/xiao18_vol0__dev_prediction.npy": [
+      31753696,
+      1791960135605502412
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/muller21_low_c2_prediction.npy": [
+      619418020,
+      1791961004470213856
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/turner22_microns1_vol1_prediction.npy": [
+      52428928,
+      1791960169357906675
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/casser20_kasthuri++_train__dev_prediction.npy": [
+      10029992,
+      1791960111571264100
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop237_prediction.npy": [
+      960128,
+      1791960059830776255
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop256_prediction.npy": [
+      1000128,
+      1791960074872529341
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/mekuc20_fib1-4-3-0_prediction.npy": [
+      16777344,
+      1791960123922481916
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1b_recon-1_crop255_prediction.npy": [
+      1000128,
+      1791960082427681547
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/han24_pos2_prediction.npy": [
+      469087197,
+      1791960615174226313
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/muller21_high_c1_prediction.npy": [
+      582770408,
+      1791960798970488289
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop173_prediction.npy": [
+      2250128,
+      1791960098107410165
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop234_prediction.npy": [
+      1000128,
+      1791960062342766545
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_cos7-1a_recon-1_crop236_prediction.npy": [
+      1000128,
+      1791960064841484155
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/guay21_vol1_prediction.npy": [
+      15360128,
+      1791960117463269235
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_fly-vnc-1_recon-1_crop78_prediction.npy": [
+      3375128,
+      1791960104409962660
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/turner22_microns1_vol4_prediction.npy": [
+      52428928,
+      1791960219945459573
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/openorganelle_jrc_mus-nacc-1_recon-1_crop115_prediction.npy": [
+      3375128,
+      1791960108217838403
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop239_prediction.npy": [
+      740128,
+      1791963941397079091
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop185_prediction.npy": [
+      2250128,
+      1791963985719066731
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop252_prediction.npy": [
+      1000128,
+      1791963954171348139
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop254_prediction.npy": [
+      1000128,
+      1791963956748338047
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop291_prediction.npy": [
+      1000128,
+      1791963972208799307
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop248_prediction.npy": [
+      1000128,
+      1791963951573309904
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop240_prediction.npy": [
+      1000128,
+      1791963964491070597
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop238_prediction.npy": [
+      401760128,
+      1791964331387923685
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/wei20_mitoEM-R__dev_prediction.npy": [
+      1677721728,
+      1791965497545318133
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop174_prediction.npy": [
+      1000128,
+      1791963974771493811
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop245_prediction.npy": [
+      600128,
+      1791963939146090031
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/jiang25_vol2_prediction.npy": [
+      100000128,
+      1791964136532751874
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop292_prediction.npy": [
+      1000128,
+      1791963961920794146
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/turner22_microns1_vol2_prediction.npy": [
+      52428928,
+      1791964070242936868
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/turner22_microns1_vol3_prediction.npy": [
+      52428928,
+      1791964086834898681
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop79_prediction.npy": [
+      1953253,
+      1791963980549200660
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/turner22_microns1_vol0_prediction.npy": [
+      52428928,
+      1791964037096595473
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/haberl18_vol1_prediction.npy": [
+      655488,
+      1791963939490055617
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop258_prediction.npy": [
+      1000128,
+      1791963969636349928
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/kunduri22_train02_prediction.npy": [
+      134217856,
+      1791964178916986226
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop176_prediction.npy": [
+      1000128,
+      1791963977332628764
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/xiao18_vol0__dev_prediction.npy": [
+      31753696,
+      1791964020528774171
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/muller21_low_c2_prediction.npy": [
+      619418020,
+      1791964876396462594
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/turner22_microns1_vol1_prediction.npy": [
+      52428928,
+      1791964053675467596
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/casser20_kasthuri++_train__dev_prediction.npy": [
+      10029992,
+      1791963996727767577
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop237_prediction.npy": [
+      960128,
+      1791963943863702528
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop256_prediction.npy": [
+      1000128,
+      1791963959347679493
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/mekuc20_fib1-4-3-0_prediction.npy": [
+      16777344,
+      1791964009071835753
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1b_recon-1_crop255_prediction.npy": [
+      1000128,
+      1791963967057332621
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/han24_pos2_prediction.npy": [
+      469087197,
+      1791964493000206713
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/muller21_high_c1_prediction.npy": [
+      582770408,
+      1791964674064659523
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop173_prediction.npy": [
+      2250128,
+      1791963983129294647
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop234_prediction.npy": [
+      1000128,
+      1791963946441862902
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_cos7-1a_recon-1_crop236_prediction.npy": [
+      1000128,
+      1791963949007190760
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/guay21_vol1_prediction.npy": [
+      15360128,
+      1791964002531317180
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_fly-vnc-1_recon-1_crop78_prediction.npy": [
+      3375128,
+      1791963989604010502
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/turner22_microns1_vol4_prediction.npy": [
+      52428928,
+      1791964103418176732
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/openorganelle_jrc_mus-nacc-1_recon-1_crop115_prediction.npy": [
+      3375128,
+      1791963993465612545
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop239_prediction.npy": [
+      740128,
+      1791954855362518501
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop185_prediction.npy": [
+      2250128,
+      1791954898551231520
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop252_prediction.npy": [
+      1000128,
+      1791954867797355049
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop254_prediction.npy": [
+      1000128,
+      1791954870311870012
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop291_prediction.npy": [
+      1000128,
+      1791954885389138610
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop248_prediction.npy": [
+      1000128,
+      1791954865296096363
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop240_prediction.npy": [
+      1000128,
+      1791954877839423208
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop238_prediction.npy": [
+      401760128,
+      1791955247405932624
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/wei20_mitoEM-R__dev_prediction.npy": [
+      1677721728,
+      1791956436248711284
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop174_prediction.npy": [
+      1000128,
+      1791954887891294697
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop245_prediction.npy": [
+      600128,
+      1791954853221787323
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/jiang25_vol2_prediction.npy": [
+      100000128,
+      1791955050588993519
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop292_prediction.npy": [
+      1000128,
+      1791954875330281049
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/turner22_microns1_vol2_prediction.npy": [
+      52428928,
+      1791954983593205506
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/turner22_microns1_vol3_prediction.npy": [
+      52428928,
+      1791955000356664365
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop79_prediction.npy": [
+      1953253,
+      1791954893522299102
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/turner22_microns1_vol0_prediction.npy": [
+      52428928,
+      1791954950071186676
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/haberl18_vol1_prediction.npy": [
+      655488,
+      1791954853501201178
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop258_prediction.npy": [
+      1000128,
+      1791954882889009422
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/kunduri22_train02_prediction.npy": [
+      134217856,
+      1791955093470837220
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop176_prediction.npy": [
+      1000128,
+      1791954890391576863
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/xiao18_vol0__dev_prediction.npy": [
+      31753696,
+      1791954933326530186
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/muller21_low_c2_prediction.npy": [
+      619418020,
+      1791955798248611754
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/turner22_microns1_vol1_prediction.npy": [
+      52428928,
+      1791954966838785198
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/casser20_kasthuri++_train__dev_prediction.npy": [
+      10029992,
+      1791954909423622905
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop237_prediction.npy": [
+      960128,
+      1791954857780849872
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop256_prediction.npy": [
+      1000128,
+      1791954872823338451
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/mekuc20_fib1-4-3-0_prediction.npy": [
+      16777344,
+      1791954921772082773
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop255_prediction.npy": [
+      1000128,
+      1791954880351265365
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/han24_pos2_prediction.npy": [
+      469087197,
+      1791955410576299461
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/muller21_high_c1_prediction.npy": [
+      582770408,
+      1791955593697937769
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop173_prediction.npy": [
+      2250128,
+      1791954896036108110
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop234_prediction.npy": [
+      1000128,
+      1791954860290819730
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop236_prediction.npy": [
+      1000128,
+      1791954862793260633
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/guay21_vol1_prediction.npy": [
+      15360128,
+      1791954915321991596
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop78_prediction.npy": [
+      3375128,
+      1791954902367293834
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/turner22_microns1_vol4_prediction.npy": [
+      52428928,
+      1791955017125525387
+    ],
+    "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/openorganelle_jrc_mus-nacc-1_recon-1_crop115_prediction.npy": [
+      3375128,
+      1791954906147077316
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop239_prediction.npy": [
+      740128,
+      1791989575565300138
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop185_prediction.npy": [
+      2250128,
+      1791989581996211247
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop252_prediction.npy": [
+      1000128,
+      1791989530616914502
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop254_prediction.npy": [
+      1000128,
+      1791989577205106384
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop291_prediction.npy": [
+      1000128,
+      1791989580346191266
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop248_prediction.npy": [
+      1000128,
+      1791989576340234302
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop240_prediction.npy": [
+      1000128,
+      1791989561118949257
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop238_prediction.npy": [
+      401760128,
+      1791989559608681248
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/wei20_mitoEM-R__dev_prediction.npy": [
+      1677721728,
+      1791989646610215714
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop174_prediction.npy": [
+      1000128,
+      1791989563781444066
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop245_prediction.npy": [
+      600128,
+      1791989578386407437
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/jiang25_vol2_prediction.npy": [
+      100000128,
+      1791989519521219570
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop292_prediction.npy": [
+      1000128,
+      1791989577935151090
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol2_prediction.npy": [
+      52428928,
+      1791989592643146945
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol3_prediction.npy": [
+      52428928,
+      1791989574926346490
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop79_prediction.npy": [
+      1953253,
+      1791989564836176543
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol0_prediction.npy": [
+      52428928,
+      1791989588622242093
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/haberl18_vol1_prediction.npy": [
+      655488,
+      1791989460362608388
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop258_prediction.npy": [
+      1000128,
+      1791989561957967046
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/kunduri22_train02_prediction.npy": [
+      134217856,
+      1791989477220667205
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop176_prediction.npy": [
+      1000128,
+      1791989581153272103
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/xiao18_vol0__dev_prediction.npy": [
+      31753696,
+      1791989578545220097
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/muller21_low_c2_prediction.npy": [
+      619418020,
+      1791989527374486578
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol1_prediction.npy": [
+      52428928,
+      1791989568949313719
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/casser20_kasthuri++_train__dev_prediction.npy": [
+      10029992,
+      1791989459301913373
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop237_prediction.npy": [
+      960128,
+      1791989529716388492
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop256_prediction.npy": [
+      1000128,
+      1791989531407884528
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/mekuc20_fib1-4-3-0_prediction.npy": [
+      16777344,
+      1791989480646918123
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1b_recon-1_crop255_prediction.npy": [
+      1000128,
+      1791989579299519637
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/han24_pos2_prediction.npy": [
+      469087197,
+      1791989505210019562
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/muller21_high_c1_prediction.npy": [
+      582770408,
+      1791989572872877687
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop173_prediction.npy": [
+      2250128,
+      1791989562927203371
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop234_prediction.npy": [
+      1000128,
+      1791989574778969501
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_cos7-1a_recon-1_crop236_prediction.npy": [
+      1000128,
+      1791989528970901306
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/guay21_vol1_prediction.npy": [
+      15360128,
+      1791989459495171755
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_fly-vnc-1_recon-1_crop78_prediction.npy": [
+      3375128,
+      1791989583238134861
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/turner22_microns1_vol4_prediction.npy": [
+      52428928,
+      1791989596725333936
+    ],
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/runs/Official-MitoNet-v1/openorganelle_jrc_mus-nacc-1_recon-1_crop115_prediction.npy": [
+      3375128,
+      1791989585032673034
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/openorganelle_jrc_cos7-1a_recon-1_crop239_prediction.npy": [
+      740128,
+      1792034901674767369
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/openorganelle_jrc_fly-vnc-1_recon-1_crop185_prediction.npy": [
+      2250128,
+      1792034908203211160
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/openorganelle_jrc_cos7-1a_recon-1_crop252_prediction.npy": [
+      1000128,
+      1792034870995498237
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/openorganelle_jrc_cos7-1a_recon-1_crop254_prediction.npy": [
+      1000128,
+      1792034903259452703
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/openorganelle_jrc_cos7-1b_recon-1_crop291_prediction.npy": [
+      1000128,
+      1792034906454376413
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/openorganelle_jrc_cos7-1a_recon-1_crop248_prediction.npy": [
+      1000128,
+      1792034902438482942
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/openorganelle_jrc_cos7-1b_recon-1_crop240_prediction.npy": [
+      1000128,
+      1792034901511929843
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/openorganelle_jrc_cos7-1b_recon-1_crop238_prediction.npy": [
+      401760128,
+      1792034899948418030
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/wei20_mitoEM-R__dev_prediction.npy": [
+      1677721728,
+      1792035035612561940
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/openorganelle_jrc_fly-vnc-1_recon-1_crop174_prediction.npy": [
+      1000128,
+      1792034903842694775
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/openorganelle_jrc_cos7-1b_recon-1_crop245_prediction.npy": [
+      600128,
+      1792034904479488180
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/jiang25_vol2_prediction.npy": [
+      100000128,
+      1792034849088933870
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/openorganelle_jrc_cos7-1a_recon-1_crop292_prediction.npy": [
+      1000128,
+      1792034903973826712
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/turner22_microns1_vol2_prediction.npy": [
+      52428928,
+      1792034918685450044
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/turner22_microns1_vol3_prediction.npy": [
+      52428928,
+      1792034913023901159
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/openorganelle_jrc_fly-vnc-1_recon-1_crop79_prediction.npy": [
+      1953253,
+      1792034904908352528
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/turner22_microns1_vol0_prediction.npy": [
+      52428928,
+      1792034914575577787
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/haberl18_vol1_prediction.npy": [
+      655488,
+      1792034801974967838
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/openorganelle_jrc_cos7-1b_recon-1_crop258_prediction.npy": [
+      1000128,
+      1792034902230065008
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/kunduri22_train02_prediction.npy": [
+      134217856,
+      1792034817362342488
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/openorganelle_jrc_fly-vnc-1_recon-1_crop176_prediction.npy": [
+      1000128,
+      1792034907287980652
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/xiao18_vol0__dev_prediction.npy": [
+      31753696,
+      1792034916403829649
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/muller21_low_c2_prediction.npy": [
+      619418020,
+      1792034867223688445
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/turner22_microns1_vol1_prediction.npy": [
+      52428928,
+      1792034908931283412
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/casser20_kasthuri++_train__dev_prediction.npy": [
+      10029992,
+      1792034800823341451
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/openorganelle_jrc_cos7-1a_recon-1_crop237_prediction.npy": [
+      960128,
+      1792034870189126806
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/openorganelle_jrc_cos7-1a_recon-1_crop256_prediction.npy": [
+      1000128,
+      1792034871748042454
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/mekuc20_fib1-4-3-0_prediction.npy": [
+      16777344,
+      1792034820495735037
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/openorganelle_jrc_cos7-1b_recon-1_crop255_prediction.npy": [
+      1000128,
+      1792034905647372287
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/han24_pos2_prediction.npy": [
+      469087197,
+      1792034835582175876
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/muller21_high_c1_prediction.npy": [
+      582770408,
+      1792034897909074288
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/openorganelle_jrc_fly-vnc-1_recon-1_crop173_prediction.npy": [
+      2250128,
+      1792034903095565841
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/openorganelle_jrc_cos7-1a_recon-1_crop234_prediction.npy": [
+      1000128,
+      1792034901093908401
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/openorganelle_jrc_cos7-1a_recon-1_crop236_prediction.npy": [
+      1000128,
+      1792034869070230817
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/guay21_vol1_prediction.npy": [
+      15360128,
+      1792034801141373847
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/openorganelle_jrc_fly-vnc-1_recon-1_crop78_prediction.npy": [
+      3375128,
+      1792034909458532959
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/turner22_microns1_vol4_prediction.npy": [
+      52428928,
+      1792034923251292238
+    ],
+    "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/runs/MitoNet-MV/openorganelle_jrc_mus-nacc-1_recon-1_crop115_prediction.npy": [
+      3375128,
+      1792034910689883326
+    ]
+  }
+}

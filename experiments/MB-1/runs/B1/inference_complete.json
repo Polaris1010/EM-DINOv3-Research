@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "run_id": "B1",
+  "entries": 106,
+  "datasets": 7,
+  "planes": 2595,
+  "physical_gpu": 1,
+  "checkpoint_sha256": "1df2ad04f5171f6988866da689774808cbf63786b2ba45f50938d26e83921b19",
+  "protocol_sha256": "7869c030d26082f07581bb77bfaccfac0a86ab39445ce11cd520068ea852369e",
+  "seconds": 701.2657480239868
+}

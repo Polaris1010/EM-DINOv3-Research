@@ -1,0 +1,236 @@
+{
+  "status": "complete",
+  "datasets": 7,
+  "models": 4,
+  "runs": 8,
+  "per_image_rows": 20760,
+  "per_dataset_run_rows": 56,
+  "model_dataset_rows": 28,
+  "source_macro": {
+    "G-B100": {
+      "dice": 0.5026653636753332,
+      "iou": 0.3998391158109903,
+      "precision": 0.6721831916145586,
+      "recall": 0.4424302106020702,
+      "hd95_nm": Infinity,
+      "nsd_16nm": 0.2785357160318412,
+      "predicted_foreground_fraction": 0.043643410724378454
+    },
+    "G-P0": {
+      "dice": 0.45793840606523734,
+      "iou": 0.34482973787106597,
+      "precision": 0.5953456077534152,
+      "recall": 0.4138466195560069,
+      "hd95_nm": Infinity,
+      "nsd_16nm": 0.215653753556041,
+      "predicted_foreground_fraction": 0.044674736663749076
+    },
+    "MitoNet-MV": {
+      "dice": 0.24093552635917198,
+      "iou": 0.163225407673429,
+      "precision": 0.5000547110993067,
+      "recall": 0.18515193451477527,
+      "hd95_nm": Infinity,
+      "nsd_16nm": 0.09586381081475134,
+      "predicted_foreground_fraction": 0.02493322950356514
+    },
+    "Official-MitoNet-v1": {
+      "dice": 0.7121535919055388,
+      "iou": 0.6155075715648967,
+      "precision": 0.846480729264689,
+      "recall": 0.6517886244104905,
+      "hd95_nm": Infinity,
+      "nsd_16nm": 0.45842814253126063,
+      "predicted_foreground_fraction": 0.05371922918951157
+    }
+  },
+  "B100_minus_P0_macro_dice": 0.044726957610095874,
+  "B100_dice_wins_over_official": [],
+  "B100_dice_wins_over_P0": [
+    "fly_brain",
+    "hela_cell",
+    "lucchi_pp",
+    "TEM-100"
+  ],
+  "MitoNet_MV_dice_regressions_vs_official": [
+    "c_elegans",
+    "fly_brain",
+    "glycolytic_muscle",
+    "hela_cell",
+    "lucchi_pp",
+    "salivary_gland",
+    "TEM-100"
+  ],
+  "seed_summary": [
+    {
+      "run_id": "P0",
+      "model": "G-P0",
+      "seed": 20261014,
+      "dice": 0.46356152212246404,
+      "iou": 0.3461536484920375,
+      "precision": 0.6007656370189394,
+      "recall": 0.4162551447211999,
+      "hd95_nm": Infinity,
+      "nsd_16nm": 0.21758878105305862,
+      "predicted_foreground_fraction": 0.04603406107343838
+    },
+    {
+      "run_id": "B0",
+      "model": "G-B100",
+      "seed": 20261014,
+      "dice": 0.5189023680128952,
+      "iou": 0.4139230042939483,
+      "precision": 0.6702206594753534,
+      "recall": 0.4608881559217965,
+      "hd95_nm": Infinity,
+      "nsd_16nm": 0.2902479893458701,
+      "predicted_foreground_fraction": 0.04463260868101374
+    },
+    {
+      "run_id": "P1",
+      "model": "G-P0",
+      "seed": 20261015,
+      "dice": 0.44938486653068677,
+      "iou": 0.3385887616332348,
+      "precision": 0.5964295146157833,
+      "recall": 0.40214908059463533,
+      "hd95_nm": Infinity,
+      "nsd_16nm": 0.2090412595954701,
+      "predicted_foreground_fraction": 0.042884702332960344
+    },
+    {
+      "run_id": "B1",
+      "model": "G-B100",
+      "seed": 20261015,
+      "dice": 0.49646738578284694,
+      "iou": 0.3949883466689308,
+      "precision": 0.6913337264072363,
+      "recall": 0.42786894038826984,
+      "hd95_nm": Infinity,
+      "nsd_16nm": 0.2735520444640107,
+      "predicted_foreground_fraction": 0.04017058976258381
+    },
+    {
+      "run_id": "P2",
+      "model": "G-P0",
+      "seed": 20261016,
+      "dice": 0.46086882954256125,
+      "iou": 0.34974680348792564,
+      "precision": 0.5888416716255227,
+      "recall": 0.42313563335218546,
+      "hd95_nm": Infinity,
+      "nsd_16nm": 0.2203312200195943,
+      "predicted_foreground_fraction": 0.0451054465848485
+    },
+    {
+      "run_id": "B2",
+      "model": "G-B100",
+      "seed": 20261016,
+      "dice": 0.4926263372302573,
+      "iou": 0.3906059964700918,
+      "precision": 0.6549951889610861,
+      "recall": 0.4385335354961443,
+      "hd95_nm": Infinity,
+      "nsd_16nm": 0.27180711428564275,
+      "predicted_foreground_fraction": 0.04612703372953781
+    },
+    {
+      "run_id": "O",
+      "model": "Official-MitoNet-v1",
+      "seed": null,
+      "dice": 0.7121535919055388,
+      "iou": 0.6155075715648967,
+      "precision": 0.846480729264689,
+      "recall": 0.6517886244104905,
+      "hd95_nm": Infinity,
+      "nsd_16nm": 0.45842814253126063,
+      "predicted_foreground_fraction": 0.05371922918951157
+    },
+    {
+      "run_id": "M",
+      "model": "MitoNet-MV",
+      "seed": 20261014,
+      "dice": 0.24093552635917198,
+      "iou": 0.163225407673429,
+      "precision": 0.5000547110993067,
+      "recall": 0.18515193451477527,
+      "hd95_nm": Infinity,
+      "nsd_16nm": 0.09586381081475134,
+      "predicted_foreground_fraction": 0.02493322950356514
+    }
+  ],
+  "dataset_deltas": [
+    {
+      "dataset_id": 1,
+      "dataset": "c_elegans",
+      "B100_minus_P0_dice": -0.06561651611739412,
+      "B100_minus_official_dice": -0.48952579316315914,
+      "adapted_minus_official_dice": -0.5653364251832554
+    },
+    {
+      "dataset_id": 2,
+      "dataset": "fly_brain",
+      "B100_minus_P0_dice": 0.23945573514207896,
+      "B100_minus_official_dice": -0.05989159154593193,
+      "adapted_minus_official_dice": -0.43795335809839625
+    },
+    {
+      "dataset_id": 3,
+      "dataset": "glycolytic_muscle",
+      "B100_minus_P0_dice": -0.18866446607456522,
+      "B100_minus_official_dice": -0.31957755287383083,
+      "adapted_minus_official_dice": -0.8899147671916302
+    },
+    {
+      "dataset_id": 4,
+      "dataset": "hela_cell",
+      "B100_minus_P0_dice": 0.183149897512974,
+      "B100_minus_official_dice": -0.2212905645809219,
+      "adapted_minus_official_dice": -0.4479420188231691
+    },
+    {
+      "dataset_id": 5,
+      "dataset": "lucchi_pp",
+      "B100_minus_P0_dice": 0.15112920384869744,
+      "B100_minus_official_dice": -0.04743713445486131,
+      "adapted_minus_official_dice": -0.4487724156558657
+    },
+    {
+      "dataset_id": 6,
+      "dataset": "salivary_gland",
+      "B100_minus_P0_dice": -0.010346916861974772,
+      "B100_minus_official_dice": -0.12306803563668361,
+      "adapted_minus_official_dice": -0.09942542523969679
+    },
+    {
+      "dataset_id": 7,
+      "dataset": "TEM-100",
+      "B100_minus_P0_dice": 0.003981765820854299,
+      "B100_minus_official_dice": -0.20562692535605098,
+      "adapted_minus_official_dice": -0.4091820486325546
+    }
+  ],
+  "physical_metric_dataset_counts": {
+    "G-P0": {
+      "hd95_nm": 6,
+      "nsd_16nm": 6
+    },
+    "G-B100": {
+      "hd95_nm": 6,
+      "nsd_16nm": 6
+    },
+    "Official-MitoNet-v1": {
+      "hd95_nm": 6,
+      "nsd_16nm": 6
+    },
+    "MitoNet-MV": {
+      "hd95_nm": 6,
+      "nsd_16nm": 6
+    }
+  },
+  "TEM_calibrated_images": 0,
+  "manifest_sha256": "8a05d1a5c46933d91e5d20977bcb06c0b9ca6bee10abbcdc17a43b62ac0ea046",
+  "protocol_sha256": "7869c030d26082f07581bb77bfaccfac0a86ab39445ce11cd520068ea852369e",
+  "representative_figures": 9,
+  "strict_unseen_image_external_claim": false
+}

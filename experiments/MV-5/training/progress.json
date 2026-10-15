@@ -1,0 +1,36 @@
+{
+  "status": "running",
+  "step": 40000,
+  "optimizer_steps": 40000,
+  "physical_gpu": 3,
+  "gpu0_used": false,
+  "sampling_sha256": "069feda228d9c3231cec172f8e4954247ad3880dfeff699c4b685017ccb72e5b",
+  "sample_source_counts": {
+    "openorganelle": 13224,
+    "muller21": 13435,
+    "han24": 13358,
+    "turner22": 13458,
+    "guay21": 13398,
+    "mekuc20": 13278,
+    "haberl18": 13356,
+    "jiang25": 13262,
+    "wei20": 13368,
+    "casser20": 13358,
+    "kunduri22": 13269,
+    "xiao18": 13236
+  },
+  "target_mode_counts": {
+    "binary_2d_cc_pseudo_instances": 33989,
+    "original_instance_ids": 126011
+  },
+  "seconds": 2664.3279428482056,
+  "lr": 1.2009441548080138e-08,
+  "gradient_norm": 4.899172306060791,
+  "amp_retry_count": 0,
+  "amp_scale": 8192.0,
+  "ce": 0.1270781308412552,
+  "l1": 1.2587474584579468,
+  "mse": 0.00025722416467033327,
+  "pointrend_ce": 0.06359212100505829,
+  "total_loss": 0.2547025680541992
+}

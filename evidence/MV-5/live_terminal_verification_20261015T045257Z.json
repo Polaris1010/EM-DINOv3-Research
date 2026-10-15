@@ -1,0 +1,88 @@
+{
+  "observed_at_utc": "2026-10-15T04:53:35.262475+00:00",
+  "status": {
+    "status": "complete",
+    "training_steps": 40000,
+    "seed": 20261014,
+    "inferred_regions": 38,
+    "scored_regions": 38,
+    "sources": 12,
+    "gpu0_used": false,
+    "website_http_after": 200,
+    "historical_inputs_unchanged": true,
+    "further_experiments_started": false,
+    "report": "MV5_final_report.md"
+  },
+  "training": {
+    "status": "complete",
+    "completed_steps": 40000,
+    "physical_gpu": 3,
+    "gpu0_used": false,
+    "sampling_sha256": "069feda228d9c3231cec172f8e4954247ad3880dfeff699c4b685017ccb72e5b",
+    "sample_source_counts": {
+      "openorganelle": 13224,
+      "muller21": 13435,
+      "han24": 13358,
+      "turner22": 13458,
+      "guay21": 13398,
+      "mekuc20": 13278,
+      "haberl18": 13356,
+      "jiang25": 13262,
+      "wei20": 13368,
+      "casser20": 13358,
+      "kunduri22": 13269,
+      "xiao18": 13236
+    },
+    "target_mode_counts": {
+      "binary_2d_cc_pseudo_instances": 33989,
+      "original_instance_ids": 126011
+    },
+    "seconds": 2665.8336930274963,
+    "protocol_sha256": "0ec3e67bc6783bc91109735c7d1a9a4865f90171489e302cf38d3e4059cdff1e"
+  },
+  "metric_regions": 38,
+  "inference_regions": 38,
+  "all_native_z_confirmed": true,
+  "sources": 12,
+  "checkpoints": [
+    {
+      "path": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/model_step010000.pth",
+      "sha256": "de809ca4076907ca8ab6b54aef0530a288d5029890d7729890aef682d0995d97",
+      "step": 10000,
+      "sampling_sha256": "5f5d094fa0ed28c3a5de26b901c796e406994f3eccba896f5b71b7d78b13988b",
+      "protocol_sha256": "0ec3e67bc6783bc91109735c7d1a9a4865f90171489e302cf38d3e4059cdff1e",
+      "initial_checkpoint_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+      "resume_path": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/resume_step010000.pth",
+      "resume_sha256": "a4d307ef00721103d6beb3d00d86a2298f9b53777e559f5301d9e6ae30e5149e"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/model_step020000.pth",
+      "sha256": "77cd38f91055f2ba2845d89dc92eadd9ded7c2c36b2915cf8b1816572d2fa21a",
+      "step": 20000,
+      "sampling_sha256": "c7ca275e43f4c4113a1b8d5dae8ece07bfceefd24dfeaec50ce34aad639d7f76",
+      "protocol_sha256": "0ec3e67bc6783bc91109735c7d1a9a4865f90171489e302cf38d3e4059cdff1e",
+      "initial_checkpoint_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+      "resume_path": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/resume_step020000.pth",
+      "resume_sha256": "8c1a4cd34581893174120ad2a8ed2fc050bd2b3fd592c7a62d6f0302bf979c1d"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/model_step040000.pth",
+      "sha256": "660edd2781c8ae1f3f99a8b0b679dc0501212863798d1eb8da426c02f74e7136",
+      "step": 40000,
+      "sampling_sha256": "069feda228d9c3231cec172f8e4954247ad3880dfeff699c4b685017ccb72e5b",
+      "protocol_sha256": "0ec3e67bc6783bc91109735c7d1a9a4865f90171489e302cf38d3e4059cdff1e",
+      "initial_checkpoint_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+      "resume_path": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/resume_step040000.pth",
+      "resume_sha256": "2803735e1603517e58b389122fd9e6b4c591a042d29c69da1e9712c86e4916fc"
+    }
+  ],
+  "model_40k_sha256_recomputed": true,
+  "report_sha256": "2d87733f9ae0c935a6a408121674cac69a65f17826966648ddabe78e949deb09",
+  "metrics_sha256": "d19777fe02cbdae6c0af6b5924235e461b9b4b6f3e148a761672b7aed813503b",
+  "source_metrics_sha256": "95ae4de704f3588bba2038ce22a4c703191374390b7b0039085fd7c260687523",
+  "protocol_sha256": "0ec3e67bc6783bc91109735c7d1a9a4865f90171489e302cf38d3e4059cdff1e",
+  "service": "MainPID=0\nExecMainStartTimestamp=n/a\nExecMainExitTimestamp=n/a\nExecMainStatus=0\nActiveState=inactive\nSubState=dead\n",
+  "gpu": "index, memory.used [MiB], utilization.gpu [%]\n0, 3092 MiB, 0 %\n1, 464 MiB, 0 %\n2, 464 MiB, 0 %\n3, 0 MiB, 0 %\n",
+  "website_http": 200,
+  "new_experiment_started_by_this_check": false
+}

@@ -1,0 +1,10 @@
+{
+  "empanada-dl": "0.1.7",
+  "torch": "2.5.1",
+  "numpy": "1.26.4",
+  "code_commit": "2cbc7c773ca94271ce22b0d0e4820b745fde38b7",
+  "installed_official_source_sha256": {
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/lib/python3.11/site-packages/empanada/losses.py": "a697b5c4d474b1376a14dfc666be4867f82e6e7ebdad2ccb9520817e820233f1",
+    "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/lib/python3.11/site-packages/empanada/data/utils/target_creation.py": "9a0e93f2a213af0f4c6782a7e9f74107a8189c3c13eedb30e79a3fabe810d8d6"
+  }
+}

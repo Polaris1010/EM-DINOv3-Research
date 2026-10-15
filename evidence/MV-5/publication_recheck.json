@@ -1,0 +1,37 @@
+{
+  "verified_at_utc": "2026-10-15T04:56:09.412967+00:00",
+  "private": true,
+  "account": "Polaris1010",
+  "results_commit": "09335403f53cdce18c661e35db07a484e375026e",
+  "pr": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/6",
+  "state": "open",
+  "draft": true,
+  "merged": false,
+  "pr_head": "09335403f53cdce18c661e35db07a484e375026e",
+  "branch_head": "09335403f53cdce18c661e35db07a484e375026e",
+  "result_files_verified_on_github": [
+    {
+      "path": "docs/MV5_final_report.md",
+      "git_blob_sha": "edef9c87f03bae785aa348f29859bc70c3d783dc",
+      "verified_on_github": true
+    },
+    {
+      "path": "experiments/MV-5/MV5_per_region_metrics.csv",
+      "git_blob_sha": "90387559aaf7aaa83961846bdcdf9c1ba02d2aa6",
+      "verified_on_github": true
+    },
+    {
+      "path": "docs/work_logs/20261015_11_mv5_mitonet_adaptation.md",
+      "git_blob_sha": "fcf601aa5db47dcb47da321235672d70060e15a4",
+      "verified_on_github": true
+    },
+    {
+      "path": "src/mv5/train.py",
+      "git_blob_sha": "1e2aa580fba08ad013ef51bdf8e73c92ebeb5367",
+      "verified_on_github": true
+    }
+  ],
+  "pr_body_updated_to_final_results": true,
+  "original_collector_result": "post-push PR receipt assertion failed; results push confirmed independently",
+  "new_experiment_started": false
+}

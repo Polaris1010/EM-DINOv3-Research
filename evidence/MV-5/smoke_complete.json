@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "physical_gpu": 3,
+  "steps": 12,
+  "sources_covered": [
+    "casser20",
+    "guay21",
+    "haberl18",
+    "han24",
+    "jiang25",
+    "kunduri22",
+    "mekuc20",
+    "muller21",
+    "openorganelle",
+    "turner22",
+    "wei20",
+    "xiao18"
+  ],
+  "trainable_parameters": 55158486,
+  "all_official_loss_terms_finite": true,
+  "checkpoint_inference_exact": true,
+  "han_annotation_mask_read": false,
+  "target_mode_counts": {
+    "original_instance_ids": 38,
+    "binary_2d_cc_pseudo_instances": 10
+  },
+  "gradient_norm_last": 18.095949172973633
+}

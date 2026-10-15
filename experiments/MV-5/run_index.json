@@ -1,0 +1,55 @@
+{
+  "stage": "MV-5",
+  "model": "MitoNet-MV",
+  "seed": 20261014,
+  "server_root": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015",
+  "service": "mv5-mitonet-adaptation-20261015.service",
+  "status": "VERIFIED_COMPLETED",
+  "execution_state": "TRAIN_AND_FULL_38_DEVELOPMENT_COMPLETE",
+  "completed_steps": 40000,
+  "budget_steps": 40000,
+  "train_regions": 156,
+  "dev_regions": 38,
+  "sources": 12,
+  "protocol": "configs/evaluation/MV-5_protocol.json",
+  "code_commit": "2cbc7c773ca94271ce22b0d0e4820b745fde38b7",
+  "report_path": "docs/MV5_final_report.md",
+  "metrics_path": "experiments/MV-5/MV5_per_region_metrics.csv",
+  "initial_checkpoint_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+  "physical_training_gpu": 3,
+  "gpu0_used": false,
+  "prior_results_unchanged": true,
+  "status_evidence": "evidence/MV-5/terminal_status_20261015T035253Z.json",
+  "observed_at_utc": "20261015T035253Z",
+  "draft_pr": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/6",
+  "collector": "scripts/watch_mv5_results.py",
+  "collector_state": "TERMINATED_AFTER_RESULTS_PUSH_PR_RECEIPT_ASSERTION",
+  "collector_pid": 31336,
+  "collector_started_utc": "2026-10-15T03:06:16.785834+00:00",
+  "saved_milestones": [
+    {
+      "step": 10000,
+      "path": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/model_step010000.pth",
+      "sha256": "de809ca4076907ca8ab6b54aef0530a288d5029890d7729890aef682d0995d97"
+    },
+    {
+      "step": 20000,
+      "path": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/model_step020000.pth",
+      "sha256": "77cd38f91055f2ba2845d89dc92eadd9ded7c2c36b2915cf8b1816572d2fa21a"
+    },
+    {
+      "step": 40000,
+      "path": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/model_step040000.pth",
+      "sha256": "660edd2781c8ae1f3f99a8b0b679dc0501212863798d1eb8da426c02f74e7136"
+    }
+  ],
+  "service_state": "inactive",
+  "checkpoint_path": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/model_step040000.pth",
+  "checkpoint_sha256": "660edd2781c8ae1f3f99a8b0b679dc0501212863798d1eb8da426c02f74e7136",
+  "results_verification": "experiments/MV-5/MV5_results_verification.json",
+  "last_live_verification": "evidence/MV-5/live_terminal_verification_20261015T045257Z.json",
+  "last_live_verification_at_utc": "2026-10-15T04:53:35.262475+00:00",
+  "results_commit": "09335403f53cdce18c661e35db07a484e375026e",
+  "publication_state": "RESULTS_PUSH_AND_PR_BODY_VERIFIED",
+  "publication_verification": "evidence/MV-5/publication_recheck.json"
+}

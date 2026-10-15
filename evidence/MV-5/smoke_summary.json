@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "steps": 12,
+  "physical_gpu": 3,
+  "sources_covered": 12,
+  "trainable_parameters": 55158486,
+  "all_official_loss_terms_finite": true,
+  "checkpoint_inference_exact": true,
+  "synthetic_padding_loss_and_gradients_excluded": true,
+  "full_gt_han": true,
+  "receipt_note": "actual SSH validate output; full server smoke receipt will be collected unchanged"
+}

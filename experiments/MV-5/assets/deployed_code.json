@@ -1,0 +1,45 @@
+{
+  "code_commit": "2cbc7c773ca94271ce22b0d0e4820b745fde38b7",
+  "files": [
+    {
+      "relative": "code/check_loss.py",
+      "sha256": "8e88e48f990659f965d6bdd6e5dc0ecfb37666df8c183bd0867c62dfb4815916"
+    },
+    {
+      "relative": "code/common.py",
+      "sha256": "95f754c9d6b84310cebe27aa2af0762c80b2869cfe0749b3ec0ae2dc5d06b014"
+    },
+    {
+      "relative": "code/infer.py",
+      "sha256": "dec03ea5cde67a3d1cd5a32627a09e70bf33c786bbe55190b0859028df5b9deb"
+    },
+    {
+      "relative": "code/official.py",
+      "sha256": "21e62ab965035b5433ee08f3d3a683c8e1967df715c624e23d40fb23cd65c3b0"
+    },
+    {
+      "relative": "code/report.py",
+      "sha256": "983d4be01145d5b80aad644250d07af13eed5f17b5533544e52acefdf1e89498"
+    },
+    {
+      "relative": "code/run.py",
+      "sha256": "9fa426548f9ca6f3ed1e8ba21c9a788a789b5cc878123c2a0efe1ead65c385d7"
+    },
+    {
+      "relative": "code/score.py",
+      "sha256": "d427da4ccce88d3036ac7b30990b57c66930dbf1b9a093986aba111197664dd5"
+    },
+    {
+      "relative": "code/scoring_queue.py",
+      "sha256": "a19fbdc5e92598bd71522631f38ca4e8424e76f1fa32ac5482f160b8c6f2e736"
+    },
+    {
+      "relative": "code/train.py",
+      "sha256": "796764eadf49621ebc3f2b4a6df4df3d29b22601d9ebee5ace2f1ee6504b015b"
+    },
+    {
+      "relative": "MV5_protocol.json",
+      "sha256": "0ec3e67bc6783bc91109735c7d1a9a4865f90171489e302cf38d3e4059cdff1e"
+    }
+  ]
+}

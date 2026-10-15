@@ -1,0 +1,10 @@
+{
+  "path": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/model_step020000.pth",
+  "sha256": "77cd38f91055f2ba2845d89dc92eadd9ded7c2c36b2915cf8b1816572d2fa21a",
+  "step": 20000,
+  "sampling_sha256": "c7ca275e43f4c4113a1b8d5dae8ece07bfceefd24dfeaec50ce34aad639d7f76",
+  "protocol_sha256": "0ec3e67bc6783bc91109735c7d1a9a4865f90171489e302cf38d3e4059cdff1e",
+  "initial_checkpoint_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+  "resume_path": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/resume_step020000.pth",
+  "resume_sha256": "8c1a4cd34581893174120ad2a8ed2fc050bd2b3fd592c7a62d6f0302bf979c1d"
+}

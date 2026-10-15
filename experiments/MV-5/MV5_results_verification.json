@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "rows": 304,
+  "new_regions": 38,
+  "sources": 12,
+  "matching_valid_GT_counts": true,
+  "historic_rows_reused": 266,
+  "protocol_sha256": "0ec3e67bc6783bc91109735c7d1a9a4865f90171489e302cf38d3e4059cdff1e",
+  "checkpoint_sha256": "660edd2781c8ae1f3f99a8b0b679dc0501212863798d1eb8da426c02f74e7136"
+}

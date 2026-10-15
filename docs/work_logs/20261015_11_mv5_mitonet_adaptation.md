@@ -19,3 +19,7 @@
 ## 首个里程碑
 
 实际快照 10600/40000更新；10k脚本checkpoint与optimizer/scaler resume均已保存，权重SHA `de809ca4076907ca8ab6b54aef0530a288d5029890d7729890aef682d0995d97`，元数据已收取，权重不入Git。固定40k选模；本轮未进行10k开发Dice选型，没有开发指标。服务active、GPU3训练、网站200，GPU0未使用。被动收取器已连接并等待最终终止；正式结束后收取304行四系统记录与最终报告，提交推送后停止。
+
+## 实际终止收取 20261015T035253Z
+
+MV5已完成：MitoNet-MV 40k、38区域/12来源开发指标完成；先读docs/MV5_final_report.md。任务结束，不启动新实验。 原40条registry保持；实际checkpoint SHA、指标、配置与本轮Markdown同步提交推送至draft PR6，不自动合并。自动收取未启动任何实验。

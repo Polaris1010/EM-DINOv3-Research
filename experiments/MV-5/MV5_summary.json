@@ -1,0 +1,112 @@
+{
+  "status": "complete",
+  "source_macro": {
+    "G-P0": {
+      "dice": 0.8137414862637777,
+      "precision": 0.8386341629030657,
+      "recall": 0.8112697446840696,
+      "hd95_nm": 529.2190692342893,
+      "nsd_16nm": 0.7058886342465577,
+      "predicted_foreground_fraction": 0.0791385415691057
+    },
+    "G-B100": {
+      "dice": 0.8264489417353944,
+      "precision": 0.8437931382081937,
+      "recall": 0.8351159100510716,
+      "hd95_nm": 559.4837299674448,
+      "nsd_16nm": 0.7254801551199923,
+      "predicted_foreground_fraction": 0.08151246896615683
+    },
+    "Official-MitoNet-v1": {
+      "dice": 0.6102085551547273,
+      "precision": 0.6818447093631296,
+      "recall": 0.657549514023871,
+      "hd95_nm": 617.8220953710152,
+      "nsd_16nm": 0.5433837900375554,
+      "predicted_foreground_fraction": 0.08118124098027557
+    },
+    "MitoNet-MV": {
+      "dice": 0.7288328326474671,
+      "precision": 0.8336851954301864,
+      "recall": 0.709292007360754,
+      "hd95_nm": 574.3918063134859,
+      "nsd_16nm": 0.620746803368743,
+      "predicted_foreground_fraction": 0.06601691512601476
+    }
+  },
+  "adaptation_gain": 0.11862427749273985,
+  "B100_minus_adapted": 0.09761610908792728,
+  "B100_source_wins": 12,
+  "regions": 38,
+  "sources": 12,
+  "reused_metric_rows": 266,
+  "new_metric_rows": 38,
+  "total_rows": 304,
+  "protocol_sha256": "0ec3e67bc6783bc91109735c7d1a9a4865f90171489e302cf38d3e4059cdff1e",
+  "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "checkpoint_hashes": [
+    {
+      "path": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/model_step010000.pth",
+      "sha256": "de809ca4076907ca8ab6b54aef0530a288d5029890d7729890aef682d0995d97",
+      "step": 10000,
+      "sampling_sha256": "5f5d094fa0ed28c3a5de26b901c796e406994f3eccba896f5b71b7d78b13988b",
+      "protocol_sha256": "0ec3e67bc6783bc91109735c7d1a9a4865f90171489e302cf38d3e4059cdff1e",
+      "initial_checkpoint_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+      "resume_path": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/resume_step010000.pth",
+      "resume_sha256": "a4d307ef00721103d6beb3d00d86a2298f9b53777e559f5301d9e6ae30e5149e"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/model_step020000.pth",
+      "sha256": "77cd38f91055f2ba2845d89dc92eadd9ded7c2c36b2915cf8b1816572d2fa21a",
+      "step": 20000,
+      "sampling_sha256": "c7ca275e43f4c4113a1b8d5dae8ece07bfceefd24dfeaec50ce34aad639d7f76",
+      "protocol_sha256": "0ec3e67bc6783bc91109735c7d1a9a4865f90171489e302cf38d3e4059cdff1e",
+      "initial_checkpoint_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+      "resume_path": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/resume_step020000.pth",
+      "resume_sha256": "8c1a4cd34581893174120ad2a8ed2fc050bd2b3fd592c7a62d6f0302bf979c1d"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/model_step040000.pth",
+      "sha256": "660edd2781c8ae1f3f99a8b0b679dc0501212863798d1eb8da426c02f74e7136",
+      "step": 40000,
+      "sampling_sha256": "069feda228d9c3231cec172f8e4954247ad3880dfeff699c4b685017ccb72e5b",
+      "protocol_sha256": "0ec3e67bc6783bc91109735c7d1a9a4865f90171489e302cf38d3e4059cdff1e",
+      "initial_checkpoint_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+      "resume_path": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/resume_step040000.pth",
+      "resume_sha256": "2803735e1603517e58b389122fd9e6b4c591a042d29c69da1e9712c86e4916fc"
+    }
+  ],
+  "training": {
+    "status": "complete",
+    "completed_steps": 40000,
+    "physical_gpu": 3,
+    "gpu0_used": false,
+    "sampling_sha256": "069feda228d9c3231cec172f8e4954247ad3880dfeff699c4b685017ccb72e5b",
+    "sample_source_counts": {
+      "openorganelle": 13224,
+      "muller21": 13435,
+      "han24": 13358,
+      "turner22": 13458,
+      "guay21": 13398,
+      "mekuc20": 13278,
+      "haberl18": 13356,
+      "jiang25": 13262,
+      "wei20": 13368,
+      "casser20": 13358,
+      "kunduri22": 13269,
+      "xiao18": 13236
+    },
+    "target_mode_counts": {
+      "binary_2d_cc_pseudo_instances": 33989,
+      "original_instance_ids": 126011
+    },
+    "seconds": 2665.8336930274963,
+    "protocol_sha256": "0ec3e67bc6783bc91109735c7d1a9a4865f90171489e302cf38d3e4059cdff1e"
+  },
+  "limitations": [
+    "one adaptation seed versus three existing DINOv3 decoder seeds",
+    "transductive development; no acquisition generalization or pretrained-method novelty claim",
+    "Han full GT is user-authorized despite partial annotation caveat",
+    "Turner physical spacing limitation inherited; no new scale search"
+  ]
+}

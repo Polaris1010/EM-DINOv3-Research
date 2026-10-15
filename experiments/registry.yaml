@@ -5218,7 +5218,7 @@
     },
     {
       "experiment_id": "MV-5-MitoNet-MV-seed20261014",
-      "status": "VERIFIED_RUNNING",
+      "status": "VERIFIED_COMPLETED",
       "research_question": "Official MitoNet adapted on the same156 supervised regions: remaining complete-system gap",
       "dataset_manifest": "configs/segmentation/MV-Generalist-v2/manifest.json",
       "dataset_manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
@@ -5425,8 +5425,8 @@
       "backbone": "Official MitoNet PanopticDeepLab PointRend all layers trainable",
       "initial_checkpoint": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/assets/MitoNet_v1.pth",
       "initial_checkpoint_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
-      "final_checkpoint": "UNVERIFIED",
-      "final_checkpoint_sha256": "UNVERIFIED",
+      "final_checkpoint": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/model_step040000.pth",
+      "final_checkpoint_sha256": "660edd2781c8ae1f3f99a8b0b679dc0501212863798d1eb8da426c02f74e7136",
       "decoder": "Official panoptic semantic/center/offset/PointRend heads",
       "decoder_source_commit": "UNVERIFIED",
       "decoder_checkpoint": "UNVERIFIED",
@@ -5436,7 +5436,7 @@
       "code_commit": "2cbc7c773ca94271ce22b0d0e4820b745fde38b7",
       "python_executable": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/bin/python",
       "global_batch": 4,
-      "optimizer_steps": 10600,
+      "optimizer_steps": 40000,
       "learning_rate": {
         "max_lr": 0.003,
         "pct_start": 0.3
@@ -5458,8 +5458,8 @@
         "use_gpu": true,
         "use_quantized": false
       },
-      "metrics_path": "UNVERIFIED",
-      "report_path": "docs/MV5_execution.md",
+      "metrics_path": "experiments/MV-5/MV5_per_region_metrics.csv",
+      "report_path": "docs/MV5_final_report.md",
       "limitations": [
         "one adaptation seed versus three existing DINOv3 decoder seeds",
         "transductive development; no acquisition generalization or pretrained-method novelty claim",
@@ -5467,7 +5467,7 @@
         "Turner physical spacing limitation inherited; no new scale search"
       ],
       "server_root": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015",
-      "execution_state": "FORMAL_40K_TRAINING_GPU3",
+      "execution_state": "TRAIN_AND_FULL_38_DEVELOPMENT_COMPLETE",
       "evidence": [
         "experiments/MV-5/run_index.json",
         "configs/evaluation/MV-5_protocol.json",

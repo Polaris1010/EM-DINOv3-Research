@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "training_steps": 40000,
+  "seed": 20261014,
+  "inferred_regions": 38,
+  "scored_regions": 38,
+  "sources": 12,
+  "gpu0_used": false,
+  "website_http_after": 200,
+  "historical_inputs_unchanged": true,
+  "further_experiments_started": false,
+  "report": "MV5_final_report.md"
+}

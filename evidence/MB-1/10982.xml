@@ -1,0 +1,201 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10982" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-03-11</depositionDate>
+            <releaseDate>2022-03-15</releaseDate>
+            <updateDate>2022-10-04</updateDate>
+        </keyDates>
+        <title>Seven benchmark datasets of instance segmentation of mitochondria: 6 diverse volume EM + 1 TEM (100 images) datasets</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0001-7982-6494</authorORCID>
+            <firstName>Kedar</firstName>
+            <lastName>Narayan</lastName>
+            <organization type="academic">Frederick National Laboratory &amp; National Cancer Institute, NIH</organization>
+            <townOrCity>Frederick</townOrCity>
+            <stateOrProvince>MD</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>21701</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0001-7982-6494</authorORCID>
+            <firstName>Kedar</firstName>
+            <lastName>Narayan</lastName>
+            <organization type="academic">Frederick National Laboratory &amp; National Cancer Institute, NIH</organization>
+            <townOrCity>Frederick</townOrCity>
+            <stateOrProvince>MD</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>21701</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-7982-6494">Narayan K</author>
+            <author>Conrad RW</author>
+        </authorsList>
+        <datasetSize>4.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10982</entryDOI>
+        <experimentType>FIB-SEM</experimentType>
+        <scale>cell</scale>
+    </admin>
+    <crossReferences>
+        <citationList>
+            <universalCitation>
+                <nonJournalCitation published="false">
+                    <author authorORCID="0000-0001-7982-6494" order="1">Narayan K</author>
+                    <author order="2">Conrad RW</author>
+                    <bookTitle>Six benchmark volumes of instance segmentation of mitochondria from diverse volume EM datasets</bookTitle>
+                    <publisher></publisher>
+                    <publicationLocation></publicationLocation>
+                    <country></country>
+                    <details>These six benchmarks were derived from volume EM reconstructions of C. elegans, Fly brain, HeLa cell, Glycolytic muscle, Salivary gland, and a known neuronal benchmark, Lucchi++ . The widely heterogenous mitochondria in these benchmarks together serve as a stringent evaluation of deep learning based, or other, segmentation approaches.</details>
+                </nonJournalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>C. elegans benchmark volume of instance segmentation of mitochondria: grayscale image file + label map file</name>
+        <directory>/data/mito_benchmarks/c_elegans</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>1</numImagesOrTiltSeries>
+        <framesPerImage>256</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>240.0</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>240.0</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Fly brain benchmark volume of instance segmentation of mitochondria: grayscale image file + label map file</name>
+        <directory>/data/mito_benchmarks/fly_brain</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>1</numImagesOrTiltSeries>
+        <framesPerImage>256</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>255</imageWidth>
+            <pixelWidth>120.0</pixelWidth>
+            <imageHeight>255</imageHeight>
+            <pixelHeight>120.0</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Glycolytic muscle benchmark volume of instance segmentation of mitochondria: grayscale image file + label map file</name>
+        <directory>/data/mito_benchmarks/glycolytic_muscle</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>1</numImagesOrTiltSeries>
+        <framesPerImage>302</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>765</imageWidth>
+            <pixelWidth>180.0</pixelWidth>
+            <imageHeight>383</imageHeight>
+            <pixelHeight>180.0</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>HeLa cell benchmark volume of instance segmentation of mitochondria: grayscale image file + label map file</name>
+        <directory>/data/mito_benchmarks/hela_cell</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>1</numImagesOrTiltSeries>
+        <framesPerImage>256</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>150.0</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>150.0</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Lucchi++ neuronal benchmark volume of instance segmentation of mitochondria: grayscale image file + label map file</name>
+        <directory>/data/mito_benchmarks/lucchi_pp</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>1</numImagesOrTiltSeries>
+        <framesPerImage>165</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>1024</imageWidth>
+            <pixelWidth>50.0</pixelWidth>
+            <imageHeight>768</imageHeight>
+            <pixelHeight>50.0</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Salivary gland (rat) benchmark volume of instance segmentation of mitochondria: grayscale image file + label map file</name>
+        <directory>/data/mito_benchmarks/salivary_gland</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>1</numImagesOrTiltSeries>
+        <framesPerImage>1260</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>1200</imageWidth>
+            <pixelWidth>150.0</pixelWidth>
+            <imageHeight>1081</imageHeight>
+            <pixelHeight>150.0</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>TEM 100 image benchmark dataset of instance segmentation of mitochondria: grayscale image file + label map file</name>
+        <directory>/data/tem_benchmark</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>100</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>1024</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>1024</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>100 TEM images of cellular features (most but not all images are 1024 x 1024, pixel size in low nm range) and corresponding 2D instance segmentation label maps of mitochondria from a variety of imaging projects. A .csv file of available metadata is also included</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

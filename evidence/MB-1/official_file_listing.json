@@ -1,0 +1,1747 @@
+{
+  "base": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/",
+  "directories": [
+    {
+      "path": "mito_benchmarks/c_elegans/",
+      "files": [
+        {
+          "relative": "mito_benchmarks/c_elegans/c_elegans_em.tif",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/c_elegans/c_elegans_em.tif"
+        },
+        {
+          "relative": "mito_benchmarks/c_elegans/c_elegans_mito.tif",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/c_elegans/c_elegans_mito.tif"
+        }
+      ]
+    },
+    {
+      "path": "mito_benchmarks/fly_brain/",
+      "files": [
+        {
+          "relative": "mito_benchmarks/fly_brain/fly_brain_em.tif",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/fly_brain/fly_brain_em.tif"
+        },
+        {
+          "relative": "mito_benchmarks/fly_brain/fly_brain_mito.tif",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/fly_brain/fly_brain_mito.tif"
+        }
+      ]
+    },
+    {
+      "path": "mito_benchmarks/glycolytic_muscle/",
+      "files": [
+        {
+          "relative": "mito_benchmarks/glycolytic_muscle/glycolytic_muscle_em.tif",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/glycolytic_muscle/glycolytic_muscle_em.tif"
+        },
+        {
+          "relative": "mito_benchmarks/glycolytic_muscle/glycolytic_muscle_mito.tif",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/glycolytic_muscle/glycolytic_muscle_mito.tif"
+        }
+      ]
+    },
+    {
+      "path": "mito_benchmarks/hela_cell/",
+      "files": [
+        {
+          "relative": "mito_benchmarks/hela_cell/hela_cell_em.tif",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/hela_cell/hela_cell_em.tif"
+        },
+        {
+          "relative": "mito_benchmarks/hela_cell/hela_cell_mito.tif",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/hela_cell/hela_cell_mito.tif"
+        }
+      ]
+    },
+    {
+      "path": "mito_benchmarks/lucchi_pp/",
+      "files": [
+        {
+          "relative": "mito_benchmarks/lucchi_pp/lucchi_pp_em.tif",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/lucchi_pp/lucchi_pp_em.tif"
+        },
+        {
+          "relative": "mito_benchmarks/lucchi_pp/lucchi_pp_mito.tif",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/lucchi_pp/lucchi_pp_mito.tif"
+        }
+      ]
+    },
+    {
+      "path": "mito_benchmarks/salivary_gland/",
+      "files": [
+        {
+          "relative": "mito_benchmarks/salivary_gland/salivary_gland_em.tif",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/salivary_gland/salivary_gland_em.tif"
+        },
+        {
+          "relative": "mito_benchmarks/salivary_gland/salivary_gland_mito.tif",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/salivary_gland/salivary_gland_mito.tif"
+        }
+      ]
+    },
+    {
+      "path": "tem_benchmark/",
+      "files": []
+    },
+    {
+      "path": "tem_benchmark/images/",
+      "files": [
+        {
+          "relative": "tem_benchmark/images/0s1JawDdbBymwtwOjgx8.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/0s1JawDdbBymwtwOjgx8.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/1U0jYrdPwdlRDsQzkUNc.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/1U0jYrdPwdlRDsQzkUNc.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/1unGsOC0dfeB02LCtQwi.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/1unGsOC0dfeB02LCtQwi.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/1vNHcbV4bWuC1zywuBdP.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/1vNHcbV4bWuC1zywuBdP.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/2Tlqk9n8mmGv6G0EGxwl.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/2Tlqk9n8mmGv6G0EGxwl.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/3ib2iOCHNQIgrUaxnLwm.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/3ib2iOCHNQIgrUaxnLwm.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/3pbuH37yaTFrTt52QdNO.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/3pbuH37yaTFrTt52QdNO.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/5BzcbKwHruGS296dUugB.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/5BzcbKwHruGS296dUugB.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/6plriVrEepvhHyOBmtUc.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/6plriVrEepvhHyOBmtUc.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/6uc2ydKjW1yJG033GPjj.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/6uc2ydKjW1yJG033GPjj.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/7Z7jSCJZ23zSW2ZztTPJ.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/7Z7jSCJZ23zSW2ZztTPJ.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/9SNS8ZHu7wx8HstQg2Vo.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/9SNS8ZHu7wx8HstQg2Vo.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/9jHLkwpVONtdgyvLyhds.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/9jHLkwpVONtdgyvLyhds.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/17pOyGcUusCVRfzUZxTs.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/17pOyGcUusCVRfzUZxTs.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/AH9rwncuiyjonmnTpzc6.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/AH9rwncuiyjonmnTpzc6.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/ALknkSgr7aoWr14RfrSV.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/ALknkSgr7aoWr14RfrSV.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/AOVAPBvPacOXcUoVM3uZ.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/AOVAPBvPacOXcUoVM3uZ.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/AvUtncbaV60ITOmLlAkQ.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/AvUtncbaV60ITOmLlAkQ.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/DccMhwElHJmbuS2J8lrU.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/DccMhwElHJmbuS2J8lrU.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/DprwEW2YlVIuqe8iiBUM.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/DprwEW2YlVIuqe8iiBUM.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/E3DjzU1Hv0lKtRerU0dr.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/E3DjzU1Hv0lKtRerU0dr.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/FJkyZfNswUHYI8UXjInE.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/FJkyZfNswUHYI8UXjInE.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/FSqfiQ5X7pl4pbbBV3og.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/FSqfiQ5X7pl4pbbBV3og.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/FcQtYwd3CZhEoqWrZQ6a.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/FcQtYwd3CZhEoqWrZQ6a.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/GC18X3wh91fultTzXk0n.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/GC18X3wh91fultTzXk0n.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/Gp5MEeb8iAuYfrAcOb3T.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/Gp5MEeb8iAuYfrAcOb3T.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/HIv1HOOLTWhvBGs2GLAW.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/HIv1HOOLTWhvBGs2GLAW.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/HWJC0I0n5pPosm91fPN9.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/HWJC0I0n5pPosm91fPN9.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/IsdoTn0CZN3NNBHw9eHs.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/IsdoTn0CZN3NNBHw9eHs.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/JbZdraW8jUWOkWYenUQW.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/JbZdraW8jUWOkWYenUQW.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/KDdqT7pjt4RB6DP9YhBv.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/KDdqT7pjt4RB6DP9YhBv.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/KYJvyQylQ6GoiyoABzCi.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/KYJvyQylQ6GoiyoABzCi.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/MTeOXdixYD6o3ysTjtlY.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/MTeOXdixYD6o3ysTjtlY.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/MWyu8XxfJUz0tPpjMG68.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/MWyu8XxfJUz0tPpjMG68.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/N9aIKs7lUVsYd6bT3LxC.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/N9aIKs7lUVsYd6bT3LxC.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/NFlQQXCuLN49baKGNHc8.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/NFlQQXCuLN49baKGNHc8.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/NWNws2Vo4AQhIw579f4E.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/NWNws2Vo4AQhIw579f4E.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/NpIsioJcraoQ7UM5w5KA.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/NpIsioJcraoQ7UM5w5KA.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/P4f6REHlY0j5oPr8hyFr.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/P4f6REHlY0j5oPr8hyFr.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/PRV36TemoPe3oPNL0RXZ.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/PRV36TemoPe3oPNL0RXZ.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/QLwSiZlPfFaKn9UkVw5A.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/QLwSiZlPfFaKn9UkVw5A.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/QQZlSgIkiL7OdZ2a8oIm.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/QQZlSgIkiL7OdZ2a8oIm.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/QWlbQZ1v00zxmk2Fp3Le.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/QWlbQZ1v00zxmk2Fp3Le.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/QWqaLBDT0uuxxNX25kP9.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/QWqaLBDT0uuxxNX25kP9.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/QsP5DBmv2NYg8LUlw8b1.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/QsP5DBmv2NYg8LUlw8b1.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/R6p8J6wCSmn3aStj4GHv.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/R6p8J6wCSmn3aStj4GHv.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/RoECvy0RbILoKiv8jYab.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/RoECvy0RbILoKiv8jYab.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/SXnwBMNzR18D8sKSjh8g.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/SXnwBMNzR18D8sKSjh8g.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/TCzgvIZVHqNFtdJEPaXf.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/TCzgvIZVHqNFtdJEPaXf.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/TbVlEbkOaXvgqXuOC2y5.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/TbVlEbkOaXvgqXuOC2y5.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/UH2Xa2sqyug07qibeLI2.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/UH2Xa2sqyug07qibeLI2.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/UTbbCmNhBbRwzOznV6eM.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/UTbbCmNhBbRwzOznV6eM.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/Ub2PGMk15slpiDOMy6gd.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/Ub2PGMk15slpiDOMy6gd.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/UuyHhnn7MjnSClcZPBAG.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/UuyHhnn7MjnSClcZPBAG.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/V52bj9CYW97AUqevB2Rv.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/V52bj9CYW97AUqevB2Rv.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/VFu9kl8plvKxrBEwRfhL.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/VFu9kl8plvKxrBEwRfhL.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/VcJ1fV2RlrJrmLHIzdIv.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/VcJ1fV2RlrJrmLHIzdIv.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/WCqmS6R1MFjZfQXMEbov.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/WCqmS6R1MFjZfQXMEbov.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/X1DAYM5MVaMXPhpeeTBT.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/X1DAYM5MVaMXPhpeeTBT.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/XsisEi7EmDiq7esbhl3k.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/XsisEi7EmDiq7esbhl3k.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/XzLxoE9qQ3O9Gq28iveF.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/XzLxoE9qQ3O9Gq28iveF.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/Y5Uy1ACZO4MkqTvSzJcS.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/Y5Uy1ACZO4MkqTvSzJcS.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/YnjZLcFb5mRSIQR7oTJ1.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/YnjZLcFb5mRSIQR7oTJ1.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/aLriAAXSpMzI1tSLzl05.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/aLriAAXSpMzI1tSLzl05.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/bUsTjDOJHiHMPCNIWkuT.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/bUsTjDOJHiHMPCNIWkuT.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/ch1HZ72XmfK9rD5K40QW.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/ch1HZ72XmfK9rD5K40QW.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/cwpw4Zu4rqVzbTMPhql2.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/cwpw4Zu4rqVzbTMPhql2.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/d2Cvt7UfKPIAnaJGlKpw.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/d2Cvt7UfKPIAnaJGlKpw.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/d7McLI44TDhNmnd1QSpo.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/d7McLI44TDhNmnd1QSpo.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/dYaOkBZPfpE3oHiplIst.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/dYaOkBZPfpE3oHiplIst.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/e8mrOPbV0mqJZ5L7xY8c.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/e8mrOPbV0mqJZ5L7xY8c.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/eL79mWeRWlqFAqOO6w8o.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/eL79mWeRWlqFAqOO6w8o.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/ghAKYp44DzBUhlyn7Kec.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/ghAKYp44DzBUhlyn7Kec.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/gxdh9YGZMJUB58YvyzgM.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/gxdh9YGZMJUB58YvyzgM.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/hR5EYnvM2Ysjfddi9ZTt.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/hR5EYnvM2Ysjfddi9ZTt.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/iDXfFDvQLRHsB4XZHb3A.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/iDXfFDvQLRHsB4XZHb3A.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/iidFXTWegya1bm1hl5to.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/iidFXTWegya1bm1hl5to.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/j1k88xV7tmKNMLM4bj1h.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/j1k88xV7tmKNMLM4bj1h.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/k0Ij8iyjBDimmOPwtFHL.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/k0Ij8iyjBDimmOPwtFHL.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/k4Uw1csHJKTrviecgXyz.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/k4Uw1csHJKTrviecgXyz.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/kBnMAlFJtapfTpTu5iHL.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/kBnMAlFJtapfTpTu5iHL.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/kF3EaTAoYeTRf12uLsIX.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/kF3EaTAoYeTRf12uLsIX.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/lCH8UM6Mv2AG7zDPrqHA.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/lCH8UM6Mv2AG7zDPrqHA.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/lw3ENjwOInSmgeNNY0Qk.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/lw3ENjwOInSmgeNNY0Qk.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/ngygM944aKxBq6rf72Zl.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/ngygM944aKxBq6rf72Zl.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/pLeNHL0RTZwYh5EwN7up.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/pLeNHL0RTZwYh5EwN7up.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/pu4kmugMyXvbFtAgLogm.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/pu4kmugMyXvbFtAgLogm.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/qOA9ml35XYXQjtWmFvvg.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/qOA9ml35XYXQjtWmFvvg.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/qqRmOpdujNXIqEuWrFLk.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/qqRmOpdujNXIqEuWrFLk.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/qs9OOX5WsQhRE3Kg2rpU.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/qs9OOX5WsQhRE3Kg2rpU.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/sN90grldkJUpRIAJ64Bz.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/sN90grldkJUpRIAJ64Bz.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/sXnNKReR54pzKRZ5rpfP.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/sXnNKReR54pzKRZ5rpfP.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/snDIBSvwQMaqGKBbGF6V.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/snDIBSvwQMaqGKBbGF6V.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/uBBsOocNXDq5poteflbh.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/uBBsOocNXDq5poteflbh.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/v64IdYxtp9vzYzojtxir.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/v64IdYxtp9vzYzojtxir.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/vziaz0e1YZ9BJHIY7tJV.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/vziaz0e1YZ9BJHIY7tJV.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/xHSMEPuKIY4T3X4UURT5.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/xHSMEPuKIY4T3X4UURT5.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/yayA9ov0gTMPe5oUDmCY.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/yayA9ov0gTMPe5oUDmCY.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/yn4W2WociugOlXWN83Ps.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/yn4W2WociugOlXWN83Ps.tiff"
+        },
+        {
+          "relative": "tem_benchmark/images/zRf1ZWOS08TxjOvROo86.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/zRf1ZWOS08TxjOvROo86.tiff"
+        }
+      ]
+    },
+    {
+      "path": "tem_benchmark/masks/",
+      "files": [
+        {
+          "relative": "tem_benchmark/masks/0s1JawDdbBymwtwOjgx8.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/0s1JawDdbBymwtwOjgx8.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/1U0jYrdPwdlRDsQzkUNc.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/1U0jYrdPwdlRDsQzkUNc.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/1unGsOC0dfeB02LCtQwi.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/1unGsOC0dfeB02LCtQwi.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/1vNHcbV4bWuC1zywuBdP.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/1vNHcbV4bWuC1zywuBdP.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/2Tlqk9n8mmGv6G0EGxwl.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/2Tlqk9n8mmGv6G0EGxwl.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/3ib2iOCHNQIgrUaxnLwm.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/3ib2iOCHNQIgrUaxnLwm.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/3pbuH37yaTFrTt52QdNO.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/3pbuH37yaTFrTt52QdNO.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/5BzcbKwHruGS296dUugB.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/5BzcbKwHruGS296dUugB.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/6plriVrEepvhHyOBmtUc.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/6plriVrEepvhHyOBmtUc.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/6uc2ydKjW1yJG033GPjj.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/6uc2ydKjW1yJG033GPjj.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/7Z7jSCJZ23zSW2ZztTPJ.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/7Z7jSCJZ23zSW2ZztTPJ.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/9SNS8ZHu7wx8HstQg2Vo.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/9SNS8ZHu7wx8HstQg2Vo.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/9jHLkwpVONtdgyvLyhds.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/9jHLkwpVONtdgyvLyhds.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/17pOyGcUusCVRfzUZxTs.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/17pOyGcUusCVRfzUZxTs.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/AH9rwncuiyjonmnTpzc6.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/AH9rwncuiyjonmnTpzc6.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/ALknkSgr7aoWr14RfrSV.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/ALknkSgr7aoWr14RfrSV.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/AOVAPBvPacOXcUoVM3uZ.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/AOVAPBvPacOXcUoVM3uZ.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/AvUtncbaV60ITOmLlAkQ.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/AvUtncbaV60ITOmLlAkQ.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/DccMhwElHJmbuS2J8lrU.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/DccMhwElHJmbuS2J8lrU.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/DprwEW2YlVIuqe8iiBUM.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/DprwEW2YlVIuqe8iiBUM.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/E3DjzU1Hv0lKtRerU0dr.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/E3DjzU1Hv0lKtRerU0dr.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/FJkyZfNswUHYI8UXjInE.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/FJkyZfNswUHYI8UXjInE.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/FSqfiQ5X7pl4pbbBV3og.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/FSqfiQ5X7pl4pbbBV3og.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/FcQtYwd3CZhEoqWrZQ6a.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/FcQtYwd3CZhEoqWrZQ6a.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/GC18X3wh91fultTzXk0n.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/GC18X3wh91fultTzXk0n.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/Gp5MEeb8iAuYfrAcOb3T.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/Gp5MEeb8iAuYfrAcOb3T.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/HIv1HOOLTWhvBGs2GLAW.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/HIv1HOOLTWhvBGs2GLAW.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/HWJC0I0n5pPosm91fPN9.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/HWJC0I0n5pPosm91fPN9.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/IsdoTn0CZN3NNBHw9eHs.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/IsdoTn0CZN3NNBHw9eHs.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/JbZdraW8jUWOkWYenUQW.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/JbZdraW8jUWOkWYenUQW.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/KDdqT7pjt4RB6DP9YhBv.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/KDdqT7pjt4RB6DP9YhBv.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/KYJvyQylQ6GoiyoABzCi.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/KYJvyQylQ6GoiyoABzCi.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/MTeOXdixYD6o3ysTjtlY.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/MTeOXdixYD6o3ysTjtlY.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/MWyu8XxfJUz0tPpjMG68.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/MWyu8XxfJUz0tPpjMG68.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/N9aIKs7lUVsYd6bT3LxC.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/N9aIKs7lUVsYd6bT3LxC.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/NFlQQXCuLN49baKGNHc8.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/NFlQQXCuLN49baKGNHc8.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/NWNws2Vo4AQhIw579f4E.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/NWNws2Vo4AQhIw579f4E.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/NpIsioJcraoQ7UM5w5KA.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/NpIsioJcraoQ7UM5w5KA.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/P4f6REHlY0j5oPr8hyFr.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/P4f6REHlY0j5oPr8hyFr.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/PRV36TemoPe3oPNL0RXZ.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/PRV36TemoPe3oPNL0RXZ.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/QLwSiZlPfFaKn9UkVw5A.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/QLwSiZlPfFaKn9UkVw5A.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/QQZlSgIkiL7OdZ2a8oIm.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/QQZlSgIkiL7OdZ2a8oIm.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/QWlbQZ1v00zxmk2Fp3Le.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/QWlbQZ1v00zxmk2Fp3Le.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/QWqaLBDT0uuxxNX25kP9.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/QWqaLBDT0uuxxNX25kP9.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/QsP5DBmv2NYg8LUlw8b1.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/QsP5DBmv2NYg8LUlw8b1.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/R6p8J6wCSmn3aStj4GHv.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/R6p8J6wCSmn3aStj4GHv.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/RoECvy0RbILoKiv8jYab.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/RoECvy0RbILoKiv8jYab.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/SXnwBMNzR18D8sKSjh8g.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/SXnwBMNzR18D8sKSjh8g.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/TCzgvIZVHqNFtdJEPaXf.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/TCzgvIZVHqNFtdJEPaXf.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/TbVlEbkOaXvgqXuOC2y5.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/TbVlEbkOaXvgqXuOC2y5.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/UH2Xa2sqyug07qibeLI2.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/UH2Xa2sqyug07qibeLI2.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/UTbbCmNhBbRwzOznV6eM.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/UTbbCmNhBbRwzOznV6eM.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/Ub2PGMk15slpiDOMy6gd.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/Ub2PGMk15slpiDOMy6gd.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/UuyHhnn7MjnSClcZPBAG.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/UuyHhnn7MjnSClcZPBAG.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/V52bj9CYW97AUqevB2Rv.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/V52bj9CYW97AUqevB2Rv.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/VFu9kl8plvKxrBEwRfhL.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/VFu9kl8plvKxrBEwRfhL.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/VcJ1fV2RlrJrmLHIzdIv.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/VcJ1fV2RlrJrmLHIzdIv.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/WCqmS6R1MFjZfQXMEbov.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/WCqmS6R1MFjZfQXMEbov.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/X1DAYM5MVaMXPhpeeTBT.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/X1DAYM5MVaMXPhpeeTBT.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/XsisEi7EmDiq7esbhl3k.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/XsisEi7EmDiq7esbhl3k.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/XzLxoE9qQ3O9Gq28iveF.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/XzLxoE9qQ3O9Gq28iveF.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/Y5Uy1ACZO4MkqTvSzJcS.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/Y5Uy1ACZO4MkqTvSzJcS.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/YnjZLcFb5mRSIQR7oTJ1.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/YnjZLcFb5mRSIQR7oTJ1.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/aLriAAXSpMzI1tSLzl05.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/aLriAAXSpMzI1tSLzl05.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/bUsTjDOJHiHMPCNIWkuT.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/bUsTjDOJHiHMPCNIWkuT.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/ch1HZ72XmfK9rD5K40QW.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/ch1HZ72XmfK9rD5K40QW.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/cwpw4Zu4rqVzbTMPhql2.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/cwpw4Zu4rqVzbTMPhql2.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/d2Cvt7UfKPIAnaJGlKpw.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/d2Cvt7UfKPIAnaJGlKpw.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/d7McLI44TDhNmnd1QSpo.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/d7McLI44TDhNmnd1QSpo.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/dYaOkBZPfpE3oHiplIst.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/dYaOkBZPfpE3oHiplIst.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/e8mrOPbV0mqJZ5L7xY8c.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/e8mrOPbV0mqJZ5L7xY8c.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/eL79mWeRWlqFAqOO6w8o.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/eL79mWeRWlqFAqOO6w8o.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/ghAKYp44DzBUhlyn7Kec.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/ghAKYp44DzBUhlyn7Kec.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/gxdh9YGZMJUB58YvyzgM.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/gxdh9YGZMJUB58YvyzgM.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/hR5EYnvM2Ysjfddi9ZTt.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/hR5EYnvM2Ysjfddi9ZTt.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/iDXfFDvQLRHsB4XZHb3A.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/iDXfFDvQLRHsB4XZHb3A.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/iidFXTWegya1bm1hl5to.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/iidFXTWegya1bm1hl5to.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/j1k88xV7tmKNMLM4bj1h.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/j1k88xV7tmKNMLM4bj1h.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/k0Ij8iyjBDimmOPwtFHL.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/k0Ij8iyjBDimmOPwtFHL.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/k4Uw1csHJKTrviecgXyz.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/k4Uw1csHJKTrviecgXyz.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/kBnMAlFJtapfTpTu5iHL.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/kBnMAlFJtapfTpTu5iHL.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/kF3EaTAoYeTRf12uLsIX.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/kF3EaTAoYeTRf12uLsIX.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/lCH8UM6Mv2AG7zDPrqHA.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/lCH8UM6Mv2AG7zDPrqHA.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/lw3ENjwOInSmgeNNY0Qk.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/lw3ENjwOInSmgeNNY0Qk.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/ngygM944aKxBq6rf72Zl.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/ngygM944aKxBq6rf72Zl.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/pLeNHL0RTZwYh5EwN7up.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/pLeNHL0RTZwYh5EwN7up.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/pu4kmugMyXvbFtAgLogm.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/pu4kmugMyXvbFtAgLogm.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/qOA9ml35XYXQjtWmFvvg.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/qOA9ml35XYXQjtWmFvvg.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/qqRmOpdujNXIqEuWrFLk.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/qqRmOpdujNXIqEuWrFLk.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/qs9OOX5WsQhRE3Kg2rpU.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/qs9OOX5WsQhRE3Kg2rpU.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/sN90grldkJUpRIAJ64Bz.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/sN90grldkJUpRIAJ64Bz.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/sXnNKReR54pzKRZ5rpfP.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/sXnNKReR54pzKRZ5rpfP.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/snDIBSvwQMaqGKBbGF6V.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/snDIBSvwQMaqGKBbGF6V.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/uBBsOocNXDq5poteflbh.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/uBBsOocNXDq5poteflbh.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/v64IdYxtp9vzYzojtxir.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/v64IdYxtp9vzYzojtxir.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/vziaz0e1YZ9BJHIY7tJV.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/vziaz0e1YZ9BJHIY7tJV.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/xHSMEPuKIY4T3X4UURT5.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/xHSMEPuKIY4T3X4UURT5.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/yayA9ov0gTMPe5oUDmCY.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/yayA9ov0gTMPe5oUDmCY.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/yn4W2WociugOlXWN83Ps.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/yn4W2WociugOlXWN83Ps.tiff"
+        },
+        {
+          "relative": "tem_benchmark/masks/zRf1ZWOS08TxjOvROo86.tiff",
+          "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/zRf1ZWOS08TxjOvROo86.tiff"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "relative": "mito_benchmarks/c_elegans/c_elegans_em.tif",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/c_elegans/c_elegans_em.tif"
+    },
+    {
+      "relative": "mito_benchmarks/c_elegans/c_elegans_mito.tif",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/c_elegans/c_elegans_mito.tif"
+    },
+    {
+      "relative": "mito_benchmarks/fly_brain/fly_brain_em.tif",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/fly_brain/fly_brain_em.tif"
+    },
+    {
+      "relative": "mito_benchmarks/fly_brain/fly_brain_mito.tif",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/fly_brain/fly_brain_mito.tif"
+    },
+    {
+      "relative": "mito_benchmarks/glycolytic_muscle/glycolytic_muscle_em.tif",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/glycolytic_muscle/glycolytic_muscle_em.tif"
+    },
+    {
+      "relative": "mito_benchmarks/glycolytic_muscle/glycolytic_muscle_mito.tif",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/glycolytic_muscle/glycolytic_muscle_mito.tif"
+    },
+    {
+      "relative": "mito_benchmarks/hela_cell/hela_cell_em.tif",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/hela_cell/hela_cell_em.tif"
+    },
+    {
+      "relative": "mito_benchmarks/hela_cell/hela_cell_mito.tif",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/hela_cell/hela_cell_mito.tif"
+    },
+    {
+      "relative": "mito_benchmarks/lucchi_pp/lucchi_pp_em.tif",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/lucchi_pp/lucchi_pp_em.tif"
+    },
+    {
+      "relative": "mito_benchmarks/lucchi_pp/lucchi_pp_mito.tif",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/lucchi_pp/lucchi_pp_mito.tif"
+    },
+    {
+      "relative": "mito_benchmarks/salivary_gland/salivary_gland_em.tif",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/salivary_gland/salivary_gland_em.tif"
+    },
+    {
+      "relative": "mito_benchmarks/salivary_gland/salivary_gland_mito.tif",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/mito_benchmarks/salivary_gland/salivary_gland_mito.tif"
+    },
+    {
+      "relative": "tem_benchmark/images/0s1JawDdbBymwtwOjgx8.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/0s1JawDdbBymwtwOjgx8.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/1U0jYrdPwdlRDsQzkUNc.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/1U0jYrdPwdlRDsQzkUNc.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/1unGsOC0dfeB02LCtQwi.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/1unGsOC0dfeB02LCtQwi.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/1vNHcbV4bWuC1zywuBdP.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/1vNHcbV4bWuC1zywuBdP.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/2Tlqk9n8mmGv6G0EGxwl.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/2Tlqk9n8mmGv6G0EGxwl.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/3ib2iOCHNQIgrUaxnLwm.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/3ib2iOCHNQIgrUaxnLwm.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/3pbuH37yaTFrTt52QdNO.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/3pbuH37yaTFrTt52QdNO.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/5BzcbKwHruGS296dUugB.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/5BzcbKwHruGS296dUugB.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/6plriVrEepvhHyOBmtUc.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/6plriVrEepvhHyOBmtUc.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/6uc2ydKjW1yJG033GPjj.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/6uc2ydKjW1yJG033GPjj.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/7Z7jSCJZ23zSW2ZztTPJ.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/7Z7jSCJZ23zSW2ZztTPJ.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/9SNS8ZHu7wx8HstQg2Vo.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/9SNS8ZHu7wx8HstQg2Vo.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/9jHLkwpVONtdgyvLyhds.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/9jHLkwpVONtdgyvLyhds.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/17pOyGcUusCVRfzUZxTs.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/17pOyGcUusCVRfzUZxTs.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/AH9rwncuiyjonmnTpzc6.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/AH9rwncuiyjonmnTpzc6.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/ALknkSgr7aoWr14RfrSV.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/ALknkSgr7aoWr14RfrSV.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/AOVAPBvPacOXcUoVM3uZ.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/AOVAPBvPacOXcUoVM3uZ.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/AvUtncbaV60ITOmLlAkQ.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/AvUtncbaV60ITOmLlAkQ.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/DccMhwElHJmbuS2J8lrU.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/DccMhwElHJmbuS2J8lrU.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/DprwEW2YlVIuqe8iiBUM.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/DprwEW2YlVIuqe8iiBUM.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/E3DjzU1Hv0lKtRerU0dr.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/E3DjzU1Hv0lKtRerU0dr.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/FJkyZfNswUHYI8UXjInE.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/FJkyZfNswUHYI8UXjInE.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/FSqfiQ5X7pl4pbbBV3og.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/FSqfiQ5X7pl4pbbBV3og.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/FcQtYwd3CZhEoqWrZQ6a.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/FcQtYwd3CZhEoqWrZQ6a.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/GC18X3wh91fultTzXk0n.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/GC18X3wh91fultTzXk0n.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/Gp5MEeb8iAuYfrAcOb3T.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/Gp5MEeb8iAuYfrAcOb3T.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/HIv1HOOLTWhvBGs2GLAW.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/HIv1HOOLTWhvBGs2GLAW.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/HWJC0I0n5pPosm91fPN9.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/HWJC0I0n5pPosm91fPN9.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/IsdoTn0CZN3NNBHw9eHs.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/IsdoTn0CZN3NNBHw9eHs.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/JbZdraW8jUWOkWYenUQW.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/JbZdraW8jUWOkWYenUQW.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/KDdqT7pjt4RB6DP9YhBv.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/KDdqT7pjt4RB6DP9YhBv.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/KYJvyQylQ6GoiyoABzCi.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/KYJvyQylQ6GoiyoABzCi.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/MTeOXdixYD6o3ysTjtlY.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/MTeOXdixYD6o3ysTjtlY.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/MWyu8XxfJUz0tPpjMG68.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/MWyu8XxfJUz0tPpjMG68.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/N9aIKs7lUVsYd6bT3LxC.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/N9aIKs7lUVsYd6bT3LxC.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/NFlQQXCuLN49baKGNHc8.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/NFlQQXCuLN49baKGNHc8.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/NWNws2Vo4AQhIw579f4E.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/NWNws2Vo4AQhIw579f4E.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/NpIsioJcraoQ7UM5w5KA.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/NpIsioJcraoQ7UM5w5KA.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/P4f6REHlY0j5oPr8hyFr.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/P4f6REHlY0j5oPr8hyFr.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/PRV36TemoPe3oPNL0RXZ.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/PRV36TemoPe3oPNL0RXZ.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/QLwSiZlPfFaKn9UkVw5A.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/QLwSiZlPfFaKn9UkVw5A.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/QQZlSgIkiL7OdZ2a8oIm.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/QQZlSgIkiL7OdZ2a8oIm.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/QWlbQZ1v00zxmk2Fp3Le.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/QWlbQZ1v00zxmk2Fp3Le.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/QWqaLBDT0uuxxNX25kP9.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/QWqaLBDT0uuxxNX25kP9.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/QsP5DBmv2NYg8LUlw8b1.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/QsP5DBmv2NYg8LUlw8b1.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/R6p8J6wCSmn3aStj4GHv.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/R6p8J6wCSmn3aStj4GHv.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/RoECvy0RbILoKiv8jYab.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/RoECvy0RbILoKiv8jYab.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/SXnwBMNzR18D8sKSjh8g.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/SXnwBMNzR18D8sKSjh8g.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/TCzgvIZVHqNFtdJEPaXf.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/TCzgvIZVHqNFtdJEPaXf.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/TbVlEbkOaXvgqXuOC2y5.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/TbVlEbkOaXvgqXuOC2y5.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/UH2Xa2sqyug07qibeLI2.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/UH2Xa2sqyug07qibeLI2.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/UTbbCmNhBbRwzOznV6eM.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/UTbbCmNhBbRwzOznV6eM.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/Ub2PGMk15slpiDOMy6gd.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/Ub2PGMk15slpiDOMy6gd.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/UuyHhnn7MjnSClcZPBAG.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/UuyHhnn7MjnSClcZPBAG.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/V52bj9CYW97AUqevB2Rv.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/V52bj9CYW97AUqevB2Rv.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/VFu9kl8plvKxrBEwRfhL.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/VFu9kl8plvKxrBEwRfhL.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/VcJ1fV2RlrJrmLHIzdIv.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/VcJ1fV2RlrJrmLHIzdIv.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/WCqmS6R1MFjZfQXMEbov.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/WCqmS6R1MFjZfQXMEbov.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/X1DAYM5MVaMXPhpeeTBT.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/X1DAYM5MVaMXPhpeeTBT.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/XsisEi7EmDiq7esbhl3k.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/XsisEi7EmDiq7esbhl3k.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/XzLxoE9qQ3O9Gq28iveF.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/XzLxoE9qQ3O9Gq28iveF.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/Y5Uy1ACZO4MkqTvSzJcS.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/Y5Uy1ACZO4MkqTvSzJcS.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/YnjZLcFb5mRSIQR7oTJ1.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/YnjZLcFb5mRSIQR7oTJ1.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/aLriAAXSpMzI1tSLzl05.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/aLriAAXSpMzI1tSLzl05.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/bUsTjDOJHiHMPCNIWkuT.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/bUsTjDOJHiHMPCNIWkuT.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/ch1HZ72XmfK9rD5K40QW.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/ch1HZ72XmfK9rD5K40QW.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/cwpw4Zu4rqVzbTMPhql2.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/cwpw4Zu4rqVzbTMPhql2.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/d2Cvt7UfKPIAnaJGlKpw.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/d2Cvt7UfKPIAnaJGlKpw.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/d7McLI44TDhNmnd1QSpo.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/d7McLI44TDhNmnd1QSpo.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/dYaOkBZPfpE3oHiplIst.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/dYaOkBZPfpE3oHiplIst.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/e8mrOPbV0mqJZ5L7xY8c.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/e8mrOPbV0mqJZ5L7xY8c.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/eL79mWeRWlqFAqOO6w8o.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/eL79mWeRWlqFAqOO6w8o.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/ghAKYp44DzBUhlyn7Kec.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/ghAKYp44DzBUhlyn7Kec.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/gxdh9YGZMJUB58YvyzgM.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/gxdh9YGZMJUB58YvyzgM.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/hR5EYnvM2Ysjfddi9ZTt.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/hR5EYnvM2Ysjfddi9ZTt.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/iDXfFDvQLRHsB4XZHb3A.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/iDXfFDvQLRHsB4XZHb3A.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/iidFXTWegya1bm1hl5to.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/iidFXTWegya1bm1hl5to.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/j1k88xV7tmKNMLM4bj1h.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/j1k88xV7tmKNMLM4bj1h.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/k0Ij8iyjBDimmOPwtFHL.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/k0Ij8iyjBDimmOPwtFHL.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/k4Uw1csHJKTrviecgXyz.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/k4Uw1csHJKTrviecgXyz.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/kBnMAlFJtapfTpTu5iHL.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/kBnMAlFJtapfTpTu5iHL.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/kF3EaTAoYeTRf12uLsIX.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/kF3EaTAoYeTRf12uLsIX.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/lCH8UM6Mv2AG7zDPrqHA.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/lCH8UM6Mv2AG7zDPrqHA.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/lw3ENjwOInSmgeNNY0Qk.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/lw3ENjwOInSmgeNNY0Qk.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/ngygM944aKxBq6rf72Zl.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/ngygM944aKxBq6rf72Zl.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/pLeNHL0RTZwYh5EwN7up.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/pLeNHL0RTZwYh5EwN7up.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/pu4kmugMyXvbFtAgLogm.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/pu4kmugMyXvbFtAgLogm.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/qOA9ml35XYXQjtWmFvvg.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/qOA9ml35XYXQjtWmFvvg.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/qqRmOpdujNXIqEuWrFLk.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/qqRmOpdujNXIqEuWrFLk.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/qs9OOX5WsQhRE3Kg2rpU.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/qs9OOX5WsQhRE3Kg2rpU.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/sN90grldkJUpRIAJ64Bz.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/sN90grldkJUpRIAJ64Bz.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/sXnNKReR54pzKRZ5rpfP.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/sXnNKReR54pzKRZ5rpfP.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/snDIBSvwQMaqGKBbGF6V.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/snDIBSvwQMaqGKBbGF6V.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/uBBsOocNXDq5poteflbh.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/uBBsOocNXDq5poteflbh.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/v64IdYxtp9vzYzojtxir.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/v64IdYxtp9vzYzojtxir.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/vziaz0e1YZ9BJHIY7tJV.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/vziaz0e1YZ9BJHIY7tJV.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/xHSMEPuKIY4T3X4UURT5.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/xHSMEPuKIY4T3X4UURT5.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/yayA9ov0gTMPe5oUDmCY.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/yayA9ov0gTMPe5oUDmCY.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/yn4W2WociugOlXWN83Ps.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/yn4W2WociugOlXWN83Ps.tiff"
+    },
+    {
+      "relative": "tem_benchmark/images/zRf1ZWOS08TxjOvROo86.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/images/zRf1ZWOS08TxjOvROo86.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/0s1JawDdbBymwtwOjgx8.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/0s1JawDdbBymwtwOjgx8.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/1U0jYrdPwdlRDsQzkUNc.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/1U0jYrdPwdlRDsQzkUNc.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/1unGsOC0dfeB02LCtQwi.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/1unGsOC0dfeB02LCtQwi.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/1vNHcbV4bWuC1zywuBdP.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/1vNHcbV4bWuC1zywuBdP.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/2Tlqk9n8mmGv6G0EGxwl.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/2Tlqk9n8mmGv6G0EGxwl.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/3ib2iOCHNQIgrUaxnLwm.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/3ib2iOCHNQIgrUaxnLwm.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/3pbuH37yaTFrTt52QdNO.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/3pbuH37yaTFrTt52QdNO.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/5BzcbKwHruGS296dUugB.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/5BzcbKwHruGS296dUugB.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/6plriVrEepvhHyOBmtUc.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/6plriVrEepvhHyOBmtUc.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/6uc2ydKjW1yJG033GPjj.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/6uc2ydKjW1yJG033GPjj.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/7Z7jSCJZ23zSW2ZztTPJ.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/7Z7jSCJZ23zSW2ZztTPJ.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/9SNS8ZHu7wx8HstQg2Vo.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/9SNS8ZHu7wx8HstQg2Vo.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/9jHLkwpVONtdgyvLyhds.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/9jHLkwpVONtdgyvLyhds.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/17pOyGcUusCVRfzUZxTs.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/17pOyGcUusCVRfzUZxTs.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/AH9rwncuiyjonmnTpzc6.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/AH9rwncuiyjonmnTpzc6.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/ALknkSgr7aoWr14RfrSV.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/ALknkSgr7aoWr14RfrSV.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/AOVAPBvPacOXcUoVM3uZ.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/AOVAPBvPacOXcUoVM3uZ.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/AvUtncbaV60ITOmLlAkQ.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/AvUtncbaV60ITOmLlAkQ.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/DccMhwElHJmbuS2J8lrU.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/DccMhwElHJmbuS2J8lrU.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/DprwEW2YlVIuqe8iiBUM.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/DprwEW2YlVIuqe8iiBUM.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/E3DjzU1Hv0lKtRerU0dr.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/E3DjzU1Hv0lKtRerU0dr.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/FJkyZfNswUHYI8UXjInE.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/FJkyZfNswUHYI8UXjInE.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/FSqfiQ5X7pl4pbbBV3og.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/FSqfiQ5X7pl4pbbBV3og.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/FcQtYwd3CZhEoqWrZQ6a.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/FcQtYwd3CZhEoqWrZQ6a.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/GC18X3wh91fultTzXk0n.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/GC18X3wh91fultTzXk0n.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/Gp5MEeb8iAuYfrAcOb3T.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/Gp5MEeb8iAuYfrAcOb3T.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/HIv1HOOLTWhvBGs2GLAW.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/HIv1HOOLTWhvBGs2GLAW.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/HWJC0I0n5pPosm91fPN9.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/HWJC0I0n5pPosm91fPN9.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/IsdoTn0CZN3NNBHw9eHs.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/IsdoTn0CZN3NNBHw9eHs.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/JbZdraW8jUWOkWYenUQW.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/JbZdraW8jUWOkWYenUQW.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/KDdqT7pjt4RB6DP9YhBv.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/KDdqT7pjt4RB6DP9YhBv.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/KYJvyQylQ6GoiyoABzCi.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/KYJvyQylQ6GoiyoABzCi.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/MTeOXdixYD6o3ysTjtlY.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/MTeOXdixYD6o3ysTjtlY.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/MWyu8XxfJUz0tPpjMG68.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/MWyu8XxfJUz0tPpjMG68.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/N9aIKs7lUVsYd6bT3LxC.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/N9aIKs7lUVsYd6bT3LxC.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/NFlQQXCuLN49baKGNHc8.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/NFlQQXCuLN49baKGNHc8.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/NWNws2Vo4AQhIw579f4E.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/NWNws2Vo4AQhIw579f4E.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/NpIsioJcraoQ7UM5w5KA.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/NpIsioJcraoQ7UM5w5KA.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/P4f6REHlY0j5oPr8hyFr.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/P4f6REHlY0j5oPr8hyFr.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/PRV36TemoPe3oPNL0RXZ.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/PRV36TemoPe3oPNL0RXZ.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/QLwSiZlPfFaKn9UkVw5A.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/QLwSiZlPfFaKn9UkVw5A.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/QQZlSgIkiL7OdZ2a8oIm.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/QQZlSgIkiL7OdZ2a8oIm.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/QWlbQZ1v00zxmk2Fp3Le.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/QWlbQZ1v00zxmk2Fp3Le.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/QWqaLBDT0uuxxNX25kP9.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/QWqaLBDT0uuxxNX25kP9.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/QsP5DBmv2NYg8LUlw8b1.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/QsP5DBmv2NYg8LUlw8b1.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/R6p8J6wCSmn3aStj4GHv.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/R6p8J6wCSmn3aStj4GHv.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/RoECvy0RbILoKiv8jYab.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/RoECvy0RbILoKiv8jYab.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/SXnwBMNzR18D8sKSjh8g.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/SXnwBMNzR18D8sKSjh8g.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/TCzgvIZVHqNFtdJEPaXf.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/TCzgvIZVHqNFtdJEPaXf.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/TbVlEbkOaXvgqXuOC2y5.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/TbVlEbkOaXvgqXuOC2y5.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/UH2Xa2sqyug07qibeLI2.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/UH2Xa2sqyug07qibeLI2.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/UTbbCmNhBbRwzOznV6eM.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/UTbbCmNhBbRwzOznV6eM.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/Ub2PGMk15slpiDOMy6gd.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/Ub2PGMk15slpiDOMy6gd.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/UuyHhnn7MjnSClcZPBAG.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/UuyHhnn7MjnSClcZPBAG.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/V52bj9CYW97AUqevB2Rv.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/V52bj9CYW97AUqevB2Rv.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/VFu9kl8plvKxrBEwRfhL.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/VFu9kl8plvKxrBEwRfhL.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/VcJ1fV2RlrJrmLHIzdIv.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/VcJ1fV2RlrJrmLHIzdIv.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/WCqmS6R1MFjZfQXMEbov.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/WCqmS6R1MFjZfQXMEbov.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/X1DAYM5MVaMXPhpeeTBT.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/X1DAYM5MVaMXPhpeeTBT.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/XsisEi7EmDiq7esbhl3k.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/XsisEi7EmDiq7esbhl3k.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/XzLxoE9qQ3O9Gq28iveF.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/XzLxoE9qQ3O9Gq28iveF.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/Y5Uy1ACZO4MkqTvSzJcS.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/Y5Uy1ACZO4MkqTvSzJcS.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/YnjZLcFb5mRSIQR7oTJ1.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/YnjZLcFb5mRSIQR7oTJ1.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/aLriAAXSpMzI1tSLzl05.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/aLriAAXSpMzI1tSLzl05.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/bUsTjDOJHiHMPCNIWkuT.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/bUsTjDOJHiHMPCNIWkuT.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/ch1HZ72XmfK9rD5K40QW.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/ch1HZ72XmfK9rD5K40QW.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/cwpw4Zu4rqVzbTMPhql2.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/cwpw4Zu4rqVzbTMPhql2.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/d2Cvt7UfKPIAnaJGlKpw.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/d2Cvt7UfKPIAnaJGlKpw.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/d7McLI44TDhNmnd1QSpo.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/d7McLI44TDhNmnd1QSpo.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/dYaOkBZPfpE3oHiplIst.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/dYaOkBZPfpE3oHiplIst.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/e8mrOPbV0mqJZ5L7xY8c.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/e8mrOPbV0mqJZ5L7xY8c.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/eL79mWeRWlqFAqOO6w8o.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/eL79mWeRWlqFAqOO6w8o.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/ghAKYp44DzBUhlyn7Kec.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/ghAKYp44DzBUhlyn7Kec.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/gxdh9YGZMJUB58YvyzgM.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/gxdh9YGZMJUB58YvyzgM.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/hR5EYnvM2Ysjfddi9ZTt.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/hR5EYnvM2Ysjfddi9ZTt.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/iDXfFDvQLRHsB4XZHb3A.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/iDXfFDvQLRHsB4XZHb3A.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/iidFXTWegya1bm1hl5to.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/iidFXTWegya1bm1hl5to.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/j1k88xV7tmKNMLM4bj1h.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/j1k88xV7tmKNMLM4bj1h.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/k0Ij8iyjBDimmOPwtFHL.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/k0Ij8iyjBDimmOPwtFHL.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/k4Uw1csHJKTrviecgXyz.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/k4Uw1csHJKTrviecgXyz.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/kBnMAlFJtapfTpTu5iHL.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/kBnMAlFJtapfTpTu5iHL.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/kF3EaTAoYeTRf12uLsIX.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/kF3EaTAoYeTRf12uLsIX.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/lCH8UM6Mv2AG7zDPrqHA.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/lCH8UM6Mv2AG7zDPrqHA.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/lw3ENjwOInSmgeNNY0Qk.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/lw3ENjwOInSmgeNNY0Qk.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/ngygM944aKxBq6rf72Zl.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/ngygM944aKxBq6rf72Zl.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/pLeNHL0RTZwYh5EwN7up.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/pLeNHL0RTZwYh5EwN7up.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/pu4kmugMyXvbFtAgLogm.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/pu4kmugMyXvbFtAgLogm.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/qOA9ml35XYXQjtWmFvvg.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/qOA9ml35XYXQjtWmFvvg.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/qqRmOpdujNXIqEuWrFLk.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/qqRmOpdujNXIqEuWrFLk.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/qs9OOX5WsQhRE3Kg2rpU.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/qs9OOX5WsQhRE3Kg2rpU.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/sN90grldkJUpRIAJ64Bz.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/sN90grldkJUpRIAJ64Bz.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/sXnNKReR54pzKRZ5rpfP.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/sXnNKReR54pzKRZ5rpfP.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/snDIBSvwQMaqGKBbGF6V.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/snDIBSvwQMaqGKBbGF6V.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/uBBsOocNXDq5poteflbh.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/uBBsOocNXDq5poteflbh.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/v64IdYxtp9vzYzojtxir.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/v64IdYxtp9vzYzojtxir.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/vziaz0e1YZ9BJHIY7tJV.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/vziaz0e1YZ9BJHIY7tJV.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/xHSMEPuKIY4T3X4UURT5.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/xHSMEPuKIY4T3X4UURT5.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/yayA9ov0gTMPe5oUDmCY.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/yayA9ov0gTMPe5oUDmCY.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/yn4W2WociugOlXWN83Ps.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/yn4W2WociugOlXWN83Ps.tiff"
+    },
+    {
+      "relative": "tem_benchmark/masks/zRf1ZWOS08TxjOvROo86.tiff",
+      "url": "https://ftp.ebi.ac.uk/empiar/world_availability/10982/data/tem_benchmark/masks/zRf1ZWOS08TxjOvROo86.tiff"
+    }
+  ]
+}

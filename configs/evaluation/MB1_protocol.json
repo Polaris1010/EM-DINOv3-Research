@@ -1,0 +1,166 @@
+{
+  "stage": "MB-1",
+  "name": "Official MitoNet Benchmark Evaluation",
+  "data_doi": "10.6019/EMPIAR-10982",
+  "server_root": "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015",
+  "datasets": [
+    "c_elegans",
+    "fly_brain",
+    "glycolytic_muscle",
+    "hela_cell",
+    "lucchi_pp",
+    "salivary_gland",
+    "TEM-100"
+  ],
+  "runs": [
+    {
+      "run_id": "P0",
+      "model": "G-P0",
+      "seed": 20261014,
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/head_step040000.pth",
+      "checkpoint_sha256": "4a1cd34e6b58188088883fd98b258ad2503a5ff20b606fcc2ae488375881297b",
+      "encoder_id": "P0",
+      "encoder_path": "/opt/data/3_117/tanghr/DINOv3/pretrained_weights/dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth",
+      "encoder_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+      "family": "dinov3"
+    },
+    {
+      "run_id": "B0",
+      "model": "G-B100",
+      "seed": 20261014,
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/head_step040000.pth",
+      "checkpoint_sha256": "c667fc7169dc74749e1e55a0a180232f844bba78024633429bcae922ba0fcfb3",
+      "encoder_id": "B100k",
+      "encoder_path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/runs/B_full/formal_attempt1/checkpoints/step000100000/teacher_backbone.pth",
+      "encoder_sha256": "9603877244ba40f3cbeccdea18d69b0d3b818dc0fc6b09f839fd6d4189ce2de5",
+      "family": "dinov3"
+    },
+    {
+      "run_id": "P1",
+      "model": "G-P0",
+      "seed": 20261015,
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/head_step040000.pth",
+      "checkpoint_sha256": "e83f4f6bafad5dc46a1973bff8510ae67ef4273fc0b64fb28d2b9700579616fe",
+      "encoder_id": "P0",
+      "encoder_path": "/opt/data/3_117/tanghr/DINOv3/pretrained_weights/dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth",
+      "encoder_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+      "family": "dinov3"
+    },
+    {
+      "run_id": "B1",
+      "model": "G-B100",
+      "seed": 20261015,
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/head_step040000.pth",
+      "checkpoint_sha256": "1df2ad04f5171f6988866da689774808cbf63786b2ba45f50938d26e83921b19",
+      "encoder_id": "B100k",
+      "encoder_path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/runs/B_full/formal_attempt1/checkpoints/step000100000/teacher_backbone.pth",
+      "encoder_sha256": "9603877244ba40f3cbeccdea18d69b0d3b818dc0fc6b09f839fd6d4189ce2de5",
+      "family": "dinov3"
+    },
+    {
+      "run_id": "P2",
+      "model": "G-P0",
+      "seed": 20261016,
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/head_step040000.pth",
+      "checkpoint_sha256": "ef5a30adc2a7f9d2af79e45a71a37e389bf7c67b3a8c7ac0fe115bb422ce7e3e",
+      "encoder_id": "P0",
+      "encoder_path": "/opt/data/3_117/tanghr/DINOv3/pretrained_weights/dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth",
+      "encoder_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+      "family": "dinov3"
+    },
+    {
+      "run_id": "B2",
+      "model": "G-B100",
+      "seed": 20261016,
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/head_step040000.pth",
+      "checkpoint_sha256": "1336f70347a61c72d5e38311510240dcc5271e222c62285ea73a616b0fcf133c",
+      "encoder_id": "B100k",
+      "encoder_path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/runs/B_full/formal_attempt1/checkpoints/step000100000/teacher_backbone.pth",
+      "encoder_sha256": "9603877244ba40f3cbeccdea18d69b0d3b818dc0fc6b09f839fd6d4189ce2de5",
+      "family": "dinov3"
+    },
+    {
+      "run_id": "O",
+      "model": "Official-MitoNet-v1",
+      "seed": null,
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/assets/MitoNet_v1.pth",
+      "checkpoint_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+      "family": "mitonet"
+    },
+    {
+      "run_id": "M",
+      "model": "MitoNet-MV",
+      "seed": 20261014,
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/model_step040000.pth",
+      "checkpoint_sha256": "660edd2781c8ae1f3f99a8b0b679dc0501212863798d1eb8da426c02f74e7136",
+      "family": "mitonet"
+    }
+  ],
+  "checkpoint_writes_permitted": false,
+  "training_permitted": false,
+  "tta": false,
+  "physical_gpus": [
+    1,
+    2,
+    3
+  ],
+  "gpu0_forbidden": true,
+  "max_runtime_hours": 48,
+  "dinov3": {
+    "inference_function": "unchanged MV3 mv_probe.sliding",
+    "crop_size": 256,
+    "stride": 128,
+    "tile_batch_size": 16,
+    "normalization": "(uint8/255-0.5)/0.25; grayscale repeated RGB",
+    "threshold": "mean tile softmax foreground >0.5",
+    "encoder_frozen": true,
+    "original_primus": true,
+    "layers": [
+      5,
+      11,
+      17,
+      23
+    ]
+  },
+  "mitonet_engine_parameters": {
+    "inference_scale": 1,
+    "label_divisor": 10000,
+    "nms_threshold": 0.1,
+    "nms_kernel": 3,
+    "confidence_thr": 0.5,
+    "semantic_only": false,
+    "fine_boundaries": false,
+    "tile_size": 0,
+    "use_gpu": true,
+    "use_quantized": false
+  },
+  "gt_semantic_rule": "original instance TIFF >0; no GT-based input selection, threshold, scale or postprocessing",
+  "image_preprocessing": "original uint8 intensities, no new inversion or percentile normalization",
+  "primary_task": "per-plane2D semantic segmentation",
+  "metric_names": [
+    "dice",
+    "iou",
+    "precision",
+    "recall",
+    "hd95_nm",
+    "nsd_16nm",
+    "predicted_foreground_fraction"
+  ],
+  "primary_dataset_reduction": "mean all2Dplanes per run, then mean matched seeds within model; include empty GT planes",
+  "primary_benchmark_reduction": "equal seven datasets; no pooling all planes across datasets",
+  "volume_additional_metrics": "full-volume foreground voxel confusion and volumetric_semantic_iou; per-plane2D inference, no3D instance pipeline",
+  "tem_additional_metrics": "all100 images; macro mean, sample SD, min,p10,median,p90,max plus pooled confusion",
+  "distance_metrics": "unchanged MONAI/MV2 evaluator per2Dplane with reliable YX nm; blank when calibration missing; no invented Z or TEM spacing",
+  "empty_policy": {
+    "both_empty_dice_iou_nsd": 1,
+    "both_empty_hd95_nm": 0,
+    "one_empty_hd95_nm": "inf",
+    "one_empty_nsd": 0,
+    "undefined_precision_recall": "null, counts reported; mean excludes undefined"
+  },
+  "csv_float_format": ".7g; unrounded JSON retained on server",
+  "no_hyperparameter_search": true,
+  "overlap_rule": "all datasets evaluated irrespective of overlap; CONFIRMED,UNCONFIRMED,NO_OVERLAP_FOUND are descriptive, never strict unseen-image claims",
+  "historic_experiments": "MV3/MV4/MV5 unchanged; exact input hashes before/after",
+  "stop_after": "MB1_summary.md and requested outputs; no new training or searches"
+}

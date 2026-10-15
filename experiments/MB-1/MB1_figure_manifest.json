@@ -1,0 +1,104 @@
+{
+  "figures": [
+    {
+      "dataset": "c_elegans",
+      "entry_id": "c_elegans",
+      "z": 128,
+      "path": "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/figures/c_elegans_z0128.png",
+      "filename": "c_elegans_z0128.png",
+      "sha256": "4417e55e8d15b3f74be41387c238c048242ebd7ab7cb450b6dad1cfb70dffce3",
+      "selection": "middle native Z of each volume; sorted TEM images0,49,99; chosen before metrics",
+      "dinov3_display_seed": 20261014,
+      "all_three_seeds_in_numerical_results": true
+    },
+    {
+      "dataset": "fly_brain",
+      "entry_id": "fly_brain",
+      "z": 128,
+      "path": "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/figures/fly_brain_z0128.png",
+      "filename": "fly_brain_z0128.png",
+      "sha256": "feb50d2ee21a5418e7d5953e53f41b729bb6b2f2581f33f6fa92c00b470ac6e0",
+      "selection": "middle native Z of each volume; sorted TEM images0,49,99; chosen before metrics",
+      "dinov3_display_seed": 20261014,
+      "all_three_seeds_in_numerical_results": true
+    },
+    {
+      "dataset": "glycolytic_muscle",
+      "entry_id": "glycolytic_muscle",
+      "z": 151,
+      "path": "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/figures/glycolytic_muscle_z0151.png",
+      "filename": "glycolytic_muscle_z0151.png",
+      "sha256": "007ba1f9c987fd0a7e84b1c6b776e65fcfd54eea45a5b160d6b2ce16e721fc4d",
+      "selection": "middle native Z of each volume; sorted TEM images0,49,99; chosen before metrics",
+      "dinov3_display_seed": 20261014,
+      "all_three_seeds_in_numerical_results": true
+    },
+    {
+      "dataset": "hela_cell",
+      "entry_id": "hela_cell",
+      "z": 128,
+      "path": "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/figures/hela_cell_z0128.png",
+      "filename": "hela_cell_z0128.png",
+      "sha256": "11c066d219560c16a7577040c8c0212d535b8e61a21a3527179509e51d0b5add",
+      "selection": "middle native Z of each volume; sorted TEM images0,49,99; chosen before metrics",
+      "dinov3_display_seed": 20261014,
+      "all_three_seeds_in_numerical_results": true
+    },
+    {
+      "dataset": "lucchi_pp",
+      "entry_id": "lucchi_pp",
+      "z": 82,
+      "path": "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/figures/lucchi_pp_z0082.png",
+      "filename": "lucchi_pp_z0082.png",
+      "sha256": "3b53f34af4ebba75bb14f47f9d2afd4a226da7b1e66d21cf3e96c6d07564db04",
+      "selection": "middle native Z of each volume; sorted TEM images0,49,99; chosen before metrics",
+      "dinov3_display_seed": 20261014,
+      "all_three_seeds_in_numerical_results": true
+    },
+    {
+      "dataset": "salivary_gland",
+      "entry_id": "salivary_gland",
+      "z": 630,
+      "path": "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/figures/salivary_gland_z0630.png",
+      "filename": "salivary_gland_z0630.png",
+      "sha256": "c99c58ebe4e3b35e70fe7fd7e6b46366ada3a57eb4d8607c84ba8bd94efac3de",
+      "selection": "middle native Z of each volume; sorted TEM images0,49,99; chosen before metrics",
+      "dinov3_display_seed": 20261014,
+      "all_three_seeds_in_numerical_results": true
+    },
+    {
+      "dataset": "TEM-100",
+      "entry_id": "TEM_0s1JawDdbBymwtwOjgx8",
+      "z": 0,
+      "path": "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/figures/TEM_0s1JawDdbBymwtwOjgx8_z0000.png",
+      "filename": "TEM_0s1JawDdbBymwtwOjgx8_z0000.png",
+      "sha256": "3a38be34170aacf1c131cf6e2f5903fdc1b825a97a9711cb4f89f1e08a6df47e",
+      "selection": "middle native Z of each volume; sorted TEM images0,49,99; chosen before metrics",
+      "dinov3_display_seed": 20261014,
+      "all_three_seeds_in_numerical_results": true
+    },
+    {
+      "dataset": "TEM-100",
+      "entry_id": "TEM_TbVlEbkOaXvgqXuOC2y5",
+      "z": 0,
+      "path": "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/figures/TEM_TbVlEbkOaXvgqXuOC2y5_z0000.png",
+      "filename": "TEM_TbVlEbkOaXvgqXuOC2y5_z0000.png",
+      "sha256": "655c306acbc6b2d17b27955a7172e03eac1c184206830bd79409d8f87babe1d5",
+      "selection": "middle native Z of each volume; sorted TEM images0,49,99; chosen before metrics",
+      "dinov3_display_seed": 20261014,
+      "all_three_seeds_in_numerical_results": true
+    },
+    {
+      "dataset": "TEM-100",
+      "entry_id": "TEM_zRf1ZWOS08TxjOvROo86",
+      "z": 0,
+      "path": "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/figures/TEM_zRf1ZWOS08TxjOvROo86_z0000.png",
+      "filename": "TEM_zRf1ZWOS08TxjOvROo86_z0000.png",
+      "sha256": "34877728e3845172e591598d98af33026c6e97a7d58f93b3593332c804715588",
+      "selection": "middle native Z of each volume; sorted TEM images0,49,99; chosen before metrics",
+      "dinov3_display_seed": 20261014,
+      "all_three_seeds_in_numerical_results": true
+    }
+  ],
+  "panoptic_files": "runs/{O,M}/*_panoptic.npy retained; no3D instance identity claim"
+}

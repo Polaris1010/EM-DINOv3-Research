@@ -5477,7 +5477,7 @@
     },
     {
       "experiment_id": "MB-1-P0",
-      "status": "VERIFIED_RUNNING",
+      "status": "VERIFIED_COMPLETED",
       "research_question": "Fixed existing system semantic segmentation on all seven official MitoNet benchmarks",
       "dataset_manifest": "experiments/MB-1/MB1_benchmark_manifest.json",
       "dataset_manifest_sha256": "8a05d1a5c46933d91e5d20977bcb06c0b9ca6bee10abbcdc17a43b62ac0ea046",
@@ -5496,7 +5496,7 @@
       "decoder_seed": 20261014,
       "train_config": "configs/evaluation/MB1_protocol.json",
       "resolved_config_sha256": "7869c030d26082f07581bb77bfaccfac0a86ab39445ce11cd520068ea852369e",
-      "code_commit": "d5adc030628149a88847dda548aff5402a0e3768",
+      "code_commit": "1a08b3d4aaf2e3ce71622612cd6ba1f451029400",
       "python_executable": "existing meddinov3 or MV4 isolated venv, see protocol",
       "global_batch": "NOT_APPLICABLE_INFERENCE_ONLY",
       "optimizer_steps": 0,
@@ -5519,8 +5519,8 @@
           23
         ]
       },
-      "metrics_path": "UNVERIFIED",
-      "report_path": "docs/MB1_execution.md",
+      "metrics_path": "experiments/MB-1/MB1_per_image_metrics.csv",
+      "report_path": "docs/MB1_summary.md",
       "limitations": [
         "B100 SSL image/source overlap; not strict external unseen-image test",
         "3 decoder seeds do not multiply biological acquisitions",
@@ -5537,7 +5537,7 @@
     },
     {
       "experiment_id": "MB-1-B0",
-      "status": "VERIFIED_RUNNING",
+      "status": "VERIFIED_COMPLETED",
       "research_question": "Fixed existing system semantic segmentation on all seven official MitoNet benchmarks",
       "dataset_manifest": "experiments/MB-1/MB1_benchmark_manifest.json",
       "dataset_manifest_sha256": "8a05d1a5c46933d91e5d20977bcb06c0b9ca6bee10abbcdc17a43b62ac0ea046",
@@ -5556,7 +5556,7 @@
       "decoder_seed": 20261014,
       "train_config": "configs/evaluation/MB1_protocol.json",
       "resolved_config_sha256": "7869c030d26082f07581bb77bfaccfac0a86ab39445ce11cd520068ea852369e",
-      "code_commit": "d5adc030628149a88847dda548aff5402a0e3768",
+      "code_commit": "1a08b3d4aaf2e3ce71622612cd6ba1f451029400",
       "python_executable": "existing meddinov3 or MV4 isolated venv, see protocol",
       "global_batch": "NOT_APPLICABLE_INFERENCE_ONLY",
       "optimizer_steps": 0,
@@ -5579,8 +5579,8 @@
           23
         ]
       },
-      "metrics_path": "UNVERIFIED",
-      "report_path": "docs/MB1_execution.md",
+      "metrics_path": "experiments/MB-1/MB1_per_image_metrics.csv",
+      "report_path": "docs/MB1_summary.md",
       "limitations": [
         "B100 SSL image/source overlap; not strict external unseen-image test",
         "3 decoder seeds do not multiply biological acquisitions",
@@ -5597,7 +5597,7 @@
     },
     {
       "experiment_id": "MB-1-P1",
-      "status": "VERIFIED_RUNNING",
+      "status": "VERIFIED_COMPLETED",
       "research_question": "Fixed existing system semantic segmentation on all seven official MitoNet benchmarks",
       "dataset_manifest": "experiments/MB-1/MB1_benchmark_manifest.json",
       "dataset_manifest_sha256": "8a05d1a5c46933d91e5d20977bcb06c0b9ca6bee10abbcdc17a43b62ac0ea046",
@@ -5616,7 +5616,7 @@
       "decoder_seed": 20261015,
       "train_config": "configs/evaluation/MB1_protocol.json",
       "resolved_config_sha256": "7869c030d26082f07581bb77bfaccfac0a86ab39445ce11cd520068ea852369e",
-      "code_commit": "d5adc030628149a88847dda548aff5402a0e3768",
+      "code_commit": "1a08b3d4aaf2e3ce71622612cd6ba1f451029400",
       "python_executable": "existing meddinov3 or MV4 isolated venv, see protocol",
       "global_batch": "NOT_APPLICABLE_INFERENCE_ONLY",
       "optimizer_steps": 0,
@@ -5639,8 +5639,8 @@
           23
         ]
       },
-      "metrics_path": "UNVERIFIED",
-      "report_path": "docs/MB1_execution.md",
+      "metrics_path": "experiments/MB-1/MB1_per_image_metrics.csv",
+      "report_path": "docs/MB1_summary.md",
       "limitations": [
         "B100 SSL image/source overlap; not strict external unseen-image test",
         "3 decoder seeds do not multiply biological acquisitions",
@@ -5657,7 +5657,7 @@
     },
     {
       "experiment_id": "MB-1-B1",
-      "status": "PLANNED",
+      "status": "VERIFIED_COMPLETED",
       "research_question": "Fixed existing system semantic segmentation on all seven official MitoNet benchmarks",
       "dataset_manifest": "experiments/MB-1/MB1_benchmark_manifest.json",
       "dataset_manifest_sha256": "8a05d1a5c46933d91e5d20977bcb06c0b9ca6bee10abbcdc17a43b62ac0ea046",
@@ -5676,7 +5676,7 @@
       "decoder_seed": 20261015,
       "train_config": "configs/evaluation/MB1_protocol.json",
       "resolved_config_sha256": "7869c030d26082f07581bb77bfaccfac0a86ab39445ce11cd520068ea852369e",
-      "code_commit": "d5adc030628149a88847dda548aff5402a0e3768",
+      "code_commit": "1a08b3d4aaf2e3ce71622612cd6ba1f451029400",
       "python_executable": "existing meddinov3 or MV4 isolated venv, see protocol",
       "global_batch": "NOT_APPLICABLE_INFERENCE_ONLY",
       "optimizer_steps": 0,
@@ -5699,8 +5699,8 @@
           23
         ]
       },
-      "metrics_path": "UNVERIFIED",
-      "report_path": "docs/MB1_execution.md",
+      "metrics_path": "experiments/MB-1/MB1_per_image_metrics.csv",
+      "report_path": "docs/MB1_summary.md",
       "limitations": [
         "B100 SSL image/source overlap; not strict external unseen-image test",
         "3 decoder seeds do not multiply biological acquisitions",
@@ -5717,7 +5717,7 @@
     },
     {
       "experiment_id": "MB-1-P2",
-      "status": "PLANNED",
+      "status": "VERIFIED_COMPLETED",
       "research_question": "Fixed existing system semantic segmentation on all seven official MitoNet benchmarks",
       "dataset_manifest": "experiments/MB-1/MB1_benchmark_manifest.json",
       "dataset_manifest_sha256": "8a05d1a5c46933d91e5d20977bcb06c0b9ca6bee10abbcdc17a43b62ac0ea046",
@@ -5736,7 +5736,7 @@
       "decoder_seed": 20261016,
       "train_config": "configs/evaluation/MB1_protocol.json",
       "resolved_config_sha256": "7869c030d26082f07581bb77bfaccfac0a86ab39445ce11cd520068ea852369e",
-      "code_commit": "d5adc030628149a88847dda548aff5402a0e3768",
+      "code_commit": "1a08b3d4aaf2e3ce71622612cd6ba1f451029400",
       "python_executable": "existing meddinov3 or MV4 isolated venv, see protocol",
       "global_batch": "NOT_APPLICABLE_INFERENCE_ONLY",
       "optimizer_steps": 0,
@@ -5759,8 +5759,8 @@
           23
         ]
       },
-      "metrics_path": "UNVERIFIED",
-      "report_path": "docs/MB1_execution.md",
+      "metrics_path": "experiments/MB-1/MB1_per_image_metrics.csv",
+      "report_path": "docs/MB1_summary.md",
       "limitations": [
         "B100 SSL image/source overlap; not strict external unseen-image test",
         "3 decoder seeds do not multiply biological acquisitions",
@@ -5777,7 +5777,7 @@
     },
     {
       "experiment_id": "MB-1-B2",
-      "status": "PLANNED",
+      "status": "VERIFIED_COMPLETED",
       "research_question": "Fixed existing system semantic segmentation on all seven official MitoNet benchmarks",
       "dataset_manifest": "experiments/MB-1/MB1_benchmark_manifest.json",
       "dataset_manifest_sha256": "8a05d1a5c46933d91e5d20977bcb06c0b9ca6bee10abbcdc17a43b62ac0ea046",
@@ -5796,7 +5796,7 @@
       "decoder_seed": 20261016,
       "train_config": "configs/evaluation/MB1_protocol.json",
       "resolved_config_sha256": "7869c030d26082f07581bb77bfaccfac0a86ab39445ce11cd520068ea852369e",
-      "code_commit": "d5adc030628149a88847dda548aff5402a0e3768",
+      "code_commit": "1a08b3d4aaf2e3ce71622612cd6ba1f451029400",
       "python_executable": "existing meddinov3 or MV4 isolated venv, see protocol",
       "global_batch": "NOT_APPLICABLE_INFERENCE_ONLY",
       "optimizer_steps": 0,
@@ -5819,8 +5819,8 @@
           23
         ]
       },
-      "metrics_path": "UNVERIFIED",
-      "report_path": "docs/MB1_execution.md",
+      "metrics_path": "experiments/MB-1/MB1_per_image_metrics.csv",
+      "report_path": "docs/MB1_summary.md",
       "limitations": [
         "B100 SSL image/source overlap; not strict external unseen-image test",
         "3 decoder seeds do not multiply biological acquisitions",
@@ -5837,7 +5837,7 @@
     },
     {
       "experiment_id": "MB-1-O",
-      "status": "VERIFIED_RUNNING",
+      "status": "VERIFIED_COMPLETED",
       "research_question": "Fixed existing system semantic segmentation on all seven official MitoNet benchmarks",
       "dataset_manifest": "experiments/MB-1/MB1_benchmark_manifest.json",
       "dataset_manifest_sha256": "8a05d1a5c46933d91e5d20977bcb06c0b9ca6bee10abbcdc17a43b62ac0ea046",
@@ -5856,7 +5856,7 @@
       "decoder_seed": "NOT_APPLICABLE",
       "train_config": "configs/evaluation/MB1_protocol.json",
       "resolved_config_sha256": "7869c030d26082f07581bb77bfaccfac0a86ab39445ce11cd520068ea852369e",
-      "code_commit": "d5adc030628149a88847dda548aff5402a0e3768",
+      "code_commit": "1a08b3d4aaf2e3ce71622612cd6ba1f451029400",
       "python_executable": "existing meddinov3 or MV4 isolated venv, see protocol",
       "global_batch": "NOT_APPLICABLE_INFERENCE_ONLY",
       "optimizer_steps": 0,
@@ -5875,8 +5875,8 @@
         "use_gpu": true,
         "use_quantized": false
       },
-      "metrics_path": "UNVERIFIED",
-      "report_path": "docs/MB1_execution.md",
+      "metrics_path": "experiments/MB-1/MB1_per_image_metrics.csv",
+      "report_path": "docs/MB1_summary.md",
       "limitations": [
         "B100 SSL image/source overlap; not strict external unseen-image test",
         "3 decoder seeds do not multiply biological acquisitions",
@@ -5893,7 +5893,7 @@
     },
     {
       "experiment_id": "MB-1-M",
-      "status": "VERIFIED_RUNNING",
+      "status": "VERIFIED_COMPLETED",
       "research_question": "Fixed existing system semantic segmentation on all seven official MitoNet benchmarks",
       "dataset_manifest": "experiments/MB-1/MB1_benchmark_manifest.json",
       "dataset_manifest_sha256": "8a05d1a5c46933d91e5d20977bcb06c0b9ca6bee10abbcdc17a43b62ac0ea046",
@@ -5912,7 +5912,7 @@
       "decoder_seed": 20261014,
       "train_config": "configs/evaluation/MB1_protocol.json",
       "resolved_config_sha256": "7869c030d26082f07581bb77bfaccfac0a86ab39445ce11cd520068ea852369e",
-      "code_commit": "d5adc030628149a88847dda548aff5402a0e3768",
+      "code_commit": "1a08b3d4aaf2e3ce71622612cd6ba1f451029400",
       "python_executable": "existing meddinov3 or MV4 isolated venv, see protocol",
       "global_batch": "NOT_APPLICABLE_INFERENCE_ONLY",
       "optimizer_steps": 0,
@@ -5931,8 +5931,8 @@
         "use_gpu": true,
         "use_quantized": false
       },
-      "metrics_path": "UNVERIFIED",
-      "report_path": "docs/MB1_execution.md",
+      "metrics_path": "experiments/MB-1/MB1_per_image_metrics.csv",
+      "report_path": "docs/MB1_summary.md",
       "limitations": [
         "B100 SSL image/source overlap; not strict external unseen-image test",
         "3 decoder seeds do not multiply biological acquisitions",

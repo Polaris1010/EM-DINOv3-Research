@@ -1,0 +1,32 @@
+{
+  "observed_at_utc": "2026-10-15T08:01:15.067219+00:00",
+  "status": {
+    "status": "complete",
+    "models": 4,
+    "runs": 8,
+    "datasets": 7,
+    "entries_per_run": 106,
+    "planes_per_run": 2595,
+    "metric_rows": 20760,
+    "gpu0_used": false,
+    "website_http": 200,
+    "historical_inputs_unchanged": true,
+    "checkpoint_writes": false,
+    "training": false,
+    "further_experiments_started": false,
+    "report": "MB1_summary.md"
+  },
+  "service": "MainPID=0\nExecMainStatus=0\nActiveState=inactive\n",
+  "website_http_status": 200,
+  "gpus": "index, memory.used [MiB], utilization.gpu [%]\n0, 3092 MiB, 0 %\n1, 464 MiB, 0 %\n2, 464 MiB, 0 %\n3, 0 MiB, 0 %\n",
+  "historical_inputs_unchanged": true,
+  "no_checkpoint_files_in_MB1_root": true,
+  "output_sha256": {
+    "MB1_summary.md": "24f4b83889da24e35e4f83cf5794b4176014bff321a6aeca29c2cca376d84390",
+    "MB1_overlap_status.md": "1030b9722b5fa7b5cef5b4ee0f2ea20fa08be225d4adfa3567b52969d4bccbb6",
+    "MB1_per_image_metrics.csv": "56b498309651eaea430f9aef95a5b227d8dab2aade7d070a676ac6dc37b16d32",
+    "MB1_per_dataset_metrics.csv": "b0ccf9618c4ad612a9726d86f45124e7f38a0ddc0336ebc2f99a3acb9c0f0aed",
+    "MB1_protocol.json": "7869c030d26082f07581bb77bfaccfac0a86ab39445ce11cd520068ea852369e",
+    "MB1_benchmark_manifest.json": "8a05d1a5c46933d91e5d20977bcb06c0b9ca6bee10abbcdc17a43b62ac0ea046"
+  }
+}

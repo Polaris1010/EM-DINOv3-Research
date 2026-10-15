@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "models": 4,
+  "runs": 8,
+  "datasets": 7,
+  "entries_per_run": 106,
+  "planes_per_run": 2595,
+  "metric_rows": 20760,
+  "gpu0_used": false,
+  "website_http": 200,
+  "historical_inputs_unchanged": true,
+  "checkpoint_writes": false,
+  "training": false,
+  "further_experiments_started": false,
+  "report": "MB1_summary.md"
+}

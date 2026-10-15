@@ -1,3 +1,5 @@
+> 本协议已全量执行完成；最终结果见[MB1_summary.md](MB1_summary.md)，实际终止证据见evidence/MB-1/terminal_snapshot.json。以下为执行配置记录。
+
 # MB-1 固定官方benchmark推理与交接
 
 用户明确授权EMPIAR-10982全部七组：C.elegans、Fly brain、Glycolytic muscle、HeLa、Lucchi++、Salivary gland、TEM-100。复用G-P0/G-B100的MV3各三个40k decoder seeds、MV4官方MitoNet和MV5一个40k适配权重，共八个run，无训练、checkpoint创建或覆盖，无GT调参/尺度搜索。

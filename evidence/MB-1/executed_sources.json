@@ -1,0 +1,47 @@
+{
+  "code_commit": "1a08b3d4aaf2e3ce71622612cd6ba1f451029400",
+  "initial_inference_commit": "d5adc030628149a88847dda548aff5402a0e3768",
+  "files": [
+    {
+      "relative": "code/common.py",
+      "sha256": "79bb60b7bc5001399ac1f5699f315e71e43604972f4bba8093a8c24deb335e69"
+    },
+    {
+      "relative": "code/infer.py",
+      "sha256": "0e29e63892d4dfa0589ef1ce959980029d5d7a791265c5fbde3c550558654875"
+    },
+    {
+      "relative": "code/metrics.py",
+      "sha256": "f7952baed4caba0a8b6c681a38fb5f44467631f770e933d07a2c78ef45d12646"
+    },
+    {
+      "relative": "code/prepare.py",
+      "sha256": "16b390515823cba5a3b9c2f841bb100018750ebde7559ad20c34203937752109"
+    },
+    {
+      "relative": "code/report.py",
+      "sha256": "7ec8cba33e488b5a02b471b0e218a33add428501ae495802312c466e0922b3e0"
+    },
+    {
+      "relative": "code/run.py",
+      "sha256": "ac87a9d98fcb240ca6407498ca9f3be9460ac49e91c2cd43c4519d2145be78ad"
+    },
+    {
+      "relative": "code/score.py",
+      "sha256": "09824677209193fda00bf30457b8386b0525ced0da6e5bf80df8f743c61a21ad"
+    },
+    {
+      "relative": "MB1_protocol.json",
+      "sha256": "7869c030d26082f07581bb77bfaccfac0a86ab39445ce11cd520068ea852369e"
+    }
+  ],
+  "verified_at_utc": "2026-10-15T07:42:43.332606+00:00",
+  "status": "PASS",
+  "checkpoint_created_under_MB1": [],
+  "environment": {
+    "torch": "2.5.1",
+    "numpy": "2.4.4",
+    "monai": "1.5.0",
+    "tifffile": "2025.6.11"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "metric_rows": 20760,
+  "dataset_run_rows": 56,
+  "model_dataset_rows": 28,
+  "runs": 8,
+  "datasets": 7,
+  "manifest_sha256": "8a05d1a5c46933d91e5d20977bcb06c0b9ca6bee10abbcdc17a43b62ac0ea046",
+  "protocol_sha256": "7869c030d26082f07581bb77bfaccfac0a86ab39445ce11cd520068ea852369e",
+  "calibration_missing_not_fabricated": true,
+  "tta": false,
+  "checkpoint_writes": false,
+  "training": false
+}

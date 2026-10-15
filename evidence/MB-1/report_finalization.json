@@ -1,0 +1,11 @@
+{
+  "observed_at_utc": "2026-10-15T08:00:39.320948+00:00",
+  "code_commit": "282240c720fca8f4ec0e247f21c56b8bf3f4921a",
+  "report_py_sha256": "adbd928ad8eb1e9765b1d3dfeabd88ed21add2dca1e66bfd8ca81a033fdc1985",
+  "changes": "Figure title spacing; clarify negative generalization conclusion and source-hash wording",
+  "inference_rerun": false,
+  "score_rerun": false,
+  "model_or_protocol_changes": false,
+  "figure_selection_unchanged": true,
+  "CUDA_VISIBLE_DEVICES": ""
+}

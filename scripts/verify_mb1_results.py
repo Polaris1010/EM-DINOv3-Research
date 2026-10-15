@@ -55,6 +55,11 @@ def main():
  assert (ROOT/'evidence/MB-1/historical_inputs_before.json').read_bytes()==(ROOT/'evidence/MB-1/historical_inputs_after.json').read_bytes()
  sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
  assert sha(FOLDER/'MB1_benchmark_manifest.json')==s['manifest_sha256'] and sha(ROOT/'configs/evaluation/MB1_protocol.json')==s['protocol_sha256']
+ terminal=ROOT/'evidence/MB-1/terminal_snapshot.json'
+ if terminal.exists():
+  snapshot=read(terminal)
+  for name,digest in snapshot['output_sha256'].items():assert sha(ROOT/'docs'/name if name.endswith('.md') else FOLDER/name)==digest,('Downloaded output differs from terminal source',name)
+  finalization=read(ROOT/'evidence/MB-1/report_finalization.json');assert sha(ROOT/'src/mb1/report.py')==finalization['report_py_sha256']
  result={'status':'PASS','rows':20760,'dataset_run_rows':56,'all8_models_use_identical_gt_pixels':True,'all7_native_datasets_complete':True,'2D_overlap_metrics_recomputed_from_exact_counts':True,'full_volume_iou_recomputed_from_exact_counts':True,'equal_seeds_then_equal7_datasets_recomputed':True,'TEM_nm_not_fabricated':True,'historical_input_snapshot_equal':True,'checkpoint_writes':False,'training':False}
  (FOLDER/'MB1_local_verification.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8',newline='\n');print(json.dumps(result))
 if __name__=='__main__':main()

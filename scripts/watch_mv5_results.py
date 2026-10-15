@@ -81,12 +81,20 @@ def publish(folder,status):
   except RuntimeError:
    if attempt==7:raise
    time.sleep(30)
- pr=api('/repos/Polaris1010/EM-DINOv3-Research/pulls/6');assert pr['draft'] and pr['head']['sha']==commit
+ pr=wait_pr_head(api,commit)
  body=pr['body'].split('\n\nActual MV5 terminal state:')[0]+'\n\nActual MV5 terminal state: '+status['status']+'; collected commit '+commit+'.'
  if done:
   summary=json.loads((folder/'MV5_summary.json').read_text());body+='\n\nMitoNet-MV source-equal Dice '+str(summary['source_macro']['MitoNet-MV']['dice'])+'; B100 minus adapted '+str(summary['B100_minus_adapted'])+'. [Final report](https://github.com/Polaris1010/EM-DINOv3-Research/blob/'+commit+'/docs/MV5_final_report.md).'
  api('/repos/Polaris1010/EM-DINOv3-Research/pulls/6','PATCH',{'body':body})
  return {'status':'PUSHED','pipeline_status':status['status'],'commit':commit,'pr':'https://github.com/Polaris1010/EM-DINOv3-Research/pull/6','further_experiments_started':False}
+
+def wait_pr_head(api,commit):
+ """Git push can finish before the PR snapshot reflects the new head."""
+ for attempt in range(6):
+  pr=api('/repos/Polaris1010/EM-DINOv3-Research/pulls/6')
+  if pr['head']['sha']==commit:return pr
+  if attempt<5:time.sleep(2)
+ raise RuntimeError('Branch push completed; PR head receipt did not catch up. Preserve commit, do not publish twice.')
 def watch(password,max_seconds=48*3600):
  deadline=time.monotonic()+max_seconds;client=None;last_state=None
  try:

@@ -25,6 +25,14 @@ class MV5CollectorTests(unittest.TestCase):
   client=mock.MagicMock();client.connect.side_effect=AuthFailure();self.ssh.SSHClient.return_value=client
   with self.assertRaises(AuthFailure):self.m.watch('test-only',65)
   client.connect.assert_called_once();client.close.assert_called_once()
+ def test_stale_pr_snapshot_retries_without_republishing_or_changing_draft(self):
+  api=mock.Mock(side_effect=[{'draft':True,'head':{'sha':'old'}},{'draft':False,'head':{'sha':'expected'}}])
+  pr=self.m.wait_pr_head(api,'expected')
+  self.assertEqual(pr['head']['sha'],'expected');self.assertFalse(pr['draft']);self.assertEqual(api.call_count,2);self.assertEqual(self.now,2)
+ def test_persistently_stale_pr_receipt_has_finite_wait(self):
+  api=mock.Mock(return_value={'head':{'sha':'old'}})
+  with self.assertRaisesRegex(RuntimeError,'Branch push completed'):self.m.wait_pr_head(api,'expected')
+  self.assertEqual(api.call_count,6);self.assertEqual(self.now,10)
  def test_publication_failure_does_not_repeat_collection_or_commit(self):
   client=mock.MagicMock();self.ssh.SSHClient.return_value=client
   self.m.remote_json=mock.Mock(return_value={'status':'complete'});self.m.publish=mock.Mock(side_effect=OSError('fake publication failure'))

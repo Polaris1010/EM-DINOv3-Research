@@ -1,3 +1,5 @@
+> MV5完成状态已现场复核：40k和38区/12来源全部完成，服务inactive/MainPID0/exit0。结果已推送0933540；最终报告docs/MV5_final_report.md，最新本轮记录docs/work_logs/20261015_12_mv5_completion_recheck.md。自动收取器已退出，禁止按下方历史running通知恢复任务；本次仅修复PR交付回执与元数据，未启动新实验。
+
 # MV-5 执行协议与交接
 
 用户2026-10-15明确授权MitoNet在MV3相同156训练区域上监督适配，并在相同38开发区域/12来源比较。MV4B实例分组丢前景假设在已测四区域正式关闭，不扩展34区域；旧MV4指标原样保留。MV4C的Müller原始TIFF缺口不阻塞新任务。

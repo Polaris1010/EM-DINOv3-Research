@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "observed_at_utc": "2026-10-15T04:53:35.262475+00:00",
+  "server_evidence": "evidence/MV-5/live_terminal_verification_20261015T045257Z.json",
+  "server_local_report_metrics_protocol_sha256_equal": true,
+  "recomputed_40k_checkpoint_sha256": "660edd2781c8ae1f3f99a8b0b679dc0501212863798d1eb8da426c02f74e7136",
+  "all_38_regions_12_sources_complete": true,
+  "training_steps": 40000,
+  "metric_rows": 304,
+  "new_metric_rows": 38,
+  "old266_metric_rows_unchanged": true,
+  "old40_registry_records_unchanged": true,
+  "service_inactive_mainpid0_exit0": true,
+  "website_http": 200,
+  "automatic_collector_trace": "push returned successfully; subsequent combined PR draft/head assertion failed; current PR draft/head match verified; exact transient cause UNVERIFIED",
+  "research_started_by_recheck": false
+}

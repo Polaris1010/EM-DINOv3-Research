@@ -1,3 +1,5 @@
+> MV5完成状态已现场复核：40k和38区/12来源全部完成，服务inactive/MainPID0/exit0。结果已推送0933540；最终报告docs/MV5_final_report.md，最新本轮记录docs/work_logs/20261015_12_mv5_completion_recheck.md。自动收取器已退出，禁止按下方历史running通知恢复任务；本次仅修复PR交付回执与元数据，未启动新实验。
+
 > MV5已完成：MitoNet-MV 40k、38区域/12来源开发指标完成；先读docs/MV5_final_report.md。任务结束，不启动新实验。 UTC 20261015T035253Z
 
 > MV5实际运行：service mv5-mitonet-adaptation-20261015.service、root见run_index；训练GPU3，一个seed40k，后续38dev自动评估。代码2cbc7c7已推送、draft PR6；本地被动收取器scripts/watch_mv5_results.py。新窗口只读查STATUS/已有collector，不重复启动。

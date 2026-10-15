@@ -5218,7 +5218,7 @@
     },
     {
       "experiment_id": "MV-5-MitoNet-MV-seed20261014",
-      "status": "PLANNED",
+      "status": "VERIFIED_RUNNING",
       "research_question": "Official MitoNet adapted on the same156 supervised regions: remaining complete-system gap",
       "dataset_manifest": "configs/segmentation/MV-Generalist-v2/manifest.json",
       "dataset_manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
@@ -5433,10 +5433,10 @@
       "decoder_seed": 20261014,
       "train_config": "configs/evaluation/MV-5_protocol.json",
       "resolved_config_sha256": "0ec3e67bc6783bc91109735c7d1a9a4865f90171489e302cf38d3e4059cdff1e",
-      "code_commit": "UNVERIFIED",
+      "code_commit": "2cbc7c773ca94271ce22b0d0e4820b745fde38b7",
       "python_executable": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/bin/python",
       "global_batch": 4,
-      "optimizer_steps": 0,
+      "optimizer_steps": 2600,
       "learning_rate": {
         "max_lr": 0.003,
         "pct_start": 0.3
@@ -5467,7 +5467,7 @@
         "Turner physical spacing limitation inherited; no new scale search"
       ],
       "server_root": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015",
-      "execution_state": "TWELVE_SOURCE_SMOKE_PASS_FORMAL_NOT_STARTED",
+      "execution_state": "FORMAL_40K_TRAINING_GPU3",
       "evidence": [
         "experiments/MV-5/run_index.json",
         "configs/evaluation/MV-5_protocol.json",

@@ -5436,7 +5436,7 @@
       "code_commit": "2cbc7c773ca94271ce22b0d0e4820b745fde38b7",
       "python_executable": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/venv/bin/python",
       "global_batch": 4,
-      "optimizer_steps": 2600,
+      "optimizer_steps": 10600,
       "learning_rate": {
         "max_lr": 0.003,
         "pct_start": 0.3

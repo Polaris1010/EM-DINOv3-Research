@@ -1,0 +1,55 @@
+{
+  "status": "running",
+  "phase": "training",
+  "train_step": 10600,
+  "train_progress": {
+    "status": "running",
+    "step": 10600,
+    "optimizer_steps": 40000,
+    "physical_gpu": 3,
+    "gpu0_used": false,
+    "sampling_sha256": "c863debd39fcdd337459d7b0472e1d38dd1cd504eaac4f7c46f0cb8969a65cb0",
+    "sample_source_counts": {
+      "openorganelle": 3519,
+      "muller21": 3526,
+      "han24": 3601,
+      "turner22": 3613,
+      "guay21": 3475,
+      "mekuc20": 3428,
+      "haberl18": 3591,
+      "jiang25": 3518,
+      "wei20": 3504,
+      "casser20": 3490,
+      "kunduri22": 3612,
+      "xiao18": 3523
+    },
+    "target_mode_counts": {
+      "binary_2d_cc_pseudo_instances": 8950,
+      "original_instance_ids": 33450
+    },
+    "seconds": 702.5320863723755,
+    "lr": 0.0029044751278355123,
+    "gradient_norm": 8.323739051818848,
+    "amp_retry_count": 0,
+    "amp_scale": 2048.0,
+    "ce": 1.2013612985610962,
+    "l1": 19.870668411254883,
+    "mse": 0.01116845104843378,
+    "pointrend_ce": 0.6964062452316284,
+    "total_loss": 4.330164432525635
+  },
+  "seconds": 709.0102725401521,
+  "physical_training_gpu": 3,
+  "physical_evaluation_gpus": [
+    1,
+    2,
+    3
+  ],
+  "gpu0_used": false,
+  "website_http": 200,
+  "inferred_regions": 0,
+  "scored_regions": 0,
+  "child_pids": [
+    3886
+  ]
+}

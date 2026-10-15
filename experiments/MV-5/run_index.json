@@ -6,7 +6,7 @@
   "service": "mv5-mitonet-adaptation-20261015.service",
   "status": "VERIFIED_RUNNING",
   "execution_state": "FORMAL_40K_TRAINING_GPU3",
-  "completed_steps": 2600,
+  "completed_steps": 10600,
   "budget_steps": 40000,
   "train_regions": 156,
   "dev_regions": 38,
@@ -19,11 +19,18 @@
   "physical_training_gpu": 3,
   "gpu0_used": false,
   "prior_results_unchanged": true,
-  "status_evidence": "evidence/MV-5/running_status_initial.json",
-  "observed_at_utc": "2026-10-15T03:01:57.635273+00:00",
+  "status_evidence": "evidence/MV-5/running_status_10k.json",
+  "observed_at_utc": "2026-10-15T03:10:31.099067+00:00",
   "draft_pr": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/6",
   "collector": "scripts/watch_mv5_results.py",
   "collector_state": "VERIFIED_RUNNING_PASSIVE_ONLY",
   "collector_pid": 31336,
-  "collector_started_utc": "2026-10-15T03:06:16.785834+00:00"
+  "collector_started_utc": "2026-10-15T03:06:16.785834+00:00",
+  "saved_milestones": [
+    {
+      "step": 10000,
+      "path": "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/model_step010000.pth",
+      "sha256": "de809ca4076907ca8ab6b54aef0530a288d5029890d7729890aef682d0995d97"
+    }
+  ]
 }

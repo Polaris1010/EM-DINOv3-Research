@@ -8,14 +8,22 @@
   "code_commit": "545ebbab0569436b5945cf36c65830f3f6dea50e",
   "metrics_path": "UNVERIFIED",
   "report_path": "docs/D12_execution.md",
-  "status_evidence": "evidence/D12/resume_verified.json",
+  "status_evidence": "evidence/D12/progress_20261017T091727Z.json",
   "runs": [
     {
       "model": "D1",
       "kind": "SSL",
       "status": "VERIFIED_RUNNING",
-      "completed_steps": 2720,
-      "resumed_from_step": 2711
+      "completed_steps": 15050,
+      "resumed_from_step": 2711,
+      "milestone_10000_teacher": {
+        "path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000010000/teacher_backbone.pth",
+        "step": 10000,
+        "sha256": "366932fd21731cc56a4967d14f41af6db14a0b053a07df2b4149a7c3b8223b67",
+        "kind": "teacher_backbone",
+        "manifest_sha256": "584726a98b8ef58b83f34ddae90401ec9ec076ebc392f0bacff98910afc4031e",
+        "config_sha256": "be92a0802d5bfea447d707990caa67ccb20c17edd710468ad2eed86c752a32af"
+      }
     },
     {
       "model": "D1",
@@ -36,6 +44,6 @@
       "completed_steps": 0
     }
   ],
-  "observed_at_utc": "2026-10-17T06:33:19.240669+00:00",
+  "observed_at_utc": "2026-10-17T09:17:27.557826+00:00",
   "draft_pr": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/8"
 }

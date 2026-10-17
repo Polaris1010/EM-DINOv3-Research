@@ -32,3 +32,5 @@
 - [D1/D2数据扩展与原始SSL留出依据](20261017_14_d12_ssl_diversity.md)
 
 - [D1中断核实与心跳修复接续](20261017_15_d12_interruption_resume.md)
+
+- [D1半程与10k导出进度核实](20261017_16_d12_progress_check.md)

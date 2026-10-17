@@ -5971,7 +5971,7 @@
       "code_commit": "545ebbab0569436b5945cf36c65830f3f6dea50e",
       "python_executable": "/opt/data/3_117/tanghr/dinov3_shared/bin/python",
       "global_batch": 48,
-      "optimizer_steps": 2720,
+      "optimizer_steps": 15050,
       "learning_rate": "same fixed base AdamW peak2.598076211353316e-5/30k cosine",
       "tta": false,
       "normalization": "MitoVerse existing512 crop+reflect pad; CEM native PIL RGB (typically224), no eager resize/pad; identical official RRC outputglobal256/local112. Native context/rescaling differs and is disclosed.",

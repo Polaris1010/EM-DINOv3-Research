@@ -41,6 +41,8 @@ def main():
     for line in f:
      v=json.loads(line)
      if v['step']%100==0 or v['step']==1:curves.append({'model':model,'rank':rank,**{k:v[k] for k in ['step','loss','grad_norm','lr','data_seconds','iteration_seconds','elapsed_seconds','peak_gpu_bytes']},**v['loss_components']})
+  prefix=R/'runs'/model/'formal/resume_sampling_prefix.json'
+  if prefix.exists():totals.update(read(prefix)['counts'])
   assert sum(totals.values())==30000*48;sampling[model]=dict(totals)
  csvout('D12_training_curves_stride100.csv',curves);atomic(R/'D12_sampling_observed.json',sampling)
  original_history=list(csv.DictReader((M3/'MV3_per_region_metrics.csv').open()));original_history=[v for v in original_history if str(v.get('seed'))==str(seed)]

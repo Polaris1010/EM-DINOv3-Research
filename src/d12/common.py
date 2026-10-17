@@ -21,6 +21,10 @@ def sha(p):
   for b in iter(lambda:f.read(8<<20),b''):h.update(b)
  return h.hexdigest()
 
+def heartbeat(path,value):
+ """Never expose a truncated heartbeat to concurrent training ranks."""
+ path=Path(path);temporary=path.with_suffix('.heartbeat.tmp');temporary.write_text(str(value));temporary.replace(path)
+
 def subtract_z(intervals,cut):
  out=[]
  for a,b in intervals:

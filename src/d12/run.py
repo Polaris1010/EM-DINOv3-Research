@@ -2,7 +2,7 @@
 import csv,fcntl,os,signal,subprocess,time
 from pathlib import Path
 import psutil
-from common import R,M3,OLD,MV2,B_FULL,PY,SSL_PY,WEIGHT,read,atomic,sha
+from common import R,M3,OLD,MV2,B_FULL,PY,SSL_PY,WEIGHT,read,atomic,sha,heartbeat
 from runtime_guard import website
 
 def protected():
@@ -27,14 +27,18 @@ class Controller:
    if row[0].strip() in allowed:
     try:self.baseline[int(row[1])]=psutil.Process(int(row[1])).create_time()
     except psutil.NoSuchProcess:pass
-  self.before=protected();atomic(R/'evidence/historical_inputs_before.json',self.before)
-  atomic(R/'evidence/executed_sources.json',{'files':{str(p.relative_to(R)):sha(p) for p in [*sorted((R/'code').glob('*.py')),R/'D12_protocol.json',R/'D12_base.yaml',R/'D1_manifest.json',R/'D2_manifest.json']},'code_commit':(R/'CODE_COMMIT').read_text().strip(),'SSL_python':str(SSL_PY),'readout_python':str(PY)})
+  self.before=protected();before_path=R/'evidence/historical_inputs_before.json'
+  if before_path.exists():assert read(before_path)==self.before,'Historical inputs changed before resume'
+  else:atomic(before_path,self.before)
+  source_path=R/'evidence/executed_sources.json'
+  if source_path.exists():source_path=R/'evidence'/('executed_sources_resume_'+str(time.time_ns())+'.json')
+  atomic(source_path,{'files':{str(p.relative_to(R)):sha(p) for p in [*sorted((R/'code').glob('*.py')),R/'D12_protocol.json',R/'D12_base.yaml',R/'D1_manifest.json',R/'D2_manifest.json']},'code_commit':(R/'CODE_COMMIT').read_text().strip(),'SSL_python':str(SSL_PY),'readout_python':str(PY)})
  def launch(self,args,name,gpus,ssl=False):
   env={**os.environ,'CUDA_VISIBLE_DEVICES':','.join(self.gpus[g]['uuid'] for g in gpus),'OMP_NUM_THREADS':'2','MKL_NUM_THREADS':'2','OPENBLAS_NUM_THREADS':'2','PYTHONDONTWRITEBYTECODE':'1','CUPY_CACHE_DIR':str(R/'cache/cupy'),'NUMBA_CACHE_DIR':str(R/'cache/numba'),'PYTORCH_KERNEL_CACHE_PATH':str(R/'cache/pytorch'),'CUDA_CACHE_PATH':str(R/'cache/cuda'),'PYTHONPATH':('/opt/data/3_117/tanghr/codex/mitotopo_20260908_round2/deps:' if ssl else '')+'/opt/data/3_117/tanghr/DINOv3/dinov3','STAGE1_GUARD_HEARTBEAT':str(R/'HEARTBEAT')}
   f=(R/'logs'/(name+'.log')).open('a');self.files.append(f);p=subprocess.Popen([str(SSL_PY if ssl else PY),*map(str,args)],env=env,stdout=f,stderr=subprocess.STDOUT,start_new_session=True);self.children.append(p);return p
  def health(self):
   assert time.monotonic()-self.start<72*3600,'Bounded72hour first-round deadline'
-  (R/'HEARTBEAT').write_text(str(time.time()));website();roots={p.pid for p in self.children};allowed={self.gpus[i]['uuid'] for i in [1,2,3]}
+  heartbeat(R/'HEARTBEAT',time.time());website();roots={p.pid for p in self.children};allowed={self.gpus[i]['uuid'] for i in [1,2,3]}
   for row in csv.reader(subprocess.check_output(['nvidia-smi','--query-compute-apps=gpu_uuid,pid','--format=csv,noheader'],text=True).splitlines()):
    if row[0].strip() not in allowed:continue
    pid=int(row[1])
@@ -58,8 +62,21 @@ class Controller:
   for model in ['D1','D2']:
    smoke=read(R/'smoke_v2'/model/'formal/result.json');assert smoke['status']=='complete' and smoke['completed_steps']==2 and smoke['max_rank_parameter_difference']==0 and smoke['tracked_teacher_delta_l2']>0
   for model in ['D1','D2']:
+   result_path=R/'runs'/model/'formal/result.json'
+   if result_path.exists() and read(result_path)['status']=='complete':
+    assert read(result_path)['completed_steps']==30000;continue
    self.phase='SSL_'+model+'_30000';self.health()
    args=['-m','torch.distributed.run','--standalone','--nproc_per_node=3',R/'code/train_ssl.py','--manifest',R/(model+'_manifest.json'),'--config',R/'D12_base.yaml','--weight',WEIGHT,'--output',R/'runs'/model/'formal','--steps','30000','--seed','0']
+   latest=R/'runs'/model/'formal/latest_checkpoint.json'
+   if latest.exists():
+    checkpoint=read(latest);assert 0<checkpoint['step']<30000
+    from collections import Counter
+    from sampling import choose
+    pool=read(R/'mitoverse_pool.json');cem=read(R/'cem_pool.json');fraction=read(R/(model+'_manifest.json'))['cem_fraction'];counts=Counter()
+    for i in range(checkpoint['step']*48):
+     where=choose(pool,cem,fraction,0,i);counts[where['domain']+'::'+where['source']]+=1
+    atomic(R/'runs'/model/'formal/resume_sampling_prefix.json',{'checkpoint':checkpoint,'counts':dict(counts),'reconstructed_from_exact_original_deterministic_indices':True})
+    args+=['--resume',checkpoint['path']]
    self.wait([self.launch(args,'SSL_'+model,[1,2,3],ssl=True)])
    assert read(R/'runs'/model/'formal/result.json')['completed_steps']==30000
   for mode in ['train','infer']:

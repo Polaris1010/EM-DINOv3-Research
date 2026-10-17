@@ -1,11 +1,22 @@
 """Technical guarantees for heldout exclusion and indexed CEM image reads."""
-import collections,importlib.util,io,sys,unittest,zipfile,zlib
+import collections,importlib.util,io,sys,tempfile,threading,unittest,zipfile,zlib
 from pathlib import Path
 P=Path(__file__).resolve().parents[1]/'src/d12'
 def load(name):
  spec=importlib.util.spec_from_file_location('d12_test_'+name,P/(name+'.py'));m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m);return m
 s=load('sampling');c=load('common')
 class D12SamplingTests(unittest.TestCase):
+ @unittest.skipIf(sys.platform=='win32','Concurrent replacement is tested on the Linux training server; Windows denies open-file rename')
+ def test_atomic_heartbeat_never_exposes_empty_content(self):
+  with tempfile.TemporaryDirectory() as folder:
+   p=Path(folder)/'HEARTBEAT';c.heartbeat(p,1.);errors=[]
+   def reader():
+    for _ in range(1500):
+     try:float(p.read_text())
+     except Exception as error:errors.append(error)
+   thread=threading.Thread(target=reader);thread.start()
+   for i in range(300):c.heartbeat(p,float(i+2))
+   thread.join();self.assertEqual(errors,[])
  def fixtures(self):
   rows=[{'volume_id':'big','shape':[10000,512,512],'allowed_z':[[0,4],[8,10]],'legal_slices':6},{'volume_id':'small','shape':[1,512,512],'allowed_z':[[0,1]],'legal_slices':1}]
   pool={'volumes':rows,'sampling_groups':{'A':{'unknown_volume_big':['big']},'B':{'unknown_volume_small':['small']}}}

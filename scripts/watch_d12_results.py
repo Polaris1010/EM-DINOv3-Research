@@ -82,7 +82,7 @@ def publish(folder,status,api):
  return {'status':'PUSHED','commit':head,'branch':BRANCH,'server_status':status['status'],'pr':pr['html_url'],'draft':True,'further_experiments_started':False}
 
 def main():
- password=getpass.getpass('SSH password (memory only): ');api=verify_private_remote();start=time.monotonic();client=None
+ password=getpass.getpass('SSH password (memory only): ');api=verify_private_remote();start=time.monotonic();client=None;connected=False
  try:
   while time.monotonic()-start<72*3600:
    try:
@@ -92,7 +92,8 @@ def main():
      status=read(sftp,'STATUS.json')
      if status['status'] in ['complete','failed']:
       folder=collect(sftp,status);receipt=publish(folder,status,api);(SCRATCH/'terminal_delivery.json').write_text(json.dumps(receipt,indent=2)+'\n',encoding='utf-8');print(json.dumps(receipt),flush=True);return
-    if not (SCRATCH/'collector_connected.json').exists():(SCRATCH/'collector_connected.json').write_text(json.dumps({'status':'WAITING_FOR_AUTHORIZED_PIPELINE','started_at_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'starts_experiments':False}));print('COLLECTOR_WAITING',flush=True)
+    if not connected:
+     (SCRATCH/'collector_connected.json').write_text(json.dumps({'status':'WAITING_FOR_AUTHORIZED_PIPELINE','started_at_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'starts_experiments':False}));print('COLLECTOR_WAITING',flush=True);connected=True
    except (paramiko.SSHException,EOFError,OSError,TimeoutError):
     if client:client.close()
     client=None

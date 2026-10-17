@@ -1,0 +1,9 @@
+{
+  "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9883049/",
+  "section": "Benchmark dataset characterization and STAR Methods: Benchmark curation",
+  "accessed_date": "2026-10-17",
+  "author_protocol": "Six benchmark volumes and100TEM held out from CEM1.5M and CEM-MitoLab; related images also excluded, including entire Lucchi training set, OpenOrganelle drosophila neural datasets and same C.elegans project",
+  "training_images": "SSL training images may be used for later supervised training; this is different from using benchmark test images",
+  "implementation_consequence": "Apply one shared heldout MitoVerse/CEM source policy to D1/D2; no existing B100 weights changed",
+  "claim_boundary": "Author-reported source exclusion verified in original paper; not a new pixel-level audit of author archive; unknown CEM aliases vs MV3 heldout remain unresolved"
+}

@@ -28,3 +28,5 @@
 - [MV5完成状态与GitHub交付复核](20261015_12_mv5_completion_recheck.md)
 
 - [MB1七组官方benchmark：全部完成、指标与交接](20261015_13_mb1_official_benchmark.md)
+
+- [D1/D2数据扩展与原始SSL留出依据](20261017_14_d12_ssl_diversity.md)

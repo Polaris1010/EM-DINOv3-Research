@@ -1,0 +1,5102 @@
+{
+  "official_accession": "EMPIAR-11035",
+  "archive": "/opt/data/3_117/tanghr/MitoNet/dataset/cem1.5m.zip",
+  "archive_bytes": 61833797020,
+  "archive_mtime_ns": 1783702677126875318,
+  "official_image_count": 1592753,
+  "original_nonempty_collections": 640,
+  "zip_directory_entries": 652,
+  "images": 1425433,
+  "groups": [
+    {
+      "name": "000r10530ND0Jf1lZ9gQ_3D",
+      "images": 48,
+      "first_id": 0,
+      "last_id": 47,
+      "probability": 0.0003533812096587975,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "005231Mi4tR936D758lh_2D",
+      "images": 521,
+      "first_id": 48,
+      "last_id": 568,
+      "probability": 0.0011642378008817587,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "00J28J01e68sYVe4XJ54_3D",
+      "images": 9,
+      "first_id": 569,
+      "last_id": 577,
+      "probability": 0.00015301855239229672,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "01HLAA04Y09jBnZLgL8c_3D",
+      "images": 2733,
+      "first_id": 578,
+      "last_id": 3310,
+      "probability": 0.0026665065216339543,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "01L9EKE74kM3O0QSq90G_2D",
+      "images": 286,
+      "first_id": 3311,
+      "last_id": 3596,
+      "probability": 0.0008625928439306269,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "0212PZ3x1tG6Ry14zYtM_3D",
+      "images": 45,
+      "first_id": 3597,
+      "last_id": 3641,
+      "probability": 0.0003421598849677886,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "023FCjUP07a5g354910m_2D",
+      "images": 5835,
+      "first_id": 3642,
+      "last_id": 9476,
+      "probability": 0.003896218144850005,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "02oW30c140O2F0r65237_3D",
+      "images": 1769,
+      "first_id": 9477,
+      "last_id": 11245,
+      "probability": 0.002145293667505636,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "02x86kyJQOZc5Q65oaYm_2D",
+      "images": 4464,
+      "first_id": 11246,
+      "last_id": 15709,
+      "probability": 0.0034078849714466735,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "0359E1y76M75l5V32FC6_2D",
+      "images": 834,
+      "first_id": 15710,
+      "last_id": 16543,
+      "probability": 0.0014730105578477782,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "04CKkr3001vBqmya6260_3D",
+      "images": 548,
+      "first_id": 16544,
+      "last_id": 17091,
+      "probability": 0.0011940241576830412,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "04HEi601N7Xn7Tq7i91V_3D",
+      "images": 1807,
+      "first_id": 17092,
+      "last_id": 18898,
+      "probability": 0.0021682128334146265,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "056i5CF03i7WmlYB8LIP_3D",
+      "images": 30,
+      "first_id": 18899,
+      "last_id": 18928,
+      "probability": 0.0002793723762068234,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "05T782a3z1XN53597B8y_3D",
+      "images": 1,
+      "first_id": 18929,
+      "last_id": 18929,
+      "probability": 5.100618413076558e-05,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "05a3249n5P8D959wG2Y7_3D",
+      "images": 1382,
+      "first_id": 18930,
+      "last_id": 20311,
+      "probability": 0.0018961681868077311,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "06T5D34H65ZFj17NOd2o_3D",
+      "images": 741,
+      "first_id": 20312,
+      "last_id": 21052,
+      "probability": 0.0013884554142319218,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "083H348C7dj9P0oQ6j41_3D",
+      "images": 1056,
+      "first_id": 21053,
+      "last_id": 22108,
+      "probability": 0.0016575047950090913,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "086abhmY5W9q21I1y1yw_3D",
+      "images": 637,
+      "first_id": 22109,
+      "last_id": 22745,
+      "probability": 0.0012873378857446304,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "088F5Mx92578vz1p7168_3D",
+      "images": 169,
+      "first_id": 22746,
+      "last_id": 22914,
+      "probability": 0.0006630803936999525,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "09941NiSec98Mwpoez5m_3D",
+      "images": 565,
+      "first_id": 22915,
+      "last_id": 23479,
+      "probability": 0.0012124031561587022,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "0B9gr97Fe5Vb8eu4Q2uh_3D",
+      "images": 784,
+      "first_id": 23480,
+      "last_id": 24263,
+      "probability": 0.0014281731556614362,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "0CI2R173sS3950gnX6ZZ_3D",
+      "images": 14,
+      "first_id": 24264,
+      "last_id": 24277,
+      "probability": 0.0001908476656240308,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "0CvF5DA6l92uqc35Vo99_3D",
+      "images": 30,
+      "first_id": 24278,
+      "last_id": 24307,
+      "probability": 0.0002793723762068234,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "0LB5pQB582Cl0zTusNW9",
+      "images": 715,
+      "first_id": 24308,
+      "last_id": 25022,
+      "probability": 0.0013638790400914654,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "0Nis3hnf5SdWoA7k0r72_2D",
+      "images": 412,
+      "first_id": 25023,
+      "last_id": 25434,
+      "probability": 0.0010353124637845347,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "0Nn79H3ECG9SGg9R34wr_2D",
+      "images": 19,
+      "first_id": 25435,
+      "last_id": 25453,
+      "probability": 0.00022233080212163517,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "0Vi47hRX5oB0XRF4oCbz_2D",
+      "images": 149,
+      "first_id": 25454,
+      "last_id": 25602,
+      "probability": 0.0006226098233385438,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "0Xlg5eJhaH8AUb6dn005_2D",
+      "images": 19,
+      "first_id": 25603,
+      "last_id": 25621,
+      "probability": 0.00022233080212163517,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "0bS7kuC2F9l78ff57iJ5_2D",
+      "images": 5174,
+      "first_id": 25622,
+      "last_id": 30795,
+      "probability": 0.003668901451458597,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "0eq144bQ49345kIXGP1m_3D",
+      "images": 37,
+      "first_id": 30796,
+      "last_id": 30832,
+      "probability": 0.0003102585056441125,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "0f5H0424Nx2921PG2570_2D",
+      "images": 24,
+      "first_id": 30833,
+      "last_id": 30856,
+      "probability": 0.00024987824969364075,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "0fX510Q6g0W03yh3706u_3D",
+      "images": 1812,
+      "first_id": 30857,
+      "last_id": 32668,
+      "probability": 0.0021712105022502516,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "0kw1I8YD2A44GQRyTZ3d_3D",
+      "images": 46,
+      "first_id": 32669,
+      "last_id": 32714,
+      "probability": 0.0003459407719548996,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "0wu522FfTrQ084Np70m6_3D",
+      "images": 1110,
+      "first_id": 32715,
+      "last_id": 33824,
+      "probability": 0.0016993558219912434,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "104297S3423D2C53hjcv_3D",
+      "images": 35,
+      "first_id": 33825,
+      "last_id": 33859,
+      "probability": 0.0003017566547490787,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "10x54233F9LiR3j6M8qC_3D",
+      "images": 196,
+      "first_id": 33860,
+      "last_id": 34055,
+      "probability": 0.0007140865778307181,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "115D17X4f88eW3Z5bM87_3D",
+      "images": 29,
+      "first_id": 34056,
+      "last_id": 34084,
+      "probability": 0.0002746767077272212,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "13yC2OT4009YU15Y081e_3D",
+      "images": 558,
+      "first_id": 34085,
+      "last_id": 34642,
+      "probability": 0.0012048692864068333,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "14E0YKHvOFp865G392eN_3D",
+      "images": 125,
+      "first_id": 34643,
+      "last_id": 34767,
+      "probability": 0.0005702664749463143,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "14VD2RQJ9IZz31MR739C_3D",
+      "images": 254,
+      "first_id": 34768,
+      "last_id": 35021,
+      "probability": 0.0008129048088021849,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "15ILbV1I00B9ebR4GJ2n_3D",
+      "images": 40,
+      "first_id": 35022,
+      "last_id": 35061,
+      "probability": 0.0003225914332143098,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "182V95X059HjG5Q4PPZ1_3D",
+      "images": 2853,
+      "first_id": 35062,
+      "last_id": 37914,
+      "probability": 0.0027244178696129192,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "187elRNxgUv702SB6auf_2D",
+      "images": 25,
+      "first_id": 37915,
+      "last_id": 37939,
+      "probability": 0.00025503092065382786,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "19oXT957V37UD5l2W820_2D",
+      "images": 29,
+      "first_id": 37940,
+      "last_id": 37968,
+      "probability": 0.0002746767077272212,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "1B789hma991k69fs545m_2D",
+      "images": 3,
+      "first_id": 37969,
+      "last_id": 37971,
+      "probability": 8.834530241469937e-05,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "1F41691j2Iq0u266Z3Lt_2D",
+      "images": 160,
+      "first_id": 37972,
+      "last_id": 38131,
+      "probability": 0.0006451828664286196,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "1FT878Ctp40415358509_2D",
+      "images": 130,
+      "first_id": 38132,
+      "last_id": 38261,
+      "probability": 0.0005815599767398054,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "1K411b3648d34FiuB9yk",
+      "images": 23,
+      "first_id": 38262,
+      "last_id": 38284,
+      "probability": 0.0002446170657382185,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "1K77h2Evwz5Nmc5b20je_3D",
+      "images": 173,
+      "first_id": 38285,
+      "last_id": 38457,
+      "probability": 0.0006708816078769862,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "1K95Tb180R9i7zA038C7_2D",
+      "images": 4793,
+      "first_id": 38458,
+      "last_id": 43250,
+      "probability": 0.0035312344184795248,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "1O5tJf8869143ElJD8Ha",
+      "images": 148,
+      "first_id": 43251,
+      "last_id": 43398,
+      "probability": 0.000620517011288225,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "1Y90hlkr0w93x7U0V32s_3D",
+      "images": 686,
+      "first_id": 43399,
+      "last_id": 44084,
+      "probability": 0.0013359336593682157,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "1f5583ENj0ruY6F4Q33D_3D",
+      "images": 89,
+      "first_id": 44085,
+      "last_id": 44173,
+      "probability": 0.00048119137870784737,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "1hvYuqOv55L6q0yx77r7_2D",
+      "images": 3454,
+      "first_id": 44174,
+      "last_id": 47627,
+      "probability": 0.0029976712379503386,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "1kUhd21Bt4N9ug0vg6n4_3D",
+      "images": 41,
+      "first_id": 47628,
+      "last_id": 47668,
+      "probability": 0.0003265989338666678,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "1l02269X5q10s4Z9Hos0_3D",
+      "images": 121,
+      "first_id": 47669,
+      "last_id": 47789,
+      "probability": 0.0005610680254384213,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "1sYX4D9362V99rkr63J9_2D",
+      "images": 2073,
+      "first_id": 47790,
+      "last_id": 49862,
+      "probability": 0.002322322262088657,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "1x6hmLu46g12V5sMEwTw_3D",
+      "images": 35,
+      "first_id": 49863,
+      "last_id": 49897,
+      "probability": 0.0003017566547490787,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "1xA59L40372n8744j86Q_2D",
+      "images": 555,
+      "first_id": 49898,
+      "last_id": 50452,
+      "probability": 0.0012016260253788478,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "1yR60hU12Gn32CSG56fL_2D",
+      "images": 4226,
+      "first_id": 50453,
+      "last_id": 54678,
+      "probability": 0.003315794300548766,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "21U8fIHv9xv6u72hQj03_3D",
+      "images": 69,
+      "first_id": 54679,
+      "last_id": 54747,
+      "probability": 0.00042368918625701056,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "21b506x32y5HXsrm4qNT_3D",
+      "images": 2086,
+      "first_id": 54748,
+      "last_id": 56833,
+      "probability": 0.002329592644572681,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "229jt6em580BTUn9l005_2D",
+      "images": 9,
+      "first_id": 56834,
+      "last_id": 56842,
+      "probability": 0.00015301855239229672,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "22x4708650bb60N2Clkh_2D",
+      "images": 582,
+      "first_id": 56843,
+      "last_id": 57424,
+      "probability": 0.0012305076744971845,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "230iB073Jt40G0804a3I_2D",
+      "images": 1034,
+      "first_id": 57425,
+      "last_id": 58458,
+      "probability": 0.0016401482455703005,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "238kP51WQ39Ja7zU2Qr6_3D",
+      "images": 2559,
+      "first_id": 58459,
+      "last_id": 61017,
+      "probability": 0.002580227367366918,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "247E5q3Q61Qx69Ua7B8V_3D",
+      "images": 75,
+      "first_id": 61018,
+      "last_id": 61092,
+      "probability": 0.0004417265120734969,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "253rm7l7t900W23svYH4_3D",
+      "images": 87,
+      "first_id": 61093,
+      "last_id": 61179,
+      "probability": 0.000475754013439294,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "26d8W45Eqw440943T1NL_2D",
+      "images": 158,
+      "first_id": 61180,
+      "last_id": 61337,
+      "probability": 0.0006411377929071775,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "271N4JXZ0Ux7d61W39t6_3D",
+      "images": 25,
+      "first_id": 61338,
+      "last_id": 61362,
+      "probability": 0.00025503092065382786,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "27O57601rSeXBZW58252_2D",
+      "images": 1166,
+      "first_id": 61363,
+      "last_id": 62528,
+      "probability": 0.0017416950179730381,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "27e942I6vw9Z5pzm2gSJ_3D",
+      "images": 384,
+      "first_id": 62529,
+      "last_id": 62912,
+      "probability": 0.000999512998774563,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "2874667EM97qdV1S052A",
+      "images": 4668,
+      "first_id": 62913,
+      "last_id": 67580,
+      "probability": 0.0034848834508210934,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "28L4Q5V335494OYu92yX",
+      "images": 6,
+      "first_id": 67581,
+      "last_id": 67586,
+      "probability": 0.00012493912484682037,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "2AS016T95Zuck1a8p018",
+      "images": 3,
+      "first_id": 67587,
+      "last_id": 67589,
+      "probability": 8.834530241469937e-05,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "2Dmr1RE1Vyw634Y551ox_3D",
+      "images": 6340,
+      "first_id": 67590,
+      "last_id": 73929,
+      "probability": 0.004061322370379763,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "2P08s44uHc2523721G4s_3D",
+      "images": 103,
+      "first_id": 73930,
+      "last_id": 74032,
+      "probability": 0.0005176562318922673,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "2Sm9xBH2j79is61rSHh0_3D",
+      "images": 28,
+      "first_id": 74033,
+      "last_id": 74060,
+      "probability": 0.0002698993570727499,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "2T1E9o7mXgy3816fw07X_2D",
+      "images": 72,
+      "first_id": 74061,
+      "last_id": 74132,
+      "probability": 0.00043280182417576807,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "2Yp4a6ovBUWh56xXT55Y_3D",
+      "images": 324,
+      "first_id": 74133,
+      "last_id": 74456,
+      "probability": 0.0009181113143537804,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "2aqF829I8uy2q18hM26n_3D",
+      "images": 40,
+      "first_id": 74457,
+      "last_id": 74496,
+      "probability": 0.0003225914332143098,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "2b7Fr3x3556l4u64yhPU_3D",
+      "images": 275,
+      "first_id": 74497,
+      "last_id": 74771,
+      "probability": 0.0008458418737476466,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "2orvh60z4d46Ldy28d5B_3D",
+      "images": 34,
+      "first_id": 74772,
+      "last_id": 74805,
+      "probability": 0.00029741460600611586,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "2wHHLg5592Hh2mw76I07_3D",
+      "images": 956,
+      "first_id": 74806,
+      "last_id": 75761,
+      "probability": 0.0015770729417246285,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "2wXL3D6P5Q03OM4hdUM4_3D",
+      "images": 28,
+      "first_id": 75762,
+      "last_id": 75789,
+      "probability": 0.0002698993570727499,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "2ww1674B912S0UI4j29q_2D",
+      "images": 182,
+      "first_id": 75790,
+      "last_id": 75971,
+      "probability": 0.0006881110442100492,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "30TM8c399c5g261uzXM5_3D",
+      "images": 1626,
+      "first_id": 75972,
+      "last_id": 77597,
+      "probability": 0.0020567575726467184,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "314W440Y68Pf573BO3p2_3D",
+      "images": 2031,
+      "first_id": 77598,
+      "last_id": 79628,
+      "probability": 0.0022986761830606226,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "31c4x1H53K72acDHN91C_2D",
+      "images": 82,
+      "first_id": 79629,
+      "last_id": 79710,
+      "probability": 0.0004618806417308352,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "32Ks189li3IFyx05873k_3D",
+      "images": 168,
+      "first_id": 79711,
+      "last_id": 79878,
+      "probability": 0.0006611157067334752,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "33S307b696Gn92fVTMI9_3D",
+      "images": 445,
+      "first_id": 79879,
+      "last_id": 80323,
+      "probability": 0.0010759766329775918,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "35m69c8QJ8S1222408E6_3D",
+      "images": 1548,
+      "first_id": 80324,
+      "last_id": 81871,
+      "probability": 0.002006819500780341,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "35s0Z0lUTD4F61Z29Unh_3D",
+      "images": 111,
+      "first_id": 81872,
+      "last_id": 81982,
+      "probability": 0.0005373834952559981,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "36N6165HL5u0V15645SM_2D",
+      "images": 10,
+      "first_id": 81983,
+      "last_id": 81992,
+      "probability": 0.0001612957166071549,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "3712122Da58038KV1034_3D",
+      "images": 19,
+      "first_id": 81993,
+      "last_id": 82011,
+      "probability": 0.00022233080212163517,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "373A2637G6i0gX4S25b0_3D",
+      "images": 88,
+      "first_id": 82012,
+      "last_id": 82099,
+      "probability": 0.00047848041979079716,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "37ar1VI5FbJ6bD5q60bP_3D",
+      "images": 1416,
+      "first_id": 82100,
+      "last_id": 83515,
+      "probability": 0.0019193512551191592,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "37d98L7609484xdO0330_3D",
+      "images": 331,
+      "first_id": 83516,
+      "last_id": 83846,
+      "probability": 0.0009279761857297294,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "37e2C1lLP065i6a8I74J_3D",
+      "images": 373,
+      "first_id": 83847,
+      "last_id": 84219,
+      "probability": 0.0009850930391104805,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "3899yD8x862W02L795CB_3D",
+      "images": 3,
+      "first_id": 84220,
+      "last_id": 84222,
+      "probability": 8.834530241469937e-05,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "38Oj6EPXzUKp8H2F0K70_3D",
+      "images": 451,
+      "first_id": 84223,
+      "last_id": 84673,
+      "probability": 0.0010832061205658342,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "39O6XQ90v4F2c15C52G8_3D",
+      "images": 1134,
+      "first_id": 84674,
+      "last_id": 85807,
+      "probability": 0.0017176289906162773,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "3F2yQ9wt77d2476F9C39_3D",
+      "images": 79,
+      "first_id": 85808,
+      "last_id": 85886,
+      "probability": 0.00045335288103964154,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "3HbQbt5Y2462ax7U9e2Z_3D",
+      "images": 418,
+      "first_id": 85887,
+      "last_id": 86304,
+      "probability": 0.0010428238981655018,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "3K68DAeXQ8490lVzJMH9_3D",
+      "images": 366,
+      "first_id": 86305,
+      "last_id": 86670,
+      "probability": 0.00097580575934294,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "3WI6117yo143pc09N0Mj_3D",
+      "images": 216,
+      "first_id": 86671,
+      "last_id": 86886,
+      "probability": 0.0007496347490809224,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "3qx0J8L0Vkzzpc211V9B",
+      "images": 366,
+      "first_id": 86887,
+      "last_id": 87252,
+      "probability": 0.00097580575934294,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "3v8iUE585f1ASWps281D",
+      "images": 89,
+      "first_id": 87253,
+      "last_id": 87341,
+      "probability": 0.00048119137870784737,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "3wth6043dR52d324p8E5_3D",
+      "images": 87,
+      "first_id": 87342,
+      "last_id": 87428,
+      "probability": 0.000475754013439294,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "42ige6G64Io60Yjj5qX6_2D",
+      "images": 193,
+      "first_id": 87429,
+      "last_id": 87621,
+      "probability": 0.0007086005561522242,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "4343LwI307Nn56TBbpsN_2D",
+      "images": 1177,
+      "first_id": 87622,
+      "last_id": 88798,
+      "probability": 0.0017498912750932552,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "437UXiGz3895cuoAi6tu_2D",
+      "images": 89,
+      "first_id": 88799,
+      "last_id": 88887,
+      "probability": 0.00048119137870784737,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "43O5HJOw9UqjEtJ5ZjBM_3D",
+      "images": 62,
+      "first_id": 88888,
+      "last_id": 88949,
+      "probability": 0.0004016230954689444,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "454n743iJ07zCD28lvIH_3D",
+      "images": 3109,
+      "first_id": 88950,
+      "last_id": 92058,
+      "probability": 0.0028440235966108083,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "460J2628F1ar49624IsH_3D",
+      "images": 1,
+      "first_id": 92059,
+      "last_id": 92059,
+      "probability": 5.100618413076558e-05,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "463GL0UDI2Q7XX0kDI40_3D",
+      "images": 85,
+      "first_id": 92060,
+      "last_id": 92144,
+      "probability": 0.0004702537821904602,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "46613n40lFC93ov3RiD2",
+      "images": 7000,
+      "first_id": 92145,
+      "last_id": 99144,
+      "probability": 0.0042674835368248275,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "4746X5511372V81N2924_2D",
+      "images": 197,
+      "first_id": 99145,
+      "last_id": 99341,
+      "probability": 0.0007159059096400642,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "4752347CYRcHS04dQ8GH_3D",
+      "images": 26,
+      "first_id": 99342,
+      "last_id": 99367,
+      "probability": 0.0002600815281966803,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "498H95z4Lgb9ig6W74F1_3D",
+      "images": 63,
+      "first_id": 99368,
+      "last_id": 99430,
+      "probability": 0.00040484903560912485,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "4CJd2W0GJ9mA04781M4T_3D",
+      "images": 44,
+      "first_id": 99431,
+      "last_id": 99474,
+      "probability": 0.0003383367494990586,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "4FW1055OWb4g691KIi8H_3D",
+      "images": 113,
+      "first_id": 99475,
+      "last_id": 99587,
+      "probability": 0.0005422031746612302,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "4G7ko32TR0FKbUZ5Jj18_3D",
+      "images": 556,
+      "first_id": 99588,
+      "last_id": 100143,
+      "probability": 0.0012027080841531532,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "4KF3315bYU3J8R9p185e_3D",
+      "images": 463,
+      "first_id": 100144,
+      "last_id": 100606,
+      "probability": 0.0010975222409893401,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "4R2Q294u6WGK426i610B_3D",
+      "images": 165,
+      "first_id": 100607,
+      "last_id": 100771,
+      "probability": 0.0006551862981099023,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "4U199E674FZoR0pQ4K31",
+      "images": 60,
+      "first_id": 100772,
+      "last_id": 100831,
+      "probability": 0.0003950922033840882,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "4V704I1G7492O2a369eb_3D",
+      "images": 1084,
+      "first_id": 100832,
+      "last_id": 101915,
+      "probability": 0.0016793355258632545,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "4Vt9BO0AkV0ni1718R1z_3D",
+      "images": 753,
+      "first_id": 101916,
+      "last_id": 102668,
+      "probability": 0.0013996528166459411,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "4a1P98Pfs3uNk9S61rl7_2D",
+      "images": 7,
+      "first_id": 102669,
+      "last_id": 102675,
+      "probability": 0.00013494967853637494,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "4aQn1W0G24Hv04xp6p07",
+      "images": 7138,
+      "first_id": 102676,
+      "last_id": 109813,
+      "probability": 0.004309343429128525,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "4kNr9898A862E477Y60p",
+      "images": 1321,
+      "first_id": 109814,
+      "last_id": 111134,
+      "probability": 0.0018538485139480095,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "4shLi4f240TcXh6L1j24_3D",
+      "images": 660,
+      "first_id": 111135,
+      "last_id": 111794,
+      "probability": 0.0013103725962198046,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "4w1dou3M530OSwP19MoU_2D",
+      "images": 872,
+      "first_id": 111795,
+      "last_id": 112666,
+      "probability": 0.0015061945673368771,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "50F80ev760Cmx63t5G79_3D",
+      "images": 3,
+      "first_id": 112667,
+      "last_id": 112669,
+      "probability": 8.834530241469937e-05,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "5199UE240u7z4DhzJ698_3D",
+      "images": 42,
+      "first_id": 112670,
+      "last_id": 112711,
+      "probability": 0.0003305578533667376,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "52f72Bc125o7v94Ep850_2D",
+      "images": 3780,
+      "first_id": 112712,
+      "last_id": 116491,
+      "probability": 0.003135947145284548,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "5562U5OO5JxPY65P027L",
+      "images": 151,
+      "first_id": 116492,
+      "last_id": 116642,
+      "probability": 0.0006267744839707627,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "557p2ocENO3TKQ2p7052_2D",
+      "images": 166,
+      "first_id": 116643,
+      "last_id": 116808,
+      "probability": 0.0006571687120143041,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "5787d43s9R8828P7aUT6_3D",
+      "images": 2302,
+      "first_id": 116809,
+      "last_id": 119110,
+      "probability": 0.0024472339787353307,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "578S4E9ajU4624j55Tq7_2D",
+      "images": 136,
+      "first_id": 119111,
+      "last_id": 119246,
+      "probability": 0.0005948292120122317,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "59543P723X31v8m3W66V_3D",
+      "images": 72,
+      "first_id": 119247,
+      "last_id": 119318,
+      "probability": 0.00043280182417576807,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "59TjAI27I7045Peo481d_3D",
+      "images": 28,
+      "first_id": 119319,
+      "last_id": 119346,
+      "probability": 0.0002698993570727499,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "59yh08837Fm5JCC0784O_3D",
+      "images": 25,
+      "first_id": 119347,
+      "last_id": 119371,
+      "probability": 0.00025503092065382786,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "5A3N49V8v624P1ogU7E3_3D",
+      "images": 1451,
+      "first_id": 119372,
+      "last_id": 120822,
+      "probability": 0.0019429272552550308,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "5JmVbLFq239c85SMRUB2_3D",
+      "images": 31,
+      "first_id": 120823,
+      "last_id": 120853,
+      "probability": 0.00028399041428722277,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "5Jy84b2MnLYB9oZ70Nvm_3D",
+      "images": 2964,
+      "first_id": 120854,
+      "last_id": 123817,
+      "probability": 0.0027769108284638436,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "5NQg531Y3XP9MCCU5BTL_3D",
+      "images": 1395,
+      "first_id": 123818,
+      "last_id": 125212,
+      "probability": 0.0019050656139136728,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "5Pzqj3Em64mysMqOt8T7_2D",
+      "images": 7,
+      "first_id": 125213,
+      "last_id": 125219,
+      "probability": 0.00013494967853637494,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "5Z18275Qnz306R3RW6e1_3D",
+      "images": 26,
+      "first_id": 125220,
+      "last_id": 125245,
+      "probability": 0.0002600815281966803,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "5Z3q3a5415jv75186U9h_3D",
+      "images": 19,
+      "first_id": 125246,
+      "last_id": 125264,
+      "probability": 0.00022233080212163517,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "5j54Gst6j5069xCUpF5M_2D",
+      "images": 2364,
+      "first_id": 125265,
+      "last_id": 127628,
+      "probability": 0.00247997081787081,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "5m35G7y7pFo7Qy37z18e_3D",
+      "images": 1690,
+      "first_id": 127629,
+      "last_id": 129318,
+      "probability": 0.0020968443158930136,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "5o1101z410527CfQ24Nx_3D",
+      "images": 11,
+      "first_id": 129319,
+      "last_id": 129329,
+      "probability": 0.0001691683747495293,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "5r14Cdpq37NPNw6Hw42y_2D",
+      "images": 14,
+      "first_id": 129330,
+      "last_id": 129343,
+      "probability": 0.0001908476656240308,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "5u1oet80M239QNtA16v5_3D",
+      "images": 1191,
+      "first_id": 129344,
+      "last_id": 130534,
+      "probability": 0.001760267680246854,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "606V054X2083Ca8h7b1q_2D",
+      "images": 170,
+      "first_id": 130535,
+      "last_id": 130704,
+      "probability": 0.0006650392765309923,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "6080I7655078P54sI591_2D",
+      "images": 1808,
+      "first_id": 130705,
+      "last_id": 132512,
+      "probability": 0.002168812698644921,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "60quHoFmOb762437lu6p_3D",
+      "images": 1431,
+      "first_id": 132513,
+      "last_id": 133943,
+      "probability": 0.001929490529342193,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "614753Z06JaoUkFn7J6g_3D",
+      "images": 91,
+      "first_id": 133944,
+      "last_id": 134034,
+      "probability": 0.000486567985570282,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "61x44277A1Fjux7FaTI9_3D",
+      "images": 1842,
+      "first_id": 134035,
+      "last_id": 135876,
+      "probability": 0.00218911031464137,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "627sMJ63ZY795RJ5WaX0_3D",
+      "images": 4256,
+      "first_id": 135877,
+      "last_id": 140132,
+      "probability": 0.0033275427522631664,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "62BcQ53pV3gwMOS710P4_3D",
+      "images": 41,
+      "first_id": 140133,
+      "last_id": 140173,
+      "probability": 0.0003265989338666678,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "62NP013987xhj7NM6FCz_3D",
+      "images": 24,
+      "first_id": 140174,
+      "last_id": 140197,
+      "probability": 0.00024987824969364075,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "639s9H3B0K19bG5D7D4X_2D",
+      "images": 218,
+      "first_id": 140198,
+      "last_id": 140415,
+      "probability": 0.0007530972836684386,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "63mzBU7IXv02lB981kLZ_3D",
+      "images": 53,
+      "first_id": 140416,
+      "last_id": 140468,
+      "probability": 0.0003713306255048495,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "66192geL1pz9144250OG_3D",
+      "images": 3449,
+      "first_id": 140469,
+      "last_id": 143917,
+      "probability": 0.0029955007422360637,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "6696t14Bq8pAb2FI81P0_3D",
+      "images": 2451,
+      "first_id": 143918,
+      "last_id": 146368,
+      "probability": 0.002525192495394046,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "66k7TE47uAZWjNqgj93Z_3D",
+      "images": 103,
+      "first_id": 146369,
+      "last_id": 146471,
+      "probability": 0.0005176562318922673,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "681X65xh180i9k4UL692_3D",
+      "images": 6146,
+      "first_id": 146472,
+      "last_id": 152617,
+      "probability": 0.003998702666759343,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "682iQbQ2QXda420492cX_3D",
+      "images": 1906,
+      "first_id": 152618,
+      "last_id": 154523,
+      "probability": 0.0022268157404963834,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "682x923c81ZP3bZ637cB_3D",
+      "images": 849,
+      "first_id": 154524,
+      "last_id": 155372,
+      "probability": 0.0014861980237588618,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "68A1U4iXlGK29jZA95xV_3D",
+      "images": 3910,
+      "first_id": 155373,
+      "last_id": 159282,
+      "probability": 0.0031894163266284175,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "68XSAF1zC01O14CMr5Px_3D",
+      "images": 443,
+      "first_id": 159283,
+      "last_id": 159725,
+      "probability": 0.0010735559850676777,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "68Z70A23eeM9XShU77ju_3D",
+      "images": 1251,
+      "first_id": 159726,
+      "last_id": 160976,
+      "probability": 0.00180406212622973,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "696Xl27n4xCBSP1F2555_3D",
+      "images": 49,
+      "first_id": 160977,
+      "last_id": 161025,
+      "probability": 0.00035704328891535906,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "6975N8Waz0r2555HUlz7_3D",
+      "images": 2181,
+      "first_id": 161026,
+      "last_id": 163206,
+      "probability": 0.002382048869672364,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "69s61I2HSJ3mb52eB3n1_3D",
+      "images": 235,
+      "first_id": 163207,
+      "last_id": 163441,
+      "probability": 0.0007819099964840372,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "6L269H84G0Y799KHIe3l_3D",
+      "images": 3588,
+      "first_id": 163442,
+      "last_id": 167029,
+      "probability": 0.003055266171818528,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "6M63zfgOdsi602Ow24O1_3D",
+      "images": 709,
+      "first_id": 167030,
+      "last_id": 167738,
+      "probability": 0.0013581444146641135,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "6S6392q3ac8t08u61C42_3D",
+      "images": 54,
+      "first_id": 167739,
+      "last_id": 167792,
+      "probability": 0.0003748173745404612,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "6T1326266944uJ5M43s0_3D",
+      "images": 3086,
+      "first_id": 167793,
+      "last_id": 170878,
+      "probability": 0.0028334841995727982,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "6U0I7y48bud99a0r93N7_3D",
+      "images": 1797,
+      "first_id": 170879,
+      "last_id": 172675,
+      "probability": 0.002162205027925906,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "6U41AuS7555GQ06mf0IA_3D",
+      "images": 2472,
+      "first_id": 172676,
+      "last_id": 175147,
+      "probability": 0.0025359872606157984,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "6W3N54w6SuT2gXaH834i_3D",
+      "images": 32,
+      "first_id": 175148,
+      "last_id": 175179,
+      "probability": 0.00028853454945051207,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "6n5mf2MF58R9Tf34Y97B_3D",
+      "images": 51,
+      "first_id": 175180,
+      "last_id": 175230,
+      "probability": 0.00036425701338294047,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "6xtXI7u3ag31ft0RlnQ9_3D",
+      "images": 194,
+      "first_id": 175231,
+      "last_id": 175424,
+      "probability": 0.0007104339371108499,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "6y4KG8C0y215nt6hgi96_3D",
+      "images": 111,
+      "first_id": 175425,
+      "last_id": 175535,
+      "probability": 0.0005373834952559981,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "70b84ewn720o4817Px50_3D",
+      "images": 1473,
+      "first_id": 175536,
+      "last_id": 177008,
+      "probability": 0.0019576011333373405,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "72Pn49283nA21b33RM94_3D",
+      "images": 1573,
+      "first_id": 177009,
+      "last_id": 178581,
+      "probability": 0.0020229595347415617,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "732z1wa4S7Cj09v27c1e_3D",
+      "images": 4669,
+      "first_id": 178582,
+      "last_id": 183250,
+      "probability": 0.003485256704552236,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "73305IX3JqLNR72O9O46_2D",
+      "images": 267,
+      "first_id": 183251,
+      "last_id": 183517,
+      "probability": 0.0008334479160861085,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "739528g00C1k6946g7Y7_3D",
+      "images": 84,
+      "first_id": 183518,
+      "last_id": 183601,
+      "probability": 0.0004674793993801772,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "764TVEj0g8q5H33p1i42_2D",
+      "images": 467,
+      "first_id": 183602,
+      "last_id": 184068,
+      "probability": 0.0011022529622299,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "769lyM24ky86PXUe24jq_3D",
+      "images": 1877,
+      "first_id": 184069,
+      "last_id": 185945,
+      "probability": 0.0022098101837838,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "778APt25407J458UM47H_2D",
+      "images": 16,
+      "first_id": 185946,
+      "last_id": 185961,
+      "probability": 0.00020402473652306232,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "7871h5nOh4013872YXY7",
+      "images": 4,
+      "first_id": 185962,
+      "last_id": 185965,
+      "probability": 0.00010201236826153116,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "7Rvu0X733WYWa49U6Q1f_2D",
+      "images": 42,
+      "first_id": 185966,
+      "last_id": 186007,
+      "probability": 0.0003305578533667376,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "7W3I69630017g6m55Bl2_2D",
+      "images": 7,
+      "first_id": 186008,
+      "last_id": 186014,
+      "probability": 0.00013494967853637494,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "7kwJ9Y41sN06320g1W7t_3D",
+      "images": 1080,
+      "first_id": 186015,
+      "last_id": 187094,
+      "probability": 0.0016762342572409403,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "7n397v7317tUQ2nw314l_2D",
+      "images": 700,
+      "first_id": 187095,
+      "last_id": 187794,
+      "probability": 0.0013494967853637495,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "7u78Vd9p1C947NMvU7SP_3D",
+      "images": 236,
+      "first_id": 187795,
+      "last_id": 188030,
+      "probability": 0.0007835718687020665,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "7v0438ttURcy31p2Sny5_3D",
+      "images": 377,
+      "first_id": 188031,
+      "last_id": 188407,
+      "probability": 0.0009903609538861318,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "7xEV250h52z75QS2WW88_3D",
+      "images": 105,
+      "first_id": 188408,
+      "last_id": 188512,
+      "probability": 0.0005226578575474246,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "7z1bq7K11Zu681D888m8_3D",
+      "images": 1434,
+      "first_id": 188513,
+      "last_id": 189946,
+      "probability": 0.001931511997187685,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "7z85sAK56Me6twoZ42y6_2D",
+      "images": 23,
+      "first_id": 189947,
+      "last_id": 189969,
+      "probability": 0.0002446170657382185,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "808fk1b6xFN8Yg27jb3g_2D",
+      "images": 2166,
+      "first_id": 189970,
+      "last_id": 192135,
+      "probability": 0.0023738433720895875,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "8099G4D3PEYG266D3j61_3D",
+      "images": 1289,
+      "first_id": 192136,
+      "last_id": 193424,
+      "probability": 0.001831256979902229,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "80Syo5O8g6RP8zq1Y3dt_3D",
+      "images": 1817,
+      "first_id": 193425,
+      "last_id": 195241,
+      "probability": 0.0021742040380745543,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "81N269691I17z37267N6_3D",
+      "images": 1437,
+      "first_id": 195242,
+      "last_id": 196678,
+      "probability": 0.0019335313516306647,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "81y5OR291368i54Ne49w_3D",
+      "images": 841,
+      "first_id": 196679,
+      "last_id": 197519,
+      "probability": 0.0014791793397922017,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "828908007N62CN551194_3D",
+      "images": 53,
+      "first_id": 197520,
+      "last_id": 197572,
+      "probability": 0.0003713306255048495,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "82xbNbd2i519te3N1wgJ_3D",
+      "images": 1844,
+      "first_id": 197573,
+      "last_id": 199416,
+      "probability": 0.0021902984343025954,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "8306k714P2NFE517fuZ5_2D",
+      "images": 8203,
+      "first_id": 199417,
+      "last_id": 207619,
+      "probability": 0.004619651243657637,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "835AIW1Kk89TP60i7j3e_3D",
+      "images": 1621,
+      "first_id": 207620,
+      "last_id": 209240,
+      "probability": 0.002053592841471189,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "847F67A7X172sSF5m8RU_2D",
+      "images": 64,
+      "first_id": 209241,
+      "last_id": 209304,
+      "probability": 0.00040804947304612463,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "853Gp8v0XL07ra57m444_3D",
+      "images": 782,
+      "first_id": 209305,
+      "last_id": 210086,
+      "probability": 0.0014263503429777628,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "85a4w4S501o2Kv68H63a_3D",
+      "images": 139,
+      "first_id": 210087,
+      "last_id": 210225,
+      "probability": 0.0006013540420765766,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "8698d4rk657i8N07u781_3D",
+      "images": 4736,
+      "first_id": 210226,
+      "last_id": 214961,
+      "probability": 0.003510174292188107,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "87I1kIg05940Z606UJc4_3D",
+      "images": 10600,
+      "first_id": 214962,
+      "last_id": 225561,
+      "probability": 0.005251408067134429,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "898LTlrSo7740tno1e1f_2D",
+      "images": 195,
+      "first_id": 225562,
+      "last_id": 225756,
+      "probability": 0.0007122625989186886,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "89vGT65d9EHa6t5IE2F1_3D",
+      "images": 325,
+      "first_id": 225757,
+      "last_id": 226081,
+      "probability": 0.0009195270612461646,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "8D640sc664w0m7WA76P2_3D",
+      "images": 67,
+      "first_id": 226082,
+      "last_id": 226148,
+      "probability": 0.0004175036106573986,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "8G632M6809k5726GiHu3_3D",
+      "images": 1754,
+      "first_id": 226149,
+      "last_id": 227902,
+      "probability": 0.002136178938559703,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "8JoBW0F58z6agP91MF9W_3D",
+      "images": 950,
+      "first_id": 227903,
+      "last_id": 228852,
+      "probability": 0.0015721161784685266,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "8NG86525STf13tH8aG0K_3D",
+      "images": 221,
+      "first_id": 228853,
+      "last_id": 229073,
+      "probability": 0.0007582614398263473,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "8ZvI95u9khfeW557jM9B_2D",
+      "images": 19,
+      "first_id": 229074,
+      "last_id": 229092,
+      "probability": 0.00022233080212163517,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "8aMvsWw03AV9u6upS64x_3D",
+      "images": 1253,
+      "first_id": 229093,
+      "last_id": 230345,
+      "probability": 0.00180550364633686,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "8j1rc756jiXe801t56Z4_3D",
+      "images": 109,
+      "first_id": 230346,
+      "last_id": 230454,
+      "probability": 0.0005325201961751219,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "8qPz8VZMk2515i8TYo9T_2D",
+      "images": 301,
+      "first_id": 230455,
+      "last_id": 230755,
+      "probability": 0.0008849242208765958,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "8y9m69i131BeG0R3P74H_3D",
+      "images": 373,
+      "first_id": 230756,
+      "last_id": 231128,
+      "probability": 0.0009850930391104805,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "90124NkPPAK37V2h496j_3D",
+      "images": 1108,
+      "first_id": 231129,
+      "last_id": 232236,
+      "probability": 0.0016978241805606289,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "90fw11J2CQDga8HX964N_3D",
+      "images": 1265,
+      "first_id": 232237,
+      "last_id": 233501,
+      "probability": 0.0018141287128455564,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "91nnw1CE21J7qEYVD5WA_3D",
+      "images": 1333,
+      "first_id": 233502,
+      "last_id": 234834,
+      "probability": 0.00186224968317952,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "9225zsU46nkJF7x9634E_3D",
+      "images": 2894,
+      "first_id": 234835,
+      "last_id": 237728,
+      "probability": 0.002743924122833764,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "944s1950H4eDL19J965s",
+      "images": 1,
+      "first_id": 237729,
+      "last_id": 237729,
+      "probability": 5.100618413076558e-05,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "94580sO7XxmC32F2i5E3_2D",
+      "images": 30,
+      "first_id": 237730,
+      "last_id": 237759,
+      "probability": 0.0002793723762068234,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "94V81q9880nb14tZ23z6_3D",
+      "images": 11,
+      "first_id": 237760,
+      "last_id": 237770,
+      "probability": 0.0001691683747495293,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "9603293RE5133Ow1K7O1",
+      "images": 1,
+      "first_id": 237771,
+      "last_id": 237771,
+      "probability": 5.100618413076558e-05,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "96DW666U4e6Fiy511064_3D",
+      "images": 1100,
+      "first_id": 237772,
+      "last_id": 238871,
+      "probability": 0.0016916837474952931,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "9931z34d40U666d609Y4_3D",
+      "images": 538,
+      "first_id": 238872,
+      "last_id": 239409,
+      "probability": 0.001183079617327118,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "997K5yM1Z7jL90CN7qt9_2D",
+      "images": 376,
+      "first_id": 239410,
+      "last_id": 239785,
+      "probability": 0.0009890466056575228,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "9997UP07xu49550R222K",
+      "images": 1947,
+      "first_id": 239786,
+      "last_id": 241732,
+      "probability": 0.002250638843911946,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "9A958H018048z7vY7347_3D",
+      "images": 524,
+      "first_id": 241733,
+      "last_id": 242256,
+      "probability": 0.0011675849217340634,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "9EOU5b4vgoCD8Tl912he_3D",
+      "images": 788,
+      "first_id": 242257,
+      "last_id": 243044,
+      "probability": 0.0014318118192801284,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "9HJ3097vnLXHwd1729O6_3D",
+      "images": 490,
+      "first_id": 243045,
+      "last_id": 243534,
+      "probability": 0.0011290700162500842,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "9O9z1X3KNne986409RMW_3D",
+      "images": 25,
+      "first_id": 243535,
+      "last_id": 243559,
+      "probability": 0.00025503092065382786,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "9T8Ee68yc5H3oNuXNV62_3D",
+      "images": 1311,
+      "first_id": 243560,
+      "last_id": 244870,
+      "probability": 0.0018468183463652911,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "9Y78f019XZ86b2E3If74_3D",
+      "images": 900,
+      "first_id": 244871,
+      "last_id": 245770,
+      "probability": 0.0015301855239229674,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "9cRJXwWSada508s0Mt68_2D",
+      "images": 67,
+      "first_id": 245771,
+      "last_id": 245837,
+      "probability": 0.0004175036106573986,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "9fjM044c375784b0k1n8_2D",
+      "images": 31,
+      "first_id": 245838,
+      "last_id": 245868,
+      "probability": 0.00028399041428722277,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "9ic08M4v7SV106G35TW2",
+      "images": 22,
+      "first_id": 245869,
+      "last_id": 245890,
+      "probability": 0.00023924020989539858,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "9n7JmsZIx6I7iPJ1H673_2D",
+      "images": 560,
+      "first_id": 245891,
+      "last_id": 246450,
+      "probability": 0.0012070266189963149,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "9z7K3lGK822WhYO70eoh_3D",
+      "images": 111,
+      "first_id": 246451,
+      "last_id": 246561,
+      "probability": 0.0005373834952559981,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "A03wIgkxVmFZNc082J2i_3D",
+      "images": 1874,
+      "first_id": 246562,
+      "last_id": 248435,
+      "probability": 0.0022080435131346136,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "A2zj2c3Ie9099f8q480T_3D",
+      "images": 5895,
+      "first_id": 248436,
+      "last_id": 254330,
+      "probability": 0.003916198881751706,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "A533BS77X5TJBm19y358_3D",
+      "images": 3417,
+      "first_id": 254331,
+      "last_id": 257747,
+      "probability": 0.0029815721541680317,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Andersson2021_10553",
+      "images": 1145,
+      "first_id": 257748,
+      "last_id": 258892,
+      "probability": 0.0017259395378810027,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Andersson2021_10554",
+      "images": 3517,
+      "first_id": 258893,
+      "last_id": 262409,
+      "probability": 0.003024886046195518,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Angerani2021BV2",
+      "images": 1380,
+      "first_id": 262410,
+      "last_id": 263789,
+      "probability": 0.0018947956436044906,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "B3618fZ151o9156X92ue_2D",
+      "images": 12286,
+      "first_id": 263790,
+      "last_id": 276075,
+      "probability": 0.0056536392040330155,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "BG2687A80941J5S5f71r_2D",
+      "images": 124,
+      "first_id": 276076,
+      "last_id": 276199,
+      "probability": 0.0005679808285744455,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Bb3e2P97823q6kTx5n0m_3D",
+      "images": 64,
+      "first_id": 276200,
+      "last_id": 276263,
+      "probability": 0.00040804947304612463,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Beer2018",
+      "images": 19,
+      "first_id": 276264,
+      "last_id": 276282,
+      "probability": 0.00022233080212163517,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Bf695M0h02i43Meg799A_2D",
+      "images": 128,
+      "first_id": 276283,
+      "last_id": 276410,
+      "probability": 0.0005770690989010241,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Bleck2018_HeartBV2",
+      "images": 8631,
+      "first_id": 276411,
+      "last_id": 285041,
+      "probability": 0.00473863647094905,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Bleck2018_SoleusBV2",
+      "images": 2617,
+      "first_id": 285042,
+      "last_id": 287658,
+      "probability": 0.0026093040939769645,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Boer2020",
+      "images": 782,
+      "first_id": 287659,
+      "last_id": 288440,
+      "probability": 0.0014263503429777628,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Busse2016BV4",
+      "images": 483,
+      "first_id": 288441,
+      "last_id": 288923,
+      "probability": 0.0011209762200233753,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "C0cYvFc2I4GZCfR8K1v3_2D",
+      "images": 10,
+      "first_id": 288924,
+      "last_id": 288933,
+      "probability": 0.0001612957166071549,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "CREMI",
+      "images": 20485,
+      "first_id": 288934,
+      "last_id": 309418,
+      "probability": 0.007300301866301716,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Cali2018_mouse_1",
+      "images": 2195,
+      "first_id": 309419,
+      "last_id": 311613,
+      "probability": 0.0023896819137662504,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Cali2018_mouse_2",
+      "images": 3477,
+      "first_id": 311614,
+      "last_id": 315090,
+      "probability": 0.0030076353435356975,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Cali2018_mouse_3",
+      "images": 4200,
+      "first_id": 315091,
+      "last_id": 319290,
+      "probability": 0.003305578533667376,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Cali2018_mouse_4",
+      "images": 3033,
+      "first_id": 319291,
+      "last_id": 322323,
+      "probability": 0.0028090472185050355,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Cali2018_mouse_5",
+      "images": 4124,
+      "first_id": 322324,
+      "last_id": 326447,
+      "probability": 0.0032755343838760664,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Cali2018_mouse_6",
+      "images": 3019,
+      "first_id": 326448,
+      "last_id": 329466,
+      "probability": 0.0028025565907429484,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Cardona2010_section-180-220",
+      "images": 108,
+      "first_id": 329467,
+      "last_id": 329574,
+      "probability": 0.0005300718144881962,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Cex31X1i542D86kK8919_3D",
+      "images": 93,
+      "first_id": 329575,
+      "last_id": 329667,
+      "probability": 0.0004918858264080043,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Collinson2020",
+      "images": 10955,
+      "first_id": 329668,
+      "last_id": 340622,
+      "probability": 0.005338620198938675,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Cornelissen2018_video",
+      "images": 11,
+      "first_id": 340623,
+      "last_id": 340633,
+      "probability": 0.0001691683747495293,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Cortese2020_S4_area2",
+      "images": 8807,
+      "first_id": 340634,
+      "last_id": 349440,
+      "probability": 0.004786706866735713,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Cortese2020_S4_area3",
+      "images": 23203,
+      "first_id": 349441,
+      "last_id": 372643,
+      "probability": 0.007769532798486084,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Cortese2020_S4_cell1_5nm",
+      "images": 7472,
+      "first_id": 372644,
+      "last_id": 380115,
+      "probability": 0.0044090118489196,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Cortese2020_S5_mock_cell1_2",
+      "images": 10737,
+      "first_id": 380116,
+      "last_id": 390852,
+      "probability": 0.005285235104500767,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Courson2019_001_video",
+      "images": 24,
+      "first_id": 390853,
+      "last_id": 390876,
+      "probability": 0.00024987824969364075,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Courson2019_002_video",
+      "images": 33,
+      "first_id": 390877,
+      "last_id": 390909,
+      "probability": 0.0002930082201000367,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "D29966gHi7ghWU06U9mW_3D",
+      "images": 71,
+      "first_id": 390910,
+      "last_id": 390980,
+      "probability": 0.000429785746844042,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "D8J8Y7imJ3412257M7TG_2D",
+      "images": 687,
+      "first_id": 390981,
+      "last_id": 391667,
+      "probability": 0.0013369070173548095,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "D98Z79BnWEvju512TEA8_3D",
+      "images": 258,
+      "first_id": 391668,
+      "last_id": 391925,
+      "probability": 0.0008192806304631173,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Davis2014_s9_video",
+      "images": 15,
+      "first_id": 391926,
+      "last_id": 391940,
+      "probability": 0.0001975461016920441,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Df631x5w93508zc73Q12_3D",
+      "images": 4123,
+      "first_id": 391941,
+      "last_id": 396063,
+      "probability": 0.003275137229053888,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "DtE31fP3o3qb8T1RODDh_2D",
+      "images": 2401,
+      "first_id": 396064,
+      "last_id": 398464,
+      "probability": 0.0024993030224075134,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "E1mgouV4211562ky885v_2D",
+      "images": 2242,
+      "first_id": 398465,
+      "last_id": 400706,
+      "probability": 0.0024151306998797936,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "E276fX4Ye1FW75gHk7P2_3D",
+      "images": 839,
+      "first_id": 400707,
+      "last_id": 401545,
+      "probability": 0.0014774194589313254,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "E8QrgX14c181044fay89_2D",
+      "images": 36,
+      "first_id": 401546,
+      "last_id": 401581,
+      "probability": 0.00030603710478459343,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "EDeqH0583U6ix2R4k406_3D",
+      "images": 2281,
+      "first_id": 401582,
+      "last_id": 403862,
+      "probability": 0.002436045955942856,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "EOu5l13a564j8m0rO810_3D",
+      "images": 2805,
+      "first_id": 403863,
+      "last_id": 406667,
+      "probability": 0.002701402311564548,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "EZj3HQ9JRw4g91y84Xy6_3D",
+      "images": 995,
+      "first_id": 406668,
+      "last_id": 407662,
+      "probability": 0.0016089197200244811,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Em6ne9Qs48461q7Z6gy1_3D",
+      "images": 286,
+      "first_id": 407663,
+      "last_id": 407948,
+      "probability": 0.0008625928439306269,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "F3k6pN67n9e785ie7q95_2D",
+      "images": 13,
+      "first_id": 407949,
+      "last_id": 407961,
+      "probability": 0.0001839054122492329,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "FEp0955F7o10qvoi0474_3D",
+      "images": 103,
+      "first_id": 407962,
+      "last_id": 408064,
+      "probability": 0.0005176562318922673,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Fe760Wb4Lhy82r8aO9H7_3D",
+      "images": 1321,
+      "first_id": 408065,
+      "last_id": 409385,
+      "probability": 0.0018538485139480095,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Fermie2018_video",
+      "images": 18,
+      "first_id": 409386,
+      "last_id": 409403,
+      "probability": 0.00021640091208788404,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "GK2e3o6f688O4Q47xyF3_3D",
+      "images": 1450,
+      "first_id": 409404,
+      "last_id": 410853,
+      "probability": 0.0019422576266791348,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "GMJ581966W5EW4ID27FR_3D",
+      "images": 229,
+      "first_id": 410854,
+      "last_id": 411082,
+      "probability": 0.0007718636263512991,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "GO52wd4vrq94x2O12bip_3D",
+      "images": 4420,
+      "first_id": 411083,
+      "last_id": 415502,
+      "probability": 0.0033910482483371575,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Genoud2018_video",
+      "images": 1761,
+      "first_id": 415503,
+      "last_id": 417263,
+      "probability": 0.0021404373088888006,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Gl1M8N0525d391T0839x_3D",
+      "images": 211,
+      "first_id": 417264,
+      "last_id": 417474,
+      "probability": 0.0007409076210511737,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Gl4u0Aw81WU69F6mnSrE_2D",
+      "images": 2281,
+      "first_id": 417475,
+      "last_id": 419755,
+      "probability": 0.002436045955942856,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Glancy2016_m1invBV2",
+      "images": 1504,
+      "first_id": 419756,
+      "last_id": 421259,
+      "probability": 0.0019780932113150455,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Goggin2019",
+      "images": 6,
+      "first_id": 421260,
+      "last_id": 421265,
+      "probability": 0.00012493912484682037,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Grudniewska2018",
+      "images": 509,
+      "first_id": 421266,
+      "last_id": 421774,
+      "probability": 0.0011507519659626983,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "H4Q2VN35MO22R1r71821_3D",
+      "images": 834,
+      "first_id": 421775,
+      "last_id": 422608,
+      "probability": 0.0014730105578477782,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "H97Q2GHESJP9o8Vc5bS8_2D",
+      "images": 224,
+      "first_id": 422609,
+      "last_id": 422832,
+      "probability": 0.0007633906624961232,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "HK70T9455X4973Aj8670_3D",
+      "images": 756,
+      "first_id": 422833,
+      "last_id": 423588,
+      "probability": 0.0014024381981405315,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Han2019_002_video",
+      "images": 10,
+      "first_id": 423589,
+      "last_id": 423598,
+      "probability": 0.0001612957166071549,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Hennies2020_AMST_HeLaBV2",
+      "images": 5079,
+      "first_id": 423599,
+      "last_id": 428677,
+      "probability": 0.003635062988815291,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Hennies2020_AMST_PlatyBV2",
+      "images": 6757,
+      "first_id": 428678,
+      "last_id": 435434,
+      "probability": 0.004192757976310177,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Hu2020_16_video",
+      "images": 3,
+      "first_id": 435435,
+      "last_id": 435437,
+      "probability": 8.834530241469937e-05,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Hu2020_17_video",
+      "images": 1,
+      "first_id": 435438,
+      "last_id": 435438,
+      "probability": 5.100618413076558e-05,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Hunt2019",
+      "images": 6418,
+      "first_id": 435439,
+      "last_id": 441856,
+      "probability": 0.004086228897170895,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Hunt2019_CAP",
+      "images": 5679,
+      "first_id": 441857,
+      "last_id": 447535,
+      "probability": 0.003843782177023522,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "I6J7z4AZ2Dmlm7S91C2q_3D",
+      "images": 751,
+      "first_id": 447536,
+      "last_id": 448286,
+      "probability": 0.0013977928120811585,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "IrvHd483ld1YDa5343xf_2D",
+      "images": 6613,
+      "first_id": 448287,
+      "last_id": 454899,
+      "probability": 0.004147840957642044,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "J1yt41078625R85fd0G8_3D",
+      "images": 116,
+      "first_id": 454900,
+      "last_id": 455015,
+      "probability": 0.0005493534154544424,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "J8h80049573O293DqtTS_3D",
+      "images": 5,
+      "first_id": 455016,
+      "last_id": 455020,
+      "probability": 0.00011405329498926286,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "JP93rE2DAX36J8924470_3D",
+      "images": 488,
+      "first_id": 455021,
+      "last_id": 455508,
+      "probability": 0.0011267634356668672,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Jiang2020_file02_video",
+      "images": 26164,
+      "first_id": 455509,
+      "last_id": 481672,
+      "probability": 0.00825039809727579,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Joesch2016BV2",
+      "images": 62620,
+      "first_id": 481673,
+      "last_id": 544292,
+      "probability": 0.012763781646604482,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Joshi2020",
+      "images": 12,
+      "first_id": 544293,
+      "last_id": 544304,
+      "probability": 0.00017669060482939874,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "K10O389P733pM31bS02H_3D",
+      "images": 1321,
+      "first_id": 544305,
+      "last_id": 545625,
+      "probability": 0.0018538485139480095,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "K8f0y834403S359Yt932_3D",
+      "images": 336,
+      "first_id": 545626,
+      "last_id": 545961,
+      "probability": 0.0009349587987603544,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Khadangi2019",
+      "images": 912,
+      "first_id": 545962,
+      "last_id": 546873,
+      "probability": 0.0015403529814488576,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Kuipers2015",
+      "images": 10283,
+      "first_id": 546874,
+      "last_id": 557156,
+      "probability": 0.005172288634420666,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Kuipers2016",
+      "images": 34,
+      "first_id": 557157,
+      "last_id": 557190,
+      "probability": 0.00029741460600611586,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Kuipers2020",
+      "images": 50,
+      "first_id": 557191,
+      "last_id": 557240,
+      "probability": 0.00036066818681314007,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Kuroda2020_1_video",
+      "images": 262,
+      "first_id": 557241,
+      "last_id": 557502,
+      "probability": 0.0008256072157693205,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Kuroda2020_2_video",
+      "images": 223,
+      "first_id": 557503,
+      "last_id": 557725,
+      "probability": 0.0007616847594423092,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Kuroda2020_3_video",
+      "images": 264,
+      "first_id": 557726,
+      "last_id": 557989,
+      "probability": 0.0008287523975045456,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "L11x78SY23o8n6t41D26_2D",
+      "images": 9127,
+      "first_id": 557990,
+      "last_id": 567116,
+      "probability": 0.0048728928256550974,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "L7Gg66b870H5R8xizL81_3D",
+      "images": 2404,
+      "first_id": 567117,
+      "last_id": 569520,
+      "probability": 0.0025008639487733185,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "L999wWZMs20jCr35McXZ_3D",
+      "images": 528,
+      "first_id": 569521,
+      "last_id": 570048,
+      "probability": 0.0011720328804001468,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "LC3v0N6R81FIFt18801N_3D",
+      "images": 11,
+      "first_id": 570049,
+      "last_id": 570059,
+      "probability": 0.0001691683747495293,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "LQL65cat2pL62K5I218t_3D",
+      "images": 1991,
+      "first_id": 570060,
+      "last_id": 572050,
+      "probability": 0.002275927714534644,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Luckner2018_MOESM5_video",
+      "images": 46,
+      "first_id": 572051,
+      "last_id": 572096,
+      "probability": 0.0003459407719548996,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Luckner2018_MOESM7_video",
+      "images": 645,
+      "first_id": 572097,
+      "last_id": 572741,
+      "probability": 0.0012953964175610906,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Luckner2018_MOESM8_video",
+      "images": 441,
+      "first_id": 572742,
+      "last_id": 573182,
+      "probability": 0.0010711298667460771,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "LvfM141NGDcW0B33GGv0_2D",
+      "images": 149,
+      "first_id": 573183,
+      "last_id": 573331,
+      "probability": 0.0006226098233385438,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "M6LYBj51488b3GP3GTBJ_2D",
+      "images": 39,
+      "first_id": 573332,
+      "last_id": 573370,
+      "probability": 0.0003185335178025712,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "M84U8F5l5249q7e58Y74_3D",
+      "images": 25,
+      "first_id": 573371,
+      "last_id": 573395,
+      "probability": 0.00025503092065382786,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "M9RsFHJ2G46O387nBwnd_2D",
+      "images": 2532,
+      "first_id": 573396,
+      "last_id": 575927,
+      "probability": 0.0025665792867512424,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "MX65at3fKAA73djigt1e_3D",
+      "images": 124,
+      "first_id": 575928,
+      "last_id": 576051,
+      "probability": 0.0005679808285744455,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Machado2018BV2",
+      "images": 2632,
+      "first_id": 576052,
+      "last_id": 578683,
+      "probability": 0.002616771353622374,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Maimets2016",
+      "images": 19,
+      "first_id": 578684,
+      "last_id": 578702,
+      "probability": 0.00022233080212163517,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Moller2020_flavivirus",
+      "images": 170,
+      "first_id": 578703,
+      "last_id": 578872,
+      "probability": 0.0006650392765309923,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Moller2020_mimivirus",
+      "images": 54,
+      "first_id": 578873,
+      "last_id": 578926,
+      "probability": 0.0003748173745404612,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Morath2012_bone_marrow",
+      "images": 409,
+      "first_id": 578927,
+      "last_id": 579335,
+      "probability": 0.0010315362355287666,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Morath2012_human_bcells",
+      "images": 586,
+      "first_id": 579336,
+      "last_id": 579921,
+      "probability": 0.001234728982519968,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Morath2012_jurkat",
+      "images": 941,
+      "first_id": 579922,
+      "last_id": 580862,
+      "probability": 0.0015646515910023708,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Morath2012_mouse_bcells",
+      "images": 601,
+      "first_id": 580863,
+      "last_id": 581463,
+      "probability": 0.0012504319743866592,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Morath2012_tcell_blast",
+      "images": 410,
+      "first_id": 581464,
+      "last_id": 581873,
+      "probability": 0.0010327965124013736,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Mw4887RktLH73Cm6Jo8t_3D",
+      "images": 1160,
+      "first_id": 581874,
+      "last_id": 583033,
+      "probability": 0.001737208033228782,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "N293N207Y456Z2h495Bd_3D",
+      "images": 32,
+      "first_id": 583034,
+      "last_id": 583065,
+      "probability": 0.00028853454945051207,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "N2A54aSw4Lf8o973I8i3_3D",
+      "images": 347,
+      "first_id": 583066,
+      "last_id": 583412,
+      "probability": 0.0009501399341122348,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "N6idX53K25q650u8599a_3D",
+      "images": 4,
+      "first_id": 583413,
+      "last_id": 583416,
+      "probability": 0.00010201236826153116,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "NV832cuYm5xa899L7H5J_3D",
+      "images": 1760,
+      "first_id": 583417,
+      "last_id": 585176,
+      "probability": 0.0021398294891097165,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Nm772aG9820Mq43603Oj_2D",
+      "images": 8648,
+      "first_id": 585177,
+      "last_id": 593824,
+      "probability": 0.004743300889437792,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "O0471719pw6eoU93B49a_3D",
+      "images": 2843,
+      "first_id": 593825,
+      "last_id": 596667,
+      "probability": 0.002719639023854155,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "O36p1UV55q8hP9d90o18_2D",
+      "images": 42,
+      "first_id": 596668,
+      "last_id": 596709,
+      "probability": 0.0003305578533667376,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "O4Rzfk6218021czK5657_3D",
+      "images": 2447,
+      "first_id": 596710,
+      "last_id": 599156,
+      "probability": 0.002523131113421592,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "OHJ6188G1w3yT4o90gce_3D",
+      "images": 60,
+      "first_id": 599157,
+      "last_id": 599216,
+      "probability": 0.0003950922033840882,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "OatAt4CH1Y89D10qb573",
+      "images": 1330,
+      "first_id": 599217,
+      "last_id": 600546,
+      "probability": 0.0018601529480242957,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Ozd2Tu1H7vos2Pd8697k_3D",
+      "images": 115,
+      "first_id": 600547,
+      "last_id": 600661,
+      "probability": 0.0005469803874471914,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Parlakgul2020_figures",
+      "images": 43,
+      "first_id": 600662,
+      "last_id": 600704,
+      "probability": 0.00033446991679672355,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Parlakgul2020_file03_video",
+      "images": 1353,
+      "first_id": 600705,
+      "last_id": 602057,
+      "probability": 0.0018761680358896037,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Parlakgul2020_file04_video",
+      "images": 872,
+      "first_id": 602058,
+      "last_id": 602929,
+      "probability": 0.0015061945673368771,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "PftZE86YgS54j6vfi48K_2D",
+      "images": 4,
+      "first_id": 602930,
+      "last_id": 602933,
+      "probability": 0.00010201236826153116,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "PgsT16qj4w3LBB612879_3D",
+      "images": 226,
+      "first_id": 602934,
+      "last_id": 603159,
+      "probability": 0.0007667910831676599,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Q12S072128Eu3424Eu1v_3D",
+      "images": 1070,
+      "first_id": 603160,
+      "last_id": 604229,
+      "probability": 0.001668455866048686,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Q3cNG15zI741I2NS4uV8_2D",
+      "images": 2386,
+      "first_id": 604230,
+      "last_id": 606615,
+      "probability": 0.0024914837217051224,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Qh55130q0A9905dblh6x_3D",
+      "images": 322,
+      "first_id": 606616,
+      "last_id": 606937,
+      "probability": 0.0009152732509503722,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "QnRA6q79Nx46nzG8952C_3D",
+      "images": 54,
+      "first_id": 606938,
+      "last_id": 606991,
+      "probability": 0.0003748173745404612,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "R3M171zx572ZSxx3K03S_3D",
+      "images": 1101,
+      "first_id": 606992,
+      "last_id": 608092,
+      "probability": 0.0016924525199719191,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "RcOMDuIb7u5BHIi15646_3D",
+      "images": 15,
+      "first_id": 608093,
+      "last_id": 608107,
+      "probability": 0.0001975461016920441,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "RfH2w9771YFA183q28gJ_3D",
+      "images": 1841,
+      "first_id": 608108,
+      "last_id": 609948,
+      "probability": 0.0021885160129296874,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Roels2020_mouse_denoised",
+      "images": 7,
+      "first_id": 609949,
+      "last_id": 609955,
+      "probability": 0.00013494967853637494,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Roels2020_murine_denoised",
+      "images": 1784,
+      "first_id": 609956,
+      "last_id": 611739,
+      "probability": 0.002154369834112404,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Rudlaff2020_S10BV2",
+      "images": 92,
+      "first_id": 611740,
+      "last_id": 611831,
+      "probability": 0.000489234131476437,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Rudlaff2020_S11BV2",
+      "images": 129,
+      "first_id": 611832,
+      "last_id": 611960,
+      "probability": 0.0005793188894952602,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Rudlaff2020_S9BV2",
+      "images": 62,
+      "first_id": 611961,
+      "last_id": 612022,
+      "probability": 0.0004016230954689444,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "S65066J931X5f40zr2OT_3D",
+      "images": 79,
+      "first_id": 612023,
+      "last_id": 612101,
+      "probability": 0.00045335288103964154,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "SUiipO53q1qXl68i16s0_3D",
+      "images": 3455,
+      "first_id": 612102,
+      "last_id": 615556,
+      "probability": 0.0029981051485320352,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "SWAN33M31ii824bZI2uK_3D",
+      "images": 46,
+      "first_id": 615557,
+      "last_id": 615602,
+      "probability": 0.0003459407719548996,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Sakaguchi2016_L-Schizont_2",
+      "images": 219,
+      "first_id": 615603,
+      "last_id": 615821,
+      "probability": 0.0007548225947124013,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Sartori-Rupp2019_16_video",
+      "images": 69,
+      "first_id": 615822,
+      "last_id": 615890,
+      "probability": 0.00042368918625701056,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Sartori-Rupp2019_18_video",
+      "images": 26,
+      "first_id": 615891,
+      "last_id": 615916,
+      "probability": 0.0002600815281966803,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Scotuzzi2017",
+      "images": 47,
+      "first_id": 615917,
+      "last_id": 615963,
+      "probability": 0.00034968078088498574,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Sokol2015",
+      "images": 167,
+      "first_id": 615964,
+      "last_id": 616130,
+      "probability": 0.0006591451637311169,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "T806OzF576188Z95P6te_3D",
+      "images": 1407,
+      "first_id": 616131,
+      "last_id": 617537,
+      "probability": 0.0019132418987549008,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "T9Q6576rV9eumQ00ND1c_3D",
+      "images": 135,
+      "first_id": 617538,
+      "last_id": 617672,
+      "probability": 0.0005926383050761323,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Tsang2018_50451",
+      "images": 7185,
+      "first_id": 617673,
+      "last_id": 624857,
+      "probability": 0.004323507538873215,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Tsang2018_50452BV2",
+      "images": 1552,
+      "first_id": 624858,
+      "last_id": 626409,
+      "probability": 0.0020094106180645567,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "U873C0L386l784X14698_3D",
+      "images": 193,
+      "first_id": 626410,
+      "last_id": 626602,
+      "probability": 0.0007086005561522242,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "UOTspB1Db76X4099h1C4_3D",
+      "images": 63,
+      "first_id": 626603,
+      "last_id": 626665,
+      "probability": 0.00040484903560912485,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Un5m8pL7y0F07Zsm2X1R_3D",
+      "images": 18,
+      "first_id": 626666,
+      "last_id": 626683,
+      "probability": 0.00021640091208788404,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "UroCell",
+      "images": 589,
+      "first_id": 626684,
+      "last_id": 627272,
+      "probability": 0.0012378855168122536,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "V36J6j27zgz9H1emd44M_3D",
+      "images": 713,
+      "first_id": 627273,
+      "last_id": 627985,
+      "probability": 0.001361970181157302,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "V393mr6RC9436k42vchV_2D",
+      "images": 22,
+      "first_id": 627986,
+      "last_id": 628007,
+      "probability": 0.00023924020989539858,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "V3G9my0Z27Y950PFB49U_2D",
+      "images": 537,
+      "first_id": 628008,
+      "last_id": 628544,
+      "probability": 0.0011819795895510628,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "V6j91F69493JC51LhI4R_3D",
+      "images": 549,
+      "first_id": 628545,
+      "last_id": 629093,
+      "probability": 0.0011951130992296408,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "V9y63RxYgN0h057i5908_3D",
+      "images": 821,
+      "first_id": 629094,
+      "last_id": 629914,
+      "probability": 0.0014614851702554024,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "W34ObM2QN5I2txM0DQA9_3D",
+      "images": 3375,
+      "first_id": 629915,
+      "last_id": 633289,
+      "probability": 0.0029631915253806617,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "W3I0a76BF35aN61QohDQ_3D",
+      "images": 2231,
+      "first_id": 633290,
+      "last_id": 635520,
+      "probability": 0.002409198696348324,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "W666d135348M8bQ3751r_3D",
+      "images": 44,
+      "first_id": 635521,
+      "last_id": 635564,
+      "probability": 0.0003383367494990586,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Wang2017_sm1_video",
+      "images": 49,
+      "first_id": 635565,
+      "last_id": 635613,
+      "probability": 0.00035704328891535906,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Wang2017_sm2_video",
+      "images": 20,
+      "first_id": 635614,
+      "last_id": 635633,
+      "probability": 0.00022810658997852572,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "X10ip14fLD47MA8489dQ_2D",
+      "images": 117,
+      "first_id": 635634,
+      "last_id": 635750,
+      "probability": 0.0005517162367476988,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "X60714t6Y4786xex15tq_2D",
+      "images": 9,
+      "first_id": 635751,
+      "last_id": 635759,
+      "probability": 0.00015301855239229672,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "X8M7PH279ByTmppQ3tz4_3D",
+      "images": 128,
+      "first_id": 635760,
+      "last_id": 635887,
+      "probability": 0.0005770690989010241,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "XN2Aj88A9739T7jDK5f1_2D",
+      "images": 38,
+      "first_id": 635888,
+      "last_id": 635925,
+      "probability": 0.0003144232356937053,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Xiol34RrH4Sd95A788jC_3D",
+      "images": 10307,
+      "first_id": 635926,
+      "last_id": 646232,
+      "probability": 0.005178321046191242,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Xnd4gKAwhzcWt9A8Vl68_3D",
+      "images": 789,
+      "first_id": 646233,
+      "last_id": 647021,
+      "probability": 0.0014327200412676067,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "XwA9op28mFn0r69Yb02z_2D",
+      "images": 585,
+      "first_id": 647022,
+      "last_id": 647606,
+      "probability": 0.0012336750096582218,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Xx6YO1Vr57y42v0lx3X0_3D",
+      "images": 18,
+      "first_id": 647607,
+      "last_id": 647624,
+      "probability": 0.00021640091208788404,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Y52z8ukO9G7WJ77T777u_3D",
+      "images": 20,
+      "first_id": 647625,
+      "last_id": 647644,
+      "probability": 0.00022810658997852572,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Y89JW6j942S4k1Db77ky_3D",
+      "images": 47,
+      "first_id": 647645,
+      "last_id": 647691,
+      "probability": 0.00034968078088498574,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "YFn360oy01aP89OHK8CQ_3D",
+      "images": 35,
+      "first_id": 647692,
+      "last_id": 647726,
+      "probability": 0.0003017566547490787,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Yan2020_170314BV2",
+      "images": 10207,
+      "first_id": 647727,
+      "last_id": 657933,
+      "probability": 0.005153139409667567,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Yan2020_170821BV2",
+      "images": 4580,
+      "first_id": 657934,
+      "last_id": 662513,
+      "probability": 0.0034518790757620053,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Yan2020_180130_down",
+      "images": 11235,
+      "first_id": 662514,
+      "last_id": 673748,
+      "probability": 0.005406414917299527,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Yan2020_180130_up",
+      "images": 12016,
+      "first_id": 673749,
+      "last_id": 685764,
+      "probability": 0.005591171248324634,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Yb6H4Sd4qx4NC5s961eZ_3D",
+      "images": 305,
+      "first_id": 685765,
+      "last_id": 686069,
+      "probability": 0.0008907847102259762,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "YiCnw9E833015Ho57bdy_3D",
+      "images": 1945,
+      "first_id": 686070,
+      "last_id": 688014,
+      "probability": 0.0022494825947506547,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Yoshida2020_10460_t1",
+      "images": 812,
+      "first_id": 688015,
+      "last_id": 688826,
+      "probability": 0.0014534525191764016,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Yoshida2020_10460_t2",
+      "images": 498,
+      "first_id": 688827,
+      "last_id": 689324,
+      "probability": 0.0011382495983533743,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Yoshida2020_10460_t3",
+      "images": 432,
+      "first_id": 689325,
+      "last_id": 689756,
+      "probability": 0.0010601436289763924,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Yoshida2020_10461_01BV2",
+      "images": 6822,
+      "first_id": 689757,
+      "last_id": 696578,
+      "probability": 0.004212876149518927,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Yoshida2020_10462_01",
+      "images": 4011,
+      "first_id": 696579,
+      "last_id": 700589,
+      "probability": 0.0032303469190385183,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Yoshida2020_10463_01",
+      "images": 5020,
+      "first_id": 700590,
+      "last_id": 705609,
+      "probability": 0.0036138880328946883,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Yoshida2020_10463_02",
+      "images": 4258,
+      "first_id": 705610,
+      "last_id": 709867,
+      "probability": 0.0033283245078835526,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Yoshida2020_10463_03",
+      "images": 4494,
+      "first_id": 709868,
+      "last_id": 714361,
+      "probability": 0.0034193170229154745,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Yoshida2020_10463_04",
+      "images": 158,
+      "first_id": 714362,
+      "last_id": 714519,
+      "probability": 0.0006411377929071775,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "Z09B881E9Ge9s09371YB_2D",
+      "images": 49,
+      "first_id": 714520,
+      "last_id": 714568,
+      "probability": 0.00035704328891535906,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "a33j3N8ZsFEEv9ph6L8C_3D",
+      "images": 1026,
+      "first_id": 714569,
+      "last_id": 715594,
+      "probability": 0.001633791057905105,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "a97cp8Tcp5xCTbr4VP05_3D",
+      "images": 1023,
+      "first_id": 715595,
+      "last_id": 716617,
+      "probability": 0.0016314007258892396,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "aTn83W4FtqeV6Rc2E9Qd_3D",
+      "images": 18,
+      "first_id": 716618,
+      "last_id": 716635,
+      "probability": 0.00021640091208788404,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "ax97DHMe4HA24EEg523n_3D",
+      "images": 1023,
+      "first_id": 716636,
+      "last_id": 717658,
+      "probability": 0.0016314007258892396,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "b07Yzq6Vry5yz0e9T76D_3D",
+      "images": 544,
+      "first_id": 717659,
+      "last_id": 718202,
+      "probability": 0.0011896584240244634,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "b319Tchu855S45E7ps92_3D",
+      "images": 1069,
+      "first_id": 718203,
+      "last_id": 719271,
+      "probability": 0.0016676760315279136,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "b8cA5W44skp47T2SzPN2_3D",
+      "images": 59,
+      "first_id": 719272,
+      "last_id": 719330,
+      "probability": 0.00039178593435103325,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "bbD0oV702y9rMZp7z6Oo_3D",
+      "images": 283,
+      "first_id": 719331,
+      "last_id": 719613,
+      "probability": 0.0008580568290862687,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "bhatla2015",
+      "images": 26563,
+      "first_id": 719614,
+      "last_id": 746176,
+      "probability": 0.008313069196184105,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "bloss2018",
+      "images": 63759,
+      "first_id": 746177,
+      "last_id": 809935,
+      "probability": 0.01287933924647149,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "bock2011",
+      "images": 38877,
+      "first_id": 809936,
+      "last_id": 848812,
+      "probability": 0.010057017518771277,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "bumbarger2013",
+      "images": 28479,
+      "first_id": 848813,
+      "last_id": 877291,
+      "probability": 0.008607661942180543,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "c5G347SF3UBEVK34W1v7",
+      "images": 1210,
+      "first_id": 877292,
+      "last_id": 878501,
+      "probability": 0.0017742528826787038,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "cA3yLu9lf40s3Xv355y3_2D",
+      "images": 2001,
+      "first_id": 878502,
+      "last_id": 880502,
+      "probability": 0.0022816360949947092,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "cY02DS9c661W53YOG912_3D",
+      "images": 72,
+      "first_id": 880503,
+      "last_id": 880574,
+      "probability": 0.00043280182417576807,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "cil_micro3632_filter_rec",
+      "images": 169,
+      "first_id": 880575,
+      "last_id": 880743,
+      "probability": 0.0006630803936999525,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "cil_micro6023",
+      "images": 372,
+      "first_id": 880744,
+      "last_id": 881115,
+      "probability": 0.0009837716528160085,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "cil_micro6355_ALZ_3486.st.flipBV4",
+      "images": 662,
+      "first_id": 881116,
+      "last_id": 881777,
+      "probability": 0.0013123565074182374,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "cil_micro8483_stack",
+      "images": 1,
+      "first_id": 881778,
+      "last_id": 881778,
+      "probability": 5.100618413076558e-05,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "cil_project20099_stack50058_BV4",
+      "images": 381,
+      "first_id": 881779,
+      "last_id": 882159,
+      "probability": 0.0009956009955100363,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "collman2015",
+      "images": 402,
+      "first_id": 882160,
+      "last_id": 882561,
+      "probability": 0.0010226708118802395,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "d3096421v4uR759BH221_3D",
+      "images": 1037,
+      "first_id": 882562,
+      "last_id": 883598,
+      "probability": 0.00164252584756103,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "d3Ejna064WC31EccmS82_3D",
+      "images": 2017,
+      "first_id": 883599,
+      "last_id": 885615,
+      "probability": 0.0022907399160742824,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "d6u5H89256pU149QT41Q_3D",
+      "images": 278,
+      "first_id": 885616,
+      "last_id": 885893,
+      "probability": 0.0008504430420925755,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "dTS876855HG5yru78R9Y_3D",
+      "images": 1765,
+      "first_id": 885894,
+      "last_id": 887658,
+      "probability": 0.002142866863937528,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "da72EA74W6NNHiAX9cS6_3D",
+      "images": 97,
+      "first_id": 887659,
+      "last_id": 887755,
+      "probability": 0.0005023526545161392,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "e66Ko1F31Yzuy3v07cG6_3D",
+      "images": 512,
+      "first_id": 887756,
+      "last_id": 888267,
+      "probability": 0.0011541381978020483,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "e6XZ088v76T64ykKJUG0_3D",
+      "images": 4,
+      "first_id": 888268,
+      "last_id": 888271,
+      "probability": 0.00010201236826153116,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "e7DE72kk7gIT5a67kDWN_3D",
+      "images": 17,
+      "first_id": 888272,
+      "last_id": 888288,
+      "probability": 0.0002103038847308498,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "e7x0w20zD0LEs30z7RCi_3D",
+      "images": 1623,
+      "first_id": 888289,
+      "last_id": 889911,
+      "probability": 0.002054859318829607,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "eAs78L7672176G2ms41u_3D",
+      "images": 2151,
+      "first_id": 889912,
+      "last_id": 892062,
+      "probability": 0.0023656094125869428,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "eaL75jSBo8ry173xu52q_3D",
+      "images": 28,
+      "first_id": 892063,
+      "last_id": 892090,
+      "probability": 0.0002698993570727499,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "ebm87N44vNNH4Ntp48jy_3D",
+      "images": 1036,
+      "first_id": 892091,
+      "last_id": 893126,
+      "probability": 0.0016417336961537029,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "f814ay91UOLQO8LU1N1z_3D",
+      "images": 1338,
+      "first_id": 893127,
+      "last_id": 894464,
+      "probability": 0.0018657390054882088,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "fV0Iv03c9079383NV389_2D",
+      "images": 57,
+      "first_id": 894465,
+      "last_id": 894521,
+      "probability": 0.0003850882453622144,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "g5p6Ob04a5ELoFTFga94_3D",
+      "images": 2885,
+      "first_id": 894522,
+      "last_id": 897406,
+      "probability": 0.0027396541596509598,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "g6hab90BNa741CW40Hu6_2D",
+      "images": 56,
+      "first_id": 897407,
+      "last_id": 897462,
+      "probability": 0.0003816953312480616,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "g912E49kXxso4e6pn6MX_3D",
+      "images": 1018,
+      "first_id": 897463,
+      "last_id": 898480,
+      "probability": 0.00162740903719195,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "gub8Y3q8444t25J62913_2D",
+      "images": 22,
+      "first_id": 898481,
+      "last_id": 898502,
+      "probability": 0.00023924020989539858,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "h0363AnPM1B7kD4RZYDa_2D",
+      "images": 1509,
+      "first_id": 898503,
+      "last_id": 900011,
+      "probability": 0.0019813785369657603,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "h2gz2L960d05Lh72b4Ti_2D",
+      "images": 126,
+      "first_id": 900012,
+      "last_id": 900137,
+      "probability": 0.0005725429968720925,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "h66972y4L1hP700677dU_3D",
+      "images": 84,
+      "first_id": 900138,
+      "last_id": 900221,
+      "probability": 0.0004674793993801772,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "h80fal5W9S791BclEGhB_2D",
+      "images": 243,
+      "first_id": 900222,
+      "last_id": 900464,
+      "probability": 0.0007951077217322943,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "h88ibA80sBuM551DL45V_3D",
+      "images": 93,
+      "first_id": 900465,
+      "last_id": 900557,
+      "probability": 0.0004918858264080043,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "hHWQS15Qdmn7S995178n_3D",
+      "images": 194,
+      "first_id": 900558,
+      "last_id": 900751,
+      "probability": 0.0007104339371108499,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "hIxsu95gl46A073wne2n",
+      "images": 5,
+      "first_id": 900752,
+      "last_id": 900756,
+      "probability": 0.00011405329498926286,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "hYnHrGy6RDJ4BX6cF968_3D",
+      "images": 1410,
+      "first_id": 900757,
+      "last_id": 902166,
+      "probability": 0.0019152805161672798,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "hcb6X5u7L5vZmEa0318h_3D",
+      "images": 41,
+      "first_id": 902167,
+      "last_id": 902207,
+      "probability": 0.0003265989338666678,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "helmstaedter2011nn.2868_E1088",
+      "images": 432,
+      "first_id": 902208,
+      "last_id": 902639,
+      "probability": 0.0010601436289763924,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "helmstaedter2011nn.2868_K0563",
+      "images": 1496,
+      "first_id": 902640,
+      "last_id": 904135,
+      "probability": 0.0019728253105873355,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "hildebrand2017",
+      "images": 5121,
+      "first_id": 904136,
+      "last_id": 909256,
+      "probability": 0.0036500618388018006,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "i20wYv0oY57CxE12F47h_3D",
+      "images": 1327,
+      "first_id": 909257,
+      "last_id": 910583,
+      "probability": 0.0018580538467936642,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "i5FhElp6r3xwJJ5s1958_3D",
+      "images": 33,
+      "first_id": 910584,
+      "last_id": 910616,
+      "probability": 0.0002930082201000367,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "i63n309l949w3r9152MB_3D",
+      "images": 1730,
+      "first_id": 910617,
+      "last_id": 912346,
+      "probability": 0.002121513921207236,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "i7tQ3Y2jb0BikH98N29h_2D",
+      "images": 9,
+      "first_id": 912347,
+      "last_id": 912355,
+      "probability": 0.00015301855239229672,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "il103P1Gf55Hx0i93j92_3D",
+      "images": 3,
+      "first_id": 912356,
+      "last_id": 912358,
+      "probability": 8.834530241469937e-05,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "jLFnJG45CYC18KJot3HT_3D",
+      "images": 27,
+      "first_id": 912359,
+      "last_id": 912385,
+      "probability": 0.0002650359072440981,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "jcvG7527W5u6s45syHs0_3D",
+      "images": 527,
+      "first_id": 912386,
+      "last_id": 912912,
+      "probability": 0.0011709224747691383,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "jrc_choroid-plexus-2_openorganelle",
+      "images": 8197,
+      "first_id": 912913,
+      "last_id": 921109,
+      "probability": 0.00461796143640352,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "jrc_ctl-id8-1_openorganelle",
+      "images": 2943,
+      "first_id": 921110,
+      "last_id": 924052,
+      "probability": 0.0027670561074955705,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "jrc_ctl-id8-2_openorganelle",
+      "images": 421,
+      "first_id": 924053,
+      "last_id": 924473,
+      "probability": 0.0010465593987174534,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "jrc_ctl-id8-3_openorganelle",
+      "images": 3819,
+      "first_id": 924474,
+      "last_id": 928292,
+      "probability": 0.0031520831365910995,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "jrc_ctl-id8-4_openorganelle",
+      "images": 5257,
+      "first_id": 928293,
+      "last_id": 933549,
+      "probability": 0.0036982121651603864,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "jrc_ctl-id8-5_openorganelle",
+      "images": 1791,
+      "first_id": 933550,
+      "last_id": 935340,
+      "probability": 0.0021585923185888016,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "jrc_hela-1_openorganelle",
+      "images": 450,
+      "first_id": 935341,
+      "last_id": 935790,
+      "probability": 0.0010820045604394203,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "jrc_hela-21_openorganelle",
+      "images": 3270,
+      "first_id": 935791,
+      "last_id": 939060,
+      "probability": 0.0029167332377219054,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "jrc_hela-22_openorganelle",
+      "images": 3600,
+      "first_id": 939061,
+      "last_id": 942660,
+      "probability": 0.0030603710478459348,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "jrc_hela-2_openorganelle",
+      "images": 3447,
+      "first_id": 942661,
+      "last_id": 946107,
+      "probability": 0.0029946321034640708,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "jrc_hela-3_openorganelle",
+      "images": 4409,
+      "first_id": 946108,
+      "last_id": 950516,
+      "probability": 0.003386825989556462,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "jrc_hela-4_openorganelle",
+      "images": 2929,
+      "first_id": 950517,
+      "last_id": 953445,
+      "probability": 0.002760466748677549,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "jrc_hela-bfa_openorganelle",
+      "images": 13,
+      "first_id": 953446,
+      "last_id": 953458,
+      "probability": 0.0001839054122492329,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "jrc_hela-h89-1_openorganelle",
+      "images": 2720,
+      "first_id": 953459,
+      "last_id": 956178,
+      "probability": 0.0026601571061239692,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "jrc_hela-h89-2_openorganelle",
+      "images": 2756,
+      "first_id": 956179,
+      "last_id": 958934,
+      "probability": 0.0026777032208157026,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "jrc_jurkat-1_openorganelle",
+      "images": 75,
+      "first_id": 958935,
+      "last_id": 959009,
+      "probability": 0.0004417265120734969,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "jrc_macrophage-2_openorganelle",
+      "images": 31,
+      "first_id": 959010,
+      "last_id": 959040,
+      "probability": 0.00028399041428722277,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "jrc_mus-pancreas-1_openorganelle",
+      "images": 34117,
+      "first_id": 959041,
+      "last_id": 993157,
+      "probability": 0.009421244008710536,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "jrc_sum159-1_openorganelle",
+      "images": 111,
+      "first_id": 993158,
+      "last_id": 993268,
+      "probability": 0.0005373834952559981,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "k108UoQubm8k21k5QkFC_2D",
+      "images": 70,
+      "first_id": 993269,
+      "last_id": 993338,
+      "probability": 0.00042674835368248273,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "k75Kf715A9h6p4S60682_2D",
+      "images": 5977,
+      "first_id": 993339,
+      "last_id": 999315,
+      "probability": 0.00394334216225767,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "k8T5HvteP37L1oe8uM97_3D",
+      "images": 487,
+      "first_id": 999316,
+      "last_id": 999802,
+      "probability": 0.0011256083728971727,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "kO59378603k561i6j3u7_2D",
+      "images": 592,
+      "first_id": 999803,
+      "last_id": 1000394,
+      "probability": 0.00124103402257645,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "kUtv471lLkt79s2TU93e_3D",
+      "images": 87,
+      "first_id": 1000395,
+      "last_id": 1000481,
+      "probability": 0.000475754013439294,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "kharris2015_apical",
+      "images": 2302,
+      "first_id": 1000482,
+      "last_id": 1002783,
+      "probability": 0.0024472339787353307,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "kharris2015_oblique",
+      "images": 908,
+      "first_id": 1002784,
+      "last_id": 1003691,
+      "probability": 0.001536971302328075,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "kharris2015_spine",
+      "images": 385,
+      "first_id": 1003692,
+      "last_id": 1004076,
+      "probability": 0.0010008136017955098,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "l28724ArF2414tzd27lU_3D",
+      "images": 830,
+      "first_id": 1004077,
+      "last_id": 1004906,
+      "probability": 0.0014694739127499665,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "l2C4dFu1Y2t3VuG5459E_3D",
+      "images": 148,
+      "first_id": 1004907,
+      "last_id": 1005054,
+      "probability": 0.000620517011288225,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "l2c4q87att1BVs01TL0J_3D",
+      "images": 5583,
+      "first_id": 1005055,
+      "last_id": 1010637,
+      "probability": 0.0038111553190238604,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "l8566M4UlgH7svkU9911_3D",
+      "images": 2534,
+      "first_id": 1010638,
+      "last_id": 1013171,
+      "probability": 0.0025675927435673436,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "lee2016",
+      "images": 61821,
+      "first_id": 1013172,
+      "last_id": 1074992,
+      "probability": 0.012682090478203968,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "lg8G7ewTqur0ufh2u7BX",
+      "images": 2033,
+      "first_id": 1074993,
+      "last_id": 1077025,
+      "probability": 0.0022998076998326004,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "ljkN9d6g7U1obJ0A57z4_3D",
+      "images": 24,
+      "first_id": 1077026,
+      "last_id": 1077049,
+      "probability": 0.00024987824969364075,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "lu23D4849n7O2FgTBJ16_3D",
+      "images": 1203,
+      "first_id": 1077050,
+      "last_id": 1078252,
+      "probability": 0.0017691133021818075,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "m05774hPP98JSS9m0ozq_3D",
+      "images": 99,
+      "first_id": 1078253,
+      "last_id": 1078351,
+      "probability": 0.0005075051242485879,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "m0r2r9QaCr9n395J7VgJ_3D",
+      "images": 1681,
+      "first_id": 1078352,
+      "last_id": 1080032,
+      "probability": 0.002091253549361389,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "m122M75O2k48HtvvR86y_2D",
+      "images": 286,
+      "first_id": 1080033,
+      "last_id": 1080318,
+      "probability": 0.0008625928439306269,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "m65y4H92L8CHi4J4W8N8_3D",
+      "images": 2954,
+      "first_id": 1080319,
+      "last_id": 1083272,
+      "probability": 0.0027722224732232323,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "m6w1fvD9tN6rc1L3X092_2D",
+      "images": 44,
+      "first_id": 1083273,
+      "last_id": 1083316,
+      "probability": 0.0003383367494990586,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "m96Z33k8jz080FCYK73S_3D",
+      "images": 2720,
+      "first_id": 1083317,
+      "last_id": 1086036,
+      "probability": 0.0026601571061239692,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "mGfy0js8407IYOb3I0x7_3D",
+      "images": 59,
+      "first_id": 1086037,
+      "last_id": 1086095,
+      "probability": 0.00039178593435103325,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "mKG74IYz5B4ln583O8L4_3D",
+      "images": 141,
+      "first_id": 1086096,
+      "last_id": 1086236,
+      "probability": 0.0006056648789231552,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "mT4iI68h6x323J7l9q21_3D",
+      "images": 1818,
+      "first_id": 1086237,
+      "last_id": 1088054,
+      "probability": 0.002174802250780351,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "mUFe38L8273mhCZGT048_2D",
+      "images": 73,
+      "first_id": 1088055,
+      "last_id": 1088127,
+      "probability": 0.0004357970282476167,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "mgut583jdRU385hnhN4q_3D",
+      "images": 818,
+      "first_id": 1088128,
+      "last_id": 1088945,
+      "probability": 0.001458812534364069,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "mhf5b3U54VY3q79Ri2dg_2D",
+      "images": 1527,
+      "first_id": 1088946,
+      "last_id": 1090472,
+      "probability": 0.001993160871957165,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "microns_cortical_mm3",
+      "images": 48742,
+      "first_id": 1090473,
+      "last_id": 1139214,
+      "probability": 0.011260936435663088,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "mobie_yeast-clem",
+      "images": 6,
+      "first_id": 1139215,
+      "last_id": 1139220,
+      "probability": 0.00012493912484682037,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "n0htG4629QQCe4sygP6q_3D",
+      "images": 39,
+      "first_id": 1139221,
+      "last_id": 1139259,
+      "probability": 0.0003185335178025712,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "n10lxG85gPfK09mr2RTQ_3D",
+      "images": 686,
+      "first_id": 1139260,
+      "last_id": 1139945,
+      "probability": 0.0013359336593682157,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "n63H37085q7dg6984LJm_3D",
+      "images": 147,
+      "first_id": 1139946,
+      "last_id": 1140092,
+      "probability": 0.0006184171169028956,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "n6g9HdA0C8Thrz609Iv4_3D",
+      "images": 75,
+      "first_id": 1140093,
+      "last_id": 1140167,
+      "probability": 0.0004417265120734969,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "n796B9jsm44YP27b0Gj5_3D",
+      "images": 899,
+      "first_id": 1140168,
+      "last_id": 1141066,
+      "probability": 0.0015293351845830998,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "nA165oT3069d24O2X627_2D",
+      "images": 1054,
+      "first_id": 1141067,
+      "last_id": 1142120,
+      "probability": 0.0016559344443059835,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "np60Y31jKvbB25yk089d_3D",
+      "images": 2941,
+      "first_id": 1142121,
+      "last_id": 1145061,
+      "probability": 0.002766115731561023,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "o2j58G9SD938cpw62AEC_3D",
+      "images": 93,
+      "first_id": 1145062,
+      "last_id": 1145154,
+      "probability": 0.0004918858264080043,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "o6a66ZxZcuqdn0v6015h_3D",
+      "images": 283,
+      "first_id": 1145155,
+      "last_id": 1145437,
+      "probability": 0.0008580568290862687,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "ohHX052jR3NswGh0m7rp_3D",
+      "images": 212,
+      "first_id": 1145438,
+      "last_id": 1145649,
+      "probability": 0.000742661251009699,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "p3Ez34A02q8A8p1TQu6a_3D",
+      "images": 3,
+      "first_id": 1145650,
+      "last_id": 1145652,
+      "probability": 8.834530241469937e-05,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "pF60R78RQD97wfD9I0Uw_3D",
+      "images": 2067,
+      "first_id": 1145653,
+      "last_id": 1147719,
+      "probability": 0.0023189590130218104,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "perez2014",
+      "images": 2223,
+      "first_id": 1147720,
+      "last_id": 1149942,
+      "probability": 0.0024048753214937803,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "platybrowser_mobie",
+      "images": 13991,
+      "first_id": 1149943,
+      "last_id": 1163933,
+      "probability": 0.006033192918908332,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "plept4y8A5Aw2mFG7Z12_3D",
+      "images": 45,
+      "first_id": 1163934,
+      "last_id": 1163978,
+      "probability": 0.0003421598849677886,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "pqx3z3Y183Fq3Z1z6Q2m_3D",
+      "images": 25,
+      "first_id": 1163979,
+      "last_id": 1164003,
+      "probability": 0.00025503092065382786,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "q6HD2r0E797hCpv3237q_3D",
+      "images": 186,
+      "first_id": 1164004,
+      "last_id": 1164189,
+      "probability": 0.0006956316068452975,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "q6e4262363657515c6M3_3D",
+      "images": 1497,
+      "first_id": 1164190,
+      "last_id": 1165686,
+      "probability": 0.001973484567184045,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "qI3yUcpWs875E6o4aGg2_3D",
+      "images": 19,
+      "first_id": 1165687,
+      "last_id": 1165705,
+      "probability": 0.00022233080212163517,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "qmxVQwV2VrSe23dj7Z5v_3D",
+      "images": 142,
+      "first_id": 1165706,
+      "last_id": 1165847,
+      "probability": 0.0006078088321014938,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "r367U1a07102m6wCY3B4",
+      "images": 1447,
+      "first_id": 1165848,
+      "last_id": 1167294,
+      "probability": 0.0019402473543171036,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "rAj36nAkhIRr43MXkDzd_3D",
+      "images": 32,
+      "first_id": 1167295,
+      "last_id": 1167326,
+      "probability": 0.00028853454945051207,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "rHcv13Tt2TW42Q59866C_2D",
+      "images": 53,
+      "first_id": 1167327,
+      "last_id": 1167379,
+      "probability": 0.0003713306255048495,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "s3249HW26yfp08x2Q9Q1_2D",
+      "images": 255,
+      "first_id": 1167380,
+      "last_id": 1167634,
+      "probability": 0.0008145034432053055,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "s52s87m66d2w477Gj670_3D",
+      "images": 64,
+      "first_id": 1167635,
+      "last_id": 1167698,
+      "probability": 0.00040804947304612463,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "s7Q09271T74H9ho6eqQ7_3D",
+      "images": 487,
+      "first_id": 1167699,
+      "last_id": 1168185,
+      "probability": 0.0011256083728971727,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "sFF3gV4i57STT85SG9t6_3D",
+      "images": 28,
+      "first_id": 1168186,
+      "last_id": 1168213,
+      "probability": 0.0002698993570727499,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "sOi4hAl884Oiv466lL55_3D",
+      "images": 934,
+      "first_id": 1168214,
+      "last_id": 1169147,
+      "probability": 0.0015588210883514437,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "segem2015",
+      "images": 14703,
+      "first_id": 1169148,
+      "last_id": 1183850,
+      "probability": 0.006184802174710822,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "shapson-coe2021_h01",
+      "images": 41475,
+      "first_id": 1183851,
+      "last_id": 1225325,
+      "probability": 0.010387619469452339,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "sj11r41527518838AoSs_2D",
+      "images": 859,
+      "first_id": 1225326,
+      "last_id": 1226184,
+      "probability": 0.0014949250395991638,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "sponge-fibsem-cell1_mobie",
+      "images": 255,
+      "first_id": 1226185,
+      "last_id": 1226439,
+      "probability": 0.0008145034432053055,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "sponge-fibsem-cell3_mobie",
+      "images": 83,
+      "first_id": 1226440,
+      "last_id": 1226522,
+      "probability": 0.00046468845264894377,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "sponge-fibsem-choanocyte-chamber_mobie",
+      "images": 787,
+      "first_id": 1226523,
+      "last_id": 1227309,
+      "probability": 0.0014309030208266,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "t1Ft5245Hf66Y7163e3O_2D",
+      "images": 5250,
+      "first_id": 1227310,
+      "last_id": 1232559,
+      "probability": 0.0036957491531221655,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "t68tu5HpGY948fVF1WGo_3D",
+      "images": 2831,
+      "first_id": 1232560,
+      "last_id": 1235390,
+      "probability": 0.0027138933011884242,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "t7vhFT3wZh6Q5bRtK73a_3D",
+      "images": 611,
+      "first_id": 1235391,
+      "last_id": 1236001,
+      "probability": 0.001260791985525104,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "tDXy2335eB5Z144G2ZN2_3D",
+      "images": 2358,
+      "first_id": 1236002,
+      "last_id": 1238359,
+      "probability": 0.0024768216473079613,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "tV1S9Lsk19l94qZr4K92_3D",
+      "images": 53,
+      "first_id": 1238360,
+      "last_id": 1238412,
+      "probability": 0.0003713306255048495,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "takemura2013",
+      "images": 70188,
+      "first_id": 1238413,
+      "last_id": 1308600,
+      "probability": 0.013513077516420554,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "templier_wafer1",
+      "images": 38456,
+      "first_id": 1308601,
+      "last_id": 1347056,
+      "probability": 0.010002415448171934,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "templier_wafer3",
+      "images": 34082,
+      "first_id": 1347057,
+      "last_id": 1381138,
+      "probability": 0.009416410228583864,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "tu0vs4G968F2lp6c7713_3D",
+      "images": 81,
+      "first_id": 1381139,
+      "last_id": 1381219,
+      "probability": 0.0004590556571768902,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "tvC710zL557Do2u7HA31_2D",
+      "images": 827,
+      "first_id": 1381220,
+      "last_id": 1382046,
+      "probability": 0.0014668158329503918,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "u175vN689we595Z20453_2D",
+      "images": 602,
+      "first_id": 1382047,
+      "last_id": 1382648,
+      "probability": 0.0012514718348361263,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "u1f8c6806e11u4D88Ew5_2D",
+      "images": 2200,
+      "first_id": 1382649,
+      "last_id": 1384848,
+      "probability": 0.002392402098953986,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "u1qRL44D97B85vp4g31G_3D",
+      "images": 581,
+      "first_id": 1384849,
+      "last_id": 1385429,
+      "probability": 0.001229450082832519,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "u6875F929xqKd37S6x3j_3D",
+      "images": 10,
+      "first_id": 1385430,
+      "last_id": 1385439,
+      "probability": 0.0001612957166071549,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "ud9ug456806lz140c323_3D",
+      "images": 335,
+      "first_id": 1385440,
+      "last_id": 1385774,
+      "probability": 0.0009335664542815488,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "vfh0i687u6t7N3w694t6_3D",
+      "images": 1933,
+      "first_id": 1385775,
+      "last_id": 1387707,
+      "probability": 0.0022425325804213323,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "wX55ZW30hCQ3I33270OA",
+      "images": 49,
+      "first_id": 1387708,
+      "last_id": 1387756,
+      "probability": 0.00035704328891535906,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "wanner2016",
+      "images": 15592,
+      "first_id": 1387757,
+      "last_id": 1403348,
+      "probability": 0.0063690366413544615,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "wcBL8t8cc0167K8a3114_3D",
+      "images": 270,
+      "first_id": 1403349,
+      "last_id": 1403618,
+      "probability": 0.0008381171286204702,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "wi479t835H0P8hF6H48x_3D",
+      "images": 201,
+      "first_id": 1403619,
+      "last_id": 1403819,
+      "probability": 0.0007231374660020694,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "wm3B84j9dwvG9wD09cY5_3D",
+      "images": 1746,
+      "first_id": 1403820,
+      "last_id": 1405565,
+      "probability": 0.0021313018113325497,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "woozRtA9y1Nq8f34u063_3D",
+      "images": 110,
+      "first_id": 1405566,
+      "last_id": 1405675,
+      "probability": 0.0005349573722774291,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "wp35Y0ySlFz4eL4Dy023_3D",
+      "images": 3446,
+      "first_id": 1405676,
+      "last_id": 1409121,
+      "probability": 0.0029941976895786395,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "wp559828n1b757NqXaOD_3D",
+      "images": 955,
+      "first_id": 1409122,
+      "last_id": 1410076,
+      "probability": 0.0015762478969693797,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "x02vxq4dgo771har43OQ_2D",
+      "images": 646,
+      "first_id": 1410077,
+      "last_id": 1410722,
+      "probability": 0.0012964002119136239,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "x0704x9m931r90vJ1FH7_3D",
+      "images": 166,
+      "first_id": 1410723,
+      "last_id": 1410888,
+      "probability": 0.0006571687120143041,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "x1491ZZE6BtK10W8C469_3D",
+      "images": 21,
+      "first_id": 1410889,
+      "last_id": 1410909,
+      "probability": 0.0002337396996900886,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "x29037608Tz4c805vyKv_3D",
+      "images": 6323,
+      "first_id": 1410910,
+      "last_id": 1417232,
+      "probability": 0.004055873724885209,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "x8653U5fo54g5SRR01lt_3D",
+      "images": 1118,
+      "first_id": 1417233,
+      "last_id": 1418350,
+      "probability": 0.0017054686324562485,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "xN9zo10z47336V2qC06c_3D",
+      "images": 95,
+      "first_id": 1418351,
+      "last_id": 1418445,
+      "probability": 0.0004971467870360306,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "xsA8CzCCg21H86b0s8ad_3D",
+      "images": 12,
+      "first_id": 1418446,
+      "last_id": 1418457,
+      "probability": 0.00017669060482939874,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "xu2017-video-elife-25916-media2",
+      "images": 2848,
+      "first_id": 1418458,
+      "last_id": 1421305,
+      "probability": 0.002722029495462584,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "xu2017-video-elife-25916-media4",
+      "images": 7,
+      "first_id": 1421306,
+      "last_id": 1421312,
+      "probability": 0.00013494967853637494,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "xu2017-video-elife-25916-media5",
+      "images": 346,
+      "first_id": 1421313,
+      "last_id": 1421658,
+      "probability": 0.0009487698686063026,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "xu2017-video-elife-25916-media6",
+      "images": 69,
+      "first_id": 1421659,
+      "last_id": 1421727,
+      "probability": 0.00042368918625701056,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "xu2017-video-elife-25916-media7",
+      "images": 1,
+      "first_id": 1421728,
+      "last_id": 1421728,
+      "probability": 5.100618413076558e-05,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "xu2017-video-elife-25916-media8",
+      "images": 499,
+      "first_id": 1421729,
+      "last_id": 1422227,
+      "probability": 0.0011393918461052807,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "y2748rl0090R962O131X_3D",
+      "images": 352,
+      "first_id": 1422228,
+      "last_id": 1422579,
+      "probability": 0.0009569608395815943,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "y8650q7s1NgbK2Q90e4n_3D",
+      "images": 1645,
+      "first_id": 1422580,
+      "last_id": 1424224,
+      "probability": 0.0020687393983321507,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "yArzQlsH9e7s3zEz9MN5_3D",
+      "images": 64,
+      "first_id": 1424225,
+      "last_id": 1424288,
+      "probability": 0.00040804947304612463,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "z042n6J66lx1oo934B31_3D",
+      "images": 713,
+      "first_id": 1424289,
+      "last_id": 1425001,
+      "probability": 0.001361970181157302,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "z421t8118pEa85nk2Opd_3D",
+      "images": 190,
+      "first_id": 1425002,
+      "last_id": 1425191,
+      "probability": 0.0007030717287165633,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    },
+    {
+      "name": "z9v944r159cA8gnk497D_3D",
+      "images": 241,
+      "first_id": 1425192,
+      "last_id": 1425432,
+      "probability": 0.0007918289130356106,
+      "acquisition_status": "original_collection_not_certified_acquisition"
+    }
+  ],
+  "excluded_collections": [
+    {
+      "name": "Guay2020_patient1",
+      "images": 194,
+      "reason": "known_or_related_MV3_dev_test_or_MB1_source:guay2020"
+    },
+    {
+      "name": "Guay2020_patient2",
+      "images": 324,
+      "reason": "known_or_related_MV3_dev_test_or_MB1_source:guay2020"
+    },
+    {
+      "name": "Muller2020_high_c1_source",
+      "images": 7121,
+      "reason": "known_or_related_MV3_dev_test_or_MB1_source:muller2020"
+    },
+    {
+      "name": "Muller2020_high_c2_source",
+      "images": 8559,
+      "reason": "known_or_related_MV3_dev_test_or_MB1_source:muller2020"
+    },
+    {
+      "name": "Muller2020_high_c3_source",
+      "images": 8585,
+      "reason": "known_or_related_MV3_dev_test_or_MB1_source:muller2020"
+    },
+    {
+      "name": "Muller2020_high_c4_source",
+      "images": 7702,
+      "reason": "known_or_related_MV3_dev_test_or_MB1_source:muller2020"
+    },
+    {
+      "name": "Muller2020_low_c1_source",
+      "images": 5146,
+      "reason": "known_or_related_MV3_dev_test_or_MB1_source:muller2020"
+    },
+    {
+      "name": "Muller2020_low_c2_source",
+      "images": 7213,
+      "reason": "known_or_related_MV3_dev_test_or_MB1_source:muller2020"
+    },
+    {
+      "name": "Muller2020_low_c3_source",
+      "images": 6759,
+      "reason": "known_or_related_MV3_dev_test_or_MB1_source:muller2020"
+    },
+    {
+      "name": "Wei2020_MitoEM-H",
+      "images": 28917,
+      "reason": "known_or_related_MV3_dev_test_or_MB1_source:wei2020_mitoem"
+    },
+    {
+      "name": "Wei2020_MitoEM-R",
+      "images": 25949,
+      "reason": "known_or_related_MV3_dev_test_or_MB1_source:wei2020_mitoem"
+    },
+    {
+      "name": "jrc_cos7-11_openorganelle",
+      "images": 1869,
+      "reason": "known_or_related_MV3_dev_test_or_MB1_source:jrc_cos7"
+    },
+    {
+      "name": "kasthuri2011",
+      "images": 58982,
+      "reason": "known_or_related_MV3_dev_test_or_MB1_source:kasthuri"
+    }
+  ],
+  "index": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/cem_index.sqlite",
+  "index_sha256": "ca9f99bdd59e4ed9fb0183eabd5d1c607dda715cde41fcdf59c5567c820b9966",
+  "record_chain_sha256": "353019706c0d5c5d1ee50f0c2bc50378164ffc0bca46360583860f5c192be60f",
+  "label_reads": false,
+  "archive_integrity": "ZIP central directory and per-selected-member CRC32; no publisher archive SHA available",
+  "benchmark_holdout": "Author methods explicitly exclude benchmark and related images; no new full pixel deduplication",
+  "remaining_overlap": "Unmapped hashed collections vs MV3 dev/test remain UNVERIFIED; not strict unseen-acquisition proof"
+}

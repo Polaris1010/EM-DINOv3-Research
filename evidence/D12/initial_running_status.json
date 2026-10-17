@@ -1,0 +1,42 @@
+{
+  "status": "running",
+  "phase": "SSL_D1_30000",
+  "seconds": 46.46698556095362,
+  "progress": {
+    "runs/D1/formal/progress.json": {
+      "step": 20,
+      "rank": 0,
+      "loss": 16.625,
+      "grad_norm": 2.258350372314453,
+      "lr": 1.0392304845413264e-07,
+      "teacher_momentum": 0.999,
+      "teacher_temp": 0.040114000000000004,
+      "global_batch": 48,
+      "data_first_index": 912,
+      "data_first_volume": "jiang25_vol1",
+      "data_first_domain": "MitoVerse",
+      "sample_chain": "4a58863ce8d5061ebf4d83144b45d6eb8dd164e0dca5d7c36eb9f9c27fa0ea67",
+      "elapsed_seconds": 23.94528964161873,
+      "data_seconds": 0.008113153278827667,
+      "iteration_seconds": 0.6869708746671677,
+      "peak_gpu_bytes": 10240163840,
+      "loss_components": {
+        "dino_local_crops_loss": 11.125,
+        "dino_global_crops_loss": 11.125,
+        "koleo_loss": -0.15940722823143005,
+        "ibot_loss": 5.554825782775879
+      }
+    }
+  },
+  "child_pids": [
+    3371406
+  ],
+  "physical_gpus": [
+    1,
+    2,
+    3
+  ],
+  "gpu0_used": false,
+  "website_http": 200,
+  "further_experiments_started": false
+}

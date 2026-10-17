@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "account": "Polaris1010",
+  "pr": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/8",
+  "number": 8,
+  "state": "open",
+  "draft": true,
+  "head_sha": "4029f2681a0ebf5e511aa37eba14462712ce10e4",
+  "base": "codex/mb1-official-benchmark"
+}

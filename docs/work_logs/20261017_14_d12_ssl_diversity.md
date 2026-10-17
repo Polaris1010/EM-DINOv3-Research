@@ -13,3 +13,11 @@
 本轮分支codex/d12-ssl-diversity，从已推送MB1提交2388de9分叉；初始状态/源码提交、正式执行及GitHub交付证据将在取得后追加。原49条registry与历史证据保持，新增本轮4条SSL/head记录。
 
 第二轮训练smoke两组均完成：2真实optimizer steps、三GPU global batch48、rank参数最大差0，student与EMA非零更新，完整checkpoint已保存；无GT训练、无参数搜索。loader和训练smoke分别验证数据接口与真实分布式优化，没有把smoke权重当作30k或正式下游encoder。
+
+## 正式启动与交付
+
+正式源码4029f2681a0ebf5e511aa37eba14462712ce10e4已提交推送；服务器executed_sources.json逐文件SHA与本地代码/配置一致。正式service d12-ssl-diversity-20261017运行中，MainPID3370458；初始快照D1 20/30000、global batch48，GPU1/2/3利用率93/92/100%，GPU0未用，网站200。D2及后续head/评测按有界控制器接续，未声称正式训练完成。
+
+私有仓库draft PR8已创建，base为codex/mb1-official-benchmark，不合并。35项CPU测试、D12留出/概率/预算验证、53条registry及历史49条保持检查通过。独立有界收取器scripts/watch_d12_results.py仅等待本轮既定任务，终止后收取实际结果、更新本记录/交接、检查并提交推送；不启动新实验。认证仅在进程内存，不落盘。若桌面/网络中断，服务器任务仍独立执行，下一窗口从服务器STATUS接续收取，禁止重复启动。
+
+结果收取器已现场确认连通，UTC2026-10-17T02:48:35.539465，状态WAITING_FOR_AUTHORIZED_PIPELINE；其不启动实验，只等待既定任务终止后收取/检查/提交。启动后复核D1已到180/30000，三GPU持续工作；30k及下游结果尚未完成，不能提前给出研究结论。

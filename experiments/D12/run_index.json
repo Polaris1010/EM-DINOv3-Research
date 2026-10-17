@@ -1,20 +1,21 @@
 {
   "stage": "D12",
-  "status": "VERIFIED_FAILED",
-  "execution_state": "STOPPED_SSL_D1_30000",
+  "status": "VERIFIED_RUNNING",
+  "execution_state": "RESUMED_SSL_D1_30000",
   "server_root": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017",
-  "service": "d12-ssl-diversity-20261017.service",
+  "service": "d12-ssl-diversity-resume1-20261017.service",
   "protocol": "configs/pretrain/D12_protocol.json",
-  "code_commit": "4029f2681a0ebf5e511aa37eba14462712ce10e4",
+  "code_commit": "545ebbab0569436b5945cf36c65830f3f6dea50e",
   "metrics_path": "UNVERIFIED",
   "report_path": "docs/D12_execution.md",
-  "status_evidence": "experiments/D12/STATUS.json",
+  "status_evidence": "evidence/D12/resume_verified.json",
   "runs": [
     {
       "model": "D1",
       "kind": "SSL",
-      "status": "VERIFIED_FAILED",
-      "completed_steps": 2711
+      "status": "VERIFIED_RUNNING",
+      "completed_steps": 2720,
+      "resumed_from_step": 2711
     },
     {
       "model": "D1",
@@ -35,6 +36,6 @@
       "completed_steps": 0
     }
   ],
-  "observed_at_utc": "20261017T032244Z",
+  "observed_at_utc": "2026-10-17T06:33:19.240669+00:00",
   "draft_pr": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/8"
 }

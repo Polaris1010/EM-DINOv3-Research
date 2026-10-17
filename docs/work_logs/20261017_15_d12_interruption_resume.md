@@ -7,3 +7,5 @@
 修复仅将心跳改为临时文件+原子替换；不改变SSL训练文件、sampler、配置、loss、初始化或预算。控制器增加读取已保存完整checkpoint的接续路径，仍累计到共同30000步，保留优化器/EMA/RNG并继续原学习率/样本序列。恢复前的抽样计数从相同确定性global index精确重建，报告合并新段计数，避免把恢复后计数冒充全程。保留原失败记录及首次源码/历史输入快照，新的执行源码另存resume证据。
 
 本地35项原有CPU测试通过；新增并发rename测试在Windows因文件共享语义不同跳过，需在实际Linux服务器验证。当前只做运行器修复和原任务接续，不启动新实验，不修改历史B100/MV1至MV5/MB1。实际恢复、检查和推送状态将在取得后追加。
+
+实际Linux并发测试通过：3个reader各2000次读取、500次原子替换无空值。修复代码545ebba已提交推送；service d12-ssl-diversity-resume1-20261017启动，MainPID1821101。UTC 2026-10-17T06:33:19.240669+00:00确认实际步数2720，sample first index与原global batch48连续一致，旧实验快照仍相等；非仅进程启动。恢复完整checkpoint SHA见resume_sampling_prefix，原trainer SHA保持d8c53aeb…，不从头增加30k预算。结果收取器已重新连通，继续同一任务，不启动新实验。

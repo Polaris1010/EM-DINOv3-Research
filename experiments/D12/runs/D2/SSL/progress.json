@@ -1,0 +1,24 @@
+{
+  "step": 30000,
+  "rank": 0,
+  "loss": 14.5,
+  "grad_norm": 1.6928285360336304,
+  "lr": 1.0000000986200962e-06,
+  "teacher_momentum": 0.999,
+  "teacher_temp": 0.07,
+  "global_batch": 48,
+  "data_first_index": 1439952,
+  "data_first_volume": "A2zj2c3Ie9099f8q480T_3D",
+  "data_first_domain": "CEM1.5M",
+  "sample_chain": "a0a4dac0a692497c2e7d1e72320d34ea94c0d17a9fc9e3b659721f9835d78e1e",
+  "elapsed_seconds": 22740.511257864535,
+  "data_seconds": 0.01135503500699997,
+  "iteration_seconds": 0.6883187890052795,
+  "peak_gpu_bytes": 10240163840,
+  "loss_components": {
+    "dino_local_crops_loss": 10.0,
+    "dino_global_crops_loss": 10.0,
+    "koleo_loss": -0.3023427724838257,
+    "ibot_loss": 4.542509078979492
+  }
+}

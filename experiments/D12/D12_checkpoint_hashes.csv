@@ -1,0 +1,7 @@
+model,kind,step,path,sha256
+D1,SSL_EMA_encoder,10000,/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000010000/teacher_backbone.pth,366932fd21731cc56a4967d14f41af6db14a0b053a07df2b4149a7c3b8223b67
+D1,SSL_EMA_encoder,30000,/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000030000/teacher_backbone.pth,63355aa16abc20ae56242d8ba5e21a03e11aaab22e1fdfeb5d1b611c2fc62855
+D1,frozen_Primus_head,40000,/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/head_step040000.pth,5ab285efd5bd5e22ee422d35ecffcc0578c74a48f55beb2eced5588bd3e889cf
+D2,SSL_EMA_encoder,10000,/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000010000/teacher_backbone.pth,93c7f160446aca3512be9982058b8ef408eda3ad7e8e15e52856f474820f792a
+D2,SSL_EMA_encoder,30000,/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/teacher_backbone.pth,7db12e7ff8bee45166aaeeda1d94365e696ddaecf0c57a0d1611a891cf0d3eda
+D2,frozen_Primus_head,40000,/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/head_step040000.pth,99c06a7dce8709ec23f617410b47546cac473c16b95ae1740b968aa2d0481acb

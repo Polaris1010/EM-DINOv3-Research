@@ -1,9 +1,9 @@
 {
-  "status": "interrupted",
-  "completed_steps": 2711,
+  "status": "complete",
+  "completed_steps": 30000,
   "max_rank_parameter_difference": 0.0,
-  "tracked_student_delta_l2": 0.017436599358916283,
-  "tracked_teacher_delta_l2": 0.007609801832586527,
+  "tracked_student_delta_l2": 0.07626377046108246,
+  "tracked_teacher_delta_l2": 0.0799500048160553,
   "experiment_id": "D1",
   "manifest_sha256": "584726a98b8ef58b83f34ddae90401ec9ec076ebc392f0bacff98910afc4031e",
   "config_sha256": "be92a0802d5bfea447d707990caa67ccb20c17edd710468ad2eed86c752a32af",

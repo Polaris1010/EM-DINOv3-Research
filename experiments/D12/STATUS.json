@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "phase": "SSL_D1_30000",
+  "error": "RuntimeError('Own child 3371406 failed:1; inspect phase log, no automatic parameter changes')",
+  "further_experiments_started": false
+}

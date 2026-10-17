@@ -1,5 +1,3 @@
-检验50%CEM异质无标签数据是否改善DINOv3分割表征：D1仅来源均衡MitoVerse，D2同池加50%CEM；同自然初始化、30k、global batch48、无新loss。固定30k新encoder各重新训练同seed Primus40k并完成38dev与固定MB1诊断，之后停止。
+D1/D2终止状态 failed，UTC 20261017T032244Z。 保留实际产物，查看STATUS与服务器阶段日志；未完成部分不得声称完成，不自动改参/重启。
 
-依据MitoNet原Methods排除benchmark及关联图像；CEM已在服务器，源索引/已知留出排除/采样与尺度适配完整记录。未知CEM别名仍UNVERIFIED，B100与D1预算和暴露不同，不能当纯sampling消融。原49条实验记录不改。
-
-已验证真实loader、两组3GPU各2steps、梯度同步/EMA/checkpoint，35项CPU测试。实际正式进展以run_index和后续快照为准，不声称已完成30k。draft以codex/mb1-official-benchmark为base，不自动合并。
+固定对照变量为50%CEM数据；同自然初始化、同30k、同40k首seed冻结Primus。历史B100预算和暴露不同，不能把D1−B100当纯采样消融；未知CEM别名仍不证明独立。原49条注册与MV1至MV5/MB1保持。

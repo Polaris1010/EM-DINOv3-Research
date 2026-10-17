@@ -5949,7 +5949,7 @@
     },
     {
       "experiment_id": "D12-D1-SSL",
-      "status": "VERIFIED_RUNNING",
+      "status": "VERIFIED_FAILED",
       "research_question": "Matched source-balanced MitoVerse vs50:50 heterogeneous CEM SSL; fixed first-seed frozen readout",
       "dataset_manifest": "experiments/D12/D1_manifest.json",
       "dataset_manifest_sha256": "584726a98b8ef58b83f34ddae90401ec9ec076ebc392f0bacff98910afc4031e",
@@ -5971,7 +5971,7 @@
       "code_commit": "4029f2681a0ebf5e511aa37eba14462712ce10e4",
       "python_executable": "/opt/data/3_117/tanghr/dinov3_shared/bin/python",
       "global_batch": 48,
-      "optimizer_steps": 20,
+      "optimizer_steps": 2711,
       "learning_rate": "same fixed base AdamW peak2.598076211353316e-5/30k cosine",
       "tta": false,
       "normalization": "MitoVerse existing512 crop+reflect pad; CEM native PIL RGB (typically224), no eager resize/pad; identical official RRC outputglobal256/local112. Native context/rescaling differs and is disclosed.",

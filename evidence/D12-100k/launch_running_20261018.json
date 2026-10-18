@@ -1,0 +1,108 @@
+{
+  "observed_at_utc": "2026-10-18T03:16:37.643181+00:00",
+  "status": {
+    "status": "running",
+    "phase": "SSL_D1_100000",
+    "seconds": 156.42235439270735,
+    "progress": {
+      "runs/D1/formal/progress.json": {
+        "step": 30020,
+        "rank": 0,
+        "loss": 14.25,
+        "grad_norm": 0.8778312802314758,
+        "lr": 2.1944110384095302e-05,
+        "teacher_momentum": 0.999,
+        "teacher_temp": 0.07,
+        "global_batch": 48,
+        "data_first_index": 1440912,
+        "data_first_volume": "turner22_pinky_vol104",
+        "data_first_domain": "MitoVerse",
+        "sample_chain": "f0e81937d6bbba8d74d6355301c38aa92ed54afb64fb31a789917cd2b362e228",
+        "elapsed_seconds": 47.086349196732044,
+        "data_seconds": 0.1915055587887764,
+        "iteration_seconds": 0.8717129081487656,
+        "peak_gpu_bytes": 10231197696,
+        "loss_components": {
+          "dino_local_crops_loss": 9.875,
+          "dino_global_crops_loss": 9.875,
+          "koleo_loss": -0.30789506435394287,
+          "ibot_loss": 4.422530174255371
+        }
+      }
+    },
+    "child_pids": [
+      3382819
+    ],
+    "physical_gpus": [
+      1,
+      2,
+      3
+    ],
+    "gpu0_used": false,
+    "website_http": 200,
+    "further_experiments_started": false
+  },
+  "D1_initialization.json": {
+    "experiment_id": "D1",
+    "manifest_sha256": "584726a98b8ef58b83f34ddae90401ec9ec076ebc392f0bacff98910afc4031e",
+    "config_sha256": "159f45566320f9b583968aa8e9ffb07392d521bfa227b1ca0b4a4bde11f152d7",
+    "official_weight_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+    "trainer_sha256": "ec1cb647ee46912388192e86dd240bd23736f0bcfcc93df13fbfbf8ddd48de3d",
+    "sampler_sha256": "6eede1e8c4af091ea9746c60ca40f3d765e39690867035cf8855b5f145e9bb7c",
+    "dinov3_commit": "91ffb6803c74aeb6927209b82560142743763dd7",
+    "world_size": 3,
+    "batch_per_gpu": 16,
+    "gradient_accumulation": 1,
+    "effective_global_batch": 48,
+    "base_lr_global16": 1.5e-05,
+    "effective_peak_lr": 2.598076211353316e-05,
+    "warmup_steps": 5000,
+    "total_steps": 100000,
+    "weight_decay": 0.04,
+    "teacher_momentum": 0.999,
+    "seed": 0,
+    "python_executable": "/opt/data/3_117/tanghr/dinov3_shared/bin/python",
+    "torch_version": "2.10.0+cu128",
+    "run_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/runs/D1/formal",
+    "initialization": "full_optimizer_EMA_RNG_continuation_from_natural_lineage",
+    "strict_backbone_load": true,
+    "resume": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000030000/full.pth",
+    "starting_step": 30000,
+    "dino": 1,
+    "ibot": 1,
+    "koleo": 0.1,
+    "gram": false,
+    "LAST": false,
+    "topology": false,
+    "segmentation": false
+  },
+  "D1_progress.json": {
+    "step": 30020,
+    "rank": 0,
+    "loss": 14.25,
+    "grad_norm": 0.8778312802314758,
+    "lr": 2.1944110384095302e-05,
+    "teacher_momentum": 0.999,
+    "teacher_temp": 0.07,
+    "global_batch": 48,
+    "data_first_index": 1440912,
+    "data_first_volume": "turner22_pinky_vol104",
+    "data_first_domain": "MitoVerse",
+    "sample_chain": "f0e81937d6bbba8d74d6355301c38aa92ed54afb64fb31a789917cd2b362e228",
+    "elapsed_seconds": 47.086349196732044,
+    "data_seconds": 0.1915055587887764,
+    "iteration_seconds": 0.8717129081487656,
+    "peak_gpu_bytes": 10231197696,
+    "loss_components": {
+      "dino_local_crops_loss": 9.875,
+      "dino_global_crops_loss": 9.875,
+      "koleo_loss": -0.30789506435394287,
+      "ibot_loss": 4.422530174255371
+    }
+  },
+  "service": "MainPID=3380906\nExecMainStatus=0\nActiveState=active\n",
+  "GPU": "0, 3092, 0\n1, 11232, 87\n2, 11232, 54\n3, 10770, 90\n",
+  "website_http": 200,
+  "controller.log": "",
+  "SSL_D1.log": "/opt/data/3_117/tanghr/dinov3_shared/lib/python3.11/site-packages/torch/nn/init.py:119: UserWarning: Specified kernel cache directory could not be created! This disables kernel caching. Specified directory is /opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/cache/pytorch. This warning will appear only once per process. (Triggered internally at /pytorch/aten/src/ATen/native/cuda/jit_utils.cpp:1487.)\n  tensor.erfinv_()\n/opt/data/3_117/tanghr/dinov3_shared/lib/python3.11/site-packages/torch/nn/init.py:119: UserWarning: Specified kernel cache directory could not be created! This disables kernel caching. Specified directory is /opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/cache/pytorch. This warning will appear only once per process. (Triggered internally at /pytorch/aten/src/ATen/native/cuda/jit_utils.cpp:1487.)\n  tensor.erfinv_()\n/opt/data/3_117/tanghr/dinov3_shared/lib/python3.11/site-packages/torch/nn/init.py:119: UserWarning: Specified kernel cache directory could not be created! This disables kernel caching. Specified directory is /opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/cache/pytorch. This warning will appear only once per process. (Triggered internally at /pytorch/aten/src/ATen/native/cuda/jit_utils.cpp:1487.)\n  tensor.erfinv_()\n"
+}

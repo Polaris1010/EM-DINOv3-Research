@@ -1,0 +1,6 @@
+{
+  "reason": "correct inherited30k stop_after and historical_B100 descriptive metadata; no trainer/config/data/loss/schedule changes",
+  "before_sha256": "97c8dc95dbaa44f398c464e2670d62ce589f93360d602216787cec8468823eb1",
+  "after_sha256": "4f96ff8c8d832df3672186c71f58793d4b515f8d15bc577d914c19730217997e",
+  "launch_code_commit": "f51a9e8526ff580737cf8d578c0ca6bcedaaaf01"
+}

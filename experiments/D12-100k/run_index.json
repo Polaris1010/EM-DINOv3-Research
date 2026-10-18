@@ -1,0 +1,45 @@
+{
+  "stage": "D12-100k",
+  "status": "PLANNED",
+  "execution_state": "PREPARING_AUTHORIZED_CONTINUATION",
+  "server_root": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018",
+  "service": "d12-100k-continuation-20261018.service",
+  "protocol": "configs/pretrain/D12_100k_protocol.json",
+  "code_commit": "UNVERIFIED",
+  "metrics_path": "UNVERIFIED",
+  "report_path": "docs/D12_100k_execution.md",
+  "runs": [
+    {
+      "model": "D1",
+      "kind": "SSL",
+      "status": "PLANNED",
+      "completed_steps": 30000,
+      "planned_steps": 100000,
+      "parent_checkpoint_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000030000/full.pth",
+      "parent_checkpoint_sha256": "66f1c9f2353ced9b371789322d7e6f7ad2f80a5e334623a13e59e3aeb4c855a1"
+    },
+    {
+      "model": "D1",
+      "kind": "HEAD",
+      "status": "PLANNED",
+      "completed_steps": 0,
+      "planned_steps": 40000
+    },
+    {
+      "model": "D2",
+      "kind": "SSL",
+      "status": "PLANNED",
+      "completed_steps": 30000,
+      "planned_steps": 100000,
+      "parent_checkpoint_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/full.pth",
+      "parent_checkpoint_sha256": "cce40d90b9e4f03eae9231f7516cd1a81d49e8b369db9380dbb3b30f7d82967f"
+    },
+    {
+      "model": "D2",
+      "kind": "HEAD",
+      "status": "PLANNED",
+      "completed_steps": 0,
+      "planned_steps": 40000
+    }
+  ]
+}

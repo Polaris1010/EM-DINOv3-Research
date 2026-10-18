@@ -1,3 +1,5 @@
+> D12完成复核（2026-10-18）：D1/D2各30k SSL和同seed40k Primus、全部开发/MB1诊断完成并停止。开发Dice0.817542→0.829407，但MB1七组Dice0.488654→0.461614；不能仅凭内部提升声称跨域改善。先读D12_final_report.md末尾完成复核与最新work log；不自动100k/D3或更多seed。
+
 > D1/D2终止状态 complete，UTC 20261017T204218Z。 两组30k SSL、首seed40k Primus、76条开发指标及5190条固定MB1诊断均完成；开发Dice D1=0.817542，D2=0.829407，D2−D1=+0.011864。先读docs/D12_final_report.md。旧资产前后快照一致，网站200，GPU0未用，不自动100k、D3或更多seed。
 
 > D12最新进度（2026-10-17香港17:17）：D1 15050/30000，10k导出已存在；D2/head/开发评测尚未开始，无新指标。service active，继续既有任务，禁止重复启动。实际快照见evidence/D12/progress_20261017T091727Z.json与最新work log。

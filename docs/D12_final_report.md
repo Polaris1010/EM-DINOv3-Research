@@ -58,3 +58,12 @@ MitoVerse保留既有512裁剪与小图reflect padding；CEM保留原生PIL RGB�
 10k仅导出留档；所有下游使用固定30k，并且两组共同40k head预算。D12_checkpoint_hashes.csv提供10k/30k EMA及head路径/SHA，训练曲线、吞吐/显存和来源抽样计数保留各rank JSONL。原B100/MV1至MV5/MB1未改写。
 
 输出：D12_per_region_metrics.csv、D12_source_metrics.csv、D12_paired_deltas.csv、D12_benchmark_per_image.csv、D12_benchmark_per_dataset.csv、D12_summary.json及本报告。服务终止证据和历史输入前后快照由有界控制器保存；代码/指标/Markdown由本轮收取器提交推送。
+
+
+## 完成后的结果复核（2026-10-18）
+
+现场确认两组30k SSL、两组同seed40k head、76条开发指标和5190条MB1逐图诊断全部完成；服务inactive/MainPID0/exit0，网站200，历史输入前后快照一致。精确计数独立重算Dice、12来源及7benchmark等权均值，并核实两模型使用相同GT像素计数。
+
+**跨数据集结论须与内部开发增益分开：** D2相对D1在MV3开发集提升+0.011864，但MB1七组等权Dice下降-0.027039。内部收益约85.6%来自OpenOrganelle，其余11来源平均仅+0.001859。MB1的HeLa和Glycolytic muscle退化明显。故本轮尚不支持“加入CEM已改善广泛跨域泛化”，不能仅凭内部平均提升就选定D2或自动进入D3；现有结果只支持内部开发集的有限收益。所有比较仅一个decoder seed，历史B100预算/暴露不同仍只作参考。
+
+训练与评测已停止，没有自动100k、D3或更多seed。本段是已存指标的完成复核与解释，不重跑模型、调整阈值或增加实验。

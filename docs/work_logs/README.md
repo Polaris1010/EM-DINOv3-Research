@@ -34,3 +34,5 @@
 - [D1中断核实与心跳修复接续](20261017_15_d12_interruption_resume.md)
 
 - [D1半程与10k导出进度核实](20261017_16_d12_progress_check.md)
+
+- [D1/D2最终完成与内部/跨域结果复核](20261018_17_d12_completion_recheck.md)

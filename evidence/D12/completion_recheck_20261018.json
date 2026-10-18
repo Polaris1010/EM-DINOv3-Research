@@ -1,0 +1,124 @@
+{
+  "status": "PASS",
+  "development_rows": 76,
+  "benchmark_image_rows": 5190,
+  "same_GT_counts_both_models": true,
+  "Dice_recomputed_from_exact_counts": true,
+  "source_and_benchmark_equal_weight_means_recomputed": true,
+  "D2_minus_D1_development_dice": 0.011864442600655889,
+  "D2_minus_D1_MB1_dice": -0.02703933080562948,
+  "OpenOrganelle_share_of_dev_gain": 0.8563733375564038,
+  "other11_sources_mean_dev_gain": 0.0018589639554390828,
+  "server_snapshot": {
+    "observed_at_utc": "2026-10-18T02:51:38.666997+00:00",
+    "status": {
+      "status": "complete",
+      "SSL_runs": 2,
+      "SSL_steps_each": 30000,
+      "head_steps_each": 40000,
+      "decoder_seeds": 1,
+      "development_metric_rows": 76,
+      "benchmark_image_rows": 5190,
+      "historical_inputs_unchanged": true,
+      "gpu0_used": false,
+      "website_http": 200,
+      "auto100k": false,
+      "autoD3": false,
+      "further_experiments_started": false,
+      "report": "D12_final_report.md"
+    },
+    "summary": {
+      "status": "complete",
+      "decoder_seed": 20261014,
+      "ssl_steps_each": 30000,
+      "decoder_steps_each": 40000,
+      "development_regions_each": 38,
+      "development_sources": 12,
+      "metrics": {
+        "D1": {
+          "dice": 0.8175421054828607,
+          "precision": 0.8367363748508748,
+          "recall": 0.826446896115896,
+          "hd95_nm": 555.8967153375798,
+          "nsd_16nm": 0.7205827137737563,
+          "predicted_foreground_fraction": 0.08014919821028012
+        },
+        "D2": {
+          "dice": 0.8294065480835165,
+          "precision": 0.8526579351006334,
+          "recall": 0.8304223454061105,
+          "hd95_nm": 490.310600604433,
+          "nsd_16nm": 0.7312699935427218,
+          "predicted_foreground_fraction": 0.08058499076909131
+        }
+      },
+      "D2_minus_D1_dev_dice": 0.011864442600655889,
+      "historical_MV3_first_seed_dice": {
+        "G-P0": 0.8130427360533896,
+        "G-B100": 0.8273065136014968
+      },
+      "historical_B100_not_pure_sampling_control": true,
+      "benchmark_diagnostic_macro_dice": {
+        "D1": 0.4886535301524513,
+        "D2": 0.4616141993468218
+      },
+      "source_deltas": [
+        {
+          "source_id": "casser20",
+          "D2_minus_D1_dice": 0.0003548991879812613
+        },
+        {
+          "source_id": "guay21",
+          "D2_minus_D1_dice": 0.01164970892165662
+        },
+        {
+          "source_id": "haberl18",
+          "D2_minus_D1_dice": -0.0021565943746457705
+        },
+        {
+          "source_id": "han24",
+          "D2_minus_D1_dice": 0.01773856013059294
+        },
+        {
+          "source_id": "jiang25",
+          "D2_minus_D1_dice": 0.000648436831965804
+        },
+        {
+          "source_id": "kunduri22",
+          "D2_minus_D1_dice": -0.00037997886710838813
+        },
+        {
+          "source_id": "mekuc20",
+          "D2_minus_D1_dice": 0.0005035366885737247
+        },
+        {
+          "source_id": "muller21",
+          "D2_minus_D1_dice": 0.0015296473906785124
+        },
+        {
+          "source_id": "openorganelle",
+          "D2_minus_D1_dice": 0.12192470769804076
+        },
+        {
+          "source_id": "turner22",
+          "D2_minus_D1_dice": -0.016601684931190963
+        },
+        {
+          "source_id": "wei20",
+          "D2_minus_D1_dice": 0.004178029231874714
+        },
+        {
+          "source_id": "xiao18",
+          "D2_minus_D1_dice": 0.0029840432994511223
+        }
+      ],
+      "further_experiments_started": false,
+      "auto100k": false,
+      "autoD3": false
+    },
+    "service": "MainPID=0\nExecMainStatus=0\nActiveState=inactive\n",
+    "gpus": "index, memory.used [MiB], utilization.gpu [%]\n0, 3092 MiB, 0 %\n1, 464 MiB, 0 %\n2, 464 MiB, 0 %\n3, 0 MiB, 0 %\n",
+    "website_http": 200,
+    "historical_inputs_unchanged": true
+  }
+}

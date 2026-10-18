@@ -1,0 +1,542 @@
+{
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/MV_frozen_probe_results.csv": {
+    "sha256": "052aa2c79cfdf2bf97f44373d5b1f750ff51511b890740adbe2be2c8595b1b33",
+    "bytes": 10841
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/paired_volume_deltas.csv": {
+    "sha256": "3db684743e0a5c94722f9a6f67890e98b44549e8fced57cb29ec8a3a3e36ed00",
+    "bytes": 5415
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/source_metrics_by_seed.csv": {
+    "sha256": "6196560743ab2adf687774f5b26f58ab658e86aed76e603039b9c4ed7bc1acb8",
+    "bytes": 4931
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/source_failure_analysis.md": {
+    "sha256": "9d9d2e97114a5f076a903ddee1c61f08e2421867a93480bb09fdfc4e4b4a1874",
+    "bytes": 8170
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/MV-Dev-v1.json": {
+    "sha256": "9346286eac4cc1c57d24c1f1b296ed5eaaac6c0df061a8684cf4604af76f0df8",
+    "bytes": 24138
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/README.md": {
+    "sha256": "b6e8da4519eee272dad1ff06721743b6d69ad35d2207f388ba4ac29d86642ef8",
+    "bytes": 4325
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/mitoverse_supervised_eligibility.csv": {
+    "sha256": "2b5f0faae986fb5073de10902b953a41515e228e96fb8f11ce13d948e77a0a37",
+    "bytes": 71409
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/analysis_completion.json": {
+    "sha256": "04270d601aaf61f980e0b487405f6013baae3424ddd7d4cffae20fd9cc12a8f3",
+    "bytes": 88
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/source_metrics_three_seeds.csv": {
+    "sha256": "dc604801b5d6715eaf84d817a1c31545d497d16fd7c77a11761d646762efbf10",
+    "bytes": 2125
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/model_registry.json": {
+    "sha256": "c8676f08873c11dbf5a3c06eb688de7f2d160c9d46ad40ad2c6d42ac05445138",
+    "bytes": 2948
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/mitoverse_acquisition_registry.csv": {
+    "sha256": "820681a1500518c3d1dc488b40072d106aa532ac4473eb659e4cf134f3040130",
+    "bytes": 97585
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/aggregate_by_seed.csv": {
+    "sha256": "740cb75e1248f4a28ac4e0a50357fabb0a2998a0caa813fde2dda1e423b68412",
+    "bytes": 1462
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/split_exposure_audit.md": {
+    "sha256": "a342caf304e08274c8f1433e09e5dfd55a8d268b5e19fb7066df39ca5eed05a8",
+    "bytes": 1813
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/original_primus_config.yaml": {
+    "sha256": "ed5124689b4fd4ae9b1f5a1af6e32bd6e7c3bcf862cd871e5bc06735e8ff7ee5",
+    "bytes": 392
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/MV_frozen_probe_protocol.yaml": {
+    "sha256": "b788831a0a860f9acb996e5d830cdc56265977fe909eb9cfffb86a20114220d0",
+    "bytes": 3158
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/single_seed_results.csv": {
+    "sha256": "2901b89a3cdeda733007a2ac3c41076ab25d45422c07e20adf9187336692cce4",
+    "bytes": 3772
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/STATUS.json": {
+    "sha256": "8c2bf2c3cec6cbe5a91fc91bf281667ded759bf8508db38e423a64402ce93b11",
+    "bytes": 155
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/target_strata_seed1.csv": {
+    "sha256": "017d1854438975da31e78bb76b41cf166cf8722f1ddb9f1db36db24ed4325fdb",
+    "bytes": 505336
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/metric_cache.py": {
+    "sha256": "06bcf883309bbe9d68c986431f5407ce89a0d1e52b8d5a80b88b2eb5f9de493b",
+    "bytes": 2423
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/official_primus.py": {
+    "sha256": "b5398dc48bf5cc14068b4fed38c5f0a8c30bcbbe242d59475016e70912f248d3",
+    "bytes": 4635
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/mv_probe.py": {
+    "sha256": "4071da2213b8f55f28ce13522d74e716c61be7900a37c96318942983be3546ec",
+    "bytes": 11241
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/mv_data.py": {
+    "sha256": "39d348380573174061525443d7c9bfe2f8d8d68bb12f0dd0ab44455bbfe6b54d",
+    "bytes": 3709
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/repository_metrics.py": {
+    "sha256": "8abc23bfbbee06b1a6289b1f70ec7a5fda2a02cb15d8c870b28890de6152477d",
+    "bytes": 13400
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/RESOURCE_ACCELERATION.md": {
+    "sha256": "1a1950cfa14f28dfd51274985bd569a4803c0b7945f7e026a7f9969932111565",
+    "bytes": 2497
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/metrics_all_complete.json": {
+    "sha256": "c6b5d1eb047f4a4c2b52ed909ef2eb01487b11dbe29ceeb2bf95784aa0502c48",
+    "bytes": 126
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV2_research_decision.md": {
+    "sha256": "de9868b2dcfa8685626e053acbbb0e7e98a6adfa10892678a0728de87711508b",
+    "bytes": 1122
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_encoder_source_equal_summary.csv": {
+    "sha256": "a8a4f1aef3bd3733302711fd2f4f6820f3c207fb4b3906f0955586978168747d",
+    "bytes": 434
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_object_strata_seed1.csv": {
+    "sha256": "bbaed5c35a70eb58a8ae6b14be3b610e1da2f51c40994cef0efbb8b757a38350",
+    "bytes": 4489325
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/scoring_progress.json": {
+    "sha256": "a538ca20d5b57fbb93a357d8befd50ecf20918128dbbb9fd3e7dfb42ea0e166a",
+    "bytes": 756
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_source_coverage.csv": {
+    "sha256": "3127747001410272a7d0cfb6924b08498343c90fded8b964d2166ca0a99807f2",
+    "bytes": 1457
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_volume_comparison.csv": {
+    "sha256": "c16d9a41b03e6e9469508c4f38e61e067ac01fab7964804b4da65fc827fcc35f",
+    "bytes": 137949
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_source_comparison.csv": {
+    "sha256": "e7753870abdd1cdac27f4332e8147ebbcbbb9ddd8dbf572be4001c382afa96fe",
+    "bytes": 14088
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_volume_registry.csv": {
+    "sha256": "c2071e2a919d841e6050414844e2d79d6d0b2445c266dcf69403f837b70de897",
+    "bytes": 102557
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_all_model_paired_deltas.csv": {
+    "sha256": "2a072bfd414d13b5d395a3e33c72e0db5039eff6f5f13cb4431f0e25f68c1877",
+    "bytes": 144943
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_paired_deltas.csv": {
+    "sha256": "a844fe40d984bec13fd695d617df2c56f45efbdbccdd07862d95ed4149c4e626",
+    "bytes": 87883
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/COMPARISON_READY.json": {
+    "sha256": "cb9e393b9bd4141aa2bb263b16da6fe0d66aa85f372e63bf50d6dee7d6ede983",
+    "bytes": 233
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_full_validation_metrics.csv": {
+    "sha256": "71928b2fe2e34287dce4ec428fbaf119db7cbfac7bf7ca1791f98588198f9af4",
+    "bytes": 571519
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/DELIVERY_READY.json": {
+    "sha256": "f9ea70f8052109ca69f850874dde3fdea2e1001368431528c8d7002ffc63e635",
+    "bytes": 700
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_dev_validation_manifest.json": {
+    "sha256": "1b36d2571606f2a2861140186b0b8eb4561f8f553f6b296835e5461de1caea25",
+    "bytes": 327531
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/inference_all_complete.json": {
+    "sha256": "0ee609c033fb5839f10a06f8cfef657c8ba03e2673f39ba19cdf3f1e27f7f056",
+    "bytes": 74
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/cache_progress.json": {
+    "sha256": "c3704d65df2bfd055fc40900017179dec6555dd361979bfa778d7e14386b1013",
+    "bytes": 64
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_P0_B100k_B150k_summary.md": {
+    "sha256": "49e5da79758b13e02d8392429a64af27408eff66966479509a2ca640c1f5622d",
+    "bytes": 7599
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/STATUS.json": {
+    "sha256": "56c9fd786c9c1661ce8ef11318c47ca6059bd9e279caf9c3009e5371b3b35691",
+    "bytes": 281
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_source_paired_comparison.csv": {
+    "sha256": "92a779f2fc788aca78ef1ba708976d6b7fb59574de29dfe7328764c48cc2fe97",
+    "bytes": 4018
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_failure_analysis.md": {
+    "sha256": "5c4d3413052e2705a04e4c6a2cd60f5a75bdca8a68f5841b560f579eec179ae2",
+    "bytes": 8611
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/src/validation.py": {
+    "sha256": "143c5403458ca3fad215880ac7afd14e4fd066fbee8342051a0cc49a083e4d54",
+    "bytes": 31735
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/src/large_hd95.py": {
+    "sha256": "1d0168509499e71005a592c432bf0ead659a35b3e0e68850e6843b5f1908100a",
+    "bytes": 1260
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/src/separable_edt.py": {
+    "sha256": "852917d04ab34770122bd09cafdccc814c40484adca60660f8b52d109bfbb53e",
+    "bytes": 2765
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/src/gpu_edt.py": {
+    "sha256": "e7063e947203182aa14d80f6fabe1cf19080f0255b3e71799d13c24bddf4e132",
+    "bytes": 2812
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/src/resource_scoring.py": {
+    "sha256": "6d7c2caf63b7295532dedd7afa98f5e2e900525848d3fccc8784193165c3f4b9",
+    "bytes": 9769
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/first_seed_complete.json": {
+    "sha256": "22708bc03ea11e3b15fab809b0e1484ba9c9a801d2e22c746cff55257ae470f6",
+    "bytes": 158
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_training_curves.csv": {
+    "sha256": "fe1289a912f7713e931c2a562195f333ffbe43278499209ad69f94a6a697b6b3",
+    "bytes": 1142
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_summary.json": {
+    "sha256": "2ded908b319c403eeda54dc23e88dd2853a39eb99d6d83993295967b723707ab",
+    "bytes": 17692
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_first_seed_summary.json": {
+    "sha256": "160ced8c78cd2dd489c35a0044a7ffd364ffe18b3441b1d92701bc40c7acebd3",
+    "bytes": 15298
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_first_seed_report.md": {
+    "sha256": "451466197e47126639946300b3d63c943755f889f8703edd3303d4be8dc63de5",
+    "bytes": 3937
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_checkpoint_hashes.csv": {
+    "sha256": "e650f12345f1cd31782adf3206355add5bbc39c179aab0a0203301872be36c0d",
+    "bytes": 8325
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_actual_supervision.json": {
+    "sha256": "a0ad6a728b74fc96c440ea45d2f8ff0f54f124af44fb1a1c88065f135914bca4",
+    "bytes": 726800
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV-Generalist.json": {
+    "sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+    "bytes": 305069
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_protocol.json": {
+    "sha256": "916ac9fbbeba6b3e131c4d2f106c9c7dd3044acedef323eafbf82d160f90bff3",
+    "bytes": 2414
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_P0_B100_paired_deltas.csv": {
+    "sha256": "97eaadaff80929f27b211aa7c2e6fa67baa00d0f01f9b9a8157f2abc50f1f88e",
+    "bytes": 44984
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_first_seed_metrics.csv": {
+    "sha256": "776a2758bd50da3124db70e64767bc6c168941dbb414b9bc618151c2ff1bd314",
+    "bytes": 37747
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_final_results_verification.json": {
+    "sha256": "08b94544abfdfc5497905000e2fcf039408345d3bd2ce63d1cfaef4b371dbed7",
+    "bytes": 926
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_failure_cases.csv": {
+    "sha256": "a505a3a13c32d163e1fdf6fec83f5198e58b6f1c2710683056e4f5897f54109a",
+    "bytes": 18609
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/cache_complete.json": {
+    "sha256": "a23a02c6617753e0315987739a51d37065119b5399e21219aa2d5b134ae701d0",
+    "bytes": 130
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_source_metrics.csv": {
+    "sha256": "2b5cb803a7ef9a1f26282bcf95f67c7a4f8958a91433069c3439786483e5c359",
+    "bytes": 6521
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_final_source_paired_seed_summary.csv": {
+    "sha256": "320ea94e03cc4802726bd9adbff3613b22ee6e76955967f5052d0de3be8b1d0e",
+    "bytes": 754
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_historical_prediction_reference.csv": {
+    "sha256": "f26fb7ce97f470fc9e70b05ccccc15601ac70145b9aac8dafb628720fc0f1de9",
+    "bytes": 57474
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_historical_reference_unavailable.json": {
+    "sha256": "6a7b6c2e89e385be152d9d9f37bf40e61ff915f05445530d11c8535d1af880b7",
+    "bytes": 131
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/STATUS.json": {
+    "sha256": "6bb251c4b2f468b88311d68b2b6c44e7fab2c90cf56fcf7d3fc0e8e5ab1fc941",
+    "bytes": 342
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_final_report.md": {
+    "sha256": "bb75535e7f23c790da2007d3f967e6e4df326b0cd56d2cb8e636e531d3bdd124",
+    "bytes": 11856
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_same_region_supervision_gain.csv": {
+    "sha256": "4e084351de0f18559f8929543efab8f074518d3d4bb4ece2406500eb37bee7cd",
+    "bytes": 1925
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_per_region_metrics.csv": {
+    "sha256": "24a2545c3ee83b1239c9a377ec1ae8cb8be909074a04151fd7a9b41edfa004c0",
+    "bytes": 112721
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_final_decoder_seed_summary.csv": {
+    "sha256": "fb25ef9c4994d3cbba7808fc2c631b0dce87d443b70bcb4040face3a99d879a0",
+    "bytes": 265
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/src/train.py": {
+    "sha256": "745419cd404e41687a99a7c474948b4417820d9ea6bdc53b4d909c1422e4e22a",
+    "bytes": 9861
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/src/run.py": {
+    "sha256": "8e770245e0be1c1c5295ad3499d600bb636a5fb209054d10358a555835a73031",
+    "bytes": 9908
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/src/report.py": {
+    "sha256": "966f59d92d1f4d8fef5aae6a60893471295992039e122c3cd8c493f2d777eca3",
+    "bytes": 15023
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/src/data.py": {
+    "sha256": "eec0819304a982113df3a9bac228c0666ba6fff1a451acf8a28a32305e0e3269",
+    "bytes": 7166
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/src/scoring_queue.py": {
+    "sha256": "a19fbdc5e92598bd71522631f38ca4e8424e76f1fa32ac5482f160b8c6f2e736",
+    "bytes": 930
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/src/evaluate.py": {
+    "sha256": "a84b3a5060a3baf0d2f959b712714cc0a3bebbbdacb1528e1338c2afdf81182d",
+    "bytes": 5245
+  },
+  "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/README.md": {
+    "sha256": "0cd75774d9553fac1a37a4e2f7cfdda665a32384ca50dcdba8dab2439496ca21",
+    "bytes": 237
+  },
+  "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/STATUS.json": {
+    "sha256": "ec42d72fbdc8b21ff0b97e27fc1d24330f919cb9916d3310daad8b2b2eeb4722",
+    "bytes": 462
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_paired_deltas.csv": {
+    "sha256": "a643f043d9c541af5052887cdf5c2a4a80a8beddf65af5031807ee49c96c0534",
+    "bytes": 41149
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_per_region_metrics.csv": {
+    "sha256": "0136aa632de7932d3320c9a314cd64ca0ac759725dc0f150e4d34f1bc9e19d11",
+    "bytes": 141296
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_protocol.json": {
+    "sha256": "66db27f82a731c2edb81a74c681b2cd00a747abecfcc3c0c6e9f9082033ebe4b",
+    "bytes": 3568
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_failure_cases.csv": {
+    "sha256": "c3e47c43b1cbfc8630b2505f4813538263343446c75a49db7bae3a20aa03d2d1",
+    "bytes": 2998
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_final_report.md": {
+    "sha256": "f5a5d3268685f8251935a52ac2811fb69f3fc4479738cc547e8e14070d95795e",
+    "bytes": 11222
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_source_metrics.csv": {
+    "sha256": "f4fa95d0c41ae6ee2c0f87e5f228dafddc811716fedcf5d03e75a7b7be5e1708",
+    "bytes": 6144
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_source_deltas.csv": {
+    "sha256": "b7493f6f8f35b790a671e2befeab76b3cff82d2b4d7ff20d6bdef920ba0e2511",
+    "bytes": 1370
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_summary.json": {
+    "sha256": "b96fd7b8bed72eb373ae5c84d5535c36c3dc1141d79bbcc0f8f3f248a56bef85",
+    "bytes": 3413
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/STATUS.json": {
+    "sha256": "5bd9b27bf9deae8fd1018d6bc5b627ff28cf468ca5a6bf50ba6b8a073b8a25b3",
+    "bytes": 400
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/common.py": {
+    "sha256": "abcd10ca1bd22a9e2077a50db2e3d543f5176b02cdb795be8b3f117d212b91dc",
+    "bytes": 2332
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/official.py": {
+    "sha256": "2bfdf0946ffcda83f1ecbb9ae6cdd2fc38879685868ddb11743aea5525120f8b",
+    "bytes": 2091
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/run.py": {
+    "sha256": "9d6f2545afb52c98cd9758ced21ebab1573c0fbee00b4f16044b02bd0bb1edf7",
+    "bytes": 5872
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/report.py": {
+    "sha256": "aa01e4a6c2a184766eb74c546034e2c1f06a48ee543de90d4be197c84bb85c21",
+    "bytes": 10696
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/scoring_queue.py": {
+    "sha256": "a19fbdc5e92598bd71522631f38ca4e8424e76f1fa32ac5482f160b8c6f2e736",
+    "bytes": 930
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/score.py": {
+    "sha256": "a15edecd95c460a97bce5cdcfdd4f2eb9c1740ecd018c9bb0d5091cf24da0099",
+    "bytes": 2626
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/infer.py": {
+    "sha256": "597df79f1fff9efccf1f8ed530d288ef0b25be5862f7b999d994fdf97ab4e03b",
+    "bytes": 3093
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_source_metrics.csv": {
+    "sha256": "95ae4de704f3588bba2038ce22a4c703191374390b7b0039085fd7c260687523",
+    "bytes": 6717
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_results_verification.json": {
+    "sha256": "d1480cf07d13a9a2c2f7f3693428bf4ad7bab73c140335d21676636b88d7b790",
+    "bytes": 323
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_summary.json": {
+    "sha256": "a1211647a3c9d9d0062877281477d219f382c9ed9fc04e4be980b55c5966e735",
+    "bytes": 4839
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_source_deltas.csv": {
+    "sha256": "97312895654ffb3cfa4466eb0d6eec700b3601df16880b92d6016d3f11cf3f70",
+    "bytes": 1637
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_protocol.json": {
+    "sha256": "0ec3e67bc6783bc91109735c7d1a9a4865f90171489e302cf38d3e4059cdff1e",
+    "bytes": 2835
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_final_report.md": {
+    "sha256": "2d87733f9ae0c935a6a408121674cac69a65f17826966648ddabe78e949deb09",
+    "bytes": 9289
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_adaptation_paired_deltas.csv": {
+    "sha256": "679720b1c3cf3768d3374dcfb6937b6195141ef5e35e6883099b65848e055a40",
+    "bytes": 6427
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_failure_cases.csv": {
+    "sha256": "c90b525a16e4232b0e72206e0e9cd213728166d1d80db8ab6b054a928de69dd0",
+    "bytes": 3016
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/STATUS.json": {
+    "sha256": "b54b47a785fc3d1a400835b755d47f4e10c0ceea0b416415dc13357005619279",
+    "bytes": 306
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_checkpoint_hashes.csv": {
+    "sha256": "29d8a87fbf22525f6b0d627445b2d0193df34e63715e5603286e9513c41fc10a",
+    "bytes": 1647
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_per_region_metrics.csv": {
+    "sha256": "d19777fe02cbdae6c0af6b5924235e461b9b4b6f3e148a761672b7aed813503b",
+    "bytes": 167658
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_protocol.json": {
+    "sha256": "7869c030d26082f07581bb77bfaccfac0a86ab39445ce11cd520068ea852369e",
+    "bytes": 7193
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_overlap_status.md": {
+    "sha256": "1030b9722b5fa7b5cef5b4ee0f2ea20fa08be225d4adfa3567b52969d4bccbb6",
+    "bytes": 2392
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_summary.json": {
+    "sha256": "8284bbde7cecdb1ada089ccbe448e35862b1abf50bebc3695bcc5b982366716c",
+    "bytes": 6801
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_paired_seed_deltas.csv": {
+    "sha256": "5ba5425b13ba5d9640392516a6837e3e99679914320fc0b3d5ddc408e11499f1",
+    "bytes": 1435
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_dataset_deltas.csv": {
+    "sha256": "fec2cf208808d032d386cc6d33df536a693a1d4a2ec85673600bf3eb4f5e2562",
+    "bytes": 417
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_per_image_metrics.csv": {
+    "sha256": "56b498309651eaea430f9aef95a5b227d8dab2aade7d070a676ac6dc37b16d32",
+    "bytes": 1497121
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_per_dataset_metrics.csv": {
+    "sha256": "b0ccf9618c4ad612a9726d86f45124e7f38a0ddc0336ebc2f99a3acb9c0f0aed",
+    "bytes": 25006
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_model_seed_summary.csv": {
+    "sha256": "f93eaa577ed372eb1933d544b8fc9aa209cc4246a30e0606af1fa51838a91f6c",
+    "bytes": 760
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_figure_manifest.json": {
+    "sha256": "c678b187df7ca7f8ce8d3b68390b09cff4f4d0337fb1b36a463cfd3e9968cd20",
+    "bytes": 4901
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/prepare_complete.json": {
+    "sha256": "10ee0579392a0f3c5f0cc026e502b90cd09effe031c05bcc6f56ae583ac7a380",
+    "bytes": 194
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_TEM_image_distributions.csv": {
+    "sha256": "8cfa74fc52cc5ae51605fe40fe60aedafdde5128314a43b92cd8495b55b8f436",
+    "bytes": 7448
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_per_dataset_model_means.csv": {
+    "sha256": "f5ef9579897afa314004bbe4a93bd14779a195d11c34647163e56b41b626e0bd",
+    "bytes": 4037
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_summary.md": {
+    "sha256": "24f4b83889da24e35e4f83cf5794b4176014bff321a6aeca29c2cca376d84390",
+    "bytes": 6885
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_per_image_confusion.csv": {
+    "sha256": "2bba09bc837c5f2ac03aa236296dc86c5e8f4008d4262ce42f5669a017cf506c",
+    "bytes": 650366
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/STATUS.json": {
+    "sha256": "934e48e7c34c16ff8e8a01cd437b551e65eb4b58e55948d770319a933913dbf7",
+    "bytes": 353
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_results_verification.json": {
+    "sha256": "f8468e35eb7459c68f569c2d3b6602bca68b12d4a0229f2b0bf2b8b2deaaff2e",
+    "bytes": 422
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_benchmark_manifest.json": {
+    "sha256": "8a05d1a5c46933d91e5d20977bcb06c0b9ca6bee10abbcdc17a43b62ac0ea046",
+    "bytes": 104559
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/head_step040000.pth": {
+    "bytes": 534941342,
+    "mtime_ns": 1791954744388687341
+  },
+  "/opt/data/3_117/tanghr/DINOv3/pretrained_weights/dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth": {
+    "bytes": 1213050671,
+    "mtime_ns": 1773135087561386002
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/head_step040000.pth": {
+    "bytes": 534941342,
+    "mtime_ns": 1791954742463167729
+  },
+  "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/runs/B_full/formal_attempt1/checkpoints/step000100000/teacher_backbone.pth": {
+    "bytes": 1213025477,
+    "mtime_ns": 1790699398110790651
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/head_step040000.pth": {
+    "bytes": 534941342,
+    "mtime_ns": 1791959944715448868
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/head_step040000.pth": {
+    "bytes": 534941342,
+    "mtime_ns": 1791959944715734916
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/head_step040000.pth": {
+    "bytes": 534941342,
+    "mtime_ns": 1791959954947720883
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/head_step040000.pth": {
+    "bytes": 534941342,
+    "mtime_ns": 1791963828757934774
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/assets/MitoNet_v1.pth": {
+    "bytes": 221241200,
+    "mtime_ns": 1791988559165249597
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/model_step040000.pth": {
+    "bytes": 221254282,
+    "mtime_ns": 1792034788461126875
+  }
+}

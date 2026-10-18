@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "MitoVerse_volumes": 153,
+  "MitoVerse_sources": 12,
+  "MitoVerse_slices": 34143,
+  "CEM_images": 1425433,
+  "CEM_collections": 627,
+  "seconds": 15.708949089050293,
+  "gt_read_for_ssl": false
+}

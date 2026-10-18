@@ -1,0 +1,6283 @@
+{
+  "training_role": "ssl_diversity_d12_v1",
+  "model": "D2",
+  "cem_fraction": 0.5,
+  "volume_count": 153,
+  "volumes": [
+    {
+      "volume_id": "casser20_kasthuri++_train",
+      "original_dataset_id": "casser20",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/casser20/kasthuri++_train.zarr",
+      "image_array_path": "img",
+      "shape": [
+        85,
+        806,
+        732
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        12.0,
+        12.0,
+        30.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "casser20",
+      "legacy_split": "legacy_dev_test",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "df2395384c7cea2e6d9bc765b6b7ccc6fba47160edfddd40a3dadcf517ad0e2e",
+        "img/.zarray": "f86c68ea8518cb0d334b69b856acea72088ab097fe8aafb639c2b7661fa6c9c5"
+      },
+      "allowed_z": [
+        [
+          0,
+          68
+        ]
+      ],
+      "acquisition_sampling_key": "casser20_kasthuri++_train",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 68
+    },
+    {
+      "volume_id": "guay21_vol0",
+      "original_dataset_id": "guay21",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/guay21/vol0.zarr",
+      "image_array_path": "img",
+      "shape": [
+        50,
+        800,
+        800
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        50,
+        512,
+        512
+      ],
+      "voxel_size": [
+        10.0,
+        10.0,
+        50.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "guay21",
+      "legacy_split": "validation",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "3bcd17fc44b92ebffd77462c1d88cf7be6f90020002f07f39744f600e37b3bc3",
+        "img/.zarray": "1ced24eee5502efd4a37333dec28dd5034e53784d4fc7990de849d5b8d3c3d1a"
+      },
+      "allowed_z": [
+        [
+          0,
+          50
+        ]
+      ],
+      "acquisition_sampling_key": "guay21_vol0",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 50
+    },
+    {
+      "volume_id": "haberl18_vol0",
+      "original_dataset_id": "haberl18",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/haberl18/vol0.zarr",
+      "image_array_path": "img",
+      "shape": [
+        20,
+        256,
+        256
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        20,
+        256,
+        256
+      ],
+      "voxel_size": [
+        10.0,
+        10.0,
+        24.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "haberl18",
+      "legacy_split": "legacy_dev_test",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "8498d4e5d3a63d0930d41747bea651a1f52a02af745bb7bc1bda8e73070f4030",
+        "img/.zarray": "ccc12be78d1c979254d54df0a0d5c29896b854866a119ce884bd4671b0fd0cab"
+      },
+      "allowed_z": [
+        [
+          0,
+          20
+        ]
+      ],
+      "acquisition_sampling_key": "haberl18_vol0",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 20
+    },
+    {
+      "volume_id": "han24_neg0",
+      "original_dataset_id": "han24",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/han24/neg0.zarr",
+      "image_array_path": "img",
+      "shape": [
+        265,
+        1204,
+        1204
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        30.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "han24",
+      "legacy_split": "train",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "9fd3c4c50450ab7b57268c424085f2ff7b5aeeda0de2bec00fde322b3063197a",
+        "img/.zarray": "860fc72dd5da75eca40d9492411ae860d321d7cef4a0132daa79169c71da2621"
+      },
+      "allowed_z": [
+        [
+          0,
+          265
+        ]
+      ],
+      "acquisition_sampling_key": "han24_neg0",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 265
+    },
+    {
+      "volume_id": "han24_pos0",
+      "original_dataset_id": "han24",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/han24/pos0.zarr",
+      "image_array_path": "img",
+      "shape": [
+        362,
+        1756,
+        1650
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        30.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "han24",
+      "legacy_split": "train",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "0287f2409edcde505ea0075d67879d46136968c5bab6d9d7ef14527c1dfd2e84",
+        "img/.zarray": "6e648301f765307d2b369e75548d1967bb3f557acf59eae81307bd553a3249b9"
+      },
+      "allowed_z": [
+        [
+          0,
+          362
+        ]
+      ],
+      "acquisition_sampling_key": "han24_pos0",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 362
+    },
+    {
+      "volume_id": "jiang25_vol1",
+      "original_dataset_id": "jiang25",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/jiang25/vol1.zarr",
+      "image_array_path": "img",
+      "shape": [
+        100,
+        1000,
+        1000
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        15.0,
+        15.0,
+        40.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "jiang25",
+      "legacy_split": "legacy_dev_test",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "417b7d205d065b05dea034c117206c304749588f2d7ea0c65f3dfcb402a098d6",
+        "img/.zarray": "5bee50cbb2c28c3d1d279b831d6aa171767da0bc2414ebc3fff97abc5d5dea30"
+      },
+      "allowed_z": [
+        [
+          0,
+          100
+        ]
+      ],
+      "acquisition_sampling_key": "jiang25_vol1",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 100
+    },
+    {
+      "volume_id": "kunduri22_train01",
+      "original_dataset_id": "kunduri22",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/kunduri22/train01.zarr",
+      "image_array_path": "img",
+      "shape": [
+        384,
+        1024,
+        1024
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        16.0,
+        16.0,
+        16.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "kunduri22",
+      "legacy_split": "train",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "a824cc470e571f096d45c388074873212282b88c0b5b6a304500a7ccc2e03e5f",
+        "img/.zarray": "ced567b44846635a53bd683f03cf2f8ea64e48bbf13d379bbfed6f55f1f22f14"
+      },
+      "allowed_z": [
+        [
+          0,
+          384
+        ]
+      ],
+      "acquisition_sampling_key": "kunduri22_train01",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 384
+    },
+    {
+      "volume_id": "mekuc20_fib1-0-0-0",
+      "original_dataset_id": "mekuc20",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/mekuc20/fib1-0-0-0.zarr",
+      "image_array_path": "img",
+      "shape": [
+        256,
+        256,
+        256
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        256,
+        256
+      ],
+      "voxel_size": [
+        16.0,
+        16.0,
+        15.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "mekuc20",
+      "legacy_split": "validation",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "70b487a8a684aa4fad57839a0c398522b15b34aef3817bebde828d009e6dd2af",
+        "img/.zarray": "e7a108b891b53d324a70cffb613793564bbb0afa08002ef2cb5b8fdb1d8629d9"
+      },
+      "allowed_z": [
+        [
+          0,
+          256
+        ]
+      ],
+      "acquisition_sampling_key": "mekuc20_fib1-0-0-0",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 256
+    },
+    {
+      "volume_id": "mekuc20_fib1-1-0-3",
+      "original_dataset_id": "mekuc20",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/mekuc20/fib1-1-0-3.zarr",
+      "image_array_path": "img",
+      "shape": [
+        256,
+        256,
+        256
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        256,
+        256
+      ],
+      "voxel_size": [
+        16.0,
+        16.0,
+        15.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "mekuc20",
+      "legacy_split": "validation",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "93eff44acdfaddc370d934678326cbfc94e81e96ea63198528956cfcea4c65e9",
+        "img/.zarray": "e7a108b891b53d324a70cffb613793564bbb0afa08002ef2cb5b8fdb1d8629d9"
+      },
+      "allowed_z": [
+        [
+          0,
+          256
+        ]
+      ],
+      "acquisition_sampling_key": "mekuc20_fib1-1-0-3",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 256
+    },
+    {
+      "volume_id": "mekuc20_fib1-3-2-1",
+      "original_dataset_id": "mekuc20",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/mekuc20/fib1-3-2-1.zarr",
+      "image_array_path": "img",
+      "shape": [
+        256,
+        256,
+        256
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        256,
+        256
+      ],
+      "voxel_size": [
+        16.0,
+        16.0,
+        15.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "mekuc20",
+      "legacy_split": "validation",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "48388e4866fb9a6a3707618a5a750fe099db52e30efafbcb5520d916e3f17d4a",
+        "img/.zarray": "e7a108b891b53d324a70cffb613793564bbb0afa08002ef2cb5b8fdb1d8629d9"
+      },
+      "allowed_z": [
+        [
+          0,
+          256
+        ]
+      ],
+      "acquisition_sampling_key": "mekuc20_fib1-3-2-1",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 256
+    },
+    {
+      "volume_id": "mekuc20_fib1-3-3-0",
+      "original_dataset_id": "mekuc20",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/mekuc20/fib1-3-3-0.zarr",
+      "image_array_path": "img",
+      "shape": [
+        256,
+        256,
+        256
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        256,
+        256
+      ],
+      "voxel_size": [
+        16.0,
+        16.0,
+        15.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "mekuc20",
+      "legacy_split": "validation",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "e7ba60093d540dcfff67651e89aa1162d58b0c27ed64d6f0dc24998928dde382",
+        "img/.zarray": "e7a108b891b53d324a70cffb613793564bbb0afa08002ef2cb5b8fdb1d8629d9"
+      },
+      "allowed_z": [
+        [
+          0,
+          256
+        ]
+      ],
+      "acquisition_sampling_key": "mekuc20_fib1-3-3-0",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 256
+    },
+    {
+      "volume_id": "muller21_high_c3",
+      "original_dataset_id": "muller21",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/muller21/high_c3.zarr",
+      "image_array_path": "img",
+      "shape": [
+        1023,
+        676,
+        845
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        16.0,
+        16.0,
+        16.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "muller21",
+      "legacy_split": "train",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "d8a0f0164c04d75ee0e5e8dca9f2e7676341128e980315384617771db647e3ad",
+        "img/.zarray": "7bc422ad1ea9abc27e4367fb8097e5094ff3270260edb25c999ce506de3a73df"
+      },
+      "allowed_z": [
+        [
+          0,
+          1023
+        ]
+      ],
+      "acquisition_sampling_key": "muller21_high_c3",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 1023
+    },
+    {
+      "volume_id": "muller21_low_c1",
+      "original_dataset_id": "muller21",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/muller21/low_c1.zarr",
+      "image_array_path": "img",
+      "shape": [
+        906,
+        694,
+        725
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        16.0,
+        16.0,
+        16.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "muller21",
+      "legacy_split": "train",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "ecfd966bcf9ee5230425fb2e5ee68277cbecb08773c7d6f19384f30b82966e1e",
+        "img/.zarray": "bbacbde014eaed4f28393be6b998bc68653987b8798bc45c80808b11b4d0f7c1"
+      },
+      "allowed_z": [
+        [
+          0,
+          906
+        ]
+      ],
+      "acquisition_sampling_key": "muller21_low_c1",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 906
+    },
+    {
+      "volume_id": "openorganelle_jrc_ctl-id8-1_recon-1_crop116",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_ctl-id8-1_recon-1_crop116.zarr",
+      "image_array_path": "img",
+      "shape": [
+        87,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "817c72b2137479aa2dd93d934ac5bb362a0e1c2d2621a94d2709da4c9c31302b",
+        "img/.zarray": "8b9fed43abf39d40293a56cb3fad9539284270c7218086fbad55ce262c17abef"
+      },
+      "allowed_z": [
+        [
+          0,
+          87
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_ctl-id8-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 87
+    },
+    {
+      "volume_id": "openorganelle_jrc_ctl-id8-1_recon-1_crop118",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_ctl-id8-1_recon-1_crop118.zarr",
+      "image_array_path": "img",
+      "shape": [
+        87,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "7ca161eb7238287a8a40babab8f91653efd7975c46ce3b18f71f05acd720502c",
+        "img/.zarray": "8b9fed43abf39d40293a56cb3fad9539284270c7218086fbad55ce262c17abef"
+      },
+      "allowed_z": [
+        [
+          0,
+          87
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_ctl-id8-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 87
+    },
+    {
+      "volume_id": "openorganelle_jrc_ctl-id8-1_recon-1_crop130",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_ctl-id8-1_recon-1_crop130.zarr",
+      "image_array_path": "img",
+      "shape": [
+        87,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "2d3af360b68c32e8e790bdc1fcc4b91ba1b8e3d57538060657b62743a761113e",
+        "img/.zarray": "8b9fed43abf39d40293a56cb3fad9539284270c7218086fbad55ce262c17abef"
+      },
+      "allowed_z": [
+        [
+          0,
+          87
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_ctl-id8-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 87
+    },
+    {
+      "volume_id": "openorganelle_jrc_hela-2_recon-1_crop1",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_hela-2_recon-1_crop1.zarr",
+      "image_array_path": "img",
+      "shape": [
+        66,
+        250,
+        250
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        250,
+        250
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "9fae17a3055e8f83fbcbf354b2e8e456d826a50ca953b8fba80f5a0157c0b885",
+        "img/.zarray": "541f468b4013215a9f77fe08f6ceaf53fc38d8ca95acf30ad67b2760a2b8beb1"
+      },
+      "allowed_z": [
+        [
+          0,
+          66
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_hela-2",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 66
+    },
+    {
+      "volume_id": "openorganelle_jrc_hela-2_recon-1_crop113",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_hela-2_recon-1_crop113.zarr",
+      "image_array_path": "img",
+      "shape": [
+        164,
+        250,
+        250
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        250,
+        250
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "80469963a62425c44c0ff40be3c26efa1b8f50f34b5e7f9b73f9e191334aa222",
+        "img/.zarray": "c95c33a7c1dbd6e5b8a449bf7b9e18c51815e07793fc291509ed73d968e4a9cd"
+      },
+      "allowed_z": [
+        [
+          0,
+          164
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_hela-2",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 164
+    },
+    {
+      "volume_id": "openorganelle_jrc_hela-2_recon-1_crop155",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_hela-2_recon-1_crop155.zarr",
+      "image_array_path": "img",
+      "shape": [
+        263,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "fb545a157ccbb92f23011e6c08544df6744544af38dfafdf703bdc7969184583",
+        "img/.zarray": "773d9c6c911df8566d6b864a76ad23dc4ae82936eb0ea64842a1e86575046cda"
+      },
+      "allowed_z": [
+        [
+          0,
+          263
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_hela-2",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 263
+    },
+    {
+      "volume_id": "openorganelle_jrc_hela-2_recon-1_crop23",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_hela-2_recon-1_crop23.zarr",
+      "image_array_path": "img",
+      "shape": [
+        164,
+        125,
+        125
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        125,
+        125
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "7ad520d5c31340842f3ce16d8afdfdcb6e730de9bd4f8fca61df61a27262e4d9",
+        "img/.zarray": "13c160c26624c3c6e4fdb66a3074e896dee73598d853c058f5b62c69ac46ccc7"
+      },
+      "allowed_z": [
+        [
+          0,
+          164
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_hela-2",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 164
+    },
+    {
+      "volume_id": "openorganelle_jrc_hela-2_recon-1_crop3",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_hela-2_recon-1_crop3.zarr",
+      "image_array_path": "img",
+      "shape": [
+        164,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "fdeb30ffdc6ecc1b9f31f543e14e5ef8b79e5d411d06502c7dd14ac3d14f61ad",
+        "img/.zarray": "2756978a1a6ca659e23182fdd1760a60fb8908d3bc0250178ff737094c9d6607"
+      },
+      "allowed_z": [
+        [
+          0,
+          164
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_hela-2",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 164
+    },
+    {
+      "volume_id": "openorganelle_jrc_hela-2_recon-1_crop6",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_hela-2_recon-1_crop6.zarr",
+      "image_array_path": "img",
+      "shape": [
+        164,
+        125,
+        125
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        125,
+        125
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "84db7e2453d9daeecc81cbc64135dfe1bb1051c0acae638c61885c4461e492ce",
+        "img/.zarray": "13c160c26624c3c6e4fdb66a3074e896dee73598d853c058f5b62c69ac46ccc7"
+      },
+      "allowed_z": [
+        [
+          0,
+          164
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_hela-2",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 164
+    },
+    {
+      "volume_id": "openorganelle_jrc_hela-2_recon-1_crop9",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_hela-2_recon-1_crop9.zarr",
+      "image_array_path": "img",
+      "shape": [
+        35,
+        50,
+        50
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        35,
+        50,
+        50
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "1bbecc51b8fb5deed2538d5f1845f7b5fb09313f2eba8566a7d3c82f715eb3c9",
+        "img/.zarray": "33d36845ea672ea1ca5f5a18dc0931e7275472842fa817b59bf6578174d04959"
+      },
+      "allowed_z": [
+        [
+          0,
+          35
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_hela-2",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 35
+    },
+    {
+      "volume_id": "openorganelle_jrc_hela-3_recon-1_crop101",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_hela-3_recon-1_crop101.zarr",
+      "image_array_path": "img",
+      "shape": [
+        81,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "41cbf9815c1260fc01f108651e0cc0d41bd81ccce219e70d5a4b3c7ae2cba033",
+        "img/.zarray": "89009c039fd7eb8924f7ff08c4d92d36c68d9d203f14ddbc50b0bafeca0f8ed6"
+      },
+      "allowed_z": [
+        [
+          0,
+          81
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_hela-3",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 81
+    },
+    {
+      "volume_id": "openorganelle_jrc_hela-3_recon-1_crop111",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_hela-3_recon-1_crop111.zarr",
+      "image_array_path": "img",
+      "shape": [
+        203,
+        125,
+        250
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        125,
+        250
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "4c26758274a354c31367fbc6009df0570e1b1b70c6ac192b2947b643e58a4c83",
+        "img/.zarray": "e128178a16a4cfb711c72a22f92a687e4f8f1806287f302f75d3cc03d38c1d96"
+      },
+      "allowed_z": [
+        [
+          0,
+          203
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_hela-3",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 203
+    },
+    {
+      "volume_id": "openorganelle_jrc_hela-3_recon-1_crop181",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_hela-3_recon-1_crop181.zarr",
+      "image_array_path": "img",
+      "shape": [
+        81,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "6dee0dd5e70bef51e5f65b386076eea4797d956fb2f53b51632bb95fe5a1f82b",
+        "img/.zarray": "89009c039fd7eb8924f7ff08c4d92d36c68d9d203f14ddbc50b0bafeca0f8ed6"
+      },
+      "allowed_z": [
+        [
+          0,
+          81
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_hela-3",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 81
+    },
+    {
+      "volume_id": "openorganelle_jrc_hela-3_recon-1_crop33",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_hela-3_recon-1_crop33.zarr",
+      "image_array_path": "img",
+      "shape": [
+        81,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "713dfc494e608eb8536706be20b4b4a39ce7b95dfb94eea758a6e2595f7254a6",
+        "img/.zarray": "89009c039fd7eb8924f7ff08c4d92d36c68d9d203f14ddbc50b0bafeca0f8ed6"
+      },
+      "allowed_z": [
+        [
+          0,
+          81
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_hela-3",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 81
+    },
+    {
+      "volume_id": "openorganelle_jrc_hela-3_recon-1_crop34",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_hela-3_recon-1_crop34.zarr",
+      "image_array_path": "img",
+      "shape": [
+        81,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "7b405fcd4866b64d37c9dd85a1a4a822eff452dab946b2e1bf70dc24937e559f",
+        "img/.zarray": "89009c039fd7eb8924f7ff08c4d92d36c68d9d203f14ddbc50b0bafeca0f8ed6"
+      },
+      "allowed_z": [
+        [
+          0,
+          81
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_hela-3",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 81
+    },
+    {
+      "volume_id": "openorganelle_jrc_jurkat-1_recon-1_crop112",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_jurkat-1_recon-1_crop112.zarr",
+      "image_array_path": "img",
+      "shape": [
+        216,
+        125,
+        250
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        125,
+        250
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "60fb909f04264303890011ccc7d4437f5132797ec56bb301de107f3084fa6d30",
+        "img/.zarray": "f731cc14d44447c83f48c142dcad32f49b0f685a29a6d2f9f76f214b4200ff66"
+      },
+      "allowed_z": [
+        [
+          0,
+          216
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_jurkat-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 216
+    },
+    {
+      "volume_id": "openorganelle_jrc_jurkat-1_recon-1_crop126",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_jurkat-1_recon-1_crop126.zarr",
+      "image_array_path": "img",
+      "shape": [
+        86,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "bf40eaf2f58338b133dedf4603c50ad421b58306de13c58d768e28ed63d6a59a",
+        "img/.zarray": "f78e5c17e4cc6d437221fa5f509be90becd55f441b5bb5d859547fc93aa3e279"
+      },
+      "allowed_z": [
+        [
+          0,
+          86
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_jurkat-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 86
+    },
+    {
+      "volume_id": "openorganelle_jrc_jurkat-1_recon-1_crop180",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_jurkat-1_recon-1_crop180.zarr",
+      "image_array_path": "img",
+      "shape": [
+        86,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "7c499252cc603caf6a69a4c3639e56a753ec7b3bf4a852e2d4ba6cc9df71d0c6",
+        "img/.zarray": "f78e5c17e4cc6d437221fa5f509be90becd55f441b5bb5d859547fc93aa3e279"
+      },
+      "allowed_z": [
+        [
+          0,
+          86
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_jurkat-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 86
+    },
+    {
+      "volume_id": "openorganelle_jrc_jurkat-1_recon-1_crop182",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_jurkat-1_recon-1_crop182.zarr",
+      "image_array_path": "img",
+      "shape": [
+        86,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "e141760cedc7d7510417f40267f3fd1b3793fa2072d8e27196ea0fb83178751e",
+        "img/.zarray": "f78e5c17e4cc6d437221fa5f509be90becd55f441b5bb5d859547fc93aa3e279"
+      },
+      "allowed_z": [
+        [
+          0,
+          86
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_jurkat-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 86
+    },
+    {
+      "volume_id": "openorganelle_jrc_jurkat-1_recon-1_crop37",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_jurkat-1_recon-1_crop37.zarr",
+      "image_array_path": "img",
+      "shape": [
+        86,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "d0c966288865d8081cdbdd1766c1d103ad3c69c62a046f1f71fd219ba8ec8f8d",
+        "img/.zarray": "f78e5c17e4cc6d437221fa5f509be90becd55f441b5bb5d859547fc93aa3e279"
+      },
+      "allowed_z": [
+        [
+          0,
+          86
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_jurkat-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 86
+    },
+    {
+      "volume_id": "openorganelle_jrc_jurkat-1_recon-1_crop38",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_jurkat-1_recon-1_crop38.zarr",
+      "image_array_path": "img",
+      "shape": [
+        86,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "c4476059e5b762441a6a04f14b4185d0d990aca94c48b388e486257bd3410dff",
+        "img/.zarray": "f78e5c17e4cc6d437221fa5f509be90becd55f441b5bb5d859547fc93aa3e279"
+      },
+      "allowed_z": [
+        [
+          0,
+          86
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_jurkat-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 86
+    },
+    {
+      "volume_id": "openorganelle_jrc_jurkat-1_recon-1_crop43",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_jurkat-1_recon-1_crop43.zarr",
+      "image_array_path": "img",
+      "shape": [
+        111,
+        128,
+        128
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        128,
+        128
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "f8995d6f735b27e5f06aa9acaf87cac222d70d6c39eac6a6069e5e6c2432001b",
+        "img/.zarray": "dd80cf6bc3dd10270f82a1a46dde3140518b84badbcb07fe29ac05943c187925"
+      },
+      "allowed_z": [
+        [
+          0,
+          111
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_jurkat-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 111
+    },
+    {
+      "volume_id": "openorganelle_jrc_jurkat-1_recon-1_test0",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_jurkat-1_recon-1_test0.zarr",
+      "image_array_path": "img",
+      "shape": [
+        256,
+        1024,
+        1024
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "c415155e1b27e28de7a6c143b04677886d7beffe4397148955434305631d95d9",
+        "img/.zarray": "2a5d9f2246ff22c8517de0a1c9500894395f893e2cd5f5552b9c5e42229907a8"
+      },
+      "allowed_z": [
+        [
+          0,
+          256
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_jurkat-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 256
+    },
+    {
+      "volume_id": "openorganelle_jrc_macrophage-2_recon-1_crop110",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_macrophage-2_recon-1_crop110.zarr",
+      "image_array_path": "img",
+      "shape": [
+        210,
+        125,
+        251
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        125,
+        251
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "b9738b6aecdda91245d17a7b13e0caaeef2e733a2bbbe72150db8134b1d95e1c",
+        "img/.zarray": "bea297809d95fdb9cd75c03b05423d5e2fe2c7681ca03cf5cfb036129e806e72"
+      },
+      "allowed_z": [
+        [
+          0,
+          210
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_macrophage-2",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 210
+    },
+    {
+      "volume_id": "openorganelle_jrc_macrophage-2_recon-1_crop31",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_macrophage-2_recon-1_crop31.zarr",
+      "image_array_path": "img",
+      "shape": [
+        63,
+        75,
+        75
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        63,
+        75,
+        75
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "bb9031e25e27f9c6e0bcc90e0b9ba0316dfacbc94b99128834ff189d5db53998",
+        "img/.zarray": "b665204a19d07f9fa8db8001e47841d03985d79ab4302d11af883d4e802b3eb8"
+      },
+      "allowed_z": [
+        [
+          0,
+          63
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_macrophage-2",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 63
+    },
+    {
+      "volume_id": "openorganelle_jrc_macrophage-2_recon-1_crop32",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_macrophage-2_recon-1_crop32.zarr",
+      "image_array_path": "img",
+      "shape": [
+        84,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "29dfacc2a89018ae4a145a905fd27958fbb99255967a979da25092f689431875",
+        "img/.zarray": "50c107fb3c6346bad6610aa720735e6f10f91e070c554c52f04ba47191db2501"
+      },
+      "allowed_z": [
+        [
+          0,
+          84
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_macrophage-2",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 84
+    },
+    {
+      "volume_id": "openorganelle_jrc_macrophage-2_recon-1_crop39",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_macrophage-2_recon-1_crop39.zarr",
+      "image_array_path": "img",
+      "shape": [
+        84,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "207c9a72590fd214b4c682512b1bef664daa737082799d784a85bd8b444d0d12",
+        "img/.zarray": "50c107fb3c6346bad6610aa720735e6f10f91e070c554c52f04ba47191db2501"
+      },
+      "allowed_z": [
+        [
+          0,
+          84
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_macrophage-2",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 84
+    },
+    {
+      "volume_id": "openorganelle_jrc_macrophage-2_recon-1_crop48",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_macrophage-2_recon-1_crop48.zarr",
+      "image_array_path": "img",
+      "shape": [
+        108,
+        128,
+        128
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        128,
+        128
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "734b9dffe9f6669fe4d05985c856608c894deef50cb70c780174fd7954395e3d",
+        "img/.zarray": "bcbfcfac10d828b1158d41ed197c4326eaf2a29243588c3b005867cdbd83c5a0"
+      },
+      "allowed_z": [
+        [
+          0,
+          108
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_macrophage-2",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 108
+    },
+    {
+      "volume_id": "openorganelle_jrc_macrophage-2_recon-1_test0",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_macrophage-2_recon-1_test0.zarr",
+      "image_array_path": "img",
+      "shape": [
+        256,
+        1024,
+        1024
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "f1d17bee24e841dd6741f2e7fbe05d97ac447a6c64b13f9f3d635f1774b40d2c",
+        "img/.zarray": "2a5d9f2246ff22c8517de0a1c9500894395f893e2cd5f5552b9c5e42229907a8"
+      },
+      "allowed_z": [
+        [
+          0,
+          256
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_macrophage-2",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 256
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-kidney_recon-1_crop129",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-kidney_recon-1_crop129.zarr",
+      "image_array_path": "img",
+      "shape": [
+        300,
+        300,
+        300
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        300,
+        300
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "a04c0b18de209a32ad43dcf9a2ad740dab256c97257cb84fa4489f47c8576813",
+        "img/.zarray": "86871830bdc07c67aaab2636cc28ea79e736f0fd64fb499ad809a26c6761ad3f"
+      },
+      "allowed_z": [
+        [
+          0,
+          300
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-kidney",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 300
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-kidney_recon-1_crop140",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-kidney_recon-1_crop140.zarr",
+      "image_array_path": "img",
+      "shape": [
+        100,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "13eb8b1a00621d383f5940ffcaf08491004ab8175ce2e92d3dc1cf8b7f23b7e2",
+        "img/.zarray": "4b4a5a3ddf6eec022946253fbfa5f7ccd1d99366daf6b245aec06bfcc01a28fa"
+      },
+      "allowed_z": [
+        [
+          0,
+          100
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-kidney",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 100
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-kidney_recon-1_crop141",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-kidney_recon-1_crop141.zarr",
+      "image_array_path": "img",
+      "shape": [
+        150,
+        150,
+        150
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        150,
+        150
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "dc6cf808de6b2082af912da9a205b719426c0f1bb57fae103dc3810332387e3b",
+        "img/.zarray": "689f4aedee8b9726465a38c15385621caabafb5d1474bad74a9cb92ad8cb22dd"
+      },
+      "allowed_z": [
+        [
+          0,
+          150
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-kidney",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 150
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-kidney_recon-1_crop147",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-kidney_recon-1_crop147.zarr",
+      "image_array_path": "img",
+      "shape": [
+        100,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "ab2820d969624659e89e6e5bd255640d8f449f9a8ffeef4dca7cf48520792367",
+        "img/.zarray": "4b4a5a3ddf6eec022946253fbfa5f7ccd1d99366daf6b245aec06bfcc01a28fa"
+      },
+      "allowed_z": [
+        [
+          0,
+          100
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-kidney",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 100
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-kidney_recon-1_crop148",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-kidney_recon-1_crop148.zarr",
+      "image_array_path": "img",
+      "shape": [
+        100,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "b39950adbf289d5b2a71362b7c8e7aec4b0f1508527dbf870cf332d18814f47b",
+        "img/.zarray": "4b4a5a3ddf6eec022946253fbfa5f7ccd1d99366daf6b245aec06bfcc01a28fa"
+      },
+      "allowed_z": [
+        [
+          0,
+          100
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-kidney",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 100
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-kidney_recon-1_crop156",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-kidney_recon-1_crop156.zarr",
+      "image_array_path": "img",
+      "shape": [
+        300,
+        300,
+        300
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        300,
+        300
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "2635076017f183aa087d6147a7080e15cbf3cff8fb1095d763d70f9bb74bd5d6",
+        "img/.zarray": "86871830bdc07c67aaab2636cc28ea79e736f0fd64fb499ad809a26c6761ad3f"
+      },
+      "allowed_z": [
+        [
+          0,
+          300
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-kidney",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 300
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-kidney_recon-1_crop158",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-kidney_recon-1_crop158.zarr",
+      "image_array_path": "img",
+      "shape": [
+        100,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "dacd028a0c525d81ecdfd309efb82319c1426b0d10a001acdc53019971bd3712",
+        "img/.zarray": "4b4a5a3ddf6eec022946253fbfa5f7ccd1d99366daf6b245aec06bfcc01a28fa"
+      },
+      "allowed_z": [
+        [
+          0,
+          100
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-kidney",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 100
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-kidney_recon-1_crop160",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-kidney_recon-1_crop160.zarr",
+      "image_array_path": "img",
+      "shape": [
+        100,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "97b8a54b13166d3b638136aae5465231b006203bc8c59062bcf52ca2650d1481",
+        "img/.zarray": "4b4a5a3ddf6eec022946253fbfa5f7ccd1d99366daf6b245aec06bfcc01a28fa"
+      },
+      "allowed_z": [
+        [
+          0,
+          100
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-kidney",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 100
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-kidney_recon-1_crop161",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-kidney_recon-1_crop161.zarr",
+      "image_array_path": "img",
+      "shape": [
+        100,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "0d135d1cbbbb03c2055a9fb94f9dff7e5e7fbd18456b8f3c93a77e9148c3fecf",
+        "img/.zarray": "4b4a5a3ddf6eec022946253fbfa5f7ccd1d99366daf6b245aec06bfcc01a28fa"
+      },
+      "allowed_z": [
+        [
+          0,
+          100
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-kidney",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 100
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-kidney_recon-1_crop162",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-kidney_recon-1_crop162.zarr",
+      "image_array_path": "img",
+      "shape": [
+        100,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "b0862e0ea26eefde3bbf0e003a376ab6f20d1274f4ca6d2fd13d8fb629671216",
+        "img/.zarray": "4b4a5a3ddf6eec022946253fbfa5f7ccd1d99366daf6b245aec06bfcc01a28fa"
+      },
+      "allowed_z": [
+        [
+          0,
+          100
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-kidney",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 100
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-kidney_recon-1_crop163",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-kidney_recon-1_crop163.zarr",
+      "image_array_path": "img",
+      "shape": [
+        100,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "11184d9368905762a5a65f0c9806899093bc9c294e7e9469596dba2ac1004efd",
+        "img/.zarray": "4b4a5a3ddf6eec022946253fbfa5f7ccd1d99366daf6b245aec06bfcc01a28fa"
+      },
+      "allowed_z": [
+        [
+          0,
+          100
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-kidney",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 100
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-kidney_recon-1_crop164",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-kidney_recon-1_crop164.zarr",
+      "image_array_path": "img",
+      "shape": [
+        100,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "a67a3bd6d723b98eb1ff7bde238e8c5d3bcc8bb704ea74c54a86be0cd7520f74",
+        "img/.zarray": "4b4a5a3ddf6eec022946253fbfa5f7ccd1d99366daf6b245aec06bfcc01a28fa"
+      },
+      "allowed_z": [
+        [
+          0,
+          100
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-kidney",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 100
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-kidney_recon-1_crop165",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-kidney_recon-1_crop165.zarr",
+      "image_array_path": "img",
+      "shape": [
+        100,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "1a17fc2ce81cb3a749846542a8f6c61c44551f98198dbc5774920911817ce30a",
+        "img/.zarray": "4b4a5a3ddf6eec022946253fbfa5f7ccd1d99366daf6b245aec06bfcc01a28fa"
+      },
+      "allowed_z": [
+        [
+          0,
+          100
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-kidney",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 100
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-kidney_recon-1_crop166",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-kidney_recon-1_crop166.zarr",
+      "image_array_path": "img",
+      "shape": [
+        100,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "594e4ba70b1e265a7c03a54ae70278a2874a8f3b63bc8dc72bd84bd8a9effe0d",
+        "img/.zarray": "4b4a5a3ddf6eec022946253fbfa5f7ccd1d99366daf6b245aec06bfcc01a28fa"
+      },
+      "allowed_z": [
+        [
+          0,
+          100
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-kidney",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 100
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-kidney_recon-1_crop184",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-kidney_recon-1_crop184.zarr",
+      "image_array_path": "img",
+      "shape": [
+        800,
+        600,
+        600
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "7b979e83095ae79b4e19f64af8a90e1443dc78c8d99235348434746d5100dd95",
+        "img/.zarray": "bfa1d1278b98bb1d478fdc1d0ffe67b61b8bb72e550dba1e6434c6c6022ec057"
+      },
+      "allowed_z": [
+        [
+          0,
+          800
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-kidney",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 800
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-kidney_recon-1_crop221",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-kidney_recon-1_crop221.zarr",
+      "image_array_path": "img",
+      "shape": [
+        600,
+        600,
+        600
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "0466b5d0d7dca940d1b9406f2e417c926fd5e496c3c91622936c550bebac7e65",
+        "img/.zarray": "8790fb907fa71d571ecdfa0de782722e945b09ee7a36d6a1356999bffc5ab4e3"
+      },
+      "allowed_z": [
+        [
+          0,
+          600
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-kidney",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 600
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-kidney_recon-1_crop229",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-kidney_recon-1_crop229.zarr",
+      "image_array_path": "img",
+      "shape": [
+        300,
+        500,
+        700
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        500,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "417ad53e573e7101d62794208c771b99f4c819e2f78131837e61ee431b992cb7",
+        "img/.zarray": "ba63daf8ca3ffb6dd422105369f24266f4c136267013300551b7b11c393f3f7c"
+      },
+      "allowed_z": [
+        [
+          0,
+          300
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-kidney",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 300
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-kidney_recon-1_crop230",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-kidney_recon-1_crop230.zarr",
+      "image_array_path": "img",
+      "shape": [
+        800,
+        800,
+        800
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "d6b16ee3d0dada6c59d9bb7479913dbe5bf0a133cb590a3336ef62b83cd322ec",
+        "img/.zarray": "36b1b24d31327dbde4cb4f41a7302f8f904facccd93be8631e8f607c0c580a4c"
+      },
+      "allowed_z": [
+        [
+          0,
+          800
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-kidney",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 800
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-kidney_recon-1_crop231",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-kidney_recon-1_crop231.zarr",
+      "image_array_path": "img",
+      "shape": [
+        800,
+        800,
+        800
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "435d056e233595bb3f933b7c3203b26b346e8286f8eb94deaa3b32f4c72dc376",
+        "img/.zarray": "36b1b24d31327dbde4cb4f41a7302f8f904facccd93be8631e8f607c0c580a4c"
+      },
+      "allowed_z": [
+        [
+          0,
+          800
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-kidney",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 800
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-kidney_recon-1_test0",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-kidney_recon-1_test0.zarr",
+      "image_array_path": "img",
+      "shape": [
+        256,
+        1024,
+        1024
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "b099b43aa439911b1e2c01590c9a47822a92240e422f13075a11a1779be211df",
+        "img/.zarray": "2a5d9f2246ff22c8517de0a1c9500894395f893e2cd5f5552b9c5e42229907a8"
+      },
+      "allowed_z": [
+        [
+          0,
+          256
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-kidney",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 256
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop266",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop266.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "c085805bde51946433cfcbbabd78a2a6a6a013b9846dd3d7a7ad5d4e0b4c3767",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop267",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop267.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "9d7b012f1debae19c669fff5229b43587643526112a8bdfa807002691304e88d",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop268",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop268.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "566f84cf4694f21d79d80f1aa9e0d30d266c146c55004e165b5c4df7bf554aae",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop269",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop269.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "19da88801eefca95c7df343f9c8089b1a2b0987980f947b3b122b52422e71297",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop270",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop270.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "43e939bc7854fbadeccdecc935f1886c9653f2dab93ece4a02359dbca95a03b6",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop272",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop272.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "82bc3cd87896106dd612110962388ae4457595f9010e908e52bd455dc54be9a8",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop273",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop273.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "719aa9fd88af4198e08523e2c3edde75b9dc4789632dfa86b1e049d8cd7403d7",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop274",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop274.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "027e0f62c71f411d81429e8e77d469f90d895866376e8ef6d2c78056dd77c2dc",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop275",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop275.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "675d35b413327360470229929f4c77f9131b922ff3f2f5ee41899f208cbc3088",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop276",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop276.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "47916f4043f059b28966cc17444b125e3cefe823f29cc56a4006ec1390d7538e",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop277",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop277.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "775ce709643f5bda8a22ee7ae0bf9f4ef983f91c584c7d1e247146bd2fa0d6e0",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop279",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop279.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "66cfb263685986c1026d4aeac495c2bf896066fc24cba63c060c22cb60e2e1c3",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop298",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop298.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "effb743353b8565aa6f2ce8476a34d8fa1a7a52936d6749d1bbfa51d9e232407",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop313",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop313.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "92b851dc3d07fbc04e2387ddb66b887cbd884fd4a33316117f4e068c0595191d",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop319",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop319.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "73379072ffac69344e4f3688705414829e90693356b2380b54ae456a552f91b8",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop320",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop320.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "4e6adc23c01254514cebc1215d1853f5ca21a8ffa75fb2806c0203ce89ff128a",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop321",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop321.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "9775a6edc247049f8481990d86c0886157df8dbd643de2b0fc6e2b434f5d4d88",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop322",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop322.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "41910d3c5084c0e00b7c8ce6ce9eb23b10b117862cc927bbfa7e694c844c4747",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop323",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop323.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "08aef3dc6cd53ceafdc1cf8ac4c237542f14a3fc6bb7d94e613eec137e8afc90",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop325",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop325.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "f39d8ba78b46100ff8a98f87fbb0718d8aae57b34e85b932fb966dcae5b1019f",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop326",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop326.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "752aee66cf0dccae8f3a66e68bd3487092e19d73c5a59e4084bacca132ef87a0",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop345",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop345.zarr",
+      "image_array_path": "img",
+      "shape": [
+        800,
+        800,
+        800
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "e9a3702231f654da6ea1e07f31fe8f7f80cde3c41a7f22e46db67062c7f2ad50",
+        "img/.zarray": "36b1b24d31327dbde4cb4f41a7302f8f904facccd93be8631e8f607c0c580a4c"
+      },
+      "allowed_z": [
+        [
+          0,
+          800
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 800
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop346",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop346.zarr",
+      "image_array_path": "img",
+      "shape": [
+        800,
+        800,
+        800
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "e7af1c219802aae0364446187c79cd015513d51f4b9f0b8390a354377f7fabdb",
+        "img/.zarray": "36b1b24d31327dbde4cb4f41a7302f8f904facccd93be8631e8f607c0c580a4c"
+      },
+      "allowed_z": [
+        [
+          0,
+          800
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 800
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-1_recon-1_crop377",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-1_recon-1_crop377.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "e0fca7da71f60b4b125c1ff8e17a576ed5aad77b5967e96b1f9da0c8254ba76b",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-2_recon-1_crop340",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-2_recon-1_crop340.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "b1c4664e5d73fe04c2251e2e387a5053f132a657d5b622a4d296041d92c3ed8f",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-2",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-2_recon-1_crop342",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-2_recon-1_crop342.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "6f89772c3f46ee75332826a1fc831916da1428081222b7604e2302bdb3dfa0ad",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-2",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-2_recon-1_crop355",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-2_recon-1_crop355.zarr",
+      "image_array_path": "img",
+      "shape": [
+        800,
+        800,
+        800
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "bcc69a1dee7504fd16f288e71cb5131a2910e17e1eb6e0a2c31537e08314e330",
+        "img/.zarray": "36b1b24d31327dbde4cb4f41a7302f8f904facccd93be8631e8f607c0c580a4c"
+      },
+      "allowed_z": [
+        [
+          0,
+          800
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-2",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 800
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-2_recon-1_crop356",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-2_recon-1_crop356.zarr",
+      "image_array_path": "img",
+      "shape": [
+        800,
+        800,
+        800
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "7e03772c922f7a02131695aa4976095886117d9e81aeb2d8133fcb1bcb661ea0",
+        "img/.zarray": "36b1b24d31327dbde4cb4f41a7302f8f904facccd93be8631e8f607c0c580a4c"
+      },
+      "allowed_z": [
+        [
+          0,
+          800
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-2",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 800
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-2_recon-1_crop368",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-2_recon-1_crop368.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "3784b7bb8bbcf9003dc9f2aa72a4344287014069cf4b26357733187a08b27c70",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-2",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-2_recon-1_crop369",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-2_recon-1_crop369.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "a66b9bb8b743f6929b30fffc734fc63028bcd8bf2170d3bf39462f9ace697671",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-2",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-2_recon-1_crop370",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-2_recon-1_crop370.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "228591e19483bfbaf0faae872024573ae46bd843a76f24b8918dab47255f4fbe",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-2",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver-zon-2_recon-1_crop376",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver-zon-2_recon-1_crop376.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "7e1b696dbfed1918aa4628fd091fef704a607ed1aace0ce9b4a7e490c4f4982b",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver-zon-2",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver_recon-1_crop124",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver_recon-1_crop124.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "4fb789d175523aae37681e07dcf254675b15b977c875085f24ea5447716a86f5",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver_recon-1_crop125",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver_recon-1_crop125.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "ab1e4aadfb159a6c4497be20063da913daedbb88e512475b5caca5ac4600fddd",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver_recon-1_crop131",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver_recon-1_crop131.zarr",
+      "image_array_path": "img",
+      "shape": [
+        50,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        50,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "3485e1e41a46a50a9b4a31e295e96714fcac5c2bf5cd31f54283ee2f47897987",
+        "img/.zarray": "4868c621c02e897d12c63a41d7a74e7e7689c7221422a148433c8ac28b77a65f"
+      },
+      "allowed_z": [
+        [
+          0,
+          50
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 50
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver_recon-1_crop132",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver_recon-1_crop132.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "131f6357b4e72e2312046fa2c4bd57fd3029862b90b006c103740fe4176e0197",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver_recon-1_crop133",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver_recon-1_crop133.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "1c0bd1dcc631e7201e0883a5ca01ba74472b08678fa85e5fcff53e1182381256",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver_recon-1_crop135",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver_recon-1_crop135.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "11ad7af952e58b288af7ddafbe1faf1427493f693636afe3a82a2547bd0c0466",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver_recon-1_crop136",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver_recon-1_crop136.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "1143f65f98a573eef0ac387b99da1e52eb53ef00d7693b07baa63cfb4115d3f7",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver_recon-1_crop137",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver_recon-1_crop137.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "da908cd72ae72267bcdd1a0dcd54145c285e29ab3ea9a3c2274e141b031a109c",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver_recon-1_crop138",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver_recon-1_crop138.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "3f1665632da3e83f5f964fe4579411ffbc87ff69d443311bf7c3c4b94bcd8dca",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver_recon-1_crop143",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver_recon-1_crop143.zarr",
+      "image_array_path": "img",
+      "shape": [
+        100,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "1ca12e76bb33f1cd24b966cf062d5f84759f9f70a6f429a9ca2a526d382d6e1b",
+        "img/.zarray": "4b4a5a3ddf6eec022946253fbfa5f7ccd1d99366daf6b245aec06bfcc01a28fa"
+      },
+      "allowed_z": [
+        [
+          0,
+          100
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 100
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver_recon-1_crop144",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver_recon-1_crop144.zarr",
+      "image_array_path": "img",
+      "shape": [
+        100,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "1543d544fa5fa14ca42276092857ef917a20451cbe3ac6e34b0ad3c857d52d38",
+        "img/.zarray": "4b4a5a3ddf6eec022946253fbfa5f7ccd1d99366daf6b245aec06bfcc01a28fa"
+      },
+      "allowed_z": [
+        [
+          0,
+          100
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 100
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver_recon-1_crop145",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver_recon-1_crop145.zarr",
+      "image_array_path": "img",
+      "shape": [
+        180,
+        375,
+        375
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        375,
+        375
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "c3fc674af7eef1beec7ef528b3dc93f7915c569dcc9eaf95b88a759be7cff997",
+        "img/.zarray": "1c04dabd30debada772266f21720269aeccb0e2be7a106d2ac04c43b72e4ac58"
+      },
+      "allowed_z": [
+        [
+          0,
+          180
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 180
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver_recon-1_crop150",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver_recon-1_crop150.zarr",
+      "image_array_path": "img",
+      "shape": [
+        100,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "7008f61f1cf89ff8eaed41ae45c80f4ec7924be894a6722881560126c9606854",
+        "img/.zarray": "4b4a5a3ddf6eec022946253fbfa5f7ccd1d99366daf6b245aec06bfcc01a28fa"
+      },
+      "allowed_z": [
+        [
+          0,
+          100
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 100
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver_recon-1_crop157",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver_recon-1_crop157.zarr",
+      "image_array_path": "img",
+      "shape": [
+        100,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "f68fdf134946ffe4ae682ba9df20fbdf78ea25a3ccb86f36c43dab89bb776be9",
+        "img/.zarray": "4b4a5a3ddf6eec022946253fbfa5f7ccd1d99366daf6b245aec06bfcc01a28fa"
+      },
+      "allowed_z": [
+        [
+          0,
+          100
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 100
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver_recon-1_crop177",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver_recon-1_crop177.zarr",
+      "image_array_path": "img",
+      "shape": [
+        800,
+        800,
+        800
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "85be856770bc50b43a0052f9ff1145a11ba099a9a1bd63cc3d7479675c7fa51c",
+        "img/.zarray": "36b1b24d31327dbde4cb4f41a7302f8f904facccd93be8631e8f607c0c580a4c"
+      },
+      "allowed_z": [
+        [
+          0,
+          800
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 800
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver_recon-1_crop183",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver_recon-1_crop183.zarr",
+      "image_array_path": "img",
+      "shape": [
+        100,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "b40cdd5033c4845f488dae5b47e4f8fdfe299f90bf81291109b685681107f99b",
+        "img/.zarray": "4b4a5a3ddf6eec022946253fbfa5f7ccd1d99366daf6b245aec06bfcc01a28fa"
+      },
+      "allowed_z": [
+        [
+          0,
+          100
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 100
+    },
+    {
+      "volume_id": "openorganelle_jrc_mus-liver_recon-1_test0",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_mus-liver_recon-1_test0.zarr",
+      "image_array_path": "img",
+      "shape": [
+        256,
+        1024,
+        1024
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "90d0a3c0c55bdda8e1ab8c4d054ef598dd84b28ce6a8e1924ab10f58baf1a9af",
+        "img/.zarray": "2a5d9f2246ff22c8517de0a1c9500894395f893e2cd5f5552b9c5e42229907a8"
+      },
+      "allowed_z": [
+        [
+          0,
+          256
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_mus-liver",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 256
+    },
+    {
+      "volume_id": "openorganelle_jrc_sum159-1_recon-1_crop20",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_sum159-1_recon-1_crop20.zarr",
+      "image_array_path": "img",
+      "shape": [
+        48,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        48,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "fc6805687f9e3a46f9148f25ecb55c3e72dc7eccf035a16ffeb39a1767380b2c",
+        "img/.zarray": "54f5f693b679efe22f9303806c8bc704ccc0602f25d79d4107dd53141f8d9bf7"
+      },
+      "allowed_z": [
+        [
+          0,
+          48
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_sum159-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 48
+    },
+    {
+      "volume_id": "openorganelle_jrc_sum159-1_recon-1_crop80",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_sum159-1_recon-1_crop80.zarr",
+      "image_array_path": "img",
+      "shape": [
+        114,
+        100,
+        100
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        100,
+        100
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "97e926149bfeafb1d80e8d3f4c61c622f6a101d6c60471944ca77619631916cb",
+        "img/.zarray": "b544d41d4f56f7b328689b22c339c65b467659f74b76632665cf346eecc69cfa"
+      },
+      "allowed_z": [
+        [
+          0,
+          114
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_sum159-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 114
+    },
+    {
+      "volume_id": "openorganelle_jrc_sum159-4_recon-1_crop186",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_sum159-4_recon-1_crop186.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "aaceb210149060d35def560b6e8a5e947a78ef48375f0de2717a3da838b45cbd",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_sum159-4",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_sum159-4_recon-1_crop189",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_sum159-4_recon-1_crop189.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "6532c85179866930c9888b11609554604c76ede94b3abd815d639098e4bd51f4",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_sum159-4",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_sum159-4_recon-1_crop201",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_sum159-4_recon-1_crop201.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "7e235b5694a79b028bbaaf9b8c0a78c31f9a4112bf17b18f7f4583984f6c08b1",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_sum159-4",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_sum159-4_recon-1_crop202",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_sum159-4_recon-1_crop202.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "7c3334849465996cba5c7259af5fe1aa83bf4bf5990a13fc273d35ce40731b17",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_sum159-4",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_sum159-4_recon-1_crop203",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_sum159-4_recon-1_crop203.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "68a2c26b983f2380405b4cf9be94f142f64f63232396ab688c1d62e31e358534",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_sum159-4",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_sum159-4_recon-1_crop208",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_sum159-4_recon-1_crop208.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "f727eba68a6a87c9b25b14109dc3549c26d82badf1d2a87e805fc15f184b17a5",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_sum159-4",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_sum159-4_recon-1_crop210",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_sum159-4_recon-1_crop210.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "f4846185fb39dc04e719d8873e76d3427a5abd5c3e20d6d43cf9ef4b3e38d1d9",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_sum159-4",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_sum159-4_recon-1_crop216",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_sum159-4_recon-1_crop216.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "c12db8fb9510311ab3f76e6f5cbc2aad879f45844ee1ac9316c16243aadf0348",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_sum159-4",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_sum159-4_recon-1_crop217",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_sum159-4_recon-1_crop217.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "42c819270c70e9f28cfaa7637e5b234de8d84491103559f4d09583d345d4fb9d",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_sum159-4",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_sum159-4_recon-1_crop219",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_sum159-4_recon-1_crop219.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "5a4601ea5cae00a3e9d91484ece500bf9e4200cca522d223aaec410d1842a8f0",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_sum159-4",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_ut21-1413-003_recon-1_crop190",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_ut21-1413-003_recon-1_crop190.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "768aebf3339b9a1dc92ae831f53890ef645c361a54980e34aca330bc886029b7",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_ut21-1413-003",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_ut21-1413-003_recon-1_crop191",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_ut21-1413-003_recon-1_crop191.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "aab8f6b17d622d559e765cd47e1bb54b02e263cc67f95ff00db48f009323fa16",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_ut21-1413-003",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_ut21-1413-003_recon-1_crop193",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_ut21-1413-003_recon-1_crop193.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "18838251d9256675ab47407eb3cfe0be0a66a8ccb20f5dd9e983d13ef15e3ffe",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_ut21-1413-003",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_ut21-1413-003_recon-1_crop195",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_ut21-1413-003_recon-1_crop195.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "688edefaf7c874ed82edd9fef413f7f7a28a6b1def9b27f7ff20feb1e253c23a",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_ut21-1413-003",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_ut21-1413-003_recon-1_crop196",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_ut21-1413-003_recon-1_crop196.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "8f51d138f7c019797f74487b5a862e96657b470c0c32f79096ca4ec114182b43",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_ut21-1413-003",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_ut21-1413-003_recon-1_crop197",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_ut21-1413-003_recon-1_crop197.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "bd86027f6e8cfcc4ed7e07b4d99aaf4255726ef3363dc5fd9939d54aeba50065",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_ut21-1413-003",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_ut21-1413-003_recon-1_crop198",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_ut21-1413-003_recon-1_crop198.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "d231737e62847469a4d62b55f65081ee3df7235b3a28af3c56b3236e038c5d8f",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_ut21-1413-003",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_ut21-1413-003_recon-1_crop199",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_ut21-1413-003_recon-1_crop199.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "4528c493521d3105e6024162972e799de193c45696c5c62ae184c4ac42476a2a",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_ut21-1413-003",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_ut21-1413-003_recon-1_crop200",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_ut21-1413-003_recon-1_crop200.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "abbede433071be239b0e8739e2245e0b4b86dc07ca79212ea9b9b288566613b0",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_ut21-1413-003",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_ut21-1413-003_recon-1_crop214",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_ut21-1413-003_recon-1_crop214.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "39f4cb277b738c8c06d18902191c0df646461f35c91e7099f0786c75a5ab78db",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_ut21-1413-003",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_ut21-1413-003_recon-1_crop220",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_ut21-1413-003_recon-1_crop220.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "4949ce3f261fb9118faa32fcf90631ce6a1975daf54b07d24edfd8807954f847",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_ut21-1413-003",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_ut21-1413-003_recon-1_crop222",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_ut21-1413-003_recon-1_crop222.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "2e5862e281259e5bfb912035ca439d8d9a8ec9cd6ffad4466fba9012a94ba074",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_ut21-1413-003",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_ut21-1413-003_recon-1_crop225",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_ut21-1413-003_recon-1_crop225.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "2458f493920904ac6848716217c65c2f882e39963c8a911210ec33181622c3d7",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_ut21-1413-003",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_ut21-1413-003_recon-1_crop227",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_ut21-1413-003_recon-1_crop227.zarr",
+      "image_array_path": "img",
+      "shape": [
+        200,
+        200,
+        200
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        200,
+        200
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "8eb1e183d31e795d714d51c14f9adc7877490e575ee35328da4c4de93df8f510",
+        "img/.zarray": "527ab94a9efc2ec7e508025f91b9d8da88babfa9e9dcb909153d424685698bef"
+      },
+      "allowed_z": [
+        [
+          0,
+          200
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_ut21-1413-003",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 200
+    },
+    {
+      "volume_id": "openorganelle_jrc_zf-cardiac-1_recon-1_crop380",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_zf-cardiac-1_recon-1_crop380.zarr",
+      "image_array_path": "img",
+      "shape": [
+        1000,
+        400,
+        400
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        400,
+        400
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "acad4e483f7c8597b94c056f7eaac8aa29e716e8b21cca7d29dbf1457888a5a6",
+        "img/.zarray": "889baae0ae5b415734f4205e5c3cc50fc2ec867873ba53d51a523b282de81021"
+      },
+      "allowed_z": [
+        [
+          0,
+          1000
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_zf-cardiac-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 1000
+    },
+    {
+      "volume_id": "openorganelle_jrc_zf-cardiac-1_recon-1_crop381",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_zf-cardiac-1_recon-1_crop381.zarr",
+      "image_array_path": "img",
+      "shape": [
+        1000,
+        400,
+        400
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        400,
+        400
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "ba2a2578ee610fb8715f73ee1d482a27500bd0728b35bac317083bb497ed6a82",
+        "img/.zarray": "889baae0ae5b415734f4205e5c3cc50fc2ec867873ba53d51a523b282de81021"
+      },
+      "allowed_z": [
+        [
+          0,
+          1000
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_zf-cardiac-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 1000
+    },
+    {
+      "volume_id": "openorganelle_jrc_zf-cardiac-1_recon-1_test0",
+      "original_dataset_id": "openorganelle",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/openorganelle/jrc_zf-cardiac-1_recon-1_test0.zarr",
+      "image_array_path": "img",
+      "shape": [
+        256,
+        1024,
+        1024
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "openorganelle",
+      "legacy_split": "excluded",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "e3155a879717b99f744a517437d7f79909daec15652f17c7e231bf18c0e1a995",
+        "img/.zarray": "2a5d9f2246ff22c8517de0a1c9500894395f893e2cd5f5552b9c5e42229907a8"
+      },
+      "allowed_z": [
+        [
+          0,
+          256
+        ]
+      ],
+      "acquisition_sampling_key": "jrc_zf-cardiac-1",
+      "acquisition_status": "declared_sample_group",
+      "legal_slices": 256
+    },
+    {
+      "volume_id": "turner22_pinky_stitched_vol19-vol34",
+      "original_dataset_id": "turner22",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/turner22/pinky_stitched_vol19-vol34.zarr",
+      "image_array_path": "img",
+      "shape": [
+        100,
+        2048,
+        2048
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        40.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "turner22",
+      "legacy_split": "train",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "d7033edee34e2c12771d7dfb260b533bf47839c2fa9c503780ef3e50966b2fe2",
+        "img/.zarray": "19f1a6aeb5a80da0f034d611bad72153d36668a694e8fd152404cee271c8395d"
+      },
+      "allowed_z": [
+        [
+          0,
+          100
+        ]
+      ],
+      "acquisition_sampling_key": "turner22_pinky_stitched_vol19-vol34",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 100
+    },
+    {
+      "volume_id": "turner22_pinky_stitched_vol19-vol34_realigned",
+      "original_dataset_id": "turner22",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/turner22/pinky_stitched_vol19-vol34_realigned.zarr",
+      "image_array_path": "img",
+      "shape": [
+        132,
+        2432,
+        2432
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        40.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "turner22",
+      "legacy_split": "train",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "68555cb21f8b4999dd6bf98e0184153b02c15b39097662fc0033c8a407c028df",
+        "img/.zarray": "adcde92ebe18e4e5cde9ed3354c0ec551b4d76e621dccdbe983096433d7dd1b0"
+      },
+      "allowed_z": [
+        [
+          0,
+          132
+        ]
+      ],
+      "acquisition_sampling_key": "turner22_pinky_stitched_vol19-vol34_realigned",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 132
+    },
+    {
+      "volume_id": "turner22_pinky_stitched_vol40-vol41",
+      "original_dataset_id": "turner22",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/turner22/pinky_stitched_vol40-vol41.zarr",
+      "image_array_path": "img",
+      "shape": [
+        102,
+        1536,
+        1024
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        40.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "turner22",
+      "legacy_split": "train",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "7b32afd9301321269b32fa51f856234d40ee004c5f2a22db2ed8337f285e7704",
+        "img/.zarray": "8c3bc97d0c03cd66cfcc946c923baca58e3ec758bf716dd312fd22e49c52b52c"
+      },
+      "allowed_z": [
+        [
+          0,
+          102
+        ]
+      ],
+      "acquisition_sampling_key": "turner22_pinky_stitched_vol40-vol41",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 102
+    },
+    {
+      "volume_id": "turner22_pinky_vol101",
+      "original_dataset_id": "turner22",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/turner22/pinky_vol101.zarr",
+      "image_array_path": "img",
+      "shape": [
+        48,
+        1462,
+        1170
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        48,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        40.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "turner22",
+      "legacy_split": "train",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "ff65bea90449d0b8c5a64551aec2ac1392e834e4d823cf96c9cf1adcdff666e5",
+        "img/.zarray": "7bdc423e92f5aa20a6f888d196d5278bd167ad05acc73c0ec86a67959949d1df"
+      },
+      "allowed_z": [
+        [
+          0,
+          48
+        ]
+      ],
+      "acquisition_sampling_key": "turner22_pinky_vol101",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 48
+    },
+    {
+      "volume_id": "turner22_pinky_vol102",
+      "original_dataset_id": "turner22",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/turner22/pinky_vol102.zarr",
+      "image_array_path": "img",
+      "shape": [
+        53,
+        1002,
+        868
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        53,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        40.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "turner22",
+      "legacy_split": "train",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "9579e2857a97f12c03e33a5a834f6480b7e4ceb7a1d47f1405c0ccd8ff9107e5",
+        "img/.zarray": "9d4b66e2566e490ff972732823e2d446329afca568fbbc14054c8ac6c12c6693"
+      },
+      "allowed_z": [
+        [
+          0,
+          53
+        ]
+      ],
+      "acquisition_sampling_key": "turner22_pinky_vol102",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 53
+    },
+    {
+      "volume_id": "turner22_pinky_vol103",
+      "original_dataset_id": "turner22",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/turner22/pinky_vol103.zarr",
+      "image_array_path": "img",
+      "shape": [
+        48,
+        912,
+        862
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        48,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        40.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "turner22",
+      "legacy_split": "train",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "4b7e145ab1946dfca49b0397e5972433650f6873df90b6c8c11b4f7c118c63ed",
+        "img/.zarray": "db70ef5c842f1a000d39a573337069bb38e1d06158e23028fb8eb68a664b559b"
+      },
+      "allowed_z": [
+        [
+          0,
+          48
+        ]
+      ],
+      "acquisition_sampling_key": "turner22_pinky_vol103",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 48
+    },
+    {
+      "volume_id": "turner22_pinky_vol104",
+      "original_dataset_id": "turner22",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/turner22/pinky_vol104.zarr",
+      "image_array_path": "img",
+      "shape": [
+        58,
+        1388,
+        1112
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        58,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        40.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "turner22",
+      "legacy_split": "train",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "cde975b39f896d06b98593e892eb45ad91908b7c3774c1134b97fcc56b63f35c",
+        "img/.zarray": "c88c74a2e9feed3e98b9fdb3e304723b3f629746710cccc55c53a1e2cfd65fe8"
+      },
+      "allowed_z": [
+        [
+          0,
+          58
+        ]
+      ],
+      "acquisition_sampling_key": "turner22_pinky_vol104",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 58
+    },
+    {
+      "volume_id": "turner22_pinky_vol401",
+      "original_dataset_id": "turner22",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/turner22/pinky_vol401.zarr",
+      "image_array_path": "img",
+      "shape": [
+        132,
+        1024,
+        1024
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        40.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "turner22",
+      "legacy_split": "train",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "7261a87a76078a92453e86c3f66862d4094937dff75fb7685187d7f1ee8963a1",
+        "img/.zarray": "a10f052bc58942397823734367f22d01f815e9b537c73ad6c05e5331bbf541e3"
+      },
+      "allowed_z": [
+        [
+          0,
+          132
+        ]
+      ],
+      "acquisition_sampling_key": "turner22_pinky_vol401",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 132
+    },
+    {
+      "volume_id": "turner22_pinky_vol501",
+      "original_dataset_id": "turner22",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/turner22/pinky_vol501.zarr",
+      "image_array_path": "img",
+      "shape": [
+        144,
+        1536,
+        1536
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        40.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "turner22",
+      "legacy_split": "train",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "3c7af46271a54e03b158dc269ddd003811540e0e29dafde6f1afdcd49f0f3af1",
+        "img/.zarray": "e2fce02f20d4359f678f867cd93eeeb6b21fa7f4b65914500c80685996554499"
+      },
+      "allowed_z": [
+        [
+          0,
+          144
+        ]
+      ],
+      "acquisition_sampling_key": "turner22_pinky_vol501",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 144
+    },
+    {
+      "volume_id": "turner22_pinky_vol502",
+      "original_dataset_id": "turner22",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/turner22/pinky_vol502.zarr",
+      "image_array_path": "img",
+      "shape": [
+        132,
+        1024,
+        1024
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        40.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "turner22",
+      "legacy_split": "train",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "855bbe59064d33a0205991436aa72ad55afabb382efa6569599424865758fc88",
+        "img/.zarray": "a10f052bc58942397823734367f22d01f815e9b537c73ad6c05e5331bbf541e3"
+      },
+      "allowed_z": [
+        [
+          0,
+          132
+        ]
+      ],
+      "acquisition_sampling_key": "turner22_pinky_vol502",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 132
+    },
+    {
+      "volume_id": "turner22_pinky_vol503",
+      "original_dataset_id": "turner22",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/turner22/pinky_vol503.zarr",
+      "image_array_path": "img",
+      "shape": [
+        132,
+        1024,
+        1024
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        40.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "turner22",
+      "legacy_split": "train",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "665fe06f9892c7c2e3f9b7ee97e8ace119f7e70d22d6c16675d5994fb3852837",
+        "img/.zarray": "a10f052bc58942397823734367f22d01f815e9b537c73ad6c05e5331bbf541e3"
+      },
+      "allowed_z": [
+        [
+          0,
+          132
+        ]
+      ],
+      "acquisition_sampling_key": "turner22_pinky_vol503",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 132
+    },
+    {
+      "volume_id": "wei20_mitoEM-R",
+      "original_dataset_id": "wei20",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/wei20/mitoEM-R.zarr",
+      "image_array_path": "img",
+      "shape": [
+        500,
+        4096,
+        4096
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        64,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        30.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "wei20",
+      "legacy_split": "legacy_dev_test",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "cf52be2a143f54d263a811fb58d8fdd20b422812c915a579040dc1e574f63d77",
+        "img/.zarray": "2688632c6997c247fd1f51307c9af14bee72c63093a20f5247f4ee41b866e1ac"
+      },
+      "allowed_z": [
+        [
+          0,
+          400
+        ]
+      ],
+      "acquisition_sampling_key": "wei20_mitoEM-R",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 400
+    },
+    {
+      "volume_id": "xiao18_vol0",
+      "original_dataset_id": "xiao18",
+      "local_path": "/opt/data/3_117/tanghr/MitoVerse_data/data/xiao18/vol0.zarr",
+      "image_array_path": "img",
+      "shape": [
+        31,
+        2104,
+        2156
+      ],
+      "dtype": "|u1",
+      "axis_order": "ZYX",
+      "chunks": [
+        31,
+        512,
+        512
+      ],
+      "voxel_size": [
+        8.0,
+        8.0,
+        50.0
+      ],
+      "voxel_size_unit": "nm",
+      "source_dataset": "xiao18",
+      "legacy_split": "legacy_dev_test",
+      "training_role": "ssl_full_mitoverse",
+      "metadata_sha256": {
+        ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        ".zattrs": "b5a5a69a8d3a21074c441b2d23c172a1e84efc499c5b66829cb2515534777ed3",
+        "img/.zarray": "7cd8cf643e79233c894d5f7a275c4ebdd963dca88416a76da089e852f22c79c7"
+      },
+      "allowed_z": [
+        [
+          0,
+          24
+        ]
+      ],
+      "acquisition_sampling_key": "xiao18_vol0",
+      "acquisition_status": "unknown_use_volume_proxy",
+      "legal_slices": 24
+    }
+  ],
+  "mitoverse_pool_sha256": "37ed55716d89c92729893c1e6f789a57b44c307b8e514fcec707384087a906bc",
+  "cem_pool_sha256": "66998c75bd9f71674273dda7517c2c1cc4ce37b7031a6849de6601edb34c1a35"
+}

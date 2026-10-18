@@ -1,0 +1,22 @@
+{
+  "checkpoint": {
+    "path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000002711/full.pth",
+    "step": 2711,
+    "sha256": "de3986719001bf36df0b086f6d832475bb429f0e3ff04b1ebc0d3348eaf3fa22"
+  },
+  "counts": {
+    "MitoVerse::mekuc20": 11023,
+    "MitoVerse::guay21": 10812,
+    "MitoVerse::casser20": 10726,
+    "MitoVerse::openorganelle": 10994,
+    "MitoVerse::xiao18": 10742,
+    "MitoVerse::haberl18": 10982,
+    "MitoVerse::kunduri22": 10629,
+    "MitoVerse::wei20": 10675,
+    "MitoVerse::muller21": 10783,
+    "MitoVerse::jiang25": 10926,
+    "MitoVerse::turner22": 10990,
+    "MitoVerse::han24": 10846
+  },
+  "reconstructed_from_exact_original_deterministic_indices": true
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "matched_protocol": true,
+  "known_MV3_dev_pixels_excluded_from_MitoVerse_SSL": true,
+  "known_test_and_MB1_related_assets_excluded": true,
+  "CEM_unknown_aliases": "UNVERIFIED, not certified independent",
+  "MitoVerse_volumes": 153,
+  "MitoVerse_sources": 12,
+  "CEM_images": 1425433,
+  "CEM_nonempty_collections": 627,
+  "GPU_used": false
+}

@@ -1,0 +1,73 @@
+{
+  "observed_at_utc": "2026-10-17T06:33:19.240669+00:00",
+  "status": {
+    "status": "running",
+    "phase": "SSL_D1_30000",
+    "seconds": 153.83741859346628,
+    "progress": {
+      "runs/D1/formal/progress.json": {
+        "step": 2720,
+        "rank": 0,
+        "loss": 16.5,
+        "grad_norm": 3.17825984954834,
+        "lr": 1.4133534589762039e-05,
+        "teacher_momentum": 0.999,
+        "teacher_temp": 0.056314,
+        "global_batch": 48,
+        "data_first_index": 130512,
+        "data_first_volume": "han24_neg0",
+        "data_first_domain": "MitoVerse",
+        "sample_chain": "362a20fb9e5c190721ad1256983765e2c88beeff7be705a013bb5dcd61a44cf2",
+        "elapsed_seconds": 51.83754687011242,
+        "data_seconds": 0.012094780802726746,
+        "iteration_seconds": 0.6965376809239388,
+        "peak_gpu_bytes": 10232315904,
+        "loss_components": {
+          "dino_local_crops_loss": 11.0,
+          "dino_global_crops_loss": 10.96875,
+          "koleo_loss": -0.2706819772720337,
+          "ibot_loss": 5.522691249847412
+        }
+      }
+    },
+    "child_pids": [
+      1821553
+    ],
+    "physical_gpus": [
+      1,
+      2,
+      3
+    ],
+    "gpu0_used": false,
+    "website_http": 200,
+    "further_experiments_started": false
+  },
+  "live_D1_progress": {
+    "step": 2720,
+    "rank": 0,
+    "loss": 16.5,
+    "grad_norm": 3.17825984954834,
+    "lr": 1.4133534589762039e-05,
+    "teacher_momentum": 0.999,
+    "teacher_temp": 0.056314,
+    "global_batch": 48,
+    "data_first_index": 130512,
+    "data_first_volume": "han24_neg0",
+    "data_first_domain": "MitoVerse",
+    "sample_chain": "362a20fb9e5c190721ad1256983765e2c88beeff7be705a013bb5dcd61a44cf2",
+    "elapsed_seconds": 51.83754687011242,
+    "data_seconds": 0.012094780802726746,
+    "iteration_seconds": 0.6965376809239388,
+    "peak_gpu_bytes": 10232315904,
+    "loss_components": {
+      "dino_local_crops_loss": 11.0,
+      "dino_global_crops_loss": 10.96875,
+      "koleo_loss": -0.2706819772720337,
+      "ibot_loss": 5.522691249847412
+    }
+  },
+  "historical_inputs_unchanged": true,
+  "resume_checkpoint_step": 2711,
+  "same_total_budget": 30000,
+  "source_receipt": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/evidence/executed_sources_resume_1792218639046013861.json"
+}

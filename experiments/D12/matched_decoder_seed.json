@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "seed": 20261014,
+  "decoder_initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec",
+  "sampling_hash": "45b8763f399df51c4455e4a791e6c32b2e9d6dfd9e5ba9ec988bbebb8b883d64",
+  "encoder_frozen": true
+}

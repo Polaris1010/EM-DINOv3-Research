@@ -1,0 +1,24 @@
+{
+  "step": 30000,
+  "rank": 0,
+  "loss": 14.125,
+  "grad_norm": 1.5729151964187622,
+  "lr": 1.0000000986200962e-06,
+  "teacher_momentum": 0.999,
+  "teacher_temp": 0.07,
+  "global_batch": 48,
+  "data_first_index": 1439952,
+  "data_first_volume": "jiang25_vol1",
+  "data_first_domain": "MitoVerse",
+  "sample_chain": "914f39a2dbce845c48bc1a356dc0e158798d986269eb758eff3b3d71a9a138ef",
+  "elapsed_seconds": 21809.304357893765,
+  "data_seconds": 0.15100105851888657,
+  "iteration_seconds": 0.8331063762307167,
+  "peak_gpu_bytes": 10232315904,
+  "loss_components": {
+    "dino_local_crops_loss": 9.8125,
+    "dino_global_crops_loss": 9.78125,
+    "koleo_loss": -0.2989274263381958,
+    "ibot_loss": 4.403693199157715
+  }
+}

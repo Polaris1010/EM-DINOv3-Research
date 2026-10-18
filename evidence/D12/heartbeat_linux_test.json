@@ -1,0 +1,1 @@
+{"status": "PASS", "readers": 3, "reads_each": 2000, "atomic_writes": 500, "SSL_trainer_unchanged": true}

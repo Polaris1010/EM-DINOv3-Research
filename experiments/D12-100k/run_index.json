@@ -1,7 +1,7 @@
 {
   "stage": "D12-100k",
-  "status": "VERIFIED_RUNNING",
-  "execution_state": "SSL_D1_100000_RUNNING_D2_QUEUED",
+  "status": "VERIFIED_FAILED",
+  "execution_state": "STOPPED_matched_frozen_head_train",
   "server_root": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018",
   "service": "d12-100k-continuation-20261018.service",
   "protocol": "configs/pretrain/D12_100k_protocol.json",
@@ -12,13 +12,15 @@
     {
       "model": "D1",
       "kind": "SSL",
-      "status": "VERIFIED_RUNNING",
-      "completed_steps": 30020,
+      "status": "VERIFIED_COMPLETED",
+      "completed_steps": 100000,
       "planned_steps": 100000,
       "parent_checkpoint_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000030000/full.pth",
       "parent_checkpoint_sha256": "66f1c9f2353ced9b371789322d7e6f7ad2f80a5e334623a13e59e3aeb4c855a1",
       "starting_step": 30000,
-      "execution_state": "FULL_STATE_RESTORED_AND_NEW_STEPS_OBSERVED"
+      "execution_state": "FULL_STATE_RESTORED_AND_NEW_STEPS_OBSERVED",
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/runs/D1/formal/checkpoints/step000100000/teacher_backbone.pth",
+      "checkpoint_sha256": "7df9337dac1ef4775ff21727ddea48c6f265449ae22b24f4941c677fb00593db"
     },
     {
       "model": "D1",
@@ -30,11 +32,13 @@
     {
       "model": "D2",
       "kind": "SSL",
-      "status": "PLANNED",
-      "completed_steps": 30000,
+      "status": "VERIFIED_COMPLETED",
+      "completed_steps": 100000,
       "planned_steps": 100000,
       "parent_checkpoint_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/full.pth",
-      "parent_checkpoint_sha256": "cce40d90b9e4f03eae9231f7516cd1a81d49e8b369db9380dbb3b30f7d82967f"
+      "parent_checkpoint_sha256": "cce40d90b9e4f03eae9231f7516cd1a81d49e8b369db9380dbb3b30f7d82967f",
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/runs/D2/formal/checkpoints/step000100000/teacher_backbone.pth",
+      "checkpoint_sha256": "92a81805f1cc126e1851d5c26baa0b5ba34597d8f93e29ac05203044fe6c7010"
     },
     {
       "model": "D2",
@@ -44,7 +48,7 @@
       "planned_steps": 40000
     }
   ],
-  "status_evidence": "evidence/D12-100k/launch_running_20261018.json",
-  "observed_at_utc": "2026-10-18T03:16:37.643181+00:00",
+  "status_evidence": "experiments/D12-100k/STATUS.json",
+  "observed_at_utc": "20261019T091333Z",
   "draft_pr": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/9"
 }

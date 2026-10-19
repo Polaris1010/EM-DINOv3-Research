@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "phase": "matched_frozen_head_train",
+  "error": "RuntimeError('Own child 3181677 failed:1; inspect phase log, no automatic parameter changes')",
+  "further_experiments_started": false
+}

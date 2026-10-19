@@ -1,0 +1,1778 @@
+{
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/D2_manifest.json": {
+    "sha256": "33e1926394681779818d39b147ee07b3d09468e0551f2523fe77fefdd5ceb1e8",
+    "bytes": 179793
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/D12_final_report.md": {
+    "sha256": "ddc1ff2af779940022e80a2faf871470686076221b03ad012facf14f41e1a391",
+    "bytes": 5112
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/D12_historical_MV3_first_seed_reference.csv": {
+    "sha256": "05712a631e7645adc91c565668da1bd87cccb9a88c5929bccdb99af6f4c83388",
+    "bytes": 3357
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/D12_benchmark_per_image.csv": {
+    "sha256": "b3639dca46a0142d1a140072812a2df2075f5822555f7c66cd57a3c9bc8f37f0",
+    "bytes": 958160
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/D12_protocol.json": {
+    "sha256": "4c074889e05c36f0019e2ee9a880d2bda4e77c82126cc8ce32895ba26eccd4f5",
+    "bytes": 2396
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/D12_source_metrics.csv": {
+    "sha256": "738a9e74a4b4604f3a77589a528060f8024e17d0125a8dfe04514e205a3e6595",
+    "bytes": 3124
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/mitoverse_pool.json": {
+    "sha256": "37ed55716d89c92729893c1e6f789a57b44c307b8e514fcec707384087a906bc",
+    "bytes": 206818
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/D12_checkpoint_hashes.csv": {
+    "sha256": "a80d9c026237dc15b40b8c0af94203de2b1a42f3ce42ff614ffd61f148d577e8",
+    "bytes": 1269
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/D12_per_region_metrics.csv": {
+    "sha256": "d46aced2b2fc3e605617ba433535128a2ada5ada852bfa5d19ee2d1949f4a62a",
+    "bytes": 60853
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/matched_decoder_seed.json": {
+    "sha256": "6b8cce4d6beacee597489871a16e19f2ad55764499bc1553e2b893925ee1327c",
+    "bytes": 252
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/D1_manifest.json": {
+    "sha256": "584726a98b8ef58b83f34ddae90401ec9ec076ebc392f0bacff98910afc4031e",
+    "bytes": 179793
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/D12_benchmark_per_dataset.csv": {
+    "sha256": "3eee43bd64f76bbb047731e2bcb06da6cbb313055c2db32ac2e6d795f4c49cea",
+    "bytes": 3067
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/D12_base.yaml": {
+    "sha256": "be92a0802d5bfea447d707990caa67ccb20c17edd710468ad2eed86c752a32af",
+    "bytes": 1200
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/D12_training_curves_stride100.csv": {
+    "sha256": "b83152e727c4458a7f513344a9843f41c29eca8b24aa05c00f651828dd6f6c31",
+    "bytes": 329905
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/D12_sampling_observed.json": {
+    "sha256": "99fb1fd143962b03dfd5089c1fce22ed8d8a71bea415de36a9fdcf6f74934bb5",
+    "bytes": 28733
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/cem_pool.json": {
+    "sha256": "66998c75bd9f71674273dda7517c2c1cc4ce37b7031a6849de6601edb34c1a35",
+    "bytes": 156510
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/D12_summary.json": {
+    "sha256": "009d77e1997c73d22e9a51a68ddfbc4a88f9054d28152f57fb8bedeaf4c3eded",
+    "bytes": 2225
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/D12_source_deltas.csv": {
+    "sha256": "1ea7ea2c3cde1479ea5a9741f6f009567320bc75a3a01c198e337ca5615b0ee1",
+    "bytes": 401
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/loader_smoke.json": {
+    "sha256": "6e512080f238c575190898df5575abeb7b200d46de6a49d4c5cb688369c4279e",
+    "bytes": 33495
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/prepare_complete.json": {
+    "sha256": "6ba29e0bed8b5293fed0a18ac666ae4fc16af0feac31d2e83fb9858995b8dd04",
+    "bytes": 219
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/D12_benchmark_historical_first_seed.csv": {
+    "sha256": "1b40e35aa6c218eb5cc9158130003aa6219e5fc52a8d917ee738f8a420817cc8",
+    "bytes": 6542
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/D12_paired_deltas.csv": {
+    "sha256": "f4d5409145ac6ed6a13974ffd7cf30126ffb7c01f58415715323840c52bfeb1c",
+    "bytes": 4001
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/STATUS.json": {
+    "sha256": "e494185afc8de4c9615e311ec93d4963c8c75d65bad6ee60e90c80904fe2b2de",
+    "bytes": 385
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/MV_frozen_probe_results.csv": {
+    "sha256": "052aa2c79cfdf2bf97f44373d5b1f750ff51511b890740adbe2be2c8595b1b33",
+    "bytes": 10841
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/paired_volume_deltas.csv": {
+    "sha256": "3db684743e0a5c94722f9a6f67890e98b44549e8fced57cb29ec8a3a3e36ed00",
+    "bytes": 5415
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/source_metrics_by_seed.csv": {
+    "sha256": "6196560743ab2adf687774f5b26f58ab658e86aed76e603039b9c4ed7bc1acb8",
+    "bytes": 4931
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/source_failure_analysis.md": {
+    "sha256": "9d9d2e97114a5f076a903ddee1c61f08e2421867a93480bb09fdfc4e4b4a1874",
+    "bytes": 8170
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/MV-Dev-v1.json": {
+    "sha256": "9346286eac4cc1c57d24c1f1b296ed5eaaac6c0df061a8684cf4604af76f0df8",
+    "bytes": 24138
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/README.md": {
+    "sha256": "b6e8da4519eee272dad1ff06721743b6d69ad35d2207f388ba4ac29d86642ef8",
+    "bytes": 4325
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/mitoverse_supervised_eligibility.csv": {
+    "sha256": "2b5f0faae986fb5073de10902b953a41515e228e96fb8f11ce13d948e77a0a37",
+    "bytes": 71409
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/analysis_completion.json": {
+    "sha256": "04270d601aaf61f980e0b487405f6013baae3424ddd7d4cffae20fd9cc12a8f3",
+    "bytes": 88
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/source_metrics_three_seeds.csv": {
+    "sha256": "dc604801b5d6715eaf84d817a1c31545d497d16fd7c77a11761d646762efbf10",
+    "bytes": 2125
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/model_registry.json": {
+    "sha256": "c8676f08873c11dbf5a3c06eb688de7f2d160c9d46ad40ad2c6d42ac05445138",
+    "bytes": 2948
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/mitoverse_acquisition_registry.csv": {
+    "sha256": "820681a1500518c3d1dc488b40072d106aa532ac4473eb659e4cf134f3040130",
+    "bytes": 97585
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/aggregate_by_seed.csv": {
+    "sha256": "740cb75e1248f4a28ac4e0a50357fabb0a2998a0caa813fde2dda1e423b68412",
+    "bytes": 1462
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/split_exposure_audit.md": {
+    "sha256": "a342caf304e08274c8f1433e09e5dfd55a8d268b5e19fb7066df39ca5eed05a8",
+    "bytes": 1813
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/original_primus_config.yaml": {
+    "sha256": "ed5124689b4fd4ae9b1f5a1af6e32bd6e7c3bcf862cd871e5bc06735e8ff7ee5",
+    "bytes": 392
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/MV_frozen_probe_protocol.yaml": {
+    "sha256": "b788831a0a860f9acb996e5d830cdc56265977fe909eb9cfffb86a20114220d0",
+    "bytes": 3158
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/single_seed_results.csv": {
+    "sha256": "2901b89a3cdeda733007a2ac3c41076ab25d45422c07e20adf9187336692cce4",
+    "bytes": 3772
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/STATUS.json": {
+    "sha256": "8c2bf2c3cec6cbe5a91fc91bf281667ded759bf8508db38e423a64402ce93b11",
+    "bytes": 155
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/target_strata_seed1.csv": {
+    "sha256": "017d1854438975da31e78bb76b41cf166cf8722f1ddb9f1db36db24ed4325fdb",
+    "bytes": 505336
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/metric_cache.py": {
+    "sha256": "06bcf883309bbe9d68c986431f5407ce89a0d1e52b8d5a80b88b2eb5f9de493b",
+    "bytes": 2423
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/official_primus.py": {
+    "sha256": "b5398dc48bf5cc14068b4fed38c5f0a8c30bcbbe242d59475016e70912f248d3",
+    "bytes": 4635
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/mv_probe.py": {
+    "sha256": "4071da2213b8f55f28ce13522d74e716c61be7900a37c96318942983be3546ec",
+    "bytes": 11241
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/mv_data.py": {
+    "sha256": "39d348380573174061525443d7c9bfe2f8d8d68bb12f0dd0ab44455bbfe6b54d",
+    "bytes": 3709
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/repository_metrics.py": {
+    "sha256": "8abc23bfbbee06b1a6289b1f70ec7a5fda2a02cb15d8c870b28890de6152477d",
+    "bytes": 13400
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/RESOURCE_ACCELERATION.md": {
+    "sha256": "1a1950cfa14f28dfd51274985bd569a4803c0b7945f7e026a7f9969932111565",
+    "bytes": 2497
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/metrics_all_complete.json": {
+    "sha256": "c6b5d1eb047f4a4c2b52ed909ef2eb01487b11dbe29ceeb2bf95784aa0502c48",
+    "bytes": 126
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV2_research_decision.md": {
+    "sha256": "de9868b2dcfa8685626e053acbbb0e7e98a6adfa10892678a0728de87711508b",
+    "bytes": 1122
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_encoder_source_equal_summary.csv": {
+    "sha256": "a8a4f1aef3bd3733302711fd2f4f6820f3c207fb4b3906f0955586978168747d",
+    "bytes": 434
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_object_strata_seed1.csv": {
+    "sha256": "bbaed5c35a70eb58a8ae6b14be3b610e1da2f51c40994cef0efbb8b757a38350",
+    "bytes": 4489325
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/scoring_progress.json": {
+    "sha256": "a538ca20d5b57fbb93a357d8befd50ecf20918128dbbb9fd3e7dfb42ea0e166a",
+    "bytes": 756
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_source_coverage.csv": {
+    "sha256": "3127747001410272a7d0cfb6924b08498343c90fded8b964d2166ca0a99807f2",
+    "bytes": 1457
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_volume_comparison.csv": {
+    "sha256": "c16d9a41b03e6e9469508c4f38e61e067ac01fab7964804b4da65fc827fcc35f",
+    "bytes": 137949
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_source_comparison.csv": {
+    "sha256": "e7753870abdd1cdac27f4332e8147ebbcbbb9ddd8dbf572be4001c382afa96fe",
+    "bytes": 14088
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_volume_registry.csv": {
+    "sha256": "c2071e2a919d841e6050414844e2d79d6d0b2445c266dcf69403f837b70de897",
+    "bytes": 102557
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_all_model_paired_deltas.csv": {
+    "sha256": "2a072bfd414d13b5d395a3e33c72e0db5039eff6f5f13cb4431f0e25f68c1877",
+    "bytes": 144943
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_paired_deltas.csv": {
+    "sha256": "a844fe40d984bec13fd695d617df2c56f45efbdbccdd07862d95ed4149c4e626",
+    "bytes": 87883
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/COMPARISON_READY.json": {
+    "sha256": "cb9e393b9bd4141aa2bb263b16da6fe0d66aa85f372e63bf50d6dee7d6ede983",
+    "bytes": 233
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_full_validation_metrics.csv": {
+    "sha256": "71928b2fe2e34287dce4ec428fbaf119db7cbfac7bf7ca1791f98588198f9af4",
+    "bytes": 571519
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/DELIVERY_READY.json": {
+    "sha256": "f9ea70f8052109ca69f850874dde3fdea2e1001368431528c8d7002ffc63e635",
+    "bytes": 700
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_dev_validation_manifest.json": {
+    "sha256": "1b36d2571606f2a2861140186b0b8eb4561f8f553f6b296835e5461de1caea25",
+    "bytes": 327531
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/inference_all_complete.json": {
+    "sha256": "0ee609c033fb5839f10a06f8cfef657c8ba03e2673f39ba19cdf3f1e27f7f056",
+    "bytes": 74
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/cache_progress.json": {
+    "sha256": "c3704d65df2bfd055fc40900017179dec6555dd361979bfa778d7e14386b1013",
+    "bytes": 64
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_P0_B100k_B150k_summary.md": {
+    "sha256": "49e5da79758b13e02d8392429a64af27408eff66966479509a2ca640c1f5622d",
+    "bytes": 7599
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/STATUS.json": {
+    "sha256": "56c9fd786c9c1661ce8ef11318c47ca6059bd9e279caf9c3009e5371b3b35691",
+    "bytes": 281
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_source_paired_comparison.csv": {
+    "sha256": "92a779f2fc788aca78ef1ba708976d6b7fb59574de29dfe7328764c48cc2fe97",
+    "bytes": 4018
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/MV_failure_analysis.md": {
+    "sha256": "5c4d3413052e2705a04e4c6a2cd60f5a75bdca8a68f5841b560f579eec179ae2",
+    "bytes": 8611
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/src/validation.py": {
+    "sha256": "143c5403458ca3fad215880ac7afd14e4fd066fbee8342051a0cc49a083e4d54",
+    "bytes": 31735
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/src/large_hd95.py": {
+    "sha256": "1d0168509499e71005a592c432bf0ead659a35b3e0e68850e6843b5f1908100a",
+    "bytes": 1260
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/src/separable_edt.py": {
+    "sha256": "852917d04ab34770122bd09cafdccc814c40484adca60660f8b52d109bfbb53e",
+    "bytes": 2765
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/src/gpu_edt.py": {
+    "sha256": "e7063e947203182aa14d80f6fabe1cf19080f0255b3e71799d13c24bddf4e132",
+    "bytes": 2812
+  },
+  "/opt/data/3_117/tanghr/codex/mv_dev_v2_notta_20261013/src/resource_scoring.py": {
+    "sha256": "6d7c2caf63b7295532dedd7afa98f5e2e900525848d3fccc8784193165c3f4b9",
+    "bytes": 9769
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/first_seed_complete.json": {
+    "sha256": "22708bc03ea11e3b15fab809b0e1484ba9c9a801d2e22c746cff55257ae470f6",
+    "bytes": 158
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_training_curves.csv": {
+    "sha256": "fe1289a912f7713e931c2a562195f333ffbe43278499209ad69f94a6a697b6b3",
+    "bytes": 1142
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_summary.json": {
+    "sha256": "2ded908b319c403eeda54dc23e88dd2853a39eb99d6d83993295967b723707ab",
+    "bytes": 17692
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_first_seed_summary.json": {
+    "sha256": "160ced8c78cd2dd489c35a0044a7ffd364ffe18b3441b1d92701bc40c7acebd3",
+    "bytes": 15298
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_first_seed_report.md": {
+    "sha256": "451466197e47126639946300b3d63c943755f889f8703edd3303d4be8dc63de5",
+    "bytes": 3937
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_checkpoint_hashes.csv": {
+    "sha256": "e650f12345f1cd31782adf3206355add5bbc39c179aab0a0203301872be36c0d",
+    "bytes": 8325
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_actual_supervision.json": {
+    "sha256": "a0ad6a728b74fc96c440ea45d2f8ff0f54f124af44fb1a1c88065f135914bca4",
+    "bytes": 726800
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV-Generalist.json": {
+    "sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+    "bytes": 305069
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_protocol.json": {
+    "sha256": "916ac9fbbeba6b3e131c4d2f106c9c7dd3044acedef323eafbf82d160f90bff3",
+    "bytes": 2414
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_P0_B100_paired_deltas.csv": {
+    "sha256": "97eaadaff80929f27b211aa7c2e6fa67baa00d0f01f9b9a8157f2abc50f1f88e",
+    "bytes": 44984
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_first_seed_metrics.csv": {
+    "sha256": "776a2758bd50da3124db70e64767bc6c168941dbb414b9bc618151c2ff1bd314",
+    "bytes": 37747
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_final_results_verification.json": {
+    "sha256": "08b94544abfdfc5497905000e2fcf039408345d3bd2ce63d1cfaef4b371dbed7",
+    "bytes": 926
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_failure_cases.csv": {
+    "sha256": "a505a3a13c32d163e1fdf6fec83f5198e58b6f1c2710683056e4f5897f54109a",
+    "bytes": 18609
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/cache_complete.json": {
+    "sha256": "a23a02c6617753e0315987739a51d37065119b5399e21219aa2d5b134ae701d0",
+    "bytes": 130
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_source_metrics.csv": {
+    "sha256": "2b5cb803a7ef9a1f26282bcf95f67c7a4f8958a91433069c3439786483e5c359",
+    "bytes": 6521
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_final_source_paired_seed_summary.csv": {
+    "sha256": "320ea94e03cc4802726bd9adbff3613b22ee6e76955967f5052d0de3be8b1d0e",
+    "bytes": 754
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_historical_prediction_reference.csv": {
+    "sha256": "f26fb7ce97f470fc9e70b05ccccc15601ac70145b9aac8dafb628720fc0f1de9",
+    "bytes": 57474
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_historical_reference_unavailable.json": {
+    "sha256": "6a7b6c2e89e385be152d9d9f37bf40e61ff915f05445530d11c8535d1af880b7",
+    "bytes": 131
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/STATUS.json": {
+    "sha256": "6bb251c4b2f468b88311d68b2b6c44e7fab2c90cf56fcf7d3fc0e8e5ab1fc941",
+    "bytes": 342
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_final_report.md": {
+    "sha256": "bb75535e7f23c790da2007d3f967e6e4df326b0cd56d2cb8e636e531d3bdd124",
+    "bytes": 11856
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_same_region_supervision_gain.csv": {
+    "sha256": "4e084351de0f18559f8929543efab8f074518d3d4bb4ece2406500eb37bee7cd",
+    "bytes": 1925
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_per_region_metrics.csv": {
+    "sha256": "24a2545c3ee83b1239c9a377ec1ae8cb8be909074a04151fd7a9b41edfa004c0",
+    "bytes": 112721
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/MV3_final_decoder_seed_summary.csv": {
+    "sha256": "fb25ef9c4994d3cbba7808fc2c631b0dce87d443b70bcb4040face3a99d879a0",
+    "bytes": 265
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/src/train.py": {
+    "sha256": "745419cd404e41687a99a7c474948b4417820d9ea6bdc53b4d909c1422e4e22a",
+    "bytes": 9861
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/src/run.py": {
+    "sha256": "8e770245e0be1c1c5295ad3499d600bb636a5fb209054d10358a555835a73031",
+    "bytes": 9908
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/src/report.py": {
+    "sha256": "966f59d92d1f4d8fef5aae6a60893471295992039e122c3cd8c493f2d777eca3",
+    "bytes": 15023
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/src/data.py": {
+    "sha256": "eec0819304a982113df3a9bac228c0666ba6fff1a451acf8a28a32305e0e3269",
+    "bytes": 7166
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/src/scoring_queue.py": {
+    "sha256": "a19fbdc5e92598bd71522631f38ca4e8424e76f1fa32ac5482f160b8c6f2e736",
+    "bytes": 930
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/src/evaluate.py": {
+    "sha256": "a84b3a5060a3baf0d2f959b712714cc0a3bebbbdacb1528e1338c2afdf81182d",
+    "bytes": 5245
+  },
+  "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/README.md": {
+    "sha256": "0cd75774d9553fac1a37a4e2f7cfdda665a32384ca50dcdba8dab2439496ca21",
+    "bytes": 237
+  },
+  "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/STATUS.json": {
+    "sha256": "ec42d72fbdc8b21ff0b97e27fc1d24330f919cb9916d3310daad8b2b2eeb4722",
+    "bytes": 462
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_paired_deltas.csv": {
+    "sha256": "a643f043d9c541af5052887cdf5c2a4a80a8beddf65af5031807ee49c96c0534",
+    "bytes": 41149
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_per_region_metrics.csv": {
+    "sha256": "0136aa632de7932d3320c9a314cd64ca0ac759725dc0f150e4d34f1bc9e19d11",
+    "bytes": 141296
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_protocol.json": {
+    "sha256": "66db27f82a731c2edb81a74c681b2cd00a747abecfcc3c0c6e9f9082033ebe4b",
+    "bytes": 3568
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_failure_cases.csv": {
+    "sha256": "c3e47c43b1cbfc8630b2505f4813538263343446c75a49db7bae3a20aa03d2d1",
+    "bytes": 2998
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_final_report.md": {
+    "sha256": "f5a5d3268685f8251935a52ac2811fb69f3fc4479738cc547e8e14070d95795e",
+    "bytes": 11222
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_source_metrics.csv": {
+    "sha256": "f4fa95d0c41ae6ee2c0f87e5f228dafddc811716fedcf5d03e75a7b7be5e1708",
+    "bytes": 6144
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_source_deltas.csv": {
+    "sha256": "b7493f6f8f35b790a671e2befeab76b3cff82d2b4d7ff20d6bdef920ba0e2511",
+    "bytes": 1370
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/MV4_summary.json": {
+    "sha256": "b96fd7b8bed72eb373ae5c84d5535c36c3dc1141d79bbcc0f8f3f248a56bef85",
+    "bytes": 3413
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/STATUS.json": {
+    "sha256": "5bd9b27bf9deae8fd1018d6bc5b627ff28cf468ca5a6bf50ba6b8a073b8a25b3",
+    "bytes": 400
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/common.py": {
+    "sha256": "abcd10ca1bd22a9e2077a50db2e3d543f5176b02cdb795be8b3f117d212b91dc",
+    "bytes": 2332
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/official.py": {
+    "sha256": "2bfdf0946ffcda83f1ecbb9ae6cdd2fc38879685868ddb11743aea5525120f8b",
+    "bytes": 2091
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/run.py": {
+    "sha256": "9d6f2545afb52c98cd9758ced21ebab1573c0fbee00b4f16044b02bd0bb1edf7",
+    "bytes": 5872
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/report.py": {
+    "sha256": "aa01e4a6c2a184766eb74c546034e2c1f06a48ee543de90d4be197c84bb85c21",
+    "bytes": 10696
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/scoring_queue.py": {
+    "sha256": "a19fbdc5e92598bd71522631f38ca4e8424e76f1fa32ac5482f160b8c6f2e736",
+    "bytes": 930
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/score.py": {
+    "sha256": "a15edecd95c460a97bce5cdcfdd4f2eb9c1740ecd018c9bb0d5091cf24da0099",
+    "bytes": 2626
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/src/infer.py": {
+    "sha256": "597df79f1fff9efccf1f8ed530d288ef0b25be5862f7b999d994fdf97ab4e03b",
+    "bytes": 3093
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_source_metrics.csv": {
+    "sha256": "95ae4de704f3588bba2038ce22a4c703191374390b7b0039085fd7c260687523",
+    "bytes": 6717
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_results_verification.json": {
+    "sha256": "d1480cf07d13a9a2c2f7f3693428bf4ad7bab73c140335d21676636b88d7b790",
+    "bytes": 323
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_summary.json": {
+    "sha256": "a1211647a3c9d9d0062877281477d219f382c9ed9fc04e4be980b55c5966e735",
+    "bytes": 4839
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_source_deltas.csv": {
+    "sha256": "97312895654ffb3cfa4466eb0d6eec700b3601df16880b92d6016d3f11cf3f70",
+    "bytes": 1637
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_protocol.json": {
+    "sha256": "0ec3e67bc6783bc91109735c7d1a9a4865f90171489e302cf38d3e4059cdff1e",
+    "bytes": 2835
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_final_report.md": {
+    "sha256": "2d87733f9ae0c935a6a408121674cac69a65f17826966648ddabe78e949deb09",
+    "bytes": 9289
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_adaptation_paired_deltas.csv": {
+    "sha256": "679720b1c3cf3768d3374dcfb6937b6195141ef5e35e6883099b65848e055a40",
+    "bytes": 6427
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_failure_cases.csv": {
+    "sha256": "c90b525a16e4232b0e72206e0e9cd213728166d1d80db8ab6b054a928de69dd0",
+    "bytes": 3016
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/STATUS.json": {
+    "sha256": "b54b47a785fc3d1a400835b755d47f4e10c0ceea0b416415dc13357005619279",
+    "bytes": 306
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_checkpoint_hashes.csv": {
+    "sha256": "29d8a87fbf22525f6b0d627445b2d0193df34e63715e5603286e9513c41fc10a",
+    "bytes": 1647
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/MV5_per_region_metrics.csv": {
+    "sha256": "d19777fe02cbdae6c0af6b5924235e461b9b4b6f3e148a761672b7aed813503b",
+    "bytes": 167658
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_protocol.json": {
+    "sha256": "7869c030d26082f07581bb77bfaccfac0a86ab39445ce11cd520068ea852369e",
+    "bytes": 7193
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_overlap_status.md": {
+    "sha256": "1030b9722b5fa7b5cef5b4ee0f2ea20fa08be225d4adfa3567b52969d4bccbb6",
+    "bytes": 2392
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_summary.json": {
+    "sha256": "8284bbde7cecdb1ada089ccbe448e35862b1abf50bebc3695bcc5b982366716c",
+    "bytes": 6801
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_paired_seed_deltas.csv": {
+    "sha256": "5ba5425b13ba5d9640392516a6837e3e99679914320fc0b3d5ddc408e11499f1",
+    "bytes": 1435
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_dataset_deltas.csv": {
+    "sha256": "fec2cf208808d032d386cc6d33df536a693a1d4a2ec85673600bf3eb4f5e2562",
+    "bytes": 417
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_per_image_metrics.csv": {
+    "sha256": "56b498309651eaea430f9aef95a5b227d8dab2aade7d070a676ac6dc37b16d32",
+    "bytes": 1497121
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_per_dataset_metrics.csv": {
+    "sha256": "b0ccf9618c4ad612a9726d86f45124e7f38a0ddc0336ebc2f99a3acb9c0f0aed",
+    "bytes": 25006
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_model_seed_summary.csv": {
+    "sha256": "f93eaa577ed372eb1933d544b8fc9aa209cc4246a30e0606af1fa51838a91f6c",
+    "bytes": 760
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_figure_manifest.json": {
+    "sha256": "c678b187df7ca7f8ce8d3b68390b09cff4f4d0337fb1b36a463cfd3e9968cd20",
+    "bytes": 4901
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/prepare_complete.json": {
+    "sha256": "10ee0579392a0f3c5f0cc026e502b90cd09effe031c05bcc6f56ae583ac7a380",
+    "bytes": 194
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_TEM_image_distributions.csv": {
+    "sha256": "8cfa74fc52cc5ae51605fe40fe60aedafdde5128314a43b92cd8495b55b8f436",
+    "bytes": 7448
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_per_dataset_model_means.csv": {
+    "sha256": "f5ef9579897afa314004bbe4a93bd14779a195d11c34647163e56b41b626e0bd",
+    "bytes": 4037
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_summary.md": {
+    "sha256": "24f4b83889da24e35e4f83cf5794b4176014bff321a6aeca29c2cca376d84390",
+    "bytes": 6885
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_per_image_confusion.csv": {
+    "sha256": "2bba09bc837c5f2ac03aa236296dc86c5e8f4008d4262ce42f5669a017cf506c",
+    "bytes": 650366
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/STATUS.json": {
+    "sha256": "934e48e7c34c16ff8e8a01cd437b551e65eb4b58e55948d770319a933913dbf7",
+    "bytes": 353
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_results_verification.json": {
+    "sha256": "f8468e35eb7459c68f569c2d3b6602bca68b12d4a0229f2b0bf2b8b2deaaff2e",
+    "bytes": 422
+  },
+  "/opt/data/3_117/tanghr/codex/mb1_official_benchmark_20261015/MB1_benchmark_manifest.json": {
+    "sha256": "8a05d1a5c46933d91e5d20977bcb06c0b9ca6bee10abbcdc17a43b62ac0ea046",
+    "bytes": 104559
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261014/head_step040000.pth": {
+    "bytes": 534941342,
+    "mtime_ns": 1791954744388687341
+  },
+  "/opt/data/3_117/tanghr/DINOv3/pretrained_weights/dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth": {
+    "bytes": 1213050671,
+    "mtime_ns": 1773135087561386002
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261014/head_step040000.pth": {
+    "bytes": 534941342,
+    "mtime_ns": 1791954742463167729
+  },
+  "/opt/data/3_117/tanghr/codex/mitoverse_full_stage1_20260928_163120/runs/B_full/formal_attempt1/checkpoints/step000100000/teacher_backbone.pth": {
+    "bytes": 1213025477,
+    "mtime_ns": 1790699398110790651
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261015/head_step040000.pth": {
+    "bytes": 534941342,
+    "mtime_ns": 1791959944715448868
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261015/head_step040000.pth": {
+    "bytes": 534941342,
+    "mtime_ns": 1791959944715734916
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-P0/seed20261016/head_step040000.pth": {
+    "bytes": 534941342,
+    "mtime_ns": 1791959954947720883
+  },
+  "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/runs/G-B100/seed20261016/head_step040000.pth": {
+    "bytes": 534941342,
+    "mtime_ns": 1791963828757934774
+  },
+  "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/assets/MitoNet_v1.pth": {
+    "bytes": 221241200,
+    "mtime_ns": 1791988559165249597
+  },
+  "/opt/data/3_117/tanghr/codex/mv5_mitonet_adaptation_20261015/training/model_step040000.pth": {
+    "bytes": 221254282,
+    "mtime_ns": 1792034788461126875
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/benchmark/D1/progress.json": {
+    "sha256": "0bf5c1a82584b3d43ca25d3996fbaa1028893606ebdc8e972a9b68041ced3d0d",
+    "bytes": 84
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/benchmark/D1/metrics.json": {
+    "sha256": "43ebbc05cd14ff195b97b2142ff4e52c44a933d9eb5f4fdab3d7f0a753f828f7",
+    "bytes": 1393139
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/benchmark/D2/progress.json": {
+    "sha256": "f82d1de940bf901638cbbaa7c0fc194c2c6821cd8110da3a77ac2fa63fcdd13d",
+    "bytes": 84
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/benchmark/D2/metrics.json": {
+    "sha256": "cd1d2a6fef8524b2d6175770e710c630b38a2f61e61fe0aa1c098599d2ee8732",
+    "bytes": 1397836
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/smoke_v2/D1/formal/sampling_totals_rank2.json": {
+    "sha256": "b4d7f98680766a3f824d07449e2194f4fbeda66034296ecf1636ac43f00c2617",
+    "bytes": 277
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/smoke_v2/D1/formal/progress.json": {
+    "sha256": "b2ade8c6d2a5ee8291d232974edab931d063a4ac9bdce2948cfd2b25b68a7aec",
+    "bytes": 712
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/smoke_v2/D1/formal/result.json": {
+    "sha256": "c60fe9179fcd6d014c02efabbb8d755faf69b51c04d095662b08ddb974dfb956",
+    "bytes": 1120
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/smoke_v2/D1/formal/sampling_totals_rank1.json": {
+    "sha256": "d64c70170a5d386e7a2e0a760153681aa55233e2818e4d20efb301f91aa408ad",
+    "bytes": 333
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/smoke_v2/D1/formal/sampling_totals_rank0.json": {
+    "sha256": "e9fcf848cde5ffe58cc94bdcd9f6a0b159a5c54066c48aabd929aa956ab3869b",
+    "bytes": 305
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/smoke_v2/D1/formal/initialization.json": {
+    "sha256": "70d1992eb37a270504a34735185373ec8f1ccc85edbb18106662c4d71b8f37cd",
+    "bytes": 1167
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/smoke_v2/D1/formal/latest_checkpoint.json": {
+    "sha256": "2850c2a5e38ad59a347896148bd4d12b0782443ebff560956f3b2f5dffea53ac",
+    "bytes": 219
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/smoke_v2/D1/formal/checkpoints/step000000002/metadata.json": {
+    "sha256": "b49e3b0fc671f2d3f42cff8a4cc62a326641286b56208a965182afe409f49898",
+    "bytes": 1133
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/smoke_v2/D2/formal/sampling_totals_rank2.json": {
+    "sha256": "8b3933a84ec518016a33e3ff1f54454b25f126eaf9f53ebd5be8de476f0da577",
+    "bytes": 863
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/smoke_v2/D2/formal/progress.json": {
+    "sha256": "b5d65141146c8da22d7a43650e509fa3f83f7b11ef0cb7360bc65d38e6ab916b",
+    "bytes": 715
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/smoke_v2/D2/formal/result.json": {
+    "sha256": "1588d97cf018b63025cac6a9a4721ea908f2a041c580992c5642a0b31305b4ba",
+    "bytes": 1121
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/smoke_v2/D2/formal/sampling_totals_rank1.json": {
+    "sha256": "2400db059b5420cddc35d43fdd30df8c612979bda5c8999f827596240f3e5580",
+    "bytes": 847
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/smoke_v2/D2/formal/sampling_totals_rank0.json": {
+    "sha256": "8b90e088f3b84b22ec35bbf9f9e6d5319aebc7eabd69443b3bc13ff5d1e252f7",
+    "bytes": 927
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/smoke_v2/D2/formal/initialization.json": {
+    "sha256": "24be35ab0c7eb124af3c0488b6e706ba36c38f205063467e1a31a3ddf73b4a0c",
+    "bytes": 1167
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/smoke_v2/D2/formal/latest_checkpoint.json": {
+    "sha256": "91dba977143ba4c97798908065b349d8b845791e7182cb11cad92264d7f55607",
+    "bytes": 219
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/smoke_v2/D2/formal/checkpoints/step000000002/metadata.json": {
+    "sha256": "12f6fae68d3365e3d692f99cc442fe4ff2c30b478e836a1f398b926c137dbfba",
+    "bytes": 1133
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/MV-Generalist.json": {
+    "sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+    "bytes": 305069
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/MV3_protocol.json": {
+    "sha256": "62260a794f4b0260b1afc215fb40c3e40f623780b8ecf64c19d374aae76a4bb5",
+    "bytes": 2360
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop245_metrics.json": {
+    "sha256": "ab60e3fd814a03990ca01cdeb45a3303165db7e3bb6d165d0fdb1ac75d412550",
+    "bytes": 1549
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop240_metrics.json": {
+    "sha256": "df3d87d49de1971a91edf6f927d1952232ab773bf04f31717c9290cb6d3fc555",
+    "bytes": 1557
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop237_metrics.json": {
+    "sha256": "4403f3e891c6a693f14b05479e8553006438a85fa6ba8d1f371af22e8d5a46c3",
+    "bytes": 1554
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/jiang25_vol2_overlap.json": {
+    "sha256": "c3b04af1bb9cb689e15fa78da261042cfba99ffbfdf29fa7de9d0d55ea6bc99b",
+    "bytes": 1231
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop79_metrics.json": {
+    "sha256": "cb0e3a0dc247187a758a7b9d0db5eabb5dc6a4497d63afbfa2c19c049d76963a",
+    "bytes": 1562
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/training_complete.json": {
+    "sha256": "abd1b21f851b6724748ed657d15a5b97a404ec92d8e88e48718d19ae416a670e",
+    "bytes": 65214
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/kunduri22_train02_metrics.json": {
+    "sha256": "c5c01a01e1e15329cc5eb600b2a13e9834200cf5e0060c9677d1e75b697f8c98",
+    "bytes": 1515
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop256_overlap.json": {
+    "sha256": "7ba3f9c39702b5d4a62f09e572c068c106ce9c9212527ffe73f6248bde91c6ad",
+    "bytes": 1288
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/head_step040000.json": {
+    "sha256": "3925dd816f87038d3aca8816c4274bd5879a8b894eb00d644097b5fa19dfde19",
+    "bytes": 1603
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/casser20_kasthuri++_train__dev_overlap.json": {
+    "sha256": "b4741f139c324ff59614ac48a52f8841c7710baaa40c40919cd3048365d751aa",
+    "bytes": 1273
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/mekuc20_fib1-4-3-0_overlap.json": {
+    "sha256": "69f947c90db3b6969966f6ea0f43b298f981e66bbeac77cdea8985e9f069de2c",
+    "bytes": 1235
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/inference_complete.json": {
+    "sha256": "f7520a440c2f8da72c78f429d50eaa2e4c3b951eba69efd43eb8080403b3825e",
+    "bytes": 283
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop292_metrics.json": {
+    "sha256": "2c4bc5f717f225418ffe90d3081d3b36195a9feaa50eb1394cf101ed412deb56",
+    "bytes": 1548
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop240_overlap.json": {
+    "sha256": "f5d5df50436c238669bda11eb8c0da6b8898a4c7514904cea3c1ad0fe27fa410",
+    "bytes": 1290
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop237_overlap.json": {
+    "sha256": "bc860b6a914803cdc0955db0ec3d1feddce028d921640213aea2c6766702e74a",
+    "bytes": 1289
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/turner22_microns1_vol1_metrics.json": {
+    "sha256": "3bbb6304bd0bb4fa0f3c7b7c79293789e8de60b708d38d69147c7054cbc6db44",
+    "bytes": 1561
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/curve.json": {
+    "sha256": "b2c324ef4417a471a3444dc0bffe7e0284a646d08ffd83529e20970025e051b2",
+    "bytes": 58532
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/turner22_microns1_vol2_overlap.json": {
+    "sha256": "debefa64b42bf5a974f1534ee548d9caed305442f77ebbf5f2baaa86fe1016d0",
+    "bytes": 1299
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/xiao18_vol0__dev_metrics.json": {
+    "sha256": "195cae2401067dbe4e5fcca78cba2f9c5d6ad3e727c9eeec2e8b9879130a1039",
+    "bytes": 1501
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop79_overlap.json": {
+    "sha256": "914c9b292b3e20c940c50515b10e181806e207b7246c809b6dc3f705383388bc",
+    "bytes": 1297
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop258_metrics.json": {
+    "sha256": "3483b799d397a5a327960c9d5263a4ef0e893b8bca9604177bfcc7adb0c7128c",
+    "bytes": 1556
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/progress.json": {
+    "sha256": "7603e23c2328d9427228c2eed91857b83c9890117a6afbf6c3991f5178a52c58",
+    "bytes": 190
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/casser20_kasthuri++_train__dev_metrics.json": {
+    "sha256": "6c565bc04bbe2fa5080b83ccbfaca7ab7581105f70f1d6235a8b0f090ab00b62",
+    "bytes": 1540
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop239_overlap.json": {
+    "sha256": "04051e7ae040e1413c21e50183af2b91ee6e0e47b26768fba8d240f0d115a721",
+    "bytes": 1283
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop255_overlap.json": {
+    "sha256": "f0b50d7de73d2b085e846f74c05ea7148980320ef47a1170c0b7627267e61d44",
+    "bytes": 1291
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/turner22_microns1_vol3_metrics.json": {
+    "sha256": "d1609b2dd7280548a299b2854047aff8b7368b11574d428b48364c090b0b52c3",
+    "bytes": 1562
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop254_overlap.json": {
+    "sha256": "b21c2882f1b59cb0af6ba50d1d18f20dd0b3ce88840d3d759218b912302e2888",
+    "bytes": 1286
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/han24_pos2_overlap.json": {
+    "sha256": "329915b20847cf0d83f487a8bff91d38c368a05c5980a4db233ee9d6a5ec34b2",
+    "bytes": 1247
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/turner22_microns1_vol4_overlap.json": {
+    "sha256": "266904a980d65e42d8c293a05eaf8deed6c466f18b406e89be36bd2fc2c529aa",
+    "bytes": 1297
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop173_metrics.json": {
+    "sha256": "a035ed42f236605b7ce1eb060a2d33557ae6a5562a66c852c14d760ba5182074",
+    "bytes": 1560
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/turner22_microns1_vol2_metrics.json": {
+    "sha256": "eb6c5072ab16e09f711a36f7455e3da6c0765c98a355752eb49b92915f8e954a",
+    "bytes": 1566
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop236_metrics.json": {
+    "sha256": "966b16e3d6b46b657aac675a444037b5e86aa57cdf33593479e89bb09fbaba90",
+    "bytes": 1554
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/kunduri22_train02_overlap.json": {
+    "sha256": "c53213465613c6675d27dbfe4104544ff68fc1075d28bedd133f4e04ad11efc8",
+    "bytes": 1250
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop174_metrics.json": {
+    "sha256": "48f715fb27f6df2b0787bd22b003a31e6d3e314a6b5357b8c121418be48a430d",
+    "bytes": 1557
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/wei20_mitoEM-R__dev_overlap.json": {
+    "sha256": "ad5230cac447bca37460cc69feeaaf1ee7f2be3227424f6252f32c39d4a74776",
+    "bytes": 1256
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/turner22_microns1_vol4_metrics.json": {
+    "sha256": "efebe246c7b0f2b192b3b540850eccec9ed9ba6103868613f79ddf3b9d78ed8a",
+    "bytes": 1563
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop78_overlap.json": {
+    "sha256": "3bc450a4c5a000f6cc9aba76f713c186c9abded65b88a43ccbeee41f8abc2c90",
+    "bytes": 1307
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/muller21_high_c1_overlap.json": {
+    "sha256": "da93960675ba4bade206a7e69f16388d161d05155b47a0e90f0a6138d9732d6e",
+    "bytes": 1250
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop174_overlap.json": {
+    "sha256": "271935eaded1b7173a2e6b161f6f70e6a1d15244676c5ab9fc8a9c5095b09fdb",
+    "bytes": 1292
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop78_metrics.json": {
+    "sha256": "2eeebe9c10281da19ae00ae14845a119844f6d9f900cda5e3500ea79b2280eea",
+    "bytes": 1573
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop291_overlap.json": {
+    "sha256": "f9553a29b2cf6163e1823e2557f61a36af7c1fb8c0d3c263753d8062c98a482e",
+    "bytes": 1290
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/haberl18_vol1_overlap.json": {
+    "sha256": "31db62597d4e856562b7e6339dc7779acf4d114402a173d63a50a978aa940c85",
+    "bytes": 1215
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/run_protocol.json": {
+    "sha256": "54f3b9dddd30204271ed8d94b8afed2eac5c4ef7f81d2dd3c0e435dee94f33c3",
+    "bytes": 948
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/jiang25_vol2_metrics.json": {
+    "sha256": "b06b2f00f6d01d613199da4877027d70a2fb948babf9883c777750bb6469cde9",
+    "bytes": 1497
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/turner22_microns1_vol0_metrics.json": {
+    "sha256": "602830c2fc2116ac5980c4bee219d5b9bacd0eb4a072e66a32ffa063ccaef197",
+    "bytes": 1561
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/wei20_mitoEM-R__dev_metrics.json": {
+    "sha256": "bb25dca1e53b8e9acdedcc32981d8305a9008b4365b496c1997d04aab32a703c",
+    "bytes": 1509
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop255_metrics.json": {
+    "sha256": "c7e9b911a12fb037c1510472766a26fe50f0cf42bb30e982da4b0fa0182b7c1f",
+    "bytes": 1556
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop252_metrics.json": {
+    "sha256": "ba873792f6c476df252b63b1214489d230757847a6059503491fdfe8dfa94ce7",
+    "bytes": 1555
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop292_overlap.json": {
+    "sha256": "b05df8eaf482dbc6ef8968c2e8358f74383e9a01f4aa6fe0e8fd1a09791c10d7",
+    "bytes": 1286
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/guay21_vol1_metrics.json": {
+    "sha256": "f5a709517e35d93b06ba385016fed8b5841d1cd8cde2a40e9b28319040e7aacc",
+    "bytes": 1484
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/xiao18_vol0__dev_overlap.json": {
+    "sha256": "03667835af73c038f9bdb6d1de177cd6d1b7305fd8931e728f9e5dbe46f39c3f",
+    "bytes": 1249
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop234_metrics.json": {
+    "sha256": "db8448994ac139cb83630770e21e277645f6a375edf7ab4a77e5ab448498d2fe",
+    "bytes": 1551
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/muller21_low_c2_metrics.json": {
+    "sha256": "35f8641feaf5a8b1224a992aa4992ac892aa07000a4042e6be0e91ec6bb1b97b",
+    "bytes": 1508
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop248_overlap.json": {
+    "sha256": "f63721925d42071d5d64ee3ddbad4a12f77cf1e78f91c16ab758b58c97e6c014",
+    "bytes": 1292
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop234_overlap.json": {
+    "sha256": "9ae73d57fd02e89b81c9a5baa79e292d282dfd35534509626f9678208f7faf00",
+    "bytes": 1285
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/head_step020000.json": {
+    "sha256": "ddb0657a5143e121eb3d99d4f38e3fafc91d78be655f38919f8c19dde7fdc4c5",
+    "bytes": 1603
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop254_metrics.json": {
+    "sha256": "c17212510287855baa3608c155a83886598582830accc07bd9d2acab3de4a416",
+    "bytes": 1553
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop256_metrics.json": {
+    "sha256": "423b094a4dc7f711a1320598839b5034f20a9ab99fc16b25e87b581e39be9bb9",
+    "bytes": 1541
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop176_metrics.json": {
+    "sha256": "1c2bc7ff8221e162bcabc0bfbda76e8ccabc0ac0420e228639b4c88a8969a49e",
+    "bytes": 1561
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/haberl18_vol1_metrics.json": {
+    "sha256": "908ec9c04905a7a88b789131b46fbd2359e0dc744477f3a0884f429294925d7f",
+    "bytes": 1482
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop248_metrics.json": {
+    "sha256": "98440db611c83de704593d59da9092ee08019ffaf95823a2e660b35eb954b530",
+    "bytes": 1558
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop245_overlap.json": {
+    "sha256": "16f173ac418f6e103c5ed027fc767db1f971d8565fcece4e0ae84fbdbbf8c991",
+    "bytes": 1282
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop258_overlap.json": {
+    "sha256": "3b648694d2c49ff9204ecfcf9e3cf549320bc7f4bb321f00a05ed6af831fe5f5",
+    "bytes": 1289
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/turner22_microns1_vol0_overlap.json": {
+    "sha256": "64764277aff6aa5cb7f71d1528e479d6aee6039e7bc9e13920791effffcacf96",
+    "bytes": 1296
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/head_step010000.json": {
+    "sha256": "274e105cd01edffe6b851524bb7d20bf8be1dc5c0e029ec9732017494eb37ac5",
+    "bytes": 1591
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/muller21_high_c1_metrics.json": {
+    "sha256": "ef0e4140bd70ca2b6532f01cf06fa723bd209746a60f32086252dd512cce541a",
+    "bytes": 1515
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop252_overlap.json": {
+    "sha256": "45fd8546b1d09f59bf3141104a395d804d38e84dd7bb256f8a858951285cc146",
+    "bytes": 1289
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop236_overlap.json": {
+    "sha256": "14ffe78920c3bf88e196de698e049f310dc8d8f92f3f1b2de695b15a3be22559",
+    "bytes": 1287
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop238_overlap.json": {
+    "sha256": "b312cb3be5bf4ced296ccbe48db1346915196647f992cc44218d88dc78017f5c",
+    "bytes": 1315
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop185_metrics.json": {
+    "sha256": "81200aee30cbce9b855f95366336cab66042a4ec6b7bd3174935c8cf335e94e5",
+    "bytes": 1562
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop176_overlap.json": {
+    "sha256": "cc1f8572698b126604e0e0353a6f46c74082eabab26644196278662fea619f74",
+    "bytes": 1296
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/muller21_low_c2_overlap.json": {
+    "sha256": "8cb23a53339335d7ab5db944f23d7b052e2a1898408603bdf2a010518973576d",
+    "bytes": 1243
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_mus-nacc-1_recon-1_crop115_metrics.json": {
+    "sha256": "4042755b9dfcd93e90a43b1ce8c8ac715b1df3365fb4a31bda1d720a2fdd4e3a",
+    "bytes": 1563
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop238_metrics.json": {
+    "sha256": "98a006a59a100496f505e3da9880dc906832e1586df42a048f844452ba4c3ca2",
+    "bytes": 1579
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop291_metrics.json": {
+    "sha256": "421c94a1098a0793a510395786f3c01bd0011b2466b051a083e65a2495894185",
+    "bytes": 1558
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop239_metrics.json": {
+    "sha256": "b544a76a106113aa450602310670a0b3a9e1d3e837bf325051422272e0017158",
+    "bytes": 1549
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_mus-nacc-1_recon-1_crop115_overlap.json": {
+    "sha256": "d2cf3eff9cfaae284898346e31e10a206f80ce9456cfd07c290ff478c5254d30",
+    "bytes": 1311
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/mekuc20_fib1-4-3-0_metrics.json": {
+    "sha256": "152d5835589b8ff2f0f6d0baca586cf4c8916e380d6b4a0a4b4a7ec4847d7a77",
+    "bytes": 1500
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/turner22_microns1_vol1_overlap.json": {
+    "sha256": "53a7d9656c171626f41517d09ef6187d8f7671b2408adbc53ffd53f9cabf786a",
+    "bytes": 1299
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/guay21_vol1_overlap.json": {
+    "sha256": "638b1f5e812b1f24a3cbc739d0e0b361a321e7af60dee0ae2eb21db4ca51121a",
+    "bytes": 1219
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/han24_pos2_metrics.json": {
+    "sha256": "992d669c13b1ef5073f010a01c62bd129f4cc3db48047c15d362062f9bf50ca4",
+    "bytes": 1514
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop173_overlap.json": {
+    "sha256": "d826aae6cec55e78f39c82f5183027330eb57e9763b2fd14d4d98ce2e8f7c325",
+    "bytes": 1307
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop185_overlap.json": {
+    "sha256": "00837ef16fa7c9dbded21da8ab846a71255d2e7a935c67687539122b3c573059",
+    "bytes": 1308
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014/turner22_microns1_vol3_overlap.json": {
+    "sha256": "25df8d589885494d2636a308ce31bb22a4104c65d641621e65660f6c92ef70e2",
+    "bytes": 1297
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop245_metrics.json": {
+    "sha256": "989280bc4f8ec588de760e047d755b19eb66c07de6e4c536e1a66708ce0f7044",
+    "bytes": 1560
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop240_metrics.json": {
+    "sha256": "9a683f0f384d437ba83e5e206dc6ac344d92ff558e7c02a248e789399eb12c3c",
+    "bytes": 1556
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop237_metrics.json": {
+    "sha256": "ffe98ff134a2702fa9ca76e424777c4105c9e7b58ae59f25d8b53bb8b36bbc22",
+    "bytes": 1564
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/jiang25_vol2_overlap.json": {
+    "sha256": "8557c3cfc8f98b04bee3818f060a384518ae4f5a107e0bb05c32ac5928783b1f",
+    "bytes": 1231
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop79_metrics.json": {
+    "sha256": "7bde0f9dd81311d8de1df1048c0f8b71883267c1a3648025fbe1b2ea802c234d",
+    "bytes": 1562
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/training_complete.json": {
+    "sha256": "b02780002c12b8fcb438fe36f05649f526e72715c9d1614c9aeb5ef098861a65",
+    "bytes": 65211
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/kunduri22_train02_metrics.json": {
+    "sha256": "900230a6681b5a0b462e374010c80ee4180ef94050de3586ee7a372e53db0b0e",
+    "bytes": 1516
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop256_overlap.json": {
+    "sha256": "c974f1c015bfedec80b8911db765a749435b1e96a437a8ba53b2ca4f0aac501c",
+    "bytes": 1291
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/head_step040000.json": {
+    "sha256": "86555e08c630fc18e3dd9b790163d9dce6d89a6e2ab241c6f7dab191774f0d68",
+    "bytes": 1603
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/casser20_kasthuri++_train__dev_overlap.json": {
+    "sha256": "b7cbcf6a21b0290f2b73aa8b9c8e2f3b51a1a3fdd8c9f9da71e5f9a84058eb08",
+    "bytes": 1272
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/mekuc20_fib1-4-3-0_overlap.json": {
+    "sha256": "f5f4164781c24681c9f17336074eeb14a9d540bc955e1610880b12b1a3331bf6",
+    "bytes": 1235
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/inference_complete.json": {
+    "sha256": "4a6d66161070cab855484040e75483f798773c2c35c8afaecb7eb97fd3147d94",
+    "bytes": 284
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop292_metrics.json": {
+    "sha256": "e7fff88c428d3366c02bf4f9fc2574aeacb0d5544b7a2d49a8fa72bf74ef9564",
+    "bytes": 1551
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop240_overlap.json": {
+    "sha256": "9bbd345fd70d3e47342de9e82c23afba41846e22f94b3217469b6b86eee290a1",
+    "bytes": 1289
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop237_overlap.json": {
+    "sha256": "66514156db5b0be3b5a9c55806360bb21792c8c0f0a574b10c087c525bbe582c",
+    "bytes": 1298
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/turner22_microns1_vol1_metrics.json": {
+    "sha256": "8867812a823cb484fab4c268d31b3b12b80a3b094b51340dd3b99032ad3d8816",
+    "bytes": 1563
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/curve.json": {
+    "sha256": "3ddc42c503b2ec629df68647a9480c39a9e0c70d5999d6e633fe2a058a753d28",
+    "bytes": 58528
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/turner22_microns1_vol2_overlap.json": {
+    "sha256": "f03609baeb6669db3129d24f9c866b6fc80382cd1c65089403bec8652209fb66",
+    "bytes": 1297
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/xiao18_vol0__dev_metrics.json": {
+    "sha256": "0612e130396abf27856a1dd56b3cc619ffbf6856b4bc07ac59ca2941c49060ab",
+    "bytes": 1511
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop79_overlap.json": {
+    "sha256": "61ddecde54affc126d055119a9b07304729e2105ddc0a4fa8bd1dcb2749614a8",
+    "bytes": 1296
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop258_metrics.json": {
+    "sha256": "1742f944c38d2ac334264e224254d0b0684a89bd35fb0dafe01208ad3c70ef19",
+    "bytes": 1554
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/progress.json": {
+    "sha256": "de26ba9e94c0e150dfb1d8c56e3c4c10b84b6d83f970e0ae45517fddfdb8a761",
+    "bytes": 191
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/casser20_kasthuri++_train__dev_metrics.json": {
+    "sha256": "2a1664ab084b5ca175d505f71c79f4eb80a4f3365011c68634bc2120286348da",
+    "bytes": 1537
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop239_overlap.json": {
+    "sha256": "d9640147c480aba17a4bdc266b0ec2216925c32985123031b7c0370166c8b6a8",
+    "bytes": 1298
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop255_overlap.json": {
+    "sha256": "d98aaaeb5ae33d7ce1419bd74f884492e3dec8134b2ac1e6305ac486fb20703d",
+    "bytes": 1290
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/turner22_microns1_vol3_metrics.json": {
+    "sha256": "eacf3e7f57b57d73fb6e403665068c6d519686e6249bf43e456b97662c5eed73",
+    "bytes": 1563
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop254_overlap.json": {
+    "sha256": "946dd10bb203323c0c9f6aa9c731acca56d398c80d9e4e50e08cf0df0bc6dc36",
+    "bytes": 1287
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/han24_pos2_overlap.json": {
+    "sha256": "53800386f1ab93d104e227fc29757b55f5d0e8ff3050d063855231de60c42245",
+    "bytes": 1246
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/turner22_microns1_vol4_overlap.json": {
+    "sha256": "e0e501b580e00548ffba340e86e116b40e6b6c6da33ca9159963191419b04c46",
+    "bytes": 1298
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop173_metrics.json": {
+    "sha256": "01fe712e7431c218c1571b7ba5347b686e79f4cc9014e6223307230241fe66c9",
+    "bytes": 1573
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/turner22_microns1_vol2_metrics.json": {
+    "sha256": "2d868be95e27533e732edea06e32770a3f39c4fbbf16196d02d04eb32342ca39",
+    "bytes": 1561
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop236_metrics.json": {
+    "sha256": "4fef600c293ab9b441867d9594e59f0479ff5139182ca44b84e4f8c482c8b827",
+    "bytes": 1555
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/kunduri22_train02_overlap.json": {
+    "sha256": "f71be34e50f297c80a88b456a57ead6a9b49d214b10d026b5e32786da669c0a3",
+    "bytes": 1251
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop174_metrics.json": {
+    "sha256": "0017b76851d3b3d32fe0dcdb557b290eeb37dbc587cf5a0535d4313cc6205c2c",
+    "bytes": 1554
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/wei20_mitoEM-R__dev_overlap.json": {
+    "sha256": "4e797595ea6b6838ed1d226bd51cf855918d4844bc2a1a8f7a0e47580790dc77",
+    "bytes": 1254
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/turner22_microns1_vol4_metrics.json": {
+    "sha256": "29b8d7b8bf794194a732f1483c8433b52cae82e2b5c53b5107c0d226fdc2f59c",
+    "bytes": 1564
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop78_overlap.json": {
+    "sha256": "4e08aa5b3c932608cd6412a34cb883a9585a3413159587095400aed261870eed",
+    "bytes": 1307
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/muller21_high_c1_overlap.json": {
+    "sha256": "88d790b6d3a0da353f0973928a4acc1bf6971bad2fe694cee97a48a510a4a094",
+    "bytes": 1250
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop174_overlap.json": {
+    "sha256": "35793559284590e6c52a36cfb9f24620d0a844f31daac005a5c8eb6b00c03e4e",
+    "bytes": 1291
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop78_metrics.json": {
+    "sha256": "2acc23f481ca76dfd1a7add210d7e5aefc623f02c232222a315c4609188cda11",
+    "bytes": 1570
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop291_overlap.json": {
+    "sha256": "2f7db698b94dcef413d4b12bc0328f99f919db45ddc847522c53604b7b3fc07b",
+    "bytes": 1289
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/haberl18_vol1_overlap.json": {
+    "sha256": "a6078ff2ff63416f81301fda67c1b94551ec586d76fd6f54ffa2fd2b1584178b",
+    "bytes": 1217
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/run_protocol.json": {
+    "sha256": "0afae73b95ab1e70e6a216df022f542616555ce7fbf02e2536f10e6e901ad38d",
+    "bytes": 948
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/jiang25_vol2_metrics.json": {
+    "sha256": "e9020f4b198bcbf2bb97ab800066b4aeadc30ab72b9dba936a42029100fb052c",
+    "bytes": 1496
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/turner22_microns1_vol0_metrics.json": {
+    "sha256": "15ac0c8540e5ac4c0224807b7218ad11f111d2aa9a6d6e372684b3f372fbcb26",
+    "bytes": 1562
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/wei20_mitoEM-R__dev_metrics.json": {
+    "sha256": "c02fa1bf0535e5fff5f9d09b9efb04077cd11b8f2fb16a516875d7635c156c75",
+    "bytes": 1518
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop255_metrics.json": {
+    "sha256": "74cb1ffc70389f1e82cfd70a1e222c23dc37f451358ef38421604b0be27912b6",
+    "bytes": 1557
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop252_metrics.json": {
+    "sha256": "0ef4b0457b0dc088b5612af53558d0734efa02c70a2cb069c39d200dc66a8fa4",
+    "bytes": 1557
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop292_overlap.json": {
+    "sha256": "8bd944106eca1cb717f38fb8ada3557da0962e83f43562ef2bf0e4a1b7312df9",
+    "bytes": 1286
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/guay21_vol1_metrics.json": {
+    "sha256": "e718a7c2e687fd4837de00c097c6b20c4e0c68ea5bc3c46690cd5f997bd14c52",
+    "bytes": 1491
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/xiao18_vol0__dev_overlap.json": {
+    "sha256": "2e88aa415a2439c6b786ace472b1529692e59fb9de64037bc1fb939e042b7236",
+    "bytes": 1245
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop234_metrics.json": {
+    "sha256": "1371e8974af2b53014c11987c199677ed7e9c46b00f1acd6f1086a618f738ae1",
+    "bytes": 1551
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/muller21_low_c2_metrics.json": {
+    "sha256": "6a6dbbe22cecaecdea56e2eb86911e4bbdbe83b6371b12c8796fcea96a2cb570",
+    "bytes": 1509
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop248_overlap.json": {
+    "sha256": "f38e4311cad0c6f796672326bfe27a6ca913df19540952806e30bf84d61e98d6",
+    "bytes": 1290
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop234_overlap.json": {
+    "sha256": "ae3ffdda83537e0a9af515a2c53decf3c40096cb203764b30dc7ab97571bc285",
+    "bytes": 1286
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/head_step020000.json": {
+    "sha256": "0eb87b1061c41253b078b2f91a971c31fbdb4be3c21fac073cc16371024079e3",
+    "bytes": 1603
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop254_metrics.json": {
+    "sha256": "e9d00683c96db3a3a2595e554c126b11fe33be09ffdf59243f52822662f9239b",
+    "bytes": 1549
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop256_metrics.json": {
+    "sha256": "ff7c04b736d94573bacd4038942ab1b547171f5d9cc56d366b88fb0d40bbe4a8",
+    "bytes": 1545
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop176_metrics.json": {
+    "sha256": "eadb283a3a0c6d553a5c77ee8479ab47c6dba0f80730349da831254e406a9555",
+    "bytes": 1561
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/haberl18_vol1_metrics.json": {
+    "sha256": "c1ec7e8c00a890c4952939a60cbb9df06e786ca61491acb1b87514795ae7b506",
+    "bytes": 1482
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop248_metrics.json": {
+    "sha256": "b62de5cd1c5e45dfcb577a6f287c398187321ea55711b79cec41569e052c218f",
+    "bytes": 1556
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop245_overlap.json": {
+    "sha256": "8560a32a5fe396e9c4992c892ca3e307e11b9746bdfda8859e19fba6a572b5ab",
+    "bytes": 1295
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop258_overlap.json": {
+    "sha256": "188b89e47cb5377bd40d72f7975a82bb69346cb464b9b54b3684d2da89bcbb0f",
+    "bytes": 1292
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/turner22_microns1_vol0_overlap.json": {
+    "sha256": "b85a0ef7a42cd7baaa8a024228daddb31346d6dc0484450871e723092dd81ff0",
+    "bytes": 1297
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/head_step010000.json": {
+    "sha256": "f55dacc3fbf9fb0b888dad12304e68331aa5920e5dc83f928defc12ecdbb2631",
+    "bytes": 1591
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/muller21_high_c1_metrics.json": {
+    "sha256": "ad99282b42cbd2ec7b79baa1da0afafe8f81827fd2c626b3af991123b542221b",
+    "bytes": 1513
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop252_overlap.json": {
+    "sha256": "12cf3d9e872f78cf826b8388e8257935ed27feb1a70090f9d14072ef20a6501c",
+    "bytes": 1290
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop236_overlap.json": {
+    "sha256": "5e01cce9211a2b8e77c1b041d31dada0ba4c9e79d69a012b5bfdadaf758ee91c",
+    "bytes": 1290
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop238_overlap.json": {
+    "sha256": "72af7396bd5130f4fee018ec8e517f0ebd5bb154e31556f920a9f464bc772b8c",
+    "bytes": 1316
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop185_metrics.json": {
+    "sha256": "c210e70519021e66133bd39cc2a7abd3a06eeaa65020700c7ee76d98aa8b6d09",
+    "bytes": 1560
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop176_overlap.json": {
+    "sha256": "e7220d782d3d170261866b53f898a92769402a953de436b2b42a87b08021b32c",
+    "bytes": 1296
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/muller21_low_c2_overlap.json": {
+    "sha256": "4d0379b1f518c742100632f6d79352be75c91cd281dc106a1a09aa5f03e1ee69",
+    "bytes": 1243
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_mus-nacc-1_recon-1_crop115_metrics.json": {
+    "sha256": "3c25d5c4cb5ad23f91b265a5b86c1658864d2fd162aae0ae05a6e442ae15f8fb",
+    "bytes": 1577
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop238_metrics.json": {
+    "sha256": "0caf508081890fab3f78fb05ce1c9cfa641e70aff057a849b0a834d6688827b6",
+    "bytes": 1582
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1b_recon-1_crop291_metrics.json": {
+    "sha256": "a8b5eedbdc431731d33cab144338c451d789a94acb3285c9cdbbe9ca3df43751",
+    "bytes": 1543
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_cos7-1a_recon-1_crop239_metrics.json": {
+    "sha256": "45c87b32862b178f16132f1108c4832835792dfff253a1a0802afc190d84e549",
+    "bytes": 1564
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_mus-nacc-1_recon-1_crop115_overlap.json": {
+    "sha256": "81213f6d26ec6b3b14e7442623f9432f2f04c8344de28239be3861481990094a",
+    "bytes": 1312
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/mekuc20_fib1-4-3-0_metrics.json": {
+    "sha256": "d5b04d1735a36d583491ab4f68f2a4cf6b91447e58df4e419465a80340763902",
+    "bytes": 1501
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/turner22_microns1_vol1_overlap.json": {
+    "sha256": "23cf16783a3ea28cdf85bb7667315e8a1308e0aebfb0c0d1f7c8a1285303378a",
+    "bytes": 1297
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/guay21_vol1_overlap.json": {
+    "sha256": "42369a9332ef2b2fe01afc32c1b8f83c1c5f3520cd27ef3cda5ccbd73b3f16b5",
+    "bytes": 1225
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/han24_pos2_metrics.json": {
+    "sha256": "27537b3fc77264186436fe58f4c1f5dab9655c70fc8d0bb6b856bf79c95653b1",
+    "bytes": 1512
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop173_overlap.json": {
+    "sha256": "0f1c941217f9fb3abf7d0f8c09744659708f7c2e57c9cd49b86ee982405f629c",
+    "bytes": 1307
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/openorganelle_jrc_fly-vnc-1_recon-1_crop185_overlap.json": {
+    "sha256": "dc93fd8e8e635701c4226d7a527e637627b910365744949fcde275f47d9c4688",
+    "bytes": 1307
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014/turner22_microns1_vol3_overlap.json": {
+    "sha256": "cdd74c4c57bc2c6e7e4c13d309b5db27ec77c41da27abc446dfe1424af28e1c5",
+    "bytes": 1298
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/evidence/result_before_resume_1792218638515824390.json": {
+    "sha256": "dddf129d9d9c0ccee122339776f226880238dfe72b9e09ae73922204194b9b2e",
+    "bytes": 1229
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/evidence/executed_sources.json": {
+    "sha256": "1b70ac29758f43b213cc022297a7a4d6904444210e60151066d5b70c102e38c8",
+    "bytes": 1705
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/evidence/resume_verified.json": {
+    "sha256": "b0058b1a436df107836259e8f6c5b188fd3901bda56f5971b3b57ca3d562bb58",
+    "bytes": 2293
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/evidence/historical_inputs_before.json": {
+    "sha256": "773d94bcfc0d4aa8c8de7267e18aba963f942f25c3ca490c29ac9df10b6800bf",
+    "bytes": 26204
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/evidence/executed_sources_resume_1792218639046013861.json": {
+    "sha256": "aa58b8e1ad34f24a5af335e3e957eb57c1cd401906f802c833151427902829b1",
+    "bytes": 1705
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/evidence/failure_before_resume_1792218638515824390.json": {
+    "sha256": "db98e314362880f640a650eab60f2ad47b79b2722e27f578177effe6e01cf2e5",
+    "bytes": 200
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/evidence/heartbeat_linux_test.json": {
+    "sha256": "4b357535063ca16ffe33944c1fa2a4f028b8473345a9712afa1e8654d4dffcdb",
+    "bytes": 106
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/evidence/historical_inputs_after.json": {
+    "sha256": "773d94bcfc0d4aa8c8de7267e18aba963f942f25c3ca490c29ac9df10b6800bf",
+    "bytes": 26204
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/inputs/old_model_registry.json": {
+    "sha256": "c8676f08873c11dbf5a3c06eb688de7f2d160c9d46ad40ad2c6d42ac05445138",
+    "bytes": 2948
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/inputs/pretrain_all_mitoverse.json": {
+    "sha256": "3fd614082bf584c21e212884856875e328104ea09a293a95510c0f5f3117edb9",
+    "bytes": 202950
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/inputs/MV-Generalist.json": {
+    "sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+    "bytes": 305069
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/inputs/MV3_protocol.json": {
+    "sha256": "916ac9fbbeba6b3e131c4d2f106c9c7dd3044acedef323eafbf82d160f90bff3",
+    "bytes": 2414
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/sampling_totals_rank2.json": {
+    "sha256": "4da8017b6b62ca31fd87852352f4cb673b59e23371ff2d512f68a118bf2d6771",
+    "bytes": 381
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/progress.json": {
+    "sha256": "51a17e7fae787a9ab23491e9af328d64d7ee79dd3d7752b79e5bac3c09651e18",
+    "bytes": 719
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/result.json": {
+    "sha256": "b48e4eafc297144460694ac004d75f76cc38b9d7dc28680988382c5e295d9380",
+    "bytes": 1224
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/sampling_totals_rank1.json": {
+    "sha256": "dd93ec10af4cbc11eb6caeb626a5418f5c10b05cd243e3ef0b56de68ff8e7603",
+    "bytes": 381
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/resume_sampling_prefix.json": {
+    "sha256": "d64b5b3223344f40ca9fa142311608741cc24616dad03af76890122f5ab357b8",
+    "bytes": 733
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/sampling_totals_rank0.json": {
+    "sha256": "ec20387d0449ca5500f1088b1beddb682aec5f731ab0e0517908d8a290184f0c",
+    "bytes": 381
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/initialization.json": {
+    "sha256": "e5c242b6e4041a5037e52ce7621b0e71cb95c2b58d51befaed88b6cba3f2d536",
+    "bytes": 1378
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/latest_checkpoint.json": {
+    "sha256": "adb6215306f70cd1b98c33b942662b9605a8db4cd7f72816455ce129052270c6",
+    "bytes": 219
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000022000/metadata.json": {
+    "sha256": "166b72530fec45499273a08fd0afd9e682f449bd246629ef23f3a01d540299ec",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000003000/metadata.json": {
+    "sha256": "c8355943c14abe8ed786608e57d882f6946c44a112276be7527599f42284c072",
+    "bytes": 1241
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000015000/metadata.json": {
+    "sha256": "65db82d1406f4b803c89411817356763a55d0e9e52bd080e38d48e73504c0404",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000014000/metadata.json": {
+    "sha256": "52741b3a36fb1ae9808e24f25e8a18f8f439cd45f5d1568a914d14903e0cfac6",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000009000/metadata.json": {
+    "sha256": "2ac671d2b7ee6878431d3193e1c3d294be1852918bf08ff3f7b081ca7c9ef43d",
+    "bytes": 1241
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000019000/metadata.json": {
+    "sha256": "66ea3785548ef1aee35035bf76bcf22531cffb9d039248505afae9ddd36b1453",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000028000/metadata.json": {
+    "sha256": "4467fb550499f75677964118f3db2b19e321430780c82b1b21ca6cbabd541299",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000005000/metadata.json": {
+    "sha256": "7ee61126f7e30e6b4c4c796a95ad5782771d9c386e5854a62382fdbaf2404878",
+    "bytes": 1241
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000020000/metadata.json": {
+    "sha256": "c46489f24c4dede976793317d4c2d04c7affe5b2eda6f77e6bdf506a59ae4d37",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000023000/metadata.json": {
+    "sha256": "23fb02fe5bfb982370194488e608afd4e1ad064c63baa63d9e4cada2f1567ff5",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000026000/metadata.json": {
+    "sha256": "44318d7f56d8c9113760434c1d03a609f44670808fdcc4418e413933747b0e19",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000018000/metadata.json": {
+    "sha256": "91a931a31accfc17c7e17d8458c00a48183c2aafa4ac5e37e736f877d7fde032",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000030000/metadata.json": {
+    "sha256": "928654dc179245f9547ba0881437f6b36426e74b74485178fc5b464c93f6716c",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000030000/student_backbone.json": {
+    "sha256": "3ccbbbd70991720accbc1051260e3d76ca038f7f49094a1c28384082ea63281b",
+    "bytes": 437
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000030000/teacher_backbone.json": {
+    "sha256": "f8bf52ad48a52fcb5cc447ef82b5623c0692702598c26fe7e4911a235896a390",
+    "bytes": 437
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000001000/metadata.json": {
+    "sha256": "7450f5e5235350f6a5e6fb5c045b984722f0d726a26f2684c64f3a30eb1f1d5c",
+    "bytes": 1241
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000013000/metadata.json": {
+    "sha256": "3bccb799d9a185746e1d48762a0279d56f1b079d0589b4898562942bb7d69822",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000012000/metadata.json": {
+    "sha256": "e9f2f75461f3a618a971ba595a1cf417d9a0cfff9bfb508c1bd8511ef823cfdb",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000002000/metadata.json": {
+    "sha256": "3fd85c9854dae41354dc4561e90a3c6f3a0a37612ea3b6600cd860147f96e2e4",
+    "bytes": 1241
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000029000/metadata.json": {
+    "sha256": "c52149e82c3af22282f5200b8522a8117c932314be946496ab1bd84e85888fbe",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000024000/metadata.json": {
+    "sha256": "bf23ad93d63b8ee726f9ee6cb27197f05c466db0bafccdd03913290000899106",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000008000/metadata.json": {
+    "sha256": "3ff8ba5ad372b469c3bb43e4a321ff8b063b3a4d80e7fe7b1e012f1ccab3ad8a",
+    "bytes": 1241
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000007000/metadata.json": {
+    "sha256": "004d63cf7aaefa30caf849ebd91e31f2f477929390ba61a1ed5acb637559adbd",
+    "bytes": 1241
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000027000/metadata.json": {
+    "sha256": "5c99f2ec55a05e6f6609d7364d3ca1c01f9c41570cf8c44ade984dfc7dab2dbd",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000021000/metadata.json": {
+    "sha256": "52d62b488c8223611143c9fe2883294b1b1a358a314426a942a4c1ce1414b91e",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000017000/metadata.json": {
+    "sha256": "86c802f2fd8e1af0b3100874c0a256fccfc2d58c8a76840a098d20a6d6621826",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000004000/metadata.json": {
+    "sha256": "0bd91d1c26caded68ec93caae7975e73c2abf95741c989f2ca51fe2a49da6888",
+    "bytes": 1241
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000011000/metadata.json": {
+    "sha256": "ab0f89714c7d0024e25ffb2310a5bbc1cdf3ec5dbac0fc6ae48d83222a3f898a",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000025000/metadata.json": {
+    "sha256": "5680c0fe6b256f556e41fa4d9c35e38364b5db24a8cb2330fb7548e1e13bd9b4",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000006000/metadata.json": {
+    "sha256": "6e74798e90772646eb890a99d56a0868a09e6cb8fad3abe561bde6ace43fb241",
+    "bytes": 1241
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000016000/metadata.json": {
+    "sha256": "95076ed13754c30cf76f6f8c1d833b86ce4ae9e806ed196541ed16d5c3231817",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000010000/metadata.json": {
+    "sha256": "56ead95ecd34a9235611da65a1599d35d2c97d1e01b0cf7a62d7190947f0a63b",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000010000/student_backbone.json": {
+    "sha256": "3d7530f83b0e947450de02cacf41579dd1c5e0386822f0219bf2f873867a5001",
+    "bytes": 437
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000010000/teacher_backbone.json": {
+    "sha256": "fc9175135fb88580216bf6a5c282cedb186afcbef901a31ca90b3887c3825d30",
+    "bytes": 437
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000002711/metadata.json": {
+    "sha256": "d7f9badae935a347b1504837af5a0c1faa735938a967ed26abdee799e2896a66",
+    "bytes": 1241
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/sampling_totals_rank2.json": {
+    "sha256": "2b9269e98c48bef790a2231d5b7c7af52d266151cb7a1d1b2c74925adbafc19a",
+    "bytes": 26657
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/progress.json": {
+    "sha256": "e81296565c1056cf37a85003207dd68231ef45a01cf4edceb2a65d18fd9e85cd",
+    "bytes": 721
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/result.json": {
+    "sha256": "e03586b1ba6b4a4bf546da9619c95f3ba48596acc2c38c61a49313c176f49636",
+    "bytes": 1225
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/sampling_totals_rank1.json": {
+    "sha256": "cdaecbe7359254fa1b8a124dd241073d5a33cc24c6c3e4d5634b808320417b40",
+    "bytes": 26656
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/sampling_totals_rank0.json": {
+    "sha256": "eef85ac5ae83bb9d65b6f41f56a34852555c77ba48b8348c2e71126109f54cd1",
+    "bytes": 26659
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/initialization.json": {
+    "sha256": "43d2dde443d9c631465cf1e248da34cb9965184174bb80cc871ac0b858a30fd8",
+    "bytes": 1272
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/latest_checkpoint.json": {
+    "sha256": "22a4d25766c2db517d45a867f63421af94f354830b967df0d33ba6a47c737851",
+    "bytes": 219
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000022000/metadata.json": {
+    "sha256": "f8609e6b02520a49b2d9c580f0e0a15305f1e5ebaebf48a931935cd6a2fb47a2",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000003000/metadata.json": {
+    "sha256": "28c9a8ee05d979daa0bbb2f0e42b8bc8bec34ef2d8a6048a45f5e1424342ae9d",
+    "bytes": 1241
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000015000/metadata.json": {
+    "sha256": "35cd625c957d660e64fc37ad4ee8b18cf904571fa82c114840888e1d0ca15073",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000014000/metadata.json": {
+    "sha256": "7be4ba8a5aa6c168b33c60eee7edebbe25f6f1619f8b4815b4b54ef76b866424",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000009000/metadata.json": {
+    "sha256": "540f8c7a40227bbf09e88560cfb91a1220e7d4ec4c972afaf653e8dabc94ffff",
+    "bytes": 1241
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000019000/metadata.json": {
+    "sha256": "d80cd095de4b140c51d2e4a56dac7c685fc4930cea1b09b175e1f92935d6b43c",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000028000/metadata.json": {
+    "sha256": "7789b6706f3ff5c93f2d41741c9fb5f5d6b1443dfc72ed6b5eac22740316b833",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000005000/metadata.json": {
+    "sha256": "3d9999ab75a5275a1db6a2f989b41acd2eb915362ae50613d7632baf325e9817",
+    "bytes": 1241
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000020000/metadata.json": {
+    "sha256": "20a0de3fc35262180c0d9a50d4e462056a6a8da34764df63ab2bf781ad65d4d3",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000023000/metadata.json": {
+    "sha256": "09c5e692b7a4d3b54965cd5dcb7318609e133b6f87d5ea4f2a17b7f5a7782eda",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000026000/metadata.json": {
+    "sha256": "65a2b72a43e57ebf4cf8b40d075c86cde404a4e68eb2a2fe6de26d2b0605a8e0",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000018000/metadata.json": {
+    "sha256": "c5e27f63d452de4406977653b65262ce5ad9abc4474a88e270a71beb0ea22231",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/metadata.json": {
+    "sha256": "ae44e107d0e637d68d70ffcede633612b22f9280e917e0cfc4bcb0cd69728c53",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/student_backbone.json": {
+    "sha256": "8f6917c7cc1f9fc7199eeedbdb0ee137fa6004c748e3b31a2adc0c03b22bb6b0",
+    "bytes": 437
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/teacher_backbone.json": {
+    "sha256": "5e90513d90d77af28909879207ad16eadc1f78d5d7949bc44183a8e6a761e419",
+    "bytes": 437
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000001000/metadata.json": {
+    "sha256": "81eb8889f93984109c00b004042aa11dcec51e699dcb225ef487b4957c42546c",
+    "bytes": 1241
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000013000/metadata.json": {
+    "sha256": "1abea1976e1e1bee47fbabe497ea11a2ccd5083297982eb74067029bc099234a",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000012000/metadata.json": {
+    "sha256": "20b74356d77818a130caacc5f12c4feb731c26034aa1c0bddacb03898b7ab89c",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000002000/metadata.json": {
+    "sha256": "b0efbc5e789eb48b44b2d6585dab34cadd636661e4920e265d0b94abf916aea5",
+    "bytes": 1241
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000029000/metadata.json": {
+    "sha256": "92946a786fbcf8c5c1da52a96f3e1ae2a67fcab898f616f778db2482eb943fac",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000024000/metadata.json": {
+    "sha256": "42344ee6f4722b7ec9ed2cf72553e5f37e901ed5e1d7058546fb340678f3cc29",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000008000/metadata.json": {
+    "sha256": "f03070c3622689be3e7f16b38ea57f217eb3bda6d714f8bfd0dc76d5605b24a2",
+    "bytes": 1241
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000007000/metadata.json": {
+    "sha256": "d995d6ca4a1b380b1a596a41a53d2053a311e9969f846793fa2814d9169470fc",
+    "bytes": 1241
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000027000/metadata.json": {
+    "sha256": "cd19c46ee9be40550c7e8ee214e2780535ba5d3b10204c39e7a0c6bcb89ba374",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000021000/metadata.json": {
+    "sha256": "deecfb33d4379657b90f8738ebf6f31cf6d2fc18bb9300f41d4abeb85176165b",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000017000/metadata.json": {
+    "sha256": "eaa2c9d784eeb6ef6c807adc60b19b7cc2c42439047483428959c1ab5200cda9",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000004000/metadata.json": {
+    "sha256": "9b1df23d454d86ee8b141a82febb890c77ad4a2ee35ca5999e7e7c14179521f0",
+    "bytes": 1241
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000011000/metadata.json": {
+    "sha256": "ff1a1366373c532301ef27adea12355db86d110ae595c16128795712018a4c8d",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000025000/metadata.json": {
+    "sha256": "097f5a0e6114e3535a626f6ff6b024d2fdab7fbf769df2d7bc9ef0a661dcaaa8",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000006000/metadata.json": {
+    "sha256": "d767f0740277d59406263436fa673f7dc90cef9dd1c36c692a4c377510efa2b6",
+    "bytes": 1241
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000016000/metadata.json": {
+    "sha256": "9e36051ab914398c8df9d228896ef72f8e3e0212a21f0a437c63d97dae3ec846",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000010000/metadata.json": {
+    "sha256": "5a0b3deaf567bd9bc520bb053af282c2e32ba97d5aac1cbbfccf0b57b34255e9",
+    "bytes": 1242
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000010000/student_backbone.json": {
+    "sha256": "c1ff17219205c7936acb74815703789be0b79f47a0bbfbf285f65f20275bd6e1",
+    "bytes": 437
+  },
+  "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000010000/teacher_backbone.json": {
+    "sha256": "9a39749c76c9123e2c006bbce57da3e9a2c54801ca5f27cbef85a2ac3aa6bc66",
+    "bytes": 437
+  }
+}

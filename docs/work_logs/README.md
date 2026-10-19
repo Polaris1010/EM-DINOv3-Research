@@ -38,3 +38,5 @@
 - [D1/D2最终完成与内部/跨域结果复核](20261018_17_d12_completion_recheck.md)
 
 - [D1/D2共同续训到100k](20261018_18_d12_100k_continuation.md)
+
+- [100k完成后的readout部署修复](20261020_19_d12_100k_readout_repair.md)

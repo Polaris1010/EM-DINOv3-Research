@@ -1,4 +1,4 @@
-"""Bounded two30k SSL runs, matched first-seed heads and fixed evaluation; stop."""
+"""Bounded matched100k continuation,40k frozen readouts and fixed evaluation; stop."""
 import csv,fcntl,os,signal,subprocess,time
 from pathlib import Path
 import psutil
@@ -60,6 +60,8 @@ class Controller:
    if all(p.poll()==0 for p in children):return
    time.sleep(15)
  def run(self):
+  from readout_inputs import prepare
+  atomic(R/'evidence/readout_inputs_preflight.json',prepare(R,PARENT))
   assert read(PARENT/'STATUS.json')['status']=='complete'
   assert read(PARENT/'loader_smoke.json')['status']=='PASS'
   for model in ['D1','D2']:

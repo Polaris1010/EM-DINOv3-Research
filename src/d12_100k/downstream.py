@@ -1,13 +1,17 @@
 """Run unchanged MV3 functions with new encoder registry and new output root."""
 import argparse,gc,importlib.util,json,os,sys
 from pathlib import Path
-from common import R,M3,OLD,MV2,atomic,read,sha
+from common import R,PARENT,M3,OLD,MV2,atomic,read,sha
 
 def module(name,path):
  spec=importlib.util.spec_from_file_location(name,path);obj=importlib.util.module_from_spec(spec);sys.modules[name]=obj;spec.loader.exec_module(obj);return obj
 
 def setup():
  import torch
+ # The separate100k output needs the same locked protocol, manifest and cache.
+ if not (R/'evidence/readout_inputs_preflight.json').exists():
+  from readout_inputs import prepare
+  atomic(R/'evidence/readout_inputs_preflight.json',prepare(R,PARENT))
  out=R/'downstream';os.environ['MV3_ROOT']=str(out)
  data=module('data',M3/'src/data.py');data.OLD=OLD;data.MV2=MV2
  sys.path[:0]=[str(OLD/'src'),str(MV2/'src')]

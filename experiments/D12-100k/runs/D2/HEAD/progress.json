@@ -1,0 +1,25 @@
+{
+  "model": "D2",
+  "seed": 20261014,
+  "stage": "train",
+  "step": 200,
+  "steps": 40000,
+  "loss_median200": 1.0078976154327393,
+  "seconds": 32.464200258255005,
+  "source_draws": {
+    "openorganelle": 20,
+    "muller21": 16,
+    "han24": 16,
+    "turner22": 19,
+    "guay21": 19,
+    "mekuc20": 19,
+    "haberl18": 13,
+    "jiang25": 16,
+    "wei20": 15,
+    "casser20": 16,
+    "kunduri22": 12,
+    "xiao18": 19
+  },
+  "sampling_hash": "cbc1eb1aa6487562546132f509be8a9db28fdd6040b63894dc9b6f1e1110da5d",
+  "lr": 9.999450383714223e-05
+}

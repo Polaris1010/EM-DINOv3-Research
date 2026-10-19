@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "copied_inputs": {
+    "MV3_protocol.json": "62260a794f4b0260b1afc215fb40c3e40f623780b8ecf64c19d374aae76a4bb5",
+    "MV-Generalist.json": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+    "src/data.py": "eec0819304a982113df3a9bac228c0666ba6fff1a451acf8a28a32305e0e3269"
+  },
+  "cache_read_only_usage": "existing mmap r; no data.prepare call",
+  "cache_target": "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/cache",
+  "regions": {
+    "train": 156,
+    "dev": 38
+  },
+  "sources": 12,
+  "tta": false,
+  "optimizer_steps": 40000
+}

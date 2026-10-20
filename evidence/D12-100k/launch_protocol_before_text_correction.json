@@ -1,0 +1,65 @@
+{
+  "stage": "D12-100k",
+  "question": "Does added heterogeneous unlabeled CEM data improve fixed downstream segmentation beyond matched source-balanced MitoVerse?",
+  "ssl_steps": 100000,
+  "ssl_milestones": [
+    50000,
+    100000
+  ],
+  "downstream_encoder_selection": "fixed100000 only;50000 monitoring export, never dev/MB1-selected",
+  "ssl_seed": 0,
+  "world_size": 3,
+  "batch_per_gpu": 16,
+  "global_batch": 48,
+  "optimizer": "same AdamW state restored;step>=30000 uses100k cosine horizon with original5000 warmup already completed;explicit LR discontinuity at continuation",
+  "ssl_base_config": "configs/pretrain/D12_100k_base.yaml",
+  "initial_checkpoint": "/opt/data/3_117/tanghr/DINOv3/pretrained_weights/dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth",
+  "initial_checkpoint_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+  "D1_CEM_fraction": 0.0,
+  "D2_CEM_fraction": 0.5,
+  "MitoVerse_sampling": "source uniform -> declared acquisition or volume proxy uniform -> volume uniform -> legal Z uniform -> XY crop512; same pool both runs",
+  "CEM_sampling": "collection probability sqrt(n); uniform image within collection;gamma0.5",
+  "format_adapter": "MitoVerse existing512 crop+reflect pad; CEM native PIL RGB (typically224), no eager resize/pad; identical official RRC outputglobal256/local112. Native context/rescaling differs and is disclosed.",
+  "global_crop": 256,
+  "local_crop": 112,
+  "local_crops": 8,
+  "extra_losses": [],
+  "physical_gpus": [
+    1,
+    2,
+    3
+  ],
+  "gpu0_forbidden": true,
+  "downstream_protocol": "unchanged MV-Generalist-v2 156train/38dev12sources original frozen Primus40k",
+  "decoder_seed": 20261014,
+  "decoder_milestones": [
+    10000,
+    20000,
+    40000
+  ],
+  "tta": false,
+  "benchmark_diagnostic": "fixed MB1 all7; already development-exposed; never used to select checkpoint, mixture or hyperparameters",
+  "historical_B100_comparison": "descriptive only:100k vs30k, slice sampling vssource sampling and different SSL holdout pool; not pure sampling delta",
+  "unknown_source_aliases": "Unresolved CEM hash collections vs MV3 dev/test are UNVERIFIED, not certified absent",
+  "source_evidence": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9883049/ Methods Benchmark curation; benchmark AND related images excluded in authors CEM pools",
+  "stop_after": "two30k SSL runs + two matched40k first-seed heads + fixed dev/MB1 diagnostics and report; no automatic100k/D3",
+  "max_runtime_hours": 72,
+  "additional_steps": 70000,
+  "parent_stage": "D12",
+  "parent_root": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017",
+  "server_root": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018",
+  "continuation_not_uninterrupted100k": true,
+  "auto100k": false,
+  "autoD3": false,
+  "resume_full_states": {
+    "D1": {
+      "path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000030000/full.pth",
+      "sha256": "66f1c9f2353ced9b371789322d7e6f7ad2f80a5e334623a13e59e3aeb4c855a1"
+    },
+    "D2": {
+      "path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/full.pth",
+      "sha256": "cce40d90b9e4f03eae9231f7516cd1a81d49e8b369db9380dbb3b30f7d82967f"
+    }
+  },
+  "completion_stop": "bothSSL100000 -> two fresh matchedseed40k frozenPrimus -> all38dev+fixed7MB1 -> report/commit/push -> STOP; noD3 orlongerSSL"
+}

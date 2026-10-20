@@ -1,0 +1,79 @@
+[
+  {
+    "name": "added_fp_detail.png",
+    "bytes": 171902,
+    "sha256": "dd2987c19d4497cde82bc49a09e60f9a62958057f01775a343f255167a0e8d3c",
+    "local_path": "E:\\mira_website_demo\\artifacts\\d12_control_20261017\\muscle_review\\added_fp_detail.png",
+    "server_path": "/opt/data/3_117/tanghr/codex/d12_muscle_review_20261020/added_fp_detail.png"
+  },
+  {
+    "name": "added_fp_distribution.png",
+    "bytes": 438772,
+    "sha256": "e1c9368d789abb54c420c43dca324da9d9654309a62415ad3f96dee3780be7c8",
+    "local_path": "E:\\mira_website_demo\\artifacts\\d12_control_20261017\\muscle_review\\added_fp_distribution.png",
+    "server_path": "/opt/data/3_117/tanghr/codex/d12_muscle_review_20261020/added_fp_distribution.png"
+  },
+  {
+    "name": "comparison_z000.png",
+    "bytes": 1008469,
+    "sha256": "2c066c044e1c14a485ddf29483ac61037ecf9aaad8dbff0d55ab46307e7ae3e5",
+    "local_path": "E:\\mira_website_demo\\artifacts\\d12_control_20261017\\muscle_review\\comparison_z000.png",
+    "server_path": "/opt/data/3_117/tanghr/codex/d12_muscle_review_20261020/comparison_z000.png"
+  },
+  {
+    "name": "comparison_z010.png",
+    "bytes": 1134007,
+    "sha256": "11b8b687cdc0318bb8584d2cc7488129c6ab9023eccda9ff0e3cb88e2dd5ad79",
+    "local_path": "E:\\mira_website_demo\\artifacts\\d12_control_20261017\\muscle_review\\comparison_z010.png",
+    "server_path": "/opt/data/3_117/tanghr/codex/d12_muscle_review_20261020/comparison_z010.png"
+  },
+  {
+    "name": "comparison_z060.png",
+    "bytes": 1024382,
+    "sha256": "41d881d2734c0cdbf449dc398b36716e3b4989cc85cffde94ce658d1a46b89d3",
+    "local_path": "E:\\mira_website_demo\\artifacts\\d12_control_20261017\\muscle_review\\comparison_z060.png",
+    "server_path": "/opt/data/3_117/tanghr/codex/d12_muscle_review_20261020/comparison_z060.png"
+  },
+  {
+    "name": "comparison_z079.png",
+    "bytes": 1115959,
+    "sha256": "d6976aeb0980230ad334137d945f3d4b10084c17631866126a76e4bbc37123b4",
+    "local_path": "E:\\mira_website_demo\\artifacts\\d12_control_20261017\\muscle_review\\comparison_z079.png",
+    "server_path": "/opt/data/3_117/tanghr/codex/d12_muscle_review_20261020/comparison_z079.png"
+  },
+  {
+    "name": "comparison_z120.png",
+    "bytes": 1086902,
+    "sha256": "1ccfe4845714944b24b251f3b118253aa525b28c19f198b6c905a82a9f1fcfe6",
+    "local_path": "E:\\mira_website_demo\\artifacts\\d12_control_20261017\\muscle_review\\comparison_z120.png",
+    "server_path": "/opt/data/3_117/tanghr/codex/d12_muscle_review_20261020/comparison_z120.png"
+  },
+  {
+    "name": "comparison_z150.png",
+    "bytes": 1107204,
+    "sha256": "c7f495188bcecc0b4f74893b496cf30d5573886e6783bfeca9384ebfd8ff9d89",
+    "local_path": "E:\\mira_website_demo\\artifacts\\d12_control_20261017\\muscle_review\\comparison_z150.png",
+    "server_path": "/opt/data/3_117/tanghr/codex/d12_muscle_review_20261020/comparison_z150.png"
+  },
+  {
+    "name": "comparison_z180.png",
+    "bytes": 1088586,
+    "sha256": "c8dc6daba14815858e3cfdc6127d849135b8ad69361b26618fd7daf88d95cde7",
+    "local_path": "E:\\mira_website_demo\\artifacts\\d12_control_20261017\\muscle_review\\comparison_z180.png",
+    "server_path": "/opt/data/3_117/tanghr/codex/d12_muscle_review_20261020/comparison_z180.png"
+  },
+  {
+    "name": "comparison_z240.png",
+    "bytes": 1052289,
+    "sha256": "45defcd5c0093f11f5a2c1459e2e02bdce6e1965a4e1c3fe37f1f8ce05131420",
+    "local_path": "E:\\mira_website_demo\\artifacts\\d12_control_20261017\\muscle_review\\comparison_z240.png",
+    "server_path": "/opt/data/3_117/tanghr/codex/d12_muscle_review_20261020/comparison_z240.png"
+  },
+  {
+    "name": "comparison_z301.png",
+    "bytes": 1027184,
+    "sha256": "d4fcc22e691b0855fc89d9200b8c26bdff7d7c98ae075a35b69ce162ed1b4b3b",
+    "local_path": "E:\\mira_website_demo\\artifacts\\d12_control_20261017\\muscle_review\\comparison_z301.png",
+    "server_path": "/opt/data/3_117/tanghr/codex/d12_muscle_review_20261020/comparison_z301.png"
+  }
+]

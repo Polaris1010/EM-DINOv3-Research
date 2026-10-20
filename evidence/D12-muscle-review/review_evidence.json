@@ -1,0 +1,201 @@
+{
+  "status": "complete",
+  "gpu_used": false,
+  "training_or_inference": false,
+  "probabilities_available": false,
+  "inputs": {
+    "D1_30k": {
+      "path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/benchmark/D1/glycolytic_muscle_prediction.npy",
+      "sha256": "7750c0ae14d0a5f20b20f6b0509beb4804628fb0a227f40ec5589eeb28bed12c",
+      "bytes": 88484618,
+      "mtime_ns": 1792267904533060850
+    },
+    "D2_30k": {
+      "path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/benchmark/D2/glycolytic_muscle_prediction.npy",
+      "sha256": "82da6602d7344cf97909d19e5ce5396ce93daa78b4e30c21eab5cc697e6ecf9c",
+      "bytes": 88484618,
+      "mtime_ns": 1792267904886710321
+    },
+    "D1_100k": {
+      "path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/benchmark/D1/glycolytic_muscle_prediction.npy",
+      "sha256": "ee8b61dfb47857487348ba5046db024cf7bb35b14ebc32a5c74530583128f5e9",
+      "bytes": 88484618,
+      "mtime_ns": 1792431329267055721
+    },
+    "D2_100k": {
+      "path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/benchmark/D2/glycolytic_muscle_prediction.npy",
+      "sha256": "927e85deb5959a48248823b0e4dac0e04f3b4c3a4cfa13f913b631ee6494034f",
+      "bytes": 88484618,
+      "mtime_ns": 1792431332280505424
+    }
+  },
+  "image": {
+    "path": "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/mito_benchmarks/glycolytic_muscle/glycolytic_muscle_em.tif",
+    "sha256": "2c48a901dbdb632e40960f98dd06d8c7a2af48872d9009bd6e1c3fa7b2370cfe",
+    "dtype": "uint8",
+    "min": 0,
+    "max": 146
+  },
+  "gt": {
+    "path": "/opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-10982/data/mito_benchmarks/glycolytic_muscle/glycolytic_muscle_mito.tif",
+    "sha256": "977994aa56feb58dfbe6b4eef03762fab76c93cad9baa1a039f6ad0c112d6f7f",
+    "rule": ">0"
+  },
+  "shape_zyx": [
+    302,
+    383,
+    765
+  ],
+  "spacing_yx_nm": [
+    18.0,
+    18.0
+  ],
+  "all_1208_plane_confusions_match_saved": true,
+  "totals": {
+    "D1_30k": {
+      "tp": 1188726,
+      "fp": 122274,
+      "fn": 1602698,
+      "tn": 85570792
+    },
+    "D2_30k": {
+      "tp": 1032874,
+      "fp": 420231,
+      "fn": 1758550,
+      "tn": 85272835
+    },
+    "D1_100k": {
+      "tp": 1450657,
+      "fp": 102938,
+      "fn": 1340767,
+      "tn": 85590128
+    },
+    "D2_100k": {
+      "tp": 1100480,
+      "fp": 6511063,
+      "fn": 1690944,
+      "tn": 79182003
+    }
+  },
+  "changes": {
+    "D2_added_fp": 6227810,
+    "D2_removed_fp": 136978,
+    "D2_retained_fp": 283253,
+    "added_fp_also_D1_100k_fp": 15993,
+    "D2_fp_net_change": 6090832
+  },
+  "new_fp_distance_to_gt_2d_nm": {
+    "(0,36]": 14707,
+    "(36,90]": 56294,
+    "(90,180]": 320602,
+    ">180": 5836207
+  },
+  "new_fp_grid_4y_6x": [
+    [
+      271526,
+      340288,
+      338414,
+      385837,
+      330684,
+      385482
+    ],
+    [
+      290954,
+      298937,
+      298964,
+      277214,
+      266990,
+      351525
+    ],
+    [
+      249098,
+      193503,
+      261466,
+      273828,
+      184526,
+      250551
+    ],
+    [
+      153069,
+      137246,
+      212764,
+      179822,
+      164871,
+      130251
+    ]
+  ],
+  "grid_pixel_denominator": [
+    [
+      3643630,
+      3672320,
+      3643630,
+      3672320,
+      3643630,
+      3672320
+    ],
+    [
+      3681984,
+      3710976,
+      3681984,
+      3710976,
+      3681984,
+      3710976
+    ],
+    [
+      3681984,
+      3710976,
+      3681984,
+      3710976,
+      3681984,
+      3710976
+    ],
+    [
+      3681984,
+      3710976,
+      3681984,
+      3710976,
+      3681984,
+      3710976
+    ]
+  ],
+  "uniform_z": [
+    0,
+    60,
+    120,
+    180,
+    240,
+    301
+  ],
+  "high_added_fp_z_min30_separation": [
+    150,
+    79,
+    10
+  ],
+  "detail_roi": {
+    "z": 150,
+    "y": [
+      0,
+      128
+    ],
+    "x": [
+      306,
+      434
+    ]
+  },
+  "rendering": "Raw fixed uint8 0..255; TP green, FP magenta, FN cyan. Binary saved outputs only; no probability reconstruction.",
+  "selection": "6 uniform planes incl endpoints; 3 greatest added-FP planes greedily separated >=30 Z; 128px max added-FP detail on greatest plane.",
+  "interpretation_limit": "GT-relative FP, not independent tissue annotation; 2D distances only; no Z spacing assumption.",
+  "reader_compatibility": "Historical NPY shape headers use lists; literal header parsed to a tuple in memory, exact dtype/layout/byte count checked; original files untouched.",
+  "shared_inference_source": {
+    "path": "/opt/data/3_117/tanghr/codex/mv_generalist_stage1_20261013/src/mv_probe.py",
+    "sha256": "4071da2213b8f55f28ce13522d74e716c61be7900a37c96318942983be3546ec",
+    "normalization": "((uint8/255)-0.5)/0.25",
+    "tile": 256,
+    "stride": 128,
+    "fusion": "arithmetic probability mean",
+    "threshold": 0.5,
+    "axis": "native ZYX; saved mask at native XY; same TIFF/GT for all four runs"
+  },
+  "prediction_files_unchanged": true,
+  "seconds": 14.009870678186417
+}

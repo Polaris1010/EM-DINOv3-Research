@@ -1,0 +1,23 @@
+{
+  "files": {
+    "code/benchmark.py": "02874b372a4881170579b8acfcbc49111ffd54455f71df1b9a19712a825be401",
+    "code/common.py": "326e1178c07272e907f44a23f71cf61fa6cee44a7f519c9fa16ee5287d729250",
+    "code/downstream.py": "b4b48f200aa25a57644c3c7a2fe23f513c0208e3cd90c34a0d9208f82260c94c",
+    "code/legacy_ssl_data.py": "7c347451788969f5b49acc58d53f103cef0d771deb27b4a012443e9f6613b560",
+    "code/policy.py": "57fad54cbea41dce7ee5cd69479cb61570b6870449e34f0fe932eb27df1ed09b",
+    "code/readout_inputs.py": "fab8f97090e2e23dcd5000555fe81274c326b7efbabee5341b0210ce95a000b1",
+    "code/report.py": "ab73ea83154160ce4fb0c8688df8e4420ebd253b917ec1fae2d11a95e69daadb",
+    "code/run.py": "126c249b39c0ee6872ff01b0b990912452449d1e19e698e466aca4ca00f363ae",
+    "code/runtime_guard.py": "2204a59c9c16cc346ce4c0e3e27d4b52d62ad141b3bb7621331a5492b5a6dab1",
+    "code/sampling.py": "f2a1091baf764f7df807f37bd8e9b6dac44dfbee227a3c3a55b179dacb776976",
+    "code/ssl_full_data.py": "6eede1e8c4af091ea9746c60ca40f3d765e39690867035cf8855b5f145e9bb7c",
+    "code/train_ssl.py": "ec1cb647ee46912388192e86dd240bd23736f0bcfcc93df13fbfbf8ddd48de3d",
+    "D12_protocol.json": "4f96ff8c8d832df3672186c71f58793d4b515f8d15bc577d914c19730217997e",
+    "D12_base.yaml": "159f45566320f9b583968aa8e9ffb07392d521bfa227b1ca0b4a4bde11f152d7",
+    "D1_manifest.json": "584726a98b8ef58b83f34ddae90401ec9ec076ebc392f0bacff98910afc4031e",
+    "D2_manifest.json": "33e1926394681779818d39b147ee07b3d09468e0551f2523fe77fefdd5ceb1e8"
+  },
+  "code_commit": "33a0ff7070eacc1582db1c248440056d98116ef3",
+  "SSL_python": "/opt/data/3_117/tanghr/dinov3_shared/bin/python",
+  "readout_python": "/opt/data/3_117/tanghr/envs/meddinov3/bin/python"
+}

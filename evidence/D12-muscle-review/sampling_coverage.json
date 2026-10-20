@@ -1,0 +1,58 @@
+{
+  "method": "Exact deterministic seed0 global indices, optimized ID-only replay; original sampler equivalence checks and all source counts asserted",
+  "equivalence_checks": 400,
+  "scope": "unique MV legal Z slices and CEM image IDs, not crop pixel coverage/acquisition independence",
+  "pool": {
+    "mv_volumes": 153,
+    "mv_legal_z": 34143,
+    "cem_images": 1425433,
+    "cem_groups": 627
+  },
+  "runs": {
+    "D1_30000": {
+      "draws": 1440000,
+      "mv_unique_slices": 29453,
+      "mv_unique_slice_fraction": 0.8626365580060334,
+      "mv_unique_volumes": 153,
+      "cem_unique_images": 0,
+      "cem_unique_image_fraction": 0.0,
+      "mv_sources_seen": 12,
+      "cem_groups_seen": 0,
+      "consumed_source_counts_match": true
+    },
+    "D1_100000": {
+      "draws": 4800000,
+      "mv_unique_slices": 33333,
+      "mv_unique_slice_fraction": 0.9762762498901678,
+      "mv_unique_volumes": 153,
+      "cem_unique_images": 0,
+      "cem_unique_image_fraction": 0.0,
+      "mv_sources_seen": 12,
+      "cem_groups_seen": 0,
+      "consumed_source_counts_match": true
+    },
+    "D2_30000": {
+      "draws": 1440000,
+      "mv_unique_slices": 25072,
+      "mv_unique_slice_fraction": 0.7343232873502621,
+      "mv_unique_volumes": 153,
+      "cem_unique_images": 485179,
+      "cem_unique_image_fraction": 0.3403730655877898,
+      "mv_sources_seen": 12,
+      "cem_groups_seen": 627,
+      "consumed_source_counts_match": true
+    },
+    "D2_100000": {
+      "draws": 4800000,
+      "mv_unique_slices": 31667,
+      "mv_unique_slice_fraction": 0.9274814749729081,
+      "mv_unique_volumes": 153,
+      "cem_unique_images": 955756,
+      "cem_unique_image_fraction": 0.6705022263410486,
+      "mv_sources_seen": 12,
+      "cem_groups_seen": 627,
+      "consumed_source_counts_match": true
+    }
+  },
+  "seconds": 78.17200000025332
+}

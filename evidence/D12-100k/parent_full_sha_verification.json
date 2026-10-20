@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "parents": {
+    "D1": {
+      "path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000030000/full.pth",
+      "sha256": "66f1c9f2353ced9b371789322d7e6f7ad2f80a5e334623a13e59e3aeb4c855a1",
+      "step": 30000
+    },
+    "D2": {
+      "path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/full.pth",
+      "sha256": "cce40d90b9e4f03eae9231f7516cd1a81d49e8b369db9380dbb3b30f7d82967f",
+      "step": 30000
+    }
+  }
+}

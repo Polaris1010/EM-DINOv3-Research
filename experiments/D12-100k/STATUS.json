@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "SSL_runs": 2,
+  "SSL_steps_each": 100000,
+  "head_steps_each": 40000,
+  "decoder_seeds": 1,
+  "development_metric_rows": 76,
+  "benchmark_image_rows": 5190,
+  "historical_inputs_unchanged": true,
+  "gpu0_used": false,
+  "website_http": 200,
+  "auto100k": false,
+  "autoD3": false,
+  "further_experiments_started": false,
+  "report": "D12_100k_final_report.md"
+}

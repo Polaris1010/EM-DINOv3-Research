@@ -1,0 +1,8 @@
+{
+  "path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/runs/D1/formal/checkpoints/step000050000/teacher_backbone.pth",
+  "step": 50000,
+  "sha256": "ebffc754edd62d7d35f918846315142e7630a570fd01c6ec0724eb6475e48077",
+  "kind": "teacher_backbone",
+  "manifest_sha256": "584726a98b8ef58b83f34ddae90401ec9ec076ebc392f0bacff98910afc4031e",
+  "config_sha256": "159f45566320f9b583968aa8e9ffb07392d521bfa227b1ca0b4a4bde11f152d7"
+}

@@ -1,0 +1,24 @@
+{
+  "step": 100000,
+  "rank": 0,
+  "loss": 13.125,
+  "grad_norm": 2.9052491188049316,
+  "lr": 1.0000000068296467e-06,
+  "teacher_momentum": 0.999,
+  "teacher_temp": 0.07,
+  "global_batch": 48,
+  "data_first_index": 4799952,
+  "data_first_volume": "hildebrand2017",
+  "data_first_domain": "CEM1.5M",
+  "sample_chain": "17cf6215a865f557691e345e24b1213e623daf5a6e9f6151c4c36ae8e4f26116",
+  "elapsed_seconds": 51860.7969212383,
+  "data_seconds": 0.010951079428195953,
+  "iteration_seconds": 0.6831796690821648,
+  "peak_gpu_bytes": 10231197696,
+  "loss_components": {
+    "dino_local_crops_loss": 9.4375,
+    "dino_global_crops_loss": 9.40625,
+    "koleo_loss": -0.3001583516597748,
+    "ibot_loss": 3.758803367614746
+  }
+}

@@ -46,3 +46,5 @@
 - [D1/D2研究建议、实际数据池和训练耗时](20261020_21_d12_research_decision_data_runtime.md)
 
 - [Glycolytic muscle既有预测复核与采样覆盖](20261020_22_d12_muscle_review.md)
+
+- [D2-Coverage全覆盖方案设计与CPU模拟](20261020_23_d2_coverage_design.md)

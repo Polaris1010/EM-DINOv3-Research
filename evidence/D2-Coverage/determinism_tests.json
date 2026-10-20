@@ -1,0 +1,40 @@
+{
+  "gpu_used": false,
+  "image_reads": false,
+  "world_size": 3,
+  "workers_per_rank": 2,
+  "strategies": {
+    "A": {
+      "records_checked_across_3ranks_2workers": 480,
+      "all_future_ids_reassembled": 3360000,
+      "worker_issue_order_invariant": true,
+      "restart_same_records": true,
+      "unconsumed_prefetch_has_no_effect": true,
+      "corrupt_state_rejected": true,
+      "checkpoint_state_bytes": 190,
+      "plan_sha256": "57ad433764478ef46e7252c1a9623559324793f8773f0438bd08d58d590f2320"
+    },
+    "B": {
+      "records_checked_across_3ranks_2workers": 480,
+      "all_future_ids_reassembled": 3360000,
+      "worker_issue_order_invariant": true,
+      "restart_same_records": true,
+      "unconsumed_prefetch_has_no_effect": true,
+      "corrupt_state_rejected": true,
+      "checkpoint_state_bytes": 190,
+      "plan_sha256": "9951574416fd5f3c6f2b67b80bce19744e943aa14bf966fb967cb00676b1d1ef"
+    },
+    "C": {
+      "records_checked_across_3ranks_2workers": 480,
+      "all_future_ids_reassembled": 3360000,
+      "worker_issue_order_invariant": true,
+      "restart_same_records": true,
+      "unconsumed_prefetch_has_no_effect": true,
+      "corrupt_state_rejected": true,
+      "checkpoint_state_bytes": 190,
+      "plan_sha256": "43d4da230fbda3c0bcd48f28bac0db18600314bfbe5ea9473361f85a7ed96316"
+    }
+  },
+  "seconds": 3.295696100220084,
+  "status": "PASS"
+}

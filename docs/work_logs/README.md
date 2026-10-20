@@ -42,3 +42,5 @@
 - [100k完成后的readout部署修复](20261020_19_d12_100k_readout_repair.md)
 
 - [100k完整结果与30k逐来源比较](20261020_20_d12_100k_completion_comparison.md)
+
+- [D1/D2研究建议、实际数据池和训练耗时](20261020_21_d12_research_decision_data_runtime.md)

@@ -50,3 +50,5 @@
 - [D2-Coverage全覆盖方案设计与CPU模拟](20261020_23_d2_coverage_design.md)
 
 - [D2-Coverage改为P0起点的简化设计](20261020_24_d2_coverage_p0_revision.md)
+
+- [OrgMIM / IsoOrg-1K分组采样核查](20261020_25_orgmim_sampling_lookup.md)

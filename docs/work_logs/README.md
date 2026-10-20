@@ -48,3 +48,5 @@
 - [Glycolytic muscle既有预测复核与采样覆盖](20261020_22_d12_muscle_review.md)
 
 - [D2-Coverage全覆盖方案设计与CPU模拟](20261020_23_d2_coverage_design.md)
+
+- [D2-Coverage改为P0起点的简化设计](20261020_24_d2_coverage_p0_revision.md)

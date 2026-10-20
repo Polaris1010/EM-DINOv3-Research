@@ -1,3 +1,5 @@
+> 2026-10-20 最新决定：D2-Coverage 改为从官方 P0 开始的完整100k方案，见 docs/D2_Coverage_P0_Design.md。取消30k恢复路线；旧设计和模拟保留为历史。全覆盖不能严格保持历史sqrt分布；需要因果比较时另建议同配额的P0有放回对照，未自动安排两组训练。当前仅设计更新，未启动训练，完成后STOP。
+
 > 2026-10-20 D2-Coverage设计/CPU模拟完成，训练未授权未启动。先读docs/D2_Coverage_Experiment_Design.md：A67.05%、B81.46%、C100%；推荐同30k分支的全覆盖＋最小TV配额补偿C，69236步覆盖完，后70k集合TV最低15.7352%。完整checkpoint已只读核验，原D1/D2不变。当前codex/d2-coverage-design，仅提交设计/模拟/测试，完成STOP，不自动训练。
 
 > 2026-10-20肌肉复核完成：见docs/D12_Glycolytic_muscle_review.md及最新work log。四组既有预测全302层计数复核、11张派生图完成；D2新增FP主要在背景细密纹理内部，未发现输入/评分错配证据。100k唯一ID覆盖D1 MV97.63%，D2 MV92.75%/CEM67.05%；保留来源/集合均100%。仅CPU分析，无训练/新推理/阈值或尺度搜索，完成STOP。

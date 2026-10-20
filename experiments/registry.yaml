@@ -6167,7 +6167,7 @@
       ],
       "planned_optimizer_steps": 100000,
       "server_root": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018",
-      "execution_state": "SSL100000_COMPLETED"
+      "execution_state": "COMPLETED_STOPPED"
     },
     {
       "experiment_id": "D12-100k-D1-HEAD",
@@ -6213,7 +6213,7 @@
       ],
       "planned_optimizer_steps": 40000,
       "server_root": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018",
-      "execution_state": "FROZEN_HEAD_TRAINING"
+      "execution_state": "COMPLETED_STOPPED"
     },
     {
       "experiment_id": "D12-100k-D2-SSL",
@@ -6259,7 +6259,7 @@
       ],
       "planned_optimizer_steps": 100000,
       "server_root": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018",
-      "execution_state": "SSL100000_COMPLETED"
+      "execution_state": "COMPLETED_STOPPED"
     },
     {
       "experiment_id": "D12-100k-D2-HEAD",
@@ -6305,7 +6305,7 @@
       ],
       "planned_optimizer_steps": 40000,
       "server_root": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018",
-      "execution_state": "FROZEN_HEAD_TRAINING"
+      "execution_state": "COMPLETED_STOPPED"
     }
   ]
 }

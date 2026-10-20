@@ -1,0 +1,514 @@
+{
+  "status": "PASS",
+  "existing_metric_rows_recomputed": 10532,
+  "same_GT_counts_across_models_and_budgets": true,
+  "equal_weight_development_and_MB1_means_recomputed": true,
+  "historical_input_snapshots_equal": true,
+  "improvements": {
+    "D1": {
+      "dev_sources_improved": 8,
+      "benchmarks_improved": 2
+    },
+    "D2": {
+      "dev_sources_improved": 9,
+      "benchmarks_improved": 4
+    }
+  },
+  "summary100k": {
+    "status": "complete",
+    "decoder_seed": 20261014,
+    "ssl_steps_each": 100000,
+    "decoder_steps_each": 40000,
+    "development_regions_each": 38,
+    "development_sources": 12,
+    "metrics": {
+      "D1": {
+        "dice": 0.8189304460931308,
+        "precision": 0.8476165772309053,
+        "recall": 0.822319620067254,
+        "hd95_nm": 533.8018541191564,
+        "nsd_16nm": 0.7242031214363647,
+        "predicted_foreground_fraction": 0.07931263397158297
+      },
+      "D2": {
+        "dice": 0.841378715857156,
+        "precision": 0.8506871484562202,
+        "recall": 0.8539864328690163,
+        "hd95_nm": 534.2265954769019,
+        "nsd_16nm": 0.7488171066298629,
+        "predicted_foreground_fraction": 0.08292053183624168
+      }
+    },
+    "D2_minus_D1_dev_dice": 0.02244826976402514,
+    "historical_MV3_first_seed_dice": {
+      "G-P0": 0.8130427360533896,
+      "G-B100": 0.8273065136014968
+    },
+    "historical_B100_not_pure_sampling_control": true,
+    "benchmark_diagnostic_macro_dice": {
+      "D1": 0.47885096286324585,
+      "D2": 0.47575377336054614
+    },
+    "source_deltas": [
+      {
+        "source_id": "casser20",
+        "D2_minus_D1_dice": -0.000731476184447577
+      },
+      {
+        "source_id": "guay21",
+        "D2_minus_D1_dice": 0.02828025085796071
+      },
+      {
+        "source_id": "haberl18",
+        "D2_minus_D1_dice": 0.05326678016585734
+      },
+      {
+        "source_id": "han24",
+        "D2_minus_D1_dice": -0.013239573844347818
+      },
+      {
+        "source_id": "jiang25",
+        "D2_minus_D1_dice": 0.0032075783031288996
+      },
+      {
+        "source_id": "kunduri22",
+        "D2_minus_D1_dice": -0.004686509175915399
+      },
+      {
+        "source_id": "mekuc20",
+        "D2_minus_D1_dice": -0.0006976878989458646
+      },
+      {
+        "source_id": "muller21",
+        "D2_minus_D1_dice": 0.005895562261467591
+      },
+      {
+        "source_id": "openorganelle",
+        "D2_minus_D1_dice": 0.18129296261933914
+      },
+      {
+        "source_id": "turner22",
+        "D2_minus_D1_dice": 0.013681842982903425
+      },
+      {
+        "source_id": "wei20",
+        "D2_minus_D1_dice": 0.0012320667903401583
+      },
+      {
+        "source_id": "xiao18",
+        "D2_minus_D1_dice": 0.0018774402909602639
+      }
+    ],
+    "further_experiments_started": false,
+    "auto100k": false,
+    "autoD3": false,
+    "MB1_D2_minus_D1": -0.0030971895026997154,
+    "vs30k": [
+      {
+        "model": "D1",
+        "dev30k": 0.8175421054828607,
+        "dev100k": 0.8189304460931308,
+        "dev_delta": 0.0013883406102701557,
+        "MB1_30k": 0.4886535301524513,
+        "MB1_100k": 0.47885096286324585,
+        "MB1_delta": -0.009802567289205422
+      },
+      {
+        "model": "D2",
+        "dev30k": 0.8294065480835165,
+        "dev100k": 0.841378715857156,
+        "dev_delta": 0.011972167773639408,
+        "MB1_30k": 0.4616141993468218,
+        "MB1_100k": 0.47575377336054614,
+        "MB1_delta": 0.014139574013724343
+      }
+    ],
+    "other11_dev_delta_mean": 0.008007843140814779,
+    "continuation_not_uninterrupted100k": true
+  },
+  "live_server_snapshot": {
+    "at_utc": "2026-10-20T04:56:03.412753+00:00",
+    "pipeline": {
+      "status": "complete",
+      "SSL_runs": 2,
+      "SSL_steps_each": 100000,
+      "head_steps_each": 40000,
+      "decoder_seeds": 1,
+      "development_metric_rows": 76,
+      "benchmark_image_rows": 5190,
+      "historical_inputs_unchanged": true,
+      "gpu0_used": false,
+      "website_http": 200,
+      "auto100k": false,
+      "autoD3": false,
+      "further_experiments_started": false,
+      "report": "D12_100k_final_report.md"
+    },
+    "models": {
+      "D1": {
+        "training_complete.json": {
+          "status": "complete",
+          "completed_steps": 40000,
+          "stage": "MV-3",
+          "seconds": 3037.920241355896,
+          "encoder_unchanged": true,
+          "encoder_sha256": "7df9337dac1ef4775ff21727ddea48c6f265449ae22b24f4941c677fb00593db",
+          "decoder_initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec",
+          "sampling_hash": "45b8763f399df51c4455e4a791e6c32b2e9d6dfd9e5ba9ec988bbebb8b883d64"
+        },
+        "inference_complete.json": {
+          "status": "complete",
+          "regions": 38,
+          "seconds": 1632.7096345424652
+        },
+        "progress.json": {
+          "stage": "full_development_inference",
+          "seconds": 1509.1196360588074
+        },
+        "head_step040000.json": {
+          "step": 40000,
+          "sha256": "1dc4d69add79402612ba3499fa5811848bb3737483c0d648693c9eb6355f9aa2",
+          "sampling_hash": "45b8763f399df51c4455e4a791e6c32b2e9d6dfd9e5ba9ec988bbebb8b883d64"
+        },
+        "dev_metric_regions": 38,
+        "dev_source_dice": {
+          "kunduri22": 0.9560903280557896,
+          "jiang25": 0.8799540756581054,
+          "haberl18": 0.4876244141344989,
+          "wei20": 0.9273904723784804,
+          "muller21": 0.8906862706382013,
+          "turner22": 0.8144749348005551,
+          "casser20": 0.9375235497093004,
+          "xiao18": 0.9295034698723438,
+          "openorganelle": 0.6393568743493836,
+          "mekuc20": 0.9322511433035531,
+          "han24": 0.6978751195326519,
+          "guay21": 0.7344347006847066
+        },
+        "dev_macro_dice": 0.8189304460931308,
+        "MB1_status": "complete",
+        "MB1_datasets": [
+          {
+            "model": "D1",
+            "seed": 20261014,
+            "dataset_id": 1,
+            "dataset": "c_elegans",
+            "planes": 256,
+            "tp": 70709,
+            "fp": 124938,
+            "fn": 945467,
+            "tn": 15636102,
+            "volumetric_semantic_iou": 0.06196488694381105,
+            "dice": 0.09902201105201534,
+            "iou": 0.05521668025502409,
+            "precision": 0.3341316940714502,
+            "recall": 0.0611430555339827,
+            "hd95_nm": 2099.604748725891,
+            "nsd_16nm": 0.02356779379533691,
+            "predicted_foreground_fraction": 0.01166146993637085
+          },
+          {
+            "model": "D1",
+            "seed": 20261014,
+            "dataset_id": 2,
+            "dataset": "fly_brain",
+            "planes": 256,
+            "tp": 915137,
+            "fp": 36541,
+            "fn": 789574,
+            "tn": 14905148,
+            "volumetric_semantic_iou": 0.5255626411340806,
+            "dice": 0.6701166623053061,
+            "iou": 0.5157346242602692,
+            "precision": 0.9549585056448837,
+            "recall": 0.5276223861249194,
+            "hd95_nm": 449.9785157442093,
+            "nsd_16nm": 0.4283957730513066,
+            "predicted_foreground_fraction": 0.057170198961937736
+          },
+          {
+            "model": "D1",
+            "seed": 20261014,
+            "dataset_id": 3,
+            "dataset": "glycolytic_muscle",
+            "planes": 302,
+            "tp": 1450657,
+            "fp": 102938,
+            "fn": 1340767,
+            "tn": 85590128,
+            "volumetric_semantic_iou": 0.5012009555128212,
+            "dice": 0.6554752969154993,
+            "iou": 0.493648841336875,
+            "precision": 0.9332483947680611,
+            "recall": 0.5122410740339404,
+            "hd95_nm": 1483.5140255555411,
+            "nsd_16nm": 0.18772873287366715,
+            "predicted_foreground_fraction": 0.0175578228455631
+          },
+          {
+            "model": "D1",
+            "seed": 20261014,
+            "dataset_id": 4,
+            "dataset": "hela_cell",
+            "planes": 256,
+            "tp": 451270,
+            "fp": 140007,
+            "fn": 641079,
+            "tn": 15544860,
+            "volumetric_semantic_iou": 0.3661847712836226,
+            "dice": 0.4743519595326865,
+            "iou": 0.32636340364827393,
+            "precision": 0.7096882334693815,
+            "recall": 0.37267885830764386,
+            "hd95_nm": 1076.808840572834,
+            "nsd_16nm": 0.2866239456998301,
+            "predicted_foreground_fraction": 0.03524285554885864
+          },
+          {
+            "model": "D1",
+            "seed": 20261014,
+            "dataset_id": 5,
+            "dataset": "lucchi_pp",
+            "planes": 165,
+            "tp": 6938787,
+            "fp": 561021,
+            "fn": 1686537,
+            "tn": 120574935,
+            "volumetric_semantic_iou": 0.7553370791103534,
+            "dice": 0.8556893500403371,
+            "iou": 0.7491489630388085,
+            "precision": 0.9163224755936066,
+            "recall": 0.8048591299227489,
+            "hd95_nm": 606.2464428294788,
+            "nsd_16nm": 0.618823166327043,
+            "predicted_foreground_fraction": 0.057796963778409066
+          },
+          {
+            "model": "D1",
+            "seed": 20261014,
+            "dataset_id": 6,
+            "dataset": "salivary_gland",
+            "planes": 1260,
+            "tp": 140380,
+            "fp": 29990511,
+            "fn": 18584416,
+            "tn": 1585756693,
+            "volumetric_semantic_iou": 0.0028816404667222975,
+            "dice": 0.015247130283499543,
+            "iou": 0.01320050512375815,
+            "precision": 0.007690845436146534,
+            "recall": 0.005963030594022345,
+            "hd95_nm": Infinity,
+            "nsd_16nm": 0.013303302762621556,
+            "predicted_foreground_fraction": 0.01843463271319421
+          },
+          {
+            "model": "D1",
+            "seed": 20261014,
+            "dataset_id": 7,
+            "dataset": "TEM-100",
+            "planes": 100,
+            "tp": 6294872,
+            "fp": 1190833,
+            "fn": 5413833,
+            "tn": 84092155,
+            "volumetric_semantic_iou": null,
+            "dice": 0.5820543299133769,
+            "iou": 0.4576324122202542,
+            "precision": 0.7731887858776142,
+            "recall": 0.5360168914364616,
+            "hd95_nm": null,
+            "nsd_16nm": null,
+            "predicted_foreground_fraction": 0.07880130118087211
+          }
+        ],
+        "MB1_macro_dice": 0.47885096286324585
+      },
+      "D2": {
+        "training_complete.json": {
+          "status": "complete",
+          "completed_steps": 40000,
+          "stage": "MV-3",
+          "seconds": 3038.4689021110535,
+          "encoder_unchanged": true,
+          "encoder_sha256": "92a81805f1cc126e1851d5c26baa0b5ba34597d8f93e29ac05203044fe6c7010",
+          "decoder_initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec",
+          "sampling_hash": "45b8763f399df51c4455e4a791e6c32b2e9d6dfd9e5ba9ec988bbebb8b883d64"
+        },
+        "inference_complete.json": {
+          "status": "complete",
+          "regions": 38,
+          "seconds": 1632.6853229999542
+        },
+        "progress.json": {
+          "stage": "full_development_inference",
+          "seconds": 1509.083990097046
+        },
+        "head_step040000.json": {
+          "step": 40000,
+          "sha256": "f6adeab09a1f4b17dde981d3f3197a8ba1e225aef4772143b49fac3bca7b62c2",
+          "sampling_hash": "45b8763f399df51c4455e4a791e6c32b2e9d6dfd9e5ba9ec988bbebb8b883d64"
+        },
+        "dev_metric_regions": 38,
+        "dev_source_dice": {
+          "kunduri22": 0.9514038188798742,
+          "jiang25": 0.8831616539612342,
+          "haberl18": 0.5408911943003563,
+          "wei20": 0.9286225391688205,
+          "muller21": 0.8965818328996689,
+          "turner22": 0.8281567777834585,
+          "casser20": 0.9367920735248528,
+          "xiao18": 0.931380910163304,
+          "openorganelle": 0.8206498369687227,
+          "mekuc20": 0.9315534554046072,
+          "han24": 0.6846355456883041,
+          "guay21": 0.7627149515426673
+        },
+        "dev_macro_dice": 0.841378715857156,
+        "MB1_status": "complete",
+        "MB1_datasets": [
+          {
+            "model": "D2",
+            "seed": 20261014,
+            "dataset_id": 1,
+            "dataset": "c_elegans",
+            "planes": 256,
+            "tp": 133797,
+            "fp": 158021,
+            "fn": 882379,
+            "tn": 15603019,
+            "volumetric_semantic_iou": 0.11394765954946232,
+            "dice": 0.1797209940344094,
+            "iou": 0.10574362844669348,
+            "precision": 0.4700497645776647,
+            "recall": 0.12032917162118867,
+            "hd95_nm": 1618.3228276968002,
+            "nsd_16nm": 0.05344001420962741,
+            "predicted_foreground_fraction": 0.01739370822906494
+          },
+          {
+            "model": "D2",
+            "seed": 20261014,
+            "dataset_id": 2,
+            "dataset": "fly_brain",
+            "planes": 256,
+            "tp": 818078,
+            "fp": 45382,
+            "fn": 886633,
+            "tn": 14896307,
+            "volumetric_semantic_iou": 0.4674483013188442,
+            "dice": 0.6054282880714856,
+            "iou": 0.4523042761751039,
+            "precision": 0.9463606084689145,
+            "recall": 0.4651611565185355,
+            "hd95_nm": 462.49399867653847,
+            "nsd_16nm": 0.4211542464327067,
+            "predicted_foreground_fraction": 0.051870674740484415
+          },
+          {
+            "model": "D2",
+            "seed": 20261014,
+            "dataset_id": 3,
+            "dataset": "glycolytic_muscle",
+            "planes": 302,
+            "tp": 1100480,
+            "fp": 6511063,
+            "fn": 1690944,
+            "tn": 79182003,
+            "volumetric_semantic_iou": 0.11829954720710709,
+            "dice": 0.21567743411575138,
+            "iou": 0.12472686962691955,
+            "precision": 0.15326885386489153,
+            "recall": 0.3808325399845518,
+            "hd95_nm": 1909.4527919339819,
+            "nsd_16nm": 0.025191191772757627,
+            "predicted_foreground_fraction": 0.08602121117497541
+          },
+          {
+            "model": "D2",
+            "seed": 20261014,
+            "dataset_id": 4,
+            "dataset": "hela_cell",
+            "planes": 256,
+            "tp": 604396,
+            "fp": 112909,
+            "fn": 487953,
+            "tn": 15571958,
+            "volumetric_semantic_iou": 0.5014660761430333,
+            "dice": 0.6207129827800446,
+            "iou": 0.46489072745508686,
+            "precision": 0.8116275060268792,
+            "recall": 0.5182955367740428,
+            "hd95_nm": 958.1949445605278,
+            "nsd_16nm": 0.41968395898584276,
+            "predicted_foreground_fraction": 0.04275470972061157
+          },
+          {
+            "model": "D2",
+            "seed": 20261014,
+            "dataset_id": 5,
+            "dataset": "lucchi_pp",
+            "planes": 165,
+            "tp": 7380268,
+            "fp": 622116,
+            "fn": 1245056,
+            "tn": 120513840,
+            "volumetric_semantic_iou": 0.7980876869706643,
+            "dice": 0.8820510861091518,
+            "iou": 0.7908302432486063,
+            "precision": 0.9136465987166836,
+            "recall": 0.8563483398992892,
+            "hd95_nm": 742.6226595676306,
+            "nsd_16nm": 0.7495108803113302,
+            "predicted_foreground_fraction": 0.06167004517834596
+          },
+          {
+            "model": "D2",
+            "seed": 20261014,
+            "dataset_id": 6,
+            "dataset": "salivary_gland",
+            "planes": 1260,
+            "tp": 1732210,
+            "fp": 5631689,
+            "fn": 16992586,
+            "tn": 1610115515,
+            "volumetric_semantic_iou": 0.07111904693965489,
+            "dice": 0.10844523896784684,
+            "iou": 0.06349391068376117,
+            "precision": 0.2542245504844489,
+            "recall": 0.0808740766914468,
+            "hd95_nm": Infinity,
+            "nsd_16nm": 0.03969547911542505,
+            "predicted_foreground_fraction": 0.004505368706224402
+          },
+          {
+            "model": "D2",
+            "seed": 20261014,
+            "dataset_id": 7,
+            "dataset": "TEM-100",
+            "planes": 100,
+            "tp": 9297159,
+            "fp": 2559075,
+            "fn": 2411546,
+            "tn": 82723913,
+            "volumetric_semantic_iou": null,
+            "dice": 0.7182403894451335,
+            "iou": 0.5983907189811752,
+            "precision": 0.74013992366929,
+            "recall": 0.7609485654231765,
+            "hd95_nm": null,
+            "nsd_16nm": null,
+            "predicted_foreground_fraction": 0.12804836192193192
+          }
+        ],
+        "MB1_macro_dice": 0.47575377336054614
+      }
+    },
+    "D12_100k_summary.json": "{\n  \"status\": \"complete\",\n  \"decoder_seed\": 20261014,\n  \"ssl_steps_each\": 100000,\n  \"decoder_steps_each\": 40000,\n  \"development_regions_each\": 38,\n  \"development_sources\": 12,\n  \"metrics\": {\n    \"D1\": {\n      \"dice\": 0.8189304460931308,\n      \"precision\": 0.8476165772309053,\n      \"recall\": 0.822319620067254,\n      \"hd95_nm\": 533.8018541191564,\n      \"nsd_16nm\": 0.7242031214363647,\n      \"predicted_foreground_fraction\": 0.07931263397158297\n    },\n    \"D2\": {\n      \"dice\": 0.841378715857156,\n      \"precision\": 0.8506871484562202,\n      \"recall\": 0.8539864328690163,\n      \"hd95_nm\": 534.2265954769019,\n      \"nsd_16nm\": 0.7488171066298629,\n      \"predicted_foreground_fraction\": 0.08292053183624168\n    }\n  },\n  \"D2_minus_D1_dev_dice\": 0.02244826976402514,\n  \"historical_MV3_first_seed_dice\": {\n    \"G-P0\": 0.8130427360533896,\n    \"G-B100\": 0.8273065136014968\n  },\n  \"historical_B100_not_pure_sampling_control\": true,\n  \"benchmark_diagnostic_macro_dice\": {\n    \"D1\": 0.47885096286324585,\n    \"D2\": 0.47575377336054614\n  },\n  \"source_deltas\": [\n    {\n      \"source_id\": \"casser20\",\n      \"D2_minus_D1_dice\": -0.000731476184447577\n    },\n    {\n      \"source_id\": \"guay21\",\n      \"D2_minus_D1_dice\": 0.02828025085796071\n    },\n    {\n      \"source_id\": \"haberl18\",\n      \"D2_minus_D1_dice\": 0.05326678016585734\n    },\n    {\n      \"source_id\": \"han24\",\n      \"D2_minus_D1_dice\": -0.013239573844347818\n    },\n    {\n      \"source_id\": \"jiang25\",\n      \"D2_minus_D1_dice\": 0.0032075783031288996\n    },\n    {\n      \"source_id\": \"kunduri22\",\n      \"D2_minus_D1_dice\": -0.004686509175915399\n    },\n    {\n      \"source_id\": \"mekuc20\",\n      \"D2_minus_D1_dice\": -0.0006976878989458646\n    },\n    {\n      \"source_id\": \"muller21\",\n      \"D2_minus_D1_dice\": 0.005895562261467591\n    },\n    {\n      \"source_id\": \"openorganelle\",\n      \"D2_minus_D1_dice\": 0.18129296261933914\n    },\n    {\n      \"source_id\": \"turner22\",\n      \"D2_minus_D1_dice\": 0.013681842982903425\n    },\n    {\n      \"source_id\": \"wei20\",\n      \"D2_minus_D1_dice\": 0.0012320667903401583\n    },\n    {\n      \"source_id\": \"xiao18\",\n      \"D2_minus_D1_dice\": 0.0018774402909602639\n    }\n  ],\n  \"further_experiments_started\": false,\n  \"auto100k\": false,\n  \"autoD3\": false,\n  \"MB1_D2_minus_D1\": -0.0030971895026997154,\n  \"vs30k\": [\n    {\n      \"model\": \"D1\",\n      \"dev30k\": 0.8175421054828607,\n      \"dev100k\": 0.8189304460931308,\n      \"dev_delta\": 0.0013883406102701557,\n      \"MB1_30k\": 0.4886535301524513,\n      \"MB1_100k\": 0.47885096286324585,\n      \"MB1_delta\": -0.009802567289205422\n    },\n    {\n      \"model\": \"D2\",\n      \"dev30k\": 0.8294065480835165,\n      \"dev100k\": 0.841378715857156,\n      \"dev_delta\": 0.011972167773639408,\n      \"MB1_30k\": 0.4616141993468218,\n      \"MB1_100k\": 0.47575377336054614,\n      \"MB1_delta\": 0.014139574013724343\n    }\n  ],\n  \"other11_dev_delta_mean\": 0.008007843140814779,\n  \"continuation_not_uninterrupted100k\": true\n}\n",
+    "D12_100k_final_report.md": "# D1/D2\uff1a\u591a\u6765\u6e90 SSL \u6570\u636e\u6269\u5c55100k\u7eed\u8bad\n\n\u4e24\u7ec4\u5747\u4ece\u5b98\u65b9\u81ea\u7136DINOv3 ViT-L/16\u5f00\u59cb\uff0cDINO+iBOT+0.1KoLeo\u3001\u76f8\u540cseed0/global batch48\u3001\u76f8\u540c\u4f18\u5316\u5668\u548c\u5df2\u5b8c\u621030k cosine\u540e\u5171\u540c\u5ef6\u957f\u81f3100k\uff0c\u672c\u8f6e\u4fdd\u5b5850k/100k\u3002\u6ca1\u6709\u65b0loss\u3001Gram\u3001HRA\u3001TopoCL\u6216\u65b0decoder\uff1b\u6ca1\u6709B100\u7eed\u8bad\u3002\u56fa\u5b9a\u9009\u62e9100k EMA encoder\uff0c\u91cd\u65b0\u8bad\u7ec3\u540cseed20261014\u539f\u7248Primus40k\uff0c\u5168\u7a0b\u51bb\u7ed3encoder\u3001\u540c156train/38dev\u3001TTA OFF\u3002\n\n## \u56fa\u5b9a\u5f00\u53d1\u7ed3\u679c\n\n| \u7cfb\u7edf | \u6765\u6e90\u7b49\u6743Dice | Precision | Recall | HD95 nm | NSD@16nm | \u524d\u666f\u6bd4\u4f8b |\n|---|---:|---:|---:|---:|---:|---:|\n| D1 | 0.818930 | 0.847617 | 0.822320 | 533.801854 | 0.724203 | 0.079313 |\n| D2 | 0.841379 | 0.850687 | 0.853986 | 534.226595 | 0.748817 | 0.082921 |\n\n| \u6765\u6e90 | D1 Dice | D2 Dice | D2\u2212D1 |\n|---|---:|---:|---:|\n| casser20 | 0.937524 | 0.936792 | -0.000731 |\n| guay21 | 0.734435 | 0.762715 | 0.028280 |\n| haberl18 | 0.487624 | 0.540891 | 0.053267 |\n| han24 | 0.697875 | 0.684636 | -0.013240 |\n| jiang25 | 0.879954 | 0.883162 | 0.003208 |\n| kunduri22 | 0.956090 | 0.951404 | -0.004687 |\n| mekuc20 | 0.932251 | 0.931553 | -0.000698 |\n| muller21 | 0.890686 | 0.896582 | 0.005896 |\n| openorganelle | 0.639357 | 0.820650 | 0.181293 |\n| turner22 | 0.814475 | 0.828157 | 0.013682 |\n| wei20 | 0.927390 | 0.928623 | 0.001232 |\n| xiao18 | 0.929503 | 0.931381 | 0.001877 |\n\n## \u672c\u8f6e\u95ee\u9898\u4e0e\u51b3\u7b56\n\n1. **\u6765\u6e90\u5747\u8861\u91c7\u6837\u672c\u8eab\u662f\u5426\u6709\u6548\uff1a\u672c\u8f6e\u65e0\u6cd5\u5355\u72ec\u56e0\u679c\u8bc6\u522b\u3002** D1\u91c7\u7528\u65b0SSL\u7559\u51fa\u6c60\u548c30k\u2192100k\u7eed\u8bad\u65e5\u7a0b\uff0c\u5386\u53f2B100\u4e3a\u5168\u6c60100k\u4e14\u66fe\u65e0\u6807\u7b7e\u63a5\u89e6\u8bc4\u6d4b\u56fe\u50cf\uff1bD1\u4e0eB100\u5dee\u5f02\u4e0d\u80fd\u53ea\u5f52\u4e8esampling\u3002\u65e7\u7ed3\u679c\u539f\u6837\u4fdd\u7559\uff0c\u9996seed\u5386\u53f2\u53c2\u8003Dice\uff1a{'G-P0': 0.8130427360533896, 'G-B100': 0.8273065136014968}\u3002\u6ca1\u6709\u64c5\u81ea\u589e\u52a0\u7b2c\u4e09\u7ec4\u8bad\u7ec3\u3002\n2. **\u589e\u52a0CEM\u662f\u5426\u8fdb\u4e00\u6b65\u6539\u5584\uff1a** \u540c\u534f\u8baeD2\u2212D1\u6765\u6e90\u7b49\u6743Dice = +0.022448\u3002\u8fd9\u662f\u672c\u8f6e\u5339\u914d\u5bf9\u7167\uff0c\u5305\u542b\u5df2\u62ab\u9732\u7684CEM\u539f\u751f\u5c3a\u5bf8\u683c\u5f0f\u9002\u914d\uff1b\u4ec5\u4e00\u4e2adecoder seed\uff0c\u4e0d\u5ba3\u79f0\u7edf\u8ba1\u663e\u8457\u6027\u3002\n3. **\u662f\u5426\u4fdd\u7559\u539f\u6709\u6b63\u5411\u6765\u6e90\uff1a** \u9010\u6765\u6e90\u5f00\u53d1\u53d8\u5316\u89c1\u4e0a\u8868\uff0cFly/HeLa/Lucchi\u7b49\u53e6\u89c1\u56fa\u5b9aMB1\u8bca\u65ad\u8868\uff1b\u4e0d\u662f\u53ea\u62a5\u544a\u603b\u5747\u503c\u3002MB1\u5df2\u53c2\u4e0e\u7814\u7a76\u51b3\u7b56\uff0c\u4e0d\u80fd\u79f0\u76f2\u6d4b\uff0c\u4e5f\u4e0d\u7528\u4e8e\u9009\u62e9\u914d\u6bd4\u3001loss\u6216checkpoint\u3002\n4. **\u662f\u5426\u8fdb\u5165\u5c40\u90e8\u7ed3\u6784\u4e00\u81f4\u6027\uff1a** \u5fc5\u987b\u540c\u65f6\u7ed3\u5408\u5185\u90e8\u5f00\u53d1\u548cMB1\u9010\u6765\u6e90\u7ed3\u679c\uff1b\u5185\u90e8\u5747\u503c\u63d0\u5347\u4e0d\u80fd\u66ff\u4ee3\u8de8\u6570\u636e\u96c6\u6539\u5584\u8bc1\u636e\u3002\u4e00\u4e2adecoder seed\u4e0d\u8bc1\u660e\u6536\u76ca\u7a33\u5b9a\u3002 \u672c\u8f6e\u5747\u5230\u6b64\u505c\u6b62\uff0c100k\u5b8c\u6210\u540e\u505c\u6b62\uff0c\u4e0d\u81ea\u52a8D3\u3001\u66f4\u957fSSL\u6216\u66f4\u591aseed\u3002\n\n## \u5df2\u66b4\u9732MB1\u8bca\u65ad\uff1a\u4e8c\u7ef4\u9010\u56fe/\u9010\u5c42Dice\n\n| Benchmark | \u5386\u53f2P0\u9996seed | \u5386\u53f2B100\u9996seed | D1 | D2 | D2\u2212D1 |\n|---|---:|---:|---:|---:|---:|\n| c_elegans | 0.212852 | 0.162278 | 0.099022 | 0.179721 | 0.080699 |\n| fly_brain | 0.619946 | 0.855829 | 0.670117 | 0.605428 | -0.064688 |\n| glycolytic_muscle | 0.738526 | 0.616988 | 0.655475 | 0.215677 | -0.439798 |\n| hela_cell | 0.362486 | 0.539311 | 0.474352 | 0.620713 | 0.146361 |\n| lucchi_pp | 0.684571 | 0.842393 | 0.855689 | 0.882051 | 0.026362 |\n| salivary_gland | 0.014378 | 0.004771 | 0.015247 | 0.108445 | 0.093198 |\n| TEM-100 | 0.612172 | 0.610747 | 0.582054 | 0.718240 | 0.136186 |\n\nMB1\u4e03\u7ec4\u7b49\u6743Dice\uff1a{'D1': 0.47885096286324585, 'D2': 0.47575377336054614}\u3002\u516dvolume\u5168\u4f53\u7d20IoU\u5355\u5217CSV\uff0cTEM\u65e0\u53ef\u9760\u6807\u5b9a\u4e0d\u586bnm\uff1b\u9010\u5c42\u4e8c\u7ef4\u63a8\u7406\u4e0d\u662f\u4f5c\u8005\u5b8c\u65743D\u5b9e\u4f8b\u6d41\u7a0b\u3002\u672c\u8f6e\u4e0d\u8ba1\u7b97DINO\u5b9e\u4f8bAP/PQ\u3002\n\n## \u6570\u636e\u4e0e\u8bc1\u636e\u8fb9\u754c\n\n[MitoNet\u539f\u6587](https://pmc.ncbi.nlm.nih.gov/articles/PMC9883049/)\u660e\u786e\u5c06benchmark\u53ca\u5173\u8054\u56fe\u50cf\u4eceCEM1.5M/CEM-MitoLab\u6392\u9664\u3002\u56e0\u6b64D1/D2\u5171\u540c\u79fb\u9664MitoVerse\u6b63\u5f0ftest\u3001\u5df2\u6620\u5c04validation/dev\u53ca\u5df2\u77e5MB1\u5173\u8054\u8d44\u4ea7\uff1bD2\u4ece\u4f5c\u8005\u539f\u59cbCEM\u518d\u79fb\u9664\u53ef\u8bc6\u522b\u7684MV3\u7559\u51fa\u5173\u8054\u96c6\u5408\u3002CEM\u672a\u8bfb\u53d6CEM-MitoLab\u6807\u7b7e\u3002\n\n\u5b9e\u9645\u6c60\uff1a153\u4e2aMitoVerse\u4f53\u79ef\u300112\u6765\u6e90\u300134143\u5408\u6cd5Z\uff1bCEM\u539f\u53051592753\u56fe/651\u76ee\u5f55\u8bb0\u5f55\uff08640\u975e\u7a7a\uff09\uff0c\u6392\u966413\u4e2a\u53ef\u8bc6\u522b\u5173\u8054\u96c6\u5408\u540e1425433\u56fe/627\u975e\u7a7a\u96c6\u5408\u3002\u7d22\u5f15SQLite\u53caZIP\u504f\u79fb/\u9010\u6210\u5458CRC\u63d0\u4f9b\u65e0\u635f\u968f\u673a\u8bbf\u95ee\uff1b\u6570\u636e\u4e0e\u6392\u9664\u7406\u7531\u89c1mitoverse_pool.json\u3001cem_pool.json\u3002\u96c6\u5408/volume\u4ee3\u7406\u4e0d\u865a\u6784\u72ec\u7acbacquisition\u3002\n\n\u672a\u77e5\u54c8\u5e0cCEM\u96c6\u5408\u4e0eMV3\u5f00\u53d1\u56fe\u50cf\u7684\u7cbe\u786e\u4ea4\u53c9\u5173\u7cfb\u4ecdUNVERIFIED\u3002\u56fa\u5b9aMV3\u76d1\u7763\u534f\u8bae\u4e5f\u4e0d\u56e0\u672c\u8f6e\u6539\u53d8\uff0c\u540c\u6765\u6e90/\u5173\u8054\u91c7\u96c6\u66b4\u9732\u9650\u5236\u7ee7\u7eed\u5b58\u5728\uff1b\u4ec5\u91c7\u7528SSL\u7559\u51fa\u539f\u5219\u5e76\u4e0d\u80fd\u628a\u5b8c\u6574\u7cfb\u7edf\u7ed3\u679c\u5347\u7ea7\u6210\u4e25\u683c\u72ec\u7acbacquisition\u5916\u6d4b\u3002\u81ea\u7136\u6743\u91cd\u7684\u4e0a\u6e38\u66b4\u9732\u4ea6\u672a\u7a77\u4e3e\u3002\n\nMitoVerse\u4fdd\u7559\u65e2\u6709512\u88c1\u526a\u4e0e\u5c0f\u56fereflect padding\uff1bCEM\u4fdd\u7559\u539f\u751fPIL RGB\uff08\u901a\u5e38224\uff09\uff0c\u4e0d\u9884\u5148\u653e\u5927\u6216\u8865\u6210512\uff0c\u91c7\u7528\u540c\u4e00\u5b98\u65b9RandomResizedCrop\u8f93\u51fa256/112\uff0c\u5b58\u5728\u4e0d\u540cnative FOV/\u63d2\u503c\u56e0\u7d20\uff0c\u4e0d\u628a\u5b83\u4eec\u89e3\u91ca\u6210\u7eaf\u6570\u636e\u6570\u91cf\u6548\u5e94\u3002\n\n50k\u4ec5\u5bfc\u51fa\u7559\u6863\uff1b\u6240\u6709\u4e0b\u6e38\u4f7f\u7528\u56fa\u5b9a100k\uff0c\u5e76\u4e14\u4e24\u7ec4\u5171\u540c40k head\u9884\u7b97\u3002D12_100k_checkpoint_hashes.csv\u63d0\u4f9b50k/100k EMA\u53cahead\u8def\u5f84/SHA\uff0c\u8bad\u7ec3\u66f2\u7ebf\u3001\u541e\u5410/\u663e\u5b58\u548c\u6765\u6e90\u62bd\u6837\u8ba1\u6570\u4fdd\u7559\u5404rank JSONL\u3002\u539fB100/MV1\u81f3MV5/MB1\u672a\u6539\u5199\u3002\n\n\u8f93\u51fa\uff1aD12_100k_per_region_metrics.csv\u3001D12_100k_source_metrics.csv\u3001D12_100k_paired_deltas.csv\u3001D12_100k_benchmark_per_image.csv\u3001D12_100k_benchmark_per_dataset.csv\u3001D12_100k_summary.json\u53ca\u672c\u62a5\u544a\u3002\u670d\u52a1\u7ec8\u6b62\u8bc1\u636e\u548c\u5386\u53f2\u8f93\u5165\u524d\u540e\u5feb\u7167\u7531\u6709\u754c\u63a7\u5236\u5668\u4fdd\u5b58\uff1b\u4ee3\u7801/\u6307\u6807/Markdown\u7531\u672c\u8f6e\u6536\u53d6\u5668\u63d0\u4ea4\u63a8\u9001\u3002\n\n## \u4e0e\u5df2\u5b8c\u621030k\u7684\u56fa\u5b9a\u6bd4\u8f83\n\n30k\u539f\u7ed3\u679c\u539f\u6837\u4fdd\u7559\u3002\u672c\u8f6e\u572830000\u6062\u590d\u5b8c\u6574student/EMA\u3001AdamW\u3001loss centers\u3001\u9010rank RNG\u53ca\u6570\u636e\u7d22\u5f15\uff1b30000\u4ee5\u540e\u4f7f\u7528100k\u603b\u65e5\u7a0b\u7684\u4f59\u5f26LR\uff0c30000\u5904LR\u7ea62.195e-5\uff08\u65e7\u65e5\u7a0b\u672b\u7aef\u7ea61e-6\uff09\uff0c\u4e24\u7ec4\u5b8c\u5168\u76f8\u540c\u3002\u8fd9\u662f\u9884\u7b97\u5ef6\u957f\u540e\u7684\u5206\u6bb5\u65e5\u7a0b\uff0c\u4e0d\u662f\u4ece\u7b2c0\u6b65\u6309100k\u65e5\u7a0b\u8bad\u7ec3\u300250k\u4e0d\u9009\u6a21\uff0c\u56fa\u5b9a100k\u65b0head40k\u3002\n\n| \u6a21\u578b | dev30k | dev100k | \u53d8\u5316 | MB1 30k | MB1 100k | \u53d8\u5316 |\n|---|---:|---:|---:|---:|---:|---:|\n| D1 | 0.817542 | 0.818930 | 0.001388 | 0.488654 | 0.478851 | -0.009803 |\n| D2 | 0.829407 | 0.841379 | 0.011972 | 0.461614 | 0.475754 | 0.014140 |\n\n\u5185\u90e8\u5f00\u53d1D2\u2212D1=0.022448\uff1bMB1\u4e03\u7ec4D2\u2212D1=-0.003097\u3002OpenOrganelle\u4e4b\u591611\u6765\u6e90\u5e73\u5747\u5f00\u53d1\u589e\u76ca=0.008008\u3002\u5185\u90e8\u4e0e\u8de8\u96c6\u7ed3\u8bba\u5206\u522b\u62a5\u544a\uff1b\u4e0d\u81ea\u52a8\u542f\u52a8\u4e0b\u4e00\u5b9e\u9a8c\u3002\n",
+    "D12_100k_vs30k.csv": "model,dev30k,dev100k,dev_delta,MB1_30k,MB1_100k,MB1_delta\nD1,0.8175421054828607,0.8189304460931308,0.0013883406102701557,0.4886535301524513,0.47885096286324585,-0.009802567289205422\nD2,0.8294065480835165,0.841378715857156,0.011972167773639408,0.4616141993468218,0.47575377336054614,0.014139574013724343\n",
+    "service": "MainPID=0\nExecMainStatus=0\nActiveState=inactive\n",
+    "gpu": "0, 0, 3092\n1, 0, 464\n2, 0, 464\n3, 0, 0\n",
+    "website_http": 200
+  }
+}

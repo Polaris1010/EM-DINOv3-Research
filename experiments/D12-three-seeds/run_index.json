@@ -14,11 +14,12 @@
       "kind": "HEAD",
       "status": "VERIFIED_RUNNING",
       "planned_steps": 40000,
-      "completed_steps": 100,
+      "completed_steps": 2600,
       "encoder_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000030000/teacher_backbone.pth",
       "encoder_sha256": "63355aa16abc20ae56242d8ba5e21a03e11aaab22e1fdfeb5d1b611c2fc62855",
       "checkpoint_path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D1-30k/seed20261015/head_step040000.pth",
-      "checkpoint_sha256": "UNVERIFIED"
+      "checkpoint_sha256": "UNVERIFIED",
+      "decoder_initial_sha256": "17d5a0fc3570cf232e74945e027b1c10c3b728b673d33a76108223a4c1c92a35"
     },
     {
       "model": "D2-30k",
@@ -26,11 +27,12 @@
       "kind": "HEAD",
       "status": "VERIFIED_RUNNING",
       "planned_steps": 40000,
-      "completed_steps": 100,
+      "completed_steps": 2600,
       "encoder_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/teacher_backbone.pth",
       "encoder_sha256": "7db12e7ff8bee45166aaeeda1d94365e696ddaecf0c57a0d1611a891cf0d3eda",
       "checkpoint_path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D2-30k/seed20261015/head_step040000.pth",
-      "checkpoint_sha256": "UNVERIFIED"
+      "checkpoint_sha256": "UNVERIFIED",
+      "decoder_initial_sha256": "17d5a0fc3570cf232e74945e027b1c10c3b728b673d33a76108223a4c1c92a35"
     },
     {
       "model": "D1-100k",
@@ -38,11 +40,12 @@
       "kind": "HEAD",
       "status": "VERIFIED_RUNNING",
       "planned_steps": 40000,
-      "completed_steps": 100,
+      "completed_steps": 2600,
       "encoder_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/runs/D1/formal/checkpoints/step000100000/teacher_backbone.pth",
       "encoder_sha256": "7df9337dac1ef4775ff21727ddea48c6f265449ae22b24f4941c677fb00593db",
       "checkpoint_path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D1-100k/seed20261015/head_step040000.pth",
-      "checkpoint_sha256": "UNVERIFIED"
+      "checkpoint_sha256": "UNVERIFIED",
+      "decoder_initial_sha256": "17d5a0fc3570cf232e74945e027b1c10c3b728b673d33a76108223a4c1c92a35"
     },
     {
       "model": "D2-100k",
@@ -106,6 +109,8 @@
     }
   ],
   "code_commit": "86492fc4c55226095dca10cfc148709e56a529f9",
-  "status_evidence": "experiments/D12-three-seeds/launch_snapshot.json",
-  "observed_at_utc": "2026-10-21T16:57:27.311236+00:00"
+  "status_evidence": "evidence/D12-three-seeds/running_20261021T170117Z.json",
+  "observed_at_utc": "2026-10-21T17:01:17.719350+00:00",
+  "draft_pr": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/12",
+  "delivery_code_commit": "1cec40cc293b11cc33c7f98047ab8e660f6d3eb8"
 }

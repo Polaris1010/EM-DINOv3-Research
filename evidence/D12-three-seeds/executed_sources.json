@@ -1,0 +1,12 @@
+{
+  "initial_training_code_commit": "86492fc4c55226095dca10cfc148709e56a529f9",
+  "report_delivery_code_commit": "1cec40c",
+  "code_files_sha256": {
+    "common.py": "f23b68cf2829e26d5444c055b1a07a5cb477a318c63d57ca8a972dca9aafb95f",
+    "run.py": "bb710a8e9193dfe2b9af98d1b1dffcdf8626b60ec9a6fef63d724b31ab52c49a",
+    "report.py": "90032179e45fcdae2a026e6bbc89bc7c411e53e33153e342e6e7cfd4e4a67456",
+    "downstream.py": "4f98f13cdf45afb89c2daaa7186193a5d23177c44f8ff286bf46ccd822dc66e9",
+    "supervision.py": "88f6605d9fbbe9341ce5da43075cab65ed0ef80d6fab6c5e037bce215236c886",
+    "benchmark.py": "81e40f93fadab2e9e8a168684a9e280346f6fc781ed8160190adcf922c7ebb6d"
+  }
+}

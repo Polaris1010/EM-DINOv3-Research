@@ -1,0 +1,702 @@
+{
+  "observed_at_utc": "2026-10-21T17:01:17.719350+00:00",
+  "status": {
+    "status": "running",
+    "phase": "train",
+    "seconds": 312.0326601192355,
+    "progress": {
+      "downstream/runs/D1-100k/seed20261015/progress.json": {
+        "model": "D1-100k",
+        "seed": 20261015,
+        "stage": "train",
+        "step": 2600,
+        "steps": 40000,
+        "loss_median200": 0.26257798075675964,
+        "seconds": 245.90188431739807,
+        "source_draws": {
+          "turner22": 220,
+          "casser20": 206,
+          "han24": 236,
+          "mekuc20": 214,
+          "haberl18": 213,
+          "kunduri22": 211,
+          "guay21": 188,
+          "muller21": 219,
+          "openorganelle": 252,
+          "wei20": 205,
+          "xiao18": 223,
+          "jiang25": 213
+        },
+        "sampling_hash": "d186ea5e144b66c980117850a5a42fb1172210b4a3ef2fbfa42abad6256165ac",
+        "lr": 9.90657430515331e-05
+      },
+      "downstream/runs/D2-30k/seed20261015/progress.json": {
+        "model": "D2-30k",
+        "seed": 20261015,
+        "stage": "train",
+        "step": 2600,
+        "steps": 40000,
+        "loss_median200": 0.3007802367210388,
+        "seconds": 245.57630968093872,
+        "source_draws": {
+          "turner22": 220,
+          "casser20": 206,
+          "han24": 236,
+          "mekuc20": 214,
+          "haberl18": 213,
+          "kunduri22": 211,
+          "guay21": 188,
+          "muller21": 219,
+          "openorganelle": 252,
+          "wei20": 205,
+          "xiao18": 223,
+          "jiang25": 213
+        },
+        "sampling_hash": "d186ea5e144b66c980117850a5a42fb1172210b4a3ef2fbfa42abad6256165ac",
+        "lr": 9.90657430515331e-05
+      },
+      "downstream/runs/D1-30k/seed20261015/progress.json": {
+        "model": "D1-30k",
+        "seed": 20261015,
+        "stage": "train",
+        "step": 2600,
+        "steps": 40000,
+        "loss_median200": 0.308009535074234,
+        "seconds": 246.00166583061218,
+        "source_draws": {
+          "turner22": 220,
+          "casser20": 206,
+          "han24": 236,
+          "mekuc20": 214,
+          "haberl18": 213,
+          "kunduri22": 211,
+          "guay21": 188,
+          "muller21": 219,
+          "openorganelle": 252,
+          "wei20": 205,
+          "xiao18": 223,
+          "jiang25": 213
+        },
+        "sampling_hash": "d186ea5e144b66c980117850a5a42fb1172210b4a3ef2fbfa42abad6256165ac",
+        "lr": 9.90657430515331e-05
+      }
+    },
+    "active_pids": [
+      4155381,
+      4155382,
+      4155383
+    ],
+    "Coverage_NR_progress": {
+      "step": 42550,
+      "rank": 0,
+      "loss": 13.5,
+      "grad_norm": 2.5296812057495117,
+      "lr": 1.7526853048831556e-05,
+      "teacher_momentum": 0.999,
+      "teacher_temp": 0.07,
+      "global_batch": 48,
+      "data_first_index": 2042352,
+      "data_first_volume": "Cortese2020_S4_area3",
+      "data_first_domain": "CEM1.5M",
+      "sample_chain": "edc943690b33fc44e5eeda7b2dde8492f3c7cce39105b8a67635d956edee2259",
+      "elapsed_seconds": 31860.689114540815,
+      "data_seconds": 0.011404477059841156,
+      "iteration_seconds": 1.127632163465023,
+      "peak_gpu_bytes": 10240163840,
+      "loss_components": {
+        "dino_local_crops_loss": 9.5,
+        "dino_global_crops_loss": 9.5,
+        "koleo_loss": -0.306126207113266,
+        "ibot_loss": 4.045236587524414
+      }
+    },
+    "gpu0_used": false,
+    "website_http": 200
+  },
+  "gpus": "0, GPU-e7d56fea-8409-6cf0-e2e7-ceda9fd00ec5, 3092, 21124, 0\n1, GPU-29591cdf-1498-85e8-bb8c-158082a53728, 14623, 9593, 93\n2, GPU-794aaaef-6c72-f6ac-b6d0-a07ba3f76364, 14623, 9593, 93\n3, GPU-5a68cc29-a13a-bf90-858e-079e14de807a, 14162, 10055, 93\n",
+  "processes": "GPU-e7d56fea-8409-6cf0-e2e7-ceda9fd00ec5, 2470228, 3086\nGPU-29591cdf-1498-85e8-bb8c-158082a53728, 1971241, 458\nGPU-29591cdf-1498-85e8-bb8c-158082a53728, 3930786, 10792\nGPU-29591cdf-1498-85e8-bb8c-158082a53728, 4155381, 3360\nGPU-794aaaef-6c72-f6ac-b6d0-a07ba3f76364, 1971241, 458\nGPU-794aaaef-6c72-f6ac-b6d0-a07ba3f76364, 3930787, 10792\nGPU-794aaaef-6c72-f6ac-b6d0-a07ba3f76364, 4155382, 3360\nGPU-5a68cc29-a13a-bf90-858e-079e14de807a, 3930788, 10792\nGPU-5a68cc29-a13a-bf90-858e-079e14de807a, 4155383, 3360\n",
+  "runs": {
+    "D1-100k": {
+      "run_protocol": {
+        "stage": "MV-3",
+        "model": "D1-100k",
+        "encoder_model": "D1-100k",
+        "seed": 20261015,
+        "optimizer_steps": 40000,
+        "decoder_initial_sha256": "17d5a0fc3570cf232e74945e027b1c10c3b728b673d33a76108223a4c1c92a35",
+        "encoder_sha256": "7df9337dac1ef4775ff21727ddea48c6f265449ae22b24f4941c677fb00593db",
+        "encoder_frozen": true,
+        "gates": false,
+        "tta": false,
+        "interaction_indices": [
+          5,
+          11,
+          17,
+          23
+        ],
+        "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+        "protocol_sha256": "3834cfaf5a8b687041b36f2d6aba79033724a337602a65523c125c53391d316f",
+        "trainer_sha256": "745419cd404e41687a99a7c474948b4417820d9ea6bdc53b4d909c1422e4e22a",
+        "loader_sha256": "eec0819304a982113df3a9bac228c0666ba6fff1a451acf8a28a32305e0e3269",
+        "primus_source_sha256": "b5398dc48bf5cc14068b4fed38c5f0a8c30bcbbe242d59475016e70912f248d3",
+        "physical_gpu": 3,
+        "training_batch_size": 1,
+        "selection": "fixed_step40000"
+      },
+      "progress": {
+        "model": "D1-100k",
+        "seed": 20261015,
+        "stage": "train",
+        "step": 2600,
+        "steps": 40000,
+        "loss_median200": 0.26257798075675964,
+        "seconds": 245.90188431739807,
+        "source_draws": {
+          "turner22": 220,
+          "casser20": 206,
+          "han24": 236,
+          "mekuc20": 214,
+          "haberl18": 213,
+          "kunduri22": 211,
+          "guay21": 188,
+          "muller21": 219,
+          "openorganelle": 252,
+          "wei20": 205,
+          "xiao18": 223,
+          "jiang25": 213
+        },
+        "sampling_hash": "d186ea5e144b66c980117850a5a42fb1172210b4a3ef2fbfa42abad6256165ac",
+        "lr": 9.90657430515331e-05
+      }
+    },
+    "D2-30k": {
+      "run_protocol": {
+        "stage": "MV-3",
+        "model": "D2-30k",
+        "encoder_model": "D2-30k",
+        "seed": 20261015,
+        "optimizer_steps": 40000,
+        "decoder_initial_sha256": "17d5a0fc3570cf232e74945e027b1c10c3b728b673d33a76108223a4c1c92a35",
+        "encoder_sha256": "7db12e7ff8bee45166aaeeda1d94365e696ddaecf0c57a0d1611a891cf0d3eda",
+        "encoder_frozen": true,
+        "gates": false,
+        "tta": false,
+        "interaction_indices": [
+          5,
+          11,
+          17,
+          23
+        ],
+        "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+        "protocol_sha256": "3834cfaf5a8b687041b36f2d6aba79033724a337602a65523c125c53391d316f",
+        "trainer_sha256": "745419cd404e41687a99a7c474948b4417820d9ea6bdc53b4d909c1422e4e22a",
+        "loader_sha256": "eec0819304a982113df3a9bac228c0666ba6fff1a451acf8a28a32305e0e3269",
+        "primus_source_sha256": "b5398dc48bf5cc14068b4fed38c5f0a8c30bcbbe242d59475016e70912f248d3",
+        "physical_gpu": 2,
+        "training_batch_size": 1,
+        "selection": "fixed_step40000"
+      },
+      "progress": {
+        "model": "D2-30k",
+        "seed": 20261015,
+        "stage": "train",
+        "step": 2600,
+        "steps": 40000,
+        "loss_median200": 0.3007802367210388,
+        "seconds": 245.57630968093872,
+        "source_draws": {
+          "turner22": 220,
+          "casser20": 206,
+          "han24": 236,
+          "mekuc20": 214,
+          "haberl18": 213,
+          "kunduri22": 211,
+          "guay21": 188,
+          "muller21": 219,
+          "openorganelle": 252,
+          "wei20": 205,
+          "xiao18": 223,
+          "jiang25": 213
+        },
+        "sampling_hash": "d186ea5e144b66c980117850a5a42fb1172210b4a3ef2fbfa42abad6256165ac",
+        "lr": 9.90657430515331e-05
+      }
+    },
+    "D1-30k": {
+      "run_protocol": {
+        "stage": "MV-3",
+        "model": "D1-30k",
+        "encoder_model": "D1-30k",
+        "seed": 20261015,
+        "optimizer_steps": 40000,
+        "decoder_initial_sha256": "17d5a0fc3570cf232e74945e027b1c10c3b728b673d33a76108223a4c1c92a35",
+        "encoder_sha256": "63355aa16abc20ae56242d8ba5e21a03e11aaab22e1fdfeb5d1b611c2fc62855",
+        "encoder_frozen": true,
+        "gates": false,
+        "tta": false,
+        "interaction_indices": [
+          5,
+          11,
+          17,
+          23
+        ],
+        "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+        "protocol_sha256": "3834cfaf5a8b687041b36f2d6aba79033724a337602a65523c125c53391d316f",
+        "trainer_sha256": "745419cd404e41687a99a7c474948b4417820d9ea6bdc53b4d909c1422e4e22a",
+        "loader_sha256": "eec0819304a982113df3a9bac228c0666ba6fff1a451acf8a28a32305e0e3269",
+        "primus_source_sha256": "b5398dc48bf5cc14068b4fed38c5f0a8c30bcbbe242d59475016e70912f248d3",
+        "physical_gpu": 1,
+        "training_batch_size": 1,
+        "selection": "fixed_step40000"
+      },
+      "progress": {
+        "model": "D1-30k",
+        "seed": 20261015,
+        "stage": "train",
+        "step": 2600,
+        "steps": 40000,
+        "loss_median200": 0.308009535074234,
+        "seconds": 246.00166583061218,
+        "source_draws": {
+          "turner22": 220,
+          "casser20": 206,
+          "han24": 236,
+          "mekuc20": 214,
+          "haberl18": 213,
+          "kunduri22": 211,
+          "guay21": 188,
+          "muller21": 219,
+          "openorganelle": 252,
+          "wei20": 205,
+          "xiao18": 223,
+          "jiang25": 213
+        },
+        "sampling_hash": "d186ea5e144b66c980117850a5a42fb1172210b4a3ef2fbfa42abad6256165ac",
+        "lr": 9.90657430515331e-05
+      }
+    }
+  },
+  "smoke": {
+    "smoke.json": {
+      "status": "PASS",
+      "stage": "MV3_SMOKE_ONLY",
+      "model": "G-P0",
+      "seed": 20261015,
+      "decoder_initial_sha256": "17d5a0fc3570cf232e74945e027b1c10c3b728b673d33a76108223a4c1c92a35",
+      "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+      "protocol_sha256": "3834cfaf5a8b687041b36f2d6aba79033724a337602a65523c125c53391d316f",
+      "encoder_sha256": "63355aa16abc20ae56242d8ba5e21a03e11aaab22e1fdfeb5d1b611c2fc62855",
+      "encoder_frozen": true,
+      "tta": false,
+      "trainable_parameters": 44576514,
+      "encoder_unchanged": true,
+      "ignore_loss_invariant": true,
+      "ignore_gradient_zero": true,
+      "checkpoint_roundtrip": true,
+      "physical_gpu": 3,
+      "train": [
+        {
+          "source_id": "casser20",
+          "loss": 1.5358844995498657,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "casser20_kasthuri++_train__train",
+            "volume": "casser20_kasthuri++_train",
+            "source": "casser20",
+            "z_native": 54,
+            "y_native": 154,
+            "x_native": 321,
+            "foreground_centered": false,
+            "flips": [
+              true,
+              true
+            ]
+          }
+        },
+        {
+          "source_id": "guay21",
+          "loss": 1.2070263624191284,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "guay21_vol0",
+            "volume": "guay21_vol0",
+            "source": "guay21",
+            "z_native": 1,
+            "y_native": 42,
+            "x_native": 281,
+            "foreground_centered": false,
+            "flips": [
+              false,
+              true
+            ]
+          }
+        },
+        {
+          "source_id": "haberl18",
+          "loss": 1.2304365634918213,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "haberl18_vol0",
+            "volume": "haberl18_vol0",
+            "source": "haberl18",
+            "z_native": 5,
+            "y_native": 0,
+            "x_native": 0,
+            "foreground_centered": false,
+            "flips": [
+              false,
+              false
+            ]
+          }
+        },
+        {
+          "source_id": "han24",
+          "loss": 1.2813472747802734,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "han24_pos0",
+            "volume": "han24_pos0",
+            "source": "han24",
+            "z_native": 60,
+            "y_native": 1186,
+            "x_native": 862,
+            "foreground_centered": true,
+            "flips": [
+              true,
+              false
+            ]
+          }
+        },
+        {
+          "source_id": "jiang25",
+          "loss": 1.0393699407577515,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "jiang25_vol1",
+            "volume": "jiang25_vol1",
+            "source": "jiang25",
+            "z_native": 30,
+            "y_native": 225,
+            "x_native": 143,
+            "foreground_centered": false,
+            "flips": [
+              false,
+              true
+            ]
+          }
+        },
+        {
+          "source_id": "kunduri22",
+          "loss": 1.8084272146224976,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "kunduri22_train01",
+            "volume": "kunduri22_train01",
+            "source": "kunduri22",
+            "z_native": 83,
+            "y_native": 79,
+            "x_native": 260,
+            "foreground_centered": false,
+            "flips": [
+              true,
+              true
+            ]
+          }
+        },
+        {
+          "source_id": "mekuc20",
+          "loss": 1.044152021408081,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "mekuc20_fib1-1-0-3",
+            "volume": "mekuc20_fib1-1-0-3",
+            "source": "mekuc20",
+            "z_native": 255,
+            "y_native": 0,
+            "x_native": 0,
+            "foreground_centered": false,
+            "flips": [
+              false,
+              false
+            ]
+          }
+        },
+        {
+          "source_id": "muller21",
+          "loss": 1.2472304105758667,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "muller21_high_c3",
+            "volume": "muller21_high_c3",
+            "source": "muller21",
+            "z_native": 277,
+            "y_native": 153,
+            "x_native": 315,
+            "foreground_centered": true,
+            "flips": [
+              true,
+              false
+            ]
+          }
+        },
+        {
+          "source_id": "openorganelle",
+          "loss": 1.0360323190689087,
+          "valid_pixels": 10000,
+          "coords": {
+            "region": "openorganelle_jrc_ctl-id8-1_recon-1_crop116",
+            "volume": "openorganelle_jrc_ctl-id8-1_recon-1_crop116",
+            "source": "openorganelle",
+            "z_native": 68,
+            "y_native": 0,
+            "x_native": 0,
+            "foreground_centered": false,
+            "flips": [
+              false,
+              true
+            ]
+          }
+        },
+        {
+          "source_id": "turner22",
+          "loss": 1.4483765363693237,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "turner22_pinky_vol401",
+            "volume": "turner22_pinky_vol401",
+            "source": "turner22",
+            "z_native": 33,
+            "y_native": 453,
+            "x_native": 355,
+            "foreground_centered": true,
+            "flips": [
+              false,
+              true
+            ]
+          }
+        },
+        {
+          "source_id": "wei20",
+          "loss": 1.199894905090332,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "wei20_mitoEM-R__train",
+            "volume": "wei20_mitoEM-R",
+            "source": "wei20",
+            "z_native": 185,
+            "y_native": 2186,
+            "x_native": 2539,
+            "foreground_centered": false,
+            "flips": [
+              true,
+              true
+            ]
+          }
+        },
+        {
+          "source_id": "xiao18",
+          "loss": 0.974925696849823,
+          "valid_pixels": 65536,
+          "coords": {
+            "region": "xiao18_vol0__train",
+            "volume": "xiao18_vol0",
+            "source": "xiao18",
+            "z_native": 4,
+            "y_native": 1640,
+            "x_native": 193,
+            "foreground_centered": true,
+            "flips": [
+              false,
+              false
+            ]
+          }
+        }
+      ],
+      "dev_smoke": [
+        {
+          "source_id": "casser20",
+          "region_id": "casser20_kasthuri++_train__dev",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "guay21",
+          "region_id": "guay21_vol1",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "haberl18",
+          "region_id": "haberl18_vol1",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "han24",
+          "region_id": "han24_pos2",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "jiang25",
+          "region_id": "jiang25_vol2",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "kunduri22",
+          "region_id": "kunduri22_train02",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "mekuc20",
+          "region_id": "mekuc20_fib1-4-3-0",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "muller21",
+          "region_id": "muller21_high_c1",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "openorganelle",
+          "region_id": "openorganelle_jrc_cos7-1a_recon-1_crop234",
+          "shape": [
+            100,
+            100
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "turner22",
+          "region_id": "turner22_microns1_vol0",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "wei20",
+          "region_id": "wei20_mitoEM-R__dev",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        },
+        {
+          "source_id": "xiao18",
+          "region_id": "xiao18_vol0__dev",
+          "shape": [
+            256,
+            256
+          ],
+          "finite": true,
+          "annotation_mask_used": false
+        }
+      ],
+      "sampling_sha256": "139b58639fc24d2688adfba3dbdfd68fd87a539be5e2a084d37260dd76a16aff",
+      "seconds": 9.463977098464966,
+      "peak_cuda_bytes": 2642898432
+    },
+    "memory.json": {
+      "status": "PASS",
+      "peak_allocated_bytes": 6379032576,
+      "peak_reserved_bytes": 9458155520,
+      "memory_fraction": 0.4
+    }
+  },
+  "evidence": {
+    "CPU_metric_equivalence.json": {
+      "status": "PASS",
+      "region_id": "openorganelle_jrc_cos7-1b_recon-1_crop245",
+      "HD95_CPU_and_GPU": 423.0933837890625,
+      "NSD_CPU_and_GPU": 0.24662281572818756,
+      "additional_Han_full_volume_check": "cancelled; not required to launch training"
+    },
+    "executed_sources.json": {
+      "initial_training_code_commit": "86492fc4c55226095dca10cfc148709e56a529f9",
+      "report_delivery_code_commit": "1cec40c",
+      "code_files_sha256": {
+        "common.py": "f23b68cf2829e26d5444c055b1a07a5cb477a318c63d57ca8a972dca9aafb95f",
+        "run.py": "bb710a8e9193dfe2b9af98d1b1dffcdf8626b60ec9a6fef63d724b31ab52c49a",
+        "report.py": "90032179e45fcdae2a026e6bbc89bc7c411e53e33153e342e6e7cfd4e4a67456",
+        "downstream.py": "4f98f13cdf45afb89c2daaa7186193a5d23177c44f8ff286bf46ccd822dc66e9",
+        "supervision.py": "88f6605d9fbbe9341ce5da43075cab65ed0ef80d6fab6c5e037bce215236c886",
+        "benchmark.py": "81e40f93fadab2e9e8a168684a9e280346f6fc781ed8160190adcf922c7ebb6d"
+      }
+    },
+    "deployment_single_owner.json": {
+      "cancelled_cpu_deployment_pid": 4153160,
+      "parent_pid": 4153159,
+      "created": 1792601551.39,
+      "scope": "only this deployment CPU metric fixture; no model processes",
+      "service_state": "inactive",
+      "known_deployment_process_alive": false
+    }
+  },
+  "NR_progress": {
+    "step": 42550,
+    "rank": 0,
+    "loss": 13.5,
+    "grad_norm": 2.5296812057495117,
+    "lr": 1.7526853048831556e-05,
+    "teacher_momentum": 0.999,
+    "teacher_temp": 0.07,
+    "global_batch": 48,
+    "data_first_index": 2042352,
+    "data_first_volume": "Cortese2020_S4_area3",
+    "data_first_domain": "CEM1.5M",
+    "sample_chain": "edc943690b33fc44e5eeda7b2dde8492f3c7cce39105b8a67635d956edee2259",
+    "elapsed_seconds": 31860.689114540815,
+    "data_seconds": 0.011404477059841156,
+    "iteration_seconds": 1.127632163465023,
+    "peak_gpu_bytes": 10240163840,
+    "loss_components": {
+      "dino_local_crops_loss": 9.5,
+      "dino_global_crops_loss": 9.5,
+      "koleo_loss": -0.306126207113266,
+      "ibot_loss": 4.045236587524414
+    }
+  },
+  "website": 200
+}

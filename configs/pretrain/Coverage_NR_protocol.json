@@ -1,0 +1,48 @@
+{
+  "experiment_id": "Coverage-NR-P0-100k",
+  "status": "PLANNED",
+  "authorized_date_hong_kong": "2026-10-21",
+  "models": [
+    "Coverage-NR"
+  ],
+  "initialization": "official_P0_fresh",
+  "ssl_steps": 100000,
+  "continuous_learning_rate": true,
+  "global_batch": 48,
+  "seed": 0,
+  "physical_gpus": [
+    1,
+    2,
+    3
+  ],
+  "GPU0_forbidden": true,
+  "dino": 1,
+  "ibot": 1,
+  "koleo": 0.1,
+  "extra_losses": false,
+  "data_pools": "unchanged_D12_holdout_v1",
+  "pool_sha256": "37ed55716d89c92729893c1e6f789a57b44c307b8e514fcec707384087a906bc",
+  "cem_sha256": "66998c75bd9f71674273dda7517c2c1cc4ce37b7031a6849de6601edb34c1a35",
+  "plan_sha256": "bf56bad49c74eb484f0eee125370f31c386379c56b8ea877a8467fc4685d500e",
+  "cem_slots": 2398767,
+  "mv_slots": 2401233,
+  "checkpoint_exports": [
+    10000,
+    30000,
+    100000
+  ],
+  "readout": {
+    "protocol": "MV-Generalist-v2",
+    "seed": 20261014,
+    "steps": 40000,
+    "train": 156,
+    "dev": 38,
+    "encoder_frozen": true,
+    "Primus": "original",
+    "tta": false,
+    "MB1": "exposed_fixed_diagnostic"
+  },
+  "strict_coverage_ablation": false,
+  "add_IsoOrg_or_QuantEM": false,
+  "stop_after_fixed_pipeline": true
+}

@@ -54,3 +54,5 @@
 - [OrgMIM / IsoOrg-1K分组采样核查](20261020_25_orgmim_sampling_lookup.md)
 
 - [IsoOrg / QuantEM仅metadata增量来源审查](20261021_26_incremental_source_review.md)
+
+- [Coverage-NR从P0连续100k启动](20261021_27_coverage_nr_training_start.md)

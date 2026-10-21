@@ -1,0 +1,26 @@
+{
+  "stage": "Coverage-NR",
+  "status": "PLANNED",
+  "execution_state": "SMOKE_RUNNING",
+  "server_root": "/opt/data/3_117/tanghr/codex/coverage_nr_p0_20261021",
+  "service": "coverage-nr-p0-20261021.service",
+  "protocol": "configs/pretrain/Coverage_NR_protocol.json",
+  "report_path": "docs/Coverage_NR_execution.md",
+  "runs": [
+    {
+      "model": "Coverage-NR",
+      "kind": "SSL",
+      "status": "PLANNED",
+      "completed_steps": 0,
+      "starting_step": 0,
+      "planned_steps": 100000
+    },
+    {
+      "model": "Coverage-NR",
+      "kind": "HEAD",
+      "status": "PLANNED",
+      "completed_steps": 0,
+      "planned_steps": 40000
+    }
+  ]
+}

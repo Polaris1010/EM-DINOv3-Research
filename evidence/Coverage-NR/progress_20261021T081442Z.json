@@ -1,0 +1,108 @@
+{
+  "observed_utc": "2026-10-21T08:14:42.731712+00:00",
+  "service": "MainPID=3930759\nExecMainStatus=0\nActiveState=active\n",
+  "status": {
+    "status": "running",
+    "phase": "SSL_Coverage-NR_fresh_P0_100000",
+    "seconds": 272.1442708298564,
+    "progress": {
+      "runs/Coverage-NR/formal/progress.json": {
+        "step": 340,
+        "rank": 0,
+        "loss": 16.625,
+        "grad_norm": 1.139405608177185,
+        "lr": 1.766691823720255e-06,
+        "teacher_momentum": 0.999,
+        "teacher_temp": 0.042034,
+        "global_batch": 48,
+        "data_first_index": 16272,
+        "data_first_volume": "kunduri22_train01",
+        "data_first_domain": "MitoVerse",
+        "sample_chain": "ec847dac5970489f3819b2888c2c7d77bbdb25d47c8110acaf5ece6b46cad209",
+        "elapsed_seconds": 254.81451277434826,
+        "data_seconds": 0.008363448083400726,
+        "iteration_seconds": 0.6910629644989967,
+        "peak_gpu_bytes": 10240163840,
+        "loss_components": {
+          "dino_local_crops_loss": 11.125,
+          "dino_global_crops_loss": 11.125,
+          "koleo_loss": -0.2189972698688507,
+          "ibot_loss": 5.554286003112793
+        }
+      }
+    },
+    "child_pids": [
+      3930763
+    ],
+    "physical_gpus": [
+      1,
+      2,
+      3
+    ],
+    "gpu0_used": false,
+    "website_http": 200,
+    "further_experiments_started": false
+  },
+  "gpus": "0, 3092 MiB, 0 %\n1, 11260 MiB, 90 %\n2, 11260 MiB, 91 %\n3, 10798 MiB, 100 %\n",
+  "website": 200,
+  "initialization.json": {
+    "experiment_id": "Coverage-NR",
+    "manifest_sha256": "403d253437851779e2cd4442e79f9d5929b1699c3f0713c305ef953805daa917",
+    "config_sha256": "159f45566320f9b583968aa8e9ffb07392d521bfa227b1ca0b4a4bde11f152d7",
+    "official_weight_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+    "trainer_sha256": "931e5467a905fec14e1569e4ffabd8863f8bbd6c7d39ed85cb67953b59226493",
+    "sampler_sha256": "2f4a28410529e3a11eaf86cfec46e11e829cf81db081f52d6f6024757f54b42c",
+    "dinov3_commit": "91ffb6803c74aeb6927209b82560142743763dd7",
+    "world_size": 3,
+    "batch_per_gpu": 16,
+    "gradient_accumulation": 1,
+    "effective_global_batch": 48,
+    "base_lr_global16": 1.5e-05,
+    "effective_peak_lr": 2.598076211353316e-05,
+    "warmup_steps": 5000,
+    "total_steps": 100000,
+    "weight_decay": 0.04,
+    "teacher_momentum": 0.999,
+    "seed": 0,
+    "coverage_plan_sha256": "bf56bad49c74eb484f0eee125370f31c386379c56b8ea877a8467fc4685d500e",
+    "sampler_core_sha256": "929e380ec26d24dec54f4bfd40fcfd1ccf76c55371a1a9284b1e64e5d499a383",
+    "python_executable": "/opt/data/3_117/tanghr/dinov3_shared/bin/python",
+    "torch_version": "2.10.0+cu128",
+    "run_path": "/opt/data/3_117/tanghr/codex/coverage_nr_p0_20261021/runs/Coverage-NR/formal",
+    "initialization": "fresh_official_P0_student_EMA_optimizer_centers",
+    "strict_backbone_load": true,
+    "resume": null,
+    "starting_step": 0,
+    "dino": 1,
+    "ibot": 1,
+    "koleo": 0.1,
+    "gram": false,
+    "LAST": false,
+    "topology": false,
+    "segmentation": false
+  },
+  "progress.json": {
+    "step": 360,
+    "rank": 0,
+    "loss": 16.625,
+    "grad_norm": 1.233916997909546,
+    "lr": 1.8706148721743874e-06,
+    "teacher_momentum": 0.999,
+    "teacher_temp": 0.042154000000000004,
+    "global_batch": 48,
+    "data_first_index": 17232,
+    "data_first_volume": "Yoshida2020_10460_t1",
+    "data_first_domain": "CEM1.5M",
+    "sample_chain": "624ca4fd4b48d608e423d0979c6629ff47d62365139fc2a741d7685ae74e5696",
+    "elapsed_seconds": 269.32197047770023,
+    "data_seconds": 0.009402371942996979,
+    "iteration_seconds": 0.6891547441482544,
+    "peak_gpu_bytes": 10240163840,
+    "loss_components": {
+      "dino_local_crops_loss": 11.125,
+      "dino_global_crops_loss": 11.125,
+      "koleo_loss": -0.21029692888259888,
+      "ibot_loss": 5.554042816162109
+    }
+  }
+}

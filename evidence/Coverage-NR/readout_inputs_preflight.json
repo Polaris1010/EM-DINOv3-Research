@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "regions": {
+    "train": 156,
+    "dev": 38
+  },
+  "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "protocol_sha256": "51c6372838b5c6ea5656c01423a4c3fc7e3343eb14ad9887a36dcc5fca87058c",
+  "cache_target": "/opt/data/3_117/tanghr/codex/mv_generalist_v2_han_fullgt_20261014/cache",
+  "encoder_frozen": true,
+  "tta": false
+}

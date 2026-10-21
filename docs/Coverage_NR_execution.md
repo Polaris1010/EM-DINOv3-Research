@@ -15,3 +15,7 @@ CPU逐一验证全部480万domain位置；2398767 CEM槽位、2401233 MV槽位�
 预计SSL约21小时（三GPU），head约51分钟，开发/MB1另计。因保留10k/30k/100k三个里程碑full状态及两份最新恢复状态，峰值SSL checkpoint需预留约45GB，连同head/预测建议65GB以上；实际数据盘空间充分。训练期间已有ID计划/权重不覆盖。
 
 新窗口：先读本记录和experiments/Coverage-NR/run_index.json，查看既有服务/STATUS；不要重复启动服务，不重建计划。完整恢复时只允许本run latest full checkpoint和相同plan/config/code，禁止用30k历史D2续训替代。结果生成后收取小型指标/报告并更新本轮registry、Markdown和PR。
+
+## 正式启动事实
+
+2026-10-21 16:11香港时间：已从P0新状态运行到60/100000（实测快照，并非实时值），服务active，GPU1/2/3各100%利用率，网站200。实际运行code6129ac2、PR11 draft。收据evidence/Coverage-NR/launch_snapshot.json；配置experiments/Coverage-NR/resolved_config.yaml。被动收取器在本机存活时会等待本轮终态、收取小型报告/指标并提交推送；若本机断线，可由下个窗口从服务器同一目录收取，服务器训练不依赖本地收取器。

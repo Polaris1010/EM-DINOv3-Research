@@ -1,3 +1,5 @@
+> 2026-10-22 00:57香港实测：D1/D2三decoder-seed任务active，首批D1-30k/D2-30k/D1-100k的seed20261015均100/40000，采样hash一致，GPU1/2/3各约14–15GiB总占用；其余5个head排队。原Coverage-NR继续到42340，网站200，GPU0未用。服务d12-three-seeds-20261022.service；先读docs/D12_three_seed_execution.md。只有head重复，没有新SSL；完成固定38dev及七组MB1后输出均值/样本SD和配对差值，停止。
+
 > 2026-10-22 新授权：补齐D1/D2的30k、100k四encoder各三个decoder seeds，复用20261014、新增20261015/16共8个40k head；固定156train/38dev及七组MB1诊断，非三折或三SSL seed。先读docs/D12_three_seed_execution.md与experiments/D12-three-seeds/run_index.json。Coverage-NR既有SSL继续，GPU0禁用。当前部署准备，尚未声称训练已启动。
 
 > 2026-10-21 16:11香港时间实测：Coverage-NR正式服务active，P0新初始化从0到60/100000；loss有限，GPU1/2/3利用率100%，各约11GiB，GPU0未用于本轮，网站200。code6129ac2，draft PR11。先读docs/Coverage_NR_execution.md与本轮run_index；已有服务继续，不重复启动。首seed40k及开发/MB1由同一有界服务顺序完成后停止。

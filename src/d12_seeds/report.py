@@ -59,6 +59,10 @@ def main():
                            'encoder_sha256': spec['encoder_sha256'], 'head_path': str(path), 'head_sha256': digest,
                            'decoder_initial_sha256': complete['decoder_initial_sha256'], 'sampling_hash': complete['sampling_hash']})
     assert len(regions) == 456
+    for region in {v['region_id'] for v in regions}:
+        same = [v for v in regions if v['region_id'] == region]
+        assert len(same) == 12
+        assert len({(v['valid_voxels'], v['tp']+v['fn'], v['manifest_sha256']) for v in same}) == 1
     for seed in protocol['seeds']:
         rows = [v for v in hashes if v['seed'] == seed]
         assert len({v['decoder_initial_sha256'] for v in rows}) == 1
@@ -92,6 +96,11 @@ def main():
                        ('MB1_per_image', images), ('seed_macros', macros), ('summary', summary),
                        ('paired_seed_deltas', pairs), ('paired_summary', pairsummary), ('checkpoint_hashes', hashes)]:
         csvout('D12_three_seed_' + name + '.csv', rows)
+    # Repository text limit: keep the full server table and12 lossless small shards.
+    for model in protocol['models']:
+        for seed in protocol['seeds']:
+            csvout(f'D12_three_seed_MB1_per_image_{model}_seed{seed}.csv',
+                   [v for v in images if v['model'] == model and v['seed'] == seed])
     # Per-source/dataset three-seed summaries preserve weak-source changes, including muscle.
     for name, table, group in [('sources', sources, 'source_id'), ('datasets', datasets, 'dataset')]:
         rows = []

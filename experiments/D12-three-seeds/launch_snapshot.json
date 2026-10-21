@@ -1,0 +1,176 @@
+{
+  "observed_at_utc": "2026-10-21T16:57:27.311236+00:00",
+  "STATUS.json": {
+    "status": "running",
+    "phase": "train",
+    "seconds": 77.82014059275389,
+    "progress": {
+      "downstream/runs/D1-100k/seed20261015/progress.json": {
+        "model": "D1-100k",
+        "seed": 20261015,
+        "stage": "train",
+        "step": 100,
+        "steps": 40000,
+        "loss_median200": 1.1526055932044983,
+        "seconds": 11.274141788482666,
+        "source_draws": {
+          "turner22": 7,
+          "casser20": 5,
+          "han24": 14,
+          "mekuc20": 7,
+          "haberl18": 10,
+          "kunduri22": 9,
+          "guay21": 9,
+          "muller21": 6,
+          "openorganelle": 10,
+          "wei20": 9,
+          "xiao18": 9,
+          "jiang25": 5
+        },
+        "sampling_hash": "a2c400380fd028e086f250d6ab1e7d7d4b1fffc3ed247193eef2850f2af52e3c",
+        "lr": 9.999863971320548e-05
+      },
+      "downstream/runs/D2-30k/seed20261015/progress.json": {
+        "model": "D2-30k",
+        "seed": 20261015,
+        "stage": "train",
+        "step": 100,
+        "steps": 40000,
+        "loss_median200": 1.1510663628578186,
+        "seconds": 10.958528995513916,
+        "source_draws": {
+          "turner22": 7,
+          "casser20": 5,
+          "han24": 14,
+          "mekuc20": 7,
+          "haberl18": 10,
+          "kunduri22": 9,
+          "guay21": 9,
+          "muller21": 6,
+          "openorganelle": 10,
+          "wei20": 9,
+          "xiao18": 9,
+          "jiang25": 5
+        },
+        "sampling_hash": "a2c400380fd028e086f250d6ab1e7d7d4b1fffc3ed247193eef2850f2af52e3c",
+        "lr": 9.999863971320548e-05
+      },
+      "downstream/runs/D1-30k/seed20261015/progress.json": {
+        "model": "D1-30k",
+        "seed": 20261015,
+        "stage": "train",
+        "step": 100,
+        "steps": 40000,
+        "loss_median200": 1.1516655683517456,
+        "seconds": 11.373246669769287,
+        "source_draws": {
+          "turner22": 7,
+          "casser20": 5,
+          "han24": 14,
+          "mekuc20": 7,
+          "haberl18": 10,
+          "kunduri22": 9,
+          "guay21": 9,
+          "muller21": 6,
+          "openorganelle": 10,
+          "wei20": 9,
+          "xiao18": 9,
+          "jiang25": 5
+        },
+        "sampling_hash": "a2c400380fd028e086f250d6ab1e7d7d4b1fffc3ed247193eef2850f2af52e3c",
+        "lr": 9.999863971320548e-05
+      }
+    },
+    "active_pids": [
+      4155381,
+      4155382,
+      4155383
+    ],
+    "Coverage_NR_progress": {
+      "step": 42340,
+      "rank": 0,
+      "loss": 13.6875,
+      "grad_norm": 2.476915121078491,
+      "lr": 1.7608841119576263e-05,
+      "teacher_momentum": 0.999,
+      "teacher_temp": 0.07,
+      "global_batch": 48,
+      "data_first_index": 2032272,
+      "data_first_volume": "bock2011",
+      "data_first_domain": "CEM1.5M",
+      "sample_chain": "27241d09c1bb13c74a9e41a66cbb84ee91e3ff94981971ee2821d33fbfcff2dd",
+      "elapsed_seconds": 31628.002986729145,
+      "data_seconds": 0.01367313414812088,
+      "iteration_seconds": 1.0547031462192535,
+      "peak_gpu_bytes": 10240163840,
+      "loss_components": {
+        "dino_local_crops_loss": 9.6875,
+        "dino_global_crops_loss": 9.5625,
+        "koleo_loss": -0.3028101325035095,
+        "ibot_loss": 4.086623191833496
+      }
+    },
+    "gpu0_used": false,
+    "website_http": 200
+  },
+  "supervision.json": {
+    "controller_pid": 3930759,
+    "created": 1792570195.29,
+    "acquired_at": 1792601776.7328432,
+    "rank_processes": {
+      "3930763": 1792570195.94,
+      "3930786": 1792570197.58,
+      "3930787": 1792570197.58,
+      "3930788": 1792570197.58,
+      "3930882": 1792570203.56,
+      "3930885": 1792570203.59,
+      "3930901": 1792570206.01,
+      "3930994": 1792570210.78,
+      "3930880": 1792570203.55,
+      "3930883": 1792570203.58,
+      "3930902": 1792570206.04,
+      "3930991": 1792570210.76,
+      "3930881": 1792570203.55,
+      "3930884": 1792570203.58,
+      "3930903": 1792570206.05,
+      "3930993": 1792570210.78
+    },
+    "training_paused": false,
+    "supervisor_only_suspended": true,
+    "released": false
+  },
+  "service": "MainPID=4154944\nActiveState=active\n",
+  "GPU": "0, 3092, 21124, 0\n1, 14623, 9593, 100\n2, 14623, 9593, 100\n3, 14162, 10055, 100\n",
+  "logs": {
+    "smoke.log": "SMOKE_PASS G-P0 9.463977098464966\n",
+    "train_D1-100k_20261015.log": "",
+    "train_D2-30k_20261015.log": "",
+    "controller.log": "",
+    "train_D1-30k_20261015.log": ""
+  },
+  "NR_progress": {
+    "step": 42340,
+    "rank": 0,
+    "loss": 13.6875,
+    "grad_norm": 2.476915121078491,
+    "lr": 1.7608841119576263e-05,
+    "teacher_momentum": 0.999,
+    "teacher_temp": 0.07,
+    "global_batch": 48,
+    "data_first_index": 2032272,
+    "data_first_volume": "bock2011",
+    "data_first_domain": "CEM1.5M",
+    "sample_chain": "27241d09c1bb13c74a9e41a66cbb84ee91e3ff94981971ee2821d33fbfcff2dd",
+    "elapsed_seconds": 31628.002986729145,
+    "data_seconds": 0.01367313414812088,
+    "iteration_seconds": 1.0547031462192535,
+    "peak_gpu_bytes": 10240163840,
+    "loss_components": {
+      "dino_local_crops_loss": 9.6875,
+      "dino_global_crops_loss": 9.5625,
+      "koleo_loss": -0.3028101325035095,
+      "ibot_loss": 4.086623191833496
+    }
+  },
+  "website": 200
+}

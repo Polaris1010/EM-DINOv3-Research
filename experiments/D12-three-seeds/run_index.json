@@ -1,20 +1,20 @@
 {
   "stage": "D12-three-seeds",
-  "status": "PLANNED",
+  "status": "VERIFIED_RUNNING",
   "server_root": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022",
   "service": "d12-three-seeds-20261022.service",
   "protocol": "configs/evaluation/D12_three_seed_protocol.json",
-  "manifest": "configs/segmentation/MV-Generalist-v2.json",
-  "report_path": "docs/D12_three_seed_report.md",
-  "metrics_path": "experiments/D12-three-seeds/D12_three_seed_summary.csv",
+  "manifest": "configs/segmentation/MV-Generalist-v2/manifest.json",
+  "report_path": "docs/D12_three_seed_execution.md",
+  "metrics_path": "UNVERIFIED",
   "runs": [
     {
       "model": "D1-30k",
       "seed": 20261015,
       "kind": "HEAD",
-      "status": "PLANNED",
+      "status": "VERIFIED_RUNNING",
       "planned_steps": 40000,
-      "completed_steps": 0,
+      "completed_steps": 100,
       "encoder_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000030000/teacher_backbone.pth",
       "encoder_sha256": "63355aa16abc20ae56242d8ba5e21a03e11aaab22e1fdfeb5d1b611c2fc62855",
       "checkpoint_path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D1-30k/seed20261015/head_step040000.pth",
@@ -24,9 +24,9 @@
       "model": "D2-30k",
       "seed": 20261015,
       "kind": "HEAD",
-      "status": "PLANNED",
+      "status": "VERIFIED_RUNNING",
       "planned_steps": 40000,
-      "completed_steps": 0,
+      "completed_steps": 100,
       "encoder_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/teacher_backbone.pth",
       "encoder_sha256": "7db12e7ff8bee45166aaeeda1d94365e696ddaecf0c57a0d1611a891cf0d3eda",
       "checkpoint_path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D2-30k/seed20261015/head_step040000.pth",
@@ -36,9 +36,9 @@
       "model": "D1-100k",
       "seed": 20261015,
       "kind": "HEAD",
-      "status": "PLANNED",
+      "status": "VERIFIED_RUNNING",
       "planned_steps": 40000,
-      "completed_steps": 0,
+      "completed_steps": 100,
       "encoder_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/runs/D1/formal/checkpoints/step000100000/teacher_backbone.pth",
       "encoder_sha256": "7df9337dac1ef4775ff21727ddea48c6f265449ae22b24f4941c677fb00593db",
       "checkpoint_path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D1-100k/seed20261015/head_step040000.pth",
@@ -104,5 +104,8 @@
       "checkpoint_path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D2-100k/seed20261016/head_step040000.pth",
       "checkpoint_sha256": "UNVERIFIED"
     }
-  ]
+  ],
+  "code_commit": "86492fc4c55226095dca10cfc148709e56a529f9",
+  "status_evidence": "experiments/D12-three-seeds/launch_snapshot.json",
+  "observed_at_utc": "2026-10-21T16:57:27.311236+00:00"
 }

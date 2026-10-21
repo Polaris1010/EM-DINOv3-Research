@@ -10,7 +10,7 @@
 
 现有Coverage-NR监督器会将任何新GPU进程判为外来任务。新服务临时接管运行健康/网站/心跳检查，仅SIGSTOP原Python监督器，**不暂停、不重启torchrun或任一SSL rank**，不改变训练权重、随机状态或配置。新CUDA任务退出后SIGCONT原监督器。systemd control-group清理后ExecStopPost也执行恢复，防止错误退出留下挂起监督器。运行身份含PID创建时间，防PID复用。接管最长36h，全服务48h，无自动重启。原STATUS在接管期间可能陈旧，实际SSL进度读formal/progress.json，新服务STATUS同时收录它。
 
-先完成8次head训练，再全38区域推理、七组MB1固定诊断；之后恢复原监督器，使用原validation.distances与MONAI的CPU exact EDT路径完成304个新区域距离指标，减少VRAM争用。CPU/GPU exact EDT仅计算后端不同，开始前用历史预测检查数值等价；不更改阈值、尺度或TTA。
+先完成8次head训练，再全38区域推理、七组MB1固定诊断；之后恢复原监督器，使用原validation.distances与MONAI的CPU exact EDT路径完成304个新区域距离指标，减少VRAM争用。CPU/GPU exact EDT仅计算后端不同，已用一个历史小体积预测确认CPU/GPU HD95和NSD逐值一致；额外Han全体积CPU检查已取消；不更改阈值、尺度或TTA。
 
 ## 汇总与停止
 
@@ -19,3 +19,5 @@
 输出D12_three_seed_report.md、summary、paired_summary、sources_summary、datasets_summary、seed_macros、checkpoint_hashes及原始逐区域/逐图CSV。大逐图表保留服务器并分片收取，禁止checkpoint/预测进Git。代码、运行快照、指标、Markdown与交接提交推送，服务完成后停止。
 
 这是固定划分的decoder seed重复，衡量head初始化/监督采样波动；不是三折交叉验证，也不是三次SSL seed。MB1仍是已暴露开发诊断集。尚无三seed结果时不将历史单seed均值写成新结论。
+
+实际启动证据：2026-10-22 00:57香港，首批3个head均100/40000，原SSL42340且继续。见experiments/D12-three-seeds/launch_snapshot.json。

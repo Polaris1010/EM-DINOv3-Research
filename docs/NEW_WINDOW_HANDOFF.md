@@ -1,3 +1,5 @@
+> 2026-10-22 00:57香港实测：D1/D2三decoder-seed任务active，首批D1-30k/D2-30k/D1-100k的seed20261015均100/40000，采样hash一致，GPU1/2/3各约14–15GiB总占用；其余5个head排队。原Coverage-NR继续到42340，网站200，GPU0未用。服务d12-three-seeds-20261022.service；先读docs/D12_three_seed_execution.md。只有head重复，没有新SSL；完成固定38dev及七组MB1后输出均值/样本SD和配对差值，停止。
+
 > 2026-10-22 新授权：补齐D1/D2的30k、100k四encoder各三个decoder seeds，复用20261014、新增20261015/16共8个40k head；固定156train/38dev及七组MB1诊断，非三折或三SSL seed。先读docs/D12_three_seed_execution.md与experiments/D12-three-seeds/run_index.json。Coverage-NR既有SSL继续，GPU0禁用。当前部署准备，尚未声称训练已启动。
 
 > 2026-10-21 23:06香港时间进度复核：Coverage-NR 33420/100000（33.42%），10k/30k EMA导出存在，最新full33000；GPU1/2/3工作、网站200。SSL已运行6.94h，按平均速度约余13.82h。head/dev/MB1尚未开始。按已消费ID位置重放CEM覆盖775442/1425433（54.40%）。本轮另安装用户级anti-defensive-writing；见work_logs/20261021_28_skill_install_progress.md。既有训练服务继续。

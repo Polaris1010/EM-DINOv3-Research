@@ -11,7 +11,7 @@
       "model": "Coverage-NR",
       "kind": "SSL",
       "status": "VERIFIED_RUNNING",
-      "completed_steps": 360,
+      "completed_steps": 33420,
       "starting_step": 0,
       "planned_steps": 100000
     },
@@ -24,7 +24,7 @@
     }
   ],
   "code_commit": "6129ac22284aa332923602d52e06ef01d2164147",
-  "observed_at_utc": "2026-10-21T08:14:42.731712+00:00",
-  "status_evidence": "evidence/Coverage-NR/progress_20261021T081442Z.json",
+  "observed_at_utc": "2026-10-21T15:06:29.983601+00:00",
+  "status_evidence": "evidence/Coverage-NR/progress_check_20261021T150629Z.json",
   "PR": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/11"
 }

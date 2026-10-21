@@ -1,0 +1,14 @@
+{
+  "name": "anti-defensive-writing",
+  "source_repository": "https://github.com/Kiterlin/anti-defensive-writing",
+  "source_path": "skill/anti-defensive-writing",
+  "installed_path": "C:/Users/lenovo/.codex/skills/anti-defensive-writing/SKILL.md",
+  "installer": "official skill-installer/install-skill-from-github.py",
+  "installed_date_hong_kong": "2026-10-21",
+  "sha256": "287e3d05aeabf6409fa53b74a124ee0d897338009be2c04d3e38c352ca74a3c1",
+  "bytes": 22797,
+  "installed_files": [
+    "SKILL.md"
+  ],
+  "availability": "next user turn"
+}

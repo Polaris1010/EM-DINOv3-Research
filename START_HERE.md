@@ -1,3 +1,5 @@
+> 2026-10-21 23:06香港时间进度复核：Coverage-NR 33420/100000（33.42%），10k/30k EMA导出存在，最新full33000；GPU1/2/3工作、网站200。SSL已运行6.94h，按平均速度约余13.82h。head/dev/MB1尚未开始。按已消费ID位置重放CEM覆盖775442/1425433（54.40%）。本轮另安装用户级anti-defensive-writing；见work_logs/20261021_28_skill_install_progress.md。既有训练服务继续。
+
 > 2026-10-21 16:11香港时间实测：Coverage-NR正式服务active，P0新初始化从0到60/100000；loss有限，GPU1/2/3利用率100%，各约11GiB，GPU0未用于本轮，网站200。code6129ac2，draft PR11。先读docs/Coverage_NR_execution.md与本轮run_index；已有服务继续，不重复启动。首seed40k及开发/MB1由同一有界服务顺序完成后停止。
 
 > 2026-10-21 新授权：用户要求“继续，开始训练”。执行单组Coverage-NR从P0连续100k，继承既有MV+CEM池，之后首seed冻结Primus40k/38dev/固定MB1，完成停止。先读docs/Coverage_NR_execution.md及experiments/Coverage-NR/run_index.json。旧设计-only停止记录为历史，不重复启动服务，不增加R组/IsoOrg/QuantEM/D3，GPU0禁用。当前CPU计划通过，GPU smoke正在验证。

@@ -1,0 +1,29 @@
+{
+  "observed_utc": "2026-10-21T15:06:29.983601+00:00",
+  "step": 33420,
+  "latest_full_checkpoint": {
+    "path": "/opt/data/3_117/tanghr/codex/coverage_nr_p0_20261021/runs/Coverage-NR/formal/checkpoints/step000033000/full.pth",
+    "step": 33000,
+    "sha256": "14c951b58cdd7e2f23f398870b33ba7bfa3955e0cad1fdcad8239e738fa9527e"
+  },
+  "milestone_exports": {
+    "10000": {
+      "sha256": "cbc1728a7e194c9827951fbcf8db111dc971aa3742bdaeaa0a82ad90063af440",
+      "exists": true,
+      "bytes": 1213025477
+    },
+    "30000": {
+      "sha256": "b77293c304b356375c01fd636915e539406eca8a6b8422980a263a9970c1e8c0",
+      "exists": true,
+      "bytes": 1213025477
+    }
+  },
+  "elapsed_hours": 6.93717053125509,
+  "remaining_hours_at_observed_average": 13.820371453350207,
+  "consumed_cem_draws": 801261,
+  "unique_cem_ids_by_consumed_index_replay": 775442,
+  "cem_coverage_by_consumed_index_replay": 0.5440045235377601,
+  "head_progress_exists": false,
+  "dev_metric_files": 0,
+  "MB1_metrics_exists": false
+}

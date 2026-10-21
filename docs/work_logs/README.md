@@ -56,3 +56,5 @@
 - [IsoOrg / QuantEM仅metadata增量来源审查](20261021_26_incremental_source_review.md)
 
 - [Coverage-NR从P0连续100k启动](20261021_27_coverage_nr_training_start.md)
+
+- [anti-defensive-writing安装与Coverage-NR进度核实](20261021_28_skill_install_progress.md)

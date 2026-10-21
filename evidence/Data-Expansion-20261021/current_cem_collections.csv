@@ -1,0 +1,628 @@
+collection,images,final_zip_present,metadata_rows_exact_uid,scan_ids,dois,modality,tissue,voxel_spacing_original_fields,roi_status,pixel_duplicate_status
+000r10530ND0Jf1lZ9gQ_3D,48,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.52"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+005231Mi4tR936D758lh_2D,521,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+00J28J01e68sYVe4XJ54_3D,9,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.24"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+01HLAA04Y09jBnZLgL8c_3D,2733,True,1,,,FIB-SEM,Invertebrate,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.07"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+01L9EKE74kM3O0QSq90G_2D,286,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+0212PZ3x1tG6Ry14zYtM_3D,45,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.05"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+023FCjUP07a5g354910m_2D,5835,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+02oW30c140O2F0r65237_3D,1769,True,1,,,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.51"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+02x86kyJQOZc5Q65oaYm_2D,4464,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+0359E1y76M75l5V32FC6_2D,834,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+04CKkr3001vBqmya6260_3D,548,True,1,,,FIB-SEM,Lung,"[{""Pixel size X"": ""30.01"", ""Pixel size Y"": ""30.01"", ""Pixel size Z"": ""30.05"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+04HEi601N7Xn7Tq7i91V_3D,1807,True,1,,,FIB-SEM,Salivary gland,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.42"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+056i5CF03i7WmlYB8LIP_3D,30,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""19.13"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+05T782a3z1XN53597B8y_3D,1,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""16.87"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+05a3249n5P8D959wG2Y7_3D,1382,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.99"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+06T5D34H65ZFj17NOd2o_3D,741,True,1,,,FIB-SEM,Brain,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.09"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+083H348C7dj9P0oQ6j41_3D,1056,True,1,,,FIB-SEM,Spleen,"[{""Pixel size X"": ""36"", ""Pixel size Y"": ""36"", ""Pixel size Z"": ""37.46"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+086abhmY5W9q21I1y1yw_3D,637,True,1,,,FIB-SEM,Lung,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""29.11"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+088F5Mx92578vz1p7168_3D,169,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.52"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+09941NiSec98Mwpoez5m_3D,565,True,1,,,FIB-SEM,Eye,"[{""Pixel size X"": ""24"", ""Pixel size Y"": ""24"", ""Pixel size Z"": ""22.79"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+0B9gr97Fe5Vb8eu4Q2uh_3D,784,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.5"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+0CI2R173sS3950gnX6ZZ_3D,14,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""19.34"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+0CvF5DA6l92uqc35Vo99_3D,30,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""16.11"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+0LB5pQB582Cl0zTusNW9,715,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+0Nis3hnf5SdWoA7k0r72_2D,412,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+0Nn79H3ECG9SGg9R34wr_2D,19,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+0Vi47hRX5oB0XRF4oCbz_2D,149,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+0Xlg5eJhaH8AUb6dn005_2D,19,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+0bS7kuC2F9l78ff57iJ5_2D,5174,True,1,,,TEM,Embryo,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+0eq144bQ49345kIXGP1m_3D,37,True,1,,,FIB-SEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+0f5H0424Nx2921PG2570_2D,24,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+0fX510Q6g0W03yh3706u_3D,1812,True,1,,,FIB-SEM,Testis,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.13"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+0kw1I8YD2A44GQRyTZ3d_3D,46,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.24"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+0wu522FfTrQ084Np70m6_3D,1110,True,1,,,FIB-SEM,Colon,"[{""Pixel size X"": ""30.01"", ""Pixel size Y"": ""30.01"", ""Pixel size Z"": ""30.21"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+104297S3423D2C53hjcv_3D,35,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.03"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+10x54233F9LiR3j6M8qC_3D,196,True,1,,,FIB-SEM,Spleen,"[{""Pixel size X"": ""36"", ""Pixel size Y"": ""36"", ""Pixel size Z"": ""37.21"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+115D17X4f88eW3Z5bM87_3D,29,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.37"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+13yC2OT4009YU15Y081e_3D,558,True,1,,,FIB-SEM,Spleen,"[{""Pixel size X"": ""17.89"", ""Pixel size Y"": ""17.89"", ""Pixel size Z"": ""18.85"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+14E0YKHvOFp865G392eN_3D,125,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.22"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+14VD2RQJ9IZz31MR739C_3D,254,True,1,,,FIB-SEM,Lung,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.17"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+15ILbV1I00B9ebR4GJ2n_3D,40,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.99"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+182V95X059HjG5Q4PPZ1_3D,2853,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""19.01"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+187elRNxgUv702SB6auf_2D,25,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+19oXT957V37UD5l2W820_2D,29,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+1B789hma991k69fs545m_2D,3,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+1F41691j2Iq0u266Z3Lt_2D,160,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+1FT878Ctp40415358509_2D,130,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+1K411b3648d34FiuB9yk,23,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+1K77h2Evwz5Nmc5b20je_3D,173,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""20.29"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+1K95Tb180R9i7zA038C7_2D,4793,True,1,,,STEM,Colon,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+1O5tJf8869143ElJD8Ha,148,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+1Y90hlkr0w93x7U0V32s_3D,686,True,1,,,FIB-SEM,Spleen,"[{""Pixel size X"": ""17.89"", ""Pixel size Y"": ""17.89"", ""Pixel size Z"": ""18.83"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+1f5583ENj0ruY6F4Q33D_3D,89,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.47"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+1hvYuqOv55L6q0yx77r7_2D,3454,True,1,,,STEM,Colon,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+1kUhd21Bt4N9ug0vg6n4_3D,41,True,1,,,FIB-SEM,Eye,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.07"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+1l02269X5q10s4Z9Hos0_3D,121,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.05"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+1sYX4D9362V99rkr63J9_2D,2073,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+1x6hmLu46g12V5sMEwTw_3D,35,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.45"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+1xA59L40372n8744j86Q_2D,555,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+1yR60hU12Gn32CSG56fL_2D,4226,True,1,,,STEM,Colon,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+21U8fIHv9xv6u72hQj03_3D,69,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""16.96"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+21b506x32y5HXsrm4qNT_3D,2086,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""19.16"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+229jt6em580BTUn9l005_2D,9,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+22x4708650bb60N2Clkh_2D,582,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+230iB073Jt40G0804a3I_2D,1034,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+238kP51WQ39Ja7zU2Qr6_3D,2559,True,1,,,FIB-SEM,Testis,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.92"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+247E5q3Q61Qx69Ua7B8V_3D,75,True,1,,,FIB-SEM,Connective tissue,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.74"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+253rm7l7t900W23svYH4_3D,87,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.49"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+26d8W45Eqw440943T1NL_2D,158,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+271N4JXZ0Ux7d61W39t6_3D,25,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.98"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+27O57601rSeXBZW58252_2D,1166,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+27e942I6vw9Z5pzm2gSJ_3D,384,True,1,,,FIB-SEM,Eye,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+2874667EM97qdV1S052A,4668,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+28L4Q5V335494OYu92yX,6,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+2AS016T95Zuck1a8p018,3,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+2Dmr1RE1Vyw634Y551ox_3D,6340,True,1,,,FIB-SEM,Lung,"[{""Pixel size X"": ""24"", ""Pixel size Y"": ""24"", ""Pixel size Z"": ""25.12"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+2P08s44uHc2523721G4s_3D,103,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.65"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+2Sm9xBH2j79is61rSHh0_3D,28,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+2T1E9o7mXgy3816fw07X_2D,72,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+2Yp4a6ovBUWh56xXT55Y_3D,324,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""12"", ""Pixel size Y"": ""12"", ""Pixel size Z"": ""17.82"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+2aqF829I8uy2q18hM26n_3D,40,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.87"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+2b7Fr3x3556l4u64yhPU_3D,275,True,1,,,FIB-SEM,Lung,"[{""Pixel size X"": ""35.99"", ""Pixel size Y"": ""35.99"", ""Pixel size Z"": ""36.03"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+2orvh60z4d46Ldy28d5B_3D,34,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""31.1"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+2wHHLg5592Hh2mw76I07_3D,956,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.49"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+2wXL3D6P5Q03OM4hdUM4_3D,28,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""16.96"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+2ww1674B912S0UI4j29q_2D,182,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+30TM8c399c5g261uzXM5_3D,1626,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.8"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+314W440Y68Pf573BO3p2_3D,2031,True,1,,,FIB-SEM,Skin,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+31c4x1H53K72acDHN91C_2D,82,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+32Ks189li3IFyx05873k_3D,168,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.72"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+33S307b696Gn92fVTMI9_3D,445,True,1,,,FIB-SEM,Eye,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""16.95"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+35m69c8QJ8S1222408E6_3D,1548,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.92"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+35s0Z0lUTD4F61Z29Unh_3D,111,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""29.97"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+36N6165HL5u0V15645SM_2D,10,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+3712122Da58038KV1034_3D,19,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.91"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+373A2637G6i0gX4S25b0_3D,88,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""16"", ""Pixel size Y"": ""16"", ""Pixel size Z"": ""16.22"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+37ar1VI5FbJ6bD5q60bP_3D,1416,True,1,,,FIB-SEM,Breast ,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.65"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+37d98L7609484xdO0330_3D,331,True,1,,,FIB-SEM,Spleen,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""19.36"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+37e2C1lLP065i6a8I74J_3D,373,True,1,,,FIB-SEM,Colon,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.15"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+3899yD8x862W02L795CB_3D,3,True,1,,,FIB-SEM,Bone,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.78"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+38Oj6EPXzUKp8H2F0K70_3D,451,True,1,,,FIB-SEM,Eye,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.91"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+39O6XQ90v4F2c15C52G8_3D,1134,True,1,,,FIB-SEM,Lung,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""29.24"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+3F2yQ9wt77d2476F9C39_3D,79,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.56"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+3HbQbt5Y2462ax7U9e2Z_3D,418,True,1,,,FIB-SEM,Embryo,"[{""Pixel size X"": ""16"", ""Pixel size Y"": ""16"", ""Pixel size Z"": ""16"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+3K68DAeXQ8490lVzJMH9_3D,366,True,1,,,FIB-SEM,Leukocyte,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.04"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+3WI6117yo143pc09N0Mj_3D,216,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.21"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+3qx0J8L0Vkzzpc211V9B,366,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+3v8iUE585f1ASWps281D,89,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+3wth6043dR52d324p8E5_3D,87,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.39"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+42ige6G64Io60Yjj5qX6_2D,193,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+4343LwI307Nn56TBbpsN_2D,1177,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+437UXiGz3895cuoAi6tu_2D,89,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+43O5HJOw9UqjEtJ5ZjBM_3D,62,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.42"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+454n743iJ07zCD28lvIH_3D,3109,True,1,,,FIB-SEM,Salivary gland,"[{""Pixel size X"": ""30.01"", ""Pixel size Y"": ""30.01"", ""Pixel size Z"": ""30.36"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+460J2628F1ar49624IsH_3D,1,True,1,,,FIB-SEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+463GL0UDI2Q7XX0kDI40_3D,85,True,1,,,FIB-SEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+46613n40lFC93ov3RiD2,7000,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+4746X5511372V81N2924_2D,197,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+4752347CYRcHS04dQ8GH_3D,26,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.7"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+498H95z4Lgb9ig6W74F1_3D,63,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.7"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+4CJd2W0GJ9mA04781M4T_3D,44,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""16"", ""Pixel size Y"": ""16"", ""Pixel size Z"": ""16.96"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+4FW1055OWb4g691KIi8H_3D,113,True,1,,,FIB-SEM,Leukocyte,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.13"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+4G7ko32TR0FKbUZ5Jj18_3D,556,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""12"", ""Pixel size Y"": ""12"", ""Pixel size Z"": ""17.65"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+4KF3315bYU3J8R9p185e_3D,463,True,1,,,FIB-SEM,Lung,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.24"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+4R2Q294u6WGK426i610B_3D,165,True,1,,,FIB-SEM,Connective tissue,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.87"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+4U199E674FZoR0pQ4K31,60,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+4V704I1G7492O2a369eb_3D,1084,True,1,,,FIB-SEM,Leukocyte,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.6"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+4Vt9BO0AkV0ni1718R1z_3D,753,True,1,,,FIB-SEM,Skin,"[{""Pixel size X"": ""30.01"", ""Pixel size Y"": ""30.01"", ""Pixel size Z"": ""29"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+4a1P98Pfs3uNk9S61rl7_2D,7,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+4aQn1W0G24Hv04xp6p07,7138,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+4kNr9898A862E477Y60p,1321,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+4shLi4f240TcXh6L1j24_3D,660,True,1,,,FIB-SEM,Brain,"[{""Pixel size X"": ""16"", ""Pixel size Y"": ""16"", ""Pixel size Z"": ""14.9"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+4w1dou3M530OSwP19MoU_2D,872,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+50F80ev760Cmx63t5G79_3D,3,True,1,,,FIB-SEM,Embryo,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.11"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+5199UE240u7z4DhzJ698_3D,42,True,1,,,FIB-SEM,Skin,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""19.34"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+52f72Bc125o7v94Ep850_2D,3780,True,1,,,TEM,Embryo,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+5562U5OO5JxPY65P027L,151,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+557p2ocENO3TKQ2p7052_2D,166,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+5787d43s9R8828P7aUT6_3D,2302,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""20"", ""Pixel size Y"": ""20"", ""Pixel size Z"": ""19.49"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+578S4E9ajU4624j55Tq7_2D,136,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+59543P723X31v8m3W66V_3D,72,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.77"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+59TjAI27I7045Peo481d_3D,28,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.4"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+59yh08837Fm5JCC0784O_3D,25,True,1,,,FIB-SEM,Bone,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""19.24"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+5A3N49V8v624P1ogU7E3_3D,1451,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""24"", ""Pixel size Y"": ""24"", ""Pixel size Z"": ""24.33"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+5JmVbLFq239c85SMRUB2_3D,31,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.8"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+5Jy84b2MnLYB9oZ70Nvm_3D,2964,True,1,,,FIB-SEM,Embryo,"[{""Pixel size X"": ""20"", ""Pixel size Y"": ""20"", ""Pixel size Z"": ""19.98"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+5NQg531Y3XP9MCCU5BTL_3D,1395,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.6"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+5Pzqj3Em64mysMqOt8T7_2D,7,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+5Z18275Qnz306R3RW6e1_3D,26,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.35"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+5Z3q3a5415jv75186U9h_3D,19,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""16"", ""Pixel size Y"": ""16"", ""Pixel size Z"": ""17.12"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+5j54Gst6j5069xCUpF5M_2D,2364,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+5m35G7y7pFo7Qy37z18e_3D,1690,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.74"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+5o1101z410527CfQ24Nx_3D,11,True,1,,,FIB-SEM,Connective tissue,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""15.62"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+5r14Cdpq37NPNw6Hw42y_2D,14,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+5u1oet80M239QNtA16v5_3D,1191,True,1,,,FIB-SEM,Breast ,"[{""Pixel size X"": ""36.01"", ""Pixel size Y"": ""36.01"", ""Pixel size Z"": ""35.75"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+606V054X2083Ca8h7b1q_2D,170,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+6080I7655078P54sI591_2D,1808,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+60quHoFmOb762437lu6p_3D,1431,True,1,,,FIB-SEM,Brain,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.63"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+614753Z06JaoUkFn7J6g_3D,91,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.48"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+61x44277A1Fjux7FaTI9_3D,1842,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""29.98"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+627sMJ63ZY795RJ5WaX0_3D,4256,True,1,,,FIB-SEM,Salivary gland,"[{""Pixel size X"": ""20"", ""Pixel size Y"": ""20"", ""Pixel size Z"": ""18.56"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+62BcQ53pV3gwMOS710P4_3D,41,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""16.8"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+62NP013987xhj7NM6FCz_3D,24,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.34"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+639s9H3B0K19bG5D7D4X_2D,218,True,1,,,STEM,Skin,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+63mzBU7IXv02lB981kLZ_3D,53,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.07"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+66192geL1pz9144250OG_3D,3449,True,1,,,FIB-SEM,Breast ,"[{""Pixel size X"": ""35.99"", ""Pixel size Y"": ""35.99"", ""Pixel size Z"": ""35.19"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+6696t14Bq8pAb2FI81P0_3D,2451,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.92"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+66k7TE47uAZWjNqgj93Z_3D,103,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.92"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+681X65xh180i9k4UL692_3D,6146,True,1,,,FIB-SEM,Epididymis,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.23"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+682iQbQ2QXda420492cX_3D,1906,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""19.02"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+682x923c81ZP3bZ637cB_3D,849,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.29"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+68A1U4iXlGK29jZA95xV_3D,3910,True,1,,,FIB-SEM,Embryo,"[{""Pixel size X"": ""20"", ""Pixel size Y"": ""20"", ""Pixel size Z"": ""20.03"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+68XSAF1zC01O14CMr5Px_3D,443,True,1,,,FIB-SEM,Lung,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.28"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+68Z70A23eeM9XShU77ju_3D,1251,True,1,,,FIB-SEM,Skin,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+696Xl27n4xCBSP1F2555_3D,49,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""19.2"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+6975N8Waz0r2555HUlz7_3D,2181,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""19.12"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+69s61I2HSJ3mb52eB3n1_3D,235,True,1,,,FIB-SEM,Eye,"[{""Pixel size X"": ""25.88"", ""Pixel size Y"": ""25.88"", ""Pixel size Z"": ""24"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+6L269H84G0Y799KHIe3l_3D,3588,True,1,,,FIB-SEM,Monocyte,"[{""Pixel size X"": ""36"", ""Pixel size Y"": ""36"", ""Pixel size Z"": ""37.63"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+6M63zfgOdsi602Ow24O1_3D,709,True,1,,,FIB-SEM,Skin,"[{""Pixel size X"": ""6"", ""Pixel size Y"": ""6"", ""Pixel size Z"": ""2"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+6S6392q3ac8t08u61C42_3D,54,True,1,,,FIB-SEM,Connective tissue,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.92"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+6T1326266944uJ5M43s0_3D,3086,True,1,,,FIB-SEM,Salivary gland,"[{""Pixel size X"": ""30.01"", ""Pixel size Y"": ""30.01"", ""Pixel size Z"": ""29.92"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+6U0I7y48bud99a0r93N7_3D,1797,True,1,,,FIB-SEM,Eye,"[{""Pixel size X"": ""24"", ""Pixel size Y"": ""24"", ""Pixel size Z"": ""23.95"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+6U41AuS7555GQ06mf0IA_3D,2472,True,1,,,FIB-SEM,Testis,"[{""Pixel size X"": ""29.99"", ""Pixel size Y"": ""29.99"", ""Pixel size Z"": ""30.4"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+6W3N54w6SuT2gXaH834i_3D,32,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.49"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+6n5mf2MF58R9Tf34Y97B_3D,51,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.04"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+6xtXI7u3ag31ft0RlnQ9_3D,194,True,1,,,FIB-SEM,Bone,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""29.86"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+6y4KG8C0y215nt6hgi96_3D,111,True,1,,,FIB-SEM,Connective tissue,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.96"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+70b84ewn720o4817Px50_3D,1473,True,1,,,FIB-SEM,Testis,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.25"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+72Pn49283nA21b33RM94_3D,1573,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""19.2"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+732z1wa4S7Cj09v27c1e_3D,4669,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""19.19"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+73305IX3JqLNR72O9O46_2D,267,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+739528g00C1k6946g7Y7_3D,84,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.1"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+764TVEj0g8q5H33p1i42_2D,467,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+769lyM24ky86PXUe24jq_3D,1877,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""24"", ""Pixel size Y"": ""24"", ""Pixel size Z"": ""25.45"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+778APt25407J458UM47H_2D,16,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+7871h5nOh4013872YXY7,4,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+7Rvu0X733WYWa49U6Q1f_2D,42,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+7W3I69630017g6m55Bl2_2D,7,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+7kwJ9Y41sN06320g1W7t_3D,1080,True,1,,,FIB-SEM,Colon,"[{""Pixel size X"": ""30.01"", ""Pixel size Y"": ""30.01"", ""Pixel size Z"": ""29.95"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+7n397v7317tUQ2nw314l_2D,700,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+7u78Vd9p1C947NMvU7SP_3D,236,True,1,,,FIB-SEM,Spleen,"[{""Pixel size X"": ""36"", ""Pixel size Y"": ""36"", ""Pixel size Z"": ""37.38"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+7v0438ttURcy31p2Sny5_3D,377,True,1,,,FIB-SEM,Colon,"[{""Pixel size X"": ""30.01"", ""Pixel size Y"": ""30.01"", ""Pixel size Z"": ""30.18"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+7xEV250h52z75QS2WW88_3D,105,True,1,,,FIB-SEM,Embryo,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""29.93"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+7z1bq7K11Zu681D888m8_3D,1434,True,1,,,FIB-SEM,Breast ,"[{""Pixel size X"": ""36.01"", ""Pixel size Y"": ""36.01"", ""Pixel size Z"": ""35.52"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+7z85sAK56Me6twoZ42y6_2D,23,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+808fk1b6xFN8Yg27jb3g_2D,2166,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+8099G4D3PEYG266D3j61_3D,1289,True,1,,,FIB-SEM,Skin,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""19.68"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+80Syo5O8g6RP8zq1Y3dt_3D,1817,True,1,,,FIB-SEM,Salivary gland,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""31.94"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+81N269691I17z37267N6_3D,1437,True,1,,,FIB-SEM,Eye,"[{""Pixel size X"": ""24"", ""Pixel size Y"": ""24"", ""Pixel size Z"": ""23.41"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+81y5OR291368i54Ne49w_3D,841,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""24"", ""Pixel size Y"": ""24"", ""Pixel size Z"": ""25.83"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+828908007N62CN551194_3D,53,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.84"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+82xbNbd2i519te3N1wgJ_3D,1844,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.7"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+8306k714P2NFE517fuZ5_2D,8203,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+835AIW1Kk89TP60i7j3e_3D,1621,True,1,,,FIB-SEM,Embryo,"[{""Pixel size X"": ""24"", ""Pixel size Y"": ""24"", ""Pixel size Z"": ""24.14"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+847F67A7X172sSF5m8RU_2D,64,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+853Gp8v0XL07ra57m444_3D,782,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.32"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+85a4w4S501o2Kv68H63a_3D,139,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.73"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+8698d4rk657i8N07u781_3D,4736,True,1,,,FIB-SEM,Breast ,"[{""Pixel size X"": ""36"", ""Pixel size Y"": ""36"", ""Pixel size Z"": ""35.78"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+87I1kIg05940Z606UJc4_3D,10600,True,1,,,FIB-SEM,Monocyte,"[{""Pixel size X"": ""24"", ""Pixel size Y"": ""24"", ""Pixel size Z"": ""25.11"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+898LTlrSo7740tno1e1f_2D,195,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+89vGT65d9EHa6t5IE2F1_3D,325,True,1,,,FIB-SEM,Lymphocyte,"[{""Pixel size X"": ""20"", ""Pixel size Y"": ""20"", ""Pixel size Z"": ""19.78"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+8D640sc664w0m7WA76P2_3D,67,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.2"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+8G632M6809k5726GiHu3_3D,1754,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.87"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+8JoBW0F58z6agP91MF9W_3D,950,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""29.75"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+8NG86525STf13tH8aG0K_3D,221,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.16"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+8ZvI95u9khfeW557jM9B_2D,19,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+8aMvsWw03AV9u6upS64x_3D,1253,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""24"", ""Pixel size Y"": ""24"", ""Pixel size Z"": ""25.55"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+8j1rc756jiXe801t56Z4_3D,109,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.49"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+8qPz8VZMk2515i8TYo9T_2D,301,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+8y9m69i131BeG0R3P74H_3D,373,True,1,,,FIB-SEM,Lung,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.28"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+90124NkPPAK37V2h496j_3D,1108,True,1,,,FIB-SEM,Leukocyte,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""28.72"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+90fw11J2CQDga8HX964N_3D,1265,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""24"", ""Pixel size Y"": ""24"", ""Pixel size Z"": ""25.58"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+91nnw1CE21J7qEYVD5WA_3D,1333,True,1,,,FIB-SEM,Embryo,"[{""Pixel size X"": ""16"", ""Pixel size Y"": ""16"", ""Pixel size Z"": ""16"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+9225zsU46nkJF7x9634E_3D,2894,True,1,,,FIB-SEM,Skin,"[{""Pixel size X"": ""20"", ""Pixel size Y"": ""20"", ""Pixel size Z"": ""19.13"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+944s1950H4eDL19J965s,1,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+94580sO7XxmC32F2i5E3_2D,30,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+94V81q9880nb14tZ23z6_3D,11,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.47"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+9603293RE5133Ow1K7O1,1,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+96DW666U4e6Fiy511064_3D,1100,True,1,,,FIB-SEM,Colon,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.05"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+9931z34d40U666d609Y4_3D,538,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""16.66"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+997K5yM1Z7jL90CN7qt9_2D,376,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+9997UP07xu49550R222K,1947,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+9A958H018048z7vY7347_3D,524,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.62"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+9EOU5b4vgoCD8Tl912he_3D,788,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.77"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+9HJ3097vnLXHwd1729O6_3D,490,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.83"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+9O9z1X3KNne986409RMW_3D,25,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.53"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+9T8Ee68yc5H3oNuXNV62_3D,1311,True,1,,,FIB-SEM,Lymphocyte,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.73"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+9Y78f019XZ86b2E3If74_3D,900,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""29.71"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+9cRJXwWSada508s0Mt68_2D,67,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+9fjM044c375784b0k1n8_2D,31,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+9ic08M4v7SV106G35TW2,22,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+9n7JmsZIx6I7iPJ1H673_2D,560,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+9z7K3lGK822WhYO70eoh_3D,111,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.72"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+A03wIgkxVmFZNc082J2i_3D,1874,True,1,,,FIB-SEM,Skin,"[{""Pixel size X"": ""20"", ""Pixel size Y"": ""20"", ""Pixel size Z"": ""19.42"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+A2zj2c3Ie9099f8q480T_3D,5895,True,1,,,FIB-SEM,Embryo,"[{""Pixel size X"": ""20"", ""Pixel size Y"": ""20"", ""Pixel size Z"": ""19.33"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+A533BS77X5TJBm19y358_3D,3417,True,1,,,FIB-SEM,Skin,"[{""Pixel size X"": ""20"", ""Pixel size Y"": ""20"", ""Pixel size Z"": ""19.88"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Andersson2021_10553,1145,True,1,,10.6019/empiar-10553,FIB-SEM,Cell,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Andersson2021_10554,3517,True,1,,10.6019/empiar-10554,FIB-SEM,Cell,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Angerani2021BV2,1380,True,1,,10.1038/s41467-021-21626-1,FIB-SEM,Cell,"[{""Pixel size X"": ""15"", ""Pixel size Y"": ""15"", ""Pixel size Z"": ""15"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+B3618fZ151o9156X92ue_2D,12286,True,1,,,STEM,Liver,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+BG2687A80941J5S5f71r_2D,124,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+Bb3e2P97823q6kTx5n0m_3D,64,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.62"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Beer2018,19,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+Bf695M0h02i43Meg799A_2D,128,True,1,,,TEM,Kidney,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+Bleck2018_HeartBV2,8631,True,1,,10.1038/s41467-018-07676-y,FIB-SEM,Heart,"[{""Pixel size X"": ""10"", ""Pixel size Y"": ""10"", ""Pixel size Z"": ""10"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Bleck2018_SoleusBV2,2617,True,1,,10.1038/s41467-018-07676-y,FIB-SEM,Muscle,"[{""Pixel size X"": ""5"", ""Pixel size Y"": ""5"", ""Pixel size Z"": ""5"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Boer2020,782,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+Busse2016BV4,483,True,1,,10.1098/rsos.160563;10.5061/dryad.vk3fg,SBF-SEM,Invertebrate,"[{""Pixel size X"": ""4"", ""Pixel size Y"": ""4"", ""Pixel size Z"": ""80"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+C0cYvFc2I4GZCfR8K1v3_2D,10,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+CREMI,20485,True,1,,,ssTEM,Brain,"[{""Pixel size X"": ""4"", ""Pixel size Y"": ""4"", ""Pixel size Z"": ""30"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Cali2018_mouse_1,2195,True,1,,10.1371/journal.pone.0198131;10.5061/dryad.bh78sn5,FIB-SEM,Brain,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Cali2018_mouse_2,3477,True,1,,10.1371/journal.pone.0198131;10.5061/dryad.bh78sn5,FIB-SEM,Brain,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Cali2018_mouse_3,4200,True,1,,10.1371/journal.pone.0198131;10.5061/dryad.bh78sn5,FIB-SEM,Brain,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Cali2018_mouse_4,3033,True,1,,10.1371/journal.pone.0198131;10.5061/dryad.bh78sn5,FIB-SEM,Brain,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Cali2018_mouse_5,4124,True,1,,10.1371/journal.pone.0198131;10.5061/dryad.bh78sn5,FIB-SEM,Brain,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Cali2018_mouse_6,3019,True,1,,10.1371/journal.pone.0198131;10.5061/dryad.bh78sn5,FIB-SEM,Brain,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Cardona2010_section-180-220,108,True,1,,10.1371/journal.pbio.1000502,ssTEM,Brain,"[{""Pixel size X"": ""4"", ""Pixel size Y"": ""4"", ""Pixel size Z"": ""50"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Cex31X1i542D86kK8919_3D,93,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.98"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Collinson2020,10955,True,1,,10.6019/empiar-10478,SBF-SEM,Cell,"[{""Pixel size X"": ""10"", ""Pixel size Y"": ""10"", ""Pixel size Z"": ""50"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Cornelissen2018_video,11,True,1,,10.3389/fmicb.2018.03044;10.3389/fmicb.2018.03044/full,FIB-SEM,Cell,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": ""5"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Cortese2020_S4_area2,8807,True,1,,10.6019/empiar-10490,FIB-SEM,Lung,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""8"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Cortese2020_S4_area3,23203,True,1,,10.6019/empiar-10490,FIB-SEM,Lung,"[{""Pixel size X"": ""5"", ""Pixel size Y"": ""5"", ""Pixel size Z"": ""5"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Cortese2020_S4_cell1_5nm,7472,True,1,,10.6019/empiar-10490,FIB-SEM,Lung,"[{""Pixel size X"": ""5"", ""Pixel size Y"": ""5"", ""Pixel size Z"": ""5"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Cortese2020_S5_mock_cell1_2,10737,True,1,,10.6019/empiar-10490,FIB-SEM,Lung,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""8"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Courson2019_001_video,24,True,1,,10.1371/journal.pone.0224434;10.1371/journal.pone.0224434.s001,SBF-SEM,Eye,"[{""Pixel size X"": ""7.3"", ""Pixel size Y"": ""7.3"", ""Pixel size Z"": ""100"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Courson2019_002_video,33,True,1,,10.1371/journal.pone.0224434;10.1371/journal.pone.0224434.s002,SBF-SEM,Eye,"[{""Pixel size X"": ""7.3"", ""Pixel size Y"": ""7.3"", ""Pixel size Z"": ""100"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+D29966gHi7ghWU06U9mW_3D,71,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.49"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+D8J8Y7imJ3412257M7TG_2D,687,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+D98Z79BnWEvju512TEA8_3D,258,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.03"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Davis2014_s9_video,15,True,1,,10.1073/pnas.1404651111,SBF-SEM,Brain,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": ""70"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Df631x5w93508zc73Q12_3D,4123,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""29.76"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+DtE31fP3o3qb8T1RODDh_2D,2401,True,1,,,TEM,Embyro,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+E1mgouV4211562ky885v_2D,2242,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+E276fX4Ye1FW75gHk7P2_3D,839,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""16"", ""Pixel size Y"": ""16"", ""Pixel size Z"": ""15.6"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+E8QrgX14c181044fay89_2D,36,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+EDeqH0583U6ix2R4k406_3D,2281,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""24"", ""Pixel size Y"": ""24"", ""Pixel size Z"": ""25.64"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+EOu5l13a564j8m0rO810_3D,2805,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.83"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+EZj3HQ9JRw4g91y84Xy6_3D,995,True,1,,,FIB-SEM,Colon,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.32"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Em6ne9Qs48461q7Z6gy1_3D,286,True,1,,,FIB-SEM,Spleen,"[{""Pixel size X"": ""36"", ""Pixel size Y"": ""36"", ""Pixel size Z"": ""37.33"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+F3k6pN67n9e785ie7q95_2D,13,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+FEp0955F7o10qvoi0474_3D,103,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.82"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Fe760Wb4Lhy82r8aO9H7_3D,1321,True,1,,,FIB-SEM,Breast ,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.08"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Fermie2018_video,18,True,1,,10.1111/tra.12557,FIB-SEM,Cell,"[{""Pixel size X"": ""6"", ""Pixel size Y"": ""6"", ""Pixel size Z"": ""10"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+GK2e3o6f688O4Q47xyF3_3D,1450,True,1,,,FIB-SEM,Skin,"[{""Pixel size X"": ""4"", ""Pixel size Y"": ""4"", ""Pixel size Z"": ""2"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+GMJ581966W5EW4ID27FR_3D,229,True,1,,,FIB-SEM,Lung,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.1"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+GO52wd4vrq94x2O12bip_3D,4420,True,1,,,FIB-SEM,Invertebrate,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.26"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Genoud2018_video,1761,True,1,,10.3389/fnana.2018.00076;10.3389/fnana.2018.00076/full,SBF-SEM,Brain,"[{""Pixel size X"": ""10"", ""Pixel size Y"": ""10"", ""Pixel size Z"": ""30"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Gl1M8N0525d391T0839x_3D,211,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.95"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Gl4u0Aw81WU69F6mnSrE_2D,2281,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+Glancy2016_m1invBV2,1504,True,1,,10.6019/empiar-10070,FIB-SEM,Muscle,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""15"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Goggin2019,6,True,1,,10.5258/soton/d1089,SBF-SEM,Bone,"[{""Pixel size X"": ""15"", ""Pixel size Y"": ""15"", ""Pixel size Z"": ""50"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Grudniewska2018,509,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+H4Q2VN35MO22R1r71821_3D,834,True,1,,,FIB-SEM,Lung,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""29.22"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+H97Q2GHESJP9o8Vc5bS8_2D,224,True,1,,,STEM,Lung,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+HK70T9455X4973Aj8670_3D,756,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""12"", ""Pixel size Y"": ""12"", ""Pixel size Z"": ""17.47"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Han2019_002_video,10,True,1,,10.1021/acs.nanolett.9b00752,TEM,Cell,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Hennies2020_AMST_HeLaBV2,5079,True,1,,10.6019/empiar-10311,FIB-SEM,Cell,"[{""Pixel size X"": ""5"", ""Pixel size Y"": ""5"", ""Pixel size Z"": ""8"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Hennies2020_AMST_PlatyBV2,6757,True,1,,10.6019/empiar-10310,FIB-SEM,Invertebrate,"[{""Pixel size X"": ""10"", ""Pixel size Y"": ""10"", ""Pixel size Z"": ""10"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Hu2020_16_video,3,True,1,,10.1038/s41419-020-03152-y,FIB-SEM,Cell,"[{""Pixel size X"": ""10"", ""Pixel size Y"": ""10"", ""Pixel size Z"": ""10"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Hu2020_17_video,1,True,1,,10.1038/s41419-020-03152-y,FIB-SEM,Cell,"[{""Pixel size X"": ""10"", ""Pixel size Y"": ""10"", ""Pixel size Z"": ""10"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Hunt2019,6418,True,1,,10.6019/empiar-10324,FIB-SEM,Cell,"[{""Pixel size X"": ""5"", ""Pixel size Y"": ""5"", ""Pixel size Z"": ""5"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Hunt2019_CAP,5679,True,1,,10.6019/empiar-10327,FIB-SEM,Cell,"[{""Pixel size X"": ""5"", ""Pixel size Y"": ""5"", ""Pixel size Z"": ""5"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+I6J7z4AZ2Dmlm7S91C2q_3D,751,True,1,,,FIB-SEM,Lymphocyte,"[{""Pixel size X"": ""16"", ""Pixel size Y"": ""16"", ""Pixel size Z"": ""15.45"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+IrvHd483ld1YDa5343xf_2D,6613,True,1,,,STEM,Salivary gland,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+J1yt41078625R85fd0G8_3D,116,True,1,,,FIB-SEM,Lung,"[{""Pixel size X"": ""30.01"", ""Pixel size Y"": ""30.01"", ""Pixel size Z"": ""29.65"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+J8h80049573O293DqtTS_3D,5,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""32.48"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+JP93rE2DAX36J8924470_3D,488,True,1,,,FIB-SEM,Embryo,"[{""Pixel size X"": ""24"", ""Pixel size Y"": ""24"", ""Pixel size Z"": ""24.08"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Jiang2020_file02_video,26164,True,1,,10.1101/2020.11.21.392662;10.1101/2020.11.21.392662v1.supplementary-material,AT,Liver,"[{""Pixel size X"": ""5"", ""Pixel size Y"": ""5"", ""Pixel size Z"": ""45"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Joesch2016BV2,62620,True,1,,,AT,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+Joshi2020,12,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+K10O389P733pM31bS02H_3D,1321,True,1,,,FIB-SEM,Lymphocyte,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.76"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+K8f0y834403S359Yt932_3D,336,True,1,,,FIB-SEM,Spleen,"[{""Pixel size X"": ""36"", ""Pixel size Y"": ""36"", ""Pixel size Z"": ""37.72"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Khadangi2019,912,True,1,,10.1186/s12911-019-0962-1,SBF-SEM,Brain,"[{""Pixel size X"": ""50"", ""Pixel size Y"": ""50"", ""Pixel size Z"": ""50"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Kuipers2015,10283,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+Kuipers2016,34,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+Kuipers2020,50,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+Kuroda2020_1_video,262,True,1,,10.3389/fcell.2020.580520;10.3389/fcell.2020.580520/full,FIB-SEM,Muscle,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""10"", ""Pixel size Z"": ""15"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Kuroda2020_2_video,223,True,1,,10.3389/fcell.2020.580520;10.3389/fcell.2020.580520/full,FIB-SEM,Muscle,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""10"", ""Pixel size Z"": ""15"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Kuroda2020_3_video,264,True,1,,10.3389/fcell.2020.580520;10.3389/fcell.2020.580520/full,FIB-SEM,Muscle,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""10"", ""Pixel size Z"": ""15"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+L11x78SY23o8n6t41D26_2D,9127,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+L7Gg66b870H5R8xizL81_3D,2404,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""19.06"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+L999wWZMs20jCr35McXZ_3D,528,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.81"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+LC3v0N6R81FIFt18801N_3D,11,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""16"", ""Pixel size Y"": ""16"", ""Pixel size Z"": ""16"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+LQL65cat2pL62K5I218t_3D,1991,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""20"", ""Pixel size Y"": ""20"", ""Pixel size Z"": ""19.31"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Luckner2018_MOESM5_video,46,True,1,,10.1007/s00418-018-1681-x,FIB-SEM,Cell,"[{""Pixel size X"": ""2"", ""Pixel size Y"": ""2"", ""Pixel size Z"": ""2"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Luckner2018_MOESM7_video,645,True,1,,10.1007/s00418-018-1681-x,FIB-SEM,Cell,"[{""Pixel size X"": ""2"", ""Pixel size Y"": ""2"", ""Pixel size Z"": ""2"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Luckner2018_MOESM8_video,441,True,1,,10.1007/s00418-018-1681-x,FIB-SEM,Cell,"[{""Pixel size X"": ""2"", ""Pixel size Y"": ""2"", ""Pixel size Z"": ""2"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+LvfM141NGDcW0B33GGv0_2D,149,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+M6LYBj51488b3GP3GTBJ_2D,39,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+M84U8F5l5249q7e58Y74_3D,25,True,1,,,FIB-SEM,Connective tissue,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.85"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+M9RsFHJ2G46O387nBwnd_2D,2532,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+MX65at3fKAA73djigt1e_3D,124,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.38"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Machado2018BV2,2632,True,1,,10.5281/zenodo.1472859,FIB-SEM,Cell,"[{""Pixel size X"": ""4.13"", ""Pixel size Y"": ""4.13"", ""Pixel size Z"": ""5"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Maimets2016,19,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+Moller2020_flavivirus,170,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+Moller2020_mimivirus,54,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+Morath2012_bone_marrow,409,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+Morath2012_human_bcells,586,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+Morath2012_jurkat,941,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+Morath2012_mouse_bcells,601,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+Morath2012_tcell_blast,410,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+Mw4887RktLH73Cm6Jo8t_3D,1160,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""29.98"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+N293N207Y456Z2h495Bd_3D,32,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.43"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+N2A54aSw4Lf8o973I8i3_3D,347,True,1,,,FIB-SEM,Leukocyte,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.71"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+N6idX53K25q650u8599a_3D,4,True,1,,,FIB-SEM,Bone,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.64"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+NV832cuYm5xa899L7H5J_3D,1760,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""16"", ""Pixel size Y"": ""16"", ""Pixel size Z"": ""15.68"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Nm772aG9820Mq43603Oj_2D,8648,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+O0471719pw6eoU93B49a_3D,2843,True,1,,,FIB-SEM,Lymphocyte,"[{""Pixel size X"": ""16"", ""Pixel size Y"": ""16"", ""Pixel size Z"": ""15.59"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+O36p1UV55q8hP9d90o18_2D,42,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+O4Rzfk6218021czK5657_3D,2447,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.57"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+OHJ6188G1w3yT4o90gce_3D,60,True,1,,,FIB-SEM,Embryo,"[{""Pixel size X"": ""24"", ""Pixel size Y"": ""24"", ""Pixel size Z"": ""24.19"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+OatAt4CH1Y89D10qb573,1330,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+Ozd2Tu1H7vos2Pd8697k_3D,115,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.89"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Parlakgul2020_figures,43,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+Parlakgul2020_file03_video,1353,True,1,,10.1101/2020.11.18.387803;10.1101/2020.11.18.387803v3.supplementary-material,FIB-SEM,Cell,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""8"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Parlakgul2020_file04_video,872,True,1,,10.1101/2020.11.18.387803;10.1101/2020.11.18.387803v3.supplementary-material,FIB-SEM,Cell,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""8"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+PftZE86YgS54j6vfi48K_2D,4,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+PgsT16qj4w3LBB612879_3D,226,True,1,,,FIB-SEM,Lung,"[{""Pixel size X"": ""35.99"", ""Pixel size Y"": ""35.99"", ""Pixel size Z"": ""35.76"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Q12S072128Eu3424Eu1v_3D,1070,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""17.99"", ""Pixel size Y"": ""17.99"", ""Pixel size Z"": ""18.92"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Q3cNG15zI741I2NS4uV8_2D,2386,True,1,,,TEM,Skin,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+Qh55130q0A9905dblh6x_3D,322,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.64"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+QnRA6q79Nx46nzG8952C_3D,54,True,1,,,FIB-SEM,Connective tissue,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.21"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+R3M171zx572ZSxx3K03S_3D,1101,True,1,,,FIB-SEM,Leukocyte,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""28.92"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+RcOMDuIb7u5BHIi15646_3D,15,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""19.03"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+RfH2w9771YFA183q28gJ_3D,1841,True,1,,,FIB-SEM,Skin,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""28.86"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Roels2020_mouse_denoised,7,True,1,,10.1038/s41467-020-14529-0,FIB-SEM,Heart,"[{""Pixel size X"": ""5"", ""Pixel size Y"": ""5"", ""Pixel size Z"": ""5"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Roels2020_murine_denoised,1784,True,1,,10.1038/s41467-020-14529-0,SBF-SEM,Heart,"[{""Pixel size X"": ""12.44"", ""Pixel size Y"": ""12.44"", ""Pixel size Z"": ""50"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Rudlaff2020_S10BV2,92,True,1,,10.6019/empiar-10392,FIB-SEM,Cell,"[{""Pixel size X"": ""10"", ""Pixel size Y"": ""10"", ""Pixel size Z"": ""20"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Rudlaff2020_S11BV2,129,True,1,,10.6019/empiar-10392,FIB-SEM,Cell,"[{""Pixel size X"": ""10"", ""Pixel size Y"": ""10"", ""Pixel size Z"": ""20"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Rudlaff2020_S9BV2,62,True,1,,10.6019/empiar-10392,FIB-SEM,Cell,"[{""Pixel size X"": ""10"", ""Pixel size Y"": ""10"", ""Pixel size Z"": ""20"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+S65066J931X5f40zr2OT_3D,79,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.42"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+SUiipO53q1qXl68i16s0_3D,3455,True,1,,,FIB-SEM,Bone,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.2"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+SWAN33M31ii824bZI2uK_3D,46,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""16"", ""Pixel size Y"": ""16"", ""Pixel size Z"": ""16.42"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Sakaguchi2016_L-Schizont_2,219,True,1,,10.6019/empiar-10055,SBF-SEM,Cell,"[{""Pixel size X"": ""8.22"", ""Pixel size Y"": ""8.22"", ""Pixel size Z"": ""70"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Sartori-Rupp2019_16_video,69,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+Sartori-Rupp2019_18_video,26,True,1,,10.1038/s41467-018-08178-7,FIB-SEM,Cell,"[{""Pixel size X"": ""10"", ""Pixel size Y"": ""10"", ""Pixel size Z"": ""10"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Scotuzzi2017,47,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+Sokol2015,167,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+T806OzF576188Z95P6te_3D,1407,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.01"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+T9Q6576rV9eumQ00ND1c_3D,135,True,1,,,FIB-SEM,Connective tissue,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.19"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Tsang2018_50451,7185,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+Tsang2018_50452BV2,1552,True,1,,10.7295/w9cil50452,SBF-SEM,Invertebrate,"[{""Pixel size X"": ""6.5"", ""Pixel size Y"": ""6.5"", ""Pixel size Z"": ""50"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+U873C0L386l784X14698_3D,193,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.4"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+UOTspB1Db76X4099h1C4_3D,63,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.18"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Un5m8pL7y0F07Zsm2X1R_3D,18,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.56"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+UroCell,589,True,1,,10.1016/j.compbiomed.2020.103693,FIB-SEM,Urinary,"[{""Pixel size X"": ""5.5"", ""Pixel size Y"": ""5.5"", ""Pixel size Z"": ""5.5"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+V36J6j27zgz9H1emd44M_3D,713,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""29.58"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+V393mr6RC9436k42vchV_2D,22,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+V3G9my0Z27Y950PFB49U_2D,537,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+V6j91F69493JC51LhI4R_3D,549,True,1,,,FIB-SEM,Colon,"[{""Pixel size X"": ""30.01"", ""Pixel size Y"": ""30.01"", ""Pixel size Z"": ""30.09"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+V9y63RxYgN0h057i5908_3D,821,True,1,,,FIB-SEM,Kidney,"[{""Pixel size X"": ""16"", ""Pixel size Y"": ""16"", ""Pixel size Z"": ""15.86"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+W34ObM2QN5I2txM0DQA9_3D,3375,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.74"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+W3I0a76BF35aN61QohDQ_3D,2231,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""35.99"", ""Pixel size Y"": ""35.99"", ""Pixel size Z"": ""36.19"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+W666d135348M8bQ3751r_3D,44,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.39"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Wang2017_sm1_video,49,True,1,,10.1128/jvi.01605-16,FIB-SEM,Cell,"[{""Pixel size X"": ""2"", ""Pixel size Y"": ""2"", ""Pixel size Z"": ""20"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Wang2017_sm2_video,20,True,1,,10.1128/jvi.01605-16,FIB-SEM,Cell,"[{""Pixel size X"": ""2"", ""Pixel size Y"": ""2"", ""Pixel size Z"": ""20"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+X10ip14fLD47MA8489dQ_2D,117,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+X60714t6Y4786xex15tq_2D,9,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+X8M7PH279ByTmppQ3tz4_3D,128,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.33"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+XN2Aj88A9739T7jDK5f1_2D,38,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+Xiol34RrH4Sd95A788jC_3D,10307,True,1,,,FIB-SEM,Epididymis,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.38"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Xnd4gKAwhzcWt9A8Vl68_3D,789,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""29.86"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+XwA9op28mFn0r69Yb02z_2D,585,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+Xx6YO1Vr57y42v0lx3X0_3D,18,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.66"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Y52z8ukO9G7WJ77T777u_3D,20,True,1,,,FIB-SEM,Connective tissue,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.09"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Y89JW6j942S4k1Db77ky_3D,47,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.39"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+YFn360oy01aP89OHK8CQ_3D,35,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.93"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Yan2020_170314BV2,10207,True,1,,10.6019/empiar-10442,SBF-SEM,Other,"[{""Pixel size X"": ""7"", ""Pixel size Y"": ""7"", ""Pixel size Z"": ""40"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Yan2020_170821BV2,4580,True,1,,10.6019/empiar-10442,SBF-SEM,Other,"[{""Pixel size X"": ""7"", ""Pixel size Y"": ""7"", ""Pixel size Z"": ""40"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Yan2020_180130_down,11235,True,1,,10.6019/empiar-10442,SBF-SEM,Other,"[{""Pixel size X"": ""10"", ""Pixel size Y"": ""10"", ""Pixel size Z"": ""40"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Yan2020_180130_up,12016,True,1,,10.6019/empiar-10442,SBF-SEM,Other,"[{""Pixel size X"": ""10"", ""Pixel size Y"": ""10"", ""Pixel size Z"": ""40"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Yb6H4Sd4qx4NC5s961eZ_3D,305,True,1,,,FIB-SEM,Skin,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""31.25"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+YiCnw9E833015Ho57bdy_3D,1945,True,1,,,FIB-SEM,Breast ,"[{""Pixel size X"": ""36"", ""Pixel size Y"": ""36"", ""Pixel size Z"": ""42.71"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Yoshida2020_10460_t1,812,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+Yoshida2020_10460_t2,498,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+Yoshida2020_10460_t3,432,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+Yoshida2020_10461_01BV2,6822,True,1,,10.6019/empiar-10461,SBF-SEM,Cell,"[{""Pixel size X"": ""6"", ""Pixel size Y"": ""6"", ""Pixel size Z"": ""50"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Yoshida2020_10462_01,4011,True,1,,10.6019/empiar-10462,SBF-SEM,Cell,"[{""Pixel size X"": ""7.19"", ""Pixel size Y"": ""7.19"", ""Pixel size Z"": ""50"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Yoshida2020_10463_01,5020,True,1,,10.6019/empiar-10463,SBF-SEM,Monocyte,"[{""Pixel size X"": ""6"", ""Pixel size Y"": ""6"", ""Pixel size Z"": ""50"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Yoshida2020_10463_02,4258,True,1,,10.6019/empiar-10463,SBF-SEM,Monocyte,"[{""Pixel size X"": ""6.4"", ""Pixel size Y"": ""6.4"", ""Pixel size Z"": ""50"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Yoshida2020_10463_03,4494,True,1,,10.6019/empiar-10463,SBF-SEM,Monocyte,"[{""Pixel size X"": ""6.4"", ""Pixel size Y"": ""6.4"", ""Pixel size Z"": ""50"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Yoshida2020_10463_04,158,True,1,,10.6019/empiar-10463,SBF-SEM,Monocyte,"[{""Pixel size X"": ""7.8"", ""Pixel size Y"": ""7.8"", ""Pixel size Z"": ""50"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+Z09B881E9Ge9s09371YB_2D,49,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+a33j3N8ZsFEEv9ph6L8C_3D,1026,True,1,,,FIB-SEM,Lung,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""29.37"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+a97cp8Tcp5xCTbr4VP05_3D,1023,True,1,,,FIB-SEM,Colon,"[{""Pixel size X"": ""30.01"", ""Pixel size Y"": ""30.01"", ""Pixel size Z"": ""30.26"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+aTn83W4FtqeV6Rc2E9Qd_3D,18,True,1,,,FIB-SEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+ax97DHMe4HA24EEg523n_3D,1023,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.67"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+b07Yzq6Vry5yz0e9T76D_3D,544,True,1,,,FIB-SEM,Eye,"[{""Pixel size X"": ""24"", ""Pixel size Y"": ""24"", ""Pixel size Z"": ""24.11"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+b319Tchu855S45E7ps92_3D,1069,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""19.14"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+b8cA5W44skp47T2SzPN2_3D,59,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""16.83"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+bbD0oV702y9rMZp7z6Oo_3D,283,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.45"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+bhatla2015,26563,True,1,,10.1016/j.cub.2015.06.052,ssTEM,Invertebrate,"[{""Pixel size X"": ""2"", ""Pixel size Y"": ""2"", ""Pixel size Z"": ""50"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+bloss2018,63759,True,1,,10.1038/s41593-018-0084-6,ssTEM,Brain,"[{""Pixel size X"": ""2"", ""Pixel size Y"": ""2"", ""Pixel size Z"": ""50"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+bock2011,38877,True,1,,10.1038/nature09802,ssTEM,Brain,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""40"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+bumbarger2013,28479,True,1,,10.1016/j.cell.2012.12.013,ssTEM,Invertebrate,"[{""Pixel size X"": ""3.9"", ""Pixel size Y"": ""3.9"", ""Pixel size Z"": ""50"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+c5G347SF3UBEVK34W1v7,1210,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+cA3yLu9lf40s3Xv355y3_2D,2001,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+cY02DS9c661W53YOG912_3D,72,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.96"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+cil_micro3632_filter_rec,169,True,1,,10.7295/w9ccdb3632,ET,Lymphocytes,"[{""Pixel size X"": ""2.255"", ""Pixel size Y"": ""2.255"", ""Pixel size Z"": ""150"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+cil_micro6023,372,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+cil_micro6355_ALZ_3486.st.flipBV4,662,True,1,,10.7295/w9ccdb6355,TEM,Brain,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": ""250"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+cil_micro8483_stack,1,True,1,,10.7295/w9ccdb8483,TEM,Brain,"[{""Pixel size X"": ""1.1"", ""Pixel size Y"": ""1.1"", ""Pixel size Z"": ""120"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+cil_project20099_stack50058_BV4,381,True,1,,10.7295/w9cil50058,SBF-SEM,Cell,"[{""Pixel size X"": ""3.325"", ""Pixel size Y"": ""3.325"", ""Pixel size Z"": ""60"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+collman2015,402,True,1,,10.1523/jneurosci.4274-14.2015,AT,Brain,"[{""Pixel size X"": ""2.24"", ""Pixel size Y"": ""2.24"", ""Pixel size Z"": ""70"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+d3096421v4uR759BH221_3D,1037,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.76"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+d3Ejna064WC31EccmS82_3D,2017,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""19"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+d6u5H89256pU149QT41Q_3D,278,True,1,,,FIB-SEM,Lung,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""29.36"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+dTS876855HG5yru78R9Y_3D,1765,True,1,,,FIB-SEM,Embryo,"[{""Pixel size X"": ""24"", ""Pixel size Y"": ""24"", ""Pixel size Z"": ""24.27"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+da72EA74W6NNHiAX9cS6_3D,97,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.01"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+e66Ko1F31Yzuy3v07cG6_3D,512,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.52"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+e6XZ088v76T64ykKJUG0_3D,4,True,1,,,FIB-SEM,Spleen,"[{""Pixel size X"": ""36"", ""Pixel size Y"": ""36"", ""Pixel size Z"": ""37.92"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+e7DE72kk7gIT5a67kDWN_3D,17,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.91"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+e7x0w20zD0LEs30z7RCi_3D,1623,True,1,,,FIB-SEM,Invertebrate,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.11"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+eAs78L7672176G2ms41u_3D,2151,True,1,,,FIB-SEM,Testis,"[{""Pixel size X"": ""29.99"", ""Pixel size Y"": ""29.99"", ""Pixel size Z"": ""30.3"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+eaL75jSBo8ry173xu52q_3D,28,True,1,,,FIB-SEM,Spleen,"[{""Pixel size X"": ""36"", ""Pixel size Y"": ""36"", ""Pixel size Z"": ""37.3"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+ebm87N44vNNH4Ntp48jy_3D,1036,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""20.15"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+f814ay91UOLQO8LU1N1z_3D,1338,True,1,,,FIB-SEM,Embryo,"[{""Pixel size X"": ""30.01"", ""Pixel size Y"": ""30.01"", ""Pixel size Z"": ""29.76"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+fV0Iv03c9079383NV389_2D,57,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+g5p6Ob04a5ELoFTFga94_3D,2885,True,1,,,FIB-SEM,Skin,"[{""Pixel size X"": ""20"", ""Pixel size Y"": ""20"", ""Pixel size Z"": ""19.06"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+g6hab90BNa741CW40Hu6_2D,56,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+g912E49kXxso4e6pn6MX_3D,1018,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.06"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+gub8Y3q8444t25J62913_2D,22,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+h0363AnPM1B7kD4RZYDa_2D,1509,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+h2gz2L960d05Lh72b4Ti_2D,126,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+h66972y4L1hP700677dU_3D,84,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+h80fal5W9S791BclEGhB_2D,243,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+h88ibA80sBuM551DL45V_3D,93,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.81"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+hHWQS15Qdmn7S995178n_3D,194,True,1,,,FIB-SEM,Bone,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""19"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+hIxsu95gl46A073wne2n,5,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+hYnHrGy6RDJ4BX6cF968_3D,1410,True,1,,,FIB-SEM,Salivary gland,"[{""Pixel size X"": ""30.01"", ""Pixel size Y"": ""30.01"", ""Pixel size Z"": ""31.64"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+hcb6X5u7L5vZmEa0318h_3D,41,True,1,,,FIB-SEM,Connective tissue,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.05"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+helmstaedter2011nn.2868_E1088,432,True,1,,10.1038/nn.2868,SBF-SEM,Eye,"[{""Pixel size X"": ""22"", ""Pixel size Y"": ""22"", ""Pixel size Z"": ""30"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+helmstaedter2011nn.2868_K0563,1496,True,1,,10.1038/nn.2868,SBF-SEM,Eye,"[{""Pixel size X"": ""12"", ""Pixel size Y"": ""12"", ""Pixel size Z"": ""25"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+hildebrand2017,5121,True,1,,10.1038/nature22356,AT,Brain,"[{""Pixel size X"": ""61.4"", ""Pixel size Y"": ""61.4"", ""Pixel size Z"": ""60"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+i20wYv0oY57CxE12F47h_3D,1327,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""17.88"", ""Pixel size Y"": ""17.88"", ""Pixel size Z"": ""21.04"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+i5FhElp6r3xwJJ5s1958_3D,33,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""16"", ""Pixel size Y"": ""16"", ""Pixel size Z"": ""16"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+i63n309l949w3r9152MB_3D,1730,True,1,,,FIB-SEM,Kidney,"[{""Pixel size X"": ""30.01"", ""Pixel size Y"": ""30.01"", ""Pixel size Z"": ""29.14"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+i7tQ3Y2jb0BikH98N29h_2D,9,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+il103P1Gf55Hx0i93j92_3D,3,True,1,,,FIB-SEM,Embryo,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.28"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+jLFnJG45CYC18KJot3HT_3D,27,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.4"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+jcvG7527W5u6s45syHs0_3D,527,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""19"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+jrc_choroid-plexus-2_openorganelle,8197,True,1,jrc_choroid-plexus-2,10.25378/janelia.13123427,FIB-SEM,Brain,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""8"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+jrc_ctl-id8-1_openorganelle,2943,True,1,jrc_ctl-id8-1,10.25378/janelia.13114454,FIB-SEM,Cell,"[{""Pixel size X"": ""12"", ""Pixel size Y"": ""12"", ""Pixel size Z"": ""10.44"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+jrc_ctl-id8-2_openorganelle,421,True,1,jrc_ctl-id8-2,10.6084/m9.figshare.14447541,FIB-SEM,Cell,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""8"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+jrc_ctl-id8-3_openorganelle,3819,True,1,jrc_ctl-id8-3,10.6084/m9.figshare.14447562,FIB-SEM,Cell,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""8"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+jrc_ctl-id8-4_openorganelle,5257,True,1,jrc_ctl-id8-4,10.6084/m9.figshare.14447565,FIB-SEM,Cell,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""8"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+jrc_ctl-id8-5_openorganelle,1791,True,1,jrc_ctl-id8-5,10.6084/m9.figshare.14447568,FIB-SEM,Cell,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""8"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+jrc_hela-1_openorganelle,450,True,1,jrc_hela-1,10.25378/janelia.13123415,FIB-SEM,Cell,"[{""Pixel size X"": ""16"", ""Pixel size Y"": ""16"", ""Pixel size Z"": ""16"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+jrc_hela-21_openorganelle,3270,True,1,jrc_hela-21,10.25378/janelia.13469550,FIB-SEM,Cell,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""8"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+jrc_hela-22_openorganelle,3600,True,1,jrc_hela-22,10.25378/janelia.13469901,FIB-SEM,Cell,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""8"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+jrc_hela-2_openorganelle,3447,True,1,jrc_hela-2,10.25378/janelia.13114211,FIB-SEM,Cell,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""10.48"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+jrc_hela-3_openorganelle,4409,True,1,jrc_hela-3,10.25378/janelia.13114244,FIB-SEM,Cell,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""6.48"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+jrc_hela-4_openorganelle,2929,True,1,jrc_hela-4,10.25378/janelia.13114472,FIB-SEM,Cell,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""8.56"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+jrc_hela-bfa_openorganelle,13,True,1,jrc_hela-bfa,10.25378/janelia.13469814,FIB-SEM,Cell,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""8"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+jrc_hela-h89-1_openorganelle,2720,True,1,jrc_hela-h89-1,10.25378/janelia.13469964,FIB-SEM,Cell,"[{""Pixel size X"": ""16"", ""Pixel size Y"": ""16"", ""Pixel size Z"": ""16"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+jrc_hela-h89-2_openorganelle,2756,True,1,jrc_hela-h89-2,10.25378/janelia.13469964,FIB-SEM,Cell,"[{""Pixel size X"": ""16"", ""Pixel size Y"": ""16"", ""Pixel size Z"": ""16"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+jrc_jurkat-1_openorganelle,75,True,1,jrc_jurkat-1,10.25378/janelia.13114259,FIB-SEM,Cell,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""6.88"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+jrc_macrophage-2_openorganelle,31,True,1,jrc_macrophage-2,10.25378/janelia.13114343,FIB-SEM,Cell,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""6.72"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+jrc_mus-pancreas-1_openorganelle,34117,True,1,jrc_mus-pancreas-1,10.25378/janelia.13114499,FIB-SEM,Pancreas,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""6.8"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+jrc_sum159-1_openorganelle,111,True,1,jrc_sum159-1,10.25378/janelia.13114352,FIB-SEM,Cell,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""9.12"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+k108UoQubm8k21k5QkFC_2D,70,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+k75Kf715A9h6p4S60682_2D,5977,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+k8T5HvteP37L1oe8uM97_3D,487,True,1,,,FIB-SEM,Colon,"[{""Pixel size X"": ""40"", ""Pixel size Y"": ""40"", ""Pixel size Z"": ""40"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+kO59378603k561i6j3u7_2D,592,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+kUtv471lLkt79s2TU93e_3D,87,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.96"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+kharris2015_apical,2302,True,1,,10.1038/sdata.2015.46;10.7281/t11z429q,SEM,Brain,"[{""Pixel size X"": ""2"", ""Pixel size Y"": ""2"", ""Pixel size Z"": ""50"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+kharris2015_oblique,908,True,1,,10.1038/sdata.2015.46;10.7281/t11z429q,SEM,Brain,"[{""Pixel size X"": ""2"", ""Pixel size Y"": ""2"", ""Pixel size Z"": ""50"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+kharris2015_spine,385,True,1,,10.1038/sdata.2015.46;10.7281/t11z429q,SEM,Brain,"[{""Pixel size X"": ""2"", ""Pixel size Y"": ""2"", ""Pixel size Z"": ""50"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+l28724ArF2414tzd27lU_3D,830,True,1,,,FIB-SEM,Salivary gland,"[{""Pixel size X"": ""30.01"", ""Pixel size Y"": ""30.01"", ""Pixel size Z"": ""31.35"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+l2C4dFu1Y2t3VuG5459E_3D,148,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.38"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+l2c4q87att1BVs01TL0J_3D,5583,True,1,,,FIB-SEM,Embryo,"[{""Pixel size X"": ""20"", ""Pixel size Y"": ""20"", ""Pixel size Z"": ""20"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+l8566M4UlgH7svkU9911_3D,2534,True,1,,,FIB-SEM,Skin,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+lee2016,61821,True,1,,10.1038/nature17192,ssTEM,Brain,"[{""Pixel size X"": ""4"", ""Pixel size Y"": ""4"", ""Pixel size Z"": ""40"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+lg8G7ewTqur0ufh2u7BX,2033,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+ljkN9d6g7U1obJ0A57z4_3D,24,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.47"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+lu23D4849n7O2FgTBJ16_3D,1203,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.79"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+m05774hPP98JSS9m0ozq_3D,99,True,1,,,FIB-SEM,Embryo,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""29.93"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+m0r2r9QaCr9n395J7VgJ_3D,1681,True,1,,,FIB-SEM,Colon,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.07"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+m122M75O2k48HtvvR86y_2D,286,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+m65y4H92L8CHi4J4W8N8_3D,2954,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.83"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+m6w1fvD9tN6rc1L3X092_2D,44,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+m96Z33k8jz080FCYK73S_3D,2720,True,1,,,FIB-SEM,Colon,"[{""Pixel size X"": ""30.01"", ""Pixel size Y"": ""30.01"", ""Pixel size Z"": ""30.11"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+mGfy0js8407IYOb3I0x7_3D,59,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.96"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+mKG74IYz5B4ln583O8L4_3D,141,True,1,,,FIB-SEM,Bone,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.16"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+mT4iI68h6x323J7l9q21_3D,1818,True,1,,,FIB-SEM,Embryo,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""31.23"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+mUFe38L8273mhCZGT048_2D,73,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+mgut583jdRU385hnhN4q_3D,818,True,1,,,FIB-SEM,Lung,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""28.49"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+mhf5b3U54VY3q79Ri2dg_2D,1527,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+microns_cortical_mm3,48742,True,1,,10.5281/zenodo.3710459,ssTEM,Brain,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""80"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+mobie_yeast-clem,6,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+n0htG4629QQCe4sygP6q_3D,39,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.12"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+n10lxG85gPfK09mr2RTQ_3D,686,True,1,,,FIB-SEM,Lung,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.17"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+n63H37085q7dg6984LJm_3D,147,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.55"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+n6g9HdA0C8Thrz609Iv4_3D,75,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18.38"", ""Pixel size Y"": ""18.38"", ""Pixel size Z"": ""18.59"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+n796B9jsm44YP27b0Gj5_3D,899,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.23"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+nA165oT3069d24O2X627_2D,1054,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+np60Y31jKvbB25yk089d_3D,2941,True,1,,,FIB-SEM,Lung,"[{""Pixel size X"": ""24"", ""Pixel size Y"": ""24"", ""Pixel size Z"": ""24.62"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+o2j58G9SD938cpw62AEC_3D,93,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.33"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+o6a66ZxZcuqdn0v6015h_3D,283,True,1,,,FIB-SEM,Colon,"[{""Pixel size X"": ""29.99"", ""Pixel size Y"": ""29.99"", ""Pixel size Z"": ""30.26"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+ohHX052jR3NswGh0m7rp_3D,212,True,1,,,FIB-SEM,Lung,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""29.49"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+p3Ez34A02q8A8p1TQu6a_3D,3,True,1,,,FIB-SEM,Spleen,"[{""Pixel size X"": ""36"", ""Pixel size Y"": ""36"", ""Pixel size Z"": ""36.82"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+pF60R78RQD97wfD9I0Uw_3D,2067,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""19.06"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+perez2014,2223,True,1,,10.3389/fnana.2014.00126;10.3389/fnana.2014.00126/full,SBF-SEM,Brain,"[{""Pixel size X"": ""7.799"", ""Pixel size Y"": ""7.799"", ""Pixel size Z"": ""30"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+platybrowser_mobie,13991,True,1,,10.1101/2020.02.26.961037,SBF-SEM,Invertebrate,"[{""Pixel size X"": ""10"", ""Pixel size Y"": ""10"", ""Pixel size Z"": ""25"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+plept4y8A5Aw2mFG7Z12_3D,45,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.71"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+pqx3z3Y183Fq3Z1z6Q2m_3D,25,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""19.63"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+q6HD2r0E797hCpv3237q_3D,186,True,1,,,FIB-SEM,Lung,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""29.39"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+q6e4262363657515c6M3_3D,1497,True,1,,,FIB-SEM,Testis,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+qI3yUcpWs875E6o4aGg2_3D,19,True,1,,,FIB-SEM,Eye,"[{""Pixel size X"": ""25.88"", ""Pixel size Y"": ""25.88"", ""Pixel size Z"": ""24"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+qmxVQwV2VrSe23dj7Z5v_3D,142,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.35"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+r367U1a07102m6wCY3B4,1447,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+rAj36nAkhIRr43MXkDzd_3D,32,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.26"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+rHcv13Tt2TW42Q59866C_2D,53,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+s3249HW26yfp08x2Q9Q1_2D,255,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+s52s87m66d2w477Gj670_3D,64,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.69"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+s7Q09271T74H9ho6eqQ7_3D,487,True,1,,,FIB-SEM,Brain,"[{""Pixel size X"": ""24"", ""Pixel size Y"": ""24"", ""Pixel size Z"": ""23.79"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+sFF3gV4i57STT85SG9t6_3D,28,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.92"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+sOi4hAl884Oiv466lL55_3D,934,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""12"", ""Pixel size Y"": ""12"", ""Pixel size Z"": ""17.57"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+segem2015,14703,True,1,,10.1016/j.neuron.2015.09.003,SBF-SEM,Brain,"[{""Pixel size X"": ""12"", ""Pixel size Y"": ""12"", ""Pixel size Z"": ""25"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+shapson-coe2021_h01,41475,True,1,,10.1101/2021.05.29.446289,SEM,Brain,"[{""Pixel size X"": ""4"", ""Pixel size Y"": ""4"", ""Pixel size Z"": ""33"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+sj11r41527518838AoSs_2D,859,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+sponge-fibsem-cell1_mobie,255,True,1,,10.1101/758276,FIB-SEM,Invertebrate,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""8"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+sponge-fibsem-cell3_mobie,83,True,1,,10.1101/758276,FIB-SEM,Invertebrate,"[{""Pixel size X"": ""5"", ""Pixel size Y"": ""5"", ""Pixel size Z"": ""8"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+sponge-fibsem-choanocyte-chamber_mobie,787,True,1,,10.1101/758276,FIB-SEM,Invertebrate,"[{""Pixel size X"": ""15"", ""Pixel size Y"": ""15"", ""Pixel size Z"": ""15"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+t1Ft5245Hf66Y7163e3O_2D,5250,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+t68tu5HpGY948fVF1WGo_3D,2831,True,1,,,FIB-SEM,Testis,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""29.99"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+t7vhFT3wZh6Q5bRtK73a_3D,611,True,1,,,FIB-SEM,Lymphocyte,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.97"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+tDXy2335eB5Z144G2ZN2_3D,2358,True,1,,,FIB-SEM,Kidney,"[{""Pixel size X"": ""30.01"", ""Pixel size Y"": ""30.01"", ""Pixel size Z"": ""29.56"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+tV1S9Lsk19l94qZr4K92_3D,53,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.74"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+takemura2013,70188,True,1,,10.1038/nature12450,ssTEM,Brain,"[{""Pixel size X"": ""4.4"", ""Pixel size Y"": ""4.4"", ""Pixel size Z"": ""44"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+templier_wafer1,38456,True,1,,10.7554/elife.45696,SEM,Brain,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""50"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+templier_wafer3,34082,True,1,,10.7554/elife.45696,SEM,Brain,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""50"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+tu0vs4G968F2lp6c7713_3D,81,True,1,,,FIB-SEM,Connective tissue,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.57"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+tvC710zL557Do2u7HA31_2D,827,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+u175vN689we595Z20453_2D,602,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+u1f8c6806e11u4D88Ew5_2D,2200,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+u1qRL44D97B85vp4g31G_3D,581,True,1,,,FIB-SEM,Lymphocyte,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.81"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+u6875F929xqKd37S6x3j_3D,10,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.04"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+ud9ug456806lz140c323_3D,335,True,1,,,FIB-SEM,Brain,"[{""Pixel size X"": ""24"", ""Pixel size Y"": ""24"", ""Pixel size Z"": ""23.91"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+vfh0i687u6t7N3w694t6_3D,1933,True,1,,10.1083/jcb.201909137,FIB-SEM,Embryo,"[{""Pixel size X"": ""24"", ""Pixel size Y"": ""24"", ""Pixel size Z"": ""25.07"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+wX55ZW30hCQ3I33270OA,49,True,0,,,,,[],UNVERIFIED,NOT_TESTED
+wanner2016,15592,True,1,,10.1038/sdata.2016.100;10.7281/t1ms3qn7,SBF-SEM,Brain,"[{""Pixel size X"": ""4"", ""Pixel size Y"": ""4"", ""Pixel size Z"": ""25"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+wcBL8t8cc0167K8a3114_3D,270,True,1,,,FIB-SEM,Leukocyte,"[{""Pixel size X"": ""24"", ""Pixel size Y"": ""24"", ""Pixel size Z"": ""24.63"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+wi479t835H0P8hF6H48x_3D,201,True,1,,,FIB-SEM,,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""31.36"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+wm3B84j9dwvG9wD09cY5_3D,1746,True,1,,,FIB-SEM,Testis,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""30.09"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+woozRtA9y1Nq8f34u063_3D,110,True,1,,,FIB-SEM,Connective tissue,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""21.79"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+wp35Y0ySlFz4eL4Dy023_3D,3446,True,1,,,FIB-SEM,Skin,"[{""Pixel size X"": ""20"", ""Pixel size Y"": ""20"", ""Pixel size Z"": ""19.98"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+wp559828n1b757NqXaOD_3D,955,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""12"", ""Pixel size Y"": ""12"", ""Pixel size Z"": ""17.03"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+x02vxq4dgo771har43OQ_2D,646,True,1,,,TEM,,"[{""Pixel size X"": """", ""Pixel size Y"": """", ""Pixel size Z"": """", ""Units"": """"}]",UNVERIFIED,NOT_TESTED
+x0704x9m931r90vJ1FH7_3D,166,True,1,,,FIB-SEM,Leukocyte,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.46"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+x1491ZZE6BtK10W8C469_3D,21,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.11"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+x29037608Tz4c805vyKv_3D,6323,True,1,,,FIB-SEM,Eye,"[{""Pixel size X"": ""16"", ""Pixel size Y"": ""16"", ""Pixel size Z"": ""15.74"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+x8653U5fo54g5SRR01lt_3D,1118,True,1,,,FIB-SEM,Colon,"[{""Pixel size X"": ""30.01"", ""Pixel size Y"": ""30.01"", ""Pixel size Z"": ""30.21"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+xN9zo10z47336V2qC06c_3D,95,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.15"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+xsA8CzCCg21H86b0s8ad_3D,12,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.96"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+xu2017-video-elife-25916-media2,2848,True,1,,10.7554/elife.25916.007,FIB-SEM,Brain,"[{""Pixel size X"": ""8"", ""Pixel size Y"": ""8"", ""Pixel size Z"": ""8"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+xu2017-video-elife-25916-media4,7,True,1,,10.7554/elife.25916.013,FIB-SEM,Brain,"[{""Pixel size X"": ""4"", ""Pixel size Y"": ""4"", ""Pixel size Z"": ""4"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+xu2017-video-elife-25916-media5,346,True,1,,10.7554/elife.25916.015,FIB-SEM,Brain,"[{""Pixel size X"": ""4"", ""Pixel size Y"": ""4"", ""Pixel size Z"": ""4"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+xu2017-video-elife-25916-media6,69,True,1,,10.7554/elife.25916.016,FIB-SEM,Cell,"[{""Pixel size X"": ""4"", ""Pixel size Y"": ""4"", ""Pixel size Z"": ""4"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+xu2017-video-elife-25916-media7,1,True,1,,10.7554/elife.25916.017,FIB-SEM,Cell,"[{""Pixel size X"": ""4"", ""Pixel size Y"": ""4"", ""Pixel size Z"": ""4"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+xu2017-video-elife-25916-media8,499,True,1,,10.7554/elife.25916.018,FIB-SEM,Brain,"[{""Pixel size X"": ""4"", ""Pixel size Y"": ""4"", ""Pixel size Z"": ""4"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+y2748rl0090R962O131X_3D,352,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""17.82"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+y8650q7s1NgbK2Q90e4n_3D,1645,True,1,,,FIB-SEM,Testis,"[{""Pixel size X"": ""30.01"", ""Pixel size Y"": ""30.01"", ""Pixel size Z"": ""30.2"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+yArzQlsH9e7s3zEz9MN5_3D,64,True,1,,,FIB-SEM,Epithelium,"[{""Pixel size X"": ""18"", ""Pixel size Y"": ""18"", ""Pixel size Z"": ""18.63"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+z042n6J66lx1oo934B31_3D,713,True,1,,,FIB-SEM,Colon,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""29.88"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+z421t8118pEa85nk2Opd_3D,190,True,1,,,FIB-SEM,Lymphocyte,"[{""Pixel size X"": ""30"", ""Pixel size Y"": ""30"", ""Pixel size Z"": ""31.94"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED
+z9v944r159cA8gnk497D_3D,241,True,1,,,FIB-SEM,Brain,"[{""Pixel size X"": ""24"", ""Pixel size Y"": ""24"", ""Pixel size Z"": ""23.15"", ""Units"": ""nm""}]",UNVERIFIED,NOT_TESTED

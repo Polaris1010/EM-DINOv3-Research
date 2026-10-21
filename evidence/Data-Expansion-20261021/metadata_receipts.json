@@ -1,0 +1,155 @@
+{
+  "retrieved_date_hong_kong": "2026-10-21",
+  "files": [
+    {
+      "path": "metadata/empiar_11759.json",
+      "url": "https://www.ebi.ac.uk/empiar/api/entry/11759",
+      "sha256": "cf92f54981c2960643888b4b9a85a66b024a7cae101630efa6784b058fe198c6",
+      "bytes": 2578
+    },
+    {
+      "path": "metadata/empiar_11958.json",
+      "url": "https://www.ebi.ac.uk/empiar/api/entry/11958",
+      "sha256": "20c38a3849ef463aa8471d10859721a4f2c405e47e984a9aa053b82639100675",
+      "bytes": 5901
+    },
+    {
+      "path": "metadata/empiar_12157.json",
+      "url": "https://www.ebi.ac.uk/empiar/api/entry/12157",
+      "sha256": "3236eeb4f8c7476042afbec272772df25e8cfcb39d37f70bee1b6133cbfa9df0",
+      "bytes": 3022
+    },
+    {
+      "path": "metadata/empiar_12174.json",
+      "url": "https://www.ebi.ac.uk/empiar/api/entry/12174",
+      "sha256": "33bf7d6e423ed5725191e67a9df9e2db195be39a30d0ba7a8c90df5b9a9a8e54",
+      "bytes": 4262
+    },
+    {
+      "path": "metadata/empiar_12585.json",
+      "url": "https://www.ebi.ac.uk/empiar/api/entry/12585",
+      "sha256": "e4239b7a25050fd4fa43c2652ad913477affbaf0813def58ad2ba1fc0d8192f4",
+      "bytes": 2921
+    },
+    {
+      "path": "metadata/empiar_12674.json",
+      "url": "https://www.ebi.ac.uk/empiar/api/entry/12674",
+      "sha256": "b0af42084600d2de0b6090aa54a7a69523095c82b439dd6768c307d98ab01d92",
+      "bytes": 4037
+    },
+    {
+      "path": "metadata/empiar_13356.json",
+      "url": "https://www.ebi.ac.uk/empiar/api/entry/13356",
+      "sha256": "1b675758b7c56ef92e12f01573599348f708ce3b6e3b99da5f13e50aed5f54f7",
+      "bytes": 3522
+    },
+    {
+      "path": "metadata/figshare_19196540.json",
+      "url": "https://api.figshare.com/v2/articles/19196540",
+      "sha256": "e72491c0e885822978f93d40aa3a11d34f4ecbe927cca837d4eb50597dc1b225",
+      "bytes": 6195
+    },
+    {
+      "path": "metadata/figshare_19196585.json",
+      "url": "https://api.figshare.com/v2/articles/19196585",
+      "sha256": "b15339c51e0c3c9861c1c328f291fd68fb534858b92461389996fcf99273d2aa",
+      "bytes": 8528
+    },
+    {
+      "path": "metadata/figshare_23411009.json",
+      "url": "https://api.figshare.com/v2/articles/23411009",
+      "sha256": "487e4d403b29cad130d0faa589c05168f8caf35dc2dc8d6ae6b3e8c3a5f85e9b",
+      "bytes": 7790
+    },
+    {
+      "path": "metadata/figshare_23411843.json",
+      "url": "https://api.figshare.com/v2/articles/23411843",
+      "sha256": "51ddbd67e174f68db5c8aca06ad3d90c3a073177ce4fdda869f88157450e31ae",
+      "bytes": 6716
+    },
+    {
+      "path": "metadata/figshare_24020919.json",
+      "url": "https://api.figshare.com/v2/articles/24020919",
+      "sha256": "fe4816cce720a1f07be802ea0c7dc3b85da762393c9b9f40d53b9a2be7908d16",
+      "bytes": 8468
+    },
+    {
+      "path": "metadata/figshare_24085269.json",
+      "url": "https://api.figshare.com/v2/articles/24085269",
+      "sha256": "94f46e6b92af9b640de1448355bc89561d591f74b07607a785e1f4c262cc80f7",
+      "bytes": 7235
+    },
+    {
+      "path": "metadata/figshare_24085287.json",
+      "url": "https://api.figshare.com/v2/articles/24085287",
+      "sha256": "5250f5039eeec68afec5652735266b730e525904ec4fe6e85daf58843c61a544",
+      "bytes": 7296
+    },
+    {
+      "path": "metadata/figshare_24164004.json",
+      "url": "https://api.figshare.com/v2/articles/24164004",
+      "sha256": "04eb857bc7f2a039bbc8112f962a6f51d04659ce09b97f227f6453d2a79450e9",
+      "bytes": 8925
+    },
+    {
+      "path": "metadata/jrc_mus-heart-1_zattrs.json",
+      "url": "https://janelia-cosem-datasets.s3.amazonaws.com/jrc_mus-heart-1/jrc_mus-heart-1.zarr/recon-1/em/.zattrs",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "bytes": 2
+    },
+    {
+      "path": "metadata/jrc_mus-pancreas-4_zattrs.json",
+      "url": "https://janelia-cosem-datasets.s3.amazonaws.com/jrc_mus-pancreas-4/jrc_mus-pancreas-4.zarr/recon-1/em/.zattrs",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "bytes": 2
+    },
+    {
+      "path": "metadata/jrc_mus-skin-1_zattrs.json",
+      "url": "https://janelia-cosem-datasets.s3.amazonaws.com/jrc_mus-skin-1/jrc_mus-skin-1.zarr/recon-1/em/.zattrs",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "bytes": 2
+    },
+    {
+      "path": "metadata/jrc_mus-thymus-1_zattrs.json",
+      "url": "https://janelia-cosem-datasets.s3.amazonaws.com/jrc_mus-thymus-1/jrc_mus-thymus-1.zarr/recon-1/em/.zattrs",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "bytes": 2
+    },
+    {
+      "path": "metadata/zenodo_11198586.json",
+      "url": "https://zenodo.org/api/records/11198586",
+      "sha256": "12c6aa5cfa423a1436b725802085363c2a3ad6ca70ccc12ed4ae02f3720b263a",
+      "bytes": 5069
+    },
+    {
+      "path": "metadata/zenodo_13880353.json",
+      "url": "https://zenodo.org/api/records/13880353",
+      "sha256": "55d58ceec750bd2e3241992d7e3401251e09acc19701c7199cbe7a3e614bad00",
+      "bytes": 8675
+    },
+    {
+      "path": "metadata/zenodo_15164577.json",
+      "url": "https://zenodo.org/api/records/15164577",
+      "sha256": "b7bd5619b907a8ff00bc8d3554478f9fc38a6a733d26fe25ab9130584ebd7672",
+      "bytes": 3376
+    },
+    {
+      "path": "metadata/zenodo_17137494.json",
+      "url": "https://zenodo.org/api/records/17137494",
+      "sha256": "7e165adb5a67739b232bd44f0f857ff33eae170d92f536540a748baa205dda24",
+      "bytes": 8173
+    },
+    {
+      "path": "metadata/zenodo_5056166.json",
+      "url": "https://zenodo.org/api/records/5056166",
+      "sha256": "57e6a7c89cca7591faf3cc24770a9528c74a325cdefca986b1083e8ed2f7937b",
+      "bytes": 4187
+    },
+    {
+      "path": "metadata/zenodo_8359643.json",
+      "url": "https://zenodo.org/api/records/8359643",
+      "sha256": "90fd3284e74f80fdfb984b2df2d762aff5458b0d33eb2bb612aae05bf283df27",
+      "bytes": 5417
+    }
+  ]
+}

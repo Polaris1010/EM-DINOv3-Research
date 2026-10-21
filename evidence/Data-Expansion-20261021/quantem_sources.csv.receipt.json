@@ -1,0 +1,10 @@
+{
+  "url": "https://huggingface.co/datasets/ArrojoeDrigoLab/quantem-base-model-sources/resolve/main/sources.csv",
+  "sha256": "6688bedd0f69f6d7620b079e7ee1a4f675967525ed557d897e37188bd2471194",
+  "bytes": 102073,
+  "headers": {
+    "Content-Type": "text/plain; charset=utf-8",
+    "ETag": "\"0890ec0e744ad02e56461b59962c7570141c4201\"",
+    "X-Repo-Commit": "99db73cef7ab1b28c46eaa166f01aa902136b23e"
+  }
+}

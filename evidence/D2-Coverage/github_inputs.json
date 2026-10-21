@@ -1,0 +1,28 @@
+{
+  "PR9": {
+    "number": 9,
+    "html_url": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/9",
+    "title": "D1/D2: matched full-state continuation from30k to100k",
+    "body": "D1/D2各从完整30k状态续训至100k，固定100k EMA encoder重新训练同seed原版冻结Primus各40k，38开发区域和MB1七组全部完成，服务已停止。\n\n30k→100k：D1开发Dice0.817542→0.818930（+0.001388），MB1 0.488654→0.478851（−0.009803）；D2开发0.829407→0.841379（+0.011972），MB1 0.461614→0.475754（+0.014140）。100k D2开发比D1高0.022448，但MB1低0.003097。D2在HeLa等改善，Glycolytic muscle明显下降，不能称广泛一致跨域优势。\n\n完整报告、76条开发/5190条MB1指标、逐来源/逐benchmark30k差值、checkpoint SHA、执行代码和每轮Markdown均保留。既有45项CPU测试通过（Windows跳过3项POSIX相关测试，此前服务器5项Linux部署测试通过），两预算精确计数复算10532条Dice、GT像素一致性与等权汇总通过。历史资产快照一致，GPU0未用，网站200。\n\n原30k结果保持；100k为共同延长日程，非从step0开始的100k日程；仅首decoder seed，MB1已暴露。独立目录缺少监督输入造成的早期head启动故障已修复并保留原失败证据。任务完成，不启动D3、更长SSL或更多seed；draft PR不自动合并。\n\n新增有界肌肉复核：复用四组预测，全302层计数匹配，生成11张派生图及哈希索引。D2新增FP主要在背景细密纹理内部，93.71%距同层GT超过180nm；未发现输入/评分错配证据。确定性采样ID重放给出100k实际覆盖D1 MV97.63%，D2 MV92.75%/CEM67.05%，保留来源/集合均100%。未训练、未调阈值/尺度、未重新推理。详见D12_Glycolytic_muscle_review.md。\n",
+    "draft": true,
+    "merged": false,
+    "state": "open"
+  },
+  "PR9_head": "670ed5e684f614bc945d1c92c9948bf5f865c450",
+  "PR8": {
+    "number": 8,
+    "html_url": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/8",
+    "title": "D1/D2: first matched SSL diversity experiment — complete",
+    "body": "D1/D2终止状态 complete，UTC 20261017T204218Z。 两组30k SSL、首seed40k Primus、76条开发指标及5190条固定MB1诊断均完成；开发Dice D1=0.817542，D2=0.829407，D2−D1=+0.011864。先读docs/D12_final_report.md。旧资产前后快照一致，网站200，GPU0未用，不自动100k、D3或更多seed。\n\n固定对照变量为50%CEM数据；同自然初始化、同30k、同40k首seed冻结Primus。历史B100预算和暴露不同，不能把D1−B100当纯采样消融；未知CEM别名仍不证明独立。原49条注册与MV1至MV5/MB1保持。\n",
+    "draft": true,
+    "merged": false,
+    "state": "open"
+  },
+  "recent_merged": [
+    {
+      "number": 1,
+      "url": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/1",
+      "merged_at": "2026-10-13T12:29:24Z"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "empiar_11958": {
+    "ok": true,
+    "bytes": 5901,
+    "keys": [
+      "EMPIAR-11958"
+    ]
+  },
+  "empiar_13356": {
+    "ok": true,
+    "bytes": 3522,
+    "keys": [
+      "EMPIAR-13356"
+    ]
+  },
+  "empiar_12674": {
+    "ok": true,
+    "bytes": 4037,
+    "keys": [
+      "EMPIAR-12674"
+    ]
+  },
+  "empiar_11759": {
+    "ok": true,
+    "bytes": 2578,
+    "keys": [
+      "EMPIAR-11759"
+    ]
+  },
+  "empiar_12157": {
+    "ok": true,
+    "bytes": 3022,
+    "keys": [
+      "EMPIAR-12157"
+    ]
+  },
+  "empiar_12585": {
+    "ok": true,
+    "bytes": 2921,
+    "keys": [
+      "EMPIAR-12585"
+    ]
+  },
+  "empiar_12174": {
+    "ok": true,
+    "bytes": 4262,
+    "keys": [
+      "EMPIAR-12174"
+    ]
+  },
+  "zenodo_17137494": {
+    "ok": true,
+    "bytes": 8173,
+    "keys": [
+      "created",
+      "modified",
+      "id",
+      "conceptrecid",
+      "doi",
+      "conceptdoi",
+      "doi_url",
+      "metadata"
+    ]
+  },
+  "zenodo_13880353": {
+    "ok": true,
+    "bytes": 8675,
+    "keys": [
+      "created",
+      "modified",
+      "id",
+      "conceptrecid",
+      "doi",
+      "conceptdoi",
+      "doi_url",
+      "metadata"
+    ]
+  },
+  "zenodo_15164577": {
+    "ok": true,
+    "bytes": 3376,
+    "keys": [
+      "created",
+      "modified",
+      "id",
+      "conceptrecid",
+      "doi",
+      "conceptdoi",
+      "doi_url",
+      "metadata"
+    ]
+  },
+  "zenodo_11198586": {
+    "ok": true,
+    "bytes": 5069,
+    "keys": [
+      "created",
+      "modified",
+      "id",
+      "conceptrecid",
+      "doi",
+      "conceptdoi",
+      "doi_url",
+      "metadata"
+    ]
+  },
+  "zenodo_8359643": {
+    "ok": true,
+    "bytes": 5417,
+    "keys": [
+      "created",
+      "modified",
+      "id",
+      "conceptrecid",
+      "doi",
+      "conceptdoi",
+      "doi_url",
+      "metadata"
+    ]
+  },
+  "figshare_23411009": {
+    "ok": true,
+    "bytes": 7790,
+    "keys": [
+      "files",
+      "folder_structure",
+      "authors",
+      "custom_fields",
+      "figshare_url",
+      "download_disabled",
+      "description",
+      "funding"
+    ]
+  },
+  "figshare_24164004": {
+    "ok": true,
+    "bytes": 8925,
+    "keys": [
+      "files",
+      "folder_structure",
+      "authors",
+      "custom_fields",
+      "figshare_url",
+      "download_disabled",
+      "description",
+      "funding"
+    ]
+  },
+  "figshare_19196540": {
+    "ok": true,
+    "bytes": 6195,
+    "keys": [
+      "files",
+      "folder_structure",
+      "authors",
+      "custom_fields",
+      "figshare_url",
+      "download_disabled",
+      "description",
+      "funding"
+    ]
+  },
+  "figshare_19196585": {
+    "ok": true,
+    "bytes": 8528,
+    "keys": [
+      "files",
+      "folder_structure",
+      "authors",
+      "custom_fields",
+      "figshare_url",
+      "download_disabled",
+      "description",
+      "funding"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "status": "simulation_only",
+  "gpu_used": false,
+  "image_reads": false,
+  "training_started": false,
+  "historical_replay_seconds": 49.39216799940914,
+  "old_sampler_full_record_equivalence_checks": 500,
+  "prior_CEM_draws": 719071,
+  "future_CEM_slots": 1679696,
+  "future_MV_slots": 1680304,
+  "missing_at30k": 940254,
+  "A_fixed_collection_budget_deficit": 264304,
+  "minimum_required_TV_from_A_future_counts": 0.1573522827940294,
+  "platform": "Windows-11-10.0.26100-SP0",
+  "python": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]",
+  "numpy": "1.26.4",
+  "runs": {
+    "A": {
+      "unique_images": 955756,
+      "coverage": 0.6705022263410486,
+      "unseen": 469677,
+      "full_coverage_step": null,
+      "full_collections": 300,
+      "collection_coverage_quantiles": [
+        0.36994927907904485,
+        0.9463587328917547,
+        0.9972677595628415,
+        1.0,
+        1.0
+      ],
+      "TV_vs_A_future_counts": 0.0,
+      "TV_vs_sqrt_future_probability": 0.007252347923828948,
+      "max_future_collection_share": 0.013614963660090873,
+      "compile_seconds": 0.018065400421619415,
+      "plan_save_seconds": 0.05541789997369051,
+      "plan_bytes": 13440128,
+      "id_lookup_seconds_all_future": 2.3384376000612974,
+      "choose_and_base_compare_seconds_6000": 0.1144178006798029,
+      "plan_sha256": "57ad433764478ef46e7252c1a9623559324793f8773f0438bd08d58d590f2320",
+      "repeat_visit_quantiles_all_images": [
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        5.0,
+        10.0,
+        143.0
+      ]
+    },
+    "B": {
+      "unique_images": 1161129,
+      "coverage": 0.8145798504735052,
+      "unseen": 264304,
+      "full_coverage_step": null,
+      "full_collections": 609,
+      "collection_coverage_quantiles": [
+        0.45304040576736765,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TV_vs_A_future_counts": 0.0,
+      "TV_vs_sqrt_future_probability": 0.007252347923828948,
+      "max_future_collection_share": 0.013614963660090873,
+      "compile_seconds": 0.91711559984833,
+      "plan_save_seconds": 0.03768210019916296,
+      "plan_bytes": 13440128,
+      "id_lookup_seconds_all_future": 2.3448687996715307,
+      "choose_and_base_compare_seconds_6000": 0.11324850004166365,
+      "plan_sha256": "9951574416fd5f3c6f2b67b80bce19744e943aa14bf966fb967cb00676b1d1ef",
+      "repeat_visit_quantiles_all_images": [
+        0.0,
+        1.0,
+        1.0,
+        2.0,
+        5.0,
+        9.0,
+        143.0
+      ]
+    },
+    "C": {
+      "unique_images": 1425433,
+      "coverage": 1.0,
+      "unseen": 0,
+      "full_coverage_step": 69236,
+      "full_collections": 627,
+      "collection_coverage_quantiles": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TV_vs_A_future_counts": 0.1573522827940294,
+      "TV_vs_sqrt_future_probability": 0.15734335856218926,
+      "max_future_collection_share": 0.03647028986197502,
+      "compile_seconds": 0.11759459972381592,
+      "plan_save_seconds": 0.02844289969652891,
+      "plan_bytes": 13440128,
+      "id_lookup_seconds_all_future": 2.092389900237322,
+      "choose_and_base_compare_seconds_6000": 0.1278106002137065,
+      "plan_sha256": "43d4da230fbda3c0bcd48f28bac0db18600314bfbe5ea9473361f85a7ed96316",
+      "repeat_visit_quantiles_all_images": [
+        1.0,
+        1.0,
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        116.0
+      ]
+    }
+  },
+  "pool_hashes": {
+    "mv": "37ed55716d89c92729893c1e6f789a57b44c307b8e514fcec707384087a906bc",
+    "cem": "66998c75bd9f71674273dda7517c2c1cc4ce37b7031a6849de6601edb34c1a35"
+  },
+  "plan_directory": "E:\\mira_website_demo\\artifacts\\d2_coverage_20261020"
+}

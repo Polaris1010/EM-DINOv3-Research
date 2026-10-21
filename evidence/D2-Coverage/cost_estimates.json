@@ -1,0 +1,158 @@
+{
+  "method": "Per-collection mean compressed/decoded bytes from actual read-only SQLite, multiplied by simulated collection counts. Expectations, not measured image-loader throughput.",
+  "no_image_reads": true,
+  "runs": {
+    "A": {
+      "expected_future_CEM_compressed_read_bytes": 61352934111.29254,
+      "expected_future_CEM_decoded_bytes": 78173157529.68645,
+      "compressed_read_ratio_vs_A": 1.0
+    },
+    "B": {
+      "expected_future_CEM_compressed_read_bytes": 61352934111.29254,
+      "expected_future_CEM_decoded_bytes": 78173157529.68645,
+      "compressed_read_ratio_vs_A": 1.0
+    },
+    "C": {
+      "expected_future_CEM_compressed_read_bytes": 62929132596.18307,
+      "expected_future_CEM_decoded_bytes": 79068442901.00905,
+      "compressed_read_ratio_vs_A": 1.0256906781675892
+    }
+  },
+  "retained_pool_compressed_bytes": 54824040311,
+  "C_first_phase_max_collection_share": [
+    0.06515154415721709,
+    "takemura2013"
+  ],
+  "deficit_collections": [
+    {
+      "collection": "takemura2013",
+      "images": 70188,
+      "missing30k": 61259,
+      "A_future_draws": 22869,
+      "C_future_draws": 61259
+    },
+    {
+      "collection": "bloss2018",
+      "images": 63759,
+      "missing30k": 55079,
+      "A_future_draws": 21948,
+      "C_future_draws": 55079
+    },
+    {
+      "collection": "Joesch2016BV2",
+      "images": 62620,
+      "missing30k": 54008,
+      "A_future_draws": 21352,
+      "C_future_draws": 54008
+    },
+    {
+      "collection": "lee2016",
+      "images": 61821,
+      "missing30k": 53410,
+      "A_future_draws": 21425,
+      "C_future_draws": 53410
+    },
+    {
+      "collection": "microns_cortical_mm3",
+      "images": 48742,
+      "missing30k": 41328,
+      "A_future_draws": 18957,
+      "C_future_draws": 41328
+    },
+    {
+      "collection": "shapson-coe2021_h01",
+      "images": 41475,
+      "missing30k": 34712,
+      "A_future_draws": 17217,
+      "C_future_draws": 34712
+    },
+    {
+      "collection": "bock2011",
+      "images": 38877,
+      "missing30k": 32325,
+      "A_future_draws": 16683,
+      "C_future_draws": 32325
+    },
+    {
+      "collection": "templier_wafer1",
+      "images": 38456,
+      "missing30k": 31890,
+      "A_future_draws": 16470,
+      "C_future_draws": 31890
+    },
+    {
+      "collection": "templier_wafer3",
+      "images": 34082,
+      "missing30k": 28052,
+      "A_future_draws": 15889,
+      "C_future_draws": 28052
+    },
+    {
+      "collection": "jrc_mus-pancreas-1_openorganelle",
+      "images": 34117,
+      "missing30k": 27918,
+      "A_future_draws": 15887,
+      "C_future_draws": 27918
+    },
+    {
+      "collection": "bumbarger2013",
+      "images": 28479,
+      "missing30k": 23044,
+      "A_future_draws": 14477,
+      "C_future_draws": 23044
+    },
+    {
+      "collection": "bhatla2015",
+      "images": 26563,
+      "missing30k": 21154,
+      "A_future_draws": 13751,
+      "C_future_draws": 21154
+    },
+    {
+      "collection": "Jiang2020_file02_video",
+      "images": 26164,
+      "missing30k": 20942,
+      "A_future_draws": 13933,
+      "C_future_draws": 20942
+    },
+    {
+      "collection": "Cortese2020_S4_area3",
+      "images": 23203,
+      "missing30k": 18099,
+      "A_future_draws": 13179,
+      "C_future_draws": 18099
+    },
+    {
+      "collection": "CREMI",
+      "images": 20485,
+      "missing30k": 15857,
+      "A_future_draws": 12167,
+      "C_future_draws": 15857
+    },
+    {
+      "collection": "wanner2016",
+      "images": 15592,
+      "missing30k": 11710,
+      "A_future_draws": 10673,
+      "C_future_draws": 11710
+    },
+    {
+      "collection": "segem2015",
+      "images": 14703,
+      "missing30k": 10891,
+      "A_future_draws": 10640,
+      "C_future_draws": 10891
+    },
+    {
+      "collection": "platybrowser_mobie",
+      "images": 13991,
+      "missing30k": 10195,
+      "A_future_draws": 10052,
+      "C_future_draws": 10195
+    }
+  ],
+  "full_checkpoint_bytes": 5607208485,
+  "backbone_export_bytes": 1213025477,
+  "SSL_disk_final_bytes_3full_4backbones": 21673727363,
+  "SSL_disk_transient_bytes_4full_4backbones": 27280935848
+}

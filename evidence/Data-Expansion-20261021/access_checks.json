@@ -1,0 +1,165 @@
+{
+  "jrc_mus-heart-1": {
+    "url": "https://janelia-cosem-datasets.s3.amazonaws.com/jrc_mus-heart-1/jrc_mus-heart-1.zarr/recon-1/em/.zattrs",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "read_bytes": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "metadata_keys": []
+  },
+  "jrc_mus-kidney-2": {
+    "url": "https://janelia-cosem-datasets.s3.amazonaws.com/jrc_mus-kidney-2/jrc_mus-kidney-2.zarr/recon-1/em/.zattrs",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "jrc_mus-skin-1": {
+    "url": "https://janelia-cosem-datasets.s3.amazonaws.com/jrc_mus-skin-1/jrc_mus-skin-1.zarr/recon-1/em/.zattrs",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "read_bytes": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "metadata_keys": []
+  },
+  "jrc_mus-thymus-1": {
+    "url": "https://janelia-cosem-datasets.s3.amazonaws.com/jrc_mus-thymus-1/jrc_mus-thymus-1.zarr/recon-1/em/.zattrs",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "read_bytes": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "metadata_keys": []
+  },
+  "jrc_mus-pancreas-4": {
+    "url": "https://janelia-cosem-datasets.s3.amazonaws.com/jrc_mus-pancreas-4/jrc_mus-pancreas-4.zarr/recon-1/em/.zattrs",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "read_bytes": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "metadata_keys": []
+  },
+  "empiar_11958": {
+    "url": "https://ftp.ebi.ac.uk/empiar/world_availability/11958/data/",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "read_bytes": 1676,
+    "sha256": "3c9bd2392196f88e3bf8c737b0bd971baa8a0e77de52566be31ffddd7c19c34b",
+    "links": [
+      "?C=N;O=D",
+      "?C=M;O=A",
+      "?C=S;O=A",
+      "?C=D;O=A",
+      "/empiar/world_availability/11958/",
+      "SBFSEM_processed/",
+      "micro-CT_reconstructed/",
+      "micro-CT_reconstructed_Trim1/",
+      "micro-CT_reconstructed_Trim2/"
+    ]
+  },
+  "empiar_13356": {
+    "url": "https://ftp.ebi.ac.uk/empiar/world_availability/13356/data/",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "read_bytes": 3294,
+    "sha256": "1ec6c6482cfa65c1ce472a7a74b9c6b56ca029ff8b31a6b6cdba98f88a32736a",
+    "links": [
+      "?C=N;O=D",
+      "?C=M;O=A",
+      "?C=S;O=A",
+      "?C=D;O=A",
+      "/empiar/world_availability/13356/",
+      "humanliver_bileduct_mask/",
+      "humanliver_cellboundary_mask/",
+      "humanliver_cholangiocyte_mask/",
+      "humanliver_endothelial_mask/",
+      "humanliver_er_mask/",
+      "humanliver_hepatocyte_mask/",
+      "humanliver_mito_mask/"
+    ]
+  },
+  "empiar_12674": {
+    "url": "https://ftp.ebi.ac.uk/empiar/world_availability/12674/data/",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "read_bytes": 982,
+    "sha256": "c08d9e1e3ab179d6809b346d273ecea4d435430e99f9022a0c1bd19b2db9b0a7",
+    "links": [
+      "?C=N;O=D",
+      "?C=M;O=A",
+      "?C=S;O=A",
+      "?C=D;O=A",
+      "/empiar/world_availability/12674/",
+      "Kidney-Danka%20doplni/"
+    ]
+  },
+  "empiar_11759": {
+    "url": "https://ftp.ebi.ac.uk/empiar/world_availability/11759/data/",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "read_bytes": 5196,
+    "sha256": "73beae4d5568294c9bf98c8311ab3eb61d615930ab5655baa99550c65cad6485",
+    "links": [
+      "?C=N;O=D",
+      "?C=M;O=A",
+      "?C=S;O=A",
+      "?C=D;O=A",
+      "/empiar/world_availability/11759/",
+      "F57-8_test1.xml.gz",
+      "F57-8_test1_3VBSED_slice_0000.dm3",
+      "F57-8_test1_3VBSED_slice_0001.dm3",
+      "F57-8_test1_3VBSED_slice_0002.dm3",
+      "F57-8_test1_3VBSED_slice_0003.dm3",
+      "F57-8_test1_3VBSED_slice_0004.dm3",
+      "F57-8_test1_3VBSED_slice_0005.dm3"
+    ]
+  },
+  "empiar_12157": {
+    "url": "https://ftp.ebi.ac.uk/empiar/world_availability/12157/data/",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "read_bytes": 1168,
+    "sha256": "6f828808c9b3d08997cd15cf1f8f8f0610a9adb4adbfb57825fd2148a680a669",
+    "links": [
+      "?C=N;O=D",
+      "?C=M;O=A",
+      "?C=S;O=A",
+      "?C=D;O=A",
+      "/empiar/world_availability/12157/",
+      "Cropped/",
+      "Newsperm_040.tif"
+    ]
+  },
+  "empiar_12585": {
+    "url": "https://ftp.ebi.ac.uk/empiar/world_availability/12585/data/",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "read_bytes": 220722,
+    "sha256": "41d6b1d1560bf0998aef6151d42f7b675f83aaf4f2e0368435d6cd047cfff429",
+    "links": [
+      "?C=N;O=D",
+      "?C=M;O=A",
+      "?C=S;O=A",
+      "?C=D;O=A",
+      "/empiar/world_availability/12585/",
+      "%20scan%201%200000.tif",
+      "%20scan%201%200001.tif",
+      "%20scan%201%200002.tif",
+      "%20scan%201%200003.tif",
+      "%20scan%201%200004.tif",
+      "%20scan%201%200005.tif",
+      "%20scan%201%200006.tif"
+    ]
+  },
+  "empiar_12174": {
+    "url": "https://ftp.ebi.ac.uk/empiar/world_availability/12174/data/",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "read_bytes": 978,
+    "sha256": "6b408958c424e697e9ec18553e0bd2c28192f9b5271ce79aff0375c8ec78685d",
+    "links": [
+      "?C=N;O=D",
+      "?C=M;O=A",
+      "?C=S;O=A",
+      "?C=D;O=A",
+      "/empiar/world_availability/12174/",
+      "20230626_RP_serial/"
+    ]
+  }
+}

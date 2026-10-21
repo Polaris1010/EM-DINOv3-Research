@@ -1,3 +1,5 @@
+> 2026-10-22 新授权：补齐D1/D2的30k、100k四encoder各三个decoder seeds，复用20261014、新增20261015/16共8个40k head；固定156train/38dev及七组MB1诊断，非三折或三SSL seed。先读docs/D12_three_seed_execution.md与experiments/D12-three-seeds/run_index.json。Coverage-NR既有SSL继续，GPU0禁用。当前部署准备，尚未声称训练已启动。
+
 > 2026-10-21 16:11香港时间实测：Coverage-NR正式服务active，P0新初始化从0到60/100000；loss有限，GPU1/2/3利用率100%，各约11GiB，GPU0未用于本轮，网站200。code6129ac2，draft PR11。先读docs/Coverage_NR_execution.md与本轮run_index；已有服务继续，不重复启动。首seed40k及开发/MB1由同一有界服务顺序完成后停止。
 
 > 2026-10-21 新授权：用户要求“继续，开始训练”。执行单组Coverage-NR从P0连续100k，继承既有MV+CEM池，之后首seed冻结Primus40k/38dev/固定MB1，完成停止。先读docs/Coverage_NR_execution.md及experiments/Coverage-NR/run_index.json。旧设计-only停止记录为历史，不重复启动服务，不增加R组/IsoOrg/QuantEM/D3，GPU0禁用。当前CPU计划通过，GPU smoke正在验证。

@@ -1,3 +1,5 @@
+> 2026-10-22 02:56香港实测：多seed新增head完成4/8（seed20261015四encoder均40k）；seed20261016的D1/D2-30k均39500、D1-100k=1000、D2-100k排队。服务active，GPU1/2/3均100%，开发完整指标与MB1均尚未开始，三seed均值尚无。Coverage-NR继续47490/100k、网站200。只继续现有有界服务，禁止重复启动。
+
 > 2026-10-22 01:01香港：D1-30k、D2-30k、D1-100k的seed20261015均2600/40000，同初始化SHA与采样hash；剩余5个head队列接续。Coverage-NR连续前进至42550，网站200，GPU0未用。三seed均值仍待完成。代码/记录已推送draft PR12（codex/d12-three-seed-validation），服务继续。见evidence/D12-three-seeds/running_20261021T170117Z.json。
 
 > 2026-10-22 00:57香港实测：D1/D2三decoder-seed任务active，首批D1-30k/D2-30k/D1-100k的seed20261015均100/40000，采样hash一致，GPU1/2/3各约14–15GiB总占用；其余5个head排队。原Coverage-NR继续到42340，网站200，GPU0未用。服务d12-three-seeds-20261022.service；先读docs/D12_three_seed_execution.md。只有head重复，没有新SSL；完成固定38dev及七组MB1后输出均值/样本SD和配对差值，停止。

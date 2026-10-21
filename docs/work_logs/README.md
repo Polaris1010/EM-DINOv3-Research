@@ -52,3 +52,5 @@
 - [D2-Coverage改为P0起点的简化设计](20261020_24_d2_coverage_p0_revision.md)
 
 - [OrgMIM / IsoOrg-1K分组采样核查](20261020_25_orgmim_sampling_lookup.md)
+
+- [IsoOrg / QuantEM仅metadata增量来源审查](20261021_26_incremental_source_review.md)

@@ -1,0 +1,213 @@
+volume_id,retained_ssl,scan_ids,source,modality,species,tissue,spacing_xyz_nm,allowed_z,roi_relation_other_datasets
+casser20_kasthuri++_test,False,,casser20,ssSEM,Mouse,somatosensory cortex,"[12.0, 12.0, 30.0]",EXCLUDED,UNVERIFIED
+casser20_kasthuri++_train,True,,casser20,ssSEM,Mouse,somatosensory cortex,"[12.0, 12.0, 30.0]","[[0, 68]]",UNVERIFIED
+casser20_lucchi++,False,,casser20,FIB-SEM,Mouse,hippocampus,"[10.0, 10.0, 10.0]",EXCLUDED,UNVERIFIED
+conrad23_c_elegans,False,,conrad23,FIB-SEM,C. elegans,whole organism,"[24, 24, 24]",EXCLUDED,UNVERIFIED
+conrad23_fly_brain,False,,conrad23,FIB-SEM,Drosophila,brain,"[12, 12, 12]",EXCLUDED,UNVERIFIED
+conrad23_glycolytic_muscle,False,,conrad23,FIB-SEM,Mouse,glycolytic muscle,"[18, 18, 18]",EXCLUDED,UNVERIFIED
+conrad23_hela_cell,False,,conrad23,FIB-SEM,Human,HeLa cell (interphase),"[15, 15, 15]",EXCLUDED,UNVERIFIED
+conrad23_salivary_gland,False,,conrad23,FIB-SEM,Mouse,salivary gland,"[15, 15, 15]",EXCLUDED,UNVERIFIED
+guay21_vol0,True,,guay21,SBF-SEM,Human,platelet,"[10.0, 10.0, 50.0]","[[0, 50]]",UNVERIFIED
+guay21_vol1,False,,guay21,SBF-SEM,Human,platelet,"[10.0, 10.0, 50.0]",EXCLUDED,UNVERIFIED
+guay21_vol2,False,,guay21,SBF-SEM,Human,platelet,"[10.0, 10.0, 50.0]",EXCLUDED,UNVERIFIED
+haberl18_vol0,True,,haberl18,SBF-SEM,Mouse,brain (cerebellum / lateral habenula),"[10.0, 10.0, 24.0]","[[0, 20]]",UNVERIFIED
+haberl18_vol1,False,,haberl18,SBF-SEM,Mouse,brain (cerebellum / lateral habenula),"[10.0, 10.0, 24.0]",EXCLUDED,UNVERIFIED
+han24_neg0,True,,han24,ssSEM,Mouse,cerebellum mossy fiber,"[8.0, 8.0, 30.0]","[[0, 265]]",UNVERIFIED
+han24_neg1,False,,han24,ssSEM,Mouse,cerebellum mossy fiber,"[8.0, 8.0, 30.0]",EXCLUDED,UNVERIFIED
+han24_pos0,True,,han24,ssSEM,Mouse,cerebellum mossy fiber,"[8.0, 8.0, 30.0]","[[0, 362]]",UNVERIFIED
+han24_pos1,False,,han24,ssSEM,Mouse,cerebellum mossy fiber,"[8.0, 8.0, 30.0]",EXCLUDED,UNVERIFIED
+han24_pos2,False,,han24,ssSEM,Mouse,cerebellum mossy fiber,"[8.0, 8.0, 30.0]",EXCLUDED,UNVERIFIED
+jiang25_vol0,False,,jiang25,SBF-SEM,Mouse,brainstem,"[15.0, 15.0, 40.0]",EXCLUDED,UNVERIFIED
+jiang25_vol1,True,,jiang25,SBF-SEM,Mouse,brainstem,"[15.0, 15.0, 40.0]","[[0, 100]]",UNVERIFIED
+jiang25_vol2,False,,jiang25,SBF-SEM,Mouse,brainstem,"[15.0, 15.0, 40.0]",EXCLUDED,UNVERIFIED
+kunduri22_test01,False,,kunduri22,FIB-SEM,Drosophila,spermatocyte (gonad),"[16.0, 16.0, 16.0]",EXCLUDED,UNVERIFIED
+kunduri22_train01,True,,kunduri22,FIB-SEM,Drosophila,spermatocyte (gonad),"[16.0, 16.0, 16.0]","[[0, 384]]",UNVERIFIED
+kunduri22_train02,False,,kunduri22,FIB-SEM,Drosophila,spermatocyte (gonad),"[16.0, 16.0, 16.0]",EXCLUDED,UNVERIFIED
+mekuc20_fib1-0-0-0,True,,mekuc20,FIB-SEM,Mouse,urinary bladder,"[16.0, 16.0, 15.0]","[[0, 256]]",UNVERIFIED
+mekuc20_fib1-1-0-3,True,,mekuc20,FIB-SEM,Mouse,urinary bladder,"[16.0, 16.0, 15.0]","[[0, 256]]",UNVERIFIED
+mekuc20_fib1-3-2-1,True,,mekuc20,FIB-SEM,Mouse,urinary bladder,"[16.0, 16.0, 15.0]","[[0, 256]]",UNVERIFIED
+mekuc20_fib1-3-3-0,True,,mekuc20,FIB-SEM,Mouse,urinary bladder,"[16.0, 16.0, 15.0]","[[0, 256]]",UNVERIFIED
+mekuc20_fib1-4-3-0,False,,mekuc20,FIB-SEM,Mouse,urinary bladder,"[16.0, 16.0, 15.0]",EXCLUDED,UNVERIFIED
+muller21_high_c1,False,,muller21,FIB-SEM,Mouse,pancreas (beta cells),"[16.0, 16.0, 16.0]",EXCLUDED,UNVERIFIED
+muller21_high_c2,False,,muller21,FIB-SEM,Mouse,pancreas (beta cells),"[16.0, 16.0, 16.0]",EXCLUDED,UNVERIFIED
+muller21_high_c3,True,,muller21,FIB-SEM,Mouse,pancreas (beta cells),"[16.0, 16.0, 16.0]","[[0, 1023]]",UNVERIFIED
+muller21_high_c4,False,,muller21,FIB-SEM,Mouse,pancreas (beta cells),"[16.0, 16.0, 16.0]",EXCLUDED,UNVERIFIED
+muller21_low_c1,True,,muller21,FIB-SEM,Mouse,pancreas (beta cells),"[16.0, 16.0, 16.0]","[[0, 906]]",UNVERIFIED
+muller21_low_c2,False,,muller21,FIB-SEM,Mouse,pancreas (beta cells),"[16.0, 16.0, 16.0]",EXCLUDED,UNVERIFIED
+muller21_low_c3,False,,muller21,FIB-SEM,Mouse,pancreas (beta cells),"[16.0, 16.0, 16.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_cos7-1a_recon-1_crop234,False,jrc_cos7-1a,openorganelle,FIB-SEM,Monkey,kidney (COS-7 cell line),"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_cos7-1a_recon-1_crop236,False,jrc_cos7-1a,openorganelle,FIB-SEM,Monkey,kidney (COS-7 cell line),"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_cos7-1a_recon-1_crop237,False,jrc_cos7-1a,openorganelle,FIB-SEM,Monkey,kidney (COS-7 cell line),"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_cos7-1a_recon-1_crop239,False,jrc_cos7-1a,openorganelle,FIB-SEM,Monkey,kidney (COS-7 cell line),"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_cos7-1a_recon-1_crop248,False,jrc_cos7-1a,openorganelle,FIB-SEM,Monkey,kidney (COS-7 cell line),"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_cos7-1a_recon-1_crop252,False,jrc_cos7-1a,openorganelle,FIB-SEM,Monkey,kidney (COS-7 cell line),"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_cos7-1a_recon-1_crop254,False,jrc_cos7-1a,openorganelle,FIB-SEM,Monkey,kidney (COS-7 cell line),"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_cos7-1a_recon-1_crop256,False,jrc_cos7-1a,openorganelle,FIB-SEM,Monkey,kidney (COS-7 cell line),"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_cos7-1a_recon-1_crop292,False,jrc_cos7-1a,openorganelle,FIB-SEM,Monkey,kidney (COS-7 cell line),"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_cos7-1b_recon-1_crop238,False,jrc_cos7-1b,openorganelle,FIB-SEM,Monkey,kidney (COS-7 cell line),"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_cos7-1b_recon-1_crop240,False,jrc_cos7-1b,openorganelle,FIB-SEM,Monkey,kidney (COS-7 cell line),"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_cos7-1b_recon-1_crop245,False,jrc_cos7-1b,openorganelle,FIB-SEM,Monkey,kidney (COS-7 cell line),"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_cos7-1b_recon-1_crop255,False,jrc_cos7-1b,openorganelle,FIB-SEM,Monkey,kidney (COS-7 cell line),"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_cos7-1b_recon-1_crop258,False,jrc_cos7-1b,openorganelle,FIB-SEM,Monkey,kidney (COS-7 cell line),"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_cos7-1b_recon-1_crop291,False,jrc_cos7-1b,openorganelle,FIB-SEM,Monkey,kidney (COS-7 cell line),"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_ctl-id8-1_recon-1_crop116,True,jrc_ctl-id8-1,openorganelle,FIB-SEM,Mouse,ID8 ovarian cancer + killer T-cell,"[8.0, 8.0, 8.0]","[[0, 87]]",UNVERIFIED
+openorganelle_jrc_ctl-id8-1_recon-1_crop118,True,jrc_ctl-id8-1,openorganelle,FIB-SEM,Mouse,ID8 ovarian cancer + killer T-cell,"[8.0, 8.0, 8.0]","[[0, 87]]",UNVERIFIED
+openorganelle_jrc_ctl-id8-1_recon-1_crop130,True,jrc_ctl-id8-1,openorganelle,FIB-SEM,Mouse,ID8 ovarian cancer + killer T-cell,"[8.0, 8.0, 8.0]","[[0, 87]]",UNVERIFIED
+openorganelle_jrc_fly-mb-1a_recon-1_crop120,False,jrc_fly-mb-1a,openorganelle,FIB-SEM,Drosophila,brain (mushroom body),"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_fly-mb-1a_recon-1_crop121,False,jrc_fly-mb-1a,openorganelle,FIB-SEM,Drosophila,brain (mushroom body),"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_fly-mb-1a_recon-1_crop178,False,jrc_fly-mb-1a,openorganelle,FIB-SEM,Drosophila,brain (mushroom body),"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_fly-vnc-1_recon-1_crop173,False,jrc_fly-vnc-1,openorganelle,FIB-SEM,Drosophila,ventral nerve cord,"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_fly-vnc-1_recon-1_crop174,False,jrc_fly-vnc-1,openorganelle,FIB-SEM,Drosophila,ventral nerve cord,"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_fly-vnc-1_recon-1_crop176,False,jrc_fly-vnc-1,openorganelle,FIB-SEM,Drosophila,ventral nerve cord,"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_fly-vnc-1_recon-1_crop185,False,jrc_fly-vnc-1,openorganelle,FIB-SEM,Drosophila,ventral nerve cord,"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_fly-vnc-1_recon-1_crop78,False,jrc_fly-vnc-1,openorganelle,FIB-SEM,Drosophila,ventral nerve cord,"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_fly-vnc-1_recon-1_crop79,False,jrc_fly-vnc-1,openorganelle,FIB-SEM,Drosophila,ventral nerve cord,"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_hela-2_recon-1_crop1,True,jrc_hela-2,openorganelle,FIB-SEM,Human,HeLa cell (interphase),"[8.0, 8.0, 8.0]","[[0, 66]]",UNVERIFIED
+openorganelle_jrc_hela-2_recon-1_crop113,True,jrc_hela-2,openorganelle,FIB-SEM,Human,HeLa cell (interphase),"[8.0, 8.0, 8.0]","[[0, 164]]",UNVERIFIED
+openorganelle_jrc_hela-2_recon-1_crop155,True,jrc_hela-2,openorganelle,FIB-SEM,Human,HeLa cell (interphase),"[8.0, 8.0, 8.0]","[[0, 263]]",UNVERIFIED
+openorganelle_jrc_hela-2_recon-1_crop23,True,jrc_hela-2,openorganelle,FIB-SEM,Human,HeLa cell (interphase),"[8.0, 8.0, 8.0]","[[0, 164]]",UNVERIFIED
+openorganelle_jrc_hela-2_recon-1_crop3,True,jrc_hela-2,openorganelle,FIB-SEM,Human,HeLa cell (interphase),"[8.0, 8.0, 8.0]","[[0, 164]]",UNVERIFIED
+openorganelle_jrc_hela-2_recon-1_crop6,True,jrc_hela-2,openorganelle,FIB-SEM,Human,HeLa cell (interphase),"[8.0, 8.0, 8.0]","[[0, 164]]",UNVERIFIED
+openorganelle_jrc_hela-2_recon-1_crop9,True,jrc_hela-2,openorganelle,FIB-SEM,Human,HeLa cell (interphase),"[8.0, 8.0, 8.0]","[[0, 35]]",UNVERIFIED
+openorganelle_jrc_hela-3_recon-1_crop101,True,jrc_hela-3,openorganelle,FIB-SEM,Human,HeLa cell (interphase),"[8.0, 8.0, 8.0]","[[0, 81]]",UNVERIFIED
+openorganelle_jrc_hela-3_recon-1_crop111,True,jrc_hela-3,openorganelle,FIB-SEM,Human,HeLa cell (interphase),"[8.0, 8.0, 8.0]","[[0, 203]]",UNVERIFIED
+openorganelle_jrc_hela-3_recon-1_crop181,True,jrc_hela-3,openorganelle,FIB-SEM,Human,HeLa cell (interphase),"[8.0, 8.0, 8.0]","[[0, 81]]",UNVERIFIED
+openorganelle_jrc_hela-3_recon-1_crop33,True,jrc_hela-3,openorganelle,FIB-SEM,Human,HeLa cell (interphase),"[8.0, 8.0, 8.0]","[[0, 81]]",UNVERIFIED
+openorganelle_jrc_hela-3_recon-1_crop34,True,jrc_hela-3,openorganelle,FIB-SEM,Human,HeLa cell (interphase),"[8.0, 8.0, 8.0]","[[0, 81]]",UNVERIFIED
+openorganelle_jrc_jurkat-1_recon-1_crop112,True,jrc_jurkat-1,openorganelle,FIB-SEM,Human,T-cell (Jurkat),"[8.0, 8.0, 8.0]","[[0, 216]]",UNVERIFIED
+openorganelle_jrc_jurkat-1_recon-1_crop126,True,jrc_jurkat-1,openorganelle,FIB-SEM,Human,T-cell (Jurkat),"[8.0, 8.0, 8.0]","[[0, 86]]",UNVERIFIED
+openorganelle_jrc_jurkat-1_recon-1_crop180,True,jrc_jurkat-1,openorganelle,FIB-SEM,Human,T-cell (Jurkat),"[8.0, 8.0, 8.0]","[[0, 86]]",UNVERIFIED
+openorganelle_jrc_jurkat-1_recon-1_crop182,True,jrc_jurkat-1,openorganelle,FIB-SEM,Human,T-cell (Jurkat),"[8.0, 8.0, 8.0]","[[0, 86]]",UNVERIFIED
+openorganelle_jrc_jurkat-1_recon-1_crop37,True,jrc_jurkat-1,openorganelle,FIB-SEM,Human,T-cell (Jurkat),"[8.0, 8.0, 8.0]","[[0, 86]]",UNVERIFIED
+openorganelle_jrc_jurkat-1_recon-1_crop38,True,jrc_jurkat-1,openorganelle,FIB-SEM,Human,T-cell (Jurkat),"[8.0, 8.0, 8.0]","[[0, 86]]",UNVERIFIED
+openorganelle_jrc_jurkat-1_recon-1_crop43,True,jrc_jurkat-1,openorganelle,FIB-SEM,Human,T-cell (Jurkat),"[8.0, 8.0, 8.0]","[[0, 111]]",UNVERIFIED
+openorganelle_jrc_jurkat-1_recon-1_test0,True,jrc_jurkat-1,openorganelle,FIB-SEM,Human,T-cell (Jurkat),"[8.0, 8.0, 8.0]","[[0, 256]]",UNVERIFIED
+openorganelle_jrc_jurkat-1_recon-1_test1,False,jrc_jurkat-1,openorganelle,FIB-SEM,Human,T-cell (Jurkat),"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_macrophage-2_recon-1_crop110,True,jrc_macrophage-2,openorganelle,FIB-SEM,Human,macrophage,"[8.0, 8.0, 8.0]","[[0, 210]]",UNVERIFIED
+openorganelle_jrc_macrophage-2_recon-1_crop31,True,jrc_macrophage-2,openorganelle,FIB-SEM,Human,macrophage,"[8.0, 8.0, 8.0]","[[0, 63]]",UNVERIFIED
+openorganelle_jrc_macrophage-2_recon-1_crop32,True,jrc_macrophage-2,openorganelle,FIB-SEM,Human,macrophage,"[8.0, 8.0, 8.0]","[[0, 84]]",UNVERIFIED
+openorganelle_jrc_macrophage-2_recon-1_crop39,True,jrc_macrophage-2,openorganelle,FIB-SEM,Human,macrophage,"[8.0, 8.0, 8.0]","[[0, 84]]",UNVERIFIED
+openorganelle_jrc_macrophage-2_recon-1_crop48,True,jrc_macrophage-2,openorganelle,FIB-SEM,Human,macrophage,"[8.0, 8.0, 8.0]","[[0, 108]]",UNVERIFIED
+openorganelle_jrc_macrophage-2_recon-1_test0,True,jrc_macrophage-2,openorganelle,FIB-SEM,Human,macrophage,"[8.0, 8.0, 8.0]","[[0, 256]]",UNVERIFIED
+openorganelle_jrc_macrophage-2_recon-1_test1,False,jrc_macrophage-2,openorganelle,FIB-SEM,Human,macrophage,"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_mus-kidney_recon-1_crop129,True,jrc_mus-kidney,openorganelle,FIB-SEM,Mouse,kidney,"[8.0, 8.0, 8.0]","[[0, 300]]",UNVERIFIED
+openorganelle_jrc_mus-kidney_recon-1_crop140,True,jrc_mus-kidney,openorganelle,FIB-SEM,Mouse,kidney,"[8.0, 8.0, 8.0]","[[0, 100]]",UNVERIFIED
+openorganelle_jrc_mus-kidney_recon-1_crop141,True,jrc_mus-kidney,openorganelle,FIB-SEM,Mouse,kidney,"[8.0, 8.0, 8.0]","[[0, 150]]",UNVERIFIED
+openorganelle_jrc_mus-kidney_recon-1_crop147,True,jrc_mus-kidney,openorganelle,FIB-SEM,Mouse,kidney,"[8.0, 8.0, 8.0]","[[0, 100]]",UNVERIFIED
+openorganelle_jrc_mus-kidney_recon-1_crop148,True,jrc_mus-kidney,openorganelle,FIB-SEM,Mouse,kidney,"[8.0, 8.0, 8.0]","[[0, 100]]",UNVERIFIED
+openorganelle_jrc_mus-kidney_recon-1_crop156,True,jrc_mus-kidney,openorganelle,FIB-SEM,Mouse,kidney,"[8.0, 8.0, 8.0]","[[0, 300]]",UNVERIFIED
+openorganelle_jrc_mus-kidney_recon-1_crop158,True,jrc_mus-kidney,openorganelle,FIB-SEM,Mouse,kidney,"[8.0, 8.0, 8.0]","[[0, 100]]",UNVERIFIED
+openorganelle_jrc_mus-kidney_recon-1_crop160,True,jrc_mus-kidney,openorganelle,FIB-SEM,Mouse,kidney,"[8.0, 8.0, 8.0]","[[0, 100]]",UNVERIFIED
+openorganelle_jrc_mus-kidney_recon-1_crop161,True,jrc_mus-kidney,openorganelle,FIB-SEM,Mouse,kidney,"[8.0, 8.0, 8.0]","[[0, 100]]",UNVERIFIED
+openorganelle_jrc_mus-kidney_recon-1_crop162,True,jrc_mus-kidney,openorganelle,FIB-SEM,Mouse,kidney,"[8.0, 8.0, 8.0]","[[0, 100]]",UNVERIFIED
+openorganelle_jrc_mus-kidney_recon-1_crop163,True,jrc_mus-kidney,openorganelle,FIB-SEM,Mouse,kidney,"[8.0, 8.0, 8.0]","[[0, 100]]",UNVERIFIED
+openorganelle_jrc_mus-kidney_recon-1_crop164,True,jrc_mus-kidney,openorganelle,FIB-SEM,Mouse,kidney,"[8.0, 8.0, 8.0]","[[0, 100]]",UNVERIFIED
+openorganelle_jrc_mus-kidney_recon-1_crop165,True,jrc_mus-kidney,openorganelle,FIB-SEM,Mouse,kidney,"[8.0, 8.0, 8.0]","[[0, 100]]",UNVERIFIED
+openorganelle_jrc_mus-kidney_recon-1_crop166,True,jrc_mus-kidney,openorganelle,FIB-SEM,Mouse,kidney,"[8.0, 8.0, 8.0]","[[0, 100]]",UNVERIFIED
+openorganelle_jrc_mus-kidney_recon-1_crop184,True,jrc_mus-kidney,openorganelle,FIB-SEM,Mouse,kidney,"[8.0, 8.0, 8.0]","[[0, 800]]",UNVERIFIED
+openorganelle_jrc_mus-kidney_recon-1_crop221,True,jrc_mus-kidney,openorganelle,FIB-SEM,Mouse,kidney,"[8.0, 8.0, 8.0]","[[0, 600]]",UNVERIFIED
+openorganelle_jrc_mus-kidney_recon-1_crop229,True,jrc_mus-kidney,openorganelle,FIB-SEM,Mouse,kidney,"[8.0, 8.0, 8.0]","[[0, 300]]",UNVERIFIED
+openorganelle_jrc_mus-kidney_recon-1_crop230,True,jrc_mus-kidney,openorganelle,FIB-SEM,Mouse,kidney,"[8.0, 8.0, 8.0]","[[0, 800]]",UNVERIFIED
+openorganelle_jrc_mus-kidney_recon-1_crop231,True,jrc_mus-kidney,openorganelle,FIB-SEM,Mouse,kidney,"[8.0, 8.0, 8.0]","[[0, 800]]",UNVERIFIED
+openorganelle_jrc_mus-kidney_recon-1_test0,True,jrc_mus-kidney,openorganelle,FIB-SEM,Mouse,kidney,"[8.0, 8.0, 8.0]","[[0, 256]]",UNVERIFIED
+openorganelle_jrc_mus-kidney_recon-1_test1,False,jrc_mus-kidney,openorganelle,FIB-SEM,Mouse,kidney,"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop266,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop267,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop268,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop269,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop270,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop272,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop273,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop274,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop275,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop276,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop277,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop279,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop298,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop313,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop319,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop320,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop321,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop322,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop323,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop325,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop326,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop345,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 800]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop346,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 800]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-1_recon-1_crop377,True,jrc_mus-liver-zon-1,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-2_recon-1_crop340,True,jrc_mus-liver-zon-2,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-2_recon-1_crop342,True,jrc_mus-liver-zon-2,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-2_recon-1_crop355,True,jrc_mus-liver-zon-2,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 800]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-2_recon-1_crop356,True,jrc_mus-liver-zon-2,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 800]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-2_recon-1_crop368,True,jrc_mus-liver-zon-2,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-2_recon-1_crop369,True,jrc_mus-liver-zon-2,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-2_recon-1_crop370,True,jrc_mus-liver-zon-2,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver-zon-2_recon-1_crop376,True,jrc_mus-liver-zon-2,openorganelle,FIB-SEM,Mouse,liver (acinus),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver_recon-1_crop124,True,jrc_mus-liver,openorganelle,FIB-SEM,Mouse,liver,"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver_recon-1_crop125,True,jrc_mus-liver,openorganelle,FIB-SEM,Mouse,liver,"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver_recon-1_crop131,True,jrc_mus-liver,openorganelle,FIB-SEM,Mouse,liver,"[8.0, 8.0, 8.0]","[[0, 50]]",UNVERIFIED
+openorganelle_jrc_mus-liver_recon-1_crop132,True,jrc_mus-liver,openorganelle,FIB-SEM,Mouse,liver,"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver_recon-1_crop133,True,jrc_mus-liver,openorganelle,FIB-SEM,Mouse,liver,"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver_recon-1_crop135,True,jrc_mus-liver,openorganelle,FIB-SEM,Mouse,liver,"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver_recon-1_crop136,True,jrc_mus-liver,openorganelle,FIB-SEM,Mouse,liver,"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver_recon-1_crop137,True,jrc_mus-liver,openorganelle,FIB-SEM,Mouse,liver,"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver_recon-1_crop138,True,jrc_mus-liver,openorganelle,FIB-SEM,Mouse,liver,"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_mus-liver_recon-1_crop143,True,jrc_mus-liver,openorganelle,FIB-SEM,Mouse,liver,"[8.0, 8.0, 8.0]","[[0, 100]]",UNVERIFIED
+openorganelle_jrc_mus-liver_recon-1_crop144,True,jrc_mus-liver,openorganelle,FIB-SEM,Mouse,liver,"[8.0, 8.0, 8.0]","[[0, 100]]",UNVERIFIED
+openorganelle_jrc_mus-liver_recon-1_crop145,True,jrc_mus-liver,openorganelle,FIB-SEM,Mouse,liver,"[8.0, 8.0, 8.0]","[[0, 180]]",UNVERIFIED
+openorganelle_jrc_mus-liver_recon-1_crop150,True,jrc_mus-liver,openorganelle,FIB-SEM,Mouse,liver,"[8.0, 8.0, 8.0]","[[0, 100]]",UNVERIFIED
+openorganelle_jrc_mus-liver_recon-1_crop157,True,jrc_mus-liver,openorganelle,FIB-SEM,Mouse,liver,"[8.0, 8.0, 8.0]","[[0, 100]]",UNVERIFIED
+openorganelle_jrc_mus-liver_recon-1_crop177,True,jrc_mus-liver,openorganelle,FIB-SEM,Mouse,liver,"[8.0, 8.0, 8.0]","[[0, 800]]",UNVERIFIED
+openorganelle_jrc_mus-liver_recon-1_crop183,True,jrc_mus-liver,openorganelle,FIB-SEM,Mouse,liver,"[8.0, 8.0, 8.0]","[[0, 100]]",UNVERIFIED
+openorganelle_jrc_mus-liver_recon-1_test0,True,jrc_mus-liver,openorganelle,FIB-SEM,Mouse,liver,"[8.0, 8.0, 8.0]","[[0, 256]]",UNVERIFIED
+openorganelle_jrc_mus-liver_recon-1_test1,False,jrc_mus-liver,openorganelle,FIB-SEM,Mouse,liver,"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_mus-nacc-1_recon-1_crop115,False,jrc_mus-nacc-1,openorganelle,FIB-SEM,Mouse,brain (nucleus accumbens),"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+openorganelle_jrc_sum159-1_recon-1_crop20,True,jrc_sum159-1,openorganelle,FIB-SEM,Human,breast cancer cell (SUM159),"[8.0, 8.0, 8.0]","[[0, 48]]",UNVERIFIED
+openorganelle_jrc_sum159-1_recon-1_crop80,True,jrc_sum159-1,openorganelle,FIB-SEM,Human,breast cancer cell (SUM159),"[8.0, 8.0, 8.0]","[[0, 114]]",UNVERIFIED
+openorganelle_jrc_sum159-4_recon-1_crop186,True,jrc_sum159-4,openorganelle,FIB-SEM,Human,breast cancer cell (SUM159),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_sum159-4_recon-1_crop189,True,jrc_sum159-4,openorganelle,FIB-SEM,Human,breast cancer cell (SUM159),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_sum159-4_recon-1_crop201,True,jrc_sum159-4,openorganelle,FIB-SEM,Human,breast cancer cell (SUM159),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_sum159-4_recon-1_crop202,True,jrc_sum159-4,openorganelle,FIB-SEM,Human,breast cancer cell (SUM159),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_sum159-4_recon-1_crop203,True,jrc_sum159-4,openorganelle,FIB-SEM,Human,breast cancer cell (SUM159),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_sum159-4_recon-1_crop208,True,jrc_sum159-4,openorganelle,FIB-SEM,Human,breast cancer cell (SUM159),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_sum159-4_recon-1_crop210,True,jrc_sum159-4,openorganelle,FIB-SEM,Human,breast cancer cell (SUM159),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_sum159-4_recon-1_crop216,True,jrc_sum159-4,openorganelle,FIB-SEM,Human,breast cancer cell (SUM159),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_sum159-4_recon-1_crop217,True,jrc_sum159-4,openorganelle,FIB-SEM,Human,breast cancer cell (SUM159),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_sum159-4_recon-1_crop219,True,jrc_sum159-4,openorganelle,FIB-SEM,Human,breast cancer cell (SUM159),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_ut21-1413-003_recon-1_crop190,True,jrc_ut21-1413-003,openorganelle,FIB-SEM,Human,kidney (renal carcinoma),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_ut21-1413-003_recon-1_crop191,True,jrc_ut21-1413-003,openorganelle,FIB-SEM,Human,kidney (renal carcinoma),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_ut21-1413-003_recon-1_crop193,True,jrc_ut21-1413-003,openorganelle,FIB-SEM,Human,kidney (renal carcinoma),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_ut21-1413-003_recon-1_crop195,True,jrc_ut21-1413-003,openorganelle,FIB-SEM,Human,kidney (renal carcinoma),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_ut21-1413-003_recon-1_crop196,True,jrc_ut21-1413-003,openorganelle,FIB-SEM,Human,kidney (renal carcinoma),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_ut21-1413-003_recon-1_crop197,True,jrc_ut21-1413-003,openorganelle,FIB-SEM,Human,kidney (renal carcinoma),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_ut21-1413-003_recon-1_crop198,True,jrc_ut21-1413-003,openorganelle,FIB-SEM,Human,kidney (renal carcinoma),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_ut21-1413-003_recon-1_crop199,True,jrc_ut21-1413-003,openorganelle,FIB-SEM,Human,kidney (renal carcinoma),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_ut21-1413-003_recon-1_crop200,True,jrc_ut21-1413-003,openorganelle,FIB-SEM,Human,kidney (renal carcinoma),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_ut21-1413-003_recon-1_crop214,True,jrc_ut21-1413-003,openorganelle,FIB-SEM,Human,kidney (renal carcinoma),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_ut21-1413-003_recon-1_crop220,True,jrc_ut21-1413-003,openorganelle,FIB-SEM,Human,kidney (renal carcinoma),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_ut21-1413-003_recon-1_crop222,True,jrc_ut21-1413-003,openorganelle,FIB-SEM,Human,kidney (renal carcinoma),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_ut21-1413-003_recon-1_crop225,True,jrc_ut21-1413-003,openorganelle,FIB-SEM,Human,kidney (renal carcinoma),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_ut21-1413-003_recon-1_crop227,True,jrc_ut21-1413-003,openorganelle,FIB-SEM,Human,kidney (renal carcinoma),"[8.0, 8.0, 8.0]","[[0, 200]]",UNVERIFIED
+openorganelle_jrc_zf-cardiac-1_recon-1_crop380,True,jrc_zf-cardiac-1,openorganelle,FIB-SEM,Zebrafish,cardiac tissue,"[8.0, 8.0, 8.0]","[[0, 1000]]",UNVERIFIED
+openorganelle_jrc_zf-cardiac-1_recon-1_crop381,True,jrc_zf-cardiac-1,openorganelle,FIB-SEM,Zebrafish,cardiac tissue,"[8.0, 8.0, 8.0]","[[0, 1000]]",UNVERIFIED
+openorganelle_jrc_zf-cardiac-1_recon-1_test0,True,jrc_zf-cardiac-1,openorganelle,FIB-SEM,Zebrafish,cardiac tissue,"[8.0, 8.0, 8.0]","[[0, 256]]",UNVERIFIED
+openorganelle_jrc_zf-cardiac-1_recon-1_test1,False,jrc_zf-cardiac-1,openorganelle,FIB-SEM,Zebrafish,cardiac tissue,"[8.0, 8.0, 8.0]",EXCLUDED,UNVERIFIED
+turner22_microns1_vol0,False,,turner22,ssTEM,Mouse,V1 (Pinky),"[8.0, 8.0, 40.0]",EXCLUDED,UNVERIFIED
+turner22_microns1_vol1,False,,turner22,ssTEM,Mouse,V1 (Pinky),"[8.0, 8.0, 40.0]",EXCLUDED,UNVERIFIED
+turner22_microns1_vol2,False,,turner22,ssTEM,Mouse,V1 (Pinky),"[8.0, 8.0, 40.0]",EXCLUDED,UNVERIFIED
+turner22_microns1_vol3,False,,turner22,ssTEM,Mouse,V1 (Pinky),"[8.0, 8.0, 40.0]",EXCLUDED,UNVERIFIED
+turner22_microns1_vol4,False,,turner22,ssTEM,Mouse,V1 (Pinky),"[8.0, 8.0, 40.0]",EXCLUDED,UNVERIFIED
+turner22_pinky_stitched_vol19-vol34,True,,turner22,ssTEM,Mouse,visual cortex (Pinky),"[8.0, 8.0, 40.0]","[[0, 100]]",UNVERIFIED
+turner22_pinky_stitched_vol19-vol34_realigned,True,,turner22,ssTEM,Mouse,visual cortex (Pinky),"[8.0, 8.0, 40.0]","[[0, 132]]",UNVERIFIED
+turner22_pinky_stitched_vol40-vol41,True,,turner22,ssTEM,Mouse,visual cortex (Pinky),"[8.0, 8.0, 40.0]","[[0, 102]]",UNVERIFIED
+turner22_pinky_vol101,True,,turner22,ssTEM,Mouse,visual cortex (Pinky),"[8.0, 8.0, 40.0]","[[0, 48]]",UNVERIFIED
+turner22_pinky_vol102,True,,turner22,ssTEM,Mouse,visual cortex (Pinky),"[8.0, 8.0, 40.0]","[[0, 53]]",UNVERIFIED
+turner22_pinky_vol103,True,,turner22,ssTEM,Mouse,visual cortex (Pinky),"[8.0, 8.0, 40.0]","[[0, 48]]",UNVERIFIED
+turner22_pinky_vol104,True,,turner22,ssTEM,Mouse,visual cortex (Pinky),"[8.0, 8.0, 40.0]","[[0, 58]]",UNVERIFIED
+turner22_pinky_vol401,True,,turner22,ssTEM,Mouse,visual cortex (Pinky),"[8.0, 8.0, 40.0]","[[0, 132]]",UNVERIFIED
+turner22_pinky_vol501,True,,turner22,ssTEM,Mouse,visual cortex (Pinky),"[8.0, 8.0, 40.0]","[[0, 144]]",UNVERIFIED
+turner22_pinky_vol502,True,,turner22,ssTEM,Mouse,visual cortex (Pinky),"[8.0, 8.0, 40.0]","[[0, 132]]",UNVERIFIED
+turner22_pinky_vol503,True,,turner22,ssTEM,Mouse,visual cortex (Pinky),"[8.0, 8.0, 40.0]","[[0, 132]]",UNVERIFIED
+wei20_mitoEM-H,False,,wei20,ssSEM,Human,temporal lobe (L2),"[8.0, 8.0, 30.0]",EXCLUDED,UNVERIFIED
+wei20_mitoEM-R,True,,wei20,ssSEM,Rat,"visual cortex (V1, L2/3)","[8.0, 8.0, 30.0]","[[0, 400]]",UNVERIFIED
+xiao18_vol0,True,,xiao18,ssSEM,Mouse,auditory cortex,"[8.0, 8.0, 50.0]","[[0, 24]]",UNVERIFIED

@@ -1,0 +1,84 @@
+{
+  "date_hong_kong": "2026-10-21",
+  "source_git_commit": "b54aed2ae81150ec8eb29946e7e1073a05643bcc",
+  "files": [
+    {
+      "original_path": "E:\\mira_website_demo\\artifacts\\data_governance_stage0_20261013\\cem_final_source_directories.csv",
+      "snapshot": "evidence\\Data-Expansion-20261021\\inputs\\cem_final_source_directories.csv",
+      "sha256": "c8dc68be776faa7299c2275fb42f6f4f91958dd9d5130527ec7ecb01c725d249",
+      "bytes": 44142
+    },
+    {
+      "original_path": "E:\\mira_website_demo\\artifacts\\data_governance_stage0_20261013\\cem_official_source_metadata.csv",
+      "snapshot": "evidence\\Data-Expansion-20261021\\inputs\\cem_official_source_metadata.csv",
+      "sha256": "6bb7bdbb31fdeb9f6fcf27a6c9cbdb3c46a1fee0bee13cfb7c842d781c1eb1e3",
+      "bytes": 131890
+    },
+    {
+      "original_path": "E:\\mira_website_demo\\artifacts\\data_governance_stage0_20261013\\cross_dataset_overlap.csv",
+      "snapshot": "evidence\\Data-Expansion-20261021\\inputs\\cross_dataset_overlap.csv",
+      "sha256": "7249df76c41e3e141d3c2b627eea30b423a64fcf331fe9dacac845eef3cad03b",
+      "bytes": 14148
+    },
+    {
+      "original_path": "E:\\mira_website_demo\\artifacts\\data_governance_stage0_20261013\\sources\\orgmim_groups.json",
+      "snapshot": "evidence\\Data-Expansion-20261021\\inputs\\orgmim_groups.json",
+      "sha256": "c533702a6c2612165562dac630df1c1057cbcaf73938b34ef6735ce990f54cac",
+      "bytes": 25387
+    },
+    {
+      "original_path": "E:\\mira_website_demo\\artifacts\\data_governance_stage0_20261013\\sources\\mv_catalog.json",
+      "snapshot": "evidence\\Data-Expansion-20261021\\inputs\\mv_catalog.json",
+      "sha256": "949a71b8ae41e03132fa2cd671e84c001ca699f3bbc9f66f9510cbee30e5f038",
+      "bytes": 189157
+    },
+    {
+      "original_path": "E:\\mira_website_demo\\artifacts\\data_governance_stage0_20261013\\sources\\cem_ngff_candidates.csv",
+      "snapshot": "evidence\\Data-Expansion-20261021\\inputs\\cem_ngff_candidates.csv",
+      "sha256": "1b69717eb8ab5ca281c126fd54dcf7ecee1421b8e538ed14453eea0e0ba906c4",
+      "bytes": 7647
+    },
+    {
+      "original_path": "E:\\mira_website_demo\\artifacts\\data_governance_stage0_20261013\\sources\\mitonet_tem_metadata.csv",
+      "snapshot": "evidence\\Data-Expansion-20261021\\inputs\\mitonet_tem_metadata.csv",
+      "sha256": "ec904d2a0ad35447b15c9ca85190b08c643b07772a447e4376d0f188b5824c25",
+      "bytes": 14546
+    },
+    {
+      "original_path": "E:\\mira_website_demo\\artifacts\\data_governance_stage0_20261013\\sources\\mitoverse_datasets.yaml",
+      "snapshot": "evidence\\Data-Expansion-20261021\\inputs\\mitoverse_datasets.yaml",
+      "sha256": "6a66989c32e60cd5cf65cb77a0f36d9201ed28c10b48c89f6ee0b2b9c6886e5d",
+      "bytes": 8828
+    },
+    {
+      "repository_path": "experiments/D12/cem_pool.json",
+      "sha256": "66998c75bd9f71674273dda7517c2c1cc4ce37b7031a6849de6601edb34c1a35",
+      "bytes": 156510
+    },
+    {
+      "repository_path": "experiments/D12/mitoverse_pool.json",
+      "sha256": "37ed55716d89c92729893c1e6f789a57b44c307b8e514fcec707384087a906bc",
+      "bytes": 206818
+    },
+    {
+      "repository_path": "experiments/MB-1/MB1_benchmark_manifest.json",
+      "sha256": "8a05d1a5c46933d91e5d20977bcb06c0b9ca6bee10abbcdc17a43b62ac0ea046",
+      "bytes": 104559
+    },
+    {
+      "repository_path": "configs/segmentation/MV-Generalist-v2/manifest.json",
+      "sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+      "bytes": 305069
+    },
+    {
+      "repository_path": "docs/D2_Coverage_P0_Design.md",
+      "sha256": "d4fd1a29fe362c6cbef6209f1da5f5066927772e155a62fa1204637936d33364",
+      "bytes": 6096
+    },
+    {
+      "repository_path": "experiments/registry.yaml",
+      "sha256": "c60c469be748ed72a10fcc3f6734de2194b034112441e57cad21c1767222b284",
+      "bytes": 327588
+    }
+  ]
+}

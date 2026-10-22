@@ -2,7 +2,7 @@
   "stage": "D12-three-seeds",
   "status": "VERIFIED_RUNNING",
   "server_root": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022",
-  "service": "d12-three-seeds-20261022.service",
+  "service": "d12-three-seeds-gpu-score-20261022.service",
   "protocol": "configs/evaluation/D12_three_seed_protocol.json",
   "manifest": "configs/segmentation/MV-Generalist-v2/manifest.json",
   "report_path": "docs/D12_three_seed_Dice_readout.md",
@@ -109,12 +109,15 @@
     }
   ],
   "code_commit": "86492fc4c55226095dca10cfc148709e56a529f9",
-  "status_evidence": "evidence/D12-three-seeds/progress_20261022T000832Z.json",
-  "observed_at_utc": "2026-10-22T00:09:14.246792+00:00",
+  "status_evidence": "evidence/D12-three-seeds/GPU_progress_20261022T002526Z.json",
+  "observed_at_utc": "2026-10-22T00:25:26.189866+00:00",
   "draft_pr": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/12",
   "delivery_code_commit": "1cec40cc293b11cc33c7f98047ab8e660f6d3eb8",
   "completed_head_runs": 8,
   "completed_development_inferences": 8,
   "completed_MB1_runs": 8,
-  "pending_phase": "exact_CPU_distance_metrics"
+  "pending_phase": "exact_GPU_distance_metrics",
+  "previous_service": "d12-three-seeds-20261022.service",
+  "scoring_resume_code_commit": "682574d",
+  "completed_distance_metric_rows": 286
 }

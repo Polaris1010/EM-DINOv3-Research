@@ -1,0 +1,5 @@
+model,images,empty_prediction_images,empty_GT_images,HD95_infinite_images,physical_spacing_unavailable_images
+D1-30k,7785,35,228,225,300
+D2-30k,7785,27,228,209,300
+D1-100k,7785,136,228,298,300
+D2-100k,7785,23,228,207,300

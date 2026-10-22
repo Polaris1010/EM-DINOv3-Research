@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "regions": 38,
+  "sources": 12,
+  "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "head_sha256": "4e722c07711d36d6f00a6ab51ee918d9badea8dfecbe8599c232e01c431f60b5",
+  "tta": false,
+  "seconds": 3110.867003440857
+}

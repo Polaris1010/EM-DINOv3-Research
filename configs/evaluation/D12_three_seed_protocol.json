@@ -1,0 +1,64 @@
+{
+  "stage": "D12-three-seeds",
+  "server_root": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022",
+  "models": {
+    "D1-30k": {
+      "encoder_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000030000/teacher_backbone.pth",
+      "encoder_sha256": "63355aa16abc20ae56242d8ba5e21a03e11aaab22e1fdfeb5d1b611c2fc62855",
+      "ssl_steps": 30000,
+      "existing_head_dir": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D1/seed20261014",
+      "existing_benchmark_metrics": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/benchmark/D1/metrics.json",
+      "existing_head_sha256": "5ab285efd5bd5e22ee422d35ecffcc0578c74a48f55beb2eced5588bd3e889cf"
+    },
+    "D2-30k": {
+      "encoder_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/teacher_backbone.pth",
+      "encoder_sha256": "7db12e7ff8bee45166aaeeda1d94365e696ddaecf0c57a0d1611a891cf0d3eda",
+      "ssl_steps": 30000,
+      "existing_head_dir": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/downstream/runs/D2/seed20261014",
+      "existing_benchmark_metrics": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/benchmark/D2/metrics.json",
+      "existing_head_sha256": "99c06a7dce8709ec23f617410b47546cac473c16b95ae1740b968aa2d0481acb"
+    },
+    "D1-100k": {
+      "encoder_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/runs/D1/formal/checkpoints/step000100000/teacher_backbone.pth",
+      "encoder_sha256": "7df9337dac1ef4775ff21727ddea48c6f265449ae22b24f4941c677fb00593db",
+      "ssl_steps": 100000,
+      "existing_head_dir": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/downstream/runs/D1/seed20261014",
+      "existing_benchmark_metrics": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/benchmark/D1/metrics.json",
+      "existing_head_sha256": "1dc4d69add79402612ba3499fa5811848bb3737483c0d648693c9eb6355f9aa2"
+    },
+    "D2-100k": {
+      "encoder_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/runs/D2/formal/checkpoints/step000100000/teacher_backbone.pth",
+      "encoder_sha256": "92a81805f1cc126e1851d5c26baa0b5ba34597d8f93e29ac05203044fe6c7010",
+      "ssl_steps": 100000,
+      "existing_head_dir": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/downstream/runs/D2/seed20261014",
+      "existing_benchmark_metrics": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/benchmark/D2/metrics.json",
+      "existing_head_sha256": "f6adeab09a1f4b17dde981d3f3197a8ba1e225aef4772143b49fac3bca7b62c2"
+    }
+  },
+  "seeds": [
+    20261014,
+    20261015,
+    20261016
+  ],
+  "existing_seed": 20261014,
+  "new_seeds": [
+    20261015,
+    20261016
+  ],
+  "new_head_runs": 8,
+  "optimizer_steps": 40000,
+  "fixed_split": "MV-Generalist-v2",
+  "train_regions": 156,
+  "dev_regions": 38,
+  "dev_sources": 12,
+  "tta": false,
+  "encoder_frozen": true,
+  "decoder": "Original Primus_Multiscale",
+  "checkpoint_selection": "fixed40000",
+  "global_batch": 1,
+  "GPU0_allowed": false,
+  "new_SSL_training": false,
+  "MB1_is_development_diagnostic": true,
+  "memory_fraction_per_head_process": 0.4,
+  "distance_evaluator": "existing exact CPU EDT + MONAI; historical seed14 GPU exact metrics reused"
+}

@@ -1,0 +1,11 @@
+{
+  "code_commit": "39a56ce",
+  "files": {
+    "gpu_scoring.py": "b87c530117097dd58ed5aebca07be867c900c1ef065a21b23fbd09a56dea6ba8",
+    "downstream.py": "7167e90036841645e0195aa5c7d6edb934a7b69a39ddf11310bac748bde7eef0",
+    "report.py": "ff3242975eb214619e17b64211c55832655c7ee98e2b8aefe83e99f074719cb2"
+  },
+  "old_runtime_files_preserved": "code_history/20261022T002059Z",
+  "new_controller_restarted": false,
+  "SSL_ranks_restarted": false
+}

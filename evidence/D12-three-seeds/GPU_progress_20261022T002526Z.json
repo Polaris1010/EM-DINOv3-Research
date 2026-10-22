@@ -1,0 +1,1171 @@
+{
+  "observed_at_utc": "2026-10-22T00:25:26.189866+00:00",
+  "status": {
+    "status": "running",
+    "phase": "exact_GPU_distance_metrics",
+    "seconds": 112.21588473021984,
+    "progress": {
+      "downstream/runs/D2-100k/seed20261015/progress.json": {
+        "stage": "full_development_inference",
+        "model": "D2-100k",
+        "seed": 20261015,
+        "region_id": "wei20_mitoEM-R__dev",
+        "z_completed": 81,
+        "z_total": 100,
+        "seconds": 2815.5429122447968
+      },
+      "downstream/runs/D2-100k/seed20261016/progress.json": {
+        "stage": "full_development_inference",
+        "model": "D2-100k",
+        "seed": 20261016,
+        "region_id": "wei20_mitoEM-R__dev",
+        "z_completed": 81,
+        "z_total": 100,
+        "seconds": 2859.1864511966705
+      },
+      "downstream/runs/D1-100k/seed20261015/progress.json": {
+        "stage": "full_development_inference",
+        "model": "D1-100k",
+        "seed": 20261015,
+        "region_id": "wei20_mitoEM-R__dev",
+        "z_completed": 81,
+        "z_total": 100,
+        "seconds": 2867.2171235084534
+      },
+      "downstream/runs/D1-100k/seed20261016/progress.json": {
+        "stage": "full_development_inference",
+        "model": "D1-100k",
+        "seed": 20261016,
+        "region_id": "wei20_mitoEM-R__dev",
+        "z_completed": 81,
+        "z_total": 100,
+        "seconds": 2852.1615719795227
+      },
+      "downstream/runs/D2-30k/seed20261015/progress.json": {
+        "stage": "full_development_inference",
+        "model": "D2-30k",
+        "seed": 20261015,
+        "region_id": "wei20_mitoEM-R__dev",
+        "z_completed": 81,
+        "z_total": 100,
+        "seconds": 2878.036179304123
+      },
+      "downstream/runs/D2-30k/seed20261016/progress.json": {
+        "stage": "full_development_inference",
+        "model": "D2-30k",
+        "seed": 20261016,
+        "region_id": "wei20_mitoEM-R__dev",
+        "z_completed": 81,
+        "z_total": 100,
+        "seconds": 2879.2280011177063
+      },
+      "downstream/runs/D1-30k/seed20261015/progress.json": {
+        "stage": "full_development_inference",
+        "model": "D1-30k",
+        "seed": 20261015,
+        "region_id": "wei20_mitoEM-R__dev",
+        "z_completed": 81,
+        "z_total": 100,
+        "seconds": 2867.052077770233
+      },
+      "downstream/runs/D1-30k/seed20261016/progress.json": {
+        "stage": "full_development_inference",
+        "model": "D1-30k",
+        "seed": 20261016,
+        "region_id": "wei20_mitoEM-R__dev",
+        "z_completed": 81,
+        "z_total": 100,
+        "seconds": 2857.9190249443054
+      }
+    },
+    "active_pids": [
+      160049,
+      160050,
+      160051
+    ],
+    "Coverage_NR_progress": {
+      "step": 60430,
+      "rank": 0,
+      "loss": 12.75,
+      "grad_norm": 1.94411039352417,
+      "lr": 1.0252712135467286e-05,
+      "teacher_momentum": 0.999,
+      "teacher_temp": 0.07,
+      "global_batch": 48,
+      "data_first_index": 2900592,
+      "data_first_volume": "openorganelle_jrc_jurkat-1_recon-1_crop38",
+      "data_first_domain": "MitoVerse",
+      "sample_chain": "45c04b2f181ff0a018d8ebfaa8955d47c9de7c7a2a6fed9949e083598c4b2e36",
+      "elapsed_seconds": 58507.85473180562,
+      "data_seconds": 0.014349989593029022,
+      "iteration_seconds": 0.6998604387044907,
+      "peak_gpu_bytes": 10240163840,
+      "loss_components": {
+        "dino_local_crops_loss": 8.9375,
+        "dino_global_crops_loss": 8.9375,
+        "koleo_loss": -0.31431418657302856,
+        "ibot_loss": 3.8444414138793945
+      }
+    },
+    "gpu0_used": false,
+    "website_http": 200
+  },
+  "metrics_done": 286,
+  "preserved_unchanged": 277,
+  "GPU_completed": 12,
+  "Han_timing": [
+    {
+      "model": "D2-100k",
+      "seed": 20261015,
+      "metric_seconds": 182.32886743545532,
+      "distance_backend": "MV2_existing_exact_CPU_EDT_MONAI",
+      "hd95_nm": 2909.254150390625,
+      "nsd_16nm": 0.4730941355228424
+    },
+    {
+      "model": "D2-100k",
+      "seed": 20261016,
+      "metric_seconds": 173.39343166351318,
+      "distance_backend": "MV2_existing_exact_CPU_EDT_MONAI",
+      "hd95_nm": 2894.9638671875,
+      "nsd_16nm": 0.49824854731559753
+    },
+    {
+      "model": "D1-100k",
+      "seed": 20261015,
+      "metric_seconds": 21.869149446487427,
+      "distance_backend": "MV2_exact_GPU_EDT_MONAI",
+      "hd95_nm": 2910.78076171875,
+      "nsd_16nm": 0.5049186944961548
+    },
+    {
+      "model": "D1-100k",
+      "seed": 20261016,
+      "metric_seconds": 22.28518295288086,
+      "distance_backend": "MV2_exact_GPU_EDT_MONAI",
+      "hd95_nm": 2876.976806640625,
+      "nsd_16nm": 0.5186742544174194
+    },
+    {
+      "model": "D2-30k",
+      "seed": 20261015,
+      "metric_seconds": 22.233027458190918,
+      "distance_backend": "MV2_exact_GPU_EDT_MONAI",
+      "hd95_nm": 2896.47021484375,
+      "nsd_16nm": 0.4631843864917755
+    },
+    {
+      "model": "D2-30k",
+      "seed": 20261016,
+      "metric_seconds": 21.895359992980957,
+      "distance_backend": "MV2_exact_GPU_EDT_MONAI",
+      "hd95_nm": 2890.66162109375,
+      "nsd_16nm": 0.4912555515766144
+    },
+    {
+      "model": "D1-30k",
+      "seed": 20261015,
+      "metric_seconds": 21.60330843925476,
+      "distance_backend": "MV2_exact_GPU_EDT_MONAI",
+      "hd95_nm": 2929.71533203125,
+      "nsd_16nm": 0.48339998722076416
+    },
+    {
+      "model": "D1-30k",
+      "seed": 20261016,
+      "metric_seconds": 21.387962341308594,
+      "distance_backend": "MV2_exact_GPU_EDT_MONAI",
+      "hd95_nm": 2913.25244140625,
+      "nsd_16nm": 0.5074014663696289
+    }
+  ],
+  "GPU_receipts": [
+    {
+      "physical_gpu": 2,
+      "uuid": "GPU-794aaaef-6c72-f6ac-b6d0-a07ba3f76364",
+      "pid": 159276,
+      "path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D1-100k/seed20261015/han24_pos2_overlap.json",
+      "started_at": 1792628611.733141,
+      "equivalence": [
+        {
+          "shape": [
+            7,
+            11,
+            19
+          ],
+          "spacing": [
+            30,
+            8,
+            8
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 5000
+        },
+        {
+          "shape": [
+            13,
+            29
+          ],
+          "spacing": [
+            15,
+            5
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 3000
+        },
+        {
+          "shape": [
+            3,
+            7,
+            4096
+          ],
+          "spacing": [
+            40,
+            12,
+            12
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 2097152
+        }
+      ],
+      "full_device_calls": 2,
+      "host_backed_calls": 0,
+      "source_sha256": "b87c530117097dd58ed5aebca07be867c900c1ef065a21b23fbd09a56dea6ba8",
+      "MONAI_HD95_NSD_equivalence": {
+        "CPU": [
+          16.0,
+          1.0
+        ],
+        "host_GPU": [
+          16.0,
+          1.0
+        ]
+      },
+      "completed_at": 1792628638.2051775,
+      "status": "complete"
+    },
+    {
+      "physical_gpu": 2,
+      "uuid": "GPU-794aaaef-6c72-f6ac-b6d0-a07ba3f76364",
+      "pid": 159780,
+      "path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D2-30k/seed20261015/muller21_high_c1_overlap.json",
+      "started_at": 1792628677.8023353,
+      "equivalence": [
+        {
+          "shape": [
+            7,
+            11,
+            19
+          ],
+          "spacing": [
+            30,
+            8,
+            8
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 5000
+        },
+        {
+          "shape": [
+            13,
+            29
+          ],
+          "spacing": [
+            15,
+            5
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 3000
+        },
+        {
+          "shape": [
+            3,
+            7,
+            4096
+          ],
+          "spacing": [
+            40,
+            12,
+            12
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 2097152
+        }
+      ],
+      "full_device_calls": 2,
+      "host_backed_calls": 0,
+      "source_sha256": "b87c530117097dd58ed5aebca07be867c900c1ef065a21b23fbd09a56dea6ba8",
+      "MONAI_HD95_NSD_equivalence": {
+        "CPU": [
+          16.0,
+          1.0
+        ],
+        "host_GPU": [
+          16.0,
+          1.0
+        ]
+      },
+      "completed_at": 1792628707.273672,
+      "status": "complete"
+    },
+    {
+      "physical_gpu": 1,
+      "uuid": "GPU-29591cdf-1498-85e8-bb8c-158082a53728",
+      "pid": 159278,
+      "path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D1-30k/seed20261016/han24_pos2_overlap.json",
+      "started_at": 1792628611.7076256,
+      "equivalence": [
+        {
+          "shape": [
+            7,
+            11,
+            19
+          ],
+          "spacing": [
+            30,
+            8,
+            8
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 5000
+        },
+        {
+          "shape": [
+            13,
+            29
+          ],
+          "spacing": [
+            15,
+            5
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 3000
+        },
+        {
+          "shape": [
+            3,
+            7,
+            4096
+          ],
+          "spacing": [
+            40,
+            12,
+            12
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 2097152
+        }
+      ],
+      "full_device_calls": 2,
+      "host_backed_calls": 0,
+      "source_sha256": "b87c530117097dd58ed5aebca07be867c900c1ef065a21b23fbd09a56dea6ba8",
+      "MONAI_HD95_NSD_equivalence": {
+        "CPU": [
+          16.0,
+          1.0
+        ],
+        "host_GPU": [
+          16.0,
+          1.0
+        ]
+      },
+      "completed_at": 1792628638.921358,
+      "status": "complete"
+    },
+    {
+      "physical_gpu": 1,
+      "uuid": "GPU-29591cdf-1498-85e8-bb8c-158082a53728",
+      "pid": 158912,
+      "path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D2-30k/seed20261016/han24_pos2_overlap.json",
+      "started_at": 1792628577.062724,
+      "equivalence": [
+        {
+          "shape": [
+            7,
+            11,
+            19
+          ],
+          "spacing": [
+            30,
+            8,
+            8
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 5000
+        },
+        {
+          "shape": [
+            13,
+            29
+          ],
+          "spacing": [
+            15,
+            5
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 3000
+        },
+        {
+          "shape": [
+            3,
+            7,
+            4096
+          ],
+          "spacing": [
+            40,
+            12,
+            12
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 2097152
+        }
+      ],
+      "full_device_calls": 2,
+      "host_backed_calls": 0,
+      "source_sha256": "b87c530117097dd58ed5aebca07be867c900c1ef065a21b23fbd09a56dea6ba8",
+      "MONAI_HD95_NSD_equivalence": {
+        "CPU": [
+          16.0,
+          1.0
+        ],
+        "host_GPU": [
+          16.0,
+          1.0
+        ]
+      },
+      "completed_at": 1792628605.3743804,
+      "status": "complete"
+    },
+    {
+      "physical_gpu": 2,
+      "uuid": "GPU-794aaaef-6c72-f6ac-b6d0-a07ba3f76364",
+      "pid": 159509,
+      "path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D2-100k/seed20261015/muller21_high_c1_overlap.json",
+      "started_at": 1792628642.3510525,
+      "equivalence": [
+        {
+          "shape": [
+            7,
+            11,
+            19
+          ],
+          "spacing": [
+            30,
+            8,
+            8
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 5000
+        },
+        {
+          "shape": [
+            13,
+            29
+          ],
+          "spacing": [
+            15,
+            5
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 3000
+        },
+        {
+          "shape": [
+            3,
+            7,
+            4096
+          ],
+          "spacing": [
+            40,
+            12,
+            12
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 2097152
+        }
+      ],
+      "full_device_calls": 2,
+      "host_backed_calls": 0,
+      "source_sha256": "b87c530117097dd58ed5aebca07be867c900c1ef065a21b23fbd09a56dea6ba8",
+      "MONAI_HD95_NSD_equivalence": {
+        "CPU": [
+          16.0,
+          1.0
+        ],
+        "host_GPU": [
+          16.0,
+          1.0
+        ]
+      },
+      "completed_at": 1792628674.7839074,
+      "status": "complete"
+    },
+    {
+      "physical_gpu": 3,
+      "uuid": "GPU-5a68cc29-a13a-bf90-858e-079e14de807a",
+      "pid": 159277,
+      "path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D1-30k/seed20261015/han24_pos2_overlap.json",
+      "started_at": 1792628611.7322054,
+      "equivalence": [
+        {
+          "shape": [
+            7,
+            11,
+            19
+          ],
+          "spacing": [
+            30,
+            8,
+            8
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 5000
+        },
+        {
+          "shape": [
+            13,
+            29
+          ],
+          "spacing": [
+            15,
+            5
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 3000
+        },
+        {
+          "shape": [
+            3,
+            7,
+            4096
+          ],
+          "spacing": [
+            40,
+            12,
+            12
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 2097152
+        }
+      ],
+      "full_device_calls": 2,
+      "host_backed_calls": 0,
+      "source_sha256": "b87c530117097dd58ed5aebca07be867c900c1ef065a21b23fbd09a56dea6ba8",
+      "MONAI_HD95_NSD_equivalence": {
+        "CPU": [
+          16.0,
+          1.0
+        ],
+        "host_GPU": [
+          16.0,
+          1.0
+        ]
+      },
+      "completed_at": 1792628639.2941298,
+      "status": "complete"
+    },
+    {
+      "physical_gpu": 2,
+      "uuid": "GPU-794aaaef-6c72-f6ac-b6d0-a07ba3f76364",
+      "pid": 160050,
+      "path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D1-30k/seed20261016/muller21_high_c1_overlap.json",
+      "started_at": 1792628713.5922215,
+      "equivalence": [
+        {
+          "shape": [
+            7,
+            11,
+            19
+          ],
+          "spacing": [
+            30,
+            8,
+            8
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 5000
+        },
+        {
+          "shape": [
+            13,
+            29
+          ],
+          "spacing": [
+            15,
+            5
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 3000
+        },
+        {
+          "shape": [
+            3,
+            7,
+            4096
+          ],
+          "spacing": [
+            40,
+            12,
+            12
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 2097152
+        }
+      ],
+      "full_device_calls": 0,
+      "host_backed_calls": 0,
+      "source_sha256": "b87c530117097dd58ed5aebca07be867c900c1ef065a21b23fbd09a56dea6ba8",
+      "MONAI_HD95_NSD_equivalence": {
+        "CPU": [
+          16.0,
+          1.0
+        ],
+        "host_GPU": [
+          16.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "physical_gpu": 1,
+      "uuid": "GPU-29591cdf-1498-85e8-bb8c-158082a53728",
+      "pid": 158651,
+      "path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D2-30k/seed20261015/han24_pos2_overlap.json",
+      "started_at": 1792628541.2076893,
+      "equivalence": [
+        {
+          "shape": [
+            7,
+            11,
+            19
+          ],
+          "spacing": [
+            30,
+            8,
+            8
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 5000
+        },
+        {
+          "shape": [
+            13,
+            29
+          ],
+          "spacing": [
+            15,
+            5
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 3000
+        },
+        {
+          "shape": [
+            3,
+            7,
+            4096
+          ],
+          "spacing": [
+            40,
+            12,
+            12
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 2097152
+        }
+      ],
+      "full_device_calls": 2,
+      "host_backed_calls": 0,
+      "source_sha256": "b87c530117097dd58ed5aebca07be867c900c1ef065a21b23fbd09a56dea6ba8",
+      "MONAI_HD95_NSD_equivalence": {
+        "CPU": [
+          16.0,
+          1.0
+        ],
+        "host_GPU": [
+          16.0,
+          1.0
+        ]
+      },
+      "completed_at": 1792628569.9868493,
+      "status": "complete"
+    },
+    {
+      "physical_gpu": 3,
+      "uuid": "GPU-5a68cc29-a13a-bf90-858e-079e14de807a",
+      "pid": 160049,
+      "path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D1-30k/seed20261015/muller21_high_c1_overlap.json",
+      "started_at": 1792628713.5828931,
+      "equivalence": [
+        {
+          "shape": [
+            7,
+            11,
+            19
+          ],
+          "spacing": [
+            30,
+            8,
+            8
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 5000
+        },
+        {
+          "shape": [
+            13,
+            29
+          ],
+          "spacing": [
+            15,
+            5
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 3000
+        },
+        {
+          "shape": [
+            3,
+            7,
+            4096
+          ],
+          "spacing": [
+            40,
+            12,
+            12
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 2097152
+        }
+      ],
+      "full_device_calls": 0,
+      "host_backed_calls": 0,
+      "source_sha256": "b87c530117097dd58ed5aebca07be867c900c1ef065a21b23fbd09a56dea6ba8",
+      "MONAI_HD95_NSD_equivalence": {
+        "CPU": [
+          16.0,
+          1.0
+        ],
+        "host_GPU": [
+          16.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "physical_gpu": 1,
+      "uuid": "GPU-29591cdf-1498-85e8-bb8c-158082a53728",
+      "pid": 159779,
+      "path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D1-100k/seed20261016/muller21_high_c1_overlap.json",
+      "started_at": 1792628677.8277738,
+      "equivalence": [
+        {
+          "shape": [
+            7,
+            11,
+            19
+          ],
+          "spacing": [
+            30,
+            8,
+            8
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 5000
+        },
+        {
+          "shape": [
+            13,
+            29
+          ],
+          "spacing": [
+            15,
+            5
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 3000
+        },
+        {
+          "shape": [
+            3,
+            7,
+            4096
+          ],
+          "spacing": [
+            40,
+            12,
+            12
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 2097152
+        }
+      ],
+      "full_device_calls": 2,
+      "host_backed_calls": 0,
+      "source_sha256": "b87c530117097dd58ed5aebca07be867c900c1ef065a21b23fbd09a56dea6ba8",
+      "MONAI_HD95_NSD_equivalence": {
+        "CPU": [
+          16.0,
+          1.0
+        ],
+        "host_GPU": [
+          16.0,
+          1.0
+        ]
+      },
+      "completed_at": 1792628707.816718,
+      "status": "complete"
+    },
+    {
+      "physical_gpu": 1,
+      "uuid": "GPU-29591cdf-1498-85e8-bb8c-158082a53728",
+      "pid": 158365,
+      "path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D1-100k/seed20261016/han24_pos2_overlap.json",
+      "started_at": 1792628508.7826202,
+      "equivalence": [
+        {
+          "shape": [
+            7,
+            11,
+            19
+          ],
+          "spacing": [
+            30,
+            8,
+            8
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 5000
+        },
+        {
+          "shape": [
+            13,
+            29
+          ],
+          "spacing": [
+            15,
+            5
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 3000
+        },
+        {
+          "shape": [
+            3,
+            7,
+            4096
+          ],
+          "spacing": [
+            40,
+            12,
+            12
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 2097152
+        }
+      ],
+      "full_device_calls": 2,
+      "host_backed_calls": 0,
+      "source_sha256": "b87c530117097dd58ed5aebca07be867c900c1ef065a21b23fbd09a56dea6ba8",
+      "MONAI_HD95_NSD_equivalence": {
+        "CPU": [
+          16.0,
+          1.0
+        ],
+        "host_GPU": [
+          16.0,
+          1.0
+        ]
+      },
+      "completed_at": 1792628538.4858549,
+      "status": "complete"
+    },
+    {
+      "physical_gpu": 3,
+      "uuid": "GPU-5a68cc29-a13a-bf90-858e-079e14de807a",
+      "pid": 159781,
+      "path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D2-30k/seed20261016/muller21_high_c1_overlap.json",
+      "started_at": 1792628677.8254657,
+      "equivalence": [
+        {
+          "shape": [
+            7,
+            11,
+            19
+          ],
+          "spacing": [
+            30,
+            8,
+            8
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 5000
+        },
+        {
+          "shape": [
+            13,
+            29
+          ],
+          "spacing": [
+            15,
+            5
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 3000
+        },
+        {
+          "shape": [
+            3,
+            7,
+            4096
+          ],
+          "spacing": [
+            40,
+            12,
+            12
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 2097152
+        }
+      ],
+      "full_device_calls": 2,
+      "host_backed_calls": 0,
+      "source_sha256": "b87c530117097dd58ed5aebca07be867c900c1ef065a21b23fbd09a56dea6ba8",
+      "MONAI_HD95_NSD_equivalence": {
+        "CPU": [
+          16.0,
+          1.0
+        ],
+        "host_GPU": [
+          16.0,
+          1.0
+        ]
+      },
+      "completed_at": 1792628708.3302124,
+      "status": "complete"
+    },
+    {
+      "physical_gpu": 3,
+      "uuid": "GPU-5a68cc29-a13a-bf90-858e-079e14de807a",
+      "pid": 159510,
+      "path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D2-100k/seed20261016/muller21_high_c1_overlap.json",
+      "started_at": 1792628642.3359103,
+      "equivalence": [
+        {
+          "shape": [
+            7,
+            11,
+            19
+          ],
+          "spacing": [
+            30,
+            8,
+            8
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 5000
+        },
+        {
+          "shape": [
+            13,
+            29
+          ],
+          "spacing": [
+            15,
+            5
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 3000
+        },
+        {
+          "shape": [
+            3,
+            7,
+            4096
+          ],
+          "spacing": [
+            40,
+            12,
+            12
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 2097152
+        }
+      ],
+      "full_device_calls": 2,
+      "host_backed_calls": 0,
+      "source_sha256": "b87c530117097dd58ed5aebca07be867c900c1ef065a21b23fbd09a56dea6ba8",
+      "MONAI_HD95_NSD_equivalence": {
+        "CPU": [
+          16.0,
+          1.0
+        ],
+        "host_GPU": [
+          16.0,
+          1.0
+        ]
+      },
+      "completed_at": 1792628674.4210951,
+      "status": "complete"
+    },
+    {
+      "physical_gpu": 1,
+      "uuid": "GPU-29591cdf-1498-85e8-bb8c-158082a53728",
+      "pid": 159511,
+      "path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D1-100k/seed20261015/muller21_high_c1_overlap.json",
+      "started_at": 1792628642.3563771,
+      "equivalence": [
+        {
+          "shape": [
+            7,
+            11,
+            19
+          ],
+          "spacing": [
+            30,
+            8,
+            8
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 5000
+        },
+        {
+          "shape": [
+            13,
+            29
+          ],
+          "spacing": [
+            15,
+            5
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 3000
+        },
+        {
+          "shape": [
+            3,
+            7,
+            4096
+          ],
+          "spacing": [
+            40,
+            12,
+            12
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 2097152
+        }
+      ],
+      "full_device_calls": 2,
+      "host_backed_calls": 0,
+      "source_sha256": "b87c530117097dd58ed5aebca07be867c900c1ef065a21b23fbd09a56dea6ba8",
+      "MONAI_HD95_NSD_equivalence": {
+        "CPU": [
+          16.0,
+          1.0
+        ],
+        "host_GPU": [
+          16.0,
+          1.0
+        ]
+      },
+      "completed_at": 1792628674.4145133,
+      "status": "complete"
+    },
+    {
+      "physical_gpu": 1,
+      "uuid": "GPU-29591cdf-1498-85e8-bb8c-158082a53728",
+      "pid": 160051,
+      "path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D2-100k/seed20261015/muller21_low_c2_overlap.json",
+      "started_at": 1792628713.58998,
+      "equivalence": [
+        {
+          "shape": [
+            7,
+            11,
+            19
+          ],
+          "spacing": [
+            30,
+            8,
+            8
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 5000
+        },
+        {
+          "shape": [
+            13,
+            29
+          ],
+          "spacing": [
+            15,
+            5
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 3000
+        },
+        {
+          "shape": [
+            3,
+            7,
+            4096
+          ],
+          "spacing": [
+            40,
+            12,
+            12
+          ],
+          "max_abs_error": 0.0,
+          "workspace_bytes": 2097152
+        }
+      ],
+      "full_device_calls": 0,
+      "host_backed_calls": 0,
+      "source_sha256": "b87c530117097dd58ed5aebca07be867c900c1ef065a21b23fbd09a56dea6ba8",
+      "MONAI_HD95_NSD_equivalence": {
+        "CPU": [
+          16.0,
+          1.0
+        ],
+        "host_GPU": [
+          16.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "GPU_processes": "GPU-e7d56fea-8409-6cf0-e2e7-ceda9fd00ec5, 2470228, 3086\nGPU-29591cdf-1498-85e8-bb8c-158082a53728, 1971241, 458\nGPU-29591cdf-1498-85e8-bb8c-158082a53728, 3930786, 10792\nGPU-29591cdf-1498-85e8-bb8c-158082a53728, 160051, 384\nGPU-794aaaef-6c72-f6ac-b6d0-a07ba3f76364, 1971241, 458\nGPU-794aaaef-6c72-f6ac-b6d0-a07ba3f76364, 3930787, 10792\nGPU-794aaaef-6c72-f6ac-b6d0-a07ba3f76364, 160050, 384\nGPU-5a68cc29-a13a-bf90-858e-079e14de807a, 3930788, 10792\nGPU-5a68cc29-a13a-bf90-858e-079e14de807a, 160049, 384\n",
+  "service": "MainPID=159267\nActiveState=active\n",
+  "GPU_scheduler_tail": "",
+  "Coverage_NR": {
+    "step": 60440,
+    "rank": 0,
+    "loss": 13.0625,
+    "grad_norm": 3.4690115451812744,
+    "lr": 1.0248722998462942e-05,
+    "teacher_momentum": 0.999,
+    "teacher_temp": 0.07,
+    "global_batch": 48,
+    "data_first_index": 2901072,
+    "data_first_volume": "microns_cortical_mm3",
+    "data_first_domain": "CEM1.5M",
+    "sample_chain": "d60ac0750986d2e5641748e668ce74c96cbb9e6eee5c48288a5e5a0ae1f5928e",
+    "elapsed_seconds": 58515.468392923474,
+    "data_seconds": 0.013357073068618774,
+    "iteration_seconds": 0.7065556272864342,
+    "peak_gpu_bytes": 10240163840,
+    "loss_components": {
+      "dino_local_crops_loss": 9.25,
+      "dino_global_crops_loss": 9.25,
+      "koleo_loss": -0.3077831268310547,
+      "ibot_loss": 3.873392105102539
+    }
+  },
+  "website_http": 200,
+  "phase_end_utc": {
+    "training_complete": "2026-10-21T19:39:06.223534+00:00",
+    "inference_complete": "2026-10-21T22:14:52.589393+00:00",
+    "MB1_complete": "2026-10-21T23:32:28.436310+00:00"
+  }
+}

@@ -1,3 +1,8 @@
+- [20261022_33_d12_three_seed_final_closeout.md](20261022_33_d12_three_seed_final_closeout.md)
+- [20261022_32_d12_gpu_distance_acceleration.md](20261022_32_d12_gpu_distance_acceleration.md)
+- [20261022_31_d12_dice_complete_distances_pending.md](20261022_31_d12_dice_complete_distances_pending.md)
+- [20261022_30_d12_multiseed_progress.md](20261022_30_d12_multiseed_progress.md)
+- [20261022_29_d12_three_seed_start.md](20261022_29_d12_three_seed_start.md)
 # 每轮工作记录
 
 新窗口先读最新记录，再读当前状态和NEXT_ACTION。记录描述实际完成事实；历史计划不自动成为执行授权。

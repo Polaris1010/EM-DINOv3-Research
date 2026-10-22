@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "region_id": "openorganelle_jrc_cos7-1b_recon-1_crop245",
+  "HD95_CPU_and_GPU": 423.0933837890625,
+  "NSD_CPU_and_GPU": 0.24662281572818756,
+  "additional_Han_full_volume_check": "cancelled; not required to launch training"
+}

@@ -1,0 +1,8 @@
+{
+  "status": "GPU_METRICS_RESUME_DISPATCHED",
+  "preserved_metrics": 277,
+  "remaining_at_switch": 27,
+  "service": "d12-three-seeds-gpu-score-20261022.service",
+  "code_commit": "682574d",
+  "no_training_or_inference_repeated": true
+}

@@ -1,0 +1,46 @@
+{
+  "path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D1-100k/seed20261015/head_step040000.pth",
+  "sha256": "4e722c07711d36d6f00a6ab51ee918d9badea8dfecbe8599c232e01c431f60b5",
+  "step": 40000,
+  "metadata": {
+    "stage": "MV-3",
+    "model": "D1-100k",
+    "encoder_model": "D1-100k",
+    "seed": 20261015,
+    "optimizer_steps": 40000,
+    "decoder_initial_sha256": "17d5a0fc3570cf232e74945e027b1c10c3b728b673d33a76108223a4c1c92a35",
+    "encoder_sha256": "7df9337dac1ef4775ff21727ddea48c6f265449ae22b24f4941c677fb00593db",
+    "encoder_frozen": true,
+    "gates": false,
+    "tta": false,
+    "interaction_indices": [
+      5,
+      11,
+      17,
+      23
+    ],
+    "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+    "protocol_sha256": "3834cfaf5a8b687041b36f2d6aba79033724a337602a65523c125c53391d316f",
+    "trainer_sha256": "745419cd404e41687a99a7c474948b4417820d9ea6bdc53b4d909c1422e4e22a",
+    "loader_sha256": "eec0819304a982113df3a9bac228c0666ba6fff1a451acf8a28a32305e0e3269",
+    "primus_source_sha256": "b5398dc48bf5cc14068b4fed38c5f0a8c30bcbbe242d59475016e70912f248d3",
+    "physical_gpu": 3,
+    "training_batch_size": 1,
+    "selection": "fixed_step40000"
+  },
+  "source_draws": {
+    "turner22": 3363,
+    "casser20": 3291,
+    "han24": 3335,
+    "mekuc20": 3333,
+    "haberl18": 3318,
+    "kunduri22": 3338,
+    "guay21": 3277,
+    "muller21": 3368,
+    "openorganelle": 3396,
+    "wei20": 3365,
+    "xiao18": 3315,
+    "jiang25": 3301
+  },
+  "sampling_hash": "28b7ed4e628b2fe7c94fabf3bdcbbf81786d8de3751019ad77aa1000f7c0a73f"
+}

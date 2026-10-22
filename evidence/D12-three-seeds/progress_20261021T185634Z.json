@@ -1,0 +1,300 @@
+{
+  "observed_at_utc": "2026-10-21T18:56:34.038813+00:00",
+  "status": {
+    "status": "running",
+    "phase": "train",
+    "seconds": 7226.156709939241,
+    "progress": {
+      "downstream/runs/D2-100k/seed20261015/progress.json": {
+        "model": "D2-100k",
+        "seed": 20261015,
+        "stage": "development_monitor",
+        "step": 40000,
+        "steps": 40000,
+        "checkpoint_sha256": "c35ceabde20956b957facf7a7d07cb680f5546aeaa96a63e074cb2d7e08ffdaa"
+      },
+      "downstream/runs/D1-100k/seed20261015/progress.json": {
+        "model": "D1-100k",
+        "seed": 20261015,
+        "stage": "development_monitor",
+        "step": 40000,
+        "steps": 40000,
+        "checkpoint_sha256": "4e722c07711d36d6f00a6ab51ee918d9badea8dfecbe8599c232e01c431f60b5"
+      },
+      "downstream/runs/D1-100k/seed20261016/progress.json": {
+        "model": "D1-100k",
+        "seed": 20261016,
+        "stage": "train",
+        "step": 1000,
+        "steps": 40000,
+        "loss_median200": 0.3753197193145752,
+        "seconds": 67.5763304233551,
+        "source_draws": {
+          "openorganelle": 90,
+          "haberl18": 84,
+          "xiao18": 84,
+          "jiang25": 90,
+          "turner22": 74,
+          "muller21": 82,
+          "wei20": 82,
+          "kunduri22": 97,
+          "casser20": 84,
+          "han24": 79,
+          "mekuc20": 81,
+          "guay21": 73
+        },
+        "sampling_hash": "35f56d4d0198d154148099af0a64ee868905f04bee7ae17c80206c00540169d6",
+        "lr": 9.98615571769606e-05
+      },
+      "downstream/runs/D2-30k/seed20261015/progress.json": {
+        "model": "D2-30k",
+        "seed": 20261015,
+        "stage": "development_monitor",
+        "step": 40000,
+        "steps": 40000,
+        "checkpoint_sha256": "2e607c7eecf0530f6ac7f71f37ef8b6ea1333f7f98eb294bf52818ed7a42bbd5"
+      },
+      "downstream/runs/D2-30k/seed20261016/progress.json": {
+        "model": "D2-30k",
+        "seed": 20261016,
+        "stage": "train",
+        "step": 39500,
+        "steps": 40000,
+        "loss_median200": 0.15813180804252625,
+        "seconds": 3316.9909927845,
+        "source_draws": {
+          "openorganelle": 3304,
+          "haberl18": 3261,
+          "xiao18": 3207,
+          "jiang25": 3260,
+          "turner22": 3304,
+          "muller21": 3319,
+          "wei20": 3277,
+          "kunduri22": 3278,
+          "casser20": 3276,
+          "han24": 3345,
+          "mekuc20": 3326,
+          "guay21": 3343
+        },
+        "sampling_hash": "fc99f14907d5ba111b582cf1c525f1595e9724bce886c8ce071adaa83f5e8685",
+        "lr": 1.0034832263494001e-05
+      },
+      "downstream/runs/D1-30k/seed20261015/progress.json": {
+        "model": "D1-30k",
+        "seed": 20261015,
+        "stage": "development_monitor",
+        "step": 40000,
+        "steps": 40000,
+        "checkpoint_sha256": "0f49b84e3ef0676c188d9814c5e8bbd0d998054c1fd1584d1ba056cae52fa9c8"
+      },
+      "downstream/runs/D1-30k/seed20261016/progress.json": {
+        "model": "D1-30k",
+        "seed": 20261016,
+        "stage": "train",
+        "step": 39500,
+        "steps": 40000,
+        "loss_median200": 0.15918713808059692,
+        "seconds": 3317.001535654068,
+        "source_draws": {
+          "openorganelle": 3304,
+          "haberl18": 3261,
+          "xiao18": 3207,
+          "jiang25": 3260,
+          "turner22": 3304,
+          "muller21": 3319,
+          "wei20": 3277,
+          "kunduri22": 3278,
+          "casser20": 3276,
+          "han24": 3345,
+          "mekuc20": 3326,
+          "guay21": 3343
+        },
+        "sampling_hash": "fc99f14907d5ba111b582cf1c525f1595e9724bce886c8ce071adaa83f5e8685",
+        "lr": 1.0034832263494001e-05
+      }
+    },
+    "active_pids": [
+      4183342,
+      4183343,
+      13473
+    ],
+    "Coverage_NR_progress": {
+      "step": 47480,
+      "rank": 0,
+      "loss": 13.0,
+      "grad_norm": 2.5347037315368652,
+      "lr": 1.5554785446873266e-05,
+      "teacher_momentum": 0.999,
+      "teacher_temp": 0.07,
+      "global_batch": 48,
+      "data_first_index": 2278992,
+      "data_first_volume": "jiang25_vol1",
+      "data_first_domain": "MitoVerse",
+      "sample_chain": "92003e4bd7d6cab9c549277762dcd60eba168c942283070f9f5593c475cd145f",
+      "elapsed_seconds": 38769.364005185664,
+      "data_seconds": 0.009278543293476105,
+      "iteration_seconds": 1.3311838284134865,
+      "peak_gpu_bytes": 10240163840,
+      "loss_components": {
+        "dino_local_crops_loss": 9.1875,
+        "dino_global_crops_loss": 9.125,
+        "koleo_loss": -0.3111213147640228,
+        "ibot_loss": 3.871248960494995
+      }
+    },
+    "gpu0_used": false,
+    "website_http": 200
+  },
+  "service": "MainPID=4154944\nActiveState=active\n",
+  "runs": [
+    {
+      "model": "D1-30k",
+      "seed": 20261015,
+      "started": true,
+      "development_metric_rows": 0,
+      "overlap_rows": 0,
+      "progress": {
+        "step": 40000,
+        "stage": "development_monitor"
+      },
+      "training_complete": {
+        "status": "complete",
+        "completed_steps": 40000,
+        "seconds": 3828.053571462631,
+        "stage": "MV-3",
+        "encoder_unchanged": true
+      }
+    },
+    {
+      "model": "D1-30k",
+      "seed": 20261016,
+      "started": true,
+      "development_metric_rows": 0,
+      "overlap_rows": 0,
+      "progress": {
+        "step": 39500,
+        "seconds": 3317.001535654068,
+        "stage": "train"
+      }
+    },
+    {
+      "model": "D2-30k",
+      "seed": 20261015,
+      "started": true,
+      "development_metric_rows": 0,
+      "overlap_rows": 0,
+      "progress": {
+        "step": 40000,
+        "stage": "development_monitor"
+      },
+      "training_complete": {
+        "status": "complete",
+        "completed_steps": 40000,
+        "seconds": 3830.8440277576447,
+        "stage": "MV-3",
+        "encoder_unchanged": true
+      }
+    },
+    {
+      "model": "D2-30k",
+      "seed": 20261016,
+      "started": true,
+      "development_metric_rows": 0,
+      "overlap_rows": 0,
+      "progress": {
+        "step": 39500,
+        "seconds": 3316.9909927845,
+        "stage": "train"
+      }
+    },
+    {
+      "model": "D1-100k",
+      "seed": 20261015,
+      "started": true,
+      "development_metric_rows": 0,
+      "overlap_rows": 0,
+      "progress": {
+        "step": 40000,
+        "stage": "development_monitor"
+      },
+      "training_complete": {
+        "status": "complete",
+        "completed_steps": 40000,
+        "seconds": 3829.7991573810577,
+        "stage": "MV-3",
+        "encoder_unchanged": true
+      }
+    },
+    {
+      "model": "D1-100k",
+      "seed": 20261016,
+      "started": true,
+      "development_metric_rows": 0,
+      "overlap_rows": 0,
+      "progress": {
+        "step": 1000,
+        "seconds": 67.5763304233551,
+        "stage": "train"
+      }
+    },
+    {
+      "model": "D2-100k",
+      "seed": 20261015,
+      "started": true,
+      "development_metric_rows": 0,
+      "overlap_rows": 0,
+      "progress": {
+        "step": 40000,
+        "stage": "development_monitor"
+      },
+      "training_complete": {
+        "status": "complete",
+        "completed_steps": 40000,
+        "seconds": 3235.992917776108,
+        "stage": "MV-3",
+        "encoder_unchanged": true
+      }
+    },
+    {
+      "model": "D2-100k",
+      "seed": 20261016,
+      "started": false,
+      "development_metric_rows": 0,
+      "overlap_rows": 0
+    }
+  ],
+  "supervision.json": {
+    "controller_pid": 3930759,
+    "created": 1792570195.29,
+    "acquired_at": 1792601776.7328432,
+    "rank_processes": {
+      "3930763": 1792570195.94,
+      "3930786": 1792570197.58,
+      "3930787": 1792570197.58,
+      "3930788": 1792570197.58,
+      "3930882": 1792570203.56,
+      "3930885": 1792570203.59,
+      "3930901": 1792570206.01,
+      "3930994": 1792570210.78,
+      "3930880": 1792570203.55,
+      "3930883": 1792570203.58,
+      "3930902": 1792570206.04,
+      "3930991": 1792570210.76,
+      "3930881": 1792570203.55,
+      "3930884": 1792570203.58,
+      "3930903": 1792570206.05,
+      "3930993": 1792570210.78
+    },
+    "training_paused": false,
+    "supervisor_only_suspended": true,
+    "released": false
+  },
+  "GPU": "0, 3092, 21124, 0\n1, 14623, 9593, 100\n2, 19063, 5153, 100\n3, 18602, 5615, 100\n",
+  "controller_tail": "",
+  "Coverage_NR": {
+    "step": 47490,
+    "elapsed_seconds": 38783.126643799245,
+    "iteration_seconds": 1.2928049638867378
+  },
+  "website_http": 200
+}

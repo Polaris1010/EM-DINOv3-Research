@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "new_head_runs": 8,
+  "steps_each": 40000,
+  "total_decoder_seeds": 3,
+  "fixed_split": true,
+  "new_SSL_training": false,
+  "development_rows": 456,
+  "MB1_image_rows": 31140,
+  "gpu0_used": false,
+  "website_http": 200,
+  "report": "D12_three_seed_report.md",
+  "remaining_scoring_accelerated": true,
+  "further_experiments_started": false
+}

@@ -1,0 +1,153 @@
+{
+  "observed_at_utc": "2026-10-22T03:00:10.229183+00:00",
+  "status": {
+    "status": "complete",
+    "new_head_runs": 8,
+    "steps_each": 40000,
+    "total_decoder_seeds": 3,
+    "fixed_split": true,
+    "new_SSL_training": false,
+    "development_rows": 456,
+    "MB1_image_rows": 31140,
+    "gpu0_used": false,
+    "website_http": 200,
+    "report": "D12_three_seed_report.md",
+    "remaining_scoring_accelerated": true,
+    "further_experiments_started": false
+  },
+  "units": {
+    "d12-three-seeds-20261022.service": "MainPID=0\nExecMainStatus=1\nActiveState=failed\nInactiveEnterTimestamp=Thu 2026-10-22 00:23:30 UTC\n",
+    "d12-three-seeds-gpu-score-20261022.service": "MainPID=0\nExecMainStatus=0\nActiveState=inactive\nInactiveEnterTimestamp=n/a\n"
+  },
+  "Wei_completed": [
+    {
+      "model": "D2-100k",
+      "seed": 20261015,
+      "dice": 0.9290883361040766,
+      "precision": 0.9373430835001235,
+      "recall": 0.920977710981466,
+      "hd95_nm": 440.3680419921875,
+      "nsd_16nm": 0.8152501583099365,
+      "metric_seconds": 1476.063078403473,
+      "distance_backend": "MV2_exact_GPU_EDT_MONAI",
+      "scoring_physical_gpu": 1,
+      "host_backed_EDT_calls": 2,
+      "GPU_EDT_source_sha256": "085dbf3cfe46e6b384784a1cce72de3ccebefd82e3e32ff6183d6e38cb254785"
+    },
+    {
+      "model": "D2-100k",
+      "seed": 20261016,
+      "dice": 0.9302810414783564,
+      "precision": 0.9330258927637222,
+      "recall": 0.9275522928733251,
+      "hd95_nm": 447.57122802734375,
+      "nsd_16nm": 0.8185303807258606,
+      "metric_seconds": 1482.406792640686,
+      "distance_backend": "MV2_exact_GPU_EDT_MONAI",
+      "scoring_physical_gpu": 2,
+      "host_backed_EDT_calls": 2,
+      "GPU_EDT_source_sha256": "085dbf3cfe46e6b384784a1cce72de3ccebefd82e3e32ff6183d6e38cb254785"
+    },
+    {
+      "model": "D1-100k",
+      "seed": 20261015,
+      "dice": 0.9268913534384572,
+      "precision": 0.9348937370547655,
+      "recall": 0.919024802693106,
+      "hd95_nm": 459.930419921875,
+      "nsd_16nm": 0.8070331811904907,
+      "metric_seconds": 1486.8754668235779,
+      "distance_backend": "MV2_exact_GPU_EDT_MONAI",
+      "scoring_physical_gpu": 3,
+      "host_backed_EDT_calls": 2,
+      "GPU_EDT_source_sha256": "085dbf3cfe46e6b384784a1cce72de3ccebefd82e3e32ff6183d6e38cb254785"
+    },
+    {
+      "model": "D1-100k",
+      "seed": 20261016,
+      "dice": 0.9288781370168652,
+      "precision": 0.9364721027535726,
+      "recall": 0.9214063413645089,
+      "hd95_nm": 434.29022216796875,
+      "nsd_16nm": 0.8123854994773865,
+      "metric_seconds": 1000.6822829246521,
+      "distance_backend": "MV2_exact_GPU_EDT_MONAI",
+      "scoring_physical_gpu": 2,
+      "host_backed_EDT_calls": 2,
+      "GPU_EDT_source_sha256": "085dbf3cfe46e6b384784a1cce72de3ccebefd82e3e32ff6183d6e38cb254785"
+    },
+    {
+      "model": "D2-30k",
+      "seed": 20261015,
+      "dice": 0.9223369549261088,
+      "precision": 0.9378433333029803,
+      "recall": 0.9073350037650237,
+      "hd95_nm": 459.4997253417969,
+      "nsd_16nm": 0.7892762422561646,
+      "metric_seconds": 996.2009353637695,
+      "distance_backend": "MV2_exact_GPU_EDT_MONAI",
+      "scoring_physical_gpu": 1,
+      "host_backed_EDT_calls": 2,
+      "GPU_EDT_source_sha256": "085dbf3cfe46e6b384784a1cce72de3ccebefd82e3e32ff6183d6e38cb254785"
+    },
+    {
+      "model": "D2-30k",
+      "seed": 20261016,
+      "dice": 0.9246407436567764,
+      "precision": 0.9386108614500465,
+      "recall": 0.9110803846040448,
+      "hd95_nm": 418.5737609863281,
+      "nsd_16nm": 0.7959520816802979,
+      "metric_seconds": 989.3428831100464,
+      "distance_backend": "MV2_exact_GPU_EDT_MONAI",
+      "scoring_physical_gpu": 3,
+      "host_backed_EDT_calls": 2,
+      "GPU_EDT_source_sha256": "085dbf3cfe46e6b384784a1cce72de3ccebefd82e3e32ff6183d6e38cb254785"
+    },
+    {
+      "model": "D1-30k",
+      "seed": 20261015,
+      "dice": 0.918009147112639,
+      "precision": 0.93095031069841,
+      "recall": 0.9054228415153476,
+      "hd95_nm": 505.4938049316406,
+      "nsd_16nm": 0.7762818932533264,
+      "metric_seconds": 163.58420252799988,
+      "distance_backend": "MV2_exact_GPU_EDT_MONAI",
+      "scoring_physical_gpu": 1,
+      "host_backed_EDT_calls": 2,
+      "GPU_EDT_source_sha256": "085dbf3cfe46e6b384784a1cce72de3ccebefd82e3e32ff6183d6e38cb254785"
+    },
+    {
+      "model": "D1-30k",
+      "seed": 20261016,
+      "dice": 0.920252633021678,
+      "precision": 0.928062988841316,
+      "recall": 0.912572640265327,
+      "hd95_nm": 497.9317321777344,
+      "nsd_16nm": 0.7849719524383545,
+      "metric_seconds": 172.50742888450623,
+      "distance_backend": "MV2_exact_GPU_EDT_MONAI",
+      "scoring_physical_gpu": 3,
+      "host_backed_EDT_calls": 2,
+      "GPU_EDT_source_sha256": "085dbf3cfe46e6b384784a1cce72de3ccebefd82e3e32ff6183d6e38cb254785"
+    }
+  ],
+  "preserved_completed_metrics": {
+    "scoring_before_scheduler_switch.json": {
+      "preserved_files": 277,
+      "unchanged": true
+    },
+    "GPU_contiguous_tiles_before_20261022T003326Z.json": {
+      "preserved_files": 296,
+      "unchanged": true
+    }
+  },
+  "supervision_released": true,
+  "Coverage_NR_controller_status": "sleeping",
+  "Coverage_NR_step": 72540,
+  "own_remaining_processes": [],
+  "website_http": 200,
+  "server_report_sha256": "8a6bc4a992f369693204da2728e0c6cc9fcc2c29953cfd92b9e9110604db07a1",
+  "server_report_mtime_utc": "2026-10-22T01:04:02.809019+00:00"
+}

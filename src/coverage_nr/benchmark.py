@@ -27,7 +27,7 @@ def main(model):
  assert saved['step']==40000 and saved['metadata']['encoder_sha256']==spec['sha256']
  missing,extra=net.load_state_dict(saved['head'],strict=False);assert not extra and all(k.startswith('dino_encoder.') for k in missing)
  net.requires_grad_(False).eval();del saved;gc.collect()
- os.environ['MV2_GPU_EDT']='0';import validation as evaluator
+ assert os.environ.get('MV2_GPU_EDT')=='1';import validation as evaluator
  import tifffile
  reference=R.parent/'mb1_official_benchmark_20261015';manifest=read(reference/'MB1_benchmark_manifest.json');out=R/'benchmark'/model;out.mkdir(parents=True,exist_ok=True)
  images=[];started=time.time()
@@ -54,4 +54,8 @@ def main(model):
  assert len(images)==2595
  atomic(out/'metrics.json',{'status':'complete','model':model,'images':images,'datasets':datasets,'encoder_sha256':spec['sha256'],'head_sha256':sha(head),'already_development_exposed':True,'hyperparameter_selection':False,'tta':False})
 if __name__=='__main__':
- p=argparse.ArgumentParser();p.add_argument('--model',choices=['Coverage-NR'],required=True);main(p.parse_args().model)
+ p=argparse.ArgumentParser();p.add_argument('--model',choices=['Coverage-NR'],required=True);args=p.parse_args()
+ from gpu_scoring import accelerated
+ with accelerated('MB1') as acceleration:
+  main(args.model)
+  path=R/'benchmark'/args.model/'metrics.json';result=read(path);result.update(distance_backend='MV2_exact_GPU_EDT_MONAI',scoring_physical_gpu=acceleration['physical_gpu'],GPU_EDT_source_sha256=acceleration['source_sha256'],full_device_EDT_calls=acceleration['full_device_calls'],host_backed_EDT_calls=acceleration['host_backed_calls']);atomic(path,result)

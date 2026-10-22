@@ -1,9 +1,9 @@
 {
   "stage": "Coverage-NR",
   "status": "VERIFIED_RUNNING",
-  "execution_state": "SSL_RUNNING",
+  "execution_state": "SSL_FULL_STATE_RESUME",
   "server_root": "/opt/data/3_117/tanghr/codex/coverage_nr_p0_20261021",
-  "service": "coverage-nr-p0-20261021.service",
+  "service": "coverage-nr-p0-gpu-resume-20261022.service",
   "protocol": "configs/pretrain/Coverage_NR_protocol.json",
   "report_path": "docs/Coverage_NR_execution.md",
   "runs": [
@@ -11,8 +11,8 @@
       "model": "Coverage-NR",
       "kind": "SSL",
       "status": "VERIFIED_RUNNING",
-      "completed_steps": 93620,
-      "starting_step": 0,
+      "completed_steps": 94080,
+      "starting_step": 94000,
       "planned_steps": 100000
     },
     {
@@ -24,7 +24,11 @@
     }
   ],
   "code_commit": "6129ac22284aa332923602d52e06ef01d2164147",
-  "observed_at_utc": "2026-10-22T07:23:51.285910+00:00",
-  "status_evidence": "evidence/Coverage-NR/progress_check_20261022T072351Z.json",
-  "PR": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/11"
+  "observed_at_utc": "2026-10-22T07:42:48.787483+00:00",
+  "status_evidence": "evidence/Coverage-NR/GPU_resume_running_20261022.json",
+  "PR": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/11",
+  "previous_service": "coverage-nr-p0-20261021.service",
+  "scoring_backend": "exact_GPU_EDT_with_full_axis_host_backed_fallback",
+  "GPU_scoring_deployment": "evidence/Coverage-NR/GPU_scoring_deployment_20261022.json",
+  "GPU_scoring_equivalence": "evidence/Coverage-NR/GPU_scoring_equivalence_20261022.json"
 }

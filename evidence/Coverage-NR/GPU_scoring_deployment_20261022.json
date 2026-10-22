@@ -1,0 +1,20 @@
+{
+  "observed_utc": "2026-10-22T07:39:57.100029+00:00",
+  "files": {
+    "gpu_scoring.py": "1e9a0644587d0840aec5a400551d5a59128cc95f31beed2156658fbee3b06c0c",
+    "downstream.py": "366c0d883f5e14dac458020b4418aedbdbe844eb1f44227f89a85a4f7011a5d4",
+    "benchmark.py": "d777cd79e3be6685fd0ad05b638db00161d44911ec52ba826a83d2b9ad385d50",
+    "resume_existing.py": "43dc836b8ac18b29c99c2b9f6450a9c97723614a542da5b6907c2cecb8acd228"
+  },
+  "original_interruption_step": 94450,
+  "resume_checkpoint": {
+    "path": "/opt/data/3_117/tanghr/codex/coverage_nr_p0_20261021/runs/Coverage-NR/formal/checkpoints/step000094000/full.pth",
+    "step": 94000,
+    "sha256": "033f04058bf85c728eac4e450b87965544dd97bcb666b1a0628bb7f1070a3f07"
+  },
+  "service": "coverage-nr-p0-gpu-resume-20261022.service",
+  "service_status": "MainPID=347005\nActiveState=active\n",
+  "new_experiment_started": false,
+  "existing_run_full_state_resume": true,
+  "website_http": 200
+}

@@ -32,9 +32,15 @@ def setup():
 
 def main():
  p=argparse.ArgumentParser();p.add_argument('mode',choices=['train','infer','score']);p.add_argument('--model',choices=['Coverage-NR']);p.add_argument('--path',type=Path);a=p.parse_args()
+ if a.mode=='score':
+  from gpu_scoring import accelerated
+  with accelerated(a.path) as acceleration:
+   _,evaluator,_=setup();evaluator.score(a.path)
+   target=a.path.with_name(a.path.name.replace('_overlap.json','_metrics.json'))
+   result=read(target);result.update(distance_backend='MV2_exact_GPU_EDT_MONAI',scoring_physical_gpu=acceleration['physical_gpu'],GPU_EDT_source_sha256=acceleration['source_sha256'],full_device_EDT_calls=acceleration['full_device_calls'],host_backed_EDT_calls=acceleration['host_backed_calls']);atomic(target,result)
+  return
  trainer,evaluator,probe=setup();seed=20261014
  if a.mode=='train':
   out=R/'downstream/runs'/a.model/f'seed{seed}';out.mkdir(parents=True,exist_ok=True);trainer.train(a.model,seed,out)
  elif a.mode=='infer':evaluator.infer(a.model,seed)
- else:evaluator.score(a.path)
 if __name__=='__main__':main()

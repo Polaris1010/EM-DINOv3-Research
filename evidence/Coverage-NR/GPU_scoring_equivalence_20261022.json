@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "shape": [
+        7,
+        11,
+        19
+      ],
+      "spacing": [
+        30,
+        8,
+        8
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "shape": [
+        13,
+        29
+      ],
+      "spacing": [
+        15,
+        5
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "shape": [
+        3,
+        7,
+        4096
+      ],
+      "spacing": [
+        40,
+        12,
+        12
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "shape": [
+        3,
+        128,
+        4096
+      ],
+      "spacing": [
+        40,
+        12,
+        12
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "ignore_mask": false,
+      "CPU_reference": [
+        16.0,
+        1.0
+      ],
+      "GPU": [
+        16.0,
+        1.0
+      ]
+    },
+    {
+      "ignore_mask": true,
+      "CPU_reference": [
+        50.59644256269407,
+        0.7786259541984732
+      ],
+      "GPU": [
+        50.59644256269407,
+        0.7786259541984732
+      ]
+    }
+  ],
+  "GPU": {
+    "physical_gpu": 3,
+    "uuid": "GPU-5a68cc29-a13a-bf90-858e-079e14de807a",
+    "label": "fixture_equivalence_only",
+    "source_sha256": "1e9a0644587d0840aec5a400551d5a59128cc95f31beed2156658fbee3b06c0c",
+    "full_device_calls": 4,
+    "host_backed_calls": 0,
+    "started_at": 1792654436.7717412,
+    "status": "complete",
+    "completed_at": 1792654466.2497103
+  },
+  "training_started": false
+}

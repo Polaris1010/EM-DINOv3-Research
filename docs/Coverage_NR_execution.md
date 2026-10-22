@@ -1,3 +1,5 @@
+> 2026-10-22香港15:42：GPU评分等价性通过并部署。独立GPU校验误触旧controller未知PID保护，原任务94450停止；现已从94000 full状态恢复至94080，GPU1/2/3均100%、网站200。新服务coverage-nr-p0-gpu-resume-20261022.service；只接续原预算，不重复新初始化。详情work_logs/20261022_35_gpu_first_execution.md。
+
 # Coverage-NR：P0连续100k执行记录
 
 2026-10-21用户明确授权“继续，开始训练”，覆盖前轮设计-only停止状态。本轮只运行一组Coverage-NR，保持当前MitoVerse+CEM池；不启动Coverage-R，不加入IsoOrg/QuantEM或新loss。

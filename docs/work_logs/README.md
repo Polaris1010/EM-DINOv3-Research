@@ -1,3 +1,4 @@
+- [20261022_35_gpu_first_execution.md](20261022_35_gpu_first_execution.md)
 - [20261022_34_coverage_nr_progress.md](20261022_34_coverage_nr_progress.md)
 # 每轮工作记录
 

@@ -16,6 +16,20 @@ def line_batches(shape, axis, budget):
     for first in range(0, count, chunk):
         yield first, min(count, first+chunk)
 
+def axis_tiles(shape, axis, budget):
+    """Rectangular tiles keep a full transform axis and contiguous host inner rows."""
+    import itertools
+    capacity = max(1, budget // (28*shape[axis]+8))
+    widths = [1]*len(shape)
+    widths[axis] = shape[axis]
+    for dim in reversed(range(len(shape))):
+        if dim != axis:
+            widths[dim] = min(shape[dim], capacity)
+            capacity = max(1, capacity//widths[dim])
+    starts = [range(0, n, w) for n,w in zip(shape,widths)]
+    for first in itertools.product(*starts):
+        yield tuple(slice(a, min(n,a+w)) for a,n,w in zip(first,shape,widths))
+
 def host_backed_edt(array, spacing, cp, workspace_bytes=256 << 20):
     import numpy as np
     from separable_edt import SOURCE
@@ -31,19 +45,23 @@ def host_backed_edt(array, spacing, cp, workspace_bytes=256 << 20):
         return distance_transform_edt(array, sampling=spacing)
     distance = np.where(array, np.inf, 0.)
     for axis, d in enumerate(shape):
-        view = np.moveaxis(distance, axis, -1)
-        for first, stop in line_batches(shape, axis, workspace_bytes):
-            # Gather complete lines from the global field, then scatter them back.
-            index = np.unravel_index(np.arange(first, stop), view.shape[:-1])
-            values = cp.asarray(np.ascontiguousarray(view[index]))
-            count = stop-first
+        for tile in axis_tiles(shape, axis, workspace_bytes):
+            # Transfer contiguous host row blocks; perform the axis transpose on CUDA.
+            # All complete lines are still independent in this one-dimensional pass.
+            raw = cp.asarray(np.ascontiguousarray(distance[tile]))
+            values = cp.ascontiguousarray(cp.moveaxis(raw, axis, -1))
+            del raw
+            count = values.size//d
             sites = cp.empty((count, d), dtype=cp.int32)
             cuts = cp.empty((count, d+1), dtype=cp.float64)
             costs = cp.empty((count, d), dtype=cp.float64)
             transform(((count+127)//128,), (128,), (values, np.int32(d), np.int64(1),
                       np.int64(0), np.int64(count), np.float64(spacing[axis]**2), sites, cuts, costs))
-            view[index] = cp.asnumpy(values)
-            del values, sites, cuts, costs
+            del sites, cuts, costs
+            restored = cp.ascontiguousarray(cp.moveaxis(values, -1, axis))
+            del values
+            distance[tile] = cp.asnumpy(restored)
+            del restored
             cp.get_default_memory_pool().free_all_blocks()
     np.sqrt(distance, out=distance)
     return distance
@@ -53,7 +71,8 @@ def verify(cp):
     from scipy.ndimage import distance_transform_edt
     rows = []
     for shape, spacing, budget in [((7, 11, 19), (30, 8, 8), 5000), ((13, 29), (15, 5), 3000),
-                                  ((3, 7, 4096), (40, 12, 12), 2 << 20)]:
+                                  ((3, 7, 4096), (40, 12, 12), 2 << 20),
+                                  ((3, 128, 4096), (40, 12, 12), 8 << 20)]:
         rng = np.random.default_rng(20261022)
         a = rng.random(shape) > .03
         a.flat[0] = False

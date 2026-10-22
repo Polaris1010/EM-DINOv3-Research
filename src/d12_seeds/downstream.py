@@ -61,12 +61,17 @@ def smoke(model, seed):
                                'peak_reserved_bytes': torch.cuda.max_memory_reserved(), 'memory_fraction': 0.40})
 
 def score(path):
-    """Same exact physical evaluator on CPU; leaves VRAM to concurrent SSL/head jobs."""
+    from gpu_scoring import accelerated
+    with accelerated(path) as acceleration:
+        _score(path, acceleration)
+
+def _score(path, acceleration=None):
+    """Same physical evaluator; runtime GPU selection changes only the exact EDT backend."""
     import math
     import time
     import numpy as np
     os.environ['MV3_ROOT'] = str(R / 'downstream')
-    os.environ['MV2_GPU_EDT'] = '0'
+    os.environ['MV2_GPU_EDT'] = '1' if acceleration else '0'
     data = module('data', M3 / 'src/data.py')
     data.OLD, data.MV2 = OLD, MV2
     sys.path[:0] = [str(OLD / 'src'), str(MV2 / 'src')]
@@ -91,7 +96,12 @@ def score(path):
         hd, ns = validation.distances(pred, gt, valid, row['spacing_zyx_nm'])
     result.update(hd95_nm=hd, nsd_16nm=ns, metric_seconds=time.time()-t0,
                   distance_evaluator_source_sha256=sha(MV2 / 'src/validation.py'),
-                  distance_backend='MV2_existing_exact_CPU_EDT_MONAI')
+                  distance_backend='MV2_exact_GPU_EDT_MONAI' if acceleration else 'MV2_existing_exact_CPU_EDT_MONAI')
+    if acceleration:
+        result.update(scoring_physical_gpu=acceleration['physical_gpu'],
+                      GPU_EDT_source_sha256=acceleration['source_sha256'],
+                      full_device_EDT_calls=acceleration['full_device_calls'],
+                      host_backed_EDT_calls=acceleration['host_backed_calls'])
     atomic(target, result)
 
 if __name__ == '__main__':

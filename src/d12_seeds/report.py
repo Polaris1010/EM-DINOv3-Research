@@ -128,8 +128,10 @@ def main():
               '逐来源、逐benchmark、区域、逐图、失败空预测及非有限距离均保留CSV。', '',
               '这是固定划分的随机seed重复，不是三折交叉验证，也没有估计SSL训练seed或独立采集体的不确定性。'
               'MB1是已用于开发决策的诊断集。不能凭这三个seeds声称跨独立采集体统计显著。', '',
-              '评分继续调用原validation.distances和MONAI；本轮CPU exact EDT避免抢占现有SSL显存，'
-              '历史指标原样复用。所有checkpoint SHA见checkpoint_hashes.csv。完成后停止，不自动新实验。']
+              '评分继续调用原validation.distances和MONAI。先用CPU exact EDT，后为剩余体积启用'
+              '既有float64 GPU EDT；超出共享显存的距离场保存在主存，按完整空间轴分批执行同一CUDA内核。'
+              '每轴覆盖整个体积，不使用局部裁剪或近似距离；CPU/GPU数值校验见GPU作业receipt。'
+              '每个区域的实际后端保存在CSV，历史指标原样复用。所有checkpoint SHA见checkpoint_hashes.csv。完成后停止，不自动新实验。']
     (R / 'D12_three_seed_report.md').write_text('\n'.join(lines) + '\n')
 
 if __name__ == '__main__':

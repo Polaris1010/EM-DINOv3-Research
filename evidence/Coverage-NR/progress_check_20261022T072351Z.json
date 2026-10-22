@@ -1,0 +1,89 @@
+{
+  "observed_utc": "2026-10-22T07:23:51.285910+00:00",
+  "service": "MainPID=3930759\nExecMainStatus=0\nActiveState=active\n",
+  "gpus": "0, 3092 MiB, 0 %\n1, 11260 MiB, 90 %\n2, 11260 MiB, 94 %\n3, 10798 MiB, 89 %\n",
+  "STATUS.json": {
+    "status": "running",
+    "phase": "SSL_Coverage-NR_fresh_P0_100000",
+    "seconds": 83621.39522369206,
+    "progress": {
+      "runs/Coverage-NR/formal/progress.json": {
+        "step": 93610,
+        "rank": 0,
+        "loss": 12.875,
+        "grad_norm": 3.0074386596679688,
+        "lr": 1.277919292097008e-06,
+        "teacher_momentum": 0.999,
+        "teacher_temp": 0.07,
+        "global_batch": 48,
+        "data_first_index": 4493232,
+        "data_first_volume": "mekuc20_fib1-3-3-0",
+        "data_first_domain": "MitoVerse",
+        "sample_chain": "401192fa13b95bae7e24595077ad36fa785b9ec9aaa91161d42f871748acb9d8",
+        "elapsed_seconds": 83608.21528241038,
+        "data_seconds": 0.013601131737232208,
+        "iteration_seconds": 0.6965120881795883,
+        "peak_gpu_bytes": 10240163840,
+        "loss_components": {
+          "dino_local_crops_loss": 9.0625,
+          "dino_global_crops_loss": 9.09375,
+          "koleo_loss": -0.3149593770503998,
+          "ibot_loss": 3.874641180038452
+        }
+      }
+    },
+    "child_pids": [
+      3930763
+    ],
+    "physical_gpus": [
+      1,
+      2,
+      3
+    ],
+    "gpu0_used": false,
+    "website_http": 200,
+    "further_experiments_started": false
+  },
+  "runs/Coverage-NR/formal/progress.json": {
+    "step": 93620,
+    "rank": 0,
+    "loss": 12.8125,
+    "grad_norm": 2.675657033920288,
+    "lr": 1.2770534788045335e-06,
+    "teacher_momentum": 0.999,
+    "teacher_temp": 0.07,
+    "global_batch": 48,
+    "data_first_index": 4493712,
+    "data_first_volume": "haberl18_vol0",
+    "data_first_domain": "MitoVerse",
+    "sample_chain": "d967aaba7c341661ae3cf8a37e7b01dd857d83a9dbd51ea346cd3ea76761ac16",
+    "elapsed_seconds": 83615.54646074772,
+    "data_seconds": 0.01303166151046753,
+    "iteration_seconds": 0.6961596235632896,
+    "peak_gpu_bytes": 10240163840,
+    "loss_components": {
+      "dino_local_crops_loss": 9.125,
+      "dino_global_crops_loss": 9.125,
+      "koleo_loss": -0.3203231692314148,
+      "ibot_loss": 3.7675671577453613
+    }
+  },
+  "runs/Coverage-NR/formal/latest_checkpoint.json": {
+    "path": "/opt/data/3_117/tanghr/codex/coverage_nr_p0_20261021/runs/Coverage-NR/formal/checkpoints/step000093000/full.pth",
+    "step": 93000,
+    "sha256": "0a53675504477000eb81cbf76a15ba977ab058ee89e08ddb11192c79009bd363"
+  },
+  "downstream/runs/Coverage-NR/seed20261014/progress.json": null,
+  "downstream/runs/Coverage-NR/seed20261014/training_complete.json": null,
+  "downstream/runs/Coverage-NR/seed20261014/inference_complete.json": null,
+  "benchmark/Coverage-NR/metrics.json": null,
+  "downstream_small_results": [
+    "downstream/MV-Generalist.json",
+    "downstream/MV3_protocol.json"
+  ],
+  "benchmark_small_results": [],
+  "reports_small_results": [],
+  "100k_exports": [],
+  "website_http": 200,
+  "controller_log_tail": ""
+}

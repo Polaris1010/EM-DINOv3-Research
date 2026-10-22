@@ -1,3 +1,4 @@
+- [20261022_34_coverage_nr_progress.md](20261022_34_coverage_nr_progress.md)
 # 每轮工作记录
 
 新窗口先读最新记录，再读当前状态和NEXT_ACTION。记录描述实际完成事实；历史计划不自动成为执行授权。

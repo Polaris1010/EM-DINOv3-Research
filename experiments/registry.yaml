@@ -6331,7 +6331,7 @@
       "code_commit": "6129ac22284aa332923602d52e06ef01d2164147",
       "python_executable": "/opt/data/3_117/tanghr/dinov3_shared/bin/python",
       "global_batch": 48,
-      "optimizer_steps": 33420,
+      "optimizer_steps": 93620,
       "learning_rate": "continuous100k cosine from P0; warmup5000",
       "tta": false,
       "normalization": "UNVERIFIED",

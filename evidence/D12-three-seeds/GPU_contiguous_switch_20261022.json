@@ -1,0 +1,8 @@
+{
+  "service": "d12-three-seeds-gpu-score-20261022.service",
+  "restarted_only_distance_scheduler": true,
+  "completed_preserved": 296,
+  "remaining": 8,
+  "source_sha256": "085dbf3cfe46e6b384784a1cce72de3ccebefd82e3e32ff6183d6e38cb254785",
+  "code_commit": "4281f22"
+}

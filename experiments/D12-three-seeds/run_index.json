@@ -119,5 +119,7 @@
   "pending_phase": "exact_GPU_distance_metrics",
   "previous_service": "d12-three-seeds-20261022.service",
   "scoring_resume_code_commit": "682574d",
-  "completed_distance_metric_rows": 286
+  "completed_distance_metric_rows": 296,
+  "scoring_GPU_EDT_code_commit": "4281f22",
+  "scoring_GPU_EDT_source_sha256": "085dbf3cfe46e6b384784a1cce72de3ccebefd82e3e32ff6183d6e38cb254785"
 }

@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-22T00:34:52.993326+00:00",
+  "status": "running",
+  "phase": "exact_GPU_distance_metrics",
+  "done": 296,
+  "active": [
+    "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D2-100k/seed20261015/wei20_mitoEM-R__dev_overlap.json",
+    "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D2-100k/seed20261016/wei20_mitoEM-R__dev_overlap.json",
+    "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D1-100k/seed20261015/wei20_mitoEM-R__dev_overlap.json"
+  ],
+  "host_GPU_jobs": [],
+  "GPU_scheduler_tail": "service stop\n"
+}

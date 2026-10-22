@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "region_rows": 456,
+  "MB1_image_rows": 31140,
+  "dataset_seed_rows": 84,
+  "matched_seeds": [
+    20261014,
+    20261015,
+    20261016
+  ],
+  "checkpoint_rows": 12,
+  "common_GT_image_ids": 2595,
+  "common_GT_region_ids": 38,
+  "independent_aggregation_matches": true,
+  "new_GPU_work": false,
+  "new_training": false,
+  "report_sha256": "7368d54afd39a8ca897a4c4bbcbb7f2989d5e1bbafef289e3104ce09ae92de2e",
+  "auto_report_sha256": "8a6bc4a992f369693204da2728e0c6cc9fcc2c29953cfd92b9e9110604db07a1"
+}

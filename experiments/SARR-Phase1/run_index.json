@@ -1,0 +1,68 @@
+{
+  "stage": "SARR-Phase1",
+  "status": "PLANNED",
+  "execution_state": "CODE_IMPLEMENTED_AND_TESTED",
+  "server_root": "/opt/data/3_117/tanghr/codex/sarr_phase1_20261022",
+  "protocol": "docs/SARR_Phase1_Protocol.md",
+  "report_path": "docs/SARR_Phase1_Protocol.md",
+  "phase0_feasibility": {
+    "status": "PASS",
+    "conservative_oracle_gain": 0.0888,
+    "upper_bound_oracle_gain": 0.1586,
+    "evidence": "experiments/SARR-Phase0/phase0_complementarity.json"
+  },
+  "runs": [
+    {
+      "model": "SARR",
+      "mode": "sarr",
+      "seed": 20261014,
+      "kind": "ROUTER_AND_HEAD",
+      "status": "PLANNED",
+      "completed_steps": 0,
+      "planned_steps": 40000,
+      "description": "Full Spatial Router (Seed 1)"
+    },
+    {
+      "model": "SARR",
+      "mode": "sarr",
+      "seed": 20261015,
+      "kind": "ROUTER_AND_HEAD",
+      "status": "PLANNED",
+      "completed_steps": 0,
+      "planned_steps": 40000,
+      "description": "Full Spatial Router (Seed 2)"
+    },
+    {
+      "model": "SARR",
+      "mode": "sarr",
+      "seed": 20261016,
+      "kind": "ROUTER_AND_HEAD",
+      "status": "PLANNED",
+      "completed_steps": 0,
+      "planned_steps": 40000,
+      "description": "Full Spatial Router (Seed 3)"
+    },
+    {
+      "model": "SARR-UniformAvg",
+      "mode": "uniform_avg",
+      "seed": 20261014,
+      "kind": "ABLATION_BASELINE",
+      "status": "PLANNED",
+      "completed_steps": 0,
+      "planned_steps": 40000,
+      "description": "Fixed alpha=0.5 Blend Baseline"
+    },
+    {
+      "model": "SARR-GlobalGate",
+      "mode": "global_gate",
+      "seed": 20261014,
+      "kind": "ABLATION_BASELINE",
+      "status": "PLANNED",
+      "completed_steps": 0,
+      "planned_steps": 40000,
+      "description": "Single Learned Scalar Gate Baseline"
+    }
+  ],
+  "code_commit": "1a68a41",
+  "gpu_policy": "GPU 0 strictly FORBIDDEN. Only GPUs 1, 2, or 3 permitted."
+}

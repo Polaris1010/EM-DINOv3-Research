@@ -1,3 +1,5 @@
+> Coverage-NR已完成并停止（2026-10-22香港23:11核实）：SSL100k、head40k、38dev和2595张MB1均齐，GPU评分完成；开发Dice0.831821、MB1 Dice0.440027，低于D2-100k同seed0.841379/0.475754。CEM图像ID覆盖100%。服务inactive/MainPID0/退出0、网站200。先读docs/Coverage_NR_final_report.md和work_log36；本轮结束，不自动重启或新实验。
+
 > 2026-10-22香港15:42：GPU评分等价性通过并部署。独立GPU校验误触旧controller未知PID保护，原任务94450停止；现已从94000 full状态恢复至94080，GPU1/2/3均100%、网站200。新服务coverage-nr-p0-gpu-resume-20261022.service；只接续原预算，不重复新初始化。详情work_logs/20261022_35_gpu_first_execution.md。
 
 > Coverage-NR进度核实：2026-10-22香港15:23为93620/100000（93.62%），SSL仍运行；100k导出、40k head、开发集和MB1均未产生，暂无与D2-100k的新指标对比。本次只读核查，无训练启动或协议修改。详见docs/work_logs/20261022_34_coverage_nr_progress.md。

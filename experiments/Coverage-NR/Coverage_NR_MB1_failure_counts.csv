@@ -1,0 +1,8 @@
+dataset,images,empty_GT,empty_prediction,HD95_infinite,physical_spacing_missing
+c_elegans,256,0,0,0,0
+fly_brain,256,0,0,0,0
+glycolytic_muscle,302,0,0,0,0
+hela_cell,256,0,0,0,0
+lucchi_pp,165,0,0,0,0
+salivary_gland,1260,76,18,78,0
+TEM-100,100,0,0,0,100

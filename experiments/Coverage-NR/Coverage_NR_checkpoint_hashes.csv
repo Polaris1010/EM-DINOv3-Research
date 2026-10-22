@@ -1,0 +1,5 @@
+kind,step,path,sha256
+EMA_encoder,10000,/opt/data/3_117/tanghr/codex/coverage_nr_p0_20261021/runs/Coverage-NR/formal/checkpoints/step000010000/teacher_backbone.pth,cbc1728a7e194c9827951fbcf8db111dc971aa3742bdaeaa0a82ad90063af440
+EMA_encoder,30000,/opt/data/3_117/tanghr/codex/coverage_nr_p0_20261021/runs/Coverage-NR/formal/checkpoints/step000030000/teacher_backbone.pth,b77293c304b356375c01fd636915e539406eca8a6b8422980a263a9970c1e8c0
+EMA_encoder,100000,/opt/data/3_117/tanghr/codex/coverage_nr_p0_20261021/runs/Coverage-NR/formal/checkpoints/step000100000/teacher_backbone.pth,a886d8b5447230b097bb2de06716d8f18ff51968b8837c122daf03e5a403293c
+head,40000,/opt/data/3_117/tanghr/codex/coverage_nr_p0_20261021/downstream/runs/Coverage-NR/seed20261014/head_step040000.pth,a9dc0b0ca064f5726696ced127e72b6707092f7a14e2426e6412ee2474ceba53

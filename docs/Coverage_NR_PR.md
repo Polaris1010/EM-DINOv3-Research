@@ -1,11 +1,9 @@
-后续开发与MB1距离评分已接入exact GPU EDT；显存不足使用主存配合完整轴CUDA分块。GPU0禁用，无静默CPU回退。训练代码/权重/协议不变，GPU合成校验误触未知PID保护后，已准备原94000 full状态接续；数值一致性与部署证据见本轮工作记录35。
+Coverage-NR从官方P0完成100k SSL与固定seed20261014的40k冻结Primus，在38开发区域和七组2595张MB1上完成GPU推理/评分。保留的1425433张CEM图像ID覆盖100%，训练和评测已停止。
 
-> Coverage-NR进度核实：2026-10-22香港15:23为93620/100000（93.62%），SSL仍运行；100k导出、40k head、开发集和MB1均未产生，暂无与D2-100k的新指标对比。本次只读核查，无训练启动或协议修改。详见docs/work_logs/20261022_34_coverage_nr_progress.md。
+与相同head初始化、监督采样及GT的D2-100k首seed比较，开发Dice0.831821对0.841379，MB1为0.440027对0.475754。OpenOrganelle是开发差距主要来源；肌肉改善0.215677→0.393368，其余六组MB1下降。开发HD95改善、NSD略降。完整报告提供Dice/IoU/Precision/Recall/HD95/NSD/前景占比及逐来源差值，保留MB1空前景∞和TEM物理NA。
 
-正式运行已核实：2026-10-21 16:14香港时间360/100000，GPU1/2/3工作，网站200；smoke10步+完整恢复至12步通过。运行代码6129ac2，终态被动收取器已连接。
+本轮变量是固定全覆盖配额、collection内无放回抽样和从P0连续100k LR；历史D2有不同集合分布和分段LR，作为系统参考。下游保持MV-Generalist-v2的156train/38dev、原版Primus、冻结encoder、40k选模与TTA OFF。NR仅一个decoder seed，D2三seed作为背景；MB1为开发诊断。
 
-从官方P0重新训练一组Coverage-NR：在固定100k预算内保证现有1425433张保留CEM图像ID至少访问一次，同时保留MitoVerse约一半的训练槽位。新独立目录使用连续100k LR、相同DINO/iBOT/KoLeo和既有输入增强，随后固定首seed冻结原版Primus40k及开发/MB1读出。历史D2仅为系统参照，分布和分段LR不同，不能作为覆盖率的严格单变量消融。
+提交含采样/恢复/训练/推理和exact GPU评分源码、原始小型指标、checkpoint路径/SHA、完整报告及每轮Markdown。显存不足使用主存配合完整轴CUDA EDT。GPU校验误触未知PID保护的中断与94000完整状态恢复如实留档，原训练器和总预算保持。最终服务inactive/MainPID0/退出0，GPU0未用，网站200，历史资产保护检查通过。
 
-提交全程固定配额与无放回ID计划核心、基于已完成D12代码的独立训练/评测入口、恢复状态、部署脚本、协议和交接。CPU检查全部480万domain位置、1425433唯一ID和三rank/双worker恢复；实际GPU smoke/正式启动状态以run_index及收据为准。旧D1/D2与MV/MB历史文件不改，不新增IsoOrg/QuantEM、loss或R组。
-
-完成单组100k、40k head、38dev与2595 MB1平面后生成报告并停止。GPU0禁用，网站和未知进程保留；有界systemd服务不自动重启、不自动新实验。测试结果与运行事实见最新工作日志。
+验证：GPU距离场最大误差0、有/无ignore的HD95/NSD一致；最终CPU复核38区域/2595逐图GT、匹配初始化/采样和两级指标聚合；registry check、repository validator、unittest及git diff检查。详见docs/Coverage_NR_final_report.md与docs/work_logs/20261022_36_coverage_nr_complete.md。本轮完成，不自动新实验；保持draft，不合并。

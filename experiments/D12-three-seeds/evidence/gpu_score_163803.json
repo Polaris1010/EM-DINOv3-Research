@@ -1,0 +1,78 @@
+{
+  "physical_gpu": 3,
+  "uuid": "GPU-5a68cc29-a13a-bf90-858e-079e14de807a",
+  "pid": 163803,
+  "path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D1-100k/seed20261015/wei20_mitoEM-R__dev_overlap.json",
+  "started_at": 1792629217.0450907,
+  "equivalence": [
+    {
+      "shape": [
+        7,
+        11,
+        19
+      ],
+      "spacing": [
+        30,
+        8,
+        8
+      ],
+      "max_abs_error": 0.0,
+      "workspace_bytes": 5000
+    },
+    {
+      "shape": [
+        13,
+        29
+      ],
+      "spacing": [
+        15,
+        5
+      ],
+      "max_abs_error": 0.0,
+      "workspace_bytes": 3000
+    },
+    {
+      "shape": [
+        3,
+        7,
+        4096
+      ],
+      "spacing": [
+        40,
+        12,
+        12
+      ],
+      "max_abs_error": 0.0,
+      "workspace_bytes": 2097152
+    },
+    {
+      "shape": [
+        3,
+        128,
+        4096
+      ],
+      "spacing": [
+        40,
+        12,
+        12
+      ],
+      "max_abs_error": 0.0,
+      "workspace_bytes": 8388608
+    }
+  ],
+  "full_device_calls": 0,
+  "host_backed_calls": 2,
+  "source_sha256": "085dbf3cfe46e6b384784a1cce72de3ccebefd82e3e32ff6183d6e38cb254785",
+  "MONAI_HD95_NSD_equivalence": {
+    "CPU": [
+      16.0,
+      1.0
+    ],
+    "host_GPU": [
+      16.0,
+      1.0
+    ]
+  },
+  "completed_at": 1792630769.4895723,
+  "status": "complete"
+}

@@ -1,0 +1,8 @@
+{
+  "cancelled_cpu_deployment_pid": 4153160,
+  "parent_pid": 4153159,
+  "created": 1792601551.39,
+  "scope": "only this deployment CPU metric fixture; no model processes",
+  "service_state": "inactive",
+  "known_deployment_process_alive": false
+}

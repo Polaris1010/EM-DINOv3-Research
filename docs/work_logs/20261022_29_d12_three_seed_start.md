@@ -15,3 +15,7 @@ UTC2026-10-21T16:57:27 / 香港2026-10-22 00:57：单一服务active/MainPID4154
 香港01:01：首批三组均2600/40000；decoder初始化SHA一致17d5a0fc…、同step采样hash一致；loss中位数约0.26–0.31。每个head实际约3360MiB，tile16 smoke峰值allocated6379032576 / reserved9458155520 bytes，40%进程上限提供共享安全空间。原SSL至42550、PID不变，网站200。全部部署源码SHA与Git一致，实际trainer/loader/Primus SHA继承原版本。
 
 代码及记录已推送1cec40c，draft PR12（未合并）。CPU检查55项、3项已有POSIX skip，registry生成与仓库校验通过，原59条登记逐条一致。新代码不含未知来源的scripts/phase0_complementarity.py。被动终态收取器已连接，实际返回COLLECTOR_WAITING；其仅收取、校验、提交推送，不启动实验。若后续切换或修改该分支，它将保存收取文件并停止自动提交，下一窗口按collector receipt补交。
+
+## 终态收取
+
+D1/D2三个decoder seed任务终态：complete，UTC 2026-10-22T01:20:53.479333+00:00。 详见docs/D12_three_seed_report.md与本轮STATUS；固定划分、四个已有encoder，没有新SSL。 本轮结束停止。Coverage-NR是独立已授权服务，按其既有任务继续，不重复启动。

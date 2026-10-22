@@ -1,3 +1,5 @@
+D1/D2三个decoder seed任务终态：complete，UTC 2026-10-22T01:20:53.479333+00:00。 详见docs/D12_three_seed_report.md与本轮STATUS；固定划分、四个已有encoder，没有新SSL。 本轮结束停止。Coverage-NR是独立已授权服务，按其既有任务继续，不重复启动。
+
 2026-10-22 08:25香港：已按用户要求将剩余HD95/NSD切到GPU1/2/3，实测286/304条完成；新服务d12-three-seeds-gpu-score-20261022.service active，只接续缺失距离评分。保留277条既有指标SHA不变，无训练/推理重跑。Han CPU实测173–182秒，GPU21–22秒（同体积不同decoder seed，非严格同预测速度基准）。全距离场数值对照误差0，MONAI HD95/NSD一致。Coverage-NR继续60440、网站200，GPU0未用。最终完整报告待评分结束，禁止重启旧服务。
 
 2026-10-22 08:09香港：多seed新增8个head40k、304开发预测与全部8组MB1均完成；完整三decoder-seed Dice已输出docs/D12_three_seed_Dice_readout.md。100k：D1开发0.818676±0.000324、MB1 0.476961±0.002890；D2开发0.839914±0.001345、MB1 0.463563±0.010832，D2内部优/MB1低的方向三seed一致。剩HD95/NSD评分254/304，服务运行，非完整终态。Coverage-NR继续约59.15k、网站200，GPU0未用；不要重复启动。

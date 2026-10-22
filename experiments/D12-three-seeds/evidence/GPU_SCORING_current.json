@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "physical_gpus": [
+    1,
+    2,
+    3
+  ],
+  "uuids": {
+    "1": "GPU-29591cdf-1498-85e8-bb8c-158082a53728",
+    "2": "GPU-794aaaef-6c72-f6ac-b6d0-a07ba3f76364",
+    "3": "GPU-5a68cc29-a13a-bf90-858e-079e14de807a"
+  },
+  "gpu0_uuid": "GPU-e7d56fea-8409-6cf0-e2e7-ceda9fd00ec5",
+  "code_commit": "39a56ce",
+  "enabled_at_utc": "2026-10-22T00:20:59.337007+00:00",
+  "existing_CPU_jobs": "unfinished tasks stopped during controlled scoring handover; preserved277 metric files",
+  "full_axis_host_backed_workspace_bytes": 268435456,
+  "metric_definitions_unchanged": true,
+  "coordinator_service": "d12-three-seeds-gpu-score-20261022.service",
+  "resume_code_commit": "682574d",
+  "host_transfer": "contiguous rectangular blocks; axis transpose on CUDA; every transform line spans full global axis",
+  "GPU_EDT_code_commit": "4281f22",
+  "GPU_EDT_source_sha256": "085dbf3cfe46e6b384784a1cce72de3ccebefd82e3e32ff6183d6e38cb254785"
+}

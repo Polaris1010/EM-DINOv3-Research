@@ -1,0 +1,8 @@
+{
+  "reason": "user-requested GPU acceleration; no scientific failure",
+  "status_on_exit": {
+    "status": "failed",
+    "phase": "exact_CPU_distance_metrics",
+    "error": "SystemExit('service stop')"
+  }
+}

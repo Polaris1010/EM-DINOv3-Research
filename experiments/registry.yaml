@@ -6620,8 +6620,8 @@
       "tta": false,
       "normalization": "Unchanged MV3 ((uint8/255)-.5)/.25",
       "inference_protocol": "Native-grid256 stride128 tile16 mean probabilities argmax; OFF TTA",
-      "metrics_path": "experiments/D12-three-seeds/Dice_MB1_completed_20261022.csv",
-      "report_path": "docs/D12_three_seed_Dice_readout.md",
+      "metrics_path": "experiments/D12-three-seeds/D12_three_seed_summary.csv",
+      "report_path": "docs/D12_three_seed_report.md",
       "limitations": [
         "Three decoder seeds on one fixed split, not threefold or SSL-seed replication",
         "MB1 is exposed development diagnostic; fixed historical seed14 metrics reused"
@@ -6857,8 +6857,8 @@
       "tta": false,
       "normalization": "Unchanged MV3 ((uint8/255)-.5)/.25",
       "inference_protocol": "Native-grid256 stride128 tile16 mean probabilities argmax; OFF TTA",
-      "metrics_path": "experiments/D12-three-seeds/Dice_MB1_completed_20261022.csv",
-      "report_path": "docs/D12_three_seed_Dice_readout.md",
+      "metrics_path": "experiments/D12-three-seeds/D12_three_seed_summary.csv",
+      "report_path": "docs/D12_three_seed_report.md",
       "limitations": [
         "Three decoder seeds on one fixed split, not threefold or SSL-seed replication",
         "MB1 is exposed development diagnostic; fixed historical seed14 metrics reused"
@@ -7094,8 +7094,8 @@
       "tta": false,
       "normalization": "Unchanged MV3 ((uint8/255)-.5)/.25",
       "inference_protocol": "Native-grid256 stride128 tile16 mean probabilities argmax; OFF TTA",
-      "metrics_path": "experiments/D12-three-seeds/Dice_MB1_completed_20261022.csv",
-      "report_path": "docs/D12_three_seed_Dice_readout.md",
+      "metrics_path": "experiments/D12-three-seeds/D12_three_seed_summary.csv",
+      "report_path": "docs/D12_three_seed_report.md",
       "limitations": [
         "Three decoder seeds on one fixed split, not threefold or SSL-seed replication",
         "MB1 is exposed development diagnostic; fixed historical seed14 metrics reused"
@@ -7331,8 +7331,8 @@
       "tta": false,
       "normalization": "Unchanged MV3 ((uint8/255)-.5)/.25",
       "inference_protocol": "Native-grid256 stride128 tile16 mean probabilities argmax; OFF TTA",
-      "metrics_path": "experiments/D12-three-seeds/Dice_MB1_completed_20261022.csv",
-      "report_path": "docs/D12_three_seed_Dice_readout.md",
+      "metrics_path": "experiments/D12-three-seeds/D12_three_seed_summary.csv",
+      "report_path": "docs/D12_three_seed_report.md",
       "limitations": [
         "Three decoder seeds on one fixed split, not threefold or SSL-seed replication",
         "MB1 is exposed development diagnostic; fixed historical seed14 metrics reused"
@@ -7553,7 +7553,7 @@
       "initial_checkpoint": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000030000/teacher_backbone.pth",
       "initial_checkpoint_sha256": "63355aa16abc20ae56242d8ba5e21a03e11aaab22e1fdfeb5d1b611c2fc62855",
       "final_checkpoint": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D1-30k/seed20261016/head_step040000.pth",
-      "final_checkpoint_sha256": "UNVERIFIED",
+      "final_checkpoint_sha256": "5778582ac7ed2a3d4d4e8a4dcec66f495d2d3c384d4c1da26cb9172d5bbd072c",
       "decoder": "Original MedDINOv3 Primus_Multiscale",
       "decoder_source_commit": "a2460c2547899283446e520b84523454f7e25608",
       "decoder_checkpoint": "UNVERIFIED",
@@ -7568,8 +7568,8 @@
       "tta": false,
       "normalization": "Unchanged MV3 ((uint8/255)-.5)/.25",
       "inference_protocol": "Native-grid256 stride128 tile16 mean probabilities argmax; OFF TTA",
-      "metrics_path": "experiments/D12-three-seeds/Dice_MB1_completed_20261022.csv",
-      "report_path": "docs/D12_three_seed_Dice_readout.md",
+      "metrics_path": "experiments/D12-three-seeds/D12_three_seed_summary.csv",
+      "report_path": "docs/D12_three_seed_report.md",
       "limitations": [
         "Three decoder seeds on one fixed split, not threefold or SSL-seed replication",
         "MB1 is exposed development diagnostic; fixed historical seed14 metrics reused"
@@ -7790,7 +7790,7 @@
       "initial_checkpoint": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/teacher_backbone.pth",
       "initial_checkpoint_sha256": "7db12e7ff8bee45166aaeeda1d94365e696ddaecf0c57a0d1611a891cf0d3eda",
       "final_checkpoint": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D2-30k/seed20261016/head_step040000.pth",
-      "final_checkpoint_sha256": "UNVERIFIED",
+      "final_checkpoint_sha256": "fc162707925fa99699acdf09ee8a26474732eaaa31a3a3b937f722cfcf56e7a8",
       "decoder": "Original MedDINOv3 Primus_Multiscale",
       "decoder_source_commit": "a2460c2547899283446e520b84523454f7e25608",
       "decoder_checkpoint": "UNVERIFIED",
@@ -7805,8 +7805,8 @@
       "tta": false,
       "normalization": "Unchanged MV3 ((uint8/255)-.5)/.25",
       "inference_protocol": "Native-grid256 stride128 tile16 mean probabilities argmax; OFF TTA",
-      "metrics_path": "experiments/D12-three-seeds/Dice_MB1_completed_20261022.csv",
-      "report_path": "docs/D12_three_seed_Dice_readout.md",
+      "metrics_path": "experiments/D12-three-seeds/D12_three_seed_summary.csv",
+      "report_path": "docs/D12_three_seed_report.md",
       "limitations": [
         "Three decoder seeds on one fixed split, not threefold or SSL-seed replication",
         "MB1 is exposed development diagnostic; fixed historical seed14 metrics reused"
@@ -8027,7 +8027,7 @@
       "initial_checkpoint": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/runs/D1/formal/checkpoints/step000100000/teacher_backbone.pth",
       "initial_checkpoint_sha256": "7df9337dac1ef4775ff21727ddea48c6f265449ae22b24f4941c677fb00593db",
       "final_checkpoint": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D1-100k/seed20261016/head_step040000.pth",
-      "final_checkpoint_sha256": "UNVERIFIED",
+      "final_checkpoint_sha256": "c280a3f9f1eddc0b079d6dd1ea6c48dbd85d9e2e42c080e88dc696dab579cbb0",
       "decoder": "Original MedDINOv3 Primus_Multiscale",
       "decoder_source_commit": "a2460c2547899283446e520b84523454f7e25608",
       "decoder_checkpoint": "UNVERIFIED",
@@ -8042,8 +8042,8 @@
       "tta": false,
       "normalization": "Unchanged MV3 ((uint8/255)-.5)/.25",
       "inference_protocol": "Native-grid256 stride128 tile16 mean probabilities argmax; OFF TTA",
-      "metrics_path": "experiments/D12-three-seeds/Dice_MB1_completed_20261022.csv",
-      "report_path": "docs/D12_three_seed_Dice_readout.md",
+      "metrics_path": "experiments/D12-three-seeds/D12_three_seed_summary.csv",
+      "report_path": "docs/D12_three_seed_report.md",
       "limitations": [
         "Three decoder seeds on one fixed split, not threefold or SSL-seed replication",
         "MB1 is exposed development diagnostic; fixed historical seed14 metrics reused"
@@ -8264,7 +8264,7 @@
       "initial_checkpoint": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/runs/D2/formal/checkpoints/step000100000/teacher_backbone.pth",
       "initial_checkpoint_sha256": "92a81805f1cc126e1851d5c26baa0b5ba34597d8f93e29ac05203044fe6c7010",
       "final_checkpoint": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D2-100k/seed20261016/head_step040000.pth",
-      "final_checkpoint_sha256": "UNVERIFIED",
+      "final_checkpoint_sha256": "4a8e4b7f829f0b72fb32f62e3d9230c5f1b36d7cb16d7ced41f951c83554ba3e",
       "decoder": "Original MedDINOv3 Primus_Multiscale",
       "decoder_source_commit": "a2460c2547899283446e520b84523454f7e25608",
       "decoder_checkpoint": "UNVERIFIED",
@@ -8279,8 +8279,8 @@
       "tta": false,
       "normalization": "Unchanged MV3 ((uint8/255)-.5)/.25",
       "inference_protocol": "Native-grid256 stride128 tile16 mean probabilities argmax; OFF TTA",
-      "metrics_path": "experiments/D12-three-seeds/Dice_MB1_completed_20261022.csv",
-      "report_path": "docs/D12_three_seed_Dice_readout.md",
+      "metrics_path": "experiments/D12-three-seeds/D12_three_seed_summary.csv",
+      "report_path": "docs/D12_three_seed_report.md",
       "limitations": [
         "Three decoder seeds on one fixed split, not threefold or SSL-seed replication",
         "MB1 is exposed development diagnostic; fixed historical seed14 metrics reused"

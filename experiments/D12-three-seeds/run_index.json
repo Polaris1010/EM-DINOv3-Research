@@ -1,12 +1,12 @@
 {
   "stage": "D12-three-seeds",
-  "status": "VERIFIED_RUNNING",
+  "status": "VERIFIED_COMPLETED",
   "server_root": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022",
   "service": "d12-three-seeds-gpu-score-20261022.service",
   "protocol": "configs/evaluation/D12_three_seed_protocol.json",
   "manifest": "configs/segmentation/MV-Generalist-v2/manifest.json",
-  "report_path": "docs/D12_three_seed_Dice_readout.md",
-  "metrics_path": "experiments/D12-three-seeds/Dice_MB1_completed_20261022.csv",
+  "report_path": "docs/D12_three_seed_report.md",
+  "metrics_path": "experiments/D12-three-seeds/D12_three_seed_summary.csv",
   "runs": [
     {
       "model": "D1-30k",
@@ -69,7 +69,7 @@
       "encoder_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D1/formal/checkpoints/step000030000/teacher_backbone.pth",
       "encoder_sha256": "63355aa16abc20ae56242d8ba5e21a03e11aaab22e1fdfeb5d1b611c2fc62855",
       "checkpoint_path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D1-30k/seed20261016/head_step040000.pth",
-      "checkpoint_sha256": "UNVERIFIED"
+      "checkpoint_sha256": "5778582ac7ed2a3d4d4e8a4dcec66f495d2d3c384d4c1da26cb9172d5bbd072c"
     },
     {
       "model": "D2-30k",
@@ -81,7 +81,7 @@
       "encoder_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/teacher_backbone.pth",
       "encoder_sha256": "7db12e7ff8bee45166aaeeda1d94365e696ddaecf0c57a0d1611a891cf0d3eda",
       "checkpoint_path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D2-30k/seed20261016/head_step040000.pth",
-      "checkpoint_sha256": "UNVERIFIED"
+      "checkpoint_sha256": "fc162707925fa99699acdf09ee8a26474732eaaa31a3a3b937f722cfcf56e7a8"
     },
     {
       "model": "D1-100k",
@@ -93,7 +93,7 @@
       "encoder_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/runs/D1/formal/checkpoints/step000100000/teacher_backbone.pth",
       "encoder_sha256": "7df9337dac1ef4775ff21727ddea48c6f265449ae22b24f4941c677fb00593db",
       "checkpoint_path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D1-100k/seed20261016/head_step040000.pth",
-      "checkpoint_sha256": "UNVERIFIED"
+      "checkpoint_sha256": "c280a3f9f1eddc0b079d6dd1ea6c48dbd85d9e2e42c080e88dc696dab579cbb0"
     },
     {
       "model": "D2-100k",
@@ -105,11 +105,11 @@
       "encoder_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/runs/D2/formal/checkpoints/step000100000/teacher_backbone.pth",
       "encoder_sha256": "92a81805f1cc126e1851d5c26baa0b5ba34597d8f93e29ac05203044fe6c7010",
       "checkpoint_path": "/opt/data/3_117/tanghr/codex/d12_three_seeds_20261022/downstream/runs/D2-100k/seed20261016/head_step040000.pth",
-      "checkpoint_sha256": "UNVERIFIED"
+      "checkpoint_sha256": "4a8e4b7f829f0b72fb32f62e3d9230c5f1b36d7cb16d7ced41f951c83554ba3e"
     }
   ],
   "code_commit": "86492fc4c55226095dca10cfc148709e56a529f9",
-  "status_evidence": "evidence/D12-three-seeds/GPU_progress_20261022T002526Z.json",
+  "status_evidence": "experiments/D12-three-seeds/STATUS.json",
   "observed_at_utc": "2026-10-22T00:25:26.189866+00:00",
   "draft_pr": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/12",
   "delivery_code_commit": "1cec40cc293b11cc33c7f98047ab8e660f6d3eb8",

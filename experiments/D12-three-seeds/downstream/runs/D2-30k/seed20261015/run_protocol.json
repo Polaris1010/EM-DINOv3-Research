@@ -1,0 +1,26 @@
+{
+  "stage": "MV-3",
+  "model": "D2-30k",
+  "encoder_model": "D2-30k",
+  "seed": 20261015,
+  "optimizer_steps": 40000,
+  "decoder_initial_sha256": "17d5a0fc3570cf232e74945e027b1c10c3b728b673d33a76108223a4c1c92a35",
+  "encoder_sha256": "7db12e7ff8bee45166aaeeda1d94365e696ddaecf0c57a0d1611a891cf0d3eda",
+  "encoder_frozen": true,
+  "gates": false,
+  "tta": false,
+  "interaction_indices": [
+    5,
+    11,
+    17,
+    23
+  ],
+  "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "protocol_sha256": "3834cfaf5a8b687041b36f2d6aba79033724a337602a65523c125c53391d316f",
+  "trainer_sha256": "745419cd404e41687a99a7c474948b4417820d9ea6bdc53b4d909c1422e4e22a",
+  "loader_sha256": "eec0819304a982113df3a9bac228c0666ba6fff1a451acf8a28a32305e0e3269",
+  "primus_source_sha256": "b5398dc48bf5cc14068b4fed38c5f0a8c30bcbbe242d59475016e70912f248d3",
+  "physical_gpu": 2,
+  "training_batch_size": 1,
+  "selection": "fixed_step40000"
+}

@@ -1,3 +1,5 @@
+> 2026-10-22 08:09香港：多seed新增8个head40k、304开发预测与全部8组MB1均完成；完整三decoder-seed Dice已输出docs/D12_three_seed_Dice_readout.md。100k：D1开发0.818676±0.000324、MB1 0.476961±0.002890；D2开发0.839914±0.001345、MB1 0.463563±0.010832，D2内部优/MB1低的方向三seed一致。剩HD95/NSD评分254/304，服务运行，非完整终态。Coverage-NR继续约59.15k、网站200，GPU0未用；不要重复启动。
+
 > 2026-10-22 02:56香港实测：多seed新增head完成4/8（seed20261015四encoder均40k）；seed20261016的D1/D2-30k均39500、D1-100k=1000、D2-100k排队。服务active，GPU1/2/3均100%，开发完整指标与MB1均尚未开始，三seed均值尚无。Coverage-NR继续47490/100k、网站200。只继续现有有界服务，禁止重复启动。
 
 > 2026-10-22 01:01香港：D1-30k、D2-30k、D1-100k的seed20261015均2600/40000，同初始化SHA与采样hash；剩余5个head队列接续。Coverage-NR连续前进至42550，网站200，GPU0未用。三seed均值仍待完成。代码/记录已推送draft PR12（codex/d12-three-seed-validation），服务继续。见evidence/D12-three-seeds/running_20261021T170117Z.json。

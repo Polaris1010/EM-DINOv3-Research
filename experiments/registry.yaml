@@ -6620,8 +6620,8 @@
       "tta": false,
       "normalization": "Unchanged MV3 ((uint8/255)-.5)/.25",
       "inference_protocol": "Native-grid256 stride128 tile16 mean probabilities argmax; OFF TTA",
-      "metrics_path": "UNVERIFIED",
-      "report_path": "docs/D12_three_seed_execution.md",
+      "metrics_path": "experiments/D12-three-seeds/Dice_MB1_completed_20261022.csv",
+      "report_path": "docs/D12_three_seed_Dice_readout.md",
       "limitations": [
         "Three decoder seeds on one fixed split, not threefold or SSL-seed replication",
         "MB1 is exposed development diagnostic; fixed historical seed14 metrics reused"
@@ -6857,8 +6857,8 @@
       "tta": false,
       "normalization": "Unchanged MV3 ((uint8/255)-.5)/.25",
       "inference_protocol": "Native-grid256 stride128 tile16 mean probabilities argmax; OFF TTA",
-      "metrics_path": "UNVERIFIED",
-      "report_path": "docs/D12_three_seed_execution.md",
+      "metrics_path": "experiments/D12-three-seeds/Dice_MB1_completed_20261022.csv",
+      "report_path": "docs/D12_three_seed_Dice_readout.md",
       "limitations": [
         "Three decoder seeds on one fixed split, not threefold or SSL-seed replication",
         "MB1 is exposed development diagnostic; fixed historical seed14 metrics reused"
@@ -7094,8 +7094,8 @@
       "tta": false,
       "normalization": "Unchanged MV3 ((uint8/255)-.5)/.25",
       "inference_protocol": "Native-grid256 stride128 tile16 mean probabilities argmax; OFF TTA",
-      "metrics_path": "UNVERIFIED",
-      "report_path": "docs/D12_three_seed_execution.md",
+      "metrics_path": "experiments/D12-three-seeds/Dice_MB1_completed_20261022.csv",
+      "report_path": "docs/D12_three_seed_Dice_readout.md",
       "limitations": [
         "Three decoder seeds on one fixed split, not threefold or SSL-seed replication",
         "MB1 is exposed development diagnostic; fixed historical seed14 metrics reused"
@@ -7331,8 +7331,8 @@
       "tta": false,
       "normalization": "Unchanged MV3 ((uint8/255)-.5)/.25",
       "inference_protocol": "Native-grid256 stride128 tile16 mean probabilities argmax; OFF TTA",
-      "metrics_path": "UNVERIFIED",
-      "report_path": "docs/D12_three_seed_execution.md",
+      "metrics_path": "experiments/D12-three-seeds/Dice_MB1_completed_20261022.csv",
+      "report_path": "docs/D12_three_seed_Dice_readout.md",
       "limitations": [
         "Three decoder seeds on one fixed split, not threefold or SSL-seed replication",
         "MB1 is exposed development diagnostic; fixed historical seed14 metrics reused"
@@ -7345,7 +7345,7 @@
     },
     {
       "experiment_id": "D12-three-seeds-D1-30k-seed20261016",
-      "status": "VERIFIED_RUNNING",
+      "status": "VERIFIED_COMPLETED",
       "research_question": "Stability of D1/D2 30k versus100k under matched decoder seeds",
       "dataset_manifest": "configs/segmentation/MV-Generalist-v2/manifest.json",
       "dataset_manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
@@ -7563,13 +7563,13 @@
       "code_commit": "86492fc4c55226095dca10cfc148709e56a529f9",
       "python_executable": "/opt/data/3_117/tanghr/envs/meddinov3/bin/python",
       "global_batch": 1,
-      "optimizer_steps": 39500,
+      "optimizer_steps": 40000,
       "learning_rate": "Unchanged MV3 lr1e-4 warmup100 cosine",
       "tta": false,
       "normalization": "Unchanged MV3 ((uint8/255)-.5)/.25",
       "inference_protocol": "Native-grid256 stride128 tile16 mean probabilities argmax; OFF TTA",
-      "metrics_path": "UNVERIFIED",
-      "report_path": "docs/D12_three_seed_execution.md",
+      "metrics_path": "experiments/D12-three-seeds/Dice_MB1_completed_20261022.csv",
+      "report_path": "docs/D12_three_seed_Dice_readout.md",
       "limitations": [
         "Three decoder seeds on one fixed split, not threefold or SSL-seed replication",
         "MB1 is exposed development diagnostic; fixed historical seed14 metrics reused"
@@ -7582,7 +7582,7 @@
     },
     {
       "experiment_id": "D12-three-seeds-D2-30k-seed20261016",
-      "status": "VERIFIED_RUNNING",
+      "status": "VERIFIED_COMPLETED",
       "research_question": "Stability of D1/D2 30k versus100k under matched decoder seeds",
       "dataset_manifest": "configs/segmentation/MV-Generalist-v2/manifest.json",
       "dataset_manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
@@ -7800,13 +7800,13 @@
       "code_commit": "86492fc4c55226095dca10cfc148709e56a529f9",
       "python_executable": "/opt/data/3_117/tanghr/envs/meddinov3/bin/python",
       "global_batch": 1,
-      "optimizer_steps": 39500,
+      "optimizer_steps": 40000,
       "learning_rate": "Unchanged MV3 lr1e-4 warmup100 cosine",
       "tta": false,
       "normalization": "Unchanged MV3 ((uint8/255)-.5)/.25",
       "inference_protocol": "Native-grid256 stride128 tile16 mean probabilities argmax; OFF TTA",
-      "metrics_path": "UNVERIFIED",
-      "report_path": "docs/D12_three_seed_execution.md",
+      "metrics_path": "experiments/D12-three-seeds/Dice_MB1_completed_20261022.csv",
+      "report_path": "docs/D12_three_seed_Dice_readout.md",
       "limitations": [
         "Three decoder seeds on one fixed split, not threefold or SSL-seed replication",
         "MB1 is exposed development diagnostic; fixed historical seed14 metrics reused"
@@ -7819,7 +7819,7 @@
     },
     {
       "experiment_id": "D12-three-seeds-D1-100k-seed20261016",
-      "status": "VERIFIED_RUNNING",
+      "status": "VERIFIED_COMPLETED",
       "research_question": "Stability of D1/D2 30k versus100k under matched decoder seeds",
       "dataset_manifest": "configs/segmentation/MV-Generalist-v2/manifest.json",
       "dataset_manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
@@ -8037,13 +8037,13 @@
       "code_commit": "86492fc4c55226095dca10cfc148709e56a529f9",
       "python_executable": "/opt/data/3_117/tanghr/envs/meddinov3/bin/python",
       "global_batch": 1,
-      "optimizer_steps": 1000,
+      "optimizer_steps": 40000,
       "learning_rate": "Unchanged MV3 lr1e-4 warmup100 cosine",
       "tta": false,
       "normalization": "Unchanged MV3 ((uint8/255)-.5)/.25",
       "inference_protocol": "Native-grid256 stride128 tile16 mean probabilities argmax; OFF TTA",
-      "metrics_path": "UNVERIFIED",
-      "report_path": "docs/D12_three_seed_execution.md",
+      "metrics_path": "experiments/D12-three-seeds/Dice_MB1_completed_20261022.csv",
+      "report_path": "docs/D12_three_seed_Dice_readout.md",
       "limitations": [
         "Three decoder seeds on one fixed split, not threefold or SSL-seed replication",
         "MB1 is exposed development diagnostic; fixed historical seed14 metrics reused"
@@ -8056,7 +8056,7 @@
     },
     {
       "experiment_id": "D12-three-seeds-D2-100k-seed20261016",
-      "status": "PLANNED",
+      "status": "VERIFIED_COMPLETED",
       "research_question": "Stability of D1/D2 30k versus100k under matched decoder seeds",
       "dataset_manifest": "configs/segmentation/MV-Generalist-v2/manifest.json",
       "dataset_manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
@@ -8274,13 +8274,13 @@
       "code_commit": "86492fc4c55226095dca10cfc148709e56a529f9",
       "python_executable": "/opt/data/3_117/tanghr/envs/meddinov3/bin/python",
       "global_batch": 1,
-      "optimizer_steps": 0,
+      "optimizer_steps": 40000,
       "learning_rate": "Unchanged MV3 lr1e-4 warmup100 cosine",
       "tta": false,
       "normalization": "Unchanged MV3 ((uint8/255)-.5)/.25",
       "inference_protocol": "Native-grid256 stride128 tile16 mean probabilities argmax; OFF TTA",
-      "metrics_path": "UNVERIFIED",
-      "report_path": "docs/D12_three_seed_execution.md",
+      "metrics_path": "experiments/D12-three-seeds/Dice_MB1_completed_20261022.csv",
+      "report_path": "docs/D12_three_seed_Dice_readout.md",
       "limitations": [
         "Three decoder seeds on one fixed split, not threefold or SSL-seed replication",
         "MB1 is exposed development diagnostic; fixed historical seed14 metrics reused"

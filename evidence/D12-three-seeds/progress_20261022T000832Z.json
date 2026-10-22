@@ -1,0 +1,375 @@
+{
+  "observed_at_utc": "2026-10-22T00:08:32.216926+00:00",
+  "status": {
+    "status": "running",
+    "phase": "exact_CPU_distance_metrics",
+    "seconds": 25942.88916286826,
+    "progress": {
+      "downstream/runs/D2-100k/seed20261015/progress.json": {
+        "stage": "full_development_inference",
+        "model": "D2-100k",
+        "seed": 20261015,
+        "region_id": "wei20_mitoEM-R__dev",
+        "z_completed": 81,
+        "z_total": 100,
+        "seconds": 2815.5429122447968
+      },
+      "downstream/runs/D2-100k/seed20261016/progress.json": {
+        "stage": "full_development_inference",
+        "model": "D2-100k",
+        "seed": 20261016,
+        "region_id": "wei20_mitoEM-R__dev",
+        "z_completed": 81,
+        "z_total": 100,
+        "seconds": 2859.1864511966705
+      },
+      "downstream/runs/D1-100k/seed20261015/progress.json": {
+        "stage": "full_development_inference",
+        "model": "D1-100k",
+        "seed": 20261015,
+        "region_id": "wei20_mitoEM-R__dev",
+        "z_completed": 81,
+        "z_total": 100,
+        "seconds": 2867.2171235084534
+      },
+      "downstream/runs/D1-100k/seed20261016/progress.json": {
+        "stage": "full_development_inference",
+        "model": "D1-100k",
+        "seed": 20261016,
+        "region_id": "wei20_mitoEM-R__dev",
+        "z_completed": 81,
+        "z_total": 100,
+        "seconds": 2852.1615719795227
+      },
+      "downstream/runs/D2-30k/seed20261015/progress.json": {
+        "stage": "full_development_inference",
+        "model": "D2-30k",
+        "seed": 20261015,
+        "region_id": "wei20_mitoEM-R__dev",
+        "z_completed": 81,
+        "z_total": 100,
+        "seconds": 2878.036179304123
+      },
+      "downstream/runs/D2-30k/seed20261016/progress.json": {
+        "stage": "full_development_inference",
+        "model": "D2-30k",
+        "seed": 20261016,
+        "region_id": "wei20_mitoEM-R__dev",
+        "z_completed": 81,
+        "z_total": 100,
+        "seconds": 2879.2280011177063
+      },
+      "downstream/runs/D1-30k/seed20261015/progress.json": {
+        "stage": "full_development_inference",
+        "model": "D1-30k",
+        "seed": 20261015,
+        "region_id": "wei20_mitoEM-R__dev",
+        "z_completed": 81,
+        "z_total": 100,
+        "seconds": 2867.052077770233
+      },
+      "downstream/runs/D1-30k/seed20261016/progress.json": {
+        "stage": "full_development_inference",
+        "model": "D1-30k",
+        "seed": 20261016,
+        "region_id": "wei20_mitoEM-R__dev",
+        "z_completed": 81,
+        "z_total": 100,
+        "seconds": 2857.9190249443054
+      }
+    },
+    "active_pids": [
+      152330,
+      152477,
+      152478
+    ],
+    "Coverage_NR_progress": {
+      "step": 59140,
+      "rank": 0,
+      "loss": 13.3125,
+      "grad_norm": 3.5544774532318115,
+      "lr": 1.0770123146690836e-05,
+      "teacher_momentum": 0.999,
+      "teacher_temp": 0.07,
+      "global_batch": 48,
+      "data_first_index": 2838672,
+      "data_first_volume": "han24_pos0",
+      "data_first_domain": "MitoVerse",
+      "sample_chain": "722a6aea08e44b5366399f334273149a3f37a7418c66a8269584cbdbf6a9d161",
+      "elapsed_seconds": 57495.977371647954,
+      "data_seconds": 0.00821000337600708,
+      "iteration_seconds": 0.6925693154335022,
+      "peak_gpu_bytes": 10240163840,
+      "loss_components": {
+        "dino_local_crops_loss": 9.5,
+        "dino_global_crops_loss": 9.46875,
+        "koleo_loss": -0.2942095696926117,
+        "ibot_loss": 3.8549716472625732
+      }
+    },
+    "gpu0_used": false,
+    "website_http": 200
+  },
+  "service": "MainPID=4154944\nActiveState=active\n",
+  "runs": [
+    {
+      "model": "D1-30k",
+      "seed": 20261015,
+      "started": true,
+      "development_metric_rows": 31,
+      "overlap_rows": 38,
+      "progress": {
+        "seconds": 2867.052077770233,
+        "stage": "full_development_inference"
+      },
+      "training_complete": {
+        "status": "complete",
+        "completed_steps": 40000,
+        "seconds": 3828.053571462631,
+        "stage": "MV-3",
+        "encoder_unchanged": true
+      },
+      "inference_complete": {
+        "status": "complete",
+        "seconds": 3110.823486328125,
+        "regions": 38
+      },
+      "MB1": {
+        "status": "complete",
+        "images": 2595,
+        "datasets": 7
+      }
+    },
+    {
+      "model": "D1-30k",
+      "seed": 20261016,
+      "started": true,
+      "development_metric_rows": 31,
+      "overlap_rows": 38,
+      "progress": {
+        "seconds": 2857.9190249443054,
+        "stage": "full_development_inference"
+      },
+      "training_complete": {
+        "status": "complete",
+        "completed_steps": 40000,
+        "seconds": 3555.4000396728516,
+        "stage": "MV-3",
+        "encoder_unchanged": true
+      },
+      "inference_complete": {
+        "status": "complete",
+        "seconds": 3097.3530447483063,
+        "regions": 38
+      },
+      "MB1": {
+        "status": "complete",
+        "images": 2595,
+        "datasets": 7
+      }
+    },
+    {
+      "model": "D2-30k",
+      "seed": 20261015,
+      "started": true,
+      "development_metric_rows": 31,
+      "overlap_rows": 38,
+      "progress": {
+        "seconds": 2878.036179304123,
+        "stage": "full_development_inference"
+      },
+      "training_complete": {
+        "status": "complete",
+        "completed_steps": 40000,
+        "seconds": 3830.8440277576447,
+        "stage": "MV-3",
+        "encoder_unchanged": true
+      },
+      "inference_complete": {
+        "status": "complete",
+        "seconds": 3118.9507722854614,
+        "regions": 38
+      },
+      "MB1": {
+        "status": "complete",
+        "images": 2595,
+        "datasets": 7
+      }
+    },
+    {
+      "model": "D2-30k",
+      "seed": 20261016,
+      "started": true,
+      "development_metric_rows": 31,
+      "overlap_rows": 38,
+      "progress": {
+        "seconds": 2879.2280011177063,
+        "stage": "full_development_inference"
+      },
+      "training_complete": {
+        "status": "complete",
+        "completed_steps": 40000,
+        "seconds": 3554.220882177353,
+        "stage": "MV-3",
+        "encoder_unchanged": true
+      },
+      "inference_complete": {
+        "status": "complete",
+        "seconds": 3119.7413902282715,
+        "regions": 38
+      },
+      "MB1": {
+        "status": "complete",
+        "images": 2595,
+        "datasets": 7
+      }
+    },
+    {
+      "model": "D1-100k",
+      "seed": 20261015,
+      "started": true,
+      "development_metric_rows": 32,
+      "overlap_rows": 38,
+      "progress": {
+        "seconds": 2867.2171235084534,
+        "stage": "full_development_inference"
+      },
+      "training_complete": {
+        "status": "complete",
+        "completed_steps": 40000,
+        "seconds": 3829.7991573810577,
+        "stage": "MV-3",
+        "encoder_unchanged": true
+      },
+      "inference_complete": {
+        "status": "complete",
+        "seconds": 3110.867003440857,
+        "regions": 38
+      },
+      "MB1": {
+        "status": "complete",
+        "images": 2595,
+        "datasets": 7
+      }
+    },
+    {
+      "model": "D1-100k",
+      "seed": 20261016,
+      "started": true,
+      "development_metric_rows": 31,
+      "overlap_rows": 38,
+      "progress": {
+        "seconds": 2852.1615719795227,
+        "stage": "full_development_inference"
+      },
+      "training_complete": {
+        "status": "complete",
+        "completed_steps": 40000,
+        "seconds": 3247.4461476802826,
+        "stage": "MV-3",
+        "encoder_unchanged": true
+      },
+      "inference_complete": {
+        "status": "complete",
+        "seconds": 3091.7152025699615,
+        "regions": 38
+      },
+      "MB1": {
+        "status": "complete",
+        "images": 2595,
+        "datasets": 7
+      }
+    },
+    {
+      "model": "D2-100k",
+      "seed": 20261015,
+      "started": true,
+      "development_metric_rows": 32,
+      "overlap_rows": 38,
+      "progress": {
+        "seconds": 2815.5429122447968,
+        "stage": "full_development_inference"
+      },
+      "training_complete": {
+        "status": "complete",
+        "completed_steps": 40000,
+        "seconds": 3235.992917776108,
+        "stage": "MV-3",
+        "encoder_unchanged": true
+      },
+      "inference_complete": {
+        "status": "complete",
+        "seconds": 3034.106541156769,
+        "regions": 38
+      },
+      "MB1": {
+        "status": "complete",
+        "images": 2595,
+        "datasets": 7
+      }
+    },
+    {
+      "model": "D2-100k",
+      "seed": 20261016,
+      "started": true,
+      "development_metric_rows": 32,
+      "overlap_rows": 38,
+      "progress": {
+        "seconds": 2859.1864511966705,
+        "stage": "full_development_inference"
+      },
+      "training_complete": {
+        "status": "complete",
+        "completed_steps": 40000,
+        "seconds": 3315.7478704452515,
+        "stage": "MV-3",
+        "encoder_unchanged": true
+      },
+      "inference_complete": {
+        "status": "complete",
+        "seconds": 3098.8682520389557,
+        "regions": 38
+      },
+      "MB1": {
+        "status": "complete",
+        "images": 2595,
+        "datasets": 7
+      }
+    }
+  ],
+  "supervision.json": {
+    "controller_pid": 3930759,
+    "created": 1792570195.29,
+    "acquired_at": 1792601776.7328432,
+    "rank_processes": {
+      "3930763": 1792570195.94,
+      "3930786": 1792570197.58,
+      "3930787": 1792570197.58,
+      "3930788": 1792570197.58,
+      "3930882": 1792570203.56,
+      "3930885": 1792570203.59,
+      "3930901": 1792570206.01,
+      "3930994": 1792570210.78,
+      "3930880": 1792570203.55,
+      "3930883": 1792570203.58,
+      "3930902": 1792570206.04,
+      "3930991": 1792570210.76,
+      "3930881": 1792570203.55,
+      "3930884": 1792570203.58,
+      "3930903": 1792570206.05,
+      "3930993": 1792570210.78
+    },
+    "training_paused": false,
+    "supervisor_only_suspended": true,
+    "released": true,
+    "released_at": 1792626568.5484982
+  },
+  "GPU": "0, 3092, 21124, 0\n1, 11260, 12957, 100\n2, 11260, 12957, 87\n3, 10798, 13418, 94\n",
+  "controller_tail": "",
+  "Coverage_NR": {
+    "step": 59150,
+    "elapsed_seconds": 57503.30921744555,
+    "iteration_seconds": 0.69766665995121
+  },
+  "website_http": 200
+}

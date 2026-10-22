@@ -1,3 +1,4 @@
+- [20261022_31_d12_dice_complete_distances_pending.md](20261022_31_d12_dice_complete_distances_pending.md)
 - [20261022_30_d12_multiseed_progress.md](20261022_30_d12_multiseed_progress.md)
 - [20261022_29_d12_three_seed_start.md](20261022_29_d12_three_seed_start.md)
 # 每轮工作记录

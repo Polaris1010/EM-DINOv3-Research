@@ -1,3 +1,4 @@
+- [20261026_37_repository_public.md](20261026_37_repository_public.md)
 - [20261022_36_coverage_nr_complete.md](20261022_36_coverage_nr_complete.md)
 - [20261022_35_gpu_first_execution.md](20261022_35_gpu_first_execution.md)
 - [20261022_34_coverage_nr_progress.md](20261022_34_coverage_nr_progress.md)

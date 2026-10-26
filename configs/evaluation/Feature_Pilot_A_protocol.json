@@ -1,0 +1,141 @@
+{
+  "stage": "Feature-Mechanism-Pilot-A",
+  "seed": 20261027,
+  "layers": [
+    5,
+    11,
+    17,
+    23
+  ],
+  "models": [
+    {
+      "id": "P0",
+      "checkpoint_path": "/opt/data/3_117/tanghr/DINOv3/pretrained_weights/dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth",
+      "sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+      "kind": "official_natural",
+      "resolved_config_path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage2_20260930_082816/stage1_reference/B_full_resolved_config.yaml",
+      "resolved_config_sha256": "f1acbd49af827b80a457b64e28cc4dd912524c08c0676256f505cba59a5825e1",
+      "dinov3_root": "/opt/data/3_117/tanghr/DINOv3/dinov3"
+    },
+    {
+      "id": "D1-100k",
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/runs/D1/formal/checkpoints/step000100000/teacher_backbone.pth",
+      "sha256": "7df9337dac1ef4775ff21727ddea48c6f265449ae22b24f4941c677fb00593db",
+      "kind": "exported_EMA_backbone",
+      "registry_source": "experiments/D12-100k/run_index.json",
+      "resolved_config_path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage2_20260930_082816/stage1_reference/B_full_resolved_config.yaml",
+      "resolved_config_sha256": "f1acbd49af827b80a457b64e28cc4dd912524c08c0676256f505cba59a5825e1",
+      "dinov3_root": "/opt/data/3_117/tanghr/DINOv3/dinov3"
+    },
+    {
+      "id": "D2-30k",
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/teacher_backbone.pth",
+      "sha256": "7db12e7ff8bee45166aaeeda1d94365e696ddaecf0c57a0d1611a891cf0d3eda",
+      "kind": "exported_EMA_backbone",
+      "registry_source": "experiments/D12/run_index.json",
+      "resolved_config_path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage2_20260930_082816/stage1_reference/B_full_resolved_config.yaml",
+      "resolved_config_sha256": "f1acbd49af827b80a457b64e28cc4dd912524c08c0676256f505cba59a5825e1",
+      "dinov3_root": "/opt/data/3_117/tanghr/DINOv3/dinov3"
+    },
+    {
+      "id": "D2-100k",
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/runs/D2/formal/checkpoints/step000100000/teacher_backbone.pth",
+      "sha256": "92a81805f1cc126e1851d5c26baa0b5ba34597d8f93e29ac05203044fe6c7010",
+      "kind": "exported_EMA_backbone",
+      "registry_source": "experiments/D12-100k/run_index.json",
+      "resolved_config_path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage2_20260930_082816/stage1_reference/B_full_resolved_config.yaml",
+      "resolved_config_sha256": "f1acbd49af827b80a457b64e28cc4dd912524c08c0676256f505cba59a5825e1",
+      "dinov3_root": "/opt/data/3_117/tanghr/DINOv3/dinov3"
+    },
+    {
+      "id": "Coverage-NR-100k",
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/coverage_nr_p0_20261021/runs/Coverage-NR/formal/checkpoints/step000100000/teacher_backbone.pth",
+      "sha256": "a886d8b5447230b097bb2de06716d8f18ff51968b8837c122daf03e5a403293c",
+      "kind": "exported_EMA_backbone",
+      "registry_source": "experiments/Coverage-NR/run_index.json",
+      "resolved_config_path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage2_20260930_082816/stage1_reference/B_full_resolved_config.yaml",
+      "resolved_config_sha256": "f1acbd49af827b80a457b64e28cc4dd912524c08c0676256f505cba59a5825e1",
+      "dinov3_root": "/opt/data/3_117/tanghr/DINOv3/dinov3"
+    }
+  ],
+  "train_crops_per_region": 2,
+  "diagnostic_sources": [
+    "openorganelle",
+    "guay21",
+    "muller21",
+    "glycolytic_muscle",
+    "hela_cell"
+  ],
+  "random_crops_per_source": 64,
+  "tile_size": 256,
+  "patch_size": 16,
+  "input_normalization": "((uint8/255)-0.5)/0.25; grayscale repeated to3 channels; native grid; pad127.5",
+  "feature_normalization": "official get_intermediate_layers norm=True, CLS/register removed; train-only source-balanced channel mean/std for probes",
+  "foreground_patch_fraction": 0.5,
+  "pure_background_patch_fraction": 0.0,
+  "valid_patch_fraction": 0.95,
+  "far_background_xy_nm": 180.0,
+  "D2_posthoc_FP_patch_fraction": 0.5,
+  "spectrum_tokens_per_source": 512,
+  "probe": {
+    "kind": "1x1 linear binary logit per layer",
+    "steps": 500,
+    "batch": 4096,
+    "lr": 0.03,
+    "weight_decay": 0.001,
+    "optimizer": "AdamW",
+    "class_sampling": "source-balanced then class-balanced 0.5/0.5; pure background or majority foreground training tokens",
+    "threshold": 0.5,
+    "selection": "fixed final500; no evaluation-label use"
+  },
+  "periodicity": {
+    "window_px": 64,
+    "nonoverlap_stride_px": 64,
+    "taper": "Hann",
+    "frequency_cycles_per_pixel": [
+      0.03125,
+      0.25
+    ],
+    "metric": "top4 nonDC power fraction in fixed annulus",
+    "covariates": [
+      "local_contrast",
+      "gradient_energy",
+      "normalized_y",
+      "normalized_x",
+      "context_foreground_density",
+      "native_spacing_nm"
+    ],
+    "strata": "train-only contrast tertiles and gradient median; normalized_y halves; native spacing exact group",
+    "minimum_correlation_windows": 20,
+    "bootstrap_block": "volume_id + Z//8; descriptive clustered bootstrap, no independent-patch p values",
+    "bootstrap_repeats": 200
+  },
+  "allowed_training": "only20 lightweight train-only linear probes; encoder frozen",
+  "forbidden": [
+    "SSL",
+    "Primus training",
+    "Pilot B",
+    "Pilot C",
+    "weight fusion",
+    "weight SVD",
+    "Gram training",
+    "new checkpoint construction"
+  ],
+  "GPU0_used": false,
+  "physical_gpus": [
+    1,
+    2,
+    3
+  ],
+  "primary_comparison": "D2-30k vs D2-100k on same locked positions, primary Glycolytic muscle/deep layer23; all layers and controls reported",
+  "all_far_background_scope": "all eligible patch cells within the locked random diagnostic FOVs, not exhaustive original volumes",
+  "historical_error_case": {
+    "source": "glycolytic_muscle",
+    "z": 150,
+    "y": 0,
+    "x": 242,
+    "tile_size": 256,
+    "reason": "covers the pre-existing z150 Y[0,128) X[306,434) added-FP review; case only excluded from random summaries"
+  },
+  "spectrum_repeats": 3
+}

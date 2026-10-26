@@ -6394,6 +6394,62 @@
         "evidence/Coverage-NR/verification.json"
       ],
       "server_root": "/opt/data/3_117/tanghr/codex/coverage_nr_p0_20261021"
+    },
+    {
+      "experiment_id": "Feature-Mechanism-Pilot-A",
+      "status": "PLANNED",
+      "research_question": "Does the D2 SSL trajectory reduce mitochondria versus remote-background separability and correlate with periodic texture?",
+      "dataset_manifest": "configs/segmentation/MV-Generalist-v2/manifest.json",
+      "dataset_manifest_sha256": "UNVERIFIED",
+      "ssl_exposure": "Read-only historical P0/D1/D2/Coverage-NR assets; no new SSL",
+      "supervised_train_split": "156 MV-Generalist-v2 train regions; probe fitting only",
+      "validation_split": "Locked random positions in3 MV-dev and2 already-exposed MB1 sources",
+      "test_split": "UNVERIFIED",
+      "backbone": "Frozen official DINOv3 ViT-L/16; layers5/11/17/23",
+      "initial_checkpoint": [
+        "/opt/data/3_117/tanghr/DINOv3/pretrained_weights/dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth",
+        "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/runs/D1/formal/checkpoints/step000100000/teacher_backbone.pth",
+        "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/teacher_backbone.pth",
+        "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/runs/D2/formal/checkpoints/step000100000/teacher_backbone.pth",
+        "/opt/data/3_117/tanghr/codex/coverage_nr_p0_20261021/runs/Coverage-NR/formal/checkpoints/step000100000/teacher_backbone.pth"
+      ],
+      "initial_checkpoint_sha256": [
+        "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+        "7df9337dac1ef4775ff21727ddea48c6f265449ae22b24f4941c677fb00593db",
+        "7db12e7ff8bee45166aaeeda1d94365e696ddaecf0c57a0d1611a891cf0d3eda",
+        "92a81805f1cc126e1851d5c26baa0b5ba34597d8f93e29ac05203044fe6c7010",
+        "a886d8b5447230b097bb2de06716d8f18ff51968b8837c122daf03e5a403293c"
+      ],
+      "final_checkpoint": "NOT_APPLICABLE_FROZEN_ENCODERS",
+      "final_checkpoint_sha256": "UNVERIFIED",
+      "decoder": "Train-only1x1 logistic probes,1025 parameters/layer",
+      "decoder_source_commit": "UNVERIFIED",
+      "decoder_checkpoint": "UNVERIFIED",
+      "decoder_seed": 20261027,
+      "train_config": "configs/evaluation/Feature_Pilot_A_protocol.json",
+      "resolved_config_sha256": "3e7346fb81a48725209567743e7d022aac12982d956cf2e5cc47ff0a8bb13129",
+      "code_commit": "UNVERIFIED",
+      "python_executable": "/opt/data/3_117/tanghr/envs/meddinov3/bin/python",
+      "global_batch": "UNVERIFIED",
+      "optimizer_steps": 0,
+      "learning_rate": "UNVERIFIED",
+      "tta": false,
+      "normalization": "UNVERIFIED",
+      "inference_protocol": "UNVERIFIED",
+      "metrics_path": "UNVERIFIED",
+      "report_path": "docs/Feature_Mechanism_Pilot_Report.md",
+      "limitations": [
+        "Fixed existing SSL trajectories; no independent SSL seeds",
+        "MB1 is exposed diagnostic; patch/Z blocks are not independent acquisitions",
+        "D2-specific FP background is post-hoc and reported separately",
+        "Spectrum and periodicity association alone do not establish mechanism or method efficacy"
+      ],
+      "planned_optimizer_steps": 500,
+      "evidence": [
+        "experiments/Feature-Pilot-A/run_index.json",
+        "configs/evaluation/Feature_Pilot_A_protocol.json"
+      ],
+      "server_root": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027"
     }
   ]
 }

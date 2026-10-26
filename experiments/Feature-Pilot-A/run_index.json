@@ -1,0 +1,15 @@
+{
+  "stage": "Feature-Mechanism-Pilot-A",
+  "status": "PLANNED",
+  "server_root": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027",
+  "service": "feature-mechanism-pilot-a-20261027.service",
+  "protocol": "configs/evaluation/Feature_Pilot_A_protocol.json",
+  "report_path": "docs/Feature_Mechanism_Pilot_Report.md",
+  "metrics_path": "UNVERIFIED",
+  "SSL_or_Primus_training": false,
+  "Pilot_B_or_C": false,
+  "seed": 20261027,
+  "models": 5,
+  "linear_probes": 20,
+  "GPU0_used": false
+}

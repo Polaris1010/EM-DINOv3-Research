@@ -1,0 +1,49 @@
+{
+  "stage": "Coverage-NR",
+  "status": "VERIFIED_COMPLETED",
+  "execution_state": "COMPLETE_STOPPED",
+  "server_root": "/opt/data/3_117/tanghr/codex/coverage_nr_p0_20261021",
+  "service": "coverage-nr-p0-gpu-resume-20261022.service",
+  "protocol": "configs/pretrain/Coverage_NR_protocol.json",
+  "report_path": "docs/Coverage_NR_final_report.md",
+  "runs": [
+    {
+      "model": "Coverage-NR",
+      "kind": "SSL",
+      "status": "VERIFIED_COMPLETED",
+      "completed_steps": 100000,
+      "starting_step": 0,
+      "planned_steps": 100000,
+      "execution_state": "COMPLETE_STOPPED",
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/coverage_nr_p0_20261021/runs/Coverage-NR/formal/checkpoints/step000100000/teacher_backbone.pth",
+      "checkpoint_sha256": "a886d8b5447230b097bb2de06716d8f18ff51968b8837c122daf03e5a403293c",
+      "resume_starting_step": 94000
+    },
+    {
+      "model": "Coverage-NR",
+      "kind": "HEAD",
+      "status": "VERIFIED_COMPLETED",
+      "completed_steps": 40000,
+      "planned_steps": 40000,
+      "execution_state": "COMPLETE_STOPPED",
+      "checkpoint_path": "/opt/data/3_117/tanghr/codex/coverage_nr_p0_20261021/downstream/runs/Coverage-NR/seed20261014/head_step040000.pth",
+      "checkpoint_sha256": "a9dc0b0ca064f5726696ced127e72b6707092f7a14e2426e6412ee2474ceba53",
+      "encoder_path": "/opt/data/3_117/tanghr/codex/coverage_nr_p0_20261021/runs/Coverage-NR/formal/checkpoints/step000100000/teacher_backbone.pth",
+      "encoder_sha256": "a886d8b5447230b097bb2de06716d8f18ff51968b8837c122daf03e5a403293c"
+    }
+  ],
+  "code_commit": "6129ac22284aa332923602d52e06ef01d2164147",
+  "observed_at_utc": "2026-10-22T15:11:08.281388+00:00",
+  "status_evidence": "evidence/Coverage-NR/final_status_20261022T151108Z.json",
+  "PR": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/11",
+  "previous_service": "coverage-nr-p0-20261021.service",
+  "scoring_backend": "exact_GPU_EDT_with_full_axis_host_backed_fallback",
+  "GPU_scoring_deployment": "evidence/Coverage-NR/GPU_scoring_deployment_20261022.json",
+  "GPU_scoring_equivalence": "evidence/Coverage-NR/GPU_scoring_equivalence_20261022.json",
+  "metrics_path": "experiments/Coverage-NR/Coverage_NR_summary.json",
+  "final_service_state": "inactive",
+  "final_service_main_pid": 0,
+  "final_service_exit_status": 0,
+  "scoring_code_commit": "7774df1",
+  "further_experiments_started": false
+}

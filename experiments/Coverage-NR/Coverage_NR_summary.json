@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "model": "Coverage-NR",
+  "dev_macro": {
+    "dice": 0.8318207975761698,
+    "precision": 0.8461748432004582,
+    "recall": 0.8415175235999802,
+    "hd95_nm": 505.28240758,
+    "nsd_16nm": 0.7432368821605588,
+    "predicted_foreground_fraction": 0.08045469072653039
+  },
+  "MB1_macro_dice": 0.44002743325886123,
+  "coverage": {
+    "unique_cem_ids": 1425433,
+    "coverage": 1.0,
+    "cem_draws": 2398767,
+    "mv_draws": 2401233
+  },
+  "strict_sampling_ablation": false,
+  "historical_D2_segmented_LR": true,
+  "current_continuous_100k_LR": true,
+  "further_experiments_started": false
+}

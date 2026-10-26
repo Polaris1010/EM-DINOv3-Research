@@ -1,3 +1,7 @@
+- [20261026_37_repository_public.md](20261026_37_repository_public.md)
+- [20261022_36_coverage_nr_complete.md](20261022_36_coverage_nr_complete.md)
+- [20261022_35_gpu_first_execution.md](20261022_35_gpu_first_execution.md)
+- [20261022_34_coverage_nr_progress.md](20261022_34_coverage_nr_progress.md)
 # 每轮工作记录
 
 新窗口先读最新记录，再读当前状态和NEXT_ACTION。记录描述实际完成事实；历史计划不自动成为执行授权。
@@ -54,3 +58,7 @@
 - [OrgMIM / IsoOrg-1K分组采样核查](20261020_25_orgmim_sampling_lookup.md)
 
 - [IsoOrg / QuantEM仅metadata增量来源审查](20261021_26_incremental_source_review.md)
+
+- [Coverage-NR从P0连续100k启动](20261021_27_coverage_nr_training_start.md)
+
+- [anti-defensive-writing安装与Coverage-NR进度核实](20261021_28_skill_install_progress.md)

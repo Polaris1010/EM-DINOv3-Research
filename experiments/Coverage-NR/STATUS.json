@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "SSL_steps": 100000,
+  "head_steps": 40000,
+  "development_regions": 38,
+  "benchmark_planes": 2595,
+  "historical_inputs_unchanged": true,
+  "gpu0_used": false,
+  "website_http": 200,
+  "further_experiments_started": false,
+  "report": "Coverage_NR_final_report.md"
+}

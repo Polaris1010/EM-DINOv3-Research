@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "regions": 38,
+  "sources": 12,
+  "MB1_images": 2595,
+  "datasets": 7,
+  "same_GT_counts_as_D2": true,
+  "same_head_initialization_and_sampling": true,
+  "GPU_metrics_complete": true,
+  "new_training": false,
+  "new_inference_or_distance_scoring": false,
+  "report_sha256": "a980807b6b5c2a71d7a25a6eee38d7be16a3a0f857686898b2c987b7d6eff6ea"
+}

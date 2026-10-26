@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "all_domain_positions_checked": 4800000,
+  "reordered_full_records": 432,
+  "coverage": 1.0,
+  "unique_cem_ids": 1425433,
+  "id_plan_sha256": "bf56bad49c74eb484f0eee125370f31c386379c56b8ea877a8467fc4685d500e",
+  "image_reads": 0,
+  "prefetch_order_independent": true
+}

@@ -1,0 +1,38 @@
+{
+  "status": {
+    "status": "failed",
+    "phase": "SSL_Coverage-NR_fresh_P0_100000",
+    "error": "AssertionError('Unrelated new GPU process; stop only our jobs')",
+    "further_experiments_started": false
+  },
+  "progress": {
+    "step": 94450,
+    "rank": 0,
+    "loss": 12.8125,
+    "grad_norm": 3.461940288543701,
+    "lr": 1.2098557114849378e-06,
+    "teacher_momentum": 0.999,
+    "teacher_temp": 0.07,
+    "global_batch": 48,
+    "data_first_index": 4533552,
+    "data_first_volume": "takemura2013",
+    "data_first_domain": "CEM1.5M",
+    "sample_chain": "3e3cb281e26250a95fe7094f0a0c826abe3ba2c5a01009e980393c4bedefc6c2",
+    "elapsed_seconds": 84238.71437955648,
+    "data_seconds": 0.012433849275112152,
+    "iteration_seconds": 0.6924060136079788,
+    "peak_gpu_bytes": 10240163840,
+    "loss_components": {
+      "dino_local_crops_loss": 9.125,
+      "dino_global_crops_loss": 9.09375,
+      "koleo_loss": -0.30736398696899414,
+      "ibot_loss": 3.725689649581909
+    }
+  },
+  "checkpoint": {
+    "path": "/opt/data/3_117/tanghr/codex/coverage_nr_p0_20261021/runs/Coverage-NR/formal/checkpoints/step000094000/full.pth",
+    "step": 94000,
+    "sha256": "033f04058bf85c728eac4e450b87965544dd97bcb666b1a0628bb7f1070a3f07"
+  },
+  "old_service": "MainPID=0\nActiveState=failed\n"
+}

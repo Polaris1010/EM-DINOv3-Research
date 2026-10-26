@@ -1,0 +1,291 @@
+{
+  "observed_utc": "2026-10-26T18:37:20.722399+00:00",
+  "service": "MainPID=2993673\nExecMainStatus=0\nActiveState=active\n",
+  "website_http": 200,
+  "STATUS.json": {
+    "status": "running",
+    "phase": "GPU_spectral_separability_and_periodicity_statistics",
+    "seconds": 281.26453380286694,
+    "own_children": [
+      2995474
+    ],
+    "physical_gpus": [
+      3,
+      2,
+      1
+    ],
+    "GPU0_used": false,
+    "website_http": 200
+  },
+  "sampling_receipt.json": {
+    "status": "LOCKED_BEFORE_FEATURES",
+    "seed": 20261027,
+    "samples_sha256": "18622e1374467fe8a480f1b8a13e15370b51ac3386039d389bc4f55351c11458",
+    "protocol_sha256": "3e7346fb81a48725209567743e7d022aac12982d956cf2e5cc47ff0a8bb13129",
+    "by_role": {
+      "train": 312,
+      "eval": 321
+    },
+    "random_by_source": {
+      "openorganelle": 64,
+      "guay21": 64,
+      "muller21": 64,
+      "glycolytic_muscle": 64,
+      "hela_cell": 64
+    },
+    "train_regions": 156,
+    "evaluation_GT_read": false,
+    "prediction_selection_used": false,
+    "historical_case_excluded_from_random": true,
+    "created_at": 1793039555.5124466
+  },
+  "analysis_progress.json": {
+    "model": "P0",
+    "layer": 11,
+    "seconds": 111.44539070129395
+  },
+  "models": {
+    "D2-100k": {
+      "progress.json": {
+        "stage": "train_only_linear_probes",
+        "completed_layers": 4,
+        "layers": [
+          5,
+          11,
+          17,
+          23
+        ],
+        "steps_per_layer": 500,
+        "final_loss": 0.029438605532050133,
+        "seconds": 13.189057111740112
+      },
+      "probe_complete.json": {
+        "status": "complete",
+        "model": "D2-100k",
+        "layers": [
+          5,
+          11,
+          17,
+          23
+        ],
+        "steps_per_layer": 500,
+        "parameter_count_per_layer": 1025,
+        "evaluation_GT_read": false,
+        "probe_sha256": "68b895df30ef10b2e58efe58e84bb81ee76c2ec129caa47159ea3b7594ba7f60",
+        "coordinate_batch_hash": "52112acd1aca39ebbf17bd943efa09cfe9bef677dda93f6f3328d79c02b2ba54",
+        "sources_with_both_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "seconds": 13.212049722671509,
+        "peak_GPU_bytes": 1669090816,
+        "encoder_asset_unchanged": true
+      }
+    },
+    "D1-100k": {
+      "progress.json": {
+        "stage": "train_only_linear_probes",
+        "completed_layers": 4,
+        "layers": [
+          5,
+          11,
+          17,
+          23
+        ],
+        "steps_per_layer": 500,
+        "final_loss": 0.030350612476468086,
+        "seconds": 18.731525182724
+      },
+      "probe_complete.json": {
+        "status": "complete",
+        "model": "D1-100k",
+        "layers": [
+          5,
+          11,
+          17,
+          23
+        ],
+        "steps_per_layer": 500,
+        "parameter_count_per_layer": 1025,
+        "evaluation_GT_read": false,
+        "probe_sha256": "f9a0c90b5fa787ab7872e05fb1e76113689f62428649df10d1d50457bab092ee",
+        "coordinate_batch_hash": "52112acd1aca39ebbf17bd943efa09cfe9bef677dda93f6f3328d79c02b2ba54",
+        "sources_with_both_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "seconds": 18.763206243515015,
+        "peak_GPU_bytes": 1669090816,
+        "encoder_asset_unchanged": true
+      }
+    },
+    "D2-30k": {
+      "progress.json": {
+        "stage": "train_only_linear_probes",
+        "completed_layers": 4,
+        "layers": [
+          5,
+          11,
+          17,
+          23
+        ],
+        "steps_per_layer": 500,
+        "final_loss": 0.0273161381483078,
+        "seconds": 19.350584745407104
+      },
+      "probe_complete.json": {
+        "status": "complete",
+        "model": "D2-30k",
+        "layers": [
+          5,
+          11,
+          17,
+          23
+        ],
+        "steps_per_layer": 500,
+        "parameter_count_per_layer": 1025,
+        "evaluation_GT_read": false,
+        "probe_sha256": "5d8e300260a2de75236fa162011d80c47c1c8470ef9092433194bf38da234d2a",
+        "coordinate_batch_hash": "52112acd1aca39ebbf17bd943efa09cfe9bef677dda93f6f3328d79c02b2ba54",
+        "sources_with_both_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "seconds": 19.469716787338257,
+        "peak_GPU_bytes": 1669090816,
+        "encoder_asset_unchanged": true
+      }
+    },
+    "Coverage-NR-100k": {
+      "progress.json": {
+        "stage": "train_only_linear_probes",
+        "completed_layers": 4,
+        "layers": [
+          5,
+          11,
+          17,
+          23
+        ],
+        "steps_per_layer": 500,
+        "final_loss": 0.030428308993577957,
+        "seconds": 13.57764458656311
+      },
+      "probe_complete.json": {
+        "status": "complete",
+        "model": "Coverage-NR-100k",
+        "layers": [
+          5,
+          11,
+          17,
+          23
+        ],
+        "steps_per_layer": 500,
+        "parameter_count_per_layer": 1025,
+        "evaluation_GT_read": false,
+        "probe_sha256": "927a8a48705e5bb0b66cdef772805804ea5b6b759f8fd379b86ba01fb18578f3",
+        "coordinate_batch_hash": "52112acd1aca39ebbf17bd943efa09cfe9bef677dda93f6f3328d79c02b2ba54",
+        "sources_with_both_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "seconds": 13.599690437316895,
+        "peak_GPU_bytes": 1669090816,
+        "encoder_asset_unchanged": true
+      }
+    },
+    "P0": {
+      "progress.json": {
+        "stage": "train_only_linear_probes",
+        "completed_layers": 4,
+        "layers": [
+          5,
+          11,
+          17,
+          23
+        ],
+        "steps_per_layer": 500,
+        "final_loss": 0.040871333330869675,
+        "seconds": 19.3965585231781
+      },
+      "probe_complete.json": {
+        "status": "complete",
+        "model": "P0",
+        "layers": [
+          5,
+          11,
+          17,
+          23
+        ],
+        "steps_per_layer": 500,
+        "parameter_count_per_layer": 1025,
+        "evaluation_GT_read": false,
+        "probe_sha256": "610b4b1c2406bfba2d86e15b39c7d64d2a316a83442e5a579b8728b4bedc0321",
+        "coordinate_batch_hash": "52112acd1aca39ebbf17bd943efa09cfe9bef677dda93f6f3328d79c02b2ba54",
+        "sources_with_both_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "seconds": 19.51609969139099,
+        "peak_GPU_bytes": 1669090816,
+        "encoder_asset_unchanged": true
+      }
+    }
+  },
+  "gpus": "0, 3092 MiB, 0 %\n1, 464 MiB, 0 %\n2, 464 MiB, 0 %\n3, 530 MiB, 0 %\n",
+  "recent_logs": {
+    "model_stage_--model_D2-100k.log": "",
+    "model_stage_--model_Coverage-NR-100k.log": "",
+    "data_stage_offline.log": "",
+    "analyze_1793039713643906203.log": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/code/stats.py:82: UserWarning: No PYTORCH_KERNEL_CACHE_PATH or HOME environment variable set! This disables kernel caching. (Triggered internally at /opt/conda/conda-bld/pytorch_1729647429097/work/aten/src/ATen/native/cuda/jit_utils.cpp:1426.)\n  power=torch.fft.rfft2(y).abs().square()\n"
+  }
+}

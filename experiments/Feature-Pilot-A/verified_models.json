@@ -1,0 +1,61 @@
+[
+  {
+    "id": "P0",
+    "checkpoint_path": "/opt/data/3_117/tanghr/DINOv3/pretrained_weights/dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth",
+    "sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+    "kind": "official_natural",
+    "resolved_config_path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage2_20260930_082816/stage1_reference/B_full_resolved_config.yaml",
+    "resolved_config_sha256": "f1acbd49af827b80a457b64e28cc4dd912524c08c0676256f505cba59a5825e1",
+    "dinov3_root": "/opt/data/3_117/tanghr/DINOv3/dinov3",
+    "bytes": 1213050671,
+    "mtime_ns": 1773135087561386002
+  },
+  {
+    "id": "D1-100k",
+    "checkpoint_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/runs/D1/formal/checkpoints/step000100000/teacher_backbone.pth",
+    "sha256": "7df9337dac1ef4775ff21727ddea48c6f265449ae22b24f4941c677fb00593db",
+    "kind": "exported_EMA_backbone",
+    "registry_source": "experiments/D12-100k/run_index.json",
+    "resolved_config_path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage2_20260930_082816/stage1_reference/B_full_resolved_config.yaml",
+    "resolved_config_sha256": "f1acbd49af827b80a457b64e28cc4dd912524c08c0676256f505cba59a5825e1",
+    "dinov3_root": "/opt/data/3_117/tanghr/DINOv3/dinov3",
+    "bytes": 1213025477,
+    "mtime_ns": 1792348172096010461
+  },
+  {
+    "id": "D2-30k",
+    "checkpoint_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/teacher_backbone.pth",
+    "sha256": "7db12e7ff8bee45166aaeeda1d94365e696ddaecf0c57a0d1611a891cf0d3eda",
+    "kind": "exported_EMA_backbone",
+    "registry_source": "experiments/D12/run_index.json",
+    "resolved_config_path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage2_20260930_082816/stage1_reference/B_full_resolved_config.yaml",
+    "resolved_config_sha256": "f1acbd49af827b80a457b64e28cc4dd912524c08c0676256f505cba59a5825e1",
+    "dinov3_root": "/opt/data/3_117/tanghr/DINOv3/dinov3",
+    "bytes": 1213025477,
+    "mtime_ns": 1792262456238461620
+  },
+  {
+    "id": "D2-100k",
+    "checkpoint_path": "/opt/data/3_117/tanghr/codex/ssl_diversity_d12_100k_20261018/runs/D2/formal/checkpoints/step000100000/teacher_backbone.pth",
+    "sha256": "92a81805f1cc126e1851d5c26baa0b5ba34597d8f93e29ac05203044fe6c7010",
+    "kind": "exported_EMA_backbone",
+    "registry_source": "experiments/D12-100k/run_index.json",
+    "resolved_config_path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage2_20260930_082816/stage1_reference/B_full_resolved_config.yaml",
+    "resolved_config_sha256": "f1acbd49af827b80a457b64e28cc4dd912524c08c0676256f505cba59a5825e1",
+    "dinov3_root": "/opt/data/3_117/tanghr/DINOv3/dinov3",
+    "bytes": 1213025477,
+    "mtime_ns": 1792400189932128948
+  },
+  {
+    "id": "Coverage-NR-100k",
+    "checkpoint_path": "/opt/data/3_117/tanghr/codex/coverage_nr_p0_20261021/runs/Coverage-NR/formal/checkpoints/step000100000/teacher_backbone.pth",
+    "sha256": "a886d8b5447230b097bb2de06716d8f18ff51968b8837c122daf03e5a403293c",
+    "kind": "exported_EMA_backbone",
+    "registry_source": "experiments/Coverage-NR/run_index.json",
+    "resolved_config_path": "/opt/data/3_117/tanghr/codex/mitoverse_full_stage2_20260930_082816/stage1_reference/B_full_resolved_config.yaml",
+    "resolved_config_sha256": "f1acbd49af827b80a457b64e28cc4dd912524c08c0676256f505cba59a5825e1",
+    "dinov3_root": "/opt/data/3_117/tanghr/DINOv3/dinov3",
+    "bytes": 1213025477,
+    "mtime_ns": 1792658342191467455
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "tie_AUROC": 0.75,
+  "centered_identity_effective_rank": 15.000000000000007,
+  "stripe_periodicity": 0.7690333127975464,
+  "noise_periodicity": 0.05559558421373367,
+  "GPU_accelerated": true,
+  "no_training": true
+}

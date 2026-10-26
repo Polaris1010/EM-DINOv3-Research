@@ -1,6 +1,6 @@
 {
   "stage": "Feature-Mechanism-Pilot-A",
-  "status": "PLANNED",
+  "status": "VERIFIED_RUNNING",
   "server_root": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027",
   "service": "feature-mechanism-pilot-a-20261027.service",
   "protocol": "configs/evaluation/Feature_Pilot_A_protocol.json",
@@ -12,5 +12,12 @@
   "models": 5,
   "linear_probes": 20,
   "GPU0_used": false,
-  "planned_final_report": "docs/Feature_Mechanism_Pilot_Report.md"
+  "planned_final_report": "docs/Feature_Mechanism_Pilot_Report.md",
+  "execution_state": "GPU_spectral_separability_and_periodicity_statistics",
+  "code_commit": "772f0fb88fe2ebab3ce61cd39a483e1a44456a36",
+  "observed_at_utc": "2026-10-26T18:37:20.722399+00:00",
+  "status_evidence": "evidence/Feature-Pilot-A/running_20261027.json",
+  "probe_steps_completed": 500,
+  "completed_probes": 20,
+  "samples_sha256": "18622e1374467fe8a480f1b8a13e15370b51ac3386039d389bc4f55351c11458"
 }

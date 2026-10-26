@@ -1,0 +1,33 @@
+{
+  "status": "complete",
+  "encoder_sha256": "7df9337dac1ef4775ff21727ddea48c6f265449ae22b24f4941c677fb00593db",
+  "samples_sha256": "18622e1374467fe8a480f1b8a13e15370b51ac3386039d389bc4f55351c11458",
+  "layers": [
+    5,
+    11,
+    17,
+    23
+  ],
+  "patch_shape_per_layer": [
+    633,
+    256,
+    1024
+  ],
+  "CLS_shape": [
+    633,
+    4,
+    1024
+  ],
+  "register_shape": [
+    633,
+    4,
+    4,
+    1024
+  ],
+  "registers_excluded_from_patch_statistics": true,
+  "normalization": "official post-layer norm=True",
+  "input_grid": "native256/16 row-major",
+  "autocast": "bfloat16",
+  "cache_dtype": "float16 (exactly represents bfloat16 outputs)",
+  "frozen_encoder": true
+}

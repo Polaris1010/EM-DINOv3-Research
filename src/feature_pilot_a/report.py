@@ -24,6 +24,7 @@ def fmt(value):
 def main():
     import matplotlib
     matplotlib.use('Agg')
+    matplotlib.rcParams['svg.fonttype']='none'
     import matplotlib.pyplot as plt
     protocol=read(R/'protocol.json');items=read(R/'samples.json');layers=protocol['layers'];models=[r['id'] for r in protocol['models']]
     sep=rows('separability.csv');paired=rows('D2_paired_AUROC.csv');spec=rows('spectrum.csv');metrics=rows('source_readout_metrics.csv');corr=rows('periodicity_correlations.csv')
@@ -37,21 +38,21 @@ def main():
                 values=[num(next(r[key] for r in sep if r['source']==source and r['model']==model and int(r['layer'])==layer and r['background_set']=='all_far_background')) for layer in layers]
                 ax.plot(layers,values,'o-',label=model,color=color[model],lw=1.3)
             ax.set_title(source if ri==0 else key);ax.set_xticks(layers);ax.set_ylim(0,1);ax.grid(alpha=.2)
-    handles,labels=axes[0,0].get_legend_handles_labels();fig.legend(handles,labels,loc='lower center',ncol=5);fig.tight_layout(rect=(0,.06,1,1));fig.savefig(R/'figures/AUROC_all_sources.png',dpi=170);plt.close(fig)
+    handles,labels=axes[0,0].get_legend_handles_labels();fig.legend(handles,labels,loc='lower center',ncol=5);fig.tight_layout(rect=(0,.06,1,1));fig.savefig(R/'figures/AUROC_all_sources.png',dpi=170);fig.savefig(R/'figures/AUROC_all_sources.svg');plt.close(fig)
     fig,axes=plt.subplots(1,5,figsize=(17,3.8),sharey=True)
     for ax,source in zip(axes,sources):
         for model in models:
             values=[[num(r['effective_rank']) for r in spec if r['source']==source and r['model']==model and int(r['layer'])==layer] for layer in layers]
             ax.errorbar(layers,[np.mean(v) for v in values],yerr=[np.std(v,ddof=1) for v in values],label=model,color=color[model],marker='o',lw=1.2)
         ax.set_title(source);ax.set_xticks(layers);ax.grid(alpha=.2)
-    axes[0].set_ylabel('Effective rank (512 matched tokens)');handles,labels=axes[0].get_legend_handles_labels();fig.legend(handles,labels,loc='lower center',ncol=5);fig.tight_layout(rect=(0,.12,1,1));fig.savefig(R/'figures/effective_rank_all_sources.png',dpi=170);plt.close(fig)
+    axes[0].set_ylabel('Effective rank (512 matched tokens)');handles,labels=axes[0].get_legend_handles_labels();fig.legend(handles,labels,loc='lower center',ncol=5);fig.tight_layout(rect=(0,.12,1,1));fig.savefig(R/'figures/effective_rank_all_sources.png',dpi=170);fig.savefig(R/'figures/effective_rank_all_sources.svg');plt.close(fig)
     fig,axes=plt.subplots(1,2,figsize=(11,4))
     for ax,target in zip(axes,['linear','prototype']):
         a=np.array([[num(next(r['delta'] for r in paired if r['source']==s and int(r['layer'])==layer and r['score']==target)) for layer in layers] for s in sources])
         lim=max(.01,float(np.nanmax(np.abs(a))));image=ax.imshow(a,vmin=-lim,vmax=lim,cmap='RdBu');ax.set_xticks(range(4),layers);ax.set_yticks(range(5),sources);ax.set_title('D2 100k - 30k: '+target+' AUROC')
         for iy,ix in np.ndindex(a.shape):ax.text(ix,iy,f'{a[iy,ix]:+.3f}',ha='center',va='center',fontsize=9)
         fig.colorbar(image,ax=ax,shrink=.8)
-    fig.tight_layout();fig.savefig(R/'figures/D2_paired_AUROC_delta.png',dpi=170);plt.close(fig)
+    fig.tight_layout();fig.savefig(R/'figures/D2_paired_AUROC_delta.png',dpi=170);fig.savefig(R/'figures/D2_paired_AUROC_delta.svg');plt.close(fig)
     # Raw-image examples stay as review artifacts, never raw data in Git.
     chosen=[next(i for i in items if i['source']=='glycolytic_muscle' and i['subset']=='random'),next(i for i in items if i['subset']=='historical_D2_error_case')]
     labels_np=np.load(R/'evaluation_labels.npz');images=npy(R/'images.npy');fig,axes=plt.subplots(2,6,figsize=(15,5.8))
@@ -96,6 +97,7 @@ def main():
             lines.append('| '+m+' | '+layer+' | '+' | '.join(fmt(r[k]) for k in ['dice','precision','recall','far_FP_rate'])+' |')
     lines+=['','## 抽样、拟合与统计口径','',
         '抽样seed20261027；MV3 train全部156区域各2个随机视野，五个诊断来源各64个随机视野，另1个历史D2误检案例。历史案例不进入随机总体统计。所有坐标在首次特征提取前锁定，未用D2失败筛选随机样本。', '',
+        '所有特征以bfloat16 autocast计算、官方post-norm后统一保存为float16缓存；初始receipt称“精确表示BF16输出”不准确，原输出dtype未被捕获，另有cache_precision_note保留更正。相同量化配置用于全部模型，不将缓存视为全精度特征。', '',
         '每层1x1 logistic probe只在MV3 train拟合，固定500 AdamW更新、lr0.03、weight decay0.001、source/class-balanced minibatch4096、阈值0.5。按train计算来源均衡channel mean/std和前景/背景原型；所有probe hash固定后才读取开发与MB1 GT。没有SSL或Primus训练。', '',
         '前景为有效patch中GT占比≥0.5；远端背景为patch无GT且≥95%面积在同一标注XY平面距GT>180nm。所有远端背景指锁定随机视野中的全部合格patch，不是原始体积全域。随机远端背景每来源固定最多1024个；D2特定FP集合为这些远端背景中旧D2/100k Primus预测占比≥0.5，单列为事后有偏错误集合。', '',
         '谱统计每模型/来源/层使用相同512个有效patch位置，3个固定子抽样重复；有效秩上限511。以中心化特征协方差的非零特征值计算有效秩、top1方差占比和归一化谱分布，另报类内/类间余弦、train中心化余弦、Fisher ratio、各向异性及总方差。三个子抽样不是三次训练或独立生物重复。没有对权重做SVD或修改。', '',

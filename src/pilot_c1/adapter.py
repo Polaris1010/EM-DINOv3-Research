@@ -15,32 +15,40 @@ class BarrierAdapter:
 
     def capture_student(self,**kwargs):
         self.global_crops=kwargs['global_crops'].flatten(0,1)
+        torch.cuda.synchronize();start=time.perf_counter()
+        with torch.random.fork_rng(devices=[torch.cuda.current_device()]),torch.no_grad():
+            self.anchor_tokens=self.anchor(self.global_crops,is_training=True)['x_norm_patchtokens']
+        torch.cuda.synchronize();self.anchor_seconds=time.perf_counter()-start
+        # Selective activation checkpoint permits one backward per region. Use
+        # a separate, RNG-identical diagnostic graph, free it, then run the real
+        # student forward once. No extra optimizer step or model-state change.
+        diagnostic_start=time.perf_counter()
+        with torch.random.fork_rng(devices=[torch.cuda.current_device()]):
+            global_out,local_out=self.net.student.backbone(
+                [self.global_crops,kwargs['local_crops'].flatten(0,1)],
+                masks=[kwargs['masks'],None],is_training=True)
+            self.diagnostic_tokens=global_out['x_norm_patchtokens'].detach().clone()
+            diagnostic_loss,_=separation_barrier(global_out['x_norm_patchtokens'],self.anchor_tokens,margin=self.margin)
+            self.barrier_gradients=torch.autograd.grad(diagnostic_loss,self.backbone_parameters,allow_unused=True)
+            del global_out,local_out,diagnostic_loss
+        torch.cuda.synchronize();self.diagnostic_seconds=time.perf_counter()-diagnostic_start
         out=self.original_student(**kwargs)
         assert out[0]['patch_pre_head'].shape==(2,16,256,1024)
         return out
 
     def compute_losses(self,**kwargs):
         vanilla,metrics=self.original_losses(**kwargs)
-        torch.cuda.synchronize();start=time.perf_counter()
-        # Preserve the exact main-process RNG trajectory. The frozen anchor uses
-        # the original same global images, unmasked, as in the reference-teacher
-        # interface. Student tokens retain the actual SSL iBOT mask/DropPath.
-        with torch.random.fork_rng(devices=[torch.cuda.current_device()]),torch.no_grad():
-            anchor_tokens=self.anchor(self.global_crops,is_training=True)['x_norm_patchtokens']
-        torch.cuda.synchronize();anchor_seconds=time.perf_counter()-start
         student_tokens=kwargs['student_global']['patch_pre_head'].flatten(0,1)
+        anchor_tokens=self.anchor_tokens
         assert student_tokens.shape==anchor_tokens.shape==(32,256,1024)
+        discrepancy=float((student_tokens-self.diagnostic_tokens).detach().abs().max())
+        assert discrepancy==0,'Diagnostic graph must reproduce actual student tokens exactly'
+        self.diagnostic_tokens=None
         raw,stats=separation_barrier(student_tokens,anchor_tokens,margin=self.margin)
-        torch.cuda.synchronize();diagnostic_start=time.perf_counter()
-        # Measurement-only VJP. It adds no gradients to .grad and no updates.
-        # Record its time separately instead of charging it as production loss.
-        with torch.random.fork_rng(devices=[torch.cuda.current_device()]):
-            grads=torch.autograd.grad(raw,self.backbone_parameters,retain_graph=True,allow_unused=True)
-        torch.cuda.synchronize();diagnostic_seconds=time.perf_counter()-diagnostic_start
-        self.barrier_gradients=grads
         self.latest={**stats,'barrier_raw':float(raw.detach()),'barrier_weight':self.weight,
           'barrier_weighted':float(raw.detach())*self.weight,'vanilla_loss':float(vanilla.detach()),
-          'anchor_forward_seconds':anchor_seconds,'diagnostic_VJP_seconds':diagnostic_seconds,
+          'anchor_forward_seconds':self.anchor_seconds,'diagnostic_VJP_seconds':self.diagnostic_seconds,
+          'diagnostic_extra_student_forward':True,'diagnostic_student_tokens_max_difference':discrepancy,
           'student_token_dtype':str(student_tokens.dtype),'anchor_token_dtype':str(anchor_tokens.dtype),
           'anchor_gradients_present':any(p.grad is not None for p in self.anchor.parameters()),
           'reference_input':'same_global_images_unmasked','student_input':'original_SSL_iBOT_mask_and_DropPath',

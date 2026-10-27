@@ -24,6 +24,11 @@ def main():
  started=time.monotonic();base={**os.environ,'D12_ROOT':str(R.parent/'ssl_diversity_d12_100k_20261018'),'OMP_NUM_THREADS':'4','MKL_NUM_THREADS':'4','PYTHONDONTWRITEBYTECODE':'1','CUDA_CACHE_PATH':str(R/'cache/cuda'),'PYTHONPATH':str(R.parent/'mitotopo_20260908_round2/deps')+':'+str(A/'DINOv3/dinov3')};jobs=[];times={}
  try:
   for label,args,devices in [('unit_tests',[str(PY),str(R/'code/test_barrier.py')],[3]),*[(b,[str(PY),'-m','torch.distributed.run','--standalone','--nproc_per_node=3',str(R/'code/smoke.py'),'--branch',b],[1,2,3]) for b in ['C0','C1']]]:
+   if os.environ.get('PILOT_C1_REUSE_C0')=='1' and label in ['unit_tests','C0']:
+    completed=[json.loads((R/f'smoke/C0/complete_rank{i}.json').read_text()) for i in range(3)]
+    assert all(x['status']=='complete' and x['updates']==20 and x['last_step']==30020 for x in completed)
+    times[label+'_reused_no_updates']=True
+    continue
    health();live=mapping();assert all(live[i]['memory']<1024 and live[i]['util']==0 for i in devices)
    env={**base,'CUDA_VISIBLE_DEVICES':','.join(m[i]['uuid'] for i in devices),'PILOT_C1_TEST_CUDA':'1'}
    before=time.monotonic()

@@ -37,7 +37,7 @@
     "stochasticity_limit": "Original student DropPath0.3 and iBOT corruption persist; activation alone is not evidence of long-term relation drift"
   },
   "throughput_warmup_steps_discarded": 5,
-  "diagnostic_VJP": "measure barrier-only backbone gradient norm; subtract separately measured extra VJP/norm time for production estimate",
+  "diagnostic_VJP": "separate RNG-identical student forward and one VJP to respect selective checkpoint single-backward; assert tokens exactly equal real student tokens; subtract extra diagnostic forward/VJP/norm time for production estimate",
   "physical_gpus": [1,2,3],
   "GPU0_forbidden": true,
   "website_protected": true,

@@ -1,0 +1,126 @@
+{
+  "utc": "2026-10-27T11:30:35.295937+00:00",
+  "website_http": 200,
+  "parents": {
+    "D2-30k": {
+      "path": "${RESEARCH_ROOT}/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/teacher_backbone.pth",
+      "sha256": "7db12e7ff8bee45166aaeeda1d94365e696ddaecf0c57a0d1611a891cf0d3eda",
+      "step": 30000,
+      "official_weight_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+      "keys": 368,
+      "dtypes": {
+        "torch.float32": 367,
+        "torch.bfloat16": 1
+      },
+      "nonfloat": []
+    },
+    "D2-100k": {
+      "path": "${RESEARCH_ROOT}/codex/ssl_diversity_d12_100k_20261018/runs/D2/formal/checkpoints/step000100000/teacher_backbone.pth",
+      "sha256": "92a81805f1cc126e1851d5c26baa0b5ba34597d8f93e29ac05203044fe6c7010",
+      "step": 100000,
+      "official_weight_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+      "keys": 368,
+      "dtypes": {
+        "torch.float32": 367,
+        "torch.bfloat16": 1
+      },
+      "nonfloat": []
+    }
+  },
+  "D2_30k_training": {
+    "seconds": 3069.130135536194,
+    "completed_steps": 40000,
+    "decoder_initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec",
+    "sampling_hash": "45b8763f399df51c4455e4a791e6c32b2e9d6dfd9e5ba9ec988bbebb8b883d64",
+    "encoder_sha256": "7db12e7ff8bee45166aaeeda1d94365e696ddaecf0c57a0d1611a891cf0d3eda",
+    "training_batch_size": 1
+  },
+  "D2_100k_training": {
+    "seconds": 3038.4689021110535,
+    "completed_steps": 40000,
+    "decoder_initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec",
+    "sampling_hash": "45b8763f399df51c4455e4a791e6c32b2e9d6dfd9e5ba9ec988bbebb8b883d64",
+    "encoder_sha256": "92a81805f1cc126e1851d5c26baa0b5ba34597d8f93e29ac05203044fe6c7010",
+    "training_batch_size": 1
+  },
+  "downstream_protocol": {
+    "stage": "MV-3",
+    "models": {
+      "D1": "D1",
+      "D2": "D2"
+    },
+    "encoder": "DINOv3 ViT-L/16 frozen",
+    "decoder": "Original MedDINOv3 Primus_Multiscale",
+    "interaction_indices": [
+      5,
+      11,
+      17,
+      23
+    ],
+    "seed_sequence": [
+      20261014
+    ],
+    "optimizer_steps": 40000,
+    "milestones": [
+      10000,
+      20000,
+      40000
+    ],
+    "selection": "fixed common 40000 steps; no per-model best checkpoint selection or extension",
+    "monitoring": "8 deterministic evenly spaced valid Z slices per dev region, full original XY, TTA OFF",
+    "final_validation": "every valid dev Z slice, full original XY, unchanged MV1 sliding256 stride128 mean-softmax threshold0.5; no postprocessing",
+    "tta": false,
+    "sampling": "uniform source; uniform legal annotated Z across all train regions within source; shared stateless SeedSequence(seed,step)",
+    "foreground_oversample_probability": 0.5,
+    "masked_background_sampling": "center on a uniformly selected valid pixel when annotation mask exists; never sample an all-ignore patch",
+    "crop_size": 256,
+    "batch_size": 1,
+    "normalization": "(uint8/255-0.5)/0.25; grayscale repeated RGB; native spacing without resampling",
+    "augmentations": [
+      "horizontal flip probability0.5",
+      "vertical flip probability0.5"
+    ],
+    "loss": "cross_entropy(ignore_index=-1)+soft foreground Dice on valid pixels only",
+    "optimizer": "AdamW",
+    "lr": 0.0001,
+    "weight_decay": 0.05,
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "warmup_steps": 100,
+    "schedule": "shared cosine with minimum factor0.1 over40000 steps",
+    "gradient_clip_norm": 12,
+    "encoder_feature_precision": "bfloat16",
+    "decoder_precision": "float32",
+    "inference_tile_batch_size": 16,
+    "metrics": [
+      "Dice",
+      "Precision",
+      "Recall",
+      "HD95 nm",
+      "NSD@16nm",
+      "predicted foreground fraction"
+    ],
+    "ignore_distance_policy": "reuse MV2 valid surfaces excluding one-voxel ignore adjacency; no fake ignore boundary",
+    "physical_gpus": [
+      1,
+      2,
+      3
+    ],
+    "gpu0_forbidden": true,
+    "additional_seeds_after": "first seed both models full-source final validation and metrics complete",
+    "encoder_training": false,
+    "fft_gates": false,
+    "new_ssl_modules": false,
+    "stop_after": "D12 first-seed results; no auto next experiment",
+    "data_protocol": "MV-Generalist-v2",
+    "han_mask_use": "NONE_IN_LOSS_SAMPLING_EVALUATION"
+  },
+  "MV_manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "source_sha256": {
+    "mv_generalist_v2_han_fullgt_20261014/src/train.py": "745419cd404e41687a99a7c474948b4417820d9ea6bdc53b4d909c1422e4e22a",
+    "mv_generalist_v2_han_fullgt_20261014/src/evaluate.py": "a84b3a5060a3baf0d2f959b712714cc0a3bebbbdacb1528e1338c2afdf81182d",
+    "mv_generalist_stage1_20261013/src/mv_probe.py": "4071da2213b8f55f28ce13522d74e716c61be7900a37c96318942983be3546ec"
+  }
+}

@@ -1,3 +1,4 @@
+- [20261027_41_pilot_b_trajectory_lerp05.md](20261027_41_pilot_b_trajectory_lerp05.md)
 - [20261027_40_pilot_a2_execution.md](20261027_40_pilot_a2_execution.md)
 - [20261027_39_readout_calibration_design.md](20261027_39_readout_calibration_design.md)
 - [20261027_38_feature_pilot_a.md](20261027_38_feature_pilot_a.md)

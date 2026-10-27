@@ -1,0 +1,42 @@
+{
+  "status": "complete",
+  "models": {
+    "D2-30k": {
+      "MV3_source_equal_Dice": 0.8294065480835165,
+      "MB1_dataset_equal_Dice": 0.4616141993468218,
+      "muscle_Primus_Dice": 0.4600259367453467,
+      "muscle_Primus_AP_mean_per_plane": 0.5172612650572306,
+      "muscle_Primus_far_FP_rate": 0.003440596292626696,
+      "muscle_Linear23_pooled_AP": 0.5043436101210547,
+      "muscle_Linear23_Dice": 0.5090206398861248
+    },
+    "D2-100k": {
+      "MV3_source_equal_Dice": 0.841378715857156,
+      "MB1_dataset_equal_Dice": 0.47575377336054614,
+      "muscle_Primus_Dice": 0.21567743411575138,
+      "muscle_Primus_AP_mean_per_plane": 0.242346295560219,
+      "muscle_Primus_far_FP_rate": 0.07646809125143565,
+      "muscle_Linear23_pooled_AP": 0.32276402278181215,
+      "muscle_Linear23_Dice": 0.2906490429221919
+    },
+    "Trajectory-Lerp05": {
+      "MV3_source_equal_Dice": 0.8386309935642374,
+      "MB1_dataset_equal_Dice": 0.5058233876222139,
+      "muscle_Primus_Dice": 0.4681865130063972,
+      "muscle_Primus_AP_mean_per_plane": 0.46888235876514844,
+      "muscle_Primus_far_FP_rate": 0.005722848804229219,
+      "muscle_Linear23_pooled_AP": 0.5510115849640534,
+      "muscle_Linear23_Dice": 0.5620141058011834
+    }
+  },
+  "alpha": 0.5,
+  "Linear_performance_never_gated_Primus": true,
+  "new_SSL_steps": 0,
+  "AP_definitions": "Linear pooled pixels in64 fixed FOVs; Primus muscle mean per-plane semantic pixel AP over full volume",
+  "causal_limits": [
+    "Weight combination utility is not evidence of an anchoring loss mechanism",
+    "Independent probes/heads; no encoder common-mode attribution",
+    "Exposed development sets, one decoder seed; not a new blind external test"
+  ],
+  "stop_after": true
+}

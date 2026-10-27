@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "Completed Pilot B final public projection",
+  "checks": {
+    "python scripts/validate_pilot_b.py": "PASS: 114 development rows, 2595 new benchmark images, 906 muscle rows, matching initialization/sampling, 61 unchanged historical records",
+    "python scripts/update_registry.py --check": "PASS: 62 records, matches generated evidence",
+    "python scripts/validate_repository.py": "PASS: 115 provenance files and 664 historical files verified",
+    "python -m unittest discover -s tests -v": "OK: 51 tests, 3 existing Windows platform skips"
+  },
+  "plot_review": "Five completed-data figures rendered to PNG and visually inspected",
+  "experiment_repeated_during_checks": false,
+  "GPU_work_started_by_checks": false,
+  "legacy_projection_correction": "Pre-publication numeric/registry reconciliation detected path normalization of legacy generator content. Original legacy content restored; all 61 historical records verified unchanged before final commit."
+}

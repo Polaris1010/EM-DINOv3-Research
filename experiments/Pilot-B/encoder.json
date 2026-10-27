@@ -1,0 +1,41 @@
+{
+  "id": "Trajectory-Lerp05",
+  "path": "${EXPERIMENT_ROOT}/checkpoints/Trajectory-Lerp05_ema_backbone.pth",
+  "sha256": "0d79edbd3b968eebbda4d3d57d6057632d4e793decebd301941782203b5a6c24",
+  "alpha": 0.5,
+  "parents": {
+    "D2-30k": {
+      "path": "${RESEARCH_ROOT}/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/teacher_backbone.pth",
+      "sha256": "7db12e7ff8bee45166aaeeda1d94365e696ddaecf0c57a0d1611a891cf0d3eda",
+      "step": 30000,
+      "official_weight_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+      "keys": 368,
+      "dtypes": {
+        "torch.float32": 367,
+        "torch.bfloat16": 1
+      },
+      "nonfloat": []
+    },
+    "D2-100k": {
+      "path": "${RESEARCH_ROOT}/codex/ssl_diversity_d12_100k_20261018/runs/D2/formal/checkpoints/step000100000/teacher_backbone.pth",
+      "sha256": "92a81805f1cc126e1851d5c26baa0b5ba34597d8f93e29ac05203044fe6c7010",
+      "step": 100000,
+      "official_weight_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+      "keys": 368,
+      "dtypes": {
+        "torch.float32": 367,
+        "torch.bfloat16": 1
+      },
+      "nonfloat": []
+    }
+  },
+  "keys": 368,
+  "nonfloating_keys": [],
+  "dtypes": {
+    "torch.float32": 367,
+    "torch.bfloat16": 1
+  },
+  "arithmetic": "GPU float64 midpoint, cast to each original dtype",
+  "training_step": null,
+  "SSL_training": false
+}

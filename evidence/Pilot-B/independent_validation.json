@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "dev_region_rows": 114,
+  "dev_source_rows": 36,
+  "paired_dev_rows": 38,
+  "new_MB1_images": 2595,
+  "muscle_AP_images": 906,
+  "spectrum_repeats": 15,
+  "historical_registry_entries_unchanged": 61,
+  "head_initialization_and_sampling_match": true,
+  "parent_muscle_masks_equal_history": true,
+  "Linear_AP_gate": false,
+  "SSL_training": false
+}

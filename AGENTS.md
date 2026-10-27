@@ -1,3 +1,5 @@
+> 2026-10-27新授权：直接执行Pilot A2，先同像素原始评分，再隔离进程只用MV3 train312视野求两个全局偏置，最后固定五来源评分。独立分支codex/pilot-a2-readout-calibration；两组Probe分别训练，不能将logit变化归因Encoder共模漂移。禁止View-Mean/PCA/来源专用校准/额外搜索/新模型训练。此时准备完成尚未声称启动；状态见experiments/Pilot-A2/run_index.json。
+
 > 2026-10-27后续仅方案：已制定docs/Readout_Calibration_Minimal_Design.md，D2/30k与100k第23层同像素排序及MV3-train-only全局偏置对照。状态PLANNED/DESIGN_ONLY，用户尚未授权执行；不估计偏置、不启动评分或新训练。先读该方案及work log39。Pilot A仍已完成，既有模型、指标和registry不变。
 
 > Pilot A已完成并停止（2026-10-27香港核实）：五encoder、四层特征及20个train-only轻量probe完成；633个锁定视野。肌肉D2/30k→100k Linear23 Dice0.5090→0.2906、远端FP0.31%→9.72%，23层有效秩33.3074→21.8166；稳定语义可分性下降和周期纹理捷径仍INCONCLUSIVE。先读docs/Feature_Mechanism_Pilot_Report.md、reviewed_verdicts.json及work log38。服务inactive/退出0、网站200、历史SHA不变；不自动Pilot B/C、SSL、Primus或其他实验。独立draft PR13，未合并。

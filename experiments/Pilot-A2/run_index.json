@@ -1,0 +1,14 @@
+{
+  "stage": "Pilot-A2",
+  "status": "PLANNED",
+  "server_root": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027",
+  "service": "pilot-a2-readout-calibration-20261027.service",
+  "protocol": "configs/evaluation/Pilot_A2_protocol.json",
+  "report_path": "docs/Pilot_A2_Readout_Calibration_Report.md",
+  "metrics_path": "UNVERIFIED",
+  "code_commit": "UNVERIFIED",
+  "network_updates": 0,
+  "encoder_forward_calls": 0,
+  "GPU0_used": false,
+  "historical_results_read_only": true
+}

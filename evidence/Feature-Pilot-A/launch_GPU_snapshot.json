@@ -1,0 +1,31 @@
+{
+  "allowed": [
+    3,
+    2,
+    1
+  ],
+  "GPU_mapping": {
+    "0": {
+      "uuid": "GPU-e7d56fea-8409-6cf0-e2e7-ceda9fd00ec5",
+      "used_MB": 3092,
+      "utilization": 0
+    },
+    "1": {
+      "uuid": "GPU-29591cdf-1498-85e8-bb8c-158082a53728",
+      "used_MB": 464,
+      "utilization": 0
+    },
+    "2": {
+      "uuid": "GPU-794aaaef-6c72-f6ac-b6d0-a07ba3f76364",
+      "used_MB": 464,
+      "utilization": 0
+    },
+    "3": {
+      "uuid": "GPU-5a68cc29-a13a-bf90-858e-079e14de807a",
+      "used_MB": 0,
+      "utilization": 0
+    }
+  },
+  "website_http": 200,
+  "GPU0_used": false
+}

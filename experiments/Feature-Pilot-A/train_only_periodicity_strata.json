@@ -1,0 +1,9 @@
+{
+  "contrast_tertiles": [
+    0.14624324440956116,
+    0.20063917338848114
+  ],
+  "gradient_median": 0.12428286671638489,
+  "fit_role": "MV3_train_only",
+  "source_balanced_weights": true
+}

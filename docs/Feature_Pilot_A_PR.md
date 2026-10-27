@@ -1,7 +1,12 @@
-执行修订后的Pilot A：复用P0、D1/100k、D2/30k、D2/100k和Coverage-NR/100k的只读正式权重，检查四层patch可分性、谱结构及周期纹理误激活。Coverage-NR为已完成资产。本轮不运行SSL、Primus或Pilot B/C。
+Pilot A found that D2/30k→100k muscle segmentation degradation also occurs with a frozen train-only linear readout, while a stable, readout-independent loss of foreground/background separability remains unestablished.
 
-首次提取前锁定633个共同视野（156个MV3训练区域各2个；五个诊断来源各64个随机视野；另1历史错误案例）。20个train-only 1x1线性探针已完成各500步；训练坐标hash一致，12来源均有正负样本。全部probe SHA固定后才读取开发/MB1 GT，统计全部远端背景、随机远端背景与D2事后FP集合，案例不混入随机总体。
+- Same locked 633 native-grid crops; five historical encoder SHA256s; layers [5,11,17,23]. Only 20 lightweight MV3-train probes were fitted. No SSL or Primus training.
+- Muscle random-FOV Linear23 Dice: 0.5090→0.2906; remote FP rate: 0.31%→9.72%. Deep effective rank: 33.3074→21.8166. Linear AUROC remains 0.9727, while prototype AUROC improves, separating spectral compression from semantic confusion.
+- Periodicity evidence is weak and readout-dependent: Primus rho 0.0914, Z-block interval crosses zero; adjusted linear association is near zero. Final reviewed verdict is INCONCLUSIVE for a stable positive periodicity mechanism.
+- Archive complete CSVs, matched-token spectra, SVG figures, locked coordinates, train-only fitting/label-access evidence, final report and work log. Original automatic verdicts are preserved; final interpretation is in reviewed_verdicts.json.
 
-GPU统计阶段按固定协议运行，尚无最终机制裁决。谱分析每来源共用512个token、3个固定子抽样；周期性用固定64px/4–32px频段，分层cutoffs只从train估计，记录来源内/volume内相关与混杂因素。块bootstrap仅描述采集内波动，相关性和秩下降不等于因果机制。
+Validation: GPU numerical smoke; independent reconciliation of 8,025 crop rows, 125 pooled metrics, 40 paired AUROC rows and 300 spectra; unchanged 59 historical registry entries; repository checks and unit tests. Final command outcomes are archived in evidence/Feature-Pilot-A/closeout_checks.json.
 
-源码、协议、锁定坐标、五模型SHA、GPU数值smoke、train-only隔离和环境记录随PR。实际缓存为float16，初始“精确表示BF16输出”的receipt描述已另存更正，不伪造raw dtype。GPU0未用，网站200，历史输入只读。最终报告和结果将由同一有界任务完成后补齐；PR保持draft不自动合并。
+Server service stopped successfully; GPU0 unused, website HTTP200, historical checkpoint hashes unchanged. Pilot B/C and further experiments were not started. Draft only; no automatic merge.
+
+Report: [Feature_Mechanism_Pilot_Report.md](https://github.com/Polaris1010/EM-DINOv3-Research/blob/codex/feature-mechanism-pilot-a/docs/Feature_Mechanism_Pilot_Report.md).

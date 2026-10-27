@@ -6397,7 +6397,7 @@
     },
     {
       "experiment_id": "Feature-Mechanism-Pilot-A",
-      "status": "VERIFIED_RUNNING",
+      "status": "VERIFIED_COMPLETED",
       "research_question": "Does the D2 SSL trajectory reduce mitochondria versus remote-background separability and correlate with periodic texture?",
       "dataset_manifest": "configs/segmentation/MV-Generalist-v2/manifest.json",
       "dataset_manifest_sha256": "UNVERIFIED",
@@ -6436,8 +6436,8 @@
       "tta": false,
       "normalization": "UNVERIFIED",
       "inference_protocol": "UNVERIFIED",
-      "metrics_path": "UNVERIFIED",
-      "report_path": "docs/Feature_Pilot_A_execution.md",
+      "metrics_path": "experiments/Feature-Pilot-A/tables/source_readout_metrics.csv",
+      "report_path": "docs/Feature_Mechanism_Pilot_Report.md",
       "limitations": [
         "Fixed existing SSL trajectories; no independent SSL seeds",
         "MB1 is exposed diagnostic; patch/Z blocks are not independent acquisitions",

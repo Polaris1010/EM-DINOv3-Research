@@ -1,0 +1,295 @@
+{
+  "observed_utc": "2026-10-26T20:50:39.699884+00:00",
+  "status": {
+    "status": "complete",
+    "models": 5,
+    "layers": [
+      5,
+      11,
+      17,
+      23
+    ],
+    "linear_probes": 20,
+    "SSL_or_Primus_training": false,
+    "Pilot_B_or_C": false,
+    "GPU0_used": false,
+    "website_http": 200,
+    "historical_checkpoints_unchanged": true,
+    "report": "Feature_Mechanism_Pilot_Report.md",
+    "further_experiments_started": false
+  },
+  "service": "MainPID=0\nExecMainStatus=0\nActiveState=inactive\n",
+  "website_http": 200,
+  "files": [
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/offline_progress.json",
+      "relative": "offline_progress.json",
+      "bytes": 49,
+      "sha256": "7a5bfac72231c52f014c66baba2071e24692c571e814305bde72f106b8a6374b"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/figure_manifest.json",
+      "relative": "figure_manifest.json",
+      "bytes": 1180,
+      "sha256": "83b82f824d16cfaec311e6cb45217a6b8f42171917cd8c18e1dc42cdef6d73fe"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/sampling_receipt.json",
+      "relative": "sampling_receipt.json",
+      "bytes": 610,
+      "sha256": "475f06c6aef856dd032aaf7ca2778541ed431acaedfafdfc0d342cfd614b5288"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/analysis_progress.json",
+      "relative": "analysis_progress.json",
+      "bytes": 81,
+      "sha256": "1efc5bd1c44cc37ef17abda8695c74479be29d2a96d79e3787212894d79243f0"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/verified_models.json",
+      "relative": "verified_models.json",
+      "bytes": 3509,
+      "sha256": "54ce68a39e9a723323af53f1885dfc6fc08a87b506a8ab99ec3eb40cef0ae35a"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/protocol.json",
+      "relative": "protocol.json",
+      "bytes": 6093,
+      "sha256": "3e7346fb81a48725209567743e7d022aac12982d956cf2e5cc47ff0a8bb13129"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/verdicts.json",
+      "relative": "verdicts.json",
+      "bytes": 806,
+      "sha256": "31783b410a92c8d21a0ac9ebe4316d52c03019333928e50ebc94b9c5ec3bd722"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/samples.json",
+      "relative": "samples.json",
+      "bytes": 290487,
+      "sha256": "18622e1374467fe8a480f1b8a13e15370b51ac3386039d389bc4f55351c11458"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/train_only_periodicity_strata.json",
+      "relative": "train_only_periodicity_strata.json",
+      "bytes": 191,
+      "sha256": "8d70f5cd748fd4335c92f0869b1963455c76adc5315e41dbbeea893f7120ccc2"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/STATUS.json",
+      "relative": "STATUS.json",
+      "bytes": 352,
+      "sha256": "1b05f0810ca785c874024e4c1c254ff0bb7e93ffc8eb3b2556e46b93520972d7"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/analysis_complete.json",
+      "relative": "analysis_complete.json",
+      "bytes": 458,
+      "sha256": "5babf4b4d65b9f31f7d88b5e42bed35244b93ba3e57a6fd10f1f467ef19981db"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/Feature_Mechanism_Pilot_Report.md",
+      "relative": "Feature_Mechanism_Pilot_Report.md",
+      "bytes": 6318,
+      "sha256": "8dac16958a1f8e7517bff1926cb1d49c56dd98564e569c4b5ac9d8db272f8a26"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/tables/spectrum_distribution_Coverage-NR-100k.csv",
+      "relative": "tables/spectrum_distribution_Coverage-NR-100k.csv",
+      "bytes": 686057,
+      "sha256": "1f5520499caaf189e14747197493a6a14333f2f194d15dc900d18e83631c4228"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/tables/spectrum_distribution_D2-30k.csv",
+      "relative": "tables/spectrum_distribution_D2-30k.csv",
+      "bytes": 685376,
+      "sha256": "bf4457c089bed386431ae0433b477cd015203b7790a1c24f11c99c333985a1db"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/tables/spectrum_distribution_D1-100k.csv",
+      "relative": "tables/spectrum_distribution_D1-100k.csv",
+      "bytes": 685167,
+      "sha256": "f41390c5533f8222da2970db470955654c298d2be667a6aa6ded354174c6c483"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/tables/pixel_metrics_P0.csv",
+      "relative": "tables/pixel_metrics_P0.csv",
+      "bytes": 297078,
+      "sha256": "f13134e78d76de11361eee999e15a00f21e9942ea74baa2335652512f815f067"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/tables/image_periodicity_windows_muller21.csv",
+      "relative": "tables/image_periodicity_windows_muller21.csv",
+      "bytes": 236829,
+      "sha256": "b3f53ece6dbd77e8999cb446c01690c67851f4a54d84dd90df83dcf0a40e1c9a"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/tables/source_readout_metrics.csv",
+      "relative": "tables/source_readout_metrics.csv",
+      "bytes": 18532,
+      "sha256": "45e93ce55e5a1364514ee65b0580ad7516c4dc3a8899186fc80520d7bbb2be8e"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/tables/image_periodicity_windows_openorganelle.csv",
+      "relative": "tables/image_periodicity_windows_openorganelle.csv",
+      "bytes": 195220,
+      "sha256": "dc8cfcf5c103f6b47039464c444b55bafbb58530e4e5366c549956131fd8e137"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/tables/pixel_metrics_D1-100k.csv",
+      "relative": "tables/pixel_metrics_D1-100k.csv",
+      "bytes": 302284,
+      "sha256": "adddf1857c738d8a4e298b74a1c81cfd49b64d8181c7df88f3f219d9d0955f07"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/tables/spectrum_distribution_D2-100k.csv",
+      "relative": "tables/spectrum_distribution_D2-100k.csv",
+      "bytes": 685107,
+      "sha256": "7ee10f49fe3f9cb30b96e32bb347413774d7027a624625a31988c261609b9a75"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/tables/pixel_metrics_Coverage-NR-100k.csv",
+      "relative": "tables/pixel_metrics_Coverage-NR-100k.csv",
+      "bytes": 321193,
+      "sha256": "cfee5a1ddd2e4e53d0eef234bc9c95f27b2f964f2097f08e562edd8b8709790c"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/tables/spectrum.csv",
+      "relative": "tables/spectrum.csv",
+      "bytes": 31726,
+      "sha256": "eaeb837f7d04101b352b0188f7a64251749ef5999b115822dbd1305cdbf7bda4"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/tables/image_periodicity_windows_guay21.csv",
+      "relative": "tables/image_periodicity_windows_guay21.csv",
+      "bytes": 211943,
+      "sha256": "c299711e46572749ca8871ba85a482ba79c4d4a6b867b688a727738906b1fa51"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/tables/D2_paired_AUROC.csv",
+      "relative": "tables/D2_paired_AUROC.csv",
+      "bytes": 5420,
+      "sha256": "ccc8f8fa2ac08d564d8e2258a9c94df2409a0ce0ffe474b4a7d405556bf78465"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/tables/periodicity_correlations.csv",
+      "relative": "tables/periodicity_correlations.csv",
+      "bytes": 313085,
+      "sha256": "2e2d3ea45f9389c6c137f3c29ad3f9453d1c5ef7f6e6e63295f925f4ff595b76"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/tables/image_periodicity_windows_glycolytic_muscle.csv",
+      "relative": "tables/image_periodicity_windows_glycolytic_muscle.csv",
+      "bytes": 272535,
+      "sha256": "7e8e9fdee388e828c9e2735c08849855ece3c8ff1b29d91ab7fbcb38a5123a18"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/tables/spectrum_distribution_P0.csv",
+      "relative": "tables/spectrum_distribution_P0.csv",
+      "bytes": 684162,
+      "sha256": "13289ff5ab9462d56fd61f2d603cafc2e06a06240e67a1aef43df5b7af341f32"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/tables/pixel_metrics_D2-30k.csv",
+      "relative": "tables/pixel_metrics_D2-30k.csv",
+      "bytes": 302981,
+      "sha256": "9bcdfcbbb7a239ad6b57e614545d2fefcb14435620b5ea43d0410f2d7c7862d2"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/tables/image_periodicity_windows_hela_cell.csv",
+      "relative": "tables/image_periodicity_windows_hela_cell.csv",
+      "bytes": 212899,
+      "sha256": "ac901b737a7d6c86c81736e52dccd43c4fbbaf55e7984047ccefb8b839f7dee9"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/tables/pixel_metrics_D2-100k.csv",
+      "relative": "tables/pixel_metrics_D2-100k.csv",
+      "bytes": 306389,
+      "sha256": "c726cb8e79898a8a293ef4974240e017c5ef729085d38f613cef7868bb88b482"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/tables/separability.csv",
+      "relative": "tables/separability.csv",
+      "bytes": 67573,
+      "sha256": "1cea38504eb4305b64456b72a555f10b139a26376ac2a1176aced9a1efda44c4"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/figures/D2_paired_AUROC_delta.svg",
+      "relative": "figures/D2_paired_AUROC_delta.svg",
+      "bytes": 41519,
+      "sha256": "8ffbd91b17df0775be90655310848396f91e9ba6bca9e9d8f686cbcb0a4ab3f6"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/figures/muscle_examples_REVIEW_ONLY.png",
+      "relative": "figures/muscle_examples_REVIEW_ONLY.png",
+      "bytes": 513064,
+      "sha256": "cceae75eedacd092b8c78f8d4ac71322e23b9da3c1c702c288887d056ccf52bd"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/figures/AUROC_all_sources.svg",
+      "relative": "figures/AUROC_all_sources.svg",
+      "bytes": 126420,
+      "sha256": "e82efe97420e21dcf1cfaab9fb12f44f2bbaf03bfc2c5e3448b7f5e9703ed35d"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/figures/D2_paired_AUROC_delta.png",
+      "relative": "figures/D2_paired_AUROC_delta.png",
+      "bytes": 115117,
+      "sha256": "12b5b2dc27137ca9f377c16ce4d808c3c06eafc8afc974c25d3566c2f25e88ed"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/figures/effective_rank_all_sources.svg",
+      "relative": "figures/effective_rank_all_sources.svg",
+      "bytes": 85042,
+      "sha256": "dc982c9c2dbf110eda3fd7c387f70e0019b5ba1f5a6458b0dc2f1d1882ac1402"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/figures/effective_rank_all_sources.png",
+      "relative": "figures/effective_rank_all_sources.png",
+      "bytes": 177357,
+      "sha256": "4f84b49fc8bc7ebdda74b0070e085d3d0ce9157b527c53cf8219edb9ece23af1"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/figures/AUROC_all_sources.png",
+      "relative": "figures/AUROC_all_sources.png",
+      "bytes": 262258,
+      "sha256": "a320ab19e0594f0de951869c20f42f989edd873601074e824fffa6e0aeb3d8e6"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/evidence/environment_detail.json",
+      "relative": "evidence/environment_detail.json",
+      "bytes": 504,
+      "sha256": "532f3244bdca17b6e14fe5a0d6b9c251290d0124397547286e8eb7a21fe6a14f"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/evidence/launch_GPU_snapshot.json",
+      "relative": "evidence/launch_GPU_snapshot.json",
+      "bytes": 594,
+      "sha256": "9e062748e2481ce7590793aea3e3a840aa1d067c06f0ef67c12c874664e57052"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/evidence/environment.json",
+      "relative": "evidence/environment.json",
+      "bytes": 1100,
+      "sha256": "84a50cb909f039c74a37c21992de9e048fa1f0ed0ae25a1a48dbf8e016cd96c8"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/evidence/numerical_smoke.json",
+      "relative": "evidence/numerical_smoke.json",
+      "bytes": 240,
+      "sha256": "c3c12aacbcd414982ff232cd6ee47db100cffc4b17380604ef375884825f320b"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/evidence/offline_label_access.json",
+      "relative": "evidence/offline_label_access.json",
+      "bytes": 30076,
+      "sha256": "cf50c689b7ee3c5d101680618472f3bf6404da79651e0304743d090e8b069cac"
+    },
+    {
+      "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/evidence/train_data_isolation.json",
+      "relative": "evidence/train_data_isolation.json",
+      "bytes": 7794,
+      "sha256": "10ec3a6b3d7de70172a6e0eeddecb8778c47067016f6111b89e40d631f6ea28d"
+    }
+  ]
+}

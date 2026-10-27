@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "models": [
+    "P0",
+    "D1-100k",
+    "D2-30k",
+    "D2-100k",
+    "Coverage-NR-100k"
+  ],
+  "layers": [
+    5,
+    11,
+    17,
+    23
+  ],
+  "seconds": 738.9134528636932,
+  "all_far_background_scope": "eligible tokens in locked random FOVs",
+  "error_cases_excluded_from_random_estimates": true,
+  "probe_fit_inputs": "MV3_train_only",
+  "patches_are_not_independent_acquisitions": true,
+  "new_training_in_analysis": false
+}

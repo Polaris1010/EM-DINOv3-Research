@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "models": 5,
+  "layers": [
+    5,
+    11,
+    17,
+    23
+  ],
+  "linear_probes": 20,
+  "SSL_or_Primus_training": false,
+  "Pilot_B_or_C": false,
+  "GPU0_used": false,
+  "website_http": 200,
+  "historical_checkpoints_unchanged": true,
+  "report": "Feature_Mechanism_Pilot_Report.md",
+  "further_experiments_started": false
+}

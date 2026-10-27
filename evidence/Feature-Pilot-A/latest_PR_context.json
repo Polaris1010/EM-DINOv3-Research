@@ -1,0 +1,37 @@
+[
+  {
+    "number": 11,
+    "title": "Coverage-NR: fresh P0 full-coverage 100k training and fixed readout",
+    "head": "02a5ea093caf88bd4ca1ae30aba3d453ebeb7104",
+    "state": "open",
+    "merged_at": null
+  },
+  {
+    "number": 12,
+    "title": "D1/D2: three matched decoder seeds at30k and100k",
+    "head": "4d707e5969a4c548f100bb3fc4ff36fdae0231d7",
+    "state": "open",
+    "merged_at": null
+  },
+  {
+    "number": 10,
+    "title": "D2 coverage design: fresh P0 protocol and preserved CPU sampling evidence",
+    "head": "ee86b429eee9939f31da13893b430fa684731853",
+    "state": "open",
+    "merged_at": null
+  },
+  {
+    "number": 9,
+    "title": "D1/D2: matched full-state continuation from30k to100k",
+    "head": "670ed5e684f614bc945d1c92c9948bf5f865c450",
+    "state": "open",
+    "merged_at": null
+  },
+  {
+    "number": 8,
+    "title": "D1/D2: first matched SSL diversity experiment — complete",
+    "head": "08f2f2560c4f2b0db306362b37feea1faeb1e2ef",
+    "state": "open",
+    "merged_at": null
+  }
+]

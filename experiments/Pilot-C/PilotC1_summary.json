@@ -1,0 +1,121 @@
+{
+  "status": "VERIFIED_COMPLETED",
+  "C0_updates": 20,
+  "C1_updates": 20,
+  "paired_rank_steps": 60,
+  "unit_tests": 6,
+  "all_paired_inputs_RNG_schedule_equal": true,
+  "C0_historical_first20_losses_identical": true,
+  "coordinate_checks": [
+    {
+      "status": "PASS",
+      "independent_official_layer23_relative_L2": 0.0,
+      "max_abs_difference": 0.0,
+      "raster": "index=r*16+c; same global-crop tensor; no interpolation",
+      "CLS_tokens_excluded": 1,
+      "register_tokens_excluded": 4,
+      "patches": 256,
+      "real_training_image_used": true,
+      "GT_used": false,
+      "rank": 0
+    },
+    {
+      "status": "PASS",
+      "independent_official_layer23_relative_L2": 0.0,
+      "max_abs_difference": 0.0,
+      "raster": "index=r*16+c; same global-crop tensor; no interpolation",
+      "CLS_tokens_excluded": 1,
+      "register_tokens_excluded": 4,
+      "patches": 256,
+      "real_training_image_used": true,
+      "GT_used": false,
+      "rank": 1
+    },
+    {
+      "status": "PASS",
+      "independent_official_layer23_relative_L2": 0.0,
+      "max_abs_difference": 0.0,
+      "raster": "index=r*16+c; same global-crop tensor; no interpolation",
+      "CLS_tokens_excluded": 1,
+      "register_tokens_excluded": 4,
+      "patches": 256,
+      "real_training_image_used": true,
+      "GT_used": false,
+      "rank": 2
+    }
+  ],
+  "throughput": {
+    "C0": {
+      "observed_bottleneck_seconds": 0.766966812312603,
+      "production_estimate_bottleneck_seconds": 0.766966812312603,
+      "data_seconds_max": 0.011965937912464142,
+      "production_estimate_range_seconds": [
+        0.7522263079881668,
+        1.0609567388892174
+      ],
+      "peak_allocated_GiB": 9.528536796569824
+    },
+    "C1": {
+      "observed_bottleneck_seconds": 1.2626688331365585,
+      "production_estimate_bottleneck_seconds": 0.8611235916614532,
+      "data_seconds_max": 0.007287211716175079,
+      "production_estimate_range_seconds": [
+        0.8455128818750381,
+        0.8945139870047569
+      ],
+      "peak_allocated_GiB": 11.863543510437012
+    }
+  },
+  "budget": {
+    "C0_15k_hours": 3.1956950513025126,
+    "C1_15k_production_estimate_hours": 3.5880149652560553,
+    "paired_SSL_production_estimate_hours": 6.783710016558568,
+    "paired_SSL_with_full_diagnostics_hours": 8.456815189371506,
+    "two_Primus40k_hours_historical_reference": 1.4404837546083662,
+    "two_full_downstream_hours_historical_reference": 2.4473209741670225,
+    "SSL_plus_two_heads_hours": 8.224193771166934,
+    "SSL_plus_full_downstream_hours": 9.231030990725591,
+    "if_full_diagnostics_retained_full_total_hours": 10.904136163538528,
+    "steady_step_extrema_extrapolation_full_total_hours": [
+      9.104567598597043,
+      10.595115665391916
+    ],
+    "additional_anchor_forward_median_ms": 57.60359391570091,
+    "C1_production_overhead_fraction": 0.12276512860438293,
+    "limits": "20-step extrapolation, not a measured15k run; remove isolated diagnostic student forward/VJP to attain production estimate; I/O/checkpoint/startup and long-run variation not proven by20steps"
+  },
+  "barrier": {
+    "lambda_smoke": 1,
+    "lambda_recommended_locked": 1,
+    "lambda_search_performed": false,
+    "barrier_raw": {
+      "min": 0.005758065264672041,
+      "median": 0.013821693602949381,
+      "max": 0.025918450206518173
+    },
+    "active_fraction": {
+      "min": 0.405330091714859,
+      "median": 0.6037015318870544,
+      "max": 0.6898663640022278
+    },
+    "barrier_backbone_grad_norm_local": {
+      "min": 0.09945271164178848,
+      "median": 0.23560120910406113,
+      "max": 0.5722333788871765
+    },
+    "weighted_barrier_to_vanilla_grad_ratio": {
+      "min": 0.012869374196911657,
+      "median": 0.06938060411731004,
+      "max": 0.2092958559371559
+    },
+    "weighted_loss_fraction_median": 0.0009511860465997242,
+    "anchor_gradients_present": false,
+    "NaN_or_Inf": false
+  },
+  "formal_SSL_or_Primus_started": false,
+  "further_experiments_started": false,
+  "actual_source_commits": {
+    "C0": "abf21bb703e01393a89d238e394e8d297d8dcc9a",
+    "C1": "2879291f0733b025c8757e292f7aa57c6f59fe5c"
+  }
+}

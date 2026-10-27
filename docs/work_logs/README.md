@@ -66,3 +66,5 @@
 - [Coverage-NR从P0连续100k启动](20261021_27_coverage_nr_training_start.md)
 
 - [anti-defensive-writing安装与Coverage-NR进度核实](20261021_28_skill_install_progress.md)
+
+- [2026-10-27 Pilot C-1：恢复、唯一Barrier、20步配对与预算](20261027_42_pilot_c1_preflight.md)

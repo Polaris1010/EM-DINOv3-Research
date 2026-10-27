@@ -1,0 +1,32 @@
+{
+  "verified_utc": "2026-10-27T15:28:36.823049+00:00",
+  "service_active": false,
+  "service_has_main_process": false,
+  "exit_code": 0,
+  "website_http": 200,
+  "status": {
+    "status": "complete",
+    "C0_updates": 20,
+    "C1_updates": 20,
+    "unit_tests_passed": true,
+    "seconds": 56.509085804224014,
+    "stage_wall_seconds": {
+      "unit_tests_reused_no_updates": true,
+      "C0_reused_no_updates": true,
+      "C1": 50.06560501456261
+    },
+    "GPU0_used": false,
+    "website_http": 200,
+    "historical_checkpoints_unchanged": true,
+    "formal_SSL_started": false,
+    "Primus_started": false,
+    "further_experiments_started": false
+  },
+  "C0_preserved_unchanged": true,
+  "environment": {
+    "python": "3.11.14",
+    "torch": "2.10.0+cu128",
+    "CUDA": "12.8",
+    "numpy": "2.4.3"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "runtime_source_commit": "2879291f0733b025c8757e292f7aa57c6f59fe5c",
+  "source_sha256": {
+    "adapter.py": "a83727a60857202d2daf2a34d9c9c902ca8d061fe2bb7d2ebb3023d3307eb28a",
+    "barrier.py": "6eaa56e08242ef8cd883b257d12fe05f6485a9d1e827f6e9c52ed3f7e47169fd",
+    "controller.py": "a90c92b0826b6c01401d76a10f73ec8cea4a549eba08177c126a426326f8eaea",
+    "smoke.py": "caf3be80e938077feef980f691e20b792a864af95745088f3d8a515904a653c1",
+    "test_barrier.py": "a609b6d8ca83c0c34f81b07905d3cb3fcec0064279107318a2aad96d4db1c0d3"
+  },
+  "protocol_sha256": "ce999e35f4da275f499748c29c41cf7f5bcc2927ccdb6be2fd180ff4717ca087",
+  "max_updates_per_branch": 20,
+  "formal_training_authorized": false
+}

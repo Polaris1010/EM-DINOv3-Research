@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "paired_rank_steps": 60,
+  "all_inputs_RNG_schedule_equal": true,
+  "historical_C0_loss_and_sampling_exact": true,
+  "coordinate_max_abs_difference": 0,
+  "optimizer_state_30000_to_30020": true,
+  "frozen_anchor_unchanged": true,
+  "unit_tests": 6,
+  "C0_files_preserved": true
+}

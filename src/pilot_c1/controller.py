@@ -21,7 +21,7 @@ def main():
  assert sha(R.parent/'ssl_diversity_d12_100k_20261018/code/train_ssl.py')==protocol['legacy_trainer_sha256']
  for rel,digest in [(protocol['parent_full_checkpoint_relative'],protocol['parent_full_checkpoint_sha256']),(protocol['legacy_base_config_relative'],protocol['legacy_base_config_sha256'])]:assert sha(A/rel)==digest
  ema=A/protocol['parent_full_checkpoint_relative'];ema=ema.with_name('teacher_backbone.pth');assert sha(ema)==protocol['anchor_EMA_sha256']
- started=time.monotonic();base={**os.environ,'D12_ROOT':str(R.parent/'ssl_diversity_d12_100k_20261018'),'OMP_NUM_THREADS':'4','MKL_NUM_THREADS':'4','PYTHONDONTWRITEBYTECODE':'1','CUDA_CACHE_PATH':str(R/'cache/cuda')};jobs=[];times={}
+ started=time.monotonic();base={**os.environ,'D12_ROOT':str(R.parent/'ssl_diversity_d12_100k_20261018'),'OMP_NUM_THREADS':'4','MKL_NUM_THREADS':'4','PYTHONDONTWRITEBYTECODE':'1','CUDA_CACHE_PATH':str(R/'cache/cuda'),'PYTHONPATH':str(R.parent/'mitotopo_20260908_round2/deps')+':'+str(A/'DINOv3/dinov3')};jobs=[];times={}
  try:
   for label,args,devices in [('unit_tests',[str(PY),str(R/'code/test_barrier.py')],[3]),*[(b,[str(PY),'-m','torch.distributed.run','--standalone','--nproc_per_node=3',str(R/'code/smoke.py'),'--branch',b],[1,2,3]) for b in ['C0','C1']]]:
    health();live=mapping();assert all(live[i]['memory']<1024 and live[i]['util']==0 for i in devices)

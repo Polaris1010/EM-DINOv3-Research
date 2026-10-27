@@ -12,4 +12,6 @@
 
 完整结果与方法限制见Pilot_B_Trajectory_Lerp05_Report.md。有效秩变化不等于错误机制；空间共模仍暂停。下一项若获授权，可做同30k起点、同预算Vanilla与单一稳定性约束；本轮没有启动。
 
-独立算术复算、registry、仓库检查和unittest结果随最终交付归档。独立draft PR链接在推送成功后登记；未发生的远程动作不写成完成。服务inactive/退出0，停止，不运行其他实验。
+独立算术复算、registry、仓库检查和unittest结果随最终交付归档。独立[draft PR15](https://github.com/Polaris1010/EM-DINOv3-Research/pull/15)已推送，未合并；初始结果commit `370b6bd48023034b11b705dc49c6f2f3e506c162`，远程PR head已核对。服务inactive/退出0，停止，不运行其他实验。
+
+提交交付前独立复算、registry和仓库校验全部PASS；51项unittest通过，3项既有Windows平台skip。最终60文件结果commit已推送；这次补记实际PR链接与交付回执，不运行任何实验。

@@ -1,4 +1,4 @@
-> Pilot B已完成并停止（2026-10-27）：固定D2/30k与100k的0.5 EMA中点；Linear23 500步和无条件Primus40k完成。38dev来源等权Dice 0.838631，MB1七组 0.505823；肌肉Dice 0.2157→0.4682，Recall未下降，HeLa等收益部分回退。先读docs/Pilot_B_Trajectory_Lerp05_Report.md及work log41。服务inactive/退出0，网站200，GPU0未用，历史SHA不变；停止，不启动Pilot C、SSL或新融合。
+> Pilot B已完成并停止（2026-10-27）：固定D2/30k与100k的0.5 EMA中点；Linear23 500步和无条件Primus40k完成。38dev来源等权Dice 0.838631，MB1七组 0.505823；肌肉Dice 0.2157→0.4682，Recall未下降，HeLa等收益部分回退。先读docs/Pilot_B_Trajectory_Lerp05_Report.md及work log41。服务inactive/退出0，网站200，GPU0未用，历史SHA不变；停止，不启动Pilot C、SSL或新融合。 独立[draft PR15](https://github.com/Polaris1010/EM-DINOv3-Research/pull/15)已推送，未合并；初始结果commit `370b6bd48023034b11b705dc49c6f2f3e506c162`，远程PR head已核对。
 
 > Pilot A2已完成并停止（2026-10-27）：同像素肌肉AUROC0.9429→0.9207、AP0.5043→0.3228；train-only偏置使100k Dice0.2906→0.3666、远端FP9.72%→1.93%，但Recall0.8019→0.3986，四控制来源Dice均下降。关闭全局偏置主修复路线；两Probe分别训练，Encoder共模原因仍INCONCLUSIVE。先读docs/Pilot_A2_Readout_Calibration_Report.md及work log40。GPU3运行50.2秒、服务inactive/退出0、网站200、历史输入SHA不变；无新模型训练、不自动后续实验。 独立draft PR14已创建并推送结果，未合并。
 

@@ -145,3 +145,5 @@ MB1为已暴露诊断集，2595张图像/七组均完成；未用其标签选系
 完整114条开发区域对照、36条来源汇总、38条配对差值、21条benchmark汇总、2595条新模型逐图指标、906条肌肉三系统AP记录及15条Linear汇总均单独保存。CSV包含Dice、Precision、Recall、HD95、NSD和预测前景比例。表格和图的独立算术核对、registry及仓库CPU检查结果见evidence/Pilot-B。
 
 服务已停止且退出0，网站HTTP200，历史两端点SHA未变。无新SSL、Pilot C、Gram、TopoCL、LAST、SVD、层替换或额外融合；完成后停止。
+
+独立[draft PR15](https://github.com/Polaris1010/EM-DINOv3-Research/pull/15)已推送，未合并；初始结果commit `370b6bd48023034b11b705dc49c6f2f3e506c162`，远程PR head已核对。

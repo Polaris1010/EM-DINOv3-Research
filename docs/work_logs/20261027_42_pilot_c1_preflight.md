@@ -13,3 +13,7 @@
 冻结reference使用unmasked eval，student保留原iBOT/DropPath；激活不等于长期结构漂移，更非拓扑保护。15k未来只比较45k同预算终点，不能预设防止100k遗忘。Pilot B中点不证明线性模式连通。
 
 报告docs/Pilot_C_Preflight_and_Budget.md；逐rank和step表、配对检查、哈希及停止回执已保存。所有历史资产只读，GPU0未用、网站200，服务inactive/退出0。无15k SSL、Primus、额外融合或loss。完成CPU检查后提交独立draft PR，不自动合并或继续。
+
+独立[draft PR#16](https://github.com/Polaris1010/EM-DINOv3-Research/pull/16)已创建并推送，未合并；初始结果commit `0c99770a091be0a85b9ab2ec185feb6c43056468`，PR远程head已核验。
+
+CPU registry/仓库检查及51项unittest通过（3项既有平台skip）；6项Barrier测试在服务器GPU通过。补记交付不触发任何实验。

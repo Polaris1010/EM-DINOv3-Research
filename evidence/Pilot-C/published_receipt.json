@@ -1,0 +1,16 @@
+{
+  "status": "VERIFIED_PUBLISHED",
+  "PR": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/16",
+  "number": 16,
+  "branch": "codex/pilot-c1-barrier-preflight",
+  "base": "codex/pilot-b-results-public",
+  "draft": true,
+  "merged": false,
+  "initial_results_commit": "0c99770a091be0a85b9ab2ec185feb6c43056468",
+  "remote_initial_head_verified": true,
+  "C0_smoke_updates": 20,
+  "C1_smoke_updates": 20,
+  "formal_SSL_started": false,
+  "Primus_started": false,
+  "stopped": true
+}

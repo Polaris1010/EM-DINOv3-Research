@@ -73,3 +73,7 @@ mask和参考相似度均stop-gradient；全部batch按被选patch对总数归�
 本轮6项GPU单测、60组配对检查、所有数值/坐标/冻结检查均通过。历史完整checkpoint和EMA哈希前后不变；服务inactive、MainPID0、退出0，网站HTTP200。只执行C-1，未启动15k SSL、Primus、C0_Midpoint、其他融合或loss变体。后续需要用户明确批准，本轮完成即停止。
 
 逐rank/step完整表、逐step汇总、历史对照和预算见experiments/Pilot-C；恢复、配对与停止回执见evidence/Pilot-C。公开交付只含必要代码、科学表格与脱敏证据，不包含原始图像、权重、缓存、GPU唯一标识或运行进程信息。
+
+独立[draft PR#16](https://github.com/Polaris1010/EM-DINOv3-Research/pull/16)已创建并推送，未合并；初始结果commit `0c99770a091be0a85b9ab2ec185feb6c43056468`，PR远程head已核验。
+
+CPU registry/仓库检查及51项unittest通过（3项既有平台skip）；6项Barrier测试在服务器GPU通过。补记交付不触发任何实验。

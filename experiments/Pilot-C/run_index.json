@@ -19,5 +19,6 @@
   "lambda_locked": 1,
   "GPU0_used": false,
   "stopped": true,
-  "PR_status": "not_created_yet"
+  "PR_status": "draft_unmerged",
+  "PR": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/16"
 }

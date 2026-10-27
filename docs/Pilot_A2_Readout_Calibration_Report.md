@@ -116,3 +116,5 @@ PR曲线只展示两个模型的原排序；圆点是原0.5，三角是由MV3 tr
 独立分支`codex/pilot-a2-readout-calibration`，PR以已锁定方案分支`codex/feature-mechanism-pilot-a`为base；不覆盖父实验结果、不自动合并。完成后停止。
 
 检查通过：registry61条生成一致；仓库验证PASS；unittest 51项、3项平台跳过；独立复算1280条视野指标、20条来源汇总、20条排序指标和85项配对变化/区间。60条历史注册记录保持原样；三张统计图已人工预览。详见[检查收据](../evidence/Pilot-A2/closeout_checks.json)。
+
+实际交付：[独立draft PR #14](https://github.com/Polaris1010/EM-DINOv3-Research/pull/14)，结果commit `792d0d90db869de665cd890664710679152caee4`已推送，PR未合并。创建回执见[GitHub_PR_created.json](../evidence/Pilot-A2/GitHub_PR_created.json)。

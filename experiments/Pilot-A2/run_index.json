@@ -18,5 +18,8 @@
   "website_http": 200,
   "historical_inputs_unchanged": true,
   "conclusions": "experiments/Pilot-A2/conclusions.json",
-  "new_model_training": false
+  "new_model_training": false,
+  "PR": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/14",
+  "results_commit": "792d0d90db869de665cd890664710679152caee4",
+  "PR_state": "draft; unmerged"
 }

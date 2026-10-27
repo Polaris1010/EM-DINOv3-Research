@@ -15,3 +15,5 @@
 同像素肌肉AUROC下降0.022186、AP下降0.181580；100k偏置后Dice+0.075991，远端FP相对约少80.11%，Recall下降0.403359；其余四来源Dice点估计均下降。双校准差距改善R约0.2922，其中约74%来自30k退化，不能称完全恢复。决定关闭全局偏置主修复方向，不以此启动空间共模方法。完整数据与结论见正式报告。
 
 收尾验证：24份服务器小文件SHA匹配；1280条视野、20条聚合、20条排序、85项配对及区间复算一致；baseline原始计数与Pilot A精确一致；60条历史registry未变。CPU检查registry61生成一致、validate_repository PASS（2207文本）、unittest51项/3平台skip为OK、diff检查PASS。三张统计图完成预览。报告/指标/代码/本轮Markdown随本次结果commit交付，随后核实独立PR链接。
+
+Git交付已核实：结果commit792d0d90db869de665cd890664710679152caee4已推送；独立draft PR14，base为codex/feature-mechanism-pilot-a，未合并。PR创建回执归档GitHub_PR_created.json。本次补交仅记录实际链接和交付状态，所有实测CSV、偏置及源码结果保持。完成后停止。

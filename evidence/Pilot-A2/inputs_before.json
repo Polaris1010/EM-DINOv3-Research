@@ -1,0 +1,13 @@
+{
+  "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/samples.json": "18622e1374467fe8a480f1b8a13e15370b51ac3386039d389bc4f55351c11458",
+  "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/protocol.json": "3e7346fb81a48725209567743e7d022aac12982d956cf2e5cc47ff0a8bb13129",
+  "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/evaluation_labels.npz": "26e60dc0166a97640b3a54ced11f8dfe2306761618251691d3b0d9a0020fe883",
+  "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/models/D2-30k/linear_probability.npy": "69ad26546fa34711267f9ce65d7fe7a2c7f8aad6588f7e1e05ed3070e826efa9",
+  "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/models/D2-30k/prototype_score.npy": "27434bb8f73fa0919652aa21de0fd3581495443c4ec67431c36e40412e49bee3",
+  "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/models/D2-30k/linear_probes.pt": "5d8e300260a2de75236fa162011d80c47c1c8470ef9092433194bf38da234d2a",
+  "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/models/D2-30k/probe_complete.json": "246023a727eaee165ab76335b2ddffb20690bc1e46b5abb35b92e25096f1bcb0",
+  "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/models/D2-100k/linear_probability.npy": "6d193a217db3f7826b894350c407950942faf82fca651a8b6d141d17020ec395",
+  "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/models/D2-100k/prototype_score.npy": "8d729485258a5940420f4effb6a93cc1f7d44989596effb6e6574ca807cf6640",
+  "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/models/D2-100k/linear_probes.pt": "68b895df30ef10b2e58efe58e84bb81ee76c2ec129caa47159ea3b7594ba7f60",
+  "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/models/D2-100k/probe_complete.json": "bc05f233753b436930931f2098165bc7b584e00c78af1e4706448d84deac45f5"
+}

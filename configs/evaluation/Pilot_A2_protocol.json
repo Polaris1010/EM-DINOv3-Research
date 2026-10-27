@@ -1,0 +1,60 @@
+{
+  "experiment": "Pilot-A2",
+  "parent_root": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027",
+  "server_root": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027",
+  "samples_sha256": "18622e1374467fe8a480f1b8a13e15370b51ac3386039d389bc4f55351c11458",
+  "models": [
+    "D2-30k",
+    "D2-100k"
+  ],
+  "layer": 23,
+  "train_crops": 312,
+  "train_regions": 156,
+  "random_eval_crops": 320,
+  "sources": [
+    "openorganelle",
+    "guay21",
+    "muller21",
+    "glycolytic_muscle",
+    "hela_cell"
+  ],
+  "biases": 2,
+  "T": 1,
+  "fit_role": "MV-Generalist-v2 train only",
+  "fit_objective": "source-equal native pixel BCE, natural within-source class proportions",
+  "fit_epsilon": 1e-06,
+  "bisection_max_iterations": 80,
+  "bisection_bracket": [
+    -64,
+    64
+  ],
+  "gradient_tolerance": 1e-11,
+  "input_native": "original float32 bilinear probability upsample to256, align_corners=False",
+  "bias_position": "after native upsampling",
+  "metric_AP": "exact tie-aware noninterpolated average precision",
+  "bootstrap_repeats": 200,
+  "bootstrap_block": "volume_id plus Z//8",
+  "seed": 20261027,
+  "phase_order": [
+    "raw_scoring",
+    "isolated_train_only_fit",
+    "frozen_final_scoring"
+  ],
+  "GT_use": "evaluation GT for scoring only; fit process denies evaluation labels, MB paths and baseline metric files",
+  "code_commit": "225e3c6e8b9b34c5c2c487a2d9a317a947caf647",
+  "GPU0_used": false,
+  "network_updates": 0,
+  "encoder_forward_calls": 0,
+  "interpretation": "Both linear probes independently trained. Between-model logits do not identify encoder common-mode drift.",
+  "forbidden": [
+    "View-Mean",
+    "PCA",
+    "source-specific calibration",
+    "extra hyperparameter search",
+    "SSL",
+    "ViT training",
+    "Primus training",
+    "Linear Probe training",
+    "MB1 labels in fitting"
+  ]
+}

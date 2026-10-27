@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "seconds": 50.223233468830585,
+  "physical_GPU": 3,
+  "GPU0_used": false,
+  "website_http": 200,
+  "historical_inputs_unchanged": true,
+  "encoder_forward_calls": 0,
+  "network_updates": 0,
+  "further_experiments_started": false
+}

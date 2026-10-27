@@ -1,0 +1,21 @@
+model,source,scope,pixels,positives,AUROC,AP,ranking
+D2-30k,openorganelle,all_valid,960983,146172,0.920854114822709,0.7954749384040983,original native probability; exact tie-aware
+D2-30k,openorganelle,FG_vs_far_background,812823,146172,0.9355788410151273,0.8547229397121616,original native probability; exact tie-aware
+D2-100k,openorganelle,all_valid,960983,146172,0.9374329370780405,0.8005694832391035,original native probability; exact tie-aware
+D2-100k,openorganelle,FG_vs_far_background,812823,146172,0.9537739734792395,0.8654708279471551,original native probability; exact tie-aware
+D2-30k,guay21,all_valid,4194304,158446,0.9191785687609243,0.3852767722961635,original native probability; exact tie-aware
+D2-30k,guay21,FG_vs_far_background,3827749,158446,0.9282542134735565,0.44556125828552934,original native probability; exact tie-aware
+D2-100k,guay21,all_valid,4194304,158446,0.9465459893647614,0.4872466383127059,original native probability; exact tie-aware
+D2-100k,guay21,FG_vs_far_background,3827749,158446,0.9570236036030977,0.5808954424300165,original native probability; exact tie-aware
+D2-30k,muller21,all_valid,4194304,152352,0.9633204825923188,0.5862675166988527,original native probability; exact tie-aware
+D2-30k,muller21,FG_vs_far_background,3878936,152352,0.9736996509296697,0.7004425521907641,original native probability; exact tie-aware
+D2-100k,muller21,all_valid,4194304,152352,0.9638139554471351,0.5832166682631232,original native probability; exact tie-aware
+D2-100k,muller21,FG_vs_far_background,3878936,152352,0.9723899622008418,0.6617881326175873,original native probability; exact tie-aware
+D2-30k,glycolytic_muscle,all_valid,4194304,126954,0.9428837796624834,0.5043436101210547,original native probability; exact tie-aware
+D2-30k,glycolytic_muscle,FG_vs_far_background,3870291,126954,0.9599892648205192,0.7060981310786223,original native probability; exact tie-aware
+D2-100k,glycolytic_muscle,all_valid,4194304,126954,0.9206979321457991,0.32276402278181215,original native probability; exact tie-aware
+D2-100k,glycolytic_muscle,FG_vs_far_background,3870291,126954,0.9308870041375263,0.38991679198851364,original native probability; exact tie-aware
+D2-30k,hela_cell,all_valid,4194304,291249,0.8762442443112345,0.3931439808876835,original native probability; exact tie-aware
+D2-30k,hela_cell,FG_vs_far_background,3446066,291249,0.8885148740721915,0.4739748487056859,original native probability; exact tie-aware
+D2-100k,hela_cell,all_valid,4194304,291249,0.9433147674114346,0.6453578566553844,original native probability; exact tie-aware
+D2-100k,hela_cell,FG_vs_far_background,3446066,291249,0.9648511873986005,0.8089169512553435,original native probability; exact tie-aware

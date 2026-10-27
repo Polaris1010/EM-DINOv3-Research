@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "downloaded_SHA_verified": 24,
+  "historical_inputs_unchanged": true,
+  "baseline_counts_match_Pilot_A": true,
+  "pixel_rows_reconciled": 1280,
+  "pooled_rows_reconciled": 20,
+  "ranking_rows": 20,
+  "paired_contrasts_and_intervals": 85,
+  "historical_registry_entries_unchanged": 60,
+  "fit_source_roles": "312 train FOVs /156 regions; no eval labels",
+  "GPU_smoke": "evidence/Pilot-A2/numerical_smoke.json"
+}

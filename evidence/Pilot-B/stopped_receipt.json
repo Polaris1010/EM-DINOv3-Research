@@ -1,0 +1,25 @@
+{
+  "verified_utc": "2026-10-27T13:03:23.798098+00:00",
+  "status": {
+    "status": "complete",
+    "model": "Trajectory-Lerp05",
+    "alpha": 0.5,
+    "Primus_steps": 40000,
+    "Linear_steps": 500,
+    "dev_regions": 38,
+    "MB1_groups": 7,
+    "website_http": 200,
+    "GPU0_used": false,
+    "historical_parent_weights_unchanged": true,
+    "new_SSL_steps": 0,
+    "Pilot_C_started": false,
+    "further_experiments_started": false,
+    "seconds": 4405.17775350064
+  },
+  "service_active": false,
+  "service_exit_code": 0,
+  "service_has_main_process": false,
+  "website_http": 200,
+  "GPU0_used": false,
+  "no_new_SSL_or_Pilot_C": true
+}

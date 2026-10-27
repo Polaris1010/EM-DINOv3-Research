@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "steps": 500,
+  "seed": 20261027,
+  "batch": 4096,
+  "lr": 0.03,
+  "weight_decay": 0.001,
+  "coordinate_batch_hash": "52112acd1aca39ebbf17bd943efa09cfe9bef677dda93f6f3328d79c02b2ba54",
+  "probe_sha256": "a0e0e631a97cdcf39edd13671f83ddb433625a4792ad86b83823b1a1727e53e1",
+  "encoder_sha256": "0d79edbd3b968eebbda4d3d57d6057632d4e793decebd301941782203b5a6c24",
+  "samples_sha256": "18622e1374467fe8a480f1b8a13e15370b51ac3386039d389bc4f55351c11458",
+  "evaluation_GT_read": false,
+  "CLS_and_registers_excluded": true,
+  "cache_dtype": "float16",
+  "source_normalization_and_sampler": "identical Pilot A",
+  "Primus_gate": false
+}

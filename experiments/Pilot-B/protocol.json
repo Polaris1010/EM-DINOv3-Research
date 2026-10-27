@@ -1,0 +1,74 @@
+{
+  "stage": "Pilot-B",
+  "model": "Trajectory-Lerp05",
+  "alpha": 0.5,
+  "parents": {
+    "D2-30k": {
+      "path": "${RESEARCH_ROOT}/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/teacher_backbone.pth",
+      "sha256": "7db12e7ff8bee45166aaeeda1d94365e696ddaecf0c57a0d1611a891cf0d3eda",
+      "step": 30000,
+      "official_weight_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+      "keys": 368,
+      "dtypes": {
+        "torch.float32": 367,
+        "torch.bfloat16": 1
+      },
+      "nonfloat": []
+    },
+    "D2-100k": {
+      "path": "${RESEARCH_ROOT}/codex/ssl_diversity_d12_100k_20261018/runs/D2/formal/checkpoints/step000100000/teacher_backbone.pth",
+      "sha256": "92a81805f1cc126e1851d5c26baa0b5ba34597d8f93e29ac05203044fe6c7010",
+      "step": 100000,
+      "official_weight_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+      "keys": 368,
+      "dtypes": {
+        "torch.float32": 367,
+        "torch.bfloat16": 1
+      },
+      "nonfloat": []
+    }
+  },
+  "decoder_initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec",
+  "final_sampling_hash": "45b8763f399df51c4455e4a791e6c32b2e9d6dfd9e5ba9ec988bbebb8b883d64",
+  "MV_manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "Primus_seed": 20261014,
+  "Primus_optimizer_steps": 40000,
+  "milestones": [
+    10000,
+    20000,
+    40000
+  ],
+  "Linear_seed": 20261027,
+  "Linear_steps": 500,
+  "Linear_train_crops": 312,
+  "Linear_layers": [
+    23
+  ],
+  "Primus_layers": [
+    5,
+    11,
+    17,
+    23
+  ],
+  "encoder_frozen": true,
+  "TTA": false,
+  "code_commit": "2d3bcf4435569a7513a71a194e233e6a426f3132",
+  "Linear_AP_is_not_a_Primus_gate": true,
+  "SSL_steps": 0,
+  "gpu0_forbidden": true,
+  "new_model_count": 1,
+  "coefficient_search": false,
+  "MB1_labels": "scoring only; already exposed diagnostic",
+  "Primus_AP": "muscle per-plane pixel AP mean; both historical heads re-inferred only on muscle, masks verified against original predictions",
+  "forbidden": [
+    "Pilot C",
+    "P0 mix",
+    "deep-layer replacement",
+    "SVD",
+    "Gram",
+    "LAST",
+    "TopoCL",
+    "new SSL loss"
+  ],
+  "stop_after": "Linear23, one40k Primus, full38dev and7MB1, report then stop"
+}

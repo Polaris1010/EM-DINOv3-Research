@@ -1,0 +1,13 @@
+{
+  "completed_scoring_jobs": 41,
+  "full_device_EDT_calls": 5818,
+  "host_backed_full_axis_GPU_EDT_calls": 2,
+  "physical_scoring_devices": [
+    1,
+    2
+  ],
+  "GPU0_used": false,
+  "pure_CPU_EDT_fallback": false,
+  "private_receipts_retained": true,
+  "description": "Oversized arrays kept in host memory; every complete-axis distance transform runs on the assigned GPU. CPU does I/O, surface preparation and aggregation."
+}

@@ -6495,6 +6495,74 @@
       ],
       "server_root": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027",
       "calibration_parameters": 2
+    },
+    {
+      "experiment_id": "Pilot-B-Trajectory-Lerp05",
+      "status": "VERIFIED_COMPLETED",
+      "research_question": "Fixed same-trajectory EMA midpoint, matched frozen readouts and full downstream comparison",
+      "dataset_manifest": "configs/segmentation/MV-Generalist-v2/manifest.json",
+      "dataset_manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+      "ssl_exposure": "UNVERIFIED",
+      "supervised_train_split": "156 train regions; Linear uses312 locked FOVs",
+      "validation_split": "38dev regions and already-exposed fixed seven MB1 groups",
+      "test_split": "UNVERIFIED",
+      "backbone": "Frozen DINOv3 ViT-L/16, alpha0.5 D2-30k/100k EMA weights",
+      "initial_checkpoint": [
+        "${RESEARCH_ROOT}/codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/teacher_backbone.pth",
+        "${RESEARCH_ROOT}/codex/ssl_diversity_d12_100k_20261018/runs/D2/formal/checkpoints/step000100000/teacher_backbone.pth"
+      ],
+      "initial_checkpoint_sha256": [
+        "7db12e7ff8bee45166aaeeda1d94365e696ddaecf0c57a0d1611a891cf0d3eda",
+        "92a81805f1cc126e1851d5c26baa0b5ba34597d8f93e29ac05203044fe6c7010"
+      ],
+      "final_checkpoint": "${EXPERIMENT_ROOT}/checkpoints/Trajectory-Lerp05_ema_backbone.pth",
+      "final_checkpoint_sha256": "0d79edbd3b968eebbda4d3d57d6057632d4e793decebd301941782203b5a6c24",
+      "decoder": "Original Primus_Multiscale",
+      "decoder_source_commit": "a2460c2547899283446e520b84523454f7e25608",
+      "decoder_checkpoint": "${EXPERIMENT_ROOT}/downstream/runs/Trajectory-Lerp05/seed20261014/head_step040000.pth",
+      "decoder_seed": 20261014,
+      "train_config": "configs/evaluation/Pilot_B_protocol.json",
+      "resolved_config_sha256": "9783f2dc321c368eeeaf01f5fb54f2248429fabbeb7f523e8695b003cb32bc8f",
+      "code_commit": "2d3bcf4435569a7513a71a194e233e6a426f3132",
+      "python_executable": "${RESEARCH_ROOT}/envs/meddinov3/bin/python",
+      "global_batch": 1,
+      "optimizer_steps": 40000,
+      "learning_rate": {
+        "peak": 0.0001,
+        "warmup_steps": 100,
+        "schedule": "shared40k cosine, minimum factor0.1"
+      },
+      "tta": false,
+      "normalization": "(uint8/255-0.5)/0.25; native grid, grayscale repeated RGB",
+      "inference_protocol": {
+        "window": 256,
+        "stride": 128,
+        "tile_batch_size": 16,
+        "threshold": 0.5,
+        "TTA": false,
+        "checkpoint_selection": "fixed40000"
+      },
+      "metrics_path": "experiments/Pilot-B/PilotB_summary.json",
+      "report_path": "docs/Pilot_B_Trajectory_Lerp05_Report.md",
+      "limitations": [
+        "Fixed weight combination utility does not establish a pretraining anchoring mechanism",
+        "Linear AP never gates Primus training",
+        "One decoder seed and exposed diagnostics; no new blind external test",
+        "No SSL, Pilot C, coefficient search or other fusion variants"
+      ],
+      "planned_optimizer_steps": 40000,
+      "evidence": [
+        "experiments/Pilot-B/run_index.json",
+        "configs/evaluation/Pilot_B_protocol.json",
+        "evidence/Pilot-B/preflight.json"
+      ],
+      "server_root": "${EXPERIMENT_ROOT}",
+      "decoder_checkpoint_sha256": "b3c7d9252cbb21e6512533c529990dba778184b1daf41118cff02754777dfe46",
+      "encoder_frozen": true,
+      "linear_steps": 500,
+      "linear_seed": 20261027,
+      "linear_AP_gate": false,
+      "new_SSL_steps": 0
     }
   ]
 }

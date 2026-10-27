@@ -1,0 +1,12 @@
+{
+  "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "parent_protocol_sha256": "62260a794f4b0260b1afc215fb40c3e40f623780b8ecf64c19d374aae76a4bb5",
+  "new_protocol_sha256": "d4fae7cf669e735bd58b560242da653c597c598d186cf7d3b20aaa9f4ccf5df1",
+  "changed_fields": [
+    "models"
+  ],
+  "cache": "${RESEARCH_ROOT}/codex/mv_generalist_v2_han_fullgt_20261014/cache",
+  "train": 156,
+  "dev": 38,
+  "historical_inputs_read_only": true
+}

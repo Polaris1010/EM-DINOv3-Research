@@ -1,0 +1,16 @@
+{
+  "status": "VERIFIED_PUBLISHED",
+  "PR": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/15",
+  "PR_number": 15,
+  "branch": "codex/pilot-b-results-public",
+  "base": "codex/pilot-a2-readout-calibration",
+  "draft": true,
+  "merged": false,
+  "initial_results_commit": "370b6bd48023034b11b705dc49c6f2f3e506c162",
+  "remote_initial_head_verified": true,
+  "all_experiment_outputs_complete": true,
+  "experiment_stopped": true,
+  "historical_records_unchanged": 61,
+  "no_followup_experiment_started": true,
+  "publication": "Final-only sanitized delivery; original runtime history retained privately"
+}

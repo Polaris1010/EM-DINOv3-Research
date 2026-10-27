@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "seconds": 12.20339846611023,
+  "train_crops": 312,
+  "random_eval_crops": 320,
+  "historical_error_case_excluded": true,
+  "Primus_training_is_unconditional": true,
+  "probe_sha256": "a0e0e631a97cdcf39edd13671f83ddb433625a4792ad86b83823b1a1727e53e1"
+}

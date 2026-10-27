@@ -1,0 +1,217 @@
+{
+  "delivery": "final-only sanitized projection; private commits not published",
+  "runtime_source_commit_local_only": "2d3bcf4435569a7513a71a194e233e6a426f3132",
+  "runtime_source_SHA256": {
+    "common.py": "34d0d5d9a4385a58a8c47338db287b5a74f2d805dbc3de27912a27a10f32122b",
+    "linear.py": "bcfb34a5234b55e92fff4e7612f059e2ae10b837399e1638dece05a46e2512de",
+    "run.py": "c7d4e5ab26fc67277bab1ba5f35e24e4452f522ad3ce254d51e301b192f3351e",
+    "report.py": "fc3b3c3b1e36be44e622a08bad20f746e2e9382c021f2d95d70875b17de15ca1",
+    "merge.py": "0b57899842610724111ea169a91b571b59c6c018e5c4b66e572d1175810e55ca",
+    "downstream.py": "4224eceb0137a01edd56f2e6078a572a970f531375cf33b1a775030949de3600",
+    "gpu_scoring.py": "1e9a0644587d0840aec5a400551d5a59128cc95f31beed2156658fbee3b06c0c",
+    "benchmark.py": "f58a1c89bbecf4a3e23e7a4749aed22fa256449013a9a515d88b93b910908d9d"
+  },
+  "public_source_SHA256": {
+    "benchmark.py": "f58a1c89bbecf4a3e23e7a4749aed22fa256449013a9a515d88b93b910908d9d",
+    "common.py": "3767aeff76ac67495af6def095df1e98f7f117948e5c920e229727d7044ab163",
+    "downstream.py": "4224eceb0137a01edd56f2e6078a572a970f531375cf33b1a775030949de3600",
+    "figures.py": "c4f19f89d18b4613f1de84c5a47eaf868652128d7c005fba77004d9bf440967a",
+    "gpu_scoring.py": "1e9a0644587d0840aec5a400551d5a59128cc95f31beed2156658fbee3b06c0c",
+    "linear.py": "bcfb34a5234b55e92fff4e7612f059e2ae10b837399e1638dece05a46e2512de",
+    "merge.py": "0b57899842610724111ea169a91b571b59c6c018e5c4b66e572d1175810e55ca",
+    "report.py": "fc3b3c3b1e36be44e622a08bad20f746e2e9382c021f2d95d70875b17de15ca1",
+    "run.py": "c7d4e5ab26fc67277bab1ba5f35e24e4452f522ad3ce254d51e301b192f3351e"
+  },
+  "public_source_change": "common.py path resolver and interpreter location only; figures.py is postprocessing; seven other runtime files byte-identical",
+  "raw_protocol_sha256": "041fb5928bebe6328ca6b3f8f352bae3df4a0df43d36f70448ab0fc54dd0f2df",
+  "public_protocol_sha256": "9783f2dc321c368eeeaf01f5fb54f2248429fabbeb7f523e8695b003cb32bc8f",
+  "private_collection_receipt_sha256": "43b266279d9c740f5464d95f3f6ec97a0adc00f4ccd920bf4f5d487cd1721eb7",
+  "environment": {
+    "python": "3.11.9",
+    "torch": "2.5.1",
+    "CUDA": "12.4",
+    "numpy": "2.4.4"
+  },
+  "artifacts": [
+    {
+      "file": "experiments/Pilot-B/benchmark/D2-100k/metrics.json",
+      "published_sha256": "ef8b40f32dada123f784d64c190ff06e3aa9ab6fd7b3cbd5fd34deae1a7b30ba",
+      "private_original_sha256": "01b9a9bd125c98f4371020028c9fd7ee56004fa991198cd41c665b4269292918",
+      "byte_identical": false
+    },
+    {
+      "file": "experiments/Pilot-B/benchmark/D2-30k/metrics.json",
+      "published_sha256": "576f3e576b3471e508418c042e4058c4a503aac19bafb5f695eb350360225e6d",
+      "private_original_sha256": "8a9df0b755dd5a9c10485f1dcdbd7f78d093c1ae7bbb4fe7ef79cc57607d69bf",
+      "byte_identical": false
+    },
+    {
+      "file": "experiments/Pilot-B/downstream/MV3_protocol.json",
+      "published_sha256": "d4fae7cf669e735bd58b560242da653c597c598d186cf7d3b20aaa9f4ccf5df1",
+      "private_original_sha256": "d4fae7cf669e735bd58b560242da653c597c598d186cf7d3b20aaa9f4ccf5df1",
+      "byte_identical": true
+    },
+    {
+      "file": "experiments/Pilot-B/downstream/runs/Trajectory-Lerp05/seed20261014/head_step010000.json",
+      "published_sha256": "893eedffbe85770e8718748b06961697f35795eaac739d337bd67bbdee78f1f3",
+      "private_original_sha256": "325c0b091a42c1ba934b5ef77c7676324963060ff298d4b81756cc4f269baf47",
+      "byte_identical": false
+    },
+    {
+      "file": "experiments/Pilot-B/downstream/runs/Trajectory-Lerp05/seed20261014/head_step020000.json",
+      "published_sha256": "22efc97aeb436fd0fdb702b522b79e059f3e08324e5813d90bc36f8be425e222",
+      "private_original_sha256": "8b1782153c14a8c85678a3528aa6d90c76b3c498ae1f32037b0ee25dae8a265f",
+      "byte_identical": false
+    },
+    {
+      "file": "experiments/Pilot-B/downstream/runs/Trajectory-Lerp05/seed20261014/head_step040000.json",
+      "published_sha256": "435e52406031d947e73f8d1bb23a75122068f654f8f2c0dd25086c592240bef3",
+      "private_original_sha256": "223bbed03b69e70bf4ebf7e84a4e7bd03a83c6cb26419f7ba02967bc820584ad",
+      "byte_identical": false
+    },
+    {
+      "file": "experiments/Pilot-B/downstream/runs/Trajectory-Lerp05/seed20261014/run_protocol.json",
+      "published_sha256": "a4774b1d0dbe2fadca9976de41fa17dd553ea62adc2415ee24cdbd1fb0bfc636",
+      "private_original_sha256": "5b031225f2dc77e9dad6f9f78cb3812288f6400a72ea0d4cbb30ca7b4a7b5b0f",
+      "byte_identical": false
+    },
+    {
+      "file": "experiments/Pilot-B/downstream/runs/Trajectory-Lerp05/seed20261014/training_complete.json",
+      "published_sha256": "098842784a5a2a4e1c5c72bc58f56c8e9a91ddc2ea00ac37a659c80d2f2dfc0d",
+      "private_original_sha256": "4dec1d3dd389aad667233961f17cb20f7cc49e318d5aff8e35e665bff3ab81e3",
+      "byte_identical": false
+    },
+    {
+      "file": "experiments/Pilot-B/encoder.json",
+      "published_sha256": "949f2c37dc62b21bbc1a4362b568ef19e9f601cf11555d88166d07c43687b3bb",
+      "private_original_sha256": "7ebad3f674f7f1de4d7acce1adfc5d1abdd457580af1e749a0836831be68042b",
+      "byte_identical": false
+    },
+    {
+      "file": "experiments/Pilot-B/figures/PilotB_fixed_system_comparison.svg",
+      "published_sha256": "58669a12b9871461c8bbc70fb234dc7415738b6715fe2ac14d73f6c7e319d3b3",
+      "private_original_sha256": "58669a12b9871461c8bbc70fb234dc7415738b6715fe2ac14d73f6c7e319d3b3",
+      "byte_identical": true
+    },
+    {
+      "file": "experiments/Pilot-B/figures/PilotB_MB1_seven_groups.svg",
+      "published_sha256": "0520ff483a00e0be5c37518c03af0a5609a3db6c2e9a1b6b450aa597a2fc1e6f",
+      "private_original_sha256": "0520ff483a00e0be5c37518c03af0a5609a3db6c2e9a1b6b450aa597a2fc1e6f",
+      "byte_identical": true
+    },
+    {
+      "file": "experiments/Pilot-B/figures/PilotB_muscle_AP_FP.svg",
+      "published_sha256": "6d98e816f0bc5cbd096c3ab50f976986fe34c1409d452b840193a18264ed6555",
+      "private_original_sha256": "6d98e816f0bc5cbd096c3ab50f976986fe34c1409d452b840193a18264ed6555",
+      "byte_identical": true
+    },
+    {
+      "file": "experiments/Pilot-B/figures/PilotB_MV3_source_deltas.svg",
+      "published_sha256": "b49cf6c2882bcbd4f474dd9b4292aa64c1f734f2982c4f94dd36400e1304dc2e",
+      "private_original_sha256": "b49cf6c2882bcbd4f474dd9b4292aa64c1f734f2982c4f94dd36400e1304dc2e",
+      "byte_identical": true
+    },
+    {
+      "file": "experiments/Pilot-B/figures/PilotB_readout_directions.svg",
+      "published_sha256": "283c9eac363aedefb78aa3de78680a19cba985840ca1c50559603415d04d1d7b",
+      "private_original_sha256": "283c9eac363aedefb78aa3de78680a19cba985840ca1c50559603415d04d1d7b",
+      "byte_identical": true
+    },
+    {
+      "file": "experiments/Pilot-B/linear/complete.json",
+      "published_sha256": "843658286514c875fd636f4b978c56895afec06c2a769fef00a8d527e3510400",
+      "private_original_sha256": "843658286514c875fd636f4b978c56895afec06c2a769fef00a8d527e3510400",
+      "byte_identical": true
+    },
+    {
+      "file": "experiments/Pilot-B/linear/fit_complete.json",
+      "published_sha256": "96ca42258a7c953a18923bdb23600323cb19fc9b6641bb93dd16b5ccb753dc93",
+      "private_original_sha256": "96ca42258a7c953a18923bdb23600323cb19fc9b6641bb93dd16b5ccb753dc93",
+      "byte_identical": true
+    },
+    {
+      "file": "experiments/Pilot-B/linear/pixel_metrics.csv",
+      "published_sha256": "2bcfafa2ccf35983bcf9cf4fd65e1c00639f2aeb9a234faa5b1e388145a576bd",
+      "private_original_sha256": "2bcfafa2ccf35983bcf9cf4fd65e1c00639f2aeb9a234faa5b1e388145a576bd",
+      "byte_identical": true
+    },
+    {
+      "file": "experiments/Pilot-B/linear/spectrum.csv",
+      "published_sha256": "db4f9ec32705b0ce056ab32625cc16ec60923c5b86c3aaca5a4c1f534704312b",
+      "private_original_sha256": "db4f9ec32705b0ce056ab32625cc16ec60923c5b86c3aaca5a4c1f534704312b",
+      "byte_identical": true
+    },
+    {
+      "file": "experiments/Pilot-B/linear/spectrum_distribution.csv",
+      "published_sha256": "c990bad3c85616ea917b7c9f5d296cfb63d8bbaab5315adb59eb1a7273297939",
+      "private_original_sha256": "c990bad3c85616ea917b7c9f5d296cfb63d8bbaab5315adb59eb1a7273297939",
+      "byte_identical": true
+    },
+    {
+      "file": "experiments/Pilot-B/PilotB_dev_paired_vs_100k.csv",
+      "published_sha256": "57efcc5e4a066cb34afe73c475e57ea288da32f7b986e24b9383b084a92693f9",
+      "private_original_sha256": "57efcc5e4a066cb34afe73c475e57ea288da32f7b986e24b9383b084a92693f9",
+      "byte_identical": true
+    },
+    {
+      "file": "experiments/Pilot-B/PilotB_dev_per_region.csv",
+      "published_sha256": "c04b101aad6e96979072a1621e0af3946373456e2c166737f130f59e2bb9def5",
+      "private_original_sha256": "c04b101aad6e96979072a1621e0af3946373456e2c166737f130f59e2bb9def5",
+      "byte_identical": true
+    },
+    {
+      "file": "experiments/Pilot-B/PilotB_dev_per_source.csv",
+      "published_sha256": "456406e12dd1892b6526a9cb82d41bda04b0374d579c8088b714ac1b612b4979",
+      "private_original_sha256": "456406e12dd1892b6526a9cb82d41bda04b0374d579c8088b714ac1b612b4979",
+      "byte_identical": true
+    },
+    {
+      "file": "experiments/Pilot-B/PilotB_Linear23_comparison.csv",
+      "published_sha256": "3af391fd9b0a10fb3d564135b193cbe3b28c86c8c4d464d2413743221df482ab",
+      "private_original_sha256": "3af391fd9b0a10fb3d564135b193cbe3b28c86c8c4d464d2413743221df482ab",
+      "byte_identical": true
+    },
+    {
+      "file": "experiments/Pilot-B/PilotB_MB1_per_dataset.csv",
+      "published_sha256": "b45acc0f01858efda8291bf02c09c3e040bf5a01746fa55795f56645fc355e04",
+      "private_original_sha256": "b45acc0f01858efda8291bf02c09c3e040bf5a01746fa55795f56645fc355e04",
+      "byte_identical": true
+    },
+    {
+      "file": "experiments/Pilot-B/PilotB_muscle_Primus_per_image.csv",
+      "published_sha256": "43872f577604bec129fe98c7e3440a4c43bc93d3275629a975d743752de9c78b",
+      "private_original_sha256": "43872f577604bec129fe98c7e3440a4c43bc93d3275629a975d743752de9c78b",
+      "byte_identical": true
+    },
+    {
+      "file": "experiments/Pilot-B/PilotB_new_MB1_per_image.csv",
+      "published_sha256": "5531eb6a1d9621fa5c228d6892d03b502ca25f07a600927fd27ecaded4f5a7ff",
+      "private_original_sha256": "5531eb6a1d9621fa5c228d6892d03b502ca25f07a600927fd27ecaded4f5a7ff",
+      "byte_identical": true
+    },
+    {
+      "file": "experiments/Pilot-B/PilotB_summary.json",
+      "published_sha256": "c9e0ff29c868794244a447fabe112562340df87da1a29033d79c655c70e10569",
+      "private_original_sha256": "c9e0ff29c868794244a447fabe112562340df87da1a29033d79c655c70e10569",
+      "byte_identical": true
+    },
+    {
+      "file": "experiments/Pilot-B/protocol.json",
+      "published_sha256": "9783f2dc321c368eeeaf01f5fb54f2248429fabbeb7f523e8695b003cb32bc8f",
+      "private_original_sha256": "041fb5928bebe6328ca6b3f8f352bae3df4a0df43d36f70448ab0fc54dd0f2df",
+      "byte_identical": false
+    },
+    {
+      "file": "experiments/Pilot-B/run_index.json",
+      "published_sha256": "70a7247db70ce62ddd127f3789173794fdc74becf2a592100ba932e91d891875",
+      "private_original_sha256": "dbb6a57f3e97346937d11a0f1944e78ed1adeb56fd2d8f95b0efc8e2dd24a398",
+      "byte_identical": false
+    },
+    {
+      "file": "experiments/Pilot-B/STATUS.json",
+      "published_sha256": "d045b13d4d864c8df89432f87d2894cb3f4533673b2e754e59e893749f9c7dad",
+      "private_original_sha256": "d045b13d4d864c8df89432f87d2894cb3f4533673b2e754e59e893749f9c7dad",
+      "byte_identical": true
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-> 2026-10-27新授权：直接执行Pilot A2，先同像素原始评分，再隔离进程只用MV3 train312视野求两个全局偏置，最后固定五来源评分。独立分支codex/pilot-a2-readout-calibration；两组Probe分别训练，不能将logit变化归因Encoder共模漂移。禁止View-Mean/PCA/来源专用校准/额外搜索/新模型训练。此时准备完成尚未声称启动；状态见experiments/Pilot-A2/run_index.json。
+> Pilot A2已完成并停止（2026-10-27）：同像素肌肉AUROC0.9429→0.9207、AP0.5043→0.3228；train-only偏置使100k Dice0.2906→0.3666、远端FP9.72%→1.93%，但Recall0.8019→0.3986，四控制来源Dice均下降。关闭全局偏置主修复路线；两Probe分别训练，Encoder共模原因仍INCONCLUSIVE。先读docs/Pilot_A2_Readout_Calibration_Report.md及work log40。GPU3运行50.2秒、服务inactive/退出0、网站200、历史输入SHA不变；无新模型训练、不自动后续实验。
 
 > 2026-10-27后续仅方案：已制定docs/Readout_Calibration_Minimal_Design.md，D2/30k与100k第23层同像素排序及MV3-train-only全局偏置对照。状态PLANNED/DESIGN_ONLY，用户尚未授权执行；不估计偏置、不启动评分或新训练。先读该方案及work log39。Pilot A仍已完成，既有模型、指标和registry不变。
 

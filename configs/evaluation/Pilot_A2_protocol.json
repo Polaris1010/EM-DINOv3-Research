@@ -41,7 +41,7 @@
     "frozen_final_scoring"
   ],
   "GT_use": "evaluation GT for scoring only; fit process denies evaluation labels, MB paths and baseline metric files",
-  "code_commit": "UNVERIFIED",
+  "code_commit": "225e3c6e8b9b34c5c2c487a2d9a317a947caf647",
   "GPU0_used": false,
   "network_updates": 0,
   "encoder_forward_calls": 0,

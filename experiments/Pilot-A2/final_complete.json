@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "seconds": 8.641356706619263,
+  "evaluation_GT_use": "scoring_only",
+  "bias_sha256": "144a75ca499676beb8cdc6f868f0516f3d7019a450855dce60e5d0ea3346ce17",
+  "models": [
+    "D2-30k",
+    "D2-100k"
+  ],
+  "sources": [
+    "openorganelle",
+    "guay21",
+    "muller21",
+    "glycolytic_muscle",
+    "hela_cell"
+  ],
+  "random_crops": 320,
+  "historical_error_case_excluded": true,
+  "network_updates": 0,
+  "encoder_forward_calls": 0
+}

@@ -1,0 +1,11 @@
+{
+  "pixel_ranking_decline_muscle": "SUPPORTED",
+  "joint_muscle_repair_and_control_preservation": "CONTRADICTED",
+  "encoder_spatial_common_mode_cause": "INCONCLUSIVE",
+  "decision": "Retire global-bias repair as main direction; do not initiate spatial-common-mode method development",
+  "D2_100k_muscle_Dice_gain": 0.07599093592076417,
+  "D2_100k_muscle_Recall_cost": 0.40335869685082787,
+  "D2_100k_remote_FP_relative_reduction": 0.8011044107748733,
+  "apparent_gap_closure_from_30k_deterioration_fraction": 0.7399146560624774,
+  "further_experiments_started": false
+}

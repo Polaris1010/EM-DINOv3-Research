@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "observed_utc": "2026-10-27T09:56:47.555760+00:00",
+  "registry": "61 entries; generation matches evidence",
+  "repository_validation": {
+    "status": "PASS",
+    "text_files_scanned": 2207,
+    "gpu_used": false
+  },
+  "unit_tests": {
+    "tests": 51,
+    "skipped": 3,
+    "status": "OK"
+  },
+  "independent_validation": "evidence/Pilot-A2/independent_validation.json",
+  "GPU_numerical_smoke": "evidence/Pilot-A2/numerical_smoke.json",
+  "scientific_figures": "3 SVG/PNG pairs visually reviewed",
+  "diff_check": "PASS",
+  "network_training_started": false
+}

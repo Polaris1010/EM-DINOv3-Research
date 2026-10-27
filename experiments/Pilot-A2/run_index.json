@@ -1,14 +1,22 @@
 {
   "stage": "Pilot-A2",
-  "status": "PLANNED",
+  "status": "VERIFIED_COMPLETED",
   "server_root": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027",
   "service": "pilot-a2-readout-calibration-20261027.service",
   "protocol": "configs/evaluation/Pilot_A2_protocol.json",
   "report_path": "docs/Pilot_A2_Readout_Calibration_Report.md",
-  "metrics_path": "UNVERIFIED",
-  "code_commit": "UNVERIFIED",
+  "metrics_path": "experiments/Pilot-A2/tables/final_source_metrics.csv",
+  "code_commit": "225e3c6e8b9b34c5c2c487a2d9a317a947caf647",
   "network_updates": 0,
   "encoder_forward_calls": 0,
   "GPU0_used": false,
-  "historical_results_read_only": true
+  "historical_results_read_only": true,
+  "execution_state": "COMPLETE_STOPPED",
+  "status_evidence": "evidence/Pilot-A2/delivery_manifest.json",
+  "observed_utc": "2026-10-27T09:41:34.644068+00:00",
+  "physical_GPU": 3,
+  "website_http": 200,
+  "historical_inputs_unchanged": true,
+  "conclusions": "experiments/Pilot-A2/conclusions.json",
+  "new_model_training": false
 }

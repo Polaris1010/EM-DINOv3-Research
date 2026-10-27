@@ -1,0 +1,167 @@
+{
+  "utc": "2026-10-27T09:41:34.644068+00:00",
+  "service": "MainPID=0\nExecMainStatus=0\nActiveState=inactive\n",
+  "website_http": 200,
+  "status": {
+    "status": "complete",
+    "seconds": 50.223233468830585,
+    "physical_GPU": 3,
+    "GPU0_used": false,
+    "website_http": 200,
+    "historical_inputs_unchanged": true,
+    "encoder_forward_calls": 0,
+    "network_updates": 0,
+    "further_experiments_started": false
+  },
+  "environment": {
+    "python": "3.11.9 (main, Apr 19 2024, 16:48:06) [GCC 11.2.0]",
+    "torch": "2.5.1",
+    "CUDA": "12.4"
+  },
+  "files": [
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/STATUS.json",
+      "relative": "STATUS.json",
+      "bytes": 259,
+      "sha256": "68e96509b37d52d490b0e7bcd92d6df8f1794161660f6d29e699cd95c1d623d6"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/baseline_complete.json",
+      "relative": "baseline_complete.json",
+      "bytes": 399,
+      "sha256": "02965d1746fc6a1116476d9b1ef7d353b8fd788a9031af38a3ca3c8d6e14e689"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/evidence/GPU_launch.json",
+      "relative": "evidence/GPU_launch.json",
+      "bytes": 546,
+      "sha256": "da55ff9826a003825670a8da9610410f10a2413580ce7f93ab100daac3721946"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/evidence/inputs_after.json",
+      "relative": "evidence/inputs_after.json",
+      "bytes": 1835,
+      "sha256": "f5b68908b54d0ed822f0c9cbe1d1253bb125fe5441d4a1d7b84c6e620004adce"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/evidence/inputs_before.json",
+      "relative": "evidence/inputs_before.json",
+      "bytes": 1835,
+      "sha256": "f5b68908b54d0ed822f0c9cbe1d1253bb125fe5441d4a1d7b84c6e620004adce"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/evidence/numerical_smoke.json",
+      "relative": "evidence/numerical_smoke.json",
+      "bytes": 416,
+      "sha256": "dab66e9e889e203568837acbb4f25782e0dcf586e2f65ba8bdbccc012a098a6a"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/final_complete.json",
+      "relative": "final_complete.json",
+      "bytes": 461,
+      "sha256": "6fad4e70d1eb7d5a7c4f805ae213255b21a36204c2abe23a9285644235d48285"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/progress.json",
+      "relative": "progress.json",
+      "bytes": 86,
+      "sha256": "1cbc0d8d9c32f98e753edc8d36954991f7d045fb1558df517f580e74a8005893"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/protocol.json",
+      "relative": "protocol.json",
+      "bytes": 1855,
+      "sha256": "a7f28d821011ee3b073af34fd4259b9ad68277b83aa37927672b9a5aa26ba59c"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/tables/PR_curves.csv",
+      "relative": "tables/PR_curves.csv",
+      "bytes": 377508,
+      "sha256": "a65d8954b4c135a0a6e4d840f8a5561c2903407f72f947a80bc0d4918892c5eb"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/tables/baseline_pixel_discrimination.csv",
+      "relative": "tables/baseline_pixel_discrimination.csv",
+      "bytes": 2724,
+      "sha256": "b6ccec1d5755997fcc98d1f0e0ae66360e2be6e8425dbcd0d0a9bce4f54ccb49"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/tables/baseline_pixel_metrics.csv",
+      "relative": "tables/baseline_pixel_metrics.csv",
+      "bytes": 148785,
+      "sha256": "67f38e8cec89ad91b3706d221b210a244dab657093c5b41aaf08bbbeaa5566db"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/tables/baseline_source_metrics.csv",
+      "relative": "tables/baseline_source_metrics.csv",
+      "bytes": 2433,
+      "sha256": "bd6e456288d09db7a7c174becd9f2b903faff01eb2bbb7e5cd779ed95dc08a6a"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/tables/bootstrap_draws_glycolytic_muscle.csv",
+      "relative": "tables/bootstrap_draws_glycolytic_muscle.csv",
+      "bytes": 66399,
+      "sha256": "fa42409622ce9a5818120b3f702648341413652e5873eba1776ab7d0792e9017"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/tables/bootstrap_draws_guay21.csv",
+      "relative": "tables/bootstrap_draws_guay21.csv",
+      "bytes": 67088,
+      "sha256": "2553798fc8faa793ffc8973aa85c991c72a95d359bd0a345084877a14a851753"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/tables/bootstrap_draws_hela_cell.csv",
+      "relative": "tables/bootstrap_draws_hela_cell.csv",
+      "bytes": 66747,
+      "sha256": "82e912d529e16df1628276425502d1a37597d1e44b33d3ec8ee77ec798e12a27"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/tables/bootstrap_draws_muller21.csv",
+      "relative": "tables/bootstrap_draws_muller21.csv",
+      "bytes": 70879,
+      "sha256": "f550d967dd0bfc74cb395877dacd438620d6d8b02fd3b1c3c39c655725b18f60"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/tables/bootstrap_draws_openorganelle.csv",
+      "relative": "tables/bootstrap_draws_openorganelle.csv",
+      "bytes": 70096,
+      "sha256": "74cb633c9e81cb439fb0e6021ed6af8fd97ab1e56fb5a82fba7b77eacafc2155"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/tables/class_score_quantiles.csv",
+      "relative": "tables/class_score_quantiles.csv",
+      "bytes": 3132,
+      "sha256": "6c97c420a3bd66bd4d7d751b8a07fd9d7157a55965e8e9e81243067fe42fcf25"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/tables/final_pixel_discrimination.csv",
+      "relative": "tables/final_pixel_discrimination.csv",
+      "bytes": 2724,
+      "sha256": "b6ccec1d5755997fcc98d1f0e0ae66360e2be6e8425dbcd0d0a9bce4f54ccb49"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/tables/final_pixel_metrics.csv",
+      "relative": "tables/final_pixel_metrics.csv",
+      "bytes": 307243,
+      "sha256": "43d707994c5cee66259ef9ab93fdabc71147411b04448ec1f1fef17931b26d86"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/tables/final_source_metrics.csv",
+      "relative": "tables/final_source_metrics.csv",
+      "bytes": 4885,
+      "sha256": "a3f7c6c4032693dc7b3fddb21f0a3fbc78e35e2aec2fad56164b43a9a81069cf"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/tables/paired_changes.csv",
+      "relative": "tables/paired_changes.csv",
+      "bytes": 9910,
+      "sha256": "5eeb0fe290725a8c3617b0fab7c62b9da14c6c276e06b920aee9f9e248370ade"
+    },
+    {
+      "remote": "/opt/data/3_117/tanghr/codex/pilot_a2_readout_calibration_20261027/train_only_bias.json",
+      "relative": "train_only_bias.json",
+      "bytes": 13650,
+      "sha256": "144a75ca499676beb8cdc6f868f0516f3d7019a450855dce60e5d0ea3346ce17"
+    }
+  ]
+}

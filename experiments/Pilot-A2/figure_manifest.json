@@ -1,0 +1,20 @@
+[
+  {
+    "file": "experiments/Pilot-A2/figures/A2_Dice_Recall_FP_tradeoff.svg",
+    "sha256": "850892dff13f2b6ea85a77c8b49a1eca516eb78c7a29ecda2514061a8dbf6ab5",
+    "source": "completed CSV only",
+    "local_plotting_matplotlib": "3.8.4"
+  },
+  {
+    "file": "experiments/Pilot-A2/figures/A2_pixel_ranking_changes.svg",
+    "sha256": "99b9ab787348a4f81d8109f1936888804c248da45957bb36b945264f2ed1ade2",
+    "source": "completed CSV only",
+    "local_plotting_matplotlib": "3.8.4"
+  },
+  {
+    "file": "experiments/Pilot-A2/figures/A2_PR_curves.svg",
+    "sha256": "1b3f03bf59275cf67249c5c236c336f94d7a646c2bc025b38a6abc558e49904f",
+    "source": "completed CSV only",
+    "local_plotting_matplotlib": "3.8.4"
+  }
+]

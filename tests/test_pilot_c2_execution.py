@@ -1,7 +1,7 @@
 """CPU-only guards for the new long-running fixed C-2 execution."""
 import unittest,importlib.util,os,hashlib,json
 from pathlib import Path
-from unittest.mock import patch
+from unittest.mock import patch,Mock
 ROOT=Path(__file__).resolve().parents[1]
 class Job:
  def __init__(self,status):self.status=status
@@ -19,6 +19,10 @@ class C2Guards(unittest.TestCase):
   m=controller();c=m.Controller.__new__(m.Controller);c.assignments={Job(0):[1,2]}
   with patch.object(m,'gpus',return_value={1:{'memory':0,'util':0},2:{'memory':12000,'util':99}}):
    self.assertTrue(c.idle(1));self.assertFalse(c.idle(2))
+ def test_launch_waits_for_device_release_without_overriding_busy_state(self):
+  m=controller();c=m.Controller.__new__(m.Controller);c.idle=Mock(side_effect=[False,True]);c.health=Mock()
+  with patch.object(m.time,'sleep') as sleep:c.wait_idle([3])
+  c.health.assert_called_once();sleep.assert_called_once_with(2);self.assertEqual(c.idle.call_count,2)
  def test_accepted_core_budget_and_readout_algorithms_are_fixed(self):
   p=json.loads((ROOT/'configs/pretrain/Pilot_C2_protocol.json').read_text())
   self.assertEqual((p['initial_step'],p['final_step'],p['additional_updates_per_model']),(30000,45000,15000))

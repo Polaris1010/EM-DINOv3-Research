@@ -27,8 +27,13 @@ class Controller:
   assert time.monotonic()-self.start<18*3600 and website()==200
   assert all(x.poll() in (None,0) for x in self.children),'An owned job failed; preserve existing outputs'
   atomic(R/'STATUS.json',{'status':'running','phase':self.phase,'seconds':time.monotonic()-self.start,'GPU0_used':False,'website_http':200,'fixed_SSL_final_step':45000,'Primus_steps':40000,'no_extra_experiments':True})
+ def wait_idle(self,devices):
+  started=time.monotonic()
+  while not all(self.idle(i) for i in devices):
+   assert time.monotonic()-started<600,'Requested permitted GPU remained busy; never displace an unknown job'
+   self.health();time.sleep(2)
  def launch(self,file,args=(),devices=(),model=None,ssl=False):
-  assert all(self.idle(i) for i in devices)
+  self.wait_idle(devices)
   env={**os.environ,'CUDA_VISIBLE_DEVICES':','.join(self.mapping[i]['uuid'] for i in devices),'D12_ROOT':str(R.parent/'ssl_diversity_d12_100k_20261018'),'OMP_NUM_THREADS':'4' if ssl else '2','MKL_NUM_THREADS':'4' if ssl else '2','OPENBLAS_NUM_THREADS':'2','PYTHONDONTWRITEBYTECODE':'1','CUDA_CACHE_PATH':str(R/'cache/cuda'),'CUPY_CACHE_DIR':str(R/'cache/cupy'),'PYTORCH_KERNEL_CACHE_PATH':str(R/'cache/pytorch'),'PYTHONPATH':str(R.parent/'mitotopo_20260908_round2/deps')+':'+str(A/'DINOv3/dinov3'),'PILOT_C1_TEST_CUDA':'1'}
   if model:env['PILOT_C2_MODEL']=model
   command=[str(SSL if ssl else PY)]

@@ -1,3 +1,4 @@
+- [20261027_39_readout_calibration_design.md](20261027_39_readout_calibration_design.md)
 - [20261027_38_feature_pilot_a.md](20261027_38_feature_pilot_a.md)
 - [20261026_37_repository_public.md](20261026_37_repository_public.md)
 - [20261022_36_coverage_nr_complete.md](20261022_36_coverage_nr_complete.md)

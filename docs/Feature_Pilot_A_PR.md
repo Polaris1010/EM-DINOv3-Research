@@ -10,3 +10,5 @@ Validation: GPU numerical smoke; independent reconciliation of 8,025 crop rows, 
 Server service stopped successfully; GPU0 unused, website HTTP200, historical checkpoint hashes unchanged. Pilot B/C and further experiments were not started. Draft only; no automatic merge.
 
 Report: [Feature_Mechanism_Pilot_Report.md](https://github.com/Polaris1010/EM-DINOv3-Research/blob/codex/feature-mechanism-pilot-a/docs/Feature_Mechanism_Pilot_Report.md).
+
+Follow-up design only (not executed): [minimal readout-calibration diagnostic](https://github.com/Polaris1010/EM-DINOv3-Research/blob/codex/feature-mechanism-pilot-a/docs/Readout_Calibration_Minimal_Design.md). Align ranking and segmentation on the same native pixels, then freeze two global bias terms determined solely from MV3 train. MB1 labels are used only for final scoring. No new network training, feature extraction, calibration fitting or scoring was started in this follow-up.

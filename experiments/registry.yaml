@@ -6563,6 +6563,60 @@
       "linear_seed": 20261027,
       "linear_AP_gate": false,
       "new_SSL_steps": 0
+    },
+    {
+      "experiment_id": "Pilot-C1",
+      "status": "VERIFIED_COMPLETED",
+      "research_question": "Complete30k state restoration, selective one-sided Gram implementation, matched20-step smoke and measured budget",
+      "dataset_manifest": "experiments/D12/D2_manifest.json",
+      "dataset_manifest_sha256": "33e1926394681779818d39b147ee07b3d09468e0551f2523fe77fefdd5ceb1e8",
+      "ssl_exposure": "Unchanged historical D2 MitoVerse/CEM image-only pools and holdouts; no new labels",
+      "supervised_train_split": "NONE_IMAGE_ONLY",
+      "validation_split": "NOT_ACCESSED",
+      "test_split": "NO_GT_READS",
+      "backbone": "Trainable DINOv3 ViT-L/16 student plus online EMA; one fixed frozen30k anchor for C1",
+      "initial_checkpoint": "codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/full.pth",
+      "initial_checkpoint_sha256": "cce40d90b9e4f03eae9231f7516cd1a81d49e8b369db9380dbb3b30f7d82967f",
+      "final_checkpoint": "NOT_SAVED_SMOKE_ONLY",
+      "final_checkpoint_sha256": "UNVERIFIED",
+      "decoder": "NONE",
+      "decoder_source_commit": "UNVERIFIED",
+      "decoder_checkpoint": "UNVERIFIED",
+      "decoder_seed": "UNVERIFIED",
+      "train_config": "configs/pretrain/Pilot_C1_protocol.json",
+      "resolved_config_sha256": "ce999e35f4da275f499748c29c41cf7f5bcc2927ccdb6be2fd180ff4717ca087",
+      "code_commit": "2879291f0733b025c8757e292f7aa57c6f59fe5c",
+      "python_executable": "${RESEARCH_ROOT}/dinov3_shared/bin/python",
+      "global_batch": 48,
+      "optimizer_steps": 20,
+      "learning_rate": "Actual inherited100k schedule at steps30000..30019, AdamW state restored; WD0.04",
+      "tta": false,
+      "normalization": "Unchanged SSL global256/local112x8 official RGB normalization",
+      "inference_protocol": "NOT_APPLICABLE_NO_DOWNSTREAM_EVALUATION",
+      "metrics_path": "experiments/Pilot-C/PilotC1_summary.json",
+      "report_path": "docs/Pilot_C_Preflight_and_Budget.md",
+      "limitations": [
+        "Engineering preflight, not segmentation efficacy or prevention of100k forgetting",
+        "Student has original iBOT/DropPath; anchor eval unmasked; activation does not identify drift mechanism",
+        "20-step throughput extrapolation; production estimate removes diagnostic-only student forward/VJP",
+        "No15k training or downstream heads authorized; stop after final report"
+      ],
+      "evidence": [
+        "experiments/Pilot-C/run_index.json",
+        "configs/pretrain/Pilot_C1_protocol.json",
+        "evidence/Pilot-C/checkpoint_restore_summary.json",
+        "evidence/Pilot-C/paired_consistency.json",
+        "evidence/Pilot-C/stopped_receipt.json"
+      ],
+      "server_root": "${RESEARCH_ROOT}/codex/pilot_c1_barrier_preflight_20261027",
+      "smoke_steps_per_branch": 20,
+      "formal_SSL_steps": 0,
+      "Primus_steps": 0,
+      "barrier_lambda_locked": 1,
+      "runtime_source_commits": {
+        "C0": "abf21bb703e01393a89d238e394e8d297d8dcc9a",
+        "C1": "2879291f0733b025c8757e292f7aa57c6f59fe5c"
+      }
     }
   ]
 }

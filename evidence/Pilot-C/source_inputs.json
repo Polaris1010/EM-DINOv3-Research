@@ -1,0 +1,41 @@
+{
+  "runtime_source_commits": {
+    "C0": "abf21bb703e01393a89d238e394e8d297d8dcc9a",
+    "C1": "2879291f0733b025c8757e292f7aa57c6f59fe5c"
+  },
+  "legacy_sources": {
+    "train_ssl.py": {
+      "sha256": "ec1cb647ee46912388192e86dd240bd23736f0bcfcc93df13fbfbf8ddd48de3d"
+    },
+    "common.py": {
+      "sha256": "326e1178c07272e907f44a23f71cf61fa6cee44a7f519c9fa16ee5287d729250"
+    },
+    "policy.py": {
+      "sha256": "57fad54cbea41dce7ee5cd69479cb61570b6870449e34f0fe932eb27df1ed09b"
+    },
+    "runtime_guard.py": {
+      "sha256": "2204a59c9c16cc346ce4c0e3e27d4b52d62ad141b3bb7621331a5492b5a6dab1"
+    },
+    "ssl_full_data.py": {
+      "sha256": "6eede1e8c4af091ea9746c60ca40f3d765e39690867035cf8855b5f145e9bb7c"
+    },
+    "legacy_ssl_data.py": {
+      "sha256": "7c347451788969f5b49acc58d53f103cef0d771deb27b4a012443e9f6613b560"
+    },
+    "ssl_meta_arch.py": {
+      "sha256": "1b11d7f9f94e6292c3be141ac50ebd10d7357103cb63ce4965b69e3da4ff0781"
+    },
+    "vision_transformer.py": {
+      "sha256": "1af05405e19bc42188f80bfcb204b87ed1ec72af998e0bbd4658a85d7fae93f2"
+    },
+    "initialization.json": {
+      "sha256": "43d2dde443d9c631465cf1e248da34cb9965184174bb80cc871ac0b858a30fd8"
+    },
+    "D12_base.yaml": {
+      "sha256": "159f45566320f9b583968aa8e9ffb07392d521bfa227b1ca0b4a4bde11f152d7"
+    }
+  },
+  "original_full_preflight_receipt_sha256": "e3094734e622f62ead3c3d2afcfc1861e0ee8dd71706d4fdea3c014f3c8513eb",
+  "raw_receipt_retained_privately": true,
+  "no_package_upgrades": true
+}

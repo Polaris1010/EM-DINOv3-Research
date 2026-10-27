@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": {
+    "python scripts/validate_pilot_c1.py": "PASS: 120 rank-step rows, 60 paired checks, 40 per-step rows; runtime source SHA matches; historical62 records unchanged",
+    "python scripts/update_registry.py --check": "PASS: 63 records",
+    "python scripts/validate_repository.py": "PASS: 115 provenance snapshots, 664 historical snapshots",
+    "python -m unittest discover -s tests -v": "OK: 51 tests, 3 existing Windows platform skips"
+  },
+  "server_GPU_tests": "6 Barrier tests passed on an allowed GPU; no optimizer updates in unit tests",
+  "new_public_host_identifiers_scan": "No internal absolute server paths, private IPs or GPU UUIDs in new delivery",
+  "additional_training_started_by_checks": false
+}

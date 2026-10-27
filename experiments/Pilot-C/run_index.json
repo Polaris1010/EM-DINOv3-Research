@@ -1,0 +1,23 @@
+{
+  "stage": "Pilot-C1",
+  "status": "VERIFIED_COMPLETED",
+  "protocol": "configs/pretrain/Pilot_C1_protocol.json",
+  "report_path": "docs/Pilot_C_Preflight_and_Budget.md",
+  "metrics_path": "experiments/Pilot-C/PilotC1_summary.json",
+  "server_root": "${RESEARCH_ROOT}/codex/pilot_c1_barrier_preflight_20261027",
+  "runtime_source_commits": {
+    "C0": "abf21bb703e01393a89d238e394e8d297d8dcc9a",
+    "C1": "2879291f0733b025c8757e292f7aa57c6f59fe5c"
+  },
+  "code_commit": "2879291f0733b025c8757e292f7aa57c6f59fe5c",
+  "completed_smoke_updates_per_branch": 20,
+  "formal_SSL_steps": 0,
+  "Primus_steps": 0,
+  "initial_checkpoint_relative": "codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/full.pth",
+  "initial_checkpoint_sha256": "cce40d90b9e4f03eae9231f7516cd1a81d49e8b369db9380dbb3b30f7d82967f",
+  "anchor_EMA_sha256": "7db12e7ff8bee45166aaeeda1d94365e696ddaecf0c57a0d1611a891cf0d3eda",
+  "lambda_locked": 1,
+  "GPU0_used": false,
+  "stopped": true,
+  "PR_status": "not_created_yet"
+}

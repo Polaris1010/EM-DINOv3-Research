@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "rank_step_rows": 120,
+  "paired_rank_steps": 60,
+  "per_step_rows": 40,
+  "prior_registry_records_unchanged": 62,
+  "runtime_source_SHA_match": true,
+  "max_updates_per_branch": 20,
+  "formal_training_started": false
+}

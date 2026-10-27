@@ -1,0 +1,18 @@
+{
+  "python": "3.11.9",
+  "executable": "/opt/data/3_117/tanghr/envs/meddinov3/bin/python",
+  "platform": "Linux-5.15.0-107-generic-x86_64-with-glibc2.35",
+  "code_commit": "772f0fb88fe2ebab3ce61cd39a483e1a44456a36",
+  "source_sha256": {
+    "stats.py": "88e7bfa93db5c1d54e7aba6025e97f368bb063678d6a282de9930403abf4a9da",
+    "common.py": "931e9037aae8cb4140b3d17dd459cd861247d895688100173b095ad64eb0a535",
+    "run.py": "cf3f4e163b00901a5bab892e9e6b3682af3d092da0f0339618c56fd423ba4593",
+    "smoke.py": "671647566339e91ffd1160deda0efb5627ec17592bf44a17f2558b6e7fb4020a",
+    "report.py": "d7438558757e20316b7f6c76fa92d7fc09ba426bca6ddd52daecfd97ca5107be",
+    "analyze.py": "154da32bdc7fe885cb9ac161493b991b3bc35d1fa81563894550ac372020a411",
+    "model_stage.py": "8b144d8608afb4fba35af70c0a71fe09af29b170d5864621c5ebbb9bc0ad8ed7",
+    "plan.py": "999232b3244a36bcc2466221887313121289a9be2893cb65cebead8e3cf9db46",
+    "data_stage.py": "31def3449465285eaf889a7e804e913603e6f8630c46923f8458a03e163f6b61"
+  },
+  "manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "LOCKED_BEFORE_FEATURES",
+  "seed": 20261027,
+  "samples_sha256": "18622e1374467fe8a480f1b8a13e15370b51ac3386039d389bc4f55351c11458",
+  "protocol_sha256": "3e7346fb81a48725209567743e7d022aac12982d956cf2e5cc47ff0a8bb13129",
+  "by_role": {
+    "train": 312,
+    "eval": 321
+  },
+  "random_by_source": {
+    "openorganelle": 64,
+    "guay21": 64,
+    "muller21": 64,
+    "glycolytic_muscle": 64,
+    "hela_cell": 64
+  },
+  "train_regions": 156,
+  "evaluation_GT_read": false,
+  "prediction_selection_used": false,
+  "historical_case_excluded_from_random": true,
+  "created_at": 1793039555.5124466
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "archived_server_files_sha256_verified": 41,
+  "PNG_review_artifacts_not_committed": [
+    "figures/muscle_examples_REVIEW_ONLY.png",
+    "figures/D2_paired_AUROC_delta.png",
+    "figures/effective_rank_all_sources.png",
+    "figures/AUROC_all_sources.png"
+  ],
+  "pixel_rows_reconciled": 8025,
+  "pooled_source_rows_reconciled": 125,
+  "separability_rows": 300,
+  "paired_AUROC_rows_reconciled": 40,
+  "spectral_distributions_reconciled": 300,
+  "same_GT_counts_across_models_and_layers": true,
+  "historical_error_case_excluded_from_pooled_metrics": true,
+  "identical_train_minibatch_hash_all_models": "52112acd1aca39ebbf17bd943efa09cfe9bef677dda93f6f3328d79c02b2ba54",
+  "unchanged_historical_registry_entries": 59,
+  "scope": "CSV/hash reconciliation only; no new images, model computation or training"
+}

@@ -1,0 +1,42 @@
+{
+  "status": "reviewed_final",
+  "supersedes_interpretation_only": "verdicts.json",
+  "raw_tables_unchanged": true,
+  "questions": [
+    {
+      "question": 1,
+      "status": "INCONCLUSIVE",
+      "claim": "D2/30k到100k出现稳定、读出无关的前景/背景可分性下降",
+      "finding": "肌肉linear AUROC在5/23层下降、11层上升、17层区间跨0；prototype四层点估计均上升，23层0.5138→0.9105。"
+    },
+    {
+      "question": 2,
+      "status": "SUPPORTED",
+      "claim": "主要谱变化位于深层23；此裁决限于谱结构",
+      "finding": "肌肉有效秩33.3074→21.8166，五来源23层均下降；语义退化的统一层位仍INCONCLUSIVE。"
+    },
+    {
+      "question": 3,
+      "status": "SUPPORTED",
+      "claim": "固定轻量读出在肌肉上复现分割退化和远端误检增加",
+      "finding": "23层linear Dice0.5090→0.2906、远端FP率0.003088→0.097238；已有Primus同视野Dice0.4785→0.2018。"
+    },
+    {
+      "question": 4,
+      "status": "INCONCLUSIVE",
+      "claim": "周期性与肌肉误激活存在稳定的正向统计关联",
+      "finding": "Primus rho0.0914，Z块95%区间[-0.0132,0.1866]；linear23原始rho为负、控制后接近0，证据依赖读出与控制方式。"
+    },
+    {
+      "question": 5,
+      "status": "INCONCLUSIVE",
+      "claim": "当前证据足以支持一种具体的预训练结构保持约束",
+      "finding": "深层谱压缩和分割退化已观测到，语义混淆及周期纹理机制证据未闭合；本轮不据此实施Topo-Anchor。"
+    }
+  ],
+  "review_notes": [
+    "Automatic Q4 used positive point estimates and two strata, without the block interval; final review marks stable association INCONCLUSIVE.",
+    "Automatic Q2 did not localize the observed spectrum change; final SUPPORTED is explicitly restricted to deep-layer spectral compression.",
+    "Original generated report is preserved byte-for-byte; the final report is docs/Feature_Mechanism_Pilot_Report.md."
+  ]
+}

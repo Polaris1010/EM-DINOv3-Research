@@ -1,0 +1,7 @@
+{
+  "cache_dtype": "float16",
+  "encoder_autocast": "bfloat16",
+  "receipt_label_correction": "The initial feature_receipt cache description incorrectly says bfloat16 outputs are exactly represented. Post-norm outputs were cached as float16; raw output dtype was not captured. All models/layers use the same shared float16 caching. No exact BF16 representation claim is made.",
+  "evidence": "environment_detail.json records non-BF16 low mantissa bits in87.49% of a cached P0 sample",
+  "no_retraining_or_reselection": true
+}

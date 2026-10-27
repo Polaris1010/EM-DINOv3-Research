@@ -1,0 +1,30 @@
+[
+  {
+    "name": "AUROC_all_sources.png",
+    "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/figures/AUROC_all_sources.png",
+    "sha256": "a320ab19e0594f0de951869c20f42f989edd873601074e824fffa6e0aeb3d8e6",
+    "bytes": 262258,
+    "review_only": false
+  },
+  {
+    "name": "D2_paired_AUROC_delta.png",
+    "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/figures/D2_paired_AUROC_delta.png",
+    "sha256": "12b5b2dc27137ca9f377c16ce4d808c3c06eafc8afc974c25d3566c2f25e88ed",
+    "bytes": 115117,
+    "review_only": false
+  },
+  {
+    "name": "effective_rank_all_sources.png",
+    "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/figures/effective_rank_all_sources.png",
+    "sha256": "4f84b49fc8bc7ebdda74b0070e085d3d0ce9157b527c53cf8219edb9ece23af1",
+    "bytes": 177357,
+    "review_only": false
+  },
+  {
+    "name": "muscle_examples_REVIEW_ONLY.png",
+    "path": "/opt/data/3_117/tanghr/codex/feature_mechanism_pilot_a_20261027/figures/muscle_examples_REVIEW_ONLY.png",
+    "sha256": "cceae75eedacd092b8c78f8d4ac71322e23b9da3c1c702c288887d056ccf52bd",
+    "bytes": 513064,
+    "review_only": true
+  }
+]

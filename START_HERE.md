@@ -1,3 +1,7 @@
+> 2026-10-27后续仅方案：已制定docs/Readout_Calibration_Minimal_Design.md，D2/30k与100k第23层同像素排序及MV3-train-only全局偏置对照。状态PLANNED/DESIGN_ONLY，用户尚未授权执行；不估计偏置、不启动评分或新训练。先读该方案及work log39。Pilot A仍已完成，既有模型、指标和registry不变。
+
+> Pilot A已完成并停止（2026-10-27香港核实）：五encoder、四层特征及20个train-only轻量probe完成；633个锁定视野。肌肉D2/30k→100k Linear23 Dice0.5090→0.2906、远端FP0.31%→9.72%，23层有效秩33.3074→21.8166；稳定语义可分性下降和周期纹理捷径仍INCONCLUSIVE。先读docs/Feature_Mechanism_Pilot_Report.md、reviewed_verdicts.json及work log38。服务inactive/退出0、网站200、历史SHA不变；不自动Pilot B/C、SSL、Primus或其他实验。独立draft PR13，未合并。
+
 > 仓库可见性更新（2026-10-26）：用户明确要求将Polaris1010/EM-DINOv3-Research改为public，已执行并验证匿名网页HTTP200。该授权覆盖下方历史private-only要求；后续访问/推送工具不得再把private当作前提。仅仓库可见性变化，实验与网站不变。
 
 > Coverage-NR已完成并停止（2026-10-22香港23:11核实）：SSL100k、head40k、38dev和2595张MB1均齐，GPU评分完成；开发Dice0.831821、MB1 Dice0.440027，低于D2-100k同seed0.841379/0.475754。CEM图像ID覆盖100%。服务inactive/MainPID0/退出0、网站200。先读docs/Coverage_NR_final_report.md和work_log36；本轮结束，不自动重启或新实验。

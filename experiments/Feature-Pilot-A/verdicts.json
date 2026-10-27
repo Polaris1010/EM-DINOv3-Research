@@ -1,0 +1,27 @@
+[
+  {
+    "question": 1,
+    "status": "INCONCLUSIVE",
+    "finding": "Glycolytic muscle: both train-only scores decline at layers []; both increase at [11]."
+  },
+  {
+    "question": 2,
+    "status": "INCONCLUSIVE",
+    "finding": "Layerwise deltas and block intervals are reported; no whole-encoder collapse inferred."
+  },
+  {
+    "question": 3,
+    "status": "SUPPORTED",
+    "finding": "Layer23 linear crop Dice delta=-0.218372; remote FP-rate delta=+0.094149."
+  },
+  {
+    "question": 4,
+    "status": "SUPPORTED",
+    "finding": "Descriptive within-source association only; contrast/gradient/position strata and partial ranks reported."
+  },
+  {
+    "question": 5,
+    "status": "INCONCLUSIVE",
+    "finding": "Only a research rationale, never evidence that a proposed SSL constraint works."
+  }
+]

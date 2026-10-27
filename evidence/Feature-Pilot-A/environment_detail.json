@@ -1,0 +1,19 @@
+{
+  "python": "3.11.9 (main, Apr 19 2024, 16:48:06) [GCC 11.2.0]",
+  "torch": "2.5.1",
+  "CUDA": "12.4",
+  "numpy": "2.4.4",
+  "dinov3_commit": "91ffb6803c74aeb6927209b82560142743763dd7",
+  "feature_cache_dtype": "float16",
+  "feature_cache_shape": [
+    633,
+    256,
+    1024
+  ],
+  "fraction_F16_values_with_non_BF16_lowbits": 0.87493896484375,
+  "no_GPU_initialization_for_this_metadata_query": true,
+  "tifffile": "2025.6.11",
+  "scipy": "1.16.1",
+  "matplotlib": "3.10.5",
+  "omegaconf": "2.3.0"
+}

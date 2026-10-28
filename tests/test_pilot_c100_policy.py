@@ -2,7 +2,7 @@
 import unittest,importlib.util,json,copy,hashlib
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-spec=importlib.util.spec_from_file_location('pilot_c100_policy_test',ROOT/'src/pilot_c100/policy.py');policy=importlib.util.module_from_spec(spec);spec.loader.exec_module(policy)
+spec=importlib.util.spec_from_file_location('pilot_c100_policy_test',ROOT/'src/pilot_c100/continuation_policy.py');policy=importlib.util.module_from_spec(spec);spec.loader.exec_module(policy)
 class ParentContract(unittest.TestCase):
  def setUp(self):self.p=json.loads((ROOT/'configs/pretrain/Pilot_C100_protocol.json').read_text())
  def parent(self,model):
@@ -25,6 +25,12 @@ class ParentContract(unittest.TestCase):
   policy.validate_boundary(old,'chain','rng',[45000])
   for chain,rng,steps in [('wrong','rng',[45000]),('chain','wrong',[45000]),('chain','rng',[30000])]:
    with self.assertRaises(AssertionError):policy.validate_boundary(old,chain,rng,steps)
+ def test_legacy_policy_import_is_not_shadowed(self):
+  import tempfile,subprocess,sys
+  with tempfile.TemporaryDirectory() as folder:
+   d=Path(folder);(d/'policy.py').write_text('learning_rate = 123\n',encoding='utf-8')
+   script='import sys;sys.path[:0]='+repr([str(ROOT/'src/pilot_c100'),str(d)])+';import policy;from continuation_policy import validate_parent;assert policy.learning_rate==123;assert callable(validate_parent)'
+   subprocess.run([sys.executable,'-c',script],check=True,capture_output=True)
  def test_accepted_loss_and_readouts_are_byte_identical(self):
   for name in ['barrier.py','production_adapter.py','downstream.py','linear.py','benchmark.py','gpu_scoring.py']:
    self.assertEqual((ROOT/'src/pilot_c100'/name).read_bytes(),(ROOT/'src/pilot_c2'/name).read_bytes(),name)

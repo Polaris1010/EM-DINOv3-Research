@@ -18,7 +18,7 @@ from runtime_guard import training_gpu_guard,website
 import importlib.util
 spec=importlib.util.spec_from_file_location('historical_ssl_trainer',LATE/'code/train_ssl.py');historical=importlib.util.module_from_spec(spec);spec.loader.exec_module(historical)
 from production_adapter import ProductionBarrierAdapter
-from policy import validate_parent, validate_boundary
+from continuation_policy import validate_parent, validate_boundary
 STOP=False
 def stopping(*_):
  global STOP

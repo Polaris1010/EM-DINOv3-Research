@@ -134,3 +134,5 @@ C0 EMA SHA256 `54a20de4c373bec12af858c810b4edf7eb337aaff62dd3631ff3a00b8a69e021`
 截至2026-10-28 08:43 HK，服务inactive、退出0，所有新训练/评分任务已结束，网站HTTP200、GPU0未用。完成源码、指标、Markdown及独立draft PR交付后STOP；不自动合并、不运行任何后续训练。
 
 复核：337份收集文件逐个SHA验证；190条五系统开发区域、60条来源、35条MB-1组、25条Linear、1510条肌肉逐层及两套各2595条逐图记录齐备；来源/组均值独立重算与summary误差<1e-12。配对、训练与停止证据保存在evidence/Pilot-C2。提交前CPU检查记录保存在cpu_checks.json。
+
+独立[draft PR#17](https://github.com/Polaris1010/EM-DINOv3-Research/pull/17)已提交推送，未合并；初始结果commit `2abead707acd37885b611de842e7942ec729d353`，远程head已核验。

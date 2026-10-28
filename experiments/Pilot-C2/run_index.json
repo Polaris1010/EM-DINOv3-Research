@@ -62,12 +62,13 @@
   "Primus_budget_each": 40000,
   "GPU0_used": false,
   "existing_PRs_modified": false,
-  "final_PR": "NOT_CREATED_YET",
+  "final_PR": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/17",
   "paired_SSL_verified": true,
   "Linear_steps_each": 500,
   "stopped": true,
   "Primus_steps_each": 40000,
   "dev_regions_each": 38,
   "MB1_groups_each": 7,
-  "MB1_images_each": 2595
+  "MB1_images_each": 2595,
+  "PR_status": "draft_unmerged"
 }

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "registry_generation": "PASS",
+  "repository_validation": "PASS",
+  "experiment_records": 67,
+  "historical_registry_records_unchanged": 63,
+  "historical_provenance_files_verified": 664,
+  "unittest_total": 55,
+  "unittest_passed": 52,
+  "existing_Windows_platform_skips": 3,
+  "sealed_runtime_source_files_verified": 13,
+  "report_links_checked": true,
+  "metrics_means_independently_recalculated": true,
+  "maximum_mean_difference_tolerance": 1e-12,
+  "GPU_work_repeated_for_CPU_validation": false
+}

@@ -1,0 +1,57 @@
+{
+  "verified_inputs": {
+    "parent_full": {
+      "sha256": "cce40d90b9e4f03eae9231f7516cd1a81d49e8b369db9380dbb3b30f7d82967f",
+      "bytes": 5607208485
+    },
+    "parent_EMA": {
+      "sha256": "7db12e7ff8bee45166aaeeda1d94365e696ddaecf0c57a0d1611a891cf0d3eda",
+      "bytes": 1213025477
+    },
+    "SSL_config": {
+      "sha256": "159f45566320f9b583968aa8e9ffb07392d521bfa227b1ca0b4a4bde11f152d7",
+      "bytes": 1201
+    },
+    "SSL_trainer": {
+      "sha256": "ec1cb647ee46912388192e86dd240bd23736f0bcfcc93df13fbfbf8ddd48de3d",
+      "bytes": 18156
+    },
+    "D2_manifest": {
+      "sha256": "33e1926394681779818d39b147ee07b3d09468e0551f2523fe77fefdd5ceb1e8",
+      "bytes": 179793
+    },
+    "MV_manifest": {
+      "sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+      "bytes": 305069
+    },
+    "C1_barrier": {
+      "sha256": "6eaa56e08242ef8cd883b257d12fe05f6485a9d1e827f6e9c52ed3f7e47169fd",
+      "bytes": 3277
+    }
+  },
+  "source_commit": "b3c101680eaa451b74963d66433ba70bd6077adc",
+  "source_sha256": {
+    "barrier.py": "6eaa56e08242ef8cd883b257d12fe05f6485a9d1e827f6e9c52ed3f7e47169fd",
+    "benchmark.py": "50c4c9e80fa1318e99aa0c16eaa6cc271cb444461a7b7bff9cc2af0187f9ef1f",
+    "controller.py": "1cd8f53a39bb386be2d126ed320a783fa620ca9334296f9847624ce1009fc32c",
+    "downstream.py": "edde4d092ece3baefd0f35b48ff8a62d16c0f124b912690779186ee022762d83",
+    "gpu_scoring.py": "1d56262c52841f0b0112cf6611c366437fd35372c1553261ea9b2f9827a833f5",
+    "linear.py": "2ecc92ce59c006a079ee392d1bcbf3bc6572c1db955aaabeb4517a6589432465",
+    "production_adapter.py": "f3050aaf5f6c2ee7751f7aba57db73aa6e8663c0a3e2c6eceb15c270cfeadcda",
+    "report.py": "78e63dc4dd01f3045bd7152ad7ae7a58401a683b717c27ccbd138e87b3f445bf",
+    "system_common.py": "fe60dc2e4cb947265914db71859d199dc1e768619aed3af351e98e2afdefb24b",
+    "test_barrier.py": "a609b6d8ca83c0c34f81b07905d3cb3fcec0064279107318a2aad96d4db1c0d3",
+    "test_production.py": "dbc7c380e552d9d898c87fb938f96d64e525eb02d4bf10261b21b4d0212f436f",
+    "train_ssl.py": "72a54c8cbe82ff49dbd1a5b21f7b4f1f6504e556039efeca48fc2d73ea0e74f0",
+    "verify_pair.py": "b5dd066c06b98c594b8064da3d87d535dae01e1dc5d8aedb5e55ca5c0bf073f7"
+  },
+  "protocol_sha256": "59b852dcc95f09a4acbc6c58d982621ac3ae0fc2467efd297f02b0cfd2d1d550",
+  "GPU_allowlist": [
+    1,
+    2,
+    3
+  ],
+  "historical_assets_read_only": true,
+  "production_GPU_integration_test": "PASS; one real student forward, one backward and optimizer update; no diagnostic VJP",
+  "prelaunch_CPU_tests": "54 passed with3 existing skips; added device-release guard separately4/4 passed"
+}

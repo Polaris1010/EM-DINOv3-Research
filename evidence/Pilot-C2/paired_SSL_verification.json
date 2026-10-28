@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "paired_rank_steps": 45000,
+  "effective_updates_per_model": 15000,
+  "replayed_rows_after_resume": {
+    "C0_Vanilla_45k_rank0": 0,
+    "C1_Barrier_45k_rank0": 0,
+    "C0_Vanilla_45k_rank1": 0,
+    "C1_Barrier_45k_rank1": 0,
+    "C0_Vanilla_45k_rank2": 0,
+    "C1_Barrier_45k_rank2": 0
+  },
+  "final_sample_chain": "9ef100c147f9b02980b5d67820484e12f165f3f9985fe2761f8002cda69318ba",
+  "all_inputs_RNG_schedules_equal": true,
+  "production_Barrier_participates_every_step": true,
+  "extra_diagnostic_forward_or_VJP": false,
+  "accepted_C1_first20_parity": {
+    "C0_rank0": {
+      "loss_max_abs_difference": 0.0,
+      "Barrier_max_abs_difference": 0
+    },
+    "C1_rank0": {
+      "loss_max_abs_difference": 4.100799560546875e-05,
+      "Barrier_max_abs_difference": 4.177447408437729e-05
+    },
+    "C0_rank1": {
+      "loss_max_abs_difference": 0.0,
+      "Barrier_max_abs_difference": 0
+    },
+    "C1_rank1": {
+      "loss_max_abs_difference": 5.626678466796875e-05,
+      "Barrier_max_abs_difference": 5.6805089116096497e-05
+    },
+    "C0_rank2": {
+      "loss_max_abs_difference": 0.0,
+      "Barrier_max_abs_difference": 0
+    },
+    "C1_rank2": {
+      "loss_max_abs_difference": 2.956390380859375e-05,
+      "Barrier_max_abs_difference": 3.0440278351306915e-05
+    }
+  },
+  "GT_read": false
+}

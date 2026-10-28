@@ -68,3 +68,5 @@
 - [anti-defensive-writing安装与Coverage-NR进度核实](20261021_28_skill_install_progress.md)
 
 - [2026-10-27 Pilot C-1：恢复、唯一Barrier、20步配对与预算](20261027_42_pilot_c1_preflight.md)
+
+- [2026-10-28 Pilot C-2：固定45k配对正式执行](20261028_43_pilot_c2_paired_45k.md)

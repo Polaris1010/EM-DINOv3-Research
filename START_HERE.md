@@ -1,3 +1,5 @@
+> Pilot C-2已完成并停止（2026-10-28）：C0/C1各原30k恢复15k到45k，两head40k、两Linear500步、各38dev/七组MB1齐备；45000组输入/RNG/日程相同，无重放。C1−C0开发Dice−0.003790、MB1+0.003175，但肌肉Dice−0.075061、Recall−0.090534；相对中点两均值均低。当前Barrier不作为MICCAI主线继续。服务inactive/退出0，GPU0未用、网站200、历史SHA不变；先读docs/Pilot_C_Report.md和work log43。STOP，不延长、调参或追加Loss。
+
 > Pilot C-1已完成并停止：完整D2/30k状态可恢复，6项GPU测试、C0/C1各20步通过；60组输入/RNG/日程相等，C0首20步loss与历史完全相同。固定λ1，Barrier激活中位60.4%、局部梯度比中位6.94%；C0 767ms，C1生产估计861ms（实测含诊断1263ms）。完整15k配对+下游估计约9.2h，仅预算，未启动。先读docs/Pilot_C_Preflight_and_Budget.md和work log42。GPU0未用、网站200、服务inactive/退出0；本轮STOP，不自动15k或Primus。 独立[draft PR#16](https://github.com/Polaris1010/EM-DINOv3-Research/pull/16)已创建并推送，未合并；初始结果commit `0c99770a091be0a85b9ab2ec185feb6c43056468`，PR远程head已核验。
 
 > Pilot B已完成并停止（2026-10-27）：固定D2/30k与100k的0.5 EMA中点；Linear23 500步和无条件Primus40k完成。38dev来源等权Dice 0.838631，MB1七组 0.505823；肌肉Dice 0.2157→0.4682，Recall未下降，HeLa等收益部分回退。先读docs/Pilot_B_Trajectory_Lerp05_Report.md及work log41。服务inactive/退出0，网站200，GPU0未用，历史SHA不变；停止，不启动Pilot C、SSL或新融合。 独立[draft PR15](https://github.com/Polaris1010/EM-DINOv3-Research/pull/15)已推送，未合并；初始结果commit `370b6bd48023034b11b705dc49c6f2f3e506c162`，远程PR head已核对。

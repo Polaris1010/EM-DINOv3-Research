@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "row_counts": {
+    "PilotC_dev_per_region.csv": 190,
+    "PilotC_dev_per_source.csv": 60,
+    "PilotC_MB1_per_dataset.csv": 35,
+    "PilotC_Linear23_comparison.csv": 25,
+    "PilotC_Linear23_new_spectrum.csv": 30,
+    "PilotC_muscle_Primus_per_image.csv": 1510,
+    "PilotC_paired_dev_deltas.csv": 38,
+    "PilotC_source_deltas.csv": 12,
+    "PilotC_C0_Vanilla_45k_MB1_per_image.csv": 2595,
+    "PilotC_C1_Barrier_45k_MB1_per_image.csv": 2595
+  },
+  "five_systems": [
+    "D2-30k",
+    "D2-100k",
+    "Trajectory-Lerp05",
+    "C0_Vanilla_45k",
+    "C1_Barrier_45k"
+  ],
+  "means_recalculated_tolerance": 1e-12,
+  "same_region_GT_counts_verified_by_report": true,
+  "source_files_match_sealed_runtime": true,
+  "final_checkpoints_rehashed_on_server": true,
+  "raw_collection_receipt_sha256": "76181329e26d14fbb1d21233bdd2897fab3c30492d8abb50cdc472b745af389b",
+  "raw_metadata_retained_privately": true
+}

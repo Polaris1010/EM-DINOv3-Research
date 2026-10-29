@@ -1,0 +1,52 @@
+{
+  "C0_Vanilla_100k": {
+    "encoder": {
+      "path": "${RESEARCH_ROOT}/codex/pilot_c100_paired_20261028/runs/C0_Vanilla_100k/checkpoints/step000100000/teacher_backbone.pth",
+      "sha256": "549aee676613da77082ddd1613ba8b502e3300c2f128d9feb889583cc4f42da8",
+      "keys": 368,
+      "step": 100000,
+      "model": "C0_Vanilla_100k",
+      "EMA": true,
+      "formal_additional_updates": 55000
+    },
+    "head_checkpoint": {
+      "path": "${RESEARCH_ROOT}/codex/pilot_c100_paired_20261028/systems/C0_Vanilla_100k/downstream/runs/C0_Vanilla_100k/seed20261014/head_step040000.pth",
+      "sha256": "073e839952cd6dfb1bff8e68c2a2f306b474554d0861752b79eb4aed9cacdbcb",
+      "bytes": 534941406
+    },
+    "full_checkpoint": {
+      "path": "${RESEARCH_ROOT}/codex/pilot_c100_paired_20261028/runs/C0_Vanilla_100k/checkpoints/step000100000/full.pth",
+      "sha256": "e78c5ee369731219657d38bbe0044622fb15b574184602dedb9b9376b626768b",
+      "bytes": 5607209253
+    },
+    "Linear23": {
+      "path": "${RESEARCH_ROOT}/codex/pilot_c100_paired_20261028/systems/C0_Vanilla_100k/linear/probe.pth",
+      "sha256": "936e4bf4df8a82f05ac7c3d68e0367819eed7d7c58bc6eb508ea3624e8a7ad8d"
+    }
+  },
+  "C1_Barrier_100k": {
+    "encoder": {
+      "path": "${RESEARCH_ROOT}/codex/pilot_c100_paired_20261028/runs/C1_Barrier_100k/checkpoints/step000100000/teacher_backbone.pth",
+      "sha256": "9188d26f90216ee966fb8f80fdfde9d33d685202b35e62fa78b34b5b41c073a4",
+      "keys": 368,
+      "step": 100000,
+      "model": "C1_Barrier_100k",
+      "EMA": true,
+      "formal_additional_updates": 55000
+    },
+    "head_checkpoint": {
+      "path": "${RESEARCH_ROOT}/codex/pilot_c100_paired_20261028/systems/C1_Barrier_100k/downstream/runs/C1_Barrier_100k/seed20261014/head_step040000.pth",
+      "sha256": "87a27fe4abfd4a638e7089b39308d005c363b6c8ef84a489e58c721a8fa5ccb2",
+      "bytes": 534941406
+    },
+    "full_checkpoint": {
+      "path": "${RESEARCH_ROOT}/codex/pilot_c100_paired_20261028/runs/C1_Barrier_100k/checkpoints/step000100000/full.pth",
+      "sha256": "8d01c6394d18da4a08054478d28a1b702b5bf2f950a14a972e1b5867d069b1b8",
+      "bytes": 5607209253
+    },
+    "Linear23": {
+      "path": "${RESEARCH_ROOT}/codex/pilot_c100_paired_20261028/systems/C1_Barrier_100k/linear/probe.pth",
+      "sha256": "5d6442bb7d8aa7fb9f78dda4334abbcc494c465aba9b642cac3d2749d3b0525a"
+    }
+  }
+}

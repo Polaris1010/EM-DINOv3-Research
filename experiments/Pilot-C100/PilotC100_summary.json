@@ -1,0 +1,214 @@
+{
+  "status": "complete",
+  "models": {
+    "D2-30k": {
+      "MV3_source_equal_Dice": 0.8294065480835165,
+      "MV3_source_equal_NSD": 0.7312699935427218,
+      "MB1_dataset_equal_Dice": 0.4616141993468218,
+      "muscle_Primus_Dice": 0.4600259367453467,
+      "muscle_Primus_AP_mean_per_plane": 0.5172612650572306,
+      "muscle_Primus_AUROC_mean_per_plane": 0.9270590592678575,
+      "muscle_Primus_Recall": 0.35651649621762216,
+      "muscle_Primus_far_FP_rate": 0.003440596292626696,
+      "muscle_Linear23_AP": 0.5043436101210547,
+      "muscle_Linear23_Dice": 0.5090206398861248
+    },
+    "D2-100k": {
+      "MV3_source_equal_Dice": 0.841378715857156,
+      "MV3_source_equal_NSD": 0.7488171066298629,
+      "MB1_dataset_equal_Dice": 0.47575377336054614,
+      "muscle_Primus_Dice": 0.21567743411575138,
+      "muscle_Primus_AP_mean_per_plane": 0.242346295560219,
+      "muscle_Primus_AUROC_mean_per_plane": 0.698755509916584,
+      "muscle_Primus_Recall": 0.3808325399845518,
+      "muscle_Primus_far_FP_rate": 0.07646809125143565,
+      "muscle_Linear23_AP": 0.32276402278181215,
+      "muscle_Linear23_Dice": 0.2906490429221919
+    },
+    "Trajectory-Lerp05": {
+      "MV3_source_equal_Dice": 0.8386309935642374,
+      "MV3_source_equal_NSD": 0.7459752154282548,
+      "MB1_dataset_equal_Dice": 0.5058233876222139,
+      "muscle_Primus_Dice": 0.4681865130063972,
+      "muscle_Primus_AP_mean_per_plane": 0.46888235876514844,
+      "muscle_Primus_AUROC_mean_per_plane": 0.8594886624787483,
+      "muscle_Primus_Recall": 0.3918533042992296,
+      "muscle_Primus_far_FP_rate": 0.005722848804229219,
+      "muscle_Linear23_AP": 0.5510115849640534,
+      "muscle_Linear23_Dice": 0.5620141058011834
+    },
+    "C0_Vanilla_45k": {
+      "MV3_source_equal_Dice": 0.8339995038411141,
+      "MV3_source_equal_NSD": 0.7410664189494017,
+      "MB1_dataset_equal_Dice": 0.48374362625020295,
+      "muscle_Primus_Dice": 0.4621842836733096,
+      "muscle_Primus_AP_mean_per_plane": 0.4740636549555982,
+      "muscle_Primus_AUROC_mean_per_plane": 0.881961130584941,
+      "muscle_Primus_Recall": 0.37590605739632715,
+      "muscle_Primus_far_FP_rate": 0.0052409613295653695,
+      "muscle_Linear23_AP": 0.5923270039931905,
+      "muscle_Linear23_Dice": 0.6032834376258532
+    },
+    "C1_Barrier_45k": {
+      "MV3_source_equal_Dice": 0.8302098641207096,
+      "MV3_source_equal_NSD": 0.7376345091019616,
+      "MB1_dataset_equal_Dice": 0.486918614877696,
+      "muscle_Primus_Dice": 0.3871233642636482,
+      "muscle_Primus_AP_mean_per_plane": 0.4224409769163151,
+      "muscle_Primus_AUROC_mean_per_plane": 0.8695462736979107,
+      "muscle_Primus_Recall": 0.2853725209330983,
+      "muscle_Primus_far_FP_rate": 0.003425658771666058,
+      "muscle_Linear23_AP": 0.5684137196128592,
+      "muscle_Linear23_Dice": 0.5624005950689107
+    },
+    "C0_Vanilla_100k": {
+      "MV3_source_equal_Dice": 0.8417649010353445,
+      "MV3_source_equal_NSD": 0.7480645906067256,
+      "MB1_dataset_equal_Dice": 0.4848778939117228,
+      "muscle_Primus_Dice": 0.23648091822460254,
+      "muscle_Primus_AP_mean_per_plane": 0.25871680373324085,
+      "muscle_Primus_AUROC_mean_per_plane": 0.7128790737919501,
+      "muscle_Primus_Recall": 0.3811985359017885,
+      "muscle_Primus_far_FP_rate": 0.06495760087561309,
+      "muscle_Linear23_AP": 0.2729739410828314,
+      "muscle_Linear23_Dice": 0.22366393877145319
+    },
+    "C1_Barrier_100k": {
+      "MV3_source_equal_Dice": 0.8407581333949243,
+      "MV3_source_equal_NSD": 0.7479203162319732,
+      "MB1_dataset_equal_Dice": 0.5347695365543839,
+      "muscle_Primus_Dice": 0.5345007229023472,
+      "muscle_Primus_AP_mean_per_plane": 0.5575309864188469,
+      "muscle_Primus_AUROC_mean_per_plane": 0.9112690432890896,
+      "muscle_Primus_Recall": 0.4426727487093493,
+      "muscle_Primus_far_FP_rate": 0.004170794649313941,
+      "muscle_Linear23_AP": 0.5098280597052682,
+      "muscle_Linear23_Dice": 0.5013921555801407
+    }
+  },
+  "comparisons": {
+    "C1_minus_C0_100k": {
+      "MV3_source_equal_Dice": -0.0010067676404201809,
+      "MV3_source_equal_NSD": -0.00014427437475239557,
+      "MB1_dataset_equal_Dice": 0.04989164264266105,
+      "muscle_Primus_Dice": 0.29801980467774464,
+      "muscle_Primus_AP_mean_per_plane": 0.29881418268560606,
+      "muscle_Primus_AUROC_mean_per_plane": 0.1983899694971395,
+      "muscle_Primus_Recall": 0.061474212807560824,
+      "muscle_Primus_far_FP_rate": -0.060786806226299145,
+      "muscle_Linear23_AP": 0.23685411862243683,
+      "muscle_Linear23_Dice": 0.27772821680868753
+    },
+    "C1_minus_Midpoint": {
+      "MV3_source_equal_Dice": 0.0021271398306869083,
+      "MV3_source_equal_NSD": 0.001945100803718347,
+      "MB1_dataset_equal_Dice": 0.028946148932169957,
+      "muscle_Primus_Dice": 0.06631420989595,
+      "muscle_Primus_AP_mean_per_plane": 0.08864862765369846,
+      "muscle_Primus_AUROC_mean_per_plane": 0.05178038081034131,
+      "muscle_Primus_Recall": 0.05081944441011971,
+      "muscle_Primus_far_FP_rate": -0.0015520541549152774,
+      "muscle_Linear23_AP": -0.041183525258785214,
+      "muscle_Linear23_Dice": -0.060621950221042664
+    },
+    "C0_Vanilla_100k_45k_to100k": {
+      "MV3_source_equal_Dice": 0.007765397194230417,
+      "MV3_source_equal_NSD": 0.0069981716573238595,
+      "MB1_dataset_equal_Dice": 0.001134267661519861,
+      "muscle_Primus_Dice": -0.22570336544870706,
+      "muscle_Primus_AP_mean_per_plane": -0.21534685122235736,
+      "muscle_Primus_AUROC_mean_per_plane": -0.16908205679299082,
+      "muscle_Primus_Recall": 0.005292478505461329,
+      "muscle_Primus_far_FP_rate": 0.059716639546047716,
+      "muscle_Linear23_AP": -0.3193530629103591,
+      "muscle_Linear23_Dice": -0.37961949885440005
+    },
+    "C1_Barrier_100k_45k_to100k": {
+      "MV3_source_equal_Dice": 0.010548269274214706,
+      "MV3_source_equal_NSD": 0.010285807130011593,
+      "MB1_dataset_equal_Dice": 0.04785092167668786,
+      "muscle_Primus_Dice": 0.147377358638699,
+      "muscle_Primus_AP_mean_per_plane": 0.1350900095025318,
+      "muscle_Primus_AUROC_mean_per_plane": 0.04172276959117893,
+      "muscle_Primus_Recall": 0.15730022777625102,
+      "muscle_Primus_far_FP_rate": 0.0007451358776478833,
+      "muscle_Linear23_AP": -0.058585659907591014,
+      "muscle_Linear23_Dice": -0.061008439488769994
+    },
+    "change_difference_C1_minus_C0": {
+      "MV3_source_equal_Dice": 0.0027828720799842888,
+      "MV3_source_equal_NSD": 0.0032876354726877333,
+      "MB1_dataset_equal_Dice": 0.046716654015168,
+      "muscle_Primus_Dice": 0.37308072408740606,
+      "muscle_Primus_AP_mean_per_plane": 0.35043686072488917,
+      "muscle_Primus_AUROC_mean_per_plane": 0.21080482638416975,
+      "muscle_Primus_Recall": 0.1520077492707897,
+      "muscle_Primus_far_FP_rate": -0.05897150366839983,
+      "muscle_Linear23_AP": 0.2607674030027681,
+      "muscle_Linear23_Dice": 0.31861105936563006
+    }
+  },
+  "primary_comparison": "Absolute C1 versus matched C0 at100k",
+  "change_difference_role": "Descriptive; not sufficient to establish net benefit from unequal45k performance",
+  "fixed_lambda": 1,
+  "fixed_margin": 0.05,
+  "paired_SSL": {
+    "status": "PASS",
+    "paired_rank_steps": 165000,
+    "effective_updates_per_model": 55000,
+    "initial_global_step": 45000,
+    "final_global_step": 100000,
+    "replayed_rows_after_resume": {
+      "C0_Vanilla_100k_rank0": 0,
+      "C1_Barrier_100k_rank0": 0,
+      "C0_Vanilla_100k_rank1": 0,
+      "C1_Barrier_100k_rank1": 0,
+      "C0_Vanilla_100k_rank2": 0,
+      "C1_Barrier_100k_rank2": 0
+    },
+    "final_sample_chain": "17cf6215a865f557691e345e24b1213e623daf5a6e9f6151c4c36ae8e4f26116",
+    "all_inputs_RNG_schedules_equal": true,
+    "production_Barrier_participates_every_step": true,
+    "extra_diagnostic_forward_or_VJP": false,
+    "original45k_boundaries": {
+      "C0_Vanilla_100k_rank0": {
+        "initial_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+        "first_forward_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+        "chain": "9ef100c147f9b02980b5d67820484e12f165f3f9985fe2761f8002cda69318ba"
+      },
+      "C1_Barrier_100k_rank0": {
+        "initial_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+        "first_forward_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+        "chain": "9ef100c147f9b02980b5d67820484e12f165f3f9985fe2761f8002cda69318ba"
+      },
+      "C0_Vanilla_100k_rank1": {
+        "initial_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+        "first_forward_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+        "chain": "9ef100c147f9b02980b5d67820484e12f165f3f9985fe2761f8002cda69318ba"
+      },
+      "C1_Barrier_100k_rank1": {
+        "initial_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+        "first_forward_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+        "chain": "9ef100c147f9b02980b5d67820484e12f165f3f9985fe2761f8002cda69318ba"
+      },
+      "C0_Vanilla_100k_rank2": {
+        "initial_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+        "first_forward_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+        "chain": "9ef100c147f9b02980b5d67820484e12f165f3f9985fe2761f8002cda69318ba"
+      },
+      "C1_Barrier_100k_rank2": {
+        "initial_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+        "first_forward_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+        "chain": "9ef100c147f9b02980b5d67820484e12f165f3f9985fe2761f8002cda69318ba"
+      }
+    },
+    "anchor_remains_original30k": true,
+    "GT_read": false
+  },
+  "anchor_remains_original30k": true,
+  "additional_experiments_started": false,
+  "scientific_limits": [
+    "Masked DropPath student versus unmasked eval anchor: efficacy does not identify a unique mechanism",
+    "One decoder seed; MB1 already exposed diagnostic; no label-based parameter selection"
+  ]
+}

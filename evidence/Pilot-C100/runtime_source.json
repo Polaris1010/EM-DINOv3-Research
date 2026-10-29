@@ -1,0 +1,21 @@
+{
+  "code_commit": "bd2ea834cb13163495c0d2d22c8df6467c76aa50",
+  "source_sha256": {
+    "barrier.py": "6eaa56e08242ef8cd883b257d12fe05f6485a9d1e827f6e9c52ed3f7e47169fd",
+    "benchmark.py": "50c4c9e80fa1318e99aa0c16eaa6cc271cb444461a7b7bff9cc2af0187f9ef1f",
+    "continuation_policy.py": "c12885c6e50638d6796bfc21aa2c0768291b3c664d696b944404d42907a7c796",
+    "controller.py": "f594761d1cbc56b3f0e79bb8d4d077e84dc600a12d1e0265f9293df6eb97247b",
+    "downstream.py": "edde4d092ece3baefd0f35b48ff8a62d16c0f124b912690779186ee022762d83",
+    "gpu_scoring.py": "1d56262c52841f0b0112cf6611c366437fd35372c1553261ea9b2f9827a833f5",
+    "linear.py": "2ecc92ce59c006a079ee392d1bcbf3bc6572c1db955aaabeb4517a6589432465",
+    "production_adapter.py": "f3050aaf5f6c2ee7751f7aba57db73aa6e8663c0a3e2c6eceb15c270cfeadcda",
+    "report.py": "a80eefb31142106f51f9c220f2379456d3382c6d10a2b3d07d77a2d3ff396264",
+    "system_common.py": "44eeba11c76a91837fc864da92104a8e54f10aaf97b4d3131af29b946261d76c",
+    "test_barrier.py": "a609b6d8ca83c0c34f81b07905d3cb3fcec0064279107318a2aad96d4db1c0d3",
+    "test_production.py": "dbc7c380e552d9d898c87fb938f96d64e525eb02d4bf10261b21b4d0212f436f",
+    "train_ssl.py": "18129d31c11897a9c244d8275f226bd16eeb3ec58f887ca7c8d3df943eba8ef1",
+    "verify_pair.py": "3975af6578ceb69ad14914117476337c37a9c17e42b8fd269304ccb117135513"
+  },
+  "protocol_sha256": "24fab5be51cf730a0ddc8c836e5cbc9ba3e64730b7b4b5fcef622c62023ffce8",
+  "authorization": "Fixed45k->100k pair only; original30k anchor; namespace fix before zero formal updates"
+}

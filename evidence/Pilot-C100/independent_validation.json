@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "row_counts": {
+    "PilotC100_dev_per_region.csv": 266,
+    "PilotC100_dev_per_source.csv": 84,
+    "PilotC100_MB1_per_dataset.csv": 49,
+    "PilotC100_Linear23_comparison.csv": 35,
+    "PilotC100_Linear23_new_spectrum.csv": 30,
+    "PilotC100_muscle_Primus_per_image.csv": 2114,
+    "PilotC100_paired_dev_deltas.csv": 38,
+    "PilotC100_source_deltas.csv": 12,
+    "PilotC100_MB1_paired_deltas.csv": 7,
+    "PilotC100_SSL_curves_stride100.csv": 3300,
+    "PilotC100_C0_Vanilla_100k_MB1_per_image.csv": 2595,
+    "PilotC100_C1_Barrier_100k_MB1_per_image.csv": 2595
+  },
+  "seven_systems": [
+    "D2-30k",
+    "D2-100k",
+    "Trajectory-Lerp05",
+    "C0_Vanilla_45k",
+    "C1_Barrier_45k",
+    "C0_Vanilla_100k",
+    "C1_Barrier_100k"
+  ],
+  "means_recalculated_tolerance": 1e-12,
+  "same_region_GT_counts_verified_independently": true,
+  "source_files_match_sealed_runtime": true,
+  "final_checkpoints_rehashed_on_server": true,
+  "collection_files": 418,
+  "raw_collection_receipt_sha256": "92da78af678d5b2b6e61d9540d97fb53de47c2ff07219ded4f3a5310ea0f4b20",
+  "raw_metadata_retained_privately": true
+}

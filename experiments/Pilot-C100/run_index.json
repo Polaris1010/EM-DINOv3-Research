@@ -62,7 +62,7 @@
   "GPU0_forbidden": true,
   "training_started": true,
   "new_service_created": true,
-  "final_PR": "NOT_CREATED",
+  "final_PR": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/18",
   "blocker": null,
   "server_root": "${RESEARCH_ROOT}/codex/pilot_c100_paired_20261028",
   "observed_UTC": "2026-10-29T19:31:14.133680+00:00",
@@ -72,5 +72,6 @@
   "Primus_steps_each": 40000,
   "dev_regions_each": 38,
   "MB1_groups_each": 7,
-  "MB1_images_each": 2595
+  "MB1_images_each": 2595,
+  "PR_status": "draft_unmerged"
 }

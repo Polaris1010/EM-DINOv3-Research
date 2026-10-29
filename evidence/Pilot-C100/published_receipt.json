@@ -1,0 +1,19 @@
+{
+  "status": "VERIFIED_PUBLISHED",
+  "PR": "https://github.com/Polaris1010/EM-DINOv3-Research/pull/18",
+  "number": 18,
+  "branch": "codex/pilot-c-paired-100k",
+  "base": "codex/pilot-c-100k-recommendation",
+  "draft": true,
+  "merged": false,
+  "initial_results_commit": "e97cfc5209825546ca25df4c5c54847089b0a61a",
+  "remote_initial_head_verified": true,
+  "SSL_additional_updates_each": 55000,
+  "SSL_global_final_step": 100000,
+  "Primus_steps_each": 40000,
+  "Linear_steps_each": 500,
+  "dev_regions_each": 38,
+  "MB1_groups_each": 7,
+  "stopped": true,
+  "existing_PRs_modified": false
+}

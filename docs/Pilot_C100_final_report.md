@@ -141,3 +141,5 @@ C1 SSL墙钟增加8.95%，两组optimizer updates相同，C1额外anchor前向�
 **下一项研究决定：继续保留这一固定Barrier作为MICCAI候选主线，以同预算Vanilla和Pilot B中点为必须报告的基线。** 本轮已有长期净收益证据，不再用45k阶段表现将其提前淘汰；后续主张应围绕可复现的长期跨域性能稳定性和明确来源代价展开。新的重复性验证或方法机制实验需单独授权，本轮到此停止。
 
 截至2026-10-30 03:31 HK服务器服务inactive、退出0、MainPID0，网站HTTP200，GPU0未用，训练与评测全部结束。原始图像/预测/大权重留在服务器；本次只交付小型指标、代码、协议、报告、工作记录和独立draft PR。
+
+独立[draft PR#18](https://github.com/Polaris1010/EM-DINOv3-Research/pull/18)已提交推送，未合并；初始结果commit `e97cfc5209825546ca25df4c5c54847089b0a61a`，远程head已核验。

@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "paired_rank_steps": 165000,
+  "effective_updates_per_model": 55000,
+  "initial_global_step": 45000,
+  "final_global_step": 100000,
+  "replayed_rows_after_resume": {
+    "C0_Vanilla_100k_rank0": 0,
+    "C1_Barrier_100k_rank0": 0,
+    "C0_Vanilla_100k_rank1": 0,
+    "C1_Barrier_100k_rank1": 0,
+    "C0_Vanilla_100k_rank2": 0,
+    "C1_Barrier_100k_rank2": 0
+  },
+  "final_sample_chain": "17cf6215a865f557691e345e24b1213e623daf5a6e9f6151c4c36ae8e4f26116",
+  "all_inputs_RNG_schedules_equal": true,
+  "production_Barrier_participates_every_step": true,
+  "extra_diagnostic_forward_or_VJP": false,
+  "original45k_boundaries": {
+    "C0_Vanilla_100k_rank0": {
+      "initial_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+      "first_forward_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+      "chain": "9ef100c147f9b02980b5d67820484e12f165f3f9985fe2761f8002cda69318ba"
+    },
+    "C1_Barrier_100k_rank0": {
+      "initial_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+      "first_forward_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+      "chain": "9ef100c147f9b02980b5d67820484e12f165f3f9985fe2761f8002cda69318ba"
+    },
+    "C0_Vanilla_100k_rank1": {
+      "initial_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+      "first_forward_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+      "chain": "9ef100c147f9b02980b5d67820484e12f165f3f9985fe2761f8002cda69318ba"
+    },
+    "C1_Barrier_100k_rank1": {
+      "initial_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+      "first_forward_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+      "chain": "9ef100c147f9b02980b5d67820484e12f165f3f9985fe2761f8002cda69318ba"
+    },
+    "C0_Vanilla_100k_rank2": {
+      "initial_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+      "first_forward_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+      "chain": "9ef100c147f9b02980b5d67820484e12f165f3f9985fe2761f8002cda69318ba"
+    },
+    "C1_Barrier_100k_rank2": {
+      "initial_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+      "first_forward_RNG": "3cad34d5e5407fd66c9fd2057c969d6f047cba277e29898ef5473a530ea4b8f9",
+      "chain": "9ef100c147f9b02980b5d67820484e12f165f3f9985fe2761f8002cda69318ba"
+    }
+  },
+  "anchor_remains_original30k": true,
+  "GT_read": false
+}

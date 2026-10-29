@@ -1,0 +1,17 @@
+{
+  "CPU_unittest_total": 62,
+  "CPU_unittest_existing_skips": 3,
+  "new_parent_namespace_boundary_tests": 7,
+  "server_import_check": {
+    "import_PASS": true,
+    "legacy_policy_preserved": true,
+    "new_validation_namespace_separate": true,
+    "prior44999_LR_exact": true,
+    "LR45000": 1.6556588335061135e-05,
+    "LR99999": 1.0000000068296467e-06,
+    "CUDA_disabled": true,
+    "optimizer_updates": 0
+  },
+  "unchanged_loss_and_readouts": true,
+  "initial_import_failure_formal_updates": 0
+}

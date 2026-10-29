@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "end_of_run_rehashed_files": {
+    "codex/pilot_c2_paired_45k_20261028/runs/C0_Vanilla_45k/checkpoints/step000045000/full.pth": {
+      "sha256": "153249981a1305e805707e34f59b8cf3c9f3ee22ec135abb6dbc988a439d3a0e",
+      "bytes": 5607209253
+    },
+    "codex/pilot_c2_paired_45k_20261028/runs/C0_Vanilla_45k/checkpoints/step000045000/teacher_backbone.pth": {
+      "sha256": "54a20de4c373bec12af858c810b4edf7eb337aaff62dd3631ff3a00b8a69e021",
+      "bytes": 1213025669
+    },
+    "codex/pilot_c2_paired_45k_20261028/runs/C1_Barrier_45k/checkpoints/step000045000/full.pth": {
+      "sha256": "b95ee0ea1d5da1730c01462901c41be049119424d85b6a8048c6e21ba8176691",
+      "bytes": 5607209253
+    },
+    "codex/pilot_c2_paired_45k_20261028/runs/C1_Barrier_45k/checkpoints/step000045000/teacher_backbone.pth": {
+      "sha256": "bd38b158fbd16cddee6863b5092a57a27a127616a82d443d4afd016886219a38",
+      "bytes": 1213025669
+    },
+    "codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/full.pth": {
+      "sha256": "cce40d90b9e4f03eae9231f7516cd1a81d49e8b369db9380dbb3b30f7d82967f",
+      "bytes": 5607208485
+    },
+    "codex/ssl_diversity_d12_20261017/runs/D2/formal/checkpoints/step000030000/teacher_backbone.pth": {
+      "sha256": "7db12e7ff8bee45166aaeeda1d94365e696ddaecf0c57a0d1611a891cf0d3eda",
+      "bytes": 1213025477
+    }
+  },
+  "note": "Two45k full and EMA pairs plus original30k full and anchor EMA; expected hashes verified on server"
+}

@@ -72,3 +72,7 @@
 - [2026-10-28 Pilot C-2：固定45k配对正式执行](20261028_43_pilot_c2_paired_45k.md)
 
 - [2026-10-28 Pilot C：固定100k终点建议，仅设计未启动](20261028_44_pilot_c_100k_recommendation.md)
+
+- [2026-10-28 Pilot C100：固定100k配对执行与完成记录](20261028_45_pilot_c100_execution.md)
+
+- [2026-10-30 OpenVPN恢复与Pilot C100最终交付](20261030_46_vpn_c100_completion.md)

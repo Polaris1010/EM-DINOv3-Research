@@ -1,0 +1,12 @@
+{
+  "model_sha": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+  "axes": [
+    "xy",
+    "xz",
+    "yz"
+  ],
+  "engine": "(model_config, inference_scale=1, label_divisor=1000, median_kernel_size=5, stuff_area=64, void_label=0, nms_threshold=0.1, nms_kernel=3, confidence_thr=0.3, force_connected=True, min_size=500, min_extent=4, fine_boundaries=False, semantic_only=False, use_gpu=True, use_quantized=False, store_url=None, chunk_size=(256, 256, 256), save_panoptic=False, label_erosion=0, label_dilation=0, fill_holes_in_segmentation=False)",
+  "consensus": "(trackers, store_url, model_config, label_divisor=1000, pixel_vote_thr=2, cluster_iou_thr=0.75, allow_one_view=False, min_size=200, min_extent=4, dtype=<class 'numpy.uint32'>, chunk_size=(256, 256, 256))",
+  "source_sha": "3ae818b63c85d9a367ec285def563fd30bbf62ef4aa33fb8faea75255d2cd385",
+  "gpu": 3
+}

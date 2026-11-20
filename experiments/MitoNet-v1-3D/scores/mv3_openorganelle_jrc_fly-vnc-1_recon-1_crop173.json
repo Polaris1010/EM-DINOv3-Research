@@ -1,0 +1,17 @@
+{
+  "mode": "mv3",
+  "id": "openorganelle_jrc_fly-vnc-1_recon-1_crop173",
+  "group": "openorganelle",
+  "rows": [
+    {
+      "tp": 599137,
+      "fp": 11456,
+      "fn": 5110,
+      "tn": 1634297,
+      "dice": 0.9863636363636363,
+      "iou": 0.9730941704035875,
+      "precision": 0.981237911341925,
+      "recall": 0.9915431934291772
+    }
+  ]
+}

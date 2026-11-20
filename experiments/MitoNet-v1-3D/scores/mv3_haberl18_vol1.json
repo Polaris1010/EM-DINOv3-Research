@@ -1,0 +1,17 @@
+{
+  "mode": "mv3",
+  "id": "haberl18_vol1",
+  "group": "haberl18",
+  "rows": [
+    {
+      "tp": 0,
+      "fp": 0,
+      "fn": 51373,
+      "tn": 603987,
+      "dice": 0.0,
+      "iou": 0.0,
+      "precision": null,
+      "recall": 0.0
+    }
+  ]
+}

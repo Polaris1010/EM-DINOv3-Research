@@ -1,0 +1,17 @@
+{
+  "mode": "mv3",
+  "id": "muller21_low_c2",
+  "group": "muller21",
+  "rows": [
+    {
+      "tp": 0,
+      "fp": 95010,
+      "fn": 11209275,
+      "tn": 608113607,
+      "dice": 0.0,
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "mode": "mv3",
+  "id": "guay21_vol1",
+  "group": "guay21",
+  "rows": [
+    {
+      "tp": 0,
+      "fp": 2896,
+      "fn": 460947,
+      "tn": 14896157,
+      "dice": 0.0,
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0
+    }
+  ]
+}

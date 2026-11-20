@@ -1,0 +1,17 @@
+{
+  "mode": "mv3",
+  "id": "openorganelle_jrc_cos7-1b_recon-1_crop255",
+  "group": "openorganelle",
+  "rows": [
+    {
+      "tp": 343011,
+      "fp": 606,
+      "fn": 32296,
+      "tn": 624087,
+      "dice": 0.9542343836066121,
+      "iou": 0.9124744289237138,
+      "precision": 0.9982364085595299,
+      "recall": 0.9139477814162805
+    }
+  ]
+}

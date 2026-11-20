@@ -1,0 +1,17 @@
+{
+  "mode": "mv3",
+  "id": "openorganelle_jrc_mus-nacc-1_recon-1_crop115",
+  "group": "openorganelle",
+  "rows": [
+    {
+      "tp": 594108,
+      "fp": 36826,
+      "fn": 30220,
+      "tn": 2713846,
+      "dice": 0.9465880429742954,
+      "iou": 0.8985924610605094,
+      "precision": 0.9416325637863865,
+      "recall": 0.951595955971861
+    }
+  ]
+}

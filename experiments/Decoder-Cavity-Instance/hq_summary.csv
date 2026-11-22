@@ -1,0 +1,5 @@
+arm,window,n,hole_ratio,square_holes
+arm_a_multiscale_sem,stride120,20,0.0015033792584609861,0
+arm_a_multiscale_sem,baseline128,20,0.0018826259096442702,0
+arm_b_multiscale_bcd,stride120,20,0.0015148077203798957,0
+arm_b_multiscale_bcd,baseline128,20,0.003194857923102286,0

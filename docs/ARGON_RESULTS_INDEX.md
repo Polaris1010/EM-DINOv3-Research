@@ -16,7 +16,7 @@
 
 ### 冻结 C1 双解码头
 
-[MultiScale-Sem / MultiScale-BCD 的训练协议与执行代码](../experiments/Decoder-Cavity-Instance/PROTOCOL.md)。两组 100 步冒烟检查均通过，编码器保持冻结，共享解码器与前景头初始 SHA256 一致。进度文件记录取档时的训练步数。正式 40k 和下游成绩以完成回执为准。
+[最终报告](../experiments/Decoder-Cavity-Instance/EXPERIMENT_SUMMARY.md) · [训练协议](../experiments/Decoder-Cavity-Instance/PROTOCOL.md) · [独立核查](../experiments/Decoder-Cavity-Instance/audit.json)。两组已完成 40k，训练、双窗口评测及逐视野结果均已归档。每个组合覆盖 MB-1 2,595 个视野、CEM 验证 1,424 个视野、MV3 38 个区域和 HQ-5nm 20 个视野。两组均降低 MB-1 内部漏分率。B 的分水岭分开了更多接触实例，同一前景掩膜的连通域 PQ 更高。
 
 ### 历史实验结果
 

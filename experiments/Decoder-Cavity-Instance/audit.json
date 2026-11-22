@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "coverage": {
+    "arm_a_multiscale_sem/stride120": {
+      "mb1": 2595,
+      "mv3": 5557,
+      "cem_validation": 1424,
+      "hq": 20
+    },
+    "arm_a_multiscale_sem/baseline128": {
+      "mb1": 2595,
+      "mv3": 5557,
+      "cem_validation": 1424,
+      "hq": 20
+    },
+    "arm_b_multiscale_bcd/stride120": {
+      "mb1": 2595,
+      "mv3": 5557,
+      "cem_validation": 1424,
+      "hq": 20
+    },
+    "arm_b_multiscale_bcd/baseline128": {
+      "mb1": 2595,
+      "mv3": 5557,
+      "cem_validation": 1424,
+      "hq": 20
+    }
+  },
+  "matching_unit_ids": true,
+  "independent_MB1_Dice_and_r3": true,
+  "paired_panels": 12,
+  "extra_fly_brain": 2,
+  "hq_png": 80
+}

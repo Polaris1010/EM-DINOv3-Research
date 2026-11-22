@@ -38,6 +38,8 @@ def draw(path,a,group,id,z,overlays,titles):
 
 @torch.no_grad()
 def main():
+    if len(list((OUT/'visual_panels').glob('*.png')))==12 and len(list((OUT/'visual_panels_extra').glob('*.png')))==2:
+        return
     gpu_guard()
     torch.set_num_threads(2)
     import importlib.util

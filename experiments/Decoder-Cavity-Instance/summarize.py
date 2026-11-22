@@ -44,9 +44,9 @@ def aggregate(arm,window):
         split,group=r[0]['split'],r[0]['group']
         counts[split]+=len(r)
         if split=='mv3':
-            for k in S:
-                avg=mean([x['semantic'] for x in r],k)
-                r[0].setdefault('mv3_region',{})[k]=avg
+            tp,fp,fn=[sum(x['semantic'][k] for x in r) for k in ('tp','fp','fn')]
+            r[0]['mv3_region']=dict(dice=2*tp/(2*tp+fp+fn) if 2*tp+fp+fn else 1.,
+                iou=tp/(tp+fp+fn) if tp+fp+fn else 1.,precision=div(tp,tp+fp),recall=div(tp,tp+fn))
         groups[split,group]+=r
     assert counts['mb1']==2595 and counts['cem_validation']==1424 and counts['hq']==20,counts
     sem=[];inst=[];hq=[]
@@ -63,7 +63,7 @@ def aggregate(arm,window):
     for split in ('cem_validation','mb1','mv3'):
         z=[r for r in sem if r['split']==split]
         sem.append(dict(arm=arm,window=window,split=split,group='ALL',n=sum(r['n'] for r in z),
-            **{k:mean(z,k) for k in z[0] if k in S or k.split('_r')[0] in ('interior_fn_ratio','closed_share','open_share','affected_instance_rate','missed_instance_rate','skipped_instance_rate','large_cavity_grid_align')}))
+            **{k:mean(z,k) for k in z[0] if k in S or k.rsplit('_r',1)[0] in ('interior_fn_ratio','closed_share','open_share','affected_instance_rate','missed_instance_rate','skipped_instance_rate','large_cavity_grid_align')}))
         for method in ('cc','watershed'):
             z=[r for r in inst if r['split']==split and r['method']==method]
             if z:inst.append(dict(arm=arm,window=window,split=split,group='ALL',method=method,n=sum(r['n'] for r in z),
@@ -162,6 +162,16 @@ def main():
              '| 模型 | 推理 | 封闭空洞面积占比 | 方孔数 |','|---|---|---:|---:|']
     for r in packed:report.append(f'| {r["arm"]} | {r["window"]} | {f(r["hole_ratio"],True)} | {r["square_holes"]} |')
     report+=['','[逐组语义/内部漏洞](semantic_and_cavity.csv) · [实例对照](instance_metrics.csv) · [HQ 逐图](hq_per_image.csv)。MB-1 有 GT 的复核图在 visual_panels，HQ 输出为预测掩膜。']
+    report+=['','## 本轮结果裁决','']
+    old0=old['C1 Primus (Stride-120)']
+    for a,label in zip(ARMS,('A','B')):
+        r=refs[a+'_stride120']
+        report.append(f'- {label} 相对旧 Primus 的 MB-1 Dice 变化 {r["dice"]-old0["dice"]:+.5f}，r3 去边界内部漏分率变化 {(r["interior_fn_ratio_r3"]-old0["interior_fn_ratio_r3"])*100:+.2f} 个百分点。')
+    for split in ('cem_validation','mb1'):
+        r=[x for x in inst if x['group']=='ALL' and x['window']=='stride120' and x['arm']==ARMS[1] and x['split']==split]
+        z={x['method']:x for x in r}
+        report.append(f'- B 在 {split} 的分水岭 PQ {z["watershed"]["PQ"]:.5f}，同一语义前景的 CC PQ {z["cc"]["PQ"]:.5f}。')
+    report+=['','HQ 的方孔形态统计无 GT；MB-1 的内部漏分和整颗漏检仍需分开判读。试验仅包含一个 decoder seed。']
     (O/'EXPERIMENT_SUMMARY.md').write_text('\n'.join(report)+'\n',encoding='utf-8')
 
 if __name__=='__main__':

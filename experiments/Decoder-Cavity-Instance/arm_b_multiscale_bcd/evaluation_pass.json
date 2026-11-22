@@ -1,0 +1,1 @@
+{"gpu": 2, "seconds": 4422.899506326765, "checkpoint": "ec20c0d32840d1a82784993bf031e5689f95f9ae5c5877e64849640b94268bc6", "settings": ["stride120", "baseline128"], "watershed": [0.4, 0.65, 32]}

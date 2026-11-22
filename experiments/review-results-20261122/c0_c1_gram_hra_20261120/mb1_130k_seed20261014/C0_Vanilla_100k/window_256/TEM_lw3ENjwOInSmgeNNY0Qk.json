@@ -1,0 +1,1 @@
+{"id": "TEM_lw3ENjwOInSmgeNNY0Qk", "group": "TEM-100", "window": 256, "rows": [{"z": 0, "tp": 18370, "fp": 2505, "fn": 13102, "tn": 1014599, "dice": 0.7018549296043708, "iou": 0.5406598581393296, "precision": 0.88, "recall": 0.5836934417895272}]}

@@ -1,0 +1,14 @@
+{
+  "model": "P0",
+  "seed": 20261014,
+  "steps": 40000,
+  "encoder_sha256": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+  "initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec",
+  "manifest_sha256": "b318d48f3716577645232c1ecaad846fba229101f4f1ea411b9f2edb198d46b3",
+  "source_sha256": "e2c4f6259c057cedea25e09c3a45453094cedfe114fab2d7c3b77efb7cc75322",
+  "gpu": 1,
+  "sampling": "b2bb13483c320a6b0cbdd977164dc5668ce7b3c4617a6a369baabf7f8382f3d0",
+  "head_sha256": "2afa2d0bdae3b38ecdd1533e55fd436bb00dd02008ff4e57e0d5c7e1993abaf7",
+  "cem_images": 1424,
+  "mb_planes": 2595
+}

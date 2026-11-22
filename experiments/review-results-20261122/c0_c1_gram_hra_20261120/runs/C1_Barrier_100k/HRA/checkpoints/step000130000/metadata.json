@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "stage": "HRA",
+    "model": "C1_Barrier_100k",
+    "initial_step": 120000,
+    "final_step": 130000,
+    "parent_full_sha256": "e9ad02a5507550727fdfa64f43c50b428d4ead88058d274ded586ffb1f0c09d7",
+    "global_batch": 48,
+    "trainer_sha256": "62913e855ebe06b6c36256aa1e76ac6778cadb7d00914e848ed497c4badce5c5",
+    "barrier_enabled": false,
+    "crop_geometry": [
+      512,
+      112,
+      768
+    ]
+  },
+  "step": 130000,
+  "sha256": "547e95151f3d6ba3f1100baaa139f985de88e265ab3ae0d96ae641f3cd04b082",
+  "sample_chain": "0542be27458d33ab5ca6f5f2b92c794022cfbdfc1f0c390ddae3babdf357bd2b"
+}

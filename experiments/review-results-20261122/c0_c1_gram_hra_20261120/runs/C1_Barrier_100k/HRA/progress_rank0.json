@@ -1,0 +1,16 @@
+{
+  "model": "C1_Barrier_100k",
+  "rank": 0,
+  "step": 130000,
+  "loss": 12.5625,
+  "lr": 1e-06,
+  "elapsed_seconds": 32384.40586668998,
+  "iteration_seconds": 3.1403512097895145,
+  "peak_allocated_bytes": 20496514560,
+  "additional_completed": 10000,
+  "additional_budget": 10000,
+  "barrier_raw": null,
+  "active_fraction": null,
+  "barrier_backward_seen": null,
+  "loss_median200": 12.875
+}

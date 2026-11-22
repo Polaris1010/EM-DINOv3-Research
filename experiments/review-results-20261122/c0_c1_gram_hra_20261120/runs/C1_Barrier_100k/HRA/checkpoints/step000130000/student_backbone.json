@@ -1,0 +1,6 @@
+{
+  "path": "/opt/data/3_117/tanghr/codex/c0_c1_gram_hra_20261120/runs/C1_Barrier_100k/HRA/checkpoints/step000130000/student_backbone.pth",
+  "sha256": "21c2c475e86aa0093cf7962f2d96d55a06b2695c21baaef13382eb0ffcb92350",
+  "step": 130000,
+  "kind": "student_backbone"
+}

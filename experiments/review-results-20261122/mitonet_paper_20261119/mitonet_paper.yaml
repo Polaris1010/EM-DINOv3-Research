@@ -1,0 +1,150 @@
+DATASET:
+  class_names:
+    1: mito
+  dataset_name: Baselines
+  labels:
+  - 1
+  norms:
+    mean: 0.508979
+    std: 0.148561
+  thing_list:
+  - 1
+EVAL:
+  engine: PanopticDeepLabEngine
+  engine_params:
+    confidence_thr: 0.5
+    label_divisor: 1000
+    nms_kernel: 7
+    nms_threshold: 0.1
+    stuff_area: 64
+    thing_list:
+    - 1
+    void_label: 0
+  epochs_per_eval: 1
+  eval_dir: null
+  eval_track_freq: 10
+  eval_track_indices:
+  - 131
+  - 45
+  - 268
+  - 96
+  - 252
+  - 173
+  - 53
+  - 266
+  - 138
+  - 222
+  - 127
+  - 21
+  metrics:
+  - labels:
+    - 1
+    metric: IoU
+    name: semantic_iou
+    output_key: sem_logits
+    target_key: sem
+  - label_divisor: 1000
+    labels:
+    - 1
+    metric: PQ
+    name: pq
+    output_key: pan_seg
+    target_key: pan_seg
+  - iou_thr: 0.5
+    label_divisor: 1000
+    labels:
+    - 1
+    metric: F1
+    name: f1_50
+    output_key: pan_seg
+    target_key: pan_seg
+MODEL:
+  arch: PanopticDeepLabPR
+  aspp_channels: null
+  aspp_dropout: 0.5
+  atrous_rates:
+  - 2
+  - 4
+  - 6
+  decoder_channels: 256
+  encoder: resnet50
+  importance_sample_ratio: 0.75
+  ins_decoder: true
+  ins_ratio: 0.5
+  low_level_channels_project:
+  - 32
+  low_level_stages:
+  - 1
+  num_classes: 1
+  num_fc: 3
+  oversample_ratio: 3
+  stage4_stride: 16
+  subdivision_num_points: 8192
+  subdivision_steps: 2
+  train_num_points: 1024
+TRAIN:
+  additional_train_dirs: null
+  amp: true
+  augmentations:
+  - aug: RandomScale
+    scale_limit:
+    - -0.9
+    - 1
+  - aug: PadIfNeeded
+    border_mode: 0
+    min_height: 256
+    min_width: 256
+  - aug: RandomCrop
+    height: 256
+    width: 256
+  - aug: Rotate
+    border_mode: 0
+    limit: 180
+  - aug: RandomBrightnessContrast
+    brightness_limit: 0.3
+    contrast_limit: 0.3
+  - aug: HorizontalFlip
+  - aug: VerticalFlip
+  batch_size: 64
+  criterion: PanopticLoss
+  criterion_params:
+    ce_weight: 1
+    l1_weight: 0.01
+    mse_weight: 200
+    pr_weight: 1
+    top_k_percent: 0.2
+  dataset_class: SingleClassInstanceDataset
+  dataset_params:
+    weight_gamma: 0.3
+  dist_backend: nccl
+  dist_url: tcp://localhost:10001
+  encoder_pretraining: /opt/data/3_117/tanghr/codex/mitonet_paper_20261119/swav.pth.tar
+  finetune_layer: all
+  gpu: null
+  lr_schedule: OneCycleLR
+  metrics:
+  - labels:
+    - 1
+    metric: IoU
+    name: semantic_iou
+    output_key: sem_logits
+    target_key: sem
+  model_dir: /opt/data/3_117/tanghr/codex/mitonet_paper_20261119/models
+  multiprocessing_distributed: false
+  optimizer: AdamW
+  optimizer_params:
+    weight_decay: 0.1
+  print_freq: 25
+  rank: 0
+  resume: null
+  run_name: Panoptic DeepLab Baseline
+  save_freq: 1
+  schedule_params:
+    epochs: 120
+    max_lr: 0.003
+    pct_start: 0.3
+    steps_per_epoch: -1
+  train_dir: /opt/data/3_117/tanghr/MitoNet/dataset/EMPIAR-11037/cem_mitolab
+  whole_pretraining: null
+  workers: 8
+  world_size: 1

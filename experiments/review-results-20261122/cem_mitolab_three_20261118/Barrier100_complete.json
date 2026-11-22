@@ -1,0 +1,14 @@
+{
+  "model": "Barrier100",
+  "seed": 20261014,
+  "steps": 40000,
+  "encoder_sha256": "9188d26f90216ee966fb8f80fdfde9d33d685202b35e62fa78b34b5b41c073a4",
+  "initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec",
+  "manifest_sha256": "b318d48f3716577645232c1ecaad846fba229101f4f1ea411b9f2edb198d46b3",
+  "source_sha256": "e2c4f6259c057cedea25e09c3a45453094cedfe114fab2d7c3b77efb7cc75322",
+  "gpu": 3,
+  "sampling": "b2bb13483c320a6b0cbdd977164dc5668ce7b3c4617a6a369baabf7f8382f3d0",
+  "head_sha256": "7cbc4e49df1f2147ffe1cb55ca8504a5a604eb645a7849d464410b8334bc5e14",
+  "cem_images": 1424,
+  "mb_planes": 2595
+}

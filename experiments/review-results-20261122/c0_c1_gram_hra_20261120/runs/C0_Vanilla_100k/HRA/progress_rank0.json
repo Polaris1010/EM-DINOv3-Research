@@ -1,0 +1,16 @@
+{
+  "model": "C0_Vanilla_100k",
+  "rank": 0,
+  "step": 130000,
+  "loss": 12.8125,
+  "lr": 1e-06,
+  "elapsed_seconds": 24173.576418895274,
+  "iteration_seconds": 3.1104851812124252,
+  "peak_allocated_bytes": 20496514560,
+  "additional_completed": 10000,
+  "additional_budget": 10000,
+  "barrier_raw": null,
+  "active_fraction": null,
+  "barrier_backward_seen": null,
+  "loss_median200": 13.125
+}

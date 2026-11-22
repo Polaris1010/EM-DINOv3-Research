@@ -1,0 +1,31 @@
+axes:
+- xy
+- xz
+- yz
+consensus_params:
+  cluster_iou_thr: 0.75
+  pixel_vote_thr: 1
+engine: PanopticDeepLabEngine3d
+engine_params:
+  confidence_thr: 0.3
+  input_scale: 1
+  label_divisor: 20000
+  median_kernel_size: 3
+  nms_kernel: 7
+  nms_threshold: 0.1
+  scales:
+  - 1
+  stuff_area: 64
+  thing_list:
+  - 1
+  void_label: 0
+filters:
+- min_size: 500
+  name: remove_small_objects
+- min_span: 8
+  name: remove_pancakes
+labels:
+- 1
+matcher_params:
+  merge_ioa_thr: 0.25
+  merge_iou_thr: 0.25

@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "new_head_runs": 6,
+  "Primus_steps_each": 40000,
+  "total_decoder_seeds": 3,
+  "models": [
+    "C0_Vanilla_100k",
+    "C1_Barrier_100k",
+    "Trajectory-Lerp05"
+  ],
+  "dev_region_rows": 342,
+  "MB1_image_rows": 23355,
+  "GPU0_used": false,
+  "website_http": 200,
+  "new_SSL_training": false,
+  "historical_inputs_unchanged": true,
+  "further_experiments_started": false,
+  "seconds": 12090.107855029404
+}

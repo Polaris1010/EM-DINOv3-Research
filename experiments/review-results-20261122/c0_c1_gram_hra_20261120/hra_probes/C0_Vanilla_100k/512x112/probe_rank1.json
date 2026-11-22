@@ -1,0 +1,9 @@
+{
+  "step": 120012,
+  "gpu_peak_allocated_bytes": 20496514560,
+  "gpu_peak_reserved_bytes": 21636317184,
+  "peak_headroom_bytes": 3111976960,
+  "budget_margin_ok": true,
+  "seconds_per_step": 3.1489185877144337,
+  "gram_loss": 0.00975057389587164
+}

@@ -1,0 +1,1 @@
+{"split": "mb1", "group": "TEM-100", "id": "TEM_iDXfFDvQLRHsB4XZHb3A", "planes": [{"IoU": 0.4504444934244361, "F1_50": 0.0, "F1_75": 0.0, "AP_50": 0.0, "AP_75": 0.0, "PQ": 0.0, "n_gt": 6, "n_pred": 99}]}

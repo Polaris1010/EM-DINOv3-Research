@@ -1,0 +1,575 @@
+{
+  "status": "complete",
+  "models": {
+    "C0_Vanilla_100k": {
+      "MV3_Dice": {
+        "mean": 0.8400899693756501,
+        "sd": 0.0014848413526171512,
+        "n": 3
+      },
+      "MV3_NSD": {
+        "mean": 0.7465136500846858,
+        "sd": 0.0021441369653514074,
+        "n": 3
+      },
+      "MB1_Dice": {
+        "mean": 0.4725931372733536,
+        "sd": 0.011022688173677834,
+        "n": 3
+      },
+      "muscle_Dice": {
+        "mean": 0.23207824011225953,
+        "sd": 0.04163057803439223,
+        "n": 3
+      },
+      "muscle_Precision": {
+        "mean": 0.17189042205818378,
+        "sd": 0.04315267633029199,
+        "n": 3
+      },
+      "muscle_Recall": {
+        "mean": 0.38528067957204754,
+        "sd": 0.006720690587354704,
+        "n": 3
+      },
+      "muscle_AP": {
+        "mean": 0.254842926246441,
+        "sd": 0.04070745571100847,
+        "n": 3
+      },
+      "muscle_AUROC": {
+        "mean": 0.7177795797555399,
+        "sd": 0.01723595415438939,
+        "n": 3
+      },
+      "muscle_far_FP": {
+        "mean": 0.07311111205105716,
+        "sd": 0.02183116322104248,
+        "n": 3
+      }
+    },
+    "C1_Barrier_100k": {
+      "MV3_Dice": {
+        "mean": 0.8400190087837257,
+        "sd": 0.0008472988985275422,
+        "n": 3
+      },
+      "MV3_NSD": {
+        "mean": 0.7482328094090476,
+        "sd": 0.0015835340548418172,
+        "n": 3
+      },
+      "MB1_Dice": {
+        "mean": 0.5257799544791358,
+        "sd": 0.008314550599297183,
+        "n": 3
+      },
+      "muscle_Dice": {
+        "mean": 0.526468695752843,
+        "sd": 0.02568997176293584,
+        "n": 3
+      },
+      "muscle_Precision": {
+        "mean": 0.6823628171991785,
+        "sd": 0.07637200673394119,
+        "n": 3
+      },
+      "muscle_Recall": {
+        "mean": 0.43751259783383484,
+        "sd": 0.006018234602096138,
+        "n": 3
+      },
+      "muscle_AP": {
+        "mean": 0.5532707538974176,
+        "sd": 0.050558738718082176,
+        "n": 3
+      },
+      "muscle_AUROC": {
+        "mean": 0.9198614743740272,
+        "sd": 0.015277616665679816,
+        "n": 3
+      },
+      "muscle_far_FP": {
+        "mean": 0.00440232199021263,
+        "sd": 0.0017166534681469568,
+        "n": 3
+      }
+    },
+    "Trajectory-Lerp05": {
+      "MV3_Dice": {
+        "mean": 0.8384806167890877,
+        "sd": 0.0013092864597371225,
+        "n": 3
+      },
+      "MV3_NSD": {
+        "mean": 0.7470176827764572,
+        "sd": 0.0014015183818423718,
+        "n": 3
+      },
+      "MB1_Dice": {
+        "mean": 0.49245796098715106,
+        "sd": 0.015659593129991312,
+        "n": 3
+      },
+      "muscle_Dice": {
+        "mean": 0.4448510878585803,
+        "sd": 0.031052143502610055,
+        "n": 3
+      },
+      "muscle_Precision": {
+        "mean": 0.6156738656960212,
+        "sd": 0.05780228969943836,
+        "n": 3
+      },
+      "muscle_Recall": {
+        "mean": 0.35709851270028314,
+        "sd": 0.03274674261090793,
+        "n": 3
+      },
+      "muscle_AP": {
+        "mean": 0.45932044547165696,
+        "sd": 0.050732460840239774,
+        "n": 3
+      },
+      "muscle_AUROC": {
+        "mean": 0.8681999073983299,
+        "sd": 0.02943366941585363,
+        "n": 3
+      },
+      "muscle_far_FP": {
+        "mean": 0.004585281218033234,
+        "sd": 0.001267226199965852,
+        "n": 3
+      }
+    }
+  },
+  "paired_comparisons": {
+    "C0_Vanilla_100k": {
+      "MV3_Dice": {
+        "mean": -7.096059192431466e-05,
+        "sd": 0.0008446010858316552,
+        "n": 3,
+        "positive_seeds": 2,
+        "negative_seeds": 1,
+        "per_seed": {
+          "20261014": -0.0010067676404201809,
+          "20261015": 0.0006347450983715808,
+          "20261016": 0.0001591407662756561
+        }
+      },
+      "MV3_NSD": {
+        "mean": 0.0017191593243618037,
+        "sd": 0.0016175984931426717,
+        "n": 3,
+        "positive_seeds": 2,
+        "negative_seeds": 1,
+        "per_seed": {
+          "20261014": -0.00014427437475239557,
+          "20261015": 0.002539808528892906,
+          "20261016": 0.002761943818944901
+        }
+      },
+      "MB1_Dice": {
+        "mean": 0.05318681720578222,
+        "sd": 0.002853932379815144,
+        "n": 3,
+        "positive_seeds": 3,
+        "negative_seeds": 0,
+        "per_seed": {
+          "20261014": 0.04989164264266105,
+          "20261015": 0.05479837009437272,
+          "20261016": 0.0548704388803129
+        }
+      },
+      "muscle_Dice": {
+        "mean": 0.2943904556405835,
+        "sd": 0.017018043213315893,
+        "n": 3,
+        "positive_seeds": 3,
+        "negative_seeds": 0,
+        "per_seed": {
+          "20261014": 0.29801980467774464,
+          "20261015": 0.2758505109004152,
+          "20261016": 0.3093010513435907
+        }
+      },
+      "muscle_Precision": {
+        "mean": 0.5104723951409946,
+        "sd": 0.033372955153925056,
+        "n": 3,
+        "positive_seeds": 3,
+        "negative_seeds": 0,
+        "per_seed": {
+          "20261014": 0.5177375621639457,
+          "20261015": 0.539614300897887,
+          "20261016": 0.47406532236115123
+        }
+      },
+      "muscle_Recall": {
+        "mean": 0.05223191826178727,
+        "sd": 0.008179453108650994,
+        "n": 3,
+        "positive_seeds": 3,
+        "negative_seeds": 0,
+        "per_seed": {
+          "20261014": 0.061474212807560824,
+          "20261015": 0.04592600192357027,
+          "20261016": 0.0492955400542307
+        }
+      },
+      "muscle_AP": {
+        "mean": 0.29842782765097664,
+        "sd": 0.009860644580385273,
+        "n": 3,
+        "positive_seeds": 3,
+        "negative_seeds": 0,
+        "per_seed": {
+          "20261014": 0.29881418268560606,
+          "20261015": 0.3080896163376169,
+          "20261016": 0.28837968392970703
+        }
+      },
+      "muscle_AUROC": {
+        "mean": 0.20208189461848733,
+        "sd": 0.004639869563519859,
+        "n": 3,
+        "positive_seeds": 3,
+        "negative_seeds": 0,
+        "per_seed": {
+          "20261014": 0.1983899694971395,
+          "20261015": 0.2005654687066244,
+          "20261016": 0.20729024565169807
+        }
+      },
+      "muscle_far_FP": {
+        "mean": -0.06870879006084453,
+        "sd": 0.02015629525680361,
+        "n": 3,
+        "positive_seeds": 0,
+        "negative_seeds": 3,
+        "per_seed": {
+          "20261014": -0.060786806226299145,
+          "20261015": -0.053717002034970485,
+          "20261016": -0.09162256192126395
+        }
+      }
+    },
+    "Trajectory-Lerp05": {
+      "MV3_Dice": {
+        "mean": 0.001538391994638048,
+        "sd": 0.001926630661965443,
+        "n": 3,
+        "positive_seeds": 2,
+        "negative_seeds": 1,
+        "per_seed": {
+          "20261014": 0.0021271398306869083,
+          "20261015": 0.0031019571759347553,
+          "20261016": -0.0006139210227075198
+        }
+      },
+      "MV3_NSD": {
+        "mean": 0.0012151266325904537,
+        "sd": 0.002707094515387636,
+        "n": 3,
+        "positive_seeds": 2,
+        "negative_seeds": 1,
+        "per_seed": {
+          "20261014": 0.001945100803718347,
+          "20261015": 0.0034823845959071065,
+          "20261016": -0.0017821055018540921
+        }
+      },
+      "MB1_Dice": {
+        "mean": 0.03332199349198478,
+        "sd": 0.008517533159482912,
+        "n": 3,
+        "positive_seeds": 3,
+        "negative_seeds": 0,
+        "per_seed": {
+          "20261014": 0.028946148932169957,
+          "20261015": 0.04313797970805222,
+          "20261016": 0.027881851835732163
+        }
+      },
+      "muscle_Dice": {
+        "mean": 0.08161760789426274,
+        "sd": 0.01330330495835048,
+        "n": 3,
+        "positive_seeds": 3,
+        "negative_seeds": 0,
+        "per_seed": {
+          "20261014": 0.06631420989595,
+          "20261015": 0.09042361625134732,
+          "20261016": 0.0881149975354909
+        }
+      },
+      "muscle_Precision": {
+        "mean": 0.06668895150315723,
+        "sd": 0.03223657707009653,
+        "n": 3,
+        "positive_seeds": 3,
+        "negative_seeds": 0,
+        "per_seed": {
+          "20261014": 0.095586382270484,
+          "20261015": 0.07256019607225805,
+          "20261016": 0.031920276166729655
+        }
+      },
+      "muscle_Recall": {
+        "mean": 0.08041408513355165,
+        "sd": 0.027121092510487124,
+        "n": 3,
+        "positive_seeds": 3,
+        "negative_seeds": 0,
+        "per_seed": {
+          "20261014": 0.05081944441011971,
+          "20261015": 0.086341704863305,
+          "20261016": 0.10408110612723026
+        }
+      },
+      "muscle_AP": {
+        "mean": 0.09395030842576067,
+        "sd": 0.004606424962232954,
+        "n": 3,
+        "positive_seeds": 3,
+        "negative_seeds": 0,
+        "per_seed": {
+          "20261014": 0.08864862765369846,
+          "20261015": 0.09697301797701297,
+          "20261016": 0.09622927964657058
+        }
+      },
+      "muscle_AUROC": {
+        "mean": 0.051661566975697314,
+        "sd": 0.015107866152413458,
+        "n": 3,
+        "positive_seeds": 3,
+        "negative_seeds": 0,
+        "per_seed": {
+          "20261014": 0.05178038081034131,
+          "20261015": 0.03649464430846583,
+          "20261016": 0.0667096758082848
+        }
+      },
+      "muscle_far_FP": {
+        "mean": -0.0001829592278206043,
+        "sd": 0.0014933120596724104,
+        "n": 3,
+        "positive_seeds": 1,
+        "negative_seeds": 2,
+        "per_seed": {
+          "20261014": -0.0015520541549152774,
+          "20261015": -0.00040624722184021047,
+          "20261016": 0.001409423693293675
+        }
+      }
+    }
+  },
+  "per_seed": [
+    {
+      "model": "C0_Vanilla_100k",
+      "seed": 20261014,
+      "MV3_Dice": 0.8417649010353445,
+      "MV3_NSD": 0.7480645906067256,
+      "MB1_Dice": 0.4848778939117228,
+      "muscle_Dice": 0.23648091822460254,
+      "muscle_Precision": 0.17497120011762543,
+      "muscle_Recall": 0.3811985359017885,
+      "muscle_AP": 0.25871680373324085,
+      "muscle_AUROC": 0.7128790737919501,
+      "muscle_far_FP": 0.06495760087561309
+    },
+    {
+      "model": "C0_Vanilla_100k",
+      "seed": 20261015,
+      "MV3_Dice": 0.839569846883462,
+      "MV3_NSD": 0.7474094849870061,
+      "MB1_Dice": 0.4635674933878068,
+      "muscle_Dice": 0.2713325079935934,
+      "muscle_Precision": 0.21342015120079083,
+      "muscle_Recall": 0.39303749801304416,
+      "muscle_AP": 0.2934749627843649,
+      "muscle_AUROC": 0.7369351282027801,
+      "muscle_far_FP": 0.056530184341329566
+    },
+    {
+      "model": "C0_Vanilla_100k",
+      "seed": 20261016,
+      "MV3_Dice": 0.8389351602081435,
+      "MV3_NSD": 0.7440668746603257,
+      "MB1_Dice": 0.46933402452053125,
+      "muscle_Dice": 0.18842129411858266,
+      "muscle_Precision": 0.12727991485613505,
+      "muscle_Recall": 0.38160600480131,
+      "muscle_AP": 0.21233701222171722,
+      "muscle_AUROC": 0.7035245372718893,
+      "muscle_far_FP": 0.09784555093622882
+    },
+    {
+      "model": "C1_Barrier_100k",
+      "seed": 20261014,
+      "MV3_Dice": 0.8407581333949243,
+      "MV3_NSD": 0.7479203162319732,
+      "MB1_Dice": 0.5347695365543839,
+      "muscle_Dice": 0.5345007229023472,
+      "muscle_Precision": 0.6927087622815712,
+      "muscle_Recall": 0.4426727487093493,
+      "muscle_AP": 0.5575309864188469,
+      "muscle_AUROC": 0.9112690432890896,
+      "muscle_far_FP": 0.004170794649313941
+    },
+    {
+      "model": "C1_Barrier_100k",
+      "seed": 20261015,
+      "MV3_Dice": 0.8402045919818336,
+      "MV3_NSD": 0.749949293515899,
+      "MB1_Dice": 0.5183658634821795,
+      "muscle_Dice": 0.5471830188940086,
+      "muscle_Precision": 0.7530344520986778,
+      "muscle_Recall": 0.43896349993661443,
+      "muscle_AP": 0.6015645791219818,
+      "muscle_AUROC": 0.9375005969094045,
+      "muscle_far_FP": 0.002813182306359079
+    },
+    {
+      "model": "C1_Barrier_100k",
+      "seed": 20261016,
+      "MV3_Dice": 0.8390943009744192,
+      "MV3_NSD": 0.7468288184792706,
+      "MB1_Dice": 0.5242044634008441,
+      "muscle_Dice": 0.49772234546217337,
+      "muscle_Precision": 0.6013452372172863,
+      "muscle_Recall": 0.4309015448555407,
+      "muscle_AP": 0.5007166961514242,
+      "muscle_AUROC": 0.9108147829235874,
+      "muscle_far_FP": 0.006222989014964869
+    },
+    {
+      "model": "Trajectory-Lerp05",
+      "seed": 20261014,
+      "MV3_Dice": 0.8386309935642374,
+      "MV3_NSD": 0.7459752154282548,
+      "MB1_Dice": 0.5058233876222139,
+      "muscle_Dice": 0.4681865130063972,
+      "muscle_Precision": 0.5971223800110872,
+      "muscle_Recall": 0.3918533042992296,
+      "muscle_AP": 0.46888235876514844,
+      "muscle_AUROC": 0.8594886624787483,
+      "muscle_far_FP": 0.005722848804229219
+    },
+    {
+      "model": "Trajectory-Lerp05",
+      "seed": 20261015,
+      "MV3_Dice": 0.8371026348058989,
+      "MV3_NSD": 0.7464669089199919,
+      "MB1_Dice": 0.4752278837741273,
+      "muscle_Dice": 0.45675940264266124,
+      "muscle_Precision": 0.6804742560264198,
+      "muscle_Recall": 0.35262179507330943,
+      "muscle_AP": 0.5045915611449688,
+      "muscle_AUROC": 0.9010059526009386,
+      "muscle_far_FP": 0.0032194295281992896
+    },
+    {
+      "model": "Trajectory-Lerp05",
+      "seed": 20261016,
+      "MV3_Dice": 0.8397082219971267,
+      "MV3_NSD": 0.7486109239811247,
+      "MB1_Dice": 0.496322611565112,
+      "muscle_Dice": 0.40960734792668246,
+      "muscle_Precision": 0.5694249610505566,
+      "muscle_Recall": 0.32682043872831046,
+      "muscle_AP": 0.40448741650485365,
+      "muscle_AUROC": 0.8441051071153026,
+      "muscle_far_FP": 0.004813565321671194
+    }
+  ],
+  "seeds": [
+    20261014,
+    20261015,
+    20261016
+  ],
+  "new_head_count": 6,
+  "Primus_steps_each": 40000,
+  "new_SSL_training": false,
+  "SD_definition": "sample SD across three decoder seeds, ddof=1",
+  "MB1": "already exposed fixed development diagnostic",
+  "acquisition_units": "multiple slices are not independent acquisitions",
+  "heads": [
+    {
+      "model": "C0_Vanilla_100k",
+      "seed": 20261014,
+      "head_path": "/opt/data/3_117/tanghr/codex/pilot_c100_paired_20261028/systems/C0_Vanilla_100k/downstream/runs/C0_Vanilla_100k/seed20261014/head_step040000.pth",
+      "sha256": "073e839952cd6dfb1bff8e68c2a2f306b474554d0861752b79eb4aed9cacdbcb",
+      "encoder_sha256": "549aee676613da77082ddd1613ba8b502e3300c2f128d9feb889583cc4f42da8",
+      "reused": true
+    },
+    {
+      "model": "C0_Vanilla_100k",
+      "seed": 20261015,
+      "head_path": "/opt/data/3_117/tanghr/codex/pilot_c100_decoder_seeds_20261102/downstream/runs/C0_Vanilla_100k/seed20261015/head_step040000.pth",
+      "sha256": "9c570b0f6f73f447fc23f303996ee463fcda46c3ce407fe9f313d8c5b56d9d1e",
+      "encoder_sha256": "549aee676613da77082ddd1613ba8b502e3300c2f128d9feb889583cc4f42da8",
+      "reused": false
+    },
+    {
+      "model": "C0_Vanilla_100k",
+      "seed": 20261016,
+      "head_path": "/opt/data/3_117/tanghr/codex/pilot_c100_decoder_seeds_20261102/downstream/runs/C0_Vanilla_100k/seed20261016/head_step040000.pth",
+      "sha256": "c52f1422c9298757c65911d2f599f65e065001b2f8eed354432a8485563b0712",
+      "encoder_sha256": "549aee676613da77082ddd1613ba8b502e3300c2f128d9feb889583cc4f42da8",
+      "reused": false
+    },
+    {
+      "model": "C1_Barrier_100k",
+      "seed": 20261014,
+      "head_path": "/opt/data/3_117/tanghr/codex/pilot_c100_paired_20261028/systems/C1_Barrier_100k/downstream/runs/C1_Barrier_100k/seed20261014/head_step040000.pth",
+      "sha256": "87a27fe4abfd4a638e7089b39308d005c363b6c8ef84a489e58c721a8fa5ccb2",
+      "encoder_sha256": "9188d26f90216ee966fb8f80fdfde9d33d685202b35e62fa78b34b5b41c073a4",
+      "reused": true
+    },
+    {
+      "model": "C1_Barrier_100k",
+      "seed": 20261015,
+      "head_path": "/opt/data/3_117/tanghr/codex/pilot_c100_decoder_seeds_20261102/downstream/runs/C1_Barrier_100k/seed20261015/head_step040000.pth",
+      "sha256": "7750152f29ed10df36562b91311ff777ea494280b6ea71a04d0d21885bd7d577",
+      "encoder_sha256": "9188d26f90216ee966fb8f80fdfde9d33d685202b35e62fa78b34b5b41c073a4",
+      "reused": false
+    },
+    {
+      "model": "C1_Barrier_100k",
+      "seed": 20261016,
+      "head_path": "/opt/data/3_117/tanghr/codex/pilot_c100_decoder_seeds_20261102/downstream/runs/C1_Barrier_100k/seed20261016/head_step040000.pth",
+      "sha256": "b3e54c3ede3ca1021a20a217ec03a2f550930ea679f6506ce4c47360daca2cfc",
+      "encoder_sha256": "9188d26f90216ee966fb8f80fdfde9d33d685202b35e62fa78b34b5b41c073a4",
+      "reused": false
+    },
+    {
+      "model": "Trajectory-Lerp05",
+      "seed": 20261014,
+      "head_path": "/opt/data/3_117/tanghr/codex/pilot_b_trajectory_lerp05_20261027/downstream/runs/Trajectory-Lerp05/seed20261014/head_step040000.pth",
+      "sha256": "b3c7d9252cbb21e6512533c529990dba778184b1daf41118cff02754777dfe46",
+      "encoder_sha256": "0d79edbd3b968eebbda4d3d57d6057632d4e793decebd301941782203b5a6c24",
+      "reused": true
+    },
+    {
+      "model": "Trajectory-Lerp05",
+      "seed": 20261015,
+      "head_path": "/opt/data/3_117/tanghr/codex/pilot_c100_decoder_seeds_20261102/downstream/runs/Trajectory-Lerp05/seed20261015/head_step040000.pth",
+      "sha256": "c330345ca010f790d048da812aef0c7cdddf98f734ee9c46965ad322d938f966",
+      "encoder_sha256": "0d79edbd3b968eebbda4d3d57d6057632d4e793decebd301941782203b5a6c24",
+      "reused": false
+    },
+    {
+      "model": "Trajectory-Lerp05",
+      "seed": 20261016,
+      "head_path": "/opt/data/3_117/tanghr/codex/pilot_c100_decoder_seeds_20261102/downstream/runs/Trajectory-Lerp05/seed20261016/head_step040000.pth",
+      "sha256": "821dae372c5d7f03377f172503f02e9bc48641efda81cd89a28494c6efc3c7de",
+      "encoder_sha256": "0d79edbd3b968eebbda4d3d57d6057632d4e793decebd301941782203b5a6c24",
+      "reused": false
+    }
+  ],
+  "all_initializations_and_sampling_match_seed_contracts": true,
+  "GT_counts_match_all_nine_runs": true,
+  "further_experiments_started": false
+}

@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "model": "C0_Vanilla_100k",
+  "initial_step": 100000,
+  "completed_step": 120000,
+  "additional_updates": 20000,
+  "sample_chain": "0d9b9df6e41f7f5482d6d8443bc2885bbec26de4b81058c34a0f4711255452b9",
+  "seconds": 26141.86309365928,
+  "identity": {
+    "stage": "Gram",
+    "model": "C0_Vanilla_100k",
+    "initial_step": 100000,
+    "final_step": 120000,
+    "parent_full_sha256": "e78c5ee369731219657d38bbe0044622fb15b574184602dedb9b9376b626768b",
+    "global_batch": 48,
+    "trainer_sha256": "bf0071f216e27bda299a0a828a72f4343b342b7380a74654735fed8d708c573f",
+    "barrier_enabled": false
+  }
+}

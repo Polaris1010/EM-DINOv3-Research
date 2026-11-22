@@ -1,0 +1,145 @@
+{
+  "stage": "Pilot-C100-Seeds",
+  "models": {
+    "C0_Vanilla_100k": {
+      "encoder_relative": "codex/pilot_c100_paired_20261028/runs/C0_Vanilla_100k/checkpoints/step000100000/teacher_backbone.pth",
+      "encoder_sha256": "549aee676613da77082ddd1613ba8b502e3300c2f128d9feb889583cc4f42da8",
+      "existing_head_dir_relative": "codex/pilot_c100_paired_20261028/systems/C0_Vanilla_100k/downstream/runs/C0_Vanilla_100k/seed20261014",
+      "existing_head_sha256": "073e839952cd6dfb1bff8e68c2a2f306b474554d0861752b79eb4aed9cacdbcb",
+      "existing_MB1_metrics_relative": "codex/pilot_c100_paired_20261028/systems/C0_Vanilla_100k/benchmark/C0_Vanilla_100k/metrics.json",
+      "existing_MB1_sha256": "c3ad3ddcc27bad522155c7420351b74f527c018cb8d2b4460a5605ccce24046e"
+    },
+    "C1_Barrier_100k": {
+      "encoder_relative": "codex/pilot_c100_paired_20261028/runs/C1_Barrier_100k/checkpoints/step000100000/teacher_backbone.pth",
+      "encoder_sha256": "9188d26f90216ee966fb8f80fdfde9d33d685202b35e62fa78b34b5b41c073a4",
+      "existing_head_dir_relative": "codex/pilot_c100_paired_20261028/systems/C1_Barrier_100k/downstream/runs/C1_Barrier_100k/seed20261014",
+      "existing_head_sha256": "87a27fe4abfd4a638e7089b39308d005c363b6c8ef84a489e58c721a8fa5ccb2",
+      "existing_MB1_metrics_relative": "codex/pilot_c100_paired_20261028/systems/C1_Barrier_100k/benchmark/C1_Barrier_100k/metrics.json",
+      "existing_MB1_sha256": "4c3162e8b327e02a680e10b7592d04bde8e11e7f80d3269c9814e448e88e5a5e"
+    },
+    "Trajectory-Lerp05": {
+      "encoder_relative": "codex/pilot_b_trajectory_lerp05_20261027/checkpoints/Trajectory-Lerp05_ema_backbone.pth",
+      "encoder_sha256": "0d79edbd3b968eebbda4d3d57d6057632d4e793decebd301941782203b5a6c24",
+      "existing_head_dir_relative": "codex/pilot_b_trajectory_lerp05_20261027/downstream/runs/Trajectory-Lerp05/seed20261014",
+      "existing_head_sha256": "b3c7d9252cbb21e6512533c529990dba778184b1daf41118cff02754777dfe46",
+      "existing_MB1_metrics_relative": "codex/pilot_b_trajectory_lerp05_20261027/benchmark/Trajectory-Lerp05/metrics.json",
+      "existing_MB1_sha256": "170fc2134b2945829286143d5bfc4474fc0b557ef49285c8be6899bf7c6e67b6"
+    }
+  },
+  "existing_seed": 20261014,
+  "new_seeds": [
+    20261015,
+    20261016
+  ],
+  "all_seeds": [
+    20261014,
+    20261015,
+    20261016
+  ],
+  "new_head_count": 6,
+  "Primus_steps": 40000,
+  "SSL_steps": 0,
+  "TTA": false,
+  "seed_contracts": {
+    "20261014": {
+      "decoder_initial_sha256": "2ec39fb096d1a0eceb3124a9e08549d0c6ac82665dd71f8e2bc7b5a8d56f48ec",
+      "final_sampling_hash": "45b8763f399df51c4455e4a791e6c32b2e9d6dfd9e5ba9ec988bbebb8b883d64"
+    },
+    "20261015": {
+      "decoder_initial_sha256": "17d5a0fc3570cf232e74945e027b1c10c3b728b673d33a76108223a4c1c92a35",
+      "final_sampling_hash": "28b7ed4e628b2fe7c94fabf3bdcbbf81786d8de3751019ad77aa1000f7c0a73f"
+    },
+    "20261016": {
+      "decoder_initial_sha256": "8889b6cfc83e04719ad5ac54f6755f3124cf248e7e40c8a6c4eb1c847eb9bcf4",
+      "final_sampling_hash": "9bc5c7ba836765d8eadae3c5e2a022307692522ceaa9a25d6c1cd80795af4199"
+    }
+  },
+  "MV_manifest_sha256": "787fa42d2d944844d75d9e70bb23bd095dd2375bbc1a9d2123a37292d7c2b259",
+  "common_data_parent_relative": "codex/pilot_c100_paired_20261028/systems/C0_Vanilla_100k/downstream",
+  "base_MV3_protocol": {
+    "stage": "MV-3",
+    "models": {
+      "C0_Vanilla_100k": "C0_Vanilla_100k"
+    },
+    "encoder": "DINOv3 ViT-L/16 frozen",
+    "decoder": "Original MedDINOv3 Primus_Multiscale",
+    "interaction_indices": [
+      5,
+      11,
+      17,
+      23
+    ],
+    "seed_sequence": [
+      20261014
+    ],
+    "optimizer_steps": 40000,
+    "milestones": [
+      10000,
+      20000,
+      40000
+    ],
+    "selection": "fixed common 40000 steps; no per-model best checkpoint selection or extension",
+    "monitoring": "8 deterministic evenly spaced valid Z slices per dev region, full original XY, TTA OFF",
+    "final_validation": "every valid dev Z slice, full original XY, unchanged MV1 sliding256 stride128 mean-softmax threshold0.5; no postprocessing",
+    "tta": false,
+    "sampling": "uniform source; uniform legal annotated Z across all train regions within source; shared stateless SeedSequence(seed,step)",
+    "foreground_oversample_probability": 0.5,
+    "masked_background_sampling": "center on a uniformly selected valid pixel when annotation mask exists; never sample an all-ignore patch",
+    "crop_size": 256,
+    "batch_size": 1,
+    "normalization": "(uint8/255-0.5)/0.25; grayscale repeated RGB; native spacing without resampling",
+    "augmentations": [
+      "horizontal flip probability0.5",
+      "vertical flip probability0.5"
+    ],
+    "loss": "cross_entropy(ignore_index=-1)+soft foreground Dice on valid pixels only",
+    "optimizer": "AdamW",
+    "lr": 0.0001,
+    "weight_decay": 0.05,
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "warmup_steps": 100,
+    "schedule": "shared cosine with minimum factor0.1 over40000 steps",
+    "gradient_clip_norm": 12,
+    "encoder_feature_precision": "bfloat16",
+    "decoder_precision": "float32",
+    "inference_tile_batch_size": 16,
+    "metrics": [
+      "Dice",
+      "Precision",
+      "Recall",
+      "HD95 nm",
+      "NSD@16nm",
+      "predicted foreground fraction"
+    ],
+    "ignore_distance_policy": "reuse MV2 valid surfaces excluding one-voxel ignore adjacency; no fake ignore boundary",
+    "physical_gpus": [
+      1,
+      2,
+      3
+    ],
+    "gpu0_forbidden": true,
+    "additional_seeds_after": "first seed both models full-source final validation and metrics complete",
+    "encoder_training": false,
+    "fft_gates": false,
+    "new_ssl_modules": false,
+    "stop_after": "D12 first-seed results; no auto next experiment",
+    "data_protocol": "MV-Generalist-v2",
+    "han_mask_use": "NONE_IN_LOSS_SAMPLING_EVALUATION"
+  },
+  "allowed_physical_gpus": [
+    1,
+    2,
+    3
+  ],
+  "GPU0_forbidden": true,
+  "std": "sample standard deviation across three paired decoder seeds, ddof=1",
+  "pairing": "C1 minus C0 and C1 minus fixed midpoint within the same decoder seed",
+  "MB1_GT": "fixed offline scoring only, already exposed development diagnostic",
+  "stop_after": "Six new40k heads, all38dev and7MB1 per run, three-seed report and independent draft PR; STOP",
+  "new_Linear_training": false,
+  "no_hyperparameter_search": true,
+  "max_runtime_hours": 12
+}

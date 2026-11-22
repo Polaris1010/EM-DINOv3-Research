@@ -1,0 +1,15 @@
+{
+  "identity": {
+    "stage": "Gram",
+    "model": "C1_Barrier_100k",
+    "initial_step": 100000,
+    "final_step": 120000,
+    "parent_full_sha256": "8d01c6394d18da4a08054478d28a1b702b5bf2f950a14a972e1b5867d069b1b8",
+    "global_batch": 48,
+    "trainer_sha256": "bf0071f216e27bda299a0a828a72f4343b342b7380a74654735fed8d708c573f",
+    "barrier_enabled": false
+  },
+  "step": 120000,
+  "sha256": "e9ad02a5507550727fdfa64f43c50b428d4ead88058d274ded586ffb1f0c09d7",
+  "sample_chain": "0d9b9df6e41f7f5482d6d8443bc2885bbec26de4b81058c34a0f4711255452b9"
+}

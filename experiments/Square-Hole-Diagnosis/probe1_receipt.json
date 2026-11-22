@@ -1,0 +1,13 @@
+{
+  "gpu": 1,
+  "seconds": 41.695094007998705,
+  "checkpoint_hashes": {
+    "P0": "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035",
+    "C0_100k": "549aee676613da77082ddd1613ba8b502e3300c2f128d9feb889583cc4f42da8",
+    "C1_100k": "9188d26f90216ee966fb8f80fdfde9d33d685202b35e62fa78b34b5b41c073a4",
+    "C1_130k_HRA": "6ab3fbbcf5c12d866d03dc63dfe88788203500ea60df86485c4996b4453f8fdb",
+    "C0_130k_HRA": "6d613c46be5078c56fea0128dc70aaa618c639498d1417902881d8e2cb35943f"
+  },
+  "missing_models": {},
+  "samples": 10
+}

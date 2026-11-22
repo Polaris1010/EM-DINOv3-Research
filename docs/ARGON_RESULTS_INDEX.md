@@ -2,6 +2,20 @@
 
 ## 本轮归档
 
+### 方孔与 GT 内部漏洞复核
+
+| 阶段 | 已验证的结果 |
+|---|---|
+| 形态及编码器特征 | [诊断报告](../experiments/Square-Hole-Diagnosis/DIAGNOSIS_SUMMARY.md)。380 张掩膜，五个编码器，10 个特征对照视野。 |
+| 单窗与拼接追踪 | [日志口径与逐孔测量](../experiments/Square-Hole-Diagnosis/fusion_trace/FUSION_TRACE_SUMMARY.md)。P0 与 C1 的 12 张历史掩膜逐像素复现。 |
+| 半 patch 偏移 | [四图 GT 快测与 HQ-5nm 相位结果](../experiments/Square-Hole-Diagnosis/phase_shift_test/PHASE_SHIFT_SUMMARY.md)。 |
+| 破相位全量推理 | [HQ-5nm 与 MB-1 报告](../experiments/Square-Hole-Diagnosis/full_phase_eval/FULL_PHASE_EVAL_SUMMARY.md)。前三组各 2,595 个 MB-1 视野。四相位的 MB-1 口径仅为 TEM-100 与 Glycolytic muscle 的 402 个视野。 |
+| GT 去边界内部漏洞 | [r=3/5 报告](../experiments/Square-Hole-Diagnosis/gt_interior_holes/GT_INTERIOR_HOLES_SUMMARY.md)。四种配置各 2,595 个视野，MitoNet 为六个 3D 体数据加 TEM-100 官方 2D 的混合参照。 |
+
+人工复核拼图的原件留在服务器独立诊断目录。审核分支保留样本索引、方孔坐标、复算脚本和逐项指标。
+
+### 历史实验结果
+
 | 实验 | 审核入口 | 口径 |
 |---|---|---|
 | C0/C1 100k → 120k Gram → 130k HRA | [训练配置、完成回执与结果](../experiments/review-results-20261122/c0_c1_gram_hra_20261120/) | C0/C1 两条续训轨迹，HRA 采用显存预检通过的 512/112/768。 |

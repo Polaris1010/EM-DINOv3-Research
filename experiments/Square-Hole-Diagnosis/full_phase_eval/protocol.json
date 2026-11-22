@@ -1,0 +1,12 @@
+{
+  "gpu": 1,
+  "encoder_path": "/opt/data/3_117/tanghr/codex/pilot_c100_paired_20261028/runs/C1_Barrier_100k/checkpoints/step000100000/teacher_backbone.pth",
+  "encoder_sha256": "9188d26f90216ee966fb8f80fdfde9d33d685202b35e62fa78b34b5b41c073a4",
+  "decoder_path": "/opt/data/3_117/tanghr/codex/mix_mitolab_mv_20261118/batch4/primus_cem/Barrier100/model_40000.pt",
+  "decoder_sha256": "1e0ca4324aa5dd3e939d4683da8a732b916ca1fb2119db9cac1bf91e0836d373",
+  "seed": 20261014,
+  "batch": 16,
+  "padding": "reflect",
+  "quad_full": false,
+  "quad_full_estimated_seconds": 3134.389856630146
+}

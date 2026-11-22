@@ -1,0 +1,17 @@
+{
+  "gpu": 1,
+  "encoder": "/opt/data/3_117/tanghr/codex/pilot_c100_paired_20261028/runs/C1_Barrier_100k/checkpoints/step000100000/teacher_backbone.pth",
+  "decoder": "/opt/data/3_117/tanghr/codex/mix_mitolab_mv_20261118/batch4/primus_cem/Barrier100/model_40000.pt",
+  "encoder_sha256": "9188d26f90216ee966fb8f80fdfde9d33d685202b35e62fa78b34b5b41c073a4",
+  "decoder_sha256": "1e0ca4324aa5dd3e939d4683da8a732b916ca1fb2119db9cac1bf91e0836d373",
+  "mitonet_path": "/opt/data/3_117/tanghr/codex/mv4_official_mitonet_20261014/assets/MitoNet_v1.pth",
+  "mitonet_sha256": "487d63dd1deb971a3e374785b350673ee5427e0ffcd44880bf9a54f6c2c4bf04",
+  "mitonet_geometry": "official 3D packed existing volume masks, official Engine2d for TEM-100",
+  "instance_policy": "native GT instance IDs per slice",
+  "radii": [
+    3,
+    5
+  ],
+  "erosion": "disk",
+  "hole_connectivity": 4
+}

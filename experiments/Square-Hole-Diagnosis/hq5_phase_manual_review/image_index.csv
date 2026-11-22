@@ -1,0 +1,81 @@
+fov,config,square_holes,png
+adrenal_01,Baseline,7,annotated_masks/baseline/adrenal_01.png
+adrenal_01,Gauss + Stride-120,1,annotated_masks/stride120/adrenal_01.png
+adrenal_01,Gauss + Dual-Phase,0,annotated_masks/dual_phase/adrenal_01.png
+adrenal_01,Gauss + Quad-Phase,1,annotated_masks/quad_phase/adrenal_01.png
+adrenal_02,Baseline,0,annotated_masks/baseline/adrenal_02.png
+adrenal_02,Gauss + Stride-120,3,annotated_masks/stride120/adrenal_02.png
+adrenal_02,Gauss + Dual-Phase,1,annotated_masks/dual_phase/adrenal_02.png
+adrenal_02,Gauss + Quad-Phase,0,annotated_masks/quad_phase/adrenal_02.png
+adrenal_03,Baseline,4,annotated_masks/baseline/adrenal_03.png
+adrenal_03,Gauss + Stride-120,3,annotated_masks/stride120/adrenal_03.png
+adrenal_03,Gauss + Dual-Phase,0,annotated_masks/dual_phase/adrenal_03.png
+adrenal_03,Gauss + Quad-Phase,0,annotated_masks/quad_phase/adrenal_03.png
+adrenal_04,Baseline,0,annotated_masks/baseline/adrenal_04.png
+adrenal_04,Gauss + Stride-120,0,annotated_masks/stride120/adrenal_04.png
+adrenal_04,Gauss + Dual-Phase,1,annotated_masks/dual_phase/adrenal_04.png
+adrenal_04,Gauss + Quad-Phase,0,annotated_masks/quad_phase/adrenal_04.png
+adrenal_05,Baseline,7,annotated_masks/baseline/adrenal_05.png
+adrenal_05,Gauss + Stride-120,4,annotated_masks/stride120/adrenal_05.png
+adrenal_05,Gauss + Dual-Phase,1,annotated_masks/dual_phase/adrenal_05.png
+adrenal_05,Gauss + Quad-Phase,2,annotated_masks/quad_phase/adrenal_05.png
+heart_01,Baseline,11,annotated_masks/baseline/heart_01.png
+heart_01,Gauss + Stride-120,6,annotated_masks/stride120/heart_01.png
+heart_01,Gauss + Dual-Phase,1,annotated_masks/dual_phase/heart_01.png
+heart_01,Gauss + Quad-Phase,1,annotated_masks/quad_phase/heart_01.png
+heart_02,Baseline,4,annotated_masks/baseline/heart_02.png
+heart_02,Gauss + Stride-120,0,annotated_masks/stride120/heart_02.png
+heart_02,Gauss + Dual-Phase,1,annotated_masks/dual_phase/heart_02.png
+heart_02,Gauss + Quad-Phase,1,annotated_masks/quad_phase/heart_02.png
+heart_03,Baseline,8,annotated_masks/baseline/heart_03.png
+heart_03,Gauss + Stride-120,3,annotated_masks/stride120/heart_03.png
+heart_03,Gauss + Dual-Phase,0,annotated_masks/dual_phase/heart_03.png
+heart_03,Gauss + Quad-Phase,0,annotated_masks/quad_phase/heart_03.png
+heart_04,Baseline,22,annotated_masks/baseline/heart_04.png
+heart_04,Gauss + Stride-120,4,annotated_masks/stride120/heart_04.png
+heart_04,Gauss + Dual-Phase,7,annotated_masks/dual_phase/heart_04.png
+heart_04,Gauss + Quad-Phase,3,annotated_masks/quad_phase/heart_04.png
+heart_05,Baseline,9,annotated_masks/baseline/heart_05.png
+heart_05,Gauss + Stride-120,4,annotated_masks/stride120/heart_05.png
+heart_05,Gauss + Dual-Phase,2,annotated_masks/dual_phase/heart_05.png
+heart_05,Gauss + Quad-Phase,0,annotated_masks/quad_phase/heart_05.png
+liver_01,Baseline,19,annotated_masks/baseline/liver_01.png
+liver_01,Gauss + Stride-120,6,annotated_masks/stride120/liver_01.png
+liver_01,Gauss + Dual-Phase,5,annotated_masks/dual_phase/liver_01.png
+liver_01,Gauss + Quad-Phase,3,annotated_masks/quad_phase/liver_01.png
+liver_02,Baseline,0,annotated_masks/baseline/liver_02.png
+liver_02,Gauss + Stride-120,0,annotated_masks/stride120/liver_02.png
+liver_02,Gauss + Dual-Phase,1,annotated_masks/dual_phase/liver_02.png
+liver_02,Gauss + Quad-Phase,0,annotated_masks/quad_phase/liver_02.png
+liver_03,Baseline,19,annotated_masks/baseline/liver_03.png
+liver_03,Gauss + Stride-120,8,annotated_masks/stride120/liver_03.png
+liver_03,Gauss + Dual-Phase,4,annotated_masks/dual_phase/liver_03.png
+liver_03,Gauss + Quad-Phase,4,annotated_masks/quad_phase/liver_03.png
+liver_04,Baseline,15,annotated_masks/baseline/liver_04.png
+liver_04,Gauss + Stride-120,8,annotated_masks/stride120/liver_04.png
+liver_04,Gauss + Dual-Phase,2,annotated_masks/dual_phase/liver_04.png
+liver_04,Gauss + Quad-Phase,5,annotated_masks/quad_phase/liver_04.png
+liver_05,Baseline,6,annotated_masks/baseline/liver_05.png
+liver_05,Gauss + Stride-120,3,annotated_masks/stride120/liver_05.png
+liver_05,Gauss + Dual-Phase,0,annotated_masks/dual_phase/liver_05.png
+liver_05,Gauss + Quad-Phase,1,annotated_masks/quad_phase/liver_05.png
+pancreas_01,Baseline,0,annotated_masks/baseline/pancreas_01.png
+pancreas_01,Gauss + Stride-120,0,annotated_masks/stride120/pancreas_01.png
+pancreas_01,Gauss + Dual-Phase,0,annotated_masks/dual_phase/pancreas_01.png
+pancreas_01,Gauss + Quad-Phase,0,annotated_masks/quad_phase/pancreas_01.png
+pancreas_02,Baseline,0,annotated_masks/baseline/pancreas_02.png
+pancreas_02,Gauss + Stride-120,1,annotated_masks/stride120/pancreas_02.png
+pancreas_02,Gauss + Dual-Phase,2,annotated_masks/dual_phase/pancreas_02.png
+pancreas_02,Gauss + Quad-Phase,0,annotated_masks/quad_phase/pancreas_02.png
+pancreas_03,Baseline,1,annotated_masks/baseline/pancreas_03.png
+pancreas_03,Gauss + Stride-120,0,annotated_masks/stride120/pancreas_03.png
+pancreas_03,Gauss + Dual-Phase,0,annotated_masks/dual_phase/pancreas_03.png
+pancreas_03,Gauss + Quad-Phase,0,annotated_masks/quad_phase/pancreas_03.png
+pancreas_04,Baseline,6,annotated_masks/baseline/pancreas_04.png
+pancreas_04,Gauss + Stride-120,0,annotated_masks/stride120/pancreas_04.png
+pancreas_04,Gauss + Dual-Phase,0,annotated_masks/dual_phase/pancreas_04.png
+pancreas_04,Gauss + Quad-Phase,0,annotated_masks/quad_phase/pancreas_04.png
+pancreas_05,Baseline,1,annotated_masks/baseline/pancreas_05.png
+pancreas_05,Gauss + Stride-120,1,annotated_masks/stride120/pancreas_05.png
+pancreas_05,Gauss + Dual-Phase,0,annotated_masks/dual_phase/pancreas_05.png
+pancreas_05,Gauss + Quad-Phase,1,annotated_masks/quad_phase/pancreas_05.png

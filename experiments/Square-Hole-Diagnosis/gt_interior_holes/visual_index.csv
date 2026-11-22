@@ -1,0 +1,13 @@
+group,id,z,baseline_r3_interior_fn_ratio,png
+TEM-100,TEM_TCzgvIZVHqNFtdJEPaXf,0,0.5074080753760056,visual_panels/TEM-100__TEM_TCzgvIZVHqNFtdJEPaXf__z0.png
+TEM-100,TEM_bUsTjDOJHiHMPCNIWkuT,0,0.3868016987912447,visual_panels/TEM-100__TEM_bUsTjDOJHiHMPCNIWkuT__z0.png
+c_elegans,c_elegans,251,0.6425531914893617,visual_panels/c_elegans__c_elegans__z251.png
+c_elegans,c_elegans,250,0.6195372750642674,visual_panels/c_elegans__c_elegans__z250.png
+glycolytic_muscle,glycolytic_muscle,53,0.17985166872682323,visual_panels/glycolytic_muscle__glycolytic_muscle__z53.png
+glycolytic_muscle,glycolytic_muscle,52,0.10430906389301635,visual_panels/glycolytic_muscle__glycolytic_muscle__z52.png
+hela_cell,hela_cell,134,0.5932584269662922,visual_panels/hela_cell__hela_cell__z134.png
+hela_cell,hela_cell,132,0.5124653739612188,visual_panels/hela_cell__hela_cell__z132.png
+lucchi_pp,lucchi_pp,115,0.08644478233935912,visual_panels/lucchi_pp__lucchi_pp__z115.png
+lucchi_pp,lucchi_pp,114,0.06971619720179467,visual_panels/lucchi_pp__lucchi_pp__z114.png
+salivary_gland,salivary_gland,561,0.9104477611940298,visual_panels/salivary_gland__salivary_gland__z561.png
+salivary_gland,salivary_gland,1014,0.8966202783300199,visual_panels/salivary_gland__salivary_gland__z1014.png

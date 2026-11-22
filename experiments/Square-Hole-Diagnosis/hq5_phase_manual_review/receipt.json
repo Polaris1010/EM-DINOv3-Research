@@ -1,0 +1,12 @@
+{
+  "gpu": 1,
+  "seconds": 208.32383831217885,
+  "hole_counts": {
+    "Baseline": 139,
+    "Gauss + Stride-120": 55,
+    "Gauss + Quad-Phase": 22,
+    "Gauss + Dual-Phase": 28
+  },
+  "native_png": 80,
+  "comparison_png": 20
+}

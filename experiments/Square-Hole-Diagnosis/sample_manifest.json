@@ -1,0 +1,202 @@
+[
+  {
+    "id": "liver_01",
+    "domain": "HQ",
+    "origin": [
+      0,
+      1792
+    ],
+    "source": {
+      "pack": "large_windows",
+      "model": "P0",
+      "window": 1024,
+      "fov": "liver_01",
+      "entry": "1024/P0/liver_01.png",
+      "fg_area_px": 549451,
+      "hole_area_px": 97845,
+      "hole_area_ratio": 0.15115959313822425,
+      "num_internal_holes": 1395,
+      "num_square_like_holes": 34,
+      "median_hole_area_px": 2.0,
+      "p90_hole_area_px": 96.40000000000055,
+      "ratio_rank": 3,
+      "square_rank": 1
+    }
+  },
+  {
+    "id": "heart_01",
+    "domain": "HQ",
+    "origin": [
+      424,
+      936
+    ],
+    "source": {
+      "pack": "original",
+      "model": "P0",
+      "window": 256,
+      "fov": "heart_01",
+      "entry": "P0/heart_01.png",
+      "fg_area_px": 857287,
+      "hole_area_px": 55905,
+      "hole_area_ratio": 0.061219327370366804,
+      "num_internal_holes": 2309,
+      "num_square_like_holes": 30,
+      "median_hole_area_px": 2.0,
+      "p90_hole_area_px": 53.0,
+      "ratio_rank": 6,
+      "square_rank": 2
+    }
+  },
+  {
+    "id": "liver_03",
+    "domain": "HQ",
+    "origin": [
+      208,
+      720
+    ],
+    "source": {
+      "pack": "half_input",
+      "model": "P0",
+      "window": 256,
+      "fov": "liver_03",
+      "entry": "P0/liver_03.png",
+      "fg_area_px": 1014272,
+      "hole_area_px": 53764,
+      "hole_area_ratio": 0.05033912714552693,
+      "num_internal_holes": 251,
+      "num_square_like_holes": 30,
+      "median_hole_area_px": 8.0,
+      "p90_hole_area_px": 768.0,
+      "ratio_rank": 7,
+      "square_rank": 3
+    }
+  },
+  {
+    "id": "liver_04",
+    "domain": "HQ",
+    "origin": [
+      664,
+      0
+    ],
+    "source": {
+      "pack": "original",
+      "model": "Barrier100",
+      "window": 256,
+      "fov": "liver_04",
+      "entry": "Barrier100/liver_04.png",
+      "fg_area_px": 396753,
+      "hole_area_px": 34346,
+      "hole_area_ratio": 0.07967079487542304,
+      "num_internal_holes": 893,
+      "num_square_like_holes": 15,
+      "median_hole_area_px": 2.0,
+      "p90_hole_area_px": 64.0,
+      "ratio_rank": 1,
+      "square_rank": 11
+    }
+  },
+  {
+    "id": "heart_05",
+    "domain": "HQ",
+    "origin": [
+      1256,
+      664
+    ],
+    "source": {
+      "pack": "original",
+      "model": "P0",
+      "window": 256,
+      "fov": "heart_05",
+      "entry": "P0/heart_05.png",
+      "fg_area_px": 939596,
+      "hole_area_px": 50132,
+      "hole_area_ratio": 0.05065230043001714,
+      "num_internal_holes": 1943,
+      "num_square_like_holes": 26,
+      "median_hole_area_px": 2.0,
+      "p90_hole_area_px": 59.0,
+      "ratio_rank": 12,
+      "square_rank": 5
+    }
+  },
+  {
+    "id": "heart_04",
+    "domain": "HQ",
+    "origin": [
+      568,
+      1177
+    ],
+    "source": {
+      "pack": "half_input",
+      "model": "P0",
+      "window": 256,
+      "fov": "heart_04",
+      "entry": "P0/heart_04.png",
+      "fg_area_px": 1253672,
+      "hole_area_px": 37908,
+      "hole_area_ratio": 0.029350098329178217,
+      "num_internal_holes": 594,
+      "num_square_like_holes": 23,
+      "median_hole_area_px": 8.0,
+      "p90_hole_area_px": 148.0,
+      "ratio_rank": 10,
+      "square_rank": 8
+    }
+  },
+  {
+    "id": "MB1_TEM_7Z7jSCJZ23zSW2ZztTPJ_z0",
+    "domain": "MB1",
+    "origin": [
+      757,
+      768
+    ],
+    "source": {
+      "group": "TEM-100",
+      "z": 0,
+      "reference": "C1_130k_512",
+      "gt_inside_hole_px": 403
+    }
+  },
+  {
+    "id": "MB1_fly_brain_z85",
+    "domain": "MB1",
+    "origin": [
+      0,
+      0
+    ],
+    "source": {
+      "group": "fly_brain",
+      "z": 85,
+      "reference": "C1_130k_512",
+      "gt_inside_hole_px": 186
+    }
+  },
+  {
+    "id": "MB1_TEM_j1k88xV7tmKNMLM4bj1h_z0",
+    "domain": "MB1",
+    "origin": [
+      280,
+      600
+    ],
+    "source": {
+      "group": "TEM-100",
+      "z": 0,
+      "reference": "C1_130k_512",
+      "gt_inside_hole_px": 239
+    }
+  },
+  {
+    "id": "MB1_TEM_cwpw4Zu4rqVzbTMPhql2_z0",
+    "domain": "MB1",
+    "origin": [
+      472,
+      0
+    ],
+    "source": {
+      "group": "TEM-100",
+      "z": 0,
+      "reference": "C1_130k_512",
+      "gt_inside_hole_px": 170
+    }
+  }
+]

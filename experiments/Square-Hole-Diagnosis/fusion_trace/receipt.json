@@ -1,0 +1,78 @@
+{
+  "gpu": 1,
+  "seconds": 31.817151561379433,
+  "images": [
+    {
+      "model": "P0",
+      "fov": "liver_01",
+      "square_holes": 25,
+      "mask_replay_differing_pixels": 0
+    },
+    {
+      "model": "P0",
+      "fov": "heart_01",
+      "square_holes": 30,
+      "mask_replay_differing_pixels": 0
+    },
+    {
+      "model": "P0",
+      "fov": "liver_03",
+      "square_holes": 14,
+      "mask_replay_differing_pixels": 0
+    },
+    {
+      "model": "P0",
+      "fov": "liver_04",
+      "square_holes": 9,
+      "mask_replay_differing_pixels": 0
+    },
+    {
+      "model": "P0",
+      "fov": "heart_05",
+      "square_holes": 26,
+      "mask_replay_differing_pixels": 0
+    },
+    {
+      "model": "P0",
+      "fov": "heart_04",
+      "square_holes": 21,
+      "mask_replay_differing_pixels": 0
+    },
+    {
+      "model": "Barrier100",
+      "fov": "liver_01",
+      "square_holes": 19,
+      "mask_replay_differing_pixels": 0
+    },
+    {
+      "model": "Barrier100",
+      "fov": "heart_01",
+      "square_holes": 11,
+      "mask_replay_differing_pixels": 0
+    },
+    {
+      "model": "Barrier100",
+      "fov": "liver_03",
+      "square_holes": 19,
+      "mask_replay_differing_pixels": 0
+    },
+    {
+      "model": "Barrier100",
+      "fov": "liver_04",
+      "square_holes": 15,
+      "mask_replay_differing_pixels": 0
+    },
+    {
+      "model": "Barrier100",
+      "fov": "heart_05",
+      "square_holes": 9,
+      "mask_replay_differing_pixels": 0
+    },
+    {
+      "model": "Barrier100",
+      "fov": "heart_04",
+      "square_holes": 22,
+      "mask_replay_differing_pixels": 0
+    }
+  ]
+}

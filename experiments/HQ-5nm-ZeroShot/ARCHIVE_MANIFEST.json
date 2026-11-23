@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "source_commit": "c7260cc300bdc66ae6a0d0f7b97a4975676a8d77",
+  "description": "HQ-5nm prediction archives removed from the branch. The source commit preserves the exact byte streams.",
+  "archives": [
+    {
+      "filename": "HQ-5nm_80_predictions_PNG.zip",
+      "bytes": 2487136,
+      "sha256": "cc76654edff35e7a730081e543c2078bb72741bbfe46aaa3b889fc42cab6f273"
+    },
+    {
+      "filename": "HQ-5nm_half_input_80_predictions_PNG.zip",
+      "bytes": 1638409,
+      "sha256": "b36999114d35bb0d29e7a8266d8c8c9acffdfa0f464c1e4c038082bcd8038ab8"
+    },
+    {
+      "filename": "HQ-5nm_Primus_512_1024_predictions_PNG.zip",
+      "bytes": 4606947,
+      "sha256": "f14b0b30219aa213b82f3e470468c591545ae4eed544cb64bbd20547de3283f6"
+    },
+    {
+      "filename": "HQ5nm_C0_C1_130k_256_512_PNG.zip",
+      "bytes": 3416333,
+      "sha256": "c92bb914a0efbff6d201a67d514b1ef66702956810dfb4b7dfba182d778521a5"
+    }
+  ]
+}

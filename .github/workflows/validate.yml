@@ -14,6 +14,7 @@ jobs:
         with:
           python-version: '3.11'
       - run: python -m pip install numpy==2.4.4
+      - run: python -m pip install torch==2.4.1 --index-url https://download.pytorch.org/whl/cpu
       - run: python scripts/update_registry.py --check
       - run: python scripts/validate_repository.py
       - run: python -m unittest discover -s tests -v

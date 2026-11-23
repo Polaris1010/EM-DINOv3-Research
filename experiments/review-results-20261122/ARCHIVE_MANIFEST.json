@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "source_commit": "c7260cc300bdc66ae6a0d0f7b97a4975676a8d77",
+  "artifacts": [
+    {
+      "path": "experiments/Decoder-Cavity-Instance/arm_a_multiscale_sem.eval.log",
+      "bytes": 44285,
+      "sha256": "1dcaa639e19e6d2385ea3ad258c74103f8a6de3caa8cb3d921c2a6a2e3e4bc0d"
+    },
+    {
+      "path": "experiments/Decoder-Cavity-Instance/arm_a_multiscale_sem.smoke.log",
+      "bytes": 995,
+      "sha256": "e2145a4fdbcf86398776d8a92242e8b3302c67ffc58fa751948366e6a527a80b"
+    },
+    {
+      "path": "experiments/Decoder-Cavity-Instance/arm_a_multiscale_sem.train.log",
+      "bytes": 68206,
+      "sha256": "c8c8ae88d03f207873f5c45a3a20c97ed356b7f4a887993724bc0e87500b4a26"
+    },
+    {
+      "path": "experiments/Decoder-Cavity-Instance/arm_b_multiscale_bcd.eval.log",
+      "bytes": 45245,
+      "sha256": "1d085550ce39e732941d25e9fb7a87808b09ed8d8c3d9653d8629bc467d54389"
+    },
+    {
+      "path": "experiments/Decoder-Cavity-Instance/arm_b_multiscale_bcd.smoke.log",
+      "bytes": 1332,
+      "sha256": "101c159d1b10bcd0583ee0a0bb36789228202975e1ee7259bc8adedcba953ed8"
+    },
+    {
+      "path": "experiments/Decoder-Cavity-Instance/arm_b_multiscale_bcd.train.log",
+      "bytes": 90747,
+      "sha256": "91a835677fe934456b99f76c326f86357635fd5f7036f3db400b3b6420a3025c"
+    },
+    {
+      "path": "experiments/Decoder-Cavity-Instance/per_plane_scores.jsonl.gz",
+      "bytes": 2709276,
+      "sha256": "ddf8c7bba6cb75ffe84a422199d9a4c325bc4f590c664182a40a006545a8bc72"
+    },
+    {
+      "path": "experiments/review-results-20261122/mix_mitolab_mv_20261118/batch4/all_batch4/per_unit.csv",
+      "bytes": 5601666,
+      "sha256": "b134bed14621cfc0342b0eeac3b2bd9b04307b3b587ce68634029cdfb85c9b83"
+    },
+    {
+      "path": "experiments/review-results-20261122/mix_mitolab_mv_20261118/per_unit.csv",
+      "bytes": 2967843,
+      "sha256": "7c1fc73e3350ef97a25b32fb62423d5afed487ecd970f5a764bf0bd9c9ead33d"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "seed": 20261014,
+  "batch": 4,
+  "crop": 256,
+  "updates": 40000,
+  "encoder": "C1_Barrier_100k",
+  "blocks_zero_based": [5, 11, 17, 23],
+  "prediction": {"window": 256, "stride": 120, "gaussian_sigma": 64, "padding": "reflect"},
+  "bc_watershed": {
+    "surface": "boundary_probability",
+    "connectivity": 8,
+    "foreground_thresholds": [0.45, 0.5, 0.55],
+    "boundary_thresholds": [0.25, 0.35, 0.45, 0.55],
+    "minimum_seed_areas": [16, 32],
+    "selection": "CEM-validation collection-equal PQ, then AP75, then lexicographic thresholds",
+    "max_tuning_views_per_collection": 6
+  }
+}

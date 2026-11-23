@@ -1,0 +1,23 @@
+{
+  "seed": 20261014,
+  "dataset": "CEM-MitoLab",
+  "crop": 256,
+  "encoder": "../pilot_c100_paired_20261028/runs/C1_Barrier_100k/checkpoints/step000100000/teacher_backbone.pth",
+  "encoder_sha256": "9188d26f90216ee966fb8f80fdfde9d33d685202b35e62fa78b34b5b41c073a4",
+  "blocks_zero_based": [5, 11, 17, 23],
+  "heads": {
+    "panoptic": {"batch": 4, "steps": 40000, "lr": 0.0001},
+    "cellpose": {"batch": 4, "steps": 40000, "lr": 0.0001},
+    "batch32": {"batch": 32, "steps": 40000, "fallback_steps": 20000, "cap_seconds": 9000, "lr": 0.000282842712474619}
+  },
+  "optimizer": {"betas": [0.9, 0.98], "weight_decay": 0.05, "warmup_updates": 100, "min_lr_multiplier": 0.1},
+  "panoptic": {"dilations": [2, 4, 6], "aspp_channels": 256, "dropout": 0.5, "top_fraction": 0.2, "sigma": 8, "heat_weight": 200, "offset_weight": 0.01, "nms": 7},
+  "cellpose": {"flow_weight": 1.0, "endpoint_histogram_min": 4, "peak_window": 5, "endpoint_radius": 5},
+  "grid": {
+    "panoptic": [[0.45, 0.5, 0.55], [0.1, 0.2, 0.3], [16, 32]],
+    "cellpose": [[0.45, 0.5, 0.55], [150, 200], [16, 32]],
+    "batch32": [[0.45, 0.5, 0.55], [0.25, 0.35, 0.45, 0.55], [16, 32]]
+  },
+  "inference": {"window": 256, "stride": 120, "padding": "reflect", "gaussian_sigma": 64, "semantic_threshold": 0.5, "cellpose_euler_step": 1.0},
+  "cem_selection": {"max_per_collection": 6, "rule": "descending collection-equal PQ, AP75, then lexicographic parameters"}
+}

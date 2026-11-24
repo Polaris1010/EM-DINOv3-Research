@@ -1,0 +1,38 @@
+{
+  "seed": 20261014,
+  "fit_steps": 40000,
+  "batch": 4,
+  "backbones": {
+    "P0": [
+      null,
+      "8aa4cbddda325040fc78db2c272754af6ebe8ff2c55f6ec4f1964d8890f66035"
+    ],
+    "Clean-C0_100k": [
+      "Clean_C0_100k",
+      "a5e4d0fcc804ed21db23b1e70292b9b89fe4722cac16c369d6e4711f8f4f1260"
+    ],
+    "Clean-C1_100k": [
+      "Clean_C1_30k_to_100k",
+      "22c3104f954b15f1259c52ae969898034e8cae61469cf183bea3615b0b34d250"
+    ]
+  },
+  "training": "CEM-MitoLab train; frozen DINOv3; audited batch4 draw ledger",
+  "tuning": "CEM-MitoLab val 175 views only",
+  "held_out": [
+    "MB-1",
+    "HQ-5nm",
+    "MitoEM 2.0 local overlay"
+  ],
+  "inference": {
+    "tiling": 256,
+    "stride": 120,
+    "fusion": "Gauss",
+    "padding": "reflect"
+  },
+  "external": {
+    "skip_unlabeled_han_planes": true,
+    "han_mask": "nonzero",
+    "cellmap_test_gt": "unavailable locally",
+    "mitoem2_pyra": "no local test ROI"
+  }
+}
